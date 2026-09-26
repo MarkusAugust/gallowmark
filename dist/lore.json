@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-09-26",
-  "entityCount": 15,
+  "entityCount": 29,
   "types": [
     "character",
     "place",
@@ -12,6 +12,43 @@
     "story"
   ],
   "entities": {
+    "brim": {
+      "id": "brim",
+      "type": "character",
+      "name": "Brim",
+      "aliases": [
+        "the Salt Child",
+        "Kell's Last"
+      ],
+      "status": "canon",
+      "tags": [
+        "child",
+        "heir",
+        "coast",
+        "mystery"
+      ],
+      "summary": "A child pulled out of the sea at Wrackhead who does not speak and does not age as children do, and whom the coast folk have decided is the last of the kings of Kell; held in place, like the crown, by being believed in.",
+      "epithet": "the Salt Child",
+      "relations": [
+        {
+          "to": "wrackhead",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "vell",
+          "kind": "named-by",
+          "declared": true
+        },
+        {
+          "to": "rauk",
+          "kind": "kin-of",
+          "declared": false
+        }
+      ],
+      "body": "## Who\n\nEleven years ago, in the grey, on a still day at low water, [[rauk]] came up from Old\n[[kell]] with a child under one arm that had not been there when she went down. It was\nperhaps three. It is perhaps nine now, and it should be fourteen. It has never spoken. It\nhas salt-white eyes that see in the dark and a habit of looking at the sea as if waiting for\nsomeone to finish a sentence.\n\n## What the coast decided\n\nThe coast folk decided, without a meeting, that the child was the last of the kings of Kell,\ngiven back. They call it Brim, which is the name [[vell]] gave it, and they leave fish at\nRauk's door. Nobody has proved a word of it. Nobody has needed to. It is believed, and in the\nMark that is a kind of iron.\n\n## In the world\n\n- The [[greycloaks]] have offered to foster the child at the fort on [[wrackhead]]. Rauk\n  declined. The offer stands, and is polite.\n- Since [[the-ebb]] the child has walked to the waterline every morning and stood where the\n  quay-stones are showing, and the water has been a little further out each time.\n- [[sarn]], asked about the child, did not change the subject. That is the only time.\n\n## Threads\n\n- If the child is the king, whose is the crown?\n- If it is not, what came up with it?",
+      "file": "characters/brim.md"
+    },
     "gorvek": {
       "id": "gorvek",
       "type": "character",
@@ -61,6 +98,69 @@
       ],
       "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
       "file": "characters/gorvek.md"
+    },
+    "osk": {
+      "id": "osk",
+      "type": "character",
+      "name": "Osk",
+      "aliases": [
+        "Osk of the Hollow",
+        "the Ashwife"
+      ],
+      "status": "canon",
+      "tags": [
+        "sorcerer",
+        "witch",
+        "ashborn"
+      ],
+      "summary": "The sorcerer who stayed in the grey when it lifted and sells what she found there from the rim of Greyhollow; every price is a thing you did not know you had.",
+      "epithet": "the Ashwife",
+      "relations": [
+        {
+          "to": "greyhollow",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nOsk went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the mist, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the grey: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Osk says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nOsk explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]].\n\n## Threads\n\n- What did Osk find in the grey that made her stay?\n- Does she know where a ruby is?",
+      "file": "characters/osk.md"
+    },
+    "rauk": {
+      "id": "rauk",
+      "type": "character",
+      "name": "Rauk",
+      "aliases": [
+        "Rauk the Diver",
+        "Salt-Marked"
+      ],
+      "status": "canon",
+      "tags": [
+        "wrecker",
+        "diver",
+        "warrior",
+        "coast"
+      ],
+      "summary": "The wrecker of Wrackhead who has dived Old Kell more times than anyone alive, touched the iron crown on the drowned king's head, and come up each time with less to say.",
+      "epithet": "of Wrackhead",
+      "relations": [
+        {
+          "to": "wrackhead",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "brim",
+          "kind": "kin-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nRauk is the best diver on the drowned coast, which means the best in the Mark, which means\nthe only one who has gone down through the iron roof of [[kell]]'s hall and come back up.\nShe is salt-marked: white lines on her arms where the deep cold got in and stayed. She is\nnot tall. She has broken a Greycloak's arm on the shingle at [[wrackhead]] and been forgiven\nfor it, which is rarer than the dive.\n\n## The crown\n\nShe has touched the [[iron-crown-of-kell]]. It is still on the king. She says the three\nsockets are empty and cold and the iron is warm, and she says nothing else about it, and she\nhas stopped going down. The coast folk say [[vorr]] told her something. Rauk says the sea\ndoes not talk. It keeps.\n\n## Voice\n\nRauk speaks like a diver: short, between breaths, saving the air. She does not swear by the\nAshfall, which never reached the coast. She swears by the pile.\n\n## In the world\n\n- She pulled [[brim]] out of the water at Wrackhead eleven years ago and has kept the child\n  since, and does not say what else came up with it.\n- Since [[the-ebb]] the [[greycloaks]] have offered her the fort's weight in coin to go down\n  once more. She has said no in a way they have accepted.\n\n## Threads\n\n- What is the warm iron?\n- Why has she stopped diving now that diving is getting easier?",
+      "file": "characters/rauk.md"
     },
     "sarn": {
       "id": "sarn",
@@ -122,6 +222,11 @@
           "declared": false
         },
         {
+          "to": "know-this",
+          "kind": "speaks",
+          "declared": true
+        },
+        {
           "to": "sarns-whisper",
           "kind": "speaks",
           "declared": true
@@ -134,6 +239,82 @@
       ],
       "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading, including the one\nthat teaches the use of [[streamlord]].\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
+    },
+    "tolm": {
+      "id": "tolm",
+      "type": "character",
+      "name": "Tolm",
+      "aliases": [
+        "Captain Tolm",
+        "the Man in the Door"
+      ],
+      "status": "canon",
+      "tags": [
+        "greycloak",
+        "captain",
+        "occupier"
+      ],
+      "summary": "The Greycloak captain who sits in the door of the Wallgate toll-house; has taken forty villages without drawing a blade, and is sorry about every one of them.",
+      "epithet": "of the Wallgate",
+      "relations": [
+        {
+          "to": "greycloaks",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "wallgate",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nTolm is the Greycloak the stories mean when they say a captain rides in alone and sits down.\nHe is fifty, thin, grey before the cloak was, and polite in the way of a man who has never\nonce been refused. He does not carry a hook. He says he is no good with it, which is true,\nand that he does not need one, which is also true. He keeps the toll-house at [[wallgate]]\nand has kept it since the grey.\n\n## Voice\n\nTolm apologises. He apologises for the tithe, the weather, the price on [[gorvek]]'s head\nand the fact that it will be raised again in winter. Every apology is sincere and none of\nthem changes anything. Ask him a question and he will thank you for it.\n\n## In the world\n\n- He has taken forty villages through the open gate. He remembers every one by the name of\n  the person who let him in.\n- He has met Gorvek once, across the toll-house table, and let him go. The [[greycloaks]]\n  have not asked why. He is waiting for them to.\n- He does not go near [[greyhollow]], and is the only Greycloak who will say so.\n- Since [[the-ebb]] the order has sent him south for the first time. He apologised to the\n  toll-house.\n\n## Threads\n\n- What did Tolm let through the Wallgate that he should not have?",
+      "file": "characters/tolm.md"
+    },
+    "vell": {
+      "id": "vell",
+      "type": "character",
+      "name": "Vell",
+      "aliases": [
+        "Brother Vell",
+        "the Wet Tongue"
+      ],
+      "status": "canon",
+      "tags": [
+        "river-priest",
+        "namer"
+      ],
+      "summary": "The barefoot river-priest of Hookford who named the Ebb before anyone had seen the water move, and who answers every question with a name.",
+      "epithet": "of the Ford",
+      "relations": [
+        {
+          "to": "brim",
+          "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "river-priests",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "worships",
+          "declared": true
+        },
+        {
+          "to": "hookford",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "the-ebb",
+          "kind": "names",
+          "declared": false
+        }
+      ],
+      "body": "## Who\n\nVell was born under the bridge at [[hookford]] and has not worn a shoe since. He is young\nfor a river-priest, wet to the knee like the rest, and unwelcome at every table in town\nexcept the ones with a death in the family. He walks the two rivers from the ford to the\ncoast and back each season, and he keeps the names.\n\n## The naming\n\nWhen the water first went out from Old [[kell]], the coast folk sent to the [[river-priests]]\nfor a name. Vell had already given it. He had stood on the bridge at Hookford a month before\nand said the word *Ebb* to the river, and the river had gone down a finger under his feet.\nHe says this is not prophecy. He says a name is a grip, and he took hold of something before\nit had finished happening.\n\n## Voice\n\nNames, never reasons. Ask Vell why the sea is going out and he will say [[vorr]]. Ask him\nwhat to do and he will say [[thurn]]. Ask him what [[sarn]] wants and he will look at you a\nlong time and say your own name.\n\n## In the world\n\n- He named [[the-ebb]], and the river-priests are not sure he had the right.\n- He has met [[gorvek]] and named the thing Gorvek carries to his face. Gorvek did not\n  thank him.\n- He named the child at [[wrackhead]] [[brim]], and would not say why.\n\n## Threads\n\n- What name did Vell give the ninth gallows at [[hangmoot]], and why did the Reeve pay him\n  for it?",
+      "file": "characters/vell.md"
     },
     "bonereach": {
       "id": "bonereach",
@@ -214,13 +395,141 @@
           "declared": true
         },
         {
+          "to": "greyhollow",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "hangmoot",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "hookford",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "wallgate",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "wrackhead",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "hask",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "thurn",
           "kind": "haunted-by",
           "declared": false
         }
       ],
-      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] came down over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.",
+      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the Ashfall never lifted.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] came down over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the grey lifted the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
       "file": "places/gallowmark.md"
+    },
+    "greyhollow": {
+      "id": "greyhollow",
+      "type": "place",
+      "name": "Greyhollow",
+      "aliases": [
+        "the Hollow",
+        "Where It Stayed"
+      ],
+      "status": "canon",
+      "tags": [
+        "valley",
+        "mist",
+        "east",
+        "ashfall"
+      ],
+      "summary": "A hollow in the eastern hills where the Ashfall never lifted; the grey stands in it like milk in a bowl, and what walks out is never quite what walked in.",
+      "relations": [
+        {
+          "to": "osk",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "contains",
+          "declared": true
+        }
+      ],
+      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the grey stayed. From the rim you\ncan see it: [[the-ashfall]], a generation late, lying in the hollow like milk in a bowl and\nnot moving with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[osk]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the grey. Osk says it is the first, and that the\nrest of the Ashfall was only spillage.\n\n## Threads\n\n- Does the grey in the Hollow rise when the sea goes out?",
+      "file": "places/greyhollow.md"
+    },
+    "hangmoot": {
+      "id": "hangmoot",
+      "type": "place",
+      "name": "Hangmoot",
+      "aliases": [
+        "the Nine",
+        "the Ridge of Ropes"
+      ],
+      "status": "canon",
+      "tags": [
+        "ridge",
+        "gallows",
+        "moot",
+        "holy"
+      ],
+      "summary": "The ridge of nine gallows above the middle Mark where the land's first rulers hanged their god, and where once a year at the Rope-Moot every debt in Gallowmark is paid, forgiven or hanged.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "hask",
+          "kind": "haunted-by",
+          "declared": false
+        }
+      ],
+      "body": "## The ridge\n\nNine gallows on a bare ridge, older than [[kell]], taller than anything else the first rulers\nbuilt. Eight of them are used. The ninth has never held anyone that anyone will name, and it\nis the one the wind plays. This is where [[hask]] hangs, if he hangs anywhere.\n\n## The Rope-Moot\n\nOnce a year, when the rivers are lowest, the Mark comes up the ridge. Debts are read out by\nthe Reeve. What can be paid is paid. What cannot is hanged or forgiven, and the Mark has\nalways found the first cheaper. The [[greycloaks]] attend, politely, and read the longest\nlist.\n\n## The slack rope\n\nThe hangmen say one of the nine ropes has hung slack since [[the-drowning-of-kell]], and\nthat a slack rope is a debt nobody has collected. Since [[the-ebb]] the Reeve has had the\nninth gallows re-roped, and the Mark noticed.\n\n## Threads\n\n- Whose name is on the ninth gallows?\n- Who is the Reeve, and who was the Reeve before?",
+      "file": "places/hangmoot.md"
+    },
+    "hookford": {
+      "id": "hookford",
+      "type": "place",
+      "name": "Hookford",
+      "aliases": [
+        "the Ford",
+        "Hook Town"
+      ],
+      "status": "canon",
+      "tags": [
+        "town",
+        "river",
+        "market",
+        "tithe"
+      ],
+      "summary": "The one town in the middle Mark, where two of the grey rivers meet at a ford and the Greycloaks hang their tithe-books from hooks on the bridge; market, tithe-house, and the last warm bed before anywhere.",
+      "relations": [
+        {
+          "to": "vell",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The town\n\nTwo of the three grey rivers meet at Hookford. The ford was there before the town, and the\nbridge before the [[greycloaks]]. It is the only place in the middle Mark with a market, a\nsmith who takes coin, and a hall where a stranger can sleep with a door between him and the\nwind. The people of the Mark distrust it accordingly.\n\n## The hooks\n\nThe Greycloaks hung their hooks on the bridge the year they came, one per span, and hang the\ntithe-books from them. Nobody has ever been hanged from the bridge. Everybody knows that they\ncould be, and pays.\n\n## The road\n\nEvery road in the Mark passes through Hookford: down from [[wallgate]] and [[bonereach]], up\nfrom [[wrackhead]] and the coast, east to the rim of [[greyhollow]], and the ridge road to\n[[hangmoot]]. If [[the-ebb]] pulls the Mark to the coast, it will pull it through here.\n\n## Threads\n\n- Who owned the bridge before the hooks?",
+      "file": "places/hookford.md"
     },
     "kell": {
       "id": "kell",
@@ -259,13 +568,95 @@
           "declared": false
         },
         {
+          "to": "vorr",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "the-drowning-of-kell",
           "kind": "destroyed-by",
+          "declared": false
+        },
+        {
+          "to": "know-this",
+          "kind": "featured-in",
           "declared": false
         }
       ],
       "body": "## The city\n\nKell was the only city in [[gallowmark]] that deserved the word. Stone quays, a hall with a\nroof of iron plates, and a king with a crown that held the three rivers in place: that is\nhow the river-priests tell it, and they tell it with their hands over their mouths.\n\n## The night\n\nThen [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by\nmorning the quays were under water and the king was under the quays. Whether the crown held\nthe sea back or only the people's belief that it did, the result is the same: Kell is a place\nyou sail over.\n\n## Now\n\nOld Kell is a name the coast people still use for the water where the city was. The\n[[greycloaks]] say they will raise it. They have said so for forty years.",
       "file": "places/kell.md"
+    },
+    "wallgate": {
+      "id": "wallgate",
+      "type": "place",
+      "name": "Wallgate",
+      "aliases": [
+        "the Gate",
+        "the Wall's Tooth"
+      ],
+      "status": "canon",
+      "tags": [
+        "pass",
+        "mountains",
+        "north",
+        "toll"
+      ],
+      "summary": "The one pass through the Wallmountains, a throat of black rock with a Greycloak toll-house in it; the only gate into Gallowmark from the north, and the one nobody can close.",
+      "relations": [
+        {
+          "to": "tolm",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "guarded-by",
+          "declared": false
+        }
+      ],
+      "body": "## The pass\n\nThe Wallmountains have one gap, and the Mark calls it the Wallgate because nobody in the\nMark wastes a second word. It is a throat of black rock a day's walk long, with the first of\nthe grey rivers coming down through it cold enough to stop a heart. North of it is whatever\nthe Ashfall came from. South of it is [[bonereach]].\n\n## The toll-house\n\nThe [[greycloaks]] hold the Wallgate the way they hold everything: one house, one captain,\none open door. [[tolm]] sits in it. Nobody has ever taken the Wallgate by force, because\nnobody has ever needed to. It is a gate that cannot be shut, and the order likes those.\n\n## What comes through\n\nSince the grey lifted, things come down out of the north through the Wallgate that did not\nbefore. The toll-house tithes them like anyone else.\n\n## Threads\n\n- What is north of the Wallgate?\n- Why does the first river run warm for one night each winter?",
+      "file": "places/wallgate.md"
+    },
+    "wrackhead": {
+      "id": "wrackhead",
+      "type": "place",
+      "name": "Wrackhead",
+      "aliases": [
+        "the Head",
+        "Salt Head"
+      ],
+      "status": "canon",
+      "tags": [
+        "headland",
+        "coast",
+        "fort",
+        "shrine"
+      ],
+      "summary": "The headland over the drowned city, where the Greycloaks' first fort stands, the coast folk keep the salt-pile for Vorr, and the wreckers dive Old Kell for what the sea has not kept.",
+      "relations": [
+        {
+          "to": "brim",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "rauk",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The head\n\nA black headland shaped like a fist, with Old [[kell]] under the water at its knuckles. The\n[[greycloaks]] built their first fort here, forty years ago, to guard the drowned quays. It\nis the smallest fort they hold and the only one they have never left.\n\n## The salt-pile\n\nBelow the fort, on the shingle, the coast folk keep a pile of wreck-wood and salt for\n[[vorr]]. A plank from every wreck, a handful from every net. The Greycloaks tithe\neverything on the coast and have never touched the pile.\n\n## The wreckers\n\nThe people of Wrackhead dive. On a still day at low water you can see the iron roof of\nKell's hall, and once a year somebody goes down to it. [[rauk]] has gone down more than\nanyone, come up with less each time, and stopped talking about it.\n\n## Since the Ebb\n\nThe water is going out. The quays are showing. Since [[the-ebb]] the fort has doubled its\ngarrison and the salt-pile has doubled in height, and neither side has said why.\n\n## Threads\n\n- What is the fort really guarding: Kell, or the pile?",
+      "file": "places/wrackhead.md"
     },
     "greycloaks": {
       "id": "greycloaks",
@@ -289,12 +680,22 @@
           "declared": false
         },
         {
+          "to": "tolm",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "gallowmark",
           "kind": "lives-in",
           "declared": false
         },
         {
           "to": "kell",
+          "kind": "guards",
+          "declared": true
+        },
+        {
+          "to": "wallgate",
           "kind": "guards",
           "declared": true
         }
@@ -318,6 +719,11 @@
       "summary": "The barefoot priesthood of the river-god Thurn, keepers of the names, who alone dare call Sarn the Lord of Streams and who say all the grey rivers are one.",
       "relations": [
         {
+          "to": "vell",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "thurn",
           "kind": "worships",
           "declared": true
@@ -335,6 +741,38 @@
       ],
       "body": "## Who they are\n\nBarefoot, wet to the knee, and unwelcome at most tables, the river-priests walk the banks of\nthe grey rivers of [[gallowmark]] and keep the names of things. They hold that every stream\nin the Mark is the same river, [[thurn]], pretending to be many, and that to name a thing\ntruly is to have a grip on it.\n\n## The naming\n\nIt was the river-priests who named [[sarn]] the Lord of Streams, and they meant it as a\nwarning: here is the thing that goes where water goes. They also named the artifact that\n[[gorvek]] carries. They called it [[streamlord]], and then they stopped talking about it.\n\n## Custom\n\nA river-priest will answer any question with a name, and never with a reason.",
       "file": "factions/river-priests.md"
+    },
+    "hask": {
+      "id": "hask",
+      "type": "god",
+      "name": "Hask",
+      "aliases": [
+        "the Hanged",
+        "the Rope",
+        "the Ninth"
+      ],
+      "status": "canon",
+      "tags": [
+        "god",
+        "gallows",
+        "oath",
+        "debt"
+      ],
+      "summary": "The hanged god of the gallows on the ridges; the first rulers of the Mark hanged him so the land would hold, and every debt in Gallowmark is still paid at his rope.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "hangmoot",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## The god\n\n[[gallowmark]] is named for the gallows, and the gallows are for Hask. The first rulers of\nthe Mark, before [[kell]] had a quay, built nine gallows on a ridge and hanged their god on\nthe ninth so the land would hold. That is the story the hangmen tell, and they tell it with\nthe knot already tied. Hask did not die. A hanged god does not; he hangs. Everything owed in\nthe Mark is owed to the rope, and the rope is his.\n\n## The debt\n\nHask is the god of what is owed. A tithe is a debt, an oath is a debt, a name given is a\ndebt. The [[greycloaks]] have never written Hask's name in a ledger, and they collect in his\nshape: patiently, and once. Hask has no priests. He has hangmen, and the Reeve of\n[[hangmoot]] is the first among them.\n\n## The rope and the crown\n\nThe hangmen say the land is held in place by nine ropes and one iron ring, and that the night\n[[sarn]] emptied the [[iron-crown-of-kell]] one of the nine went slack. They do not say which.\nSince [[the-ebb]] they have stopped saying nothing.\n\n## Threads\n\n- Is Hask the god the Greycloaks do not name, or the god they are afraid of?\n- Whom did the first rulers hang, really?",
+      "file": "gods/hask.md"
     },
     "thurn": {
       "id": "thurn",
@@ -358,6 +796,11 @@
           "declared": false
         },
         {
+          "to": "vell",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
           "to": "river-priests",
           "kind": "worshipped-by",
           "declared": false
@@ -366,10 +809,47 @@
           "to": "gallowmark",
           "kind": "haunts",
           "declared": true
+        },
+        {
+          "to": "vorr",
+          "kind": "rival-of",
+          "declared": false
         }
       ],
       "body": "## The god\n\nThurn does not have a face, a temple, or a promise. Thurn has water, and water goes where it\ngoes. The people of [[gallowmark]] do not pray to Thurn; they keep out of the way. The\n[[river-priests]] say this is the correct form of worship.\n\n## Streams\n\nEverything that flows is Thurn's, in the priests' telling: rivers, blood, rumour, and the\nthing that moves between a server and a browser when [[streamlord]] is used. A stream that\nobeys a man is a piece of the god held still, and the priests are of two minds about whether\nthat is a blasphemy or the whole point.\n\n## Threads\n\n- Does Thurn mind that [[sarn]] has been called Lord of Streams?",
       "file": "gods/thurn.md"
+    },
+    "vorr": {
+      "id": "vorr",
+      "type": "god",
+      "name": "Vorr",
+      "aliases": [
+        "the Drowned",
+        "the Salt",
+        "What the Sea Keeps"
+      ],
+      "status": "canon",
+      "tags": [
+        "god",
+        "sea",
+        "deep",
+        "salt"
+      ],
+      "summary": "The drowned god of the salt deep below the coast, who keeps what the sea takes and took Kell whole; the coast folk pay him in wreckage and do not ask for anything back.",
+      "relations": [
+        {
+          "to": "kell",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "rival-of",
+          "declared": true
+        }
+      ],
+      "body": "## The god\n\n[[thurn]] is what flows. Vorr is where it stops. The [[river-priests]] say every grey river\nis one river; the coast folk say yes, and it ends in Vorr's mouth. Vorr is the salt at the\nbottom of things, the weight in a drowned man's boots, the god of what is kept. The people\nof the drowned coast do not pray to Vorr. They pay. A plank from every wreck goes onto the\nsalt-pile at [[wrackhead]], and nobody says what for.\n\n## Kell\n\nVorr took [[kell]] in one night and has been chewing since. The coast folk hold that the\ncrown never held the rivers; it held Vorr's mouth shut, and [[sarn]] opened it. The\nriver-priests call this a coast story. They have never gone down to the salt-pile to say so.\n\n## The Ebb\n\nSince [[the-ebb]] the sea has been going out from Old Kell. The coast folk say Vorr is\nopening his mouth to give something back, and that a god who has kept for forty years does\nnot give back for nothing.\n\n## Threads\n\n- Does Vorr have the three rubies, or only the crown?\n- What does the salt-pile buy?",
+      "file": "gods/vorr.md"
     },
     "iron-crown-of-kell": {
       "id": "iron-crown-of-kell",
@@ -395,6 +875,11 @@
         {
           "to": "kell",
           "kind": "created-by",
+          "declared": false
+        },
+        {
+          "to": "know-this",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -478,8 +963,18 @@
           "declared": false
         },
         {
+          "to": "osk",
+          "kind": "survived-by",
+          "declared": false
+        },
+        {
           "to": "bonereach",
           "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "greyhollow",
+          "kind": "located-in",
           "declared": false
         },
         {
@@ -490,6 +985,11 @@
         {
           "to": "the-drowning-of-kell",
           "kind": "follows",
+          "declared": false
+        },
+        {
+          "to": "the-ebb",
+          "kind": "precedes",
           "declared": false
         }
       ],
@@ -530,6 +1030,42 @@
       "body": "## The night\n\n[[sarn]] entered the iron-roofed hall of [[kell]], took the three rubies from the\n[[iron-crown-of-kell]], and was gone. Nobody saw a face. By morning the grey rivers had left\ntheir beds and the quays were under water.\n\n## What it made\n\nThe guards of the drowned quays became the [[greycloaks]]. The river-priests of [[thurn]]\ngave Sarn the name Lord of Streams that same year, as a warning. And the Mark learned the\nlesson it has lived by since: a thing held in place by belief is held in place by nothing.",
       "file": "events/the-drowning-of-kell.md"
     },
+    "the-ebb": {
+      "id": "the-ebb",
+      "type": "event",
+      "name": "The Ebb",
+      "aliases": [
+        "the Going-Out",
+        "the Long Low Water"
+      ],
+      "status": "canon",
+      "tags": [
+        "omen",
+        "sea",
+        "era"
+      ],
+      "summary": "The first winter after the grey lifted, the sea began to go out from Old Kell and has not come back; the drowned quays are showing, every power in the Mark is moving toward the coast, and three gods have been given the credit.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "the-ashfall",
+          "kind": "follows",
+          "declared": true
+        },
+        {
+          "to": "vell",
+          "kind": "named-by",
+          "declared": true
+        },
+        {
+          "to": "know-this",
+          "kind": "featured-in",
+          "declared": false
+        }
+      ],
+      "body": "## What is happening\n\nIn the first winter after the grey lifted, the sea went out from Old [[kell]] on the low\ntide and did not come all the way back. Every month since, it has gone a little further. The\nquay-stones of the drowned city are showing below [[wrackhead]]. On a still day the iron\nroof of the hall stands clear of the water for an hour. Nobody has walked to it yet.\nEverybody is going to.\n\n## Three gods, one name\n\n[[vell]] named it the Ebb before the coast had noticed, and the [[river-priests]] say\n[[thurn]] is calling the rivers home to their beds. The coast folk say [[vorr]] is opening\nhis mouth to give something back. The hangmen of [[hangmoot]] say a rope that went slack\nforty-one years ago is being drawn tight from the other end, and that [[hask]] does not draw\na rope for nothing. All three are pointing at the same iron hall and the three empty sockets\nin it.\n\n## Who is moving\n\n- The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for\n  them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the\n  [[wallgate]] for the first time since the grey.\n- [[gorvek]] has been told by Vell what he carries and has turned toward the coast. He has\n  not said why.\n- [[osk]] has begun selling things from the grey that she says came up out of Kell.\n- [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.\n- [[sarn]] narrates. Sarn always did. Sarn has started narrating this.\n\n## What it binds\n\nEvery gallows, every river, every fort and every debt in the Mark is drawn tight toward one\niron hall standing up out of the salt. The [[iron-crown-of-kell]] held the world together by\nbeing believed in. The sea is about to show everyone whether it is still there.\n\n## Threads\n\n- How far out does the sea go?\n- What is at the low-water mark when it stops?",
+      "file": "events/the-ebb.md"
+    },
     "gorveks-creed": {
       "id": "gorveks-creed",
       "type": "story",
@@ -564,6 +1100,46 @@
       ],
       "body": "*The elders of Bonereach asked Gorvek what a warrior wants of a stream.*\n\n*\"That it flows when I say flow. That it stops when I say stop. That it carries my will to\nthe far shore, and nothing else.\"*\n\n*\"And the JavaScript?\"*\n\n*\"I do not know the word.\"*\n\n— Gorvek of Bonereach, who walked out of the Ashfall with iron in his hand\n\n## Use\n\nThe first page of every [[streamlord]] grimoire. The cadence is the rule for everything\n[[gorvek]] says: a question from someone else, an answer in the present tense, and no\nexplanation.",
       "file": "stories/gorveks-creed.md"
+    },
+    "know-this": {
+      "id": "know-this",
+      "type": "story",
+      "name": "Know This",
+      "aliases": [
+        "The Chronicle of the Ebb"
+      ],
+      "status": "canon",
+      "tags": [
+        "chronicle",
+        "epigraph"
+      ],
+      "summary": "Sarn's chronicle-opening for the Ebb, in which the reader who comes late is told what the sea is doing, who is walking toward it, and what will be taken for the telling.",
+      "speaker": "sarn",
+      "form": "chronicle",
+      "relations": [
+        {
+          "to": "the-ebb",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "kell",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "spoken-by",
+          "declared": false
+        }
+      ],
+      "body": "*Know this, you who come late: the grey lifted, and the sea went out. The quays of Kell are\nshowing. The iron roof stands up out of the salt for one hour on a still day, and under it a\nking sits with an empty crown, and under him is the one who keeps.*\n\n*Three gods have been given the credit. The river says it is calling its water home. The\nsalt says it is opening its mouth. The rope says it is being pulled from the other end. They\nare all right, and none of them is the reason.*\n\n*I took three stones. I did not say where I put them.*\n\n*Every road in the Mark runs downhill to that hall now. The captain is coming from his door.\nThe barbarian is coming with the thing he cannot name. The diver has stopped diving and the\nchild has started walking. You are coming too. That is why you are reading.*\n\n*I will take one thing from you for the telling: the belief that the sea gives anything\nback. Sit. Read. The water is going out.*\n\n— Sarn the Faceless, Lord of Streams, who was there the first time\n\n## Use\n\nThe chronicle that opens [[the-ebb]]; the third epigraph of any book that tells it. The form\nis the Mark's own: *Know this, you who come late,* then what happened, in order, with the\nknife at the end. [[sarn]] names nobody in it. Everybody in it knows who they are.",
+      "file": "stories/know-this.md"
     },
     "sarns-whisper": {
       "id": "sarns-whisper",
@@ -631,6 +1207,30 @@
   },
   "relations": [
     {
+      "from": "brim",
+      "to": "wrackhead",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "wrackhead",
+      "to": "brim",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "brim",
+      "to": "vell",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "vell",
+      "to": "brim",
+      "kind": "names",
+      "declared": false
+    },
+    {
       "from": "gorvek",
       "to": "bonereach",
       "kind": "born-in",
@@ -688,6 +1288,54 @@
       "from": "sarn",
       "to": "gorvek",
       "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "osk",
+      "to": "greyhollow",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "greyhollow",
+      "to": "osk",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "osk",
+      "to": "the-ashfall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "osk",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "rauk",
+      "to": "wrackhead",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "wrackhead",
+      "to": "rauk",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "rauk",
+      "to": "brim",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "brim",
+      "to": "rauk",
+      "kind": "kin-of",
       "declared": false
     },
     {
@@ -751,6 +1399,66 @@
       "declared": false
     },
     {
+      "from": "tolm",
+      "to": "greycloaks",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "tolm",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "tolm",
+      "to": "wallgate",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "wallgate",
+      "to": "tolm",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "vell",
+      "to": "river-priests",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "river-priests",
+      "to": "vell",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "vell",
+      "to": "thurn",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "vell",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "vell",
+      "to": "hookford",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "vell",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
       "from": "bonereach",
       "to": "gallowmark",
       "kind": "located-in",
@@ -799,6 +1507,54 @@
       "declared": false
     },
     {
+      "from": "greyhollow",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "greyhollow",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "greyhollow",
+      "to": "the-ashfall",
+      "kind": "contains",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "greyhollow",
+      "kind": "located-in",
+      "declared": false
+    },
+    {
+      "from": "hangmoot",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "hangmoot",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "hookford",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "hookford",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "kell",
       "to": "iron-crown-of-kell",
       "kind": "created",
@@ -811,6 +1567,30 @@
       "declared": false
     },
     {
+      "from": "wallgate",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "wallgate",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "wrackhead",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "wrackhead",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "greycloaks",
       "to": "kell",
       "kind": "guards",
@@ -818,6 +1598,18 @@
     },
     {
       "from": "kell",
+      "to": "greycloaks",
+      "kind": "guarded-by",
+      "declared": false
+    },
+    {
+      "from": "greycloaks",
+      "to": "wallgate",
+      "kind": "guards",
+      "declared": true
+    },
+    {
+      "from": "wallgate",
       "to": "greycloaks",
       "kind": "guarded-by",
       "declared": false
@@ -847,6 +1639,30 @@
       "declared": false
     },
     {
+      "from": "hask",
+      "to": "gallowmark",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "hask",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "hask",
+      "to": "hangmoot",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "hangmoot",
+      "to": "hask",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
       "from": "thurn",
       "to": "gallowmark",
       "kind": "haunts",
@@ -856,6 +1672,30 @@
       "from": "gallowmark",
       "to": "thurn",
       "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "vorr",
+      "to": "kell",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "vorr",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "vorr",
+      "to": "thurn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "vorr",
+      "kind": "rival-of",
       "declared": false
     },
     {
@@ -919,6 +1759,30 @@
       "declared": false
     },
     {
+      "from": "the-ebb",
+      "to": "the-ashfall",
+      "kind": "follows",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "the-ebb",
+      "kind": "precedes",
+      "declared": false
+    },
+    {
+      "from": "the-ebb",
+      "to": "vell",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "vell",
+      "to": "the-ebb",
+      "kind": "names",
+      "declared": false
+    },
+    {
       "from": "gorveks-creed",
       "to": "streamlord",
       "kind": "features",
@@ -951,6 +1815,54 @@
     {
       "from": "gorveks-creed",
       "to": "gorvek",
+      "kind": "spoken-by",
+      "declared": false
+    },
+    {
+      "from": "know-this",
+      "to": "the-ebb",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-ebb",
+      "to": "know-this",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "know-this",
+      "to": "kell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "know-this",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "know-this",
+      "to": "iron-crown-of-kell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "know-this",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "know-this",
+      "kind": "speaks",
+      "declared": true
+    },
+    {
+      "from": "know-this",
+      "to": "sarn",
       "kind": "spoken-by",
       "declared": false
     },
@@ -1027,6 +1939,12 @@
       "id": "the-ashfall",
       "name": "The Ashfall",
       "summary": "The grey mist that came down over the north of Gallowmark and stayed a generation; the year it lifted is year zero of every calendar in the Mark."
+    },
+    {
+      "year": 1,
+      "id": "the-ebb",
+      "name": "The Ebb",
+      "summary": "The first winter after the grey lifted, the sea began to go out from Old Kell and has not come back; the drowned quays are showing, every power in the Mark is moving toward the coast, and three gods have been given the credit."
     }
   ]
 }

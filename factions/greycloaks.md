@@ -8,6 +8,7 @@ relations:
   - { to: gallowmark, kind: lives-in }
   - { to: gorvek, kind: enemy-of }
   - { to: kell, kind: guards }
+  - { to: wallgate, kind: guards }
 ---
 
 ## What they are
