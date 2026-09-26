@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-09-26",
-  "entityCount": 15,
+  "entityCount": 19,
   "types": [
     "character",
     "place",
@@ -12,6 +12,42 @@
     "story"
   ],
   "entities": {
+    "drusk": {
+      "id": "drusk",
+      "type": "character",
+      "name": "Drusk",
+      "aliases": [
+        "Captain Drusk",
+        "Drusk of the Greycloaks"
+      ],
+      "status": "canon",
+      "tags": [
+        "greycloak",
+        "captain",
+        "occupier"
+      ],
+      "summary": "A captain of the Greycloaks who has taken more villages than any other by sitting down in the open gate; polite, patient, and the hand that writes the price on Gorvek's head each winter.",
+      "epithet": "Captain",
+      "relations": [
+        {
+          "to": "greycloaks",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "gorvek",
+          "kind": "enemy-of",
+          "declared": true
+        },
+        {
+          "to": "gallowmark",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nDrusk is what the [[greycloaks]] look like when they are working. Grey cloak,\nclean boots, a hook he has never been seen to use, and manners. He rides into a\nvillage alone, finds the gate somebody forgot, and sits down inside it. By\nevening the village pays tithe and believes it decided to. He has done this\nmore times than any captain living and has never raised his voice.\n\n## Voice\n\nDrusk is polite. He thanks people for their tithe. He asks after their children\nby name, and the names are correct, because he keeps the rolls himself. That is\nthe horror of him, and he knows it, and it is why he does it.\n\n## In the world\n\n- The price on [[gorvek]]'s head is written in Drusk's hand. He raises it every\n  winter and has never paid it, and considers both facts a kind of bookkeeping.\n- He has sat in the gate of a village in [[bonereach]] exactly once. The\n  village closed the gate on him, and he still speaks well of it.\n\n## Threads\n\n- What does Drusk want, that the order does not?",
+      "file": "characters/drusk.md"
+    },
     "gorvek": {
       "id": "gorvek",
       "type": "character",
@@ -29,6 +65,11 @@
       "epithet": "of Bonereach",
       "relations": [
         {
+          "to": "drusk",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "bonereach",
           "kind": "born-in",
           "declared": true
@@ -44,6 +85,11 @@
           "declared": true
         },
         {
+          "to": "linelord",
+          "kind": "wields",
+          "declared": true
+        },
+        {
           "to": "greycloaks",
           "kind": "enemy-of",
           "declared": true
@@ -54,13 +100,48 @@
           "declared": true
         },
         {
+          "to": "vurn",
+          "kind": "ally-of",
+          "declared": false
+        },
+        {
           "to": "gorveks-creed",
           "kind": "speaks",
           "declared": true
         }
       ],
-      "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
+      "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He carries [[linelord]] too, and has it read to him. What he says of what it\n  says is the whole of the ledger's voice.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
       "file": "characters/gorvek.md"
+    },
+    "nask": {
+      "id": "nask",
+      "type": "character",
+      "name": "Nask",
+      "aliases": [
+        "Brother Nask"
+      ],
+      "status": "canon",
+      "tags": [
+        "river-priest",
+        "priest",
+        "names"
+      ],
+      "summary": "A river-priest of Thurn, barefoot and wet to the knee, who keeps the names of things along the grey rivers and answers every question with one; it was Nask who said the name LineLord aloud first.",
+      "epithet": "the Wet",
+      "relations": [
+        {
+          "to": "river-priests",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "worships",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nNask walks the banks. Barefoot, wet to the knee, unwelcome at most tables and\nuntroubled by it. Of all the [[river-priests]], Nask is the one villages send\nfor when a thing needs a name and nobody wants to be the one who gave it.\n\n## Voice\n\nAsk Nask a question and you get a name. Ask why and you get the name again,\nslower. The priests hold that to name a thing truly is to have a grip on it,\nand Nask has never been heard to let go.\n\n## In the world\n\n- The river-priests named [[linelord]], and it was Nask who said it first, at a\n  ford in [[bonereach]], to a man who had asked what the thing in his hands\n  was for. Then Nask walked on.\n- Nask has never named [[sarn]] aloud. Asked, Nask names the river instead.\n\n## Threads\n\n- Why will Nask not say Sarn's name?",
+      "file": "characters/nask.md"
     },
     "sarn": {
       "id": "sarn",
@@ -135,6 +216,46 @@
       "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading, including the one\nthat teaches the use of [[streamlord]].\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
     },
+    "vurn": {
+      "id": "vurn",
+      "type": "character",
+      "name": "Vurn",
+      "aliases": [
+        "Vurn the Ashborn"
+      ],
+      "status": "canon",
+      "tags": [
+        "ashborn",
+        "warrior",
+        "bonereach"
+      ],
+      "summary": "A warrior of Bonereach who walked out of the Ashfall a year after Gorvek did, says even less than he does, and has stood at his shoulder in every fight the Greycloaks lost.",
+      "epithet": "the Ashborn",
+      "relations": [
+        {
+          "to": "bonereach",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "survived",
+          "declared": true
+        },
+        {
+          "to": "gorvek",
+          "kind": "ally-of",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nVurn came out of the grey a year after [[gorvek]], from a village that no\nlonger had a name, and walked to the nearest one that did. The elders asked\nwhat Vurn wanted. Vurn pointed at Gorvek. That was the whole of the answer and\nit has held since.\n\n## Voice\n\nVurn does not speak in creeds. Vurn mostly does not speak. When Vurn does, it\nis one sentence, and the people of [[bonereach]] have learned to act on it\nbefore the second one would have come.\n\n## In the world\n\n- Vurn has stood at Gorvek's shoulder in every fight the [[greycloaks]] have\n  lost to him, and in none of the ones they won, which the Greycloaks have\n  noticed.\n- Vurn has never met [[sarn]], or says so.\n\n## Threads\n\n- What was the name of Vurn's village?",
+      "file": "characters/vurn.md"
+    },
     "bonereach": {
       "id": "bonereach",
       "type": "place",
@@ -152,6 +273,11 @@
       "relations": [
         {
           "to": "gorvek",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
+          "to": "vurn",
           "kind": "birthplace-of",
           "declared": false
         },
@@ -193,6 +319,11 @@
       ],
       "summary": "The land itself; a march of gallows, grey rivers and stubborn people between the mountains and the drowned coast, where the Ashfall fell and never quite lifted.",
       "relations": [
+        {
+          "to": "drusk",
+          "kind": "home-of",
+          "declared": false
+        },
         {
           "to": "sarn",
           "kind": "haunted-by",
@@ -284,7 +415,17 @@
       "summary": "The grey-cloaked order that holds Gallowmark by taking villages through the one gate left open; tithe-collectors, hook-wielders, and the only law most of the Mark has seen.",
       "relations": [
         {
+          "to": "drusk",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "gorvek",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "vurn",
           "kind": "enemy-of",
           "declared": false
         },
@@ -318,6 +459,11 @@
       "summary": "The barefoot priesthood of the river-god Thurn, keepers of the names, who alone dare call Sarn the Lord of Streams and who say all the grey rivers are one.",
       "relations": [
         {
+          "to": "nask",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "thurn",
           "kind": "worships",
           "declared": true
@@ -326,6 +472,11 @@
           "to": "sarn",
           "kind": "names",
           "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "names",
+          "declared": false
         },
         {
           "to": "streamlord",
@@ -352,6 +503,11 @@
       ],
       "summary": "The river-god of Gallowmark, the one grey river that pretends to be many; cold, patient, and the only god whose priests are taken seriously by people who trust nothing.",
       "relations": [
+        {
+          "to": "nask",
+          "kind": "worshipped-by",
+          "declared": false
+        },
         {
           "to": "sarn",
           "kind": "names",
@@ -405,6 +561,35 @@
       ],
       "body": "## The crown\n\nIron, not gold. The kings of [[kell]] wore iron because gold was for people with something\nto prove. Three rubies were set in it, one for each of the grey rivers that met at the city,\nand the river-priests of [[thurn]] said that while the stones sat in the iron, the rivers sat\nin their beds.\n\n## The theft\n\n[[sarn]] took all three in a single night. Nobody saw the face. The rivers left their beds.\nWhether the crown held the water or only the belief in the crown did, Kell drowned either\nway, and the empty iron is somewhere under it.\n\n## Threads\n\n- The three rubies are the three most valuable objects in Gallowmark, and nobody has seen\n  one since. Sarn, asked, changes the subject.",
       "file": "artifacts/iron-crown-of-kell.md"
+    },
+    "linelord": {
+      "id": "linelord",
+      "type": "artifact",
+      "name": "LineLord",
+      "aliases": [
+        "the Ledger"
+      ],
+      "status": "canon",
+      "tags": [
+        "artifact",
+        "ledger",
+        "count"
+      ],
+      "summary": "The ledger that says who holds which line of a thing and how long it has stood; it counts lines and dates and nothing else, and does not judge the hand that wrote them.",
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "wielded-by",
+          "declared": false
+        },
+        {
+          "to": "river-priests",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## What it is\n\nIn the world, LineLord is a ledger that cannot be argued with. Put a thing in\nfront of it, a wall, a law, a song, and it says who laid each course of it and\nhow long that course has stood. It does not say whether the wall is good. It\ndoes not say who worked hardest. It counts what is there and when it was last\ntouched, and then it is quiet.\n\nThe [[river-priests]] named it, as they name everything, and then said nothing\nmore about it. [[gorvek]] carries it. He does not read, and does not need to:\nthe ledger is read to him, and he says what he thinks of it. Every word LineLord\nspeaks is his, which is why it speaks in creeds and never explains.\n\nOutside the world, LineLord is a program that reads `git blame` and reports who\nowns which line. This entry is where the two meet. The voice on its screens is\nGorvek's; the names on them are Gallowmark's.\n\n## The rule\n\nLineLord counts lines and dates and nothing else. It does not count deeds, it\ndoes not know what a line does or how hard it was to lay, and it says nothing of\nthe worth of the one who laid it. Old work is work nobody has touched, which is\nnot the same as good work. The [[river-priests]] hold that this is why the\nledger is allowed to exist at all: a count that judged would be a lie, and a\nlie has no name.\n\n## The legends\n\nThe stories say the ledger is older than [[the-ashfall]], that the river-priests\nkept their most terrible craft by it in the grey, and that the last king of\n[[kell]] sent for it the night [[sarn]] took the rubies, wanting to know whose\nhand had laid the quays. Whether it answered him nobody says. Kell went under\neither way.\n\n## Threads\n\n- What did the ledger tell the last king of Kell?\n- Who reads it to Gorvek?",
+      "file": "artifacts/linelord.md"
     },
     "streamlord": {
       "id": "streamlord",
@@ -474,6 +659,11 @@
       "relations": [
         {
           "to": "gorvek",
+          "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "vurn",
           "kind": "survived-by",
           "declared": false
         },
@@ -631,6 +821,42 @@
   },
   "relations": [
     {
+      "from": "drusk",
+      "to": "greycloaks",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "drusk",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "drusk",
+      "to": "gorvek",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "gorvek",
+      "to": "drusk",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "drusk",
+      "to": "gallowmark",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "drusk",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
       "from": "gorvek",
       "to": "bonereach",
       "kind": "born-in",
@@ -668,6 +894,18 @@
     },
     {
       "from": "gorvek",
+      "to": "linelord",
+      "kind": "wields",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "gorvek",
+      "kind": "wielded-by",
+      "declared": false
+    },
+    {
+      "from": "gorvek",
       "to": "greycloaks",
       "kind": "enemy-of",
       "declared": true
@@ -688,6 +926,30 @@
       "from": "sarn",
       "to": "gorvek",
       "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "nask",
+      "to": "river-priests",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "river-priests",
+      "to": "nask",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "nask",
+      "to": "thurn",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "nask",
+      "kind": "worshipped-by",
       "declared": false
     },
     {
@@ -748,6 +1010,54 @@
       "from": "kell",
       "to": "sarn",
       "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "vurn",
+      "to": "bonereach",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "bonereach",
+      "to": "vurn",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "vurn",
+      "to": "the-ashfall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "vurn",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "vurn",
+      "to": "gorvek",
+      "kind": "ally-of",
+      "declared": true
+    },
+    {
+      "from": "gorvek",
+      "to": "vurn",
+      "kind": "ally-of",
+      "declared": false
+    },
+    {
+      "from": "vurn",
+      "to": "greycloaks",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "vurn",
+      "kind": "enemy-of",
       "declared": false
     },
     {
@@ -856,6 +1166,18 @@
       "from": "gallowmark",
       "to": "thurn",
       "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "linelord",
+      "to": "river-priests",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "river-priests",
+      "to": "linelord",
+      "kind": "names",
       "declared": false
     },
     {

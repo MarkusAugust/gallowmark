@@ -9,6 +9,7 @@ relations:
   - { to: bonereach, kind: born-in }
   - { to: the-ashfall, kind: survived }
   - { to: streamlord, kind: wields }
+  - { to: linelord, kind: wields }
   - { to: greycloaks, kind: enemy-of }
   - { to: sarn, kind: rival-of }
 ---
@@ -37,6 +38,8 @@ it and dislikes it.
 ## In the world
 
 - He carries [[streamlord]] and does not know what it is, only what it does.
+- He carries [[linelord]] too, and has it read to him. What he says of what it
+  says is the whole of the ledger's voice.
 - He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they
   raise every winter and never pay.
 - He has met Sarn three times and seen a face none of the times.
