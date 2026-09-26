@@ -25,6 +25,14 @@ Conan-the-barbarian energy in the epigraphs: the question-and-answer creed, the 
 opening ("Know this, you who come late…"), the oath by a catastrophe rather than a god.
 Always original words. Never quote the films or the old stories.
 
+## Nods
+
+The quote pools that the tools draw from (`quotes/`) are allowed one thing the canon prose
+is not: a nod to the films and the old stories, laid on thick, as long as it is a reference
+and not a name. "What is best in code?" is a nod. A god, a place or a person from another
+table is a name, and is never used. Nods carry the tag `nod` so they can be found, counted
+and, if the day comes, replaced.
+
 ## Canon rules
 
 - Every entity is a Markdown file with frontmatter; see the README for the fields.

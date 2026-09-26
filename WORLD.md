@@ -28,6 +28,7 @@ is going out from the drowned city, and everyone is walking toward it.
 | [[river-priests]] | The naming cult | Who names things, and why names bite |
 | [[iron-crown-of-kell]] | The empty crown | The thing that held the world together by being believed in |
 | [[streamlord]] | The artifact | Where the world meets the software |
+| [[linelord]] | The ledger | Where the world meets the other software; counts lines and days, nothing else |
 | [[hask]] | The hanged god | Gallows, oaths, debts; why the land is named for a rope |
 | [[vorr]] | The drowned god | What the sea keeps; what took Kell |
 | [[the-ebb]] | The sea going out, year 1 | The thing that pulls every thread toward one iron hall |
@@ -42,6 +43,9 @@ is going out from the drowned city, and everyone is walking toward it.
 | [[rauk]] | The diver of [[wrackhead]] who touched the crown | Knows what is under the water and will not say |
 | [[brim]] | The Salt Child the coast decided is Kell's heir | A king held in place by being believed in |
 | [[hangmoot]] | The ridge of nine gallows | Where the Mark pays; the slack rope |
+| [[drusk]] | The Greycloak captain of the bridge at [[hookford]] | The hook Tolm does not carry; the books |
+| [[nask]] | The old river-priest born in Kell | Was on the quay the night; names what washes up |
+| [[vurn]] | The other Ashborn | Tells the sagas Gorvek will not; the voice of LineLord's farewells |
 
 ## The theme
 

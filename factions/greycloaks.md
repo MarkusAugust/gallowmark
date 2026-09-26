@@ -25,6 +25,12 @@ down inside it. By evening the village is paying tithe and thinks it decided to.
 in Gallowmark has been lost this way, which is why the wise close every gate, including the
 ones they cannot see.
 
+## The books
+
+What the order tithes it writes down. The tithe-books hang from the hooks on the bridge at
+[[hookford]], in Captain [[drusk]]'s hand, and the hangmen say they are a poor copy of the
+ledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing down.
+
 ## Enemies
 
 [[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried
