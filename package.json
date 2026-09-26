@@ -1,0 +1,16 @@
+{
+  "name": "gallowmark",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The canon of Gallowmark: characters, places, gods, artifacts, events and the relations between them, exported as dist/lore.json.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "validate": "node tools/lore.mjs validate",
+    "build": "node tools/lore.mjs build",
+    "check": "node tools/lore.mjs check",
+    "test": "node --test tools/*.test.mjs",
+    "list": "node tools/lore.mjs list",
+    "new": "node tools/lore.mjs new"
+  }
+}

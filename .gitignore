@@ -1,0 +1,11 @@
+# Claude Code local state
+.claude/
+
+# OS / editors
+.DS_Store
+.obsidian/workspace*.json
+.idea/
+.vscode/
+
+# Node
+node_modules/

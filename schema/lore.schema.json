@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/MarkusAugust/gallowmark/schema/lore.schema.json",
+  "title": "Gallowmark lore export (dist/lore.json)",
+  "type": "object",
+  "required": ["world", "generatedAt", "entityCount", "types", "entities", "relations", "timeline"],
+  "properties": {
+    "world": { "const": "Gallowmark" },
+    "generatedAt": { "type": "string", "description": "YYYY-MM-DD" },
+    "entityCount": { "type": "integer" },
+    "types": { "type": "array", "items": { "type": "string" } },
+    "entities": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/entity" }
+    },
+    "relations": { "type": "array", "items": { "$ref": "#/definitions/edge" } },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["year", "id", "name", "summary"],
+        "properties": { "year": { "type": "integer" }, "id": { "type": "string" }, "name": { "type": "string" }, "summary": { "type": "string" } }
+      }
+    }
+  },
+  "definitions": {
+    "entity": {
+      "type": "object",
+      "required": ["id", "type", "name", "aliases", "status", "tags", "summary", "relations", "body", "file"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "type": { "enum": ["character", "place", "faction", "god", "artifact", "event", "story"] },
+        "name": { "type": "string" },
+        "epithet": { "type": "string" },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "status": { "enum": ["canon", "draft", "retired"] },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "summary": { "type": "string", "description": "One line, safe to show anywhere." },
+        "year": { "type": "integer", "description": "Events only: years since the Ashfall; negative is before." },
+        "speaker": { "type": ["string", "null"], "description": "Stories only: id of the entity whose voice this is." },
+        "form": { "type": "string", "description": "Stories only: creed, whisper, chronicle, prose, verse." },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["to", "kind", "declared"],
+            "properties": {
+              "to": { "type": "string" },
+              "kind": { "type": "string" },
+              "declared": { "type": "boolean", "description": "false when this edge is the generated inverse of a declared one" }
+            }
+          }
+        },
+        "body": { "type": "string", "description": "The Markdown body of the entity file, wikilinks included." },
+        "file": { "type": "string" }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["from", "to", "kind", "declared"],
+      "properties": { "from": { "type": "string" }, "to": { "type": "string" }, "kind": { "type": "string" }, "declared": { "type": "boolean" } }
+    }
+  }
+}

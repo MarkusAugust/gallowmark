@@ -1,0 +1,1032 @@
+{
+  "world": "Gallowmark",
+  "generatedAt": "2026-09-26",
+  "entityCount": 15,
+  "types": [
+    "character",
+    "place",
+    "faction",
+    "god",
+    "artifact",
+    "event",
+    "story"
+  ],
+  "entities": {
+    "gorvek": {
+      "id": "gorvek",
+      "type": "character",
+      "name": "Gorvek",
+      "aliases": [
+        "Gorvek of Bonereach"
+      ],
+      "status": "canon",
+      "tags": [
+        "barbarian",
+        "warrior",
+        "hero"
+      ],
+      "summary": "A barbarian of Bonereach who walked out of the Ashfall with iron in his hand and wants of a stream only that it obeys.",
+      "epithet": "of Bonereach",
+      "relations": [
+        {
+          "to": "bonereach",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "survived",
+          "declared": true
+        },
+        {
+          "to": "streamlord",
+          "kind": "wields",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "enemy-of",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "gorveks-creed",
+          "kind": "speaks",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
+      "file": "characters/gorvek.md"
+    },
+    "sarn": {
+      "id": "sarn",
+      "type": "character",
+      "name": "Sarn",
+      "aliases": [
+        "Sarn the Faceless",
+        "Lord of Streams",
+        "the Thief of Kell"
+      ],
+      "status": "canon",
+      "tags": [
+        "demon",
+        "thief",
+        "narrator",
+        "faceless"
+      ],
+      "summary": "A faceless thief-demon every soul in Gallowmark can name and none has seen; stole the rubies of the Iron Crown and now narrates the grimoire with a smile nobody can find.",
+      "epithet": "the Faceless",
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "rival-of",
+          "declared": false
+        },
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "stole",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "named-by",
+          "declared": true
+        },
+        {
+          "to": "gallowmark",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "streamlord",
+          "kind": "narrates",
+          "declared": true
+        },
+        {
+          "to": "kell",
+          "kind": "destroyed",
+          "declared": true
+        },
+        {
+          "to": "river-priests",
+          "kind": "named-by",
+          "declared": false
+        },
+        {
+          "to": "the-drowning-of-kell",
+          "kind": "caused",
+          "declared": false
+        },
+        {
+          "to": "sarns-whisper",
+          "kind": "speaks",
+          "declared": true
+        },
+        {
+          "to": "the-forge-and-the-eye",
+          "kind": "speaks",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading, including the one\nthat teaches the use of [[streamlord]].\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
+      "file": "characters/sarn.md"
+    },
+    "bonereach": {
+      "id": "bonereach",
+      "type": "place",
+      "name": "Bonereach",
+      "aliases": [
+        "the Reach"
+      ],
+      "status": "canon",
+      "tags": [
+        "region",
+        "north",
+        "wasteland"
+      ],
+      "summary": "The northern reach of Gallowmark, a country of scree, bone-white birch and villages that count their dead in winters; where the Ashfall fell hardest and Gorvek was born.",
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "survived",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "destroyed-by",
+          "declared": false
+        },
+        {
+          "to": "gorveks-creed",
+          "kind": "featured-in",
+          "declared": false
+        }
+      ],
+      "body": "## The reach\n\nBonereach is the part of [[gallowmark]] nobody wanted and somebody kept. Scree slopes, birch\nso pale it looks skinned, and villages built into the lee of rocks because the wind comes\noff the Wallmountains with an opinion. The people of the Reach are the people of the Mark\nboiled down: fewer words, harder hands, a longer memory.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] fell here first and lifted here last. The Reach lost half its villages\nand does not say which half. Those who walked out of the grey, [[gorvek]] among them, are\ncalled the Ashborn behind their backs and never to their faces.\n\n## Custom\n\nThe elders of the Reach do not ask a returning warrior where he has been. They ask what he\nwants. The answer is the man.",
+      "file": "places/bonereach.md"
+    },
+    "gallowmark": {
+      "id": "gallowmark",
+      "type": "place",
+      "name": "Gallowmark",
+      "aliases": [
+        "the Mark"
+      ],
+      "status": "canon",
+      "tags": [
+        "land",
+        "region"
+      ],
+      "summary": "The land itself; a march of gallows, grey rivers and stubborn people between the mountains and the drowned coast, where the Ashfall fell and never quite lifted.",
+      "relations": [
+        {
+          "to": "sarn",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "bonereach",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "kell",
+          "kind": "contains",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "home-of",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "haunted-by",
+          "declared": false
+        }
+      ],
+      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] came down over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.",
+      "file": "places/gallowmark.md"
+    },
+    "kell": {
+      "id": "kell",
+      "type": "place",
+      "name": "Kell",
+      "aliases": [
+        "the Drowned City",
+        "Old Kell"
+      ],
+      "status": "canon",
+      "tags": [
+        "city",
+        "ruin",
+        "coast"
+      ],
+      "summary": "The old royal city on the drowned coast, seat of the Iron Crown, which came apart the night Sarn took the rubies and has been sinking ever since.",
+      "relations": [
+        {
+          "to": "sarn",
+          "kind": "destroyed-by",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": false
+        },
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "created",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "guarded-by",
+          "declared": false
+        },
+        {
+          "to": "the-drowning-of-kell",
+          "kind": "destroyed-by",
+          "declared": false
+        }
+      ],
+      "body": "## The city\n\nKell was the only city in [[gallowmark]] that deserved the word. Stone quays, a hall with a\nroof of iron plates, and a king with a crown that held the three rivers in place: that is\nhow the river-priests tell it, and they tell it with their hands over their mouths.\n\n## The night\n\nThen [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by\nmorning the quays were under water and the king was under the quays. Whether the crown held\nthe sea back or only the people's belief that it did, the result is the same: Kell is a place\nyou sail over.\n\n## Now\n\nOld Kell is a name the coast people still use for the water where the city was. The\n[[greycloaks]] say they will raise it. They have said so for forty years.",
+      "file": "places/kell.md"
+    },
+    "greycloaks": {
+      "id": "greycloaks",
+      "type": "faction",
+      "name": "The Greycloaks",
+      "aliases": [
+        "Greycloaks",
+        "the Cloaks"
+      ],
+      "status": "canon",
+      "tags": [
+        "order",
+        "army",
+        "occupiers"
+      ],
+      "summary": "The grey-cloaked order that holds Gallowmark by taking villages through the one gate left open; tithe-collectors, hook-wielders, and the only law most of the Mark has seen.",
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "lives-in",
+          "declared": false
+        },
+        {
+          "to": "kell",
+          "kind": "guards",
+          "declared": true
+        }
+      ],
+      "body": "## What they are\n\nThe Greycloaks began as the men who guarded the drowned quays of [[kell]] so that nobody\nwould steal what the sea had not yet taken. Forty years on, they guard everything, and what\nthey guard they tithe. Their cloaks are grey because grey hides ash, and the order was born\nin the [[the-ashfall]].\n\n## How they take a village\n\nNever by storm. A Greycloak captain rides in alone, finds the one gate left open, and sits\ndown inside it. By evening the village is paying tithe and thinks it decided to. Every siege\nin Gallowmark has been lost this way, which is why the wise close every gate, including the\nones they cannot see.\n\n## Enemies\n\n[[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried\nto hire and to kill, and the order's own records disagree on which came first.",
+      "file": "factions/greycloaks.md"
+    },
+    "river-priests": {
+      "id": "river-priests",
+      "type": "faction",
+      "name": "The River-Priests of Thurn",
+      "aliases": [
+        "river-priests",
+        "the Wet Brothers"
+      ],
+      "status": "canon",
+      "tags": [
+        "cult",
+        "priesthood"
+      ],
+      "summary": "The barefoot priesthood of the river-god Thurn, keepers of the names, who alone dare call Sarn the Lord of Streams and who say all the grey rivers are one.",
+      "relations": [
+        {
+          "to": "thurn",
+          "kind": "worships",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "names",
+          "declared": true
+        },
+        {
+          "to": "streamlord",
+          "kind": "names",
+          "declared": false
+        }
+      ],
+      "body": "## Who they are\n\nBarefoot, wet to the knee, and unwelcome at most tables, the river-priests walk the banks of\nthe grey rivers of [[gallowmark]] and keep the names of things. They hold that every stream\nin the Mark is the same river, [[thurn]], pretending to be many, and that to name a thing\ntruly is to have a grip on it.\n\n## The naming\n\nIt was the river-priests who named [[sarn]] the Lord of Streams, and they meant it as a\nwarning: here is the thing that goes where water goes. They also named the artifact that\n[[gorvek]] carries. They called it [[streamlord]], and then they stopped talking about it.\n\n## Custom\n\nA river-priest will answer any question with a name, and never with a reason.",
+      "file": "factions/river-priests.md"
+    },
+    "thurn": {
+      "id": "thurn",
+      "type": "god",
+      "name": "Thurn",
+      "aliases": [
+        "the River",
+        "the One River"
+      ],
+      "status": "canon",
+      "tags": [
+        "god",
+        "river",
+        "water"
+      ],
+      "summary": "The river-god of Gallowmark, the one grey river that pretends to be many; cold, patient, and the only god whose priests are taken seriously by people who trust nothing.",
+      "relations": [
+        {
+          "to": "sarn",
+          "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "river-priests",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
+          "to": "gallowmark",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## The god\n\nThurn does not have a face, a temple, or a promise. Thurn has water, and water goes where it\ngoes. The people of [[gallowmark]] do not pray to Thurn; they keep out of the way. The\n[[river-priests]] say this is the correct form of worship.\n\n## Streams\n\nEverything that flows is Thurn's, in the priests' telling: rivers, blood, rumour, and the\nthing that moves between a server and a browser when [[streamlord]] is used. A stream that\nobeys a man is a piece of the god held still, and the priests are of two minds about whether\nthat is a blasphemy or the whole point.\n\n## Threads\n\n- Does Thurn mind that [[sarn]] has been called Lord of Streams?",
+      "file": "gods/thurn.md"
+    },
+    "iron-crown-of-kell": {
+      "id": "iron-crown-of-kell",
+      "type": "artifact",
+      "name": "The Iron Crown of Kell",
+      "aliases": [
+        "the Iron Crown",
+        "the Crown of Three Rivers"
+      ],
+      "status": "canon",
+      "tags": [
+        "crown",
+        "relic",
+        "lost"
+      ],
+      "summary": "The iron crown of the kings of Kell, set with three rubies said to hold the three rivers in place; empty since Sarn took the stones in one night, and the city with them.",
+      "relations": [
+        {
+          "to": "sarn",
+          "kind": "stolen-by",
+          "declared": false
+        },
+        {
+          "to": "kell",
+          "kind": "created-by",
+          "declared": false
+        },
+        {
+          "to": "sarns-whisper",
+          "kind": "featured-in",
+          "declared": false
+        }
+      ],
+      "body": "## The crown\n\nIron, not gold. The kings of [[kell]] wore iron because gold was for people with something\nto prove. Three rubies were set in it, one for each of the grey rivers that met at the city,\nand the river-priests of [[thurn]] said that while the stones sat in the iron, the rivers sat\nin their beds.\n\n## The theft\n\n[[sarn]] took all three in a single night. Nobody saw the face. The rivers left their beds.\nWhether the crown held the water or only the belief in the crown did, Kell drowned either\nway, and the empty iron is somewhere under it.\n\n## Threads\n\n- The three rubies are the three most valuable objects in Gallowmark, and nobody has seen\n  one since. Sarn, asked, changes the subject.",
+      "file": "artifacts/iron-crown-of-kell.md"
+    },
+    "streamlord": {
+      "id": "streamlord",
+      "type": "artifact",
+      "name": "Streamlord",
+      "aliases": [
+        "the Artifact"
+      ],
+      "status": "canon",
+      "tags": [
+        "artifact",
+        "stream",
+        "grimoire"
+      ],
+      "summary": "The artifact that bends a stream to a will: it flows when told to flow, stops when told to stop, and carries only what its wielder means it to; named by the river-priests, narrated by Sarn, carried by Gorvek.",
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "wielded-by",
+          "declared": false
+        },
+        {
+          "to": "sarn",
+          "kind": "narrated-by",
+          "declared": false
+        },
+        {
+          "to": "river-priests",
+          "kind": "named-by",
+          "declared": true
+        },
+        {
+          "to": "gorveks-creed",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "sarns-whisper",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-forge-and-the-eye",
+          "kind": "featured-in",
+          "declared": false
+        }
+      ],
+      "body": "## What it is\n\nIn the world, Streamlord is a thing that makes a stream obey. Not by damming it. By telling\nit, and being believed. [[gorvek]] carries it and does not know what it is, only what it does;\n[[sarn]] narrates the grimoire that teaches its use and takes one belief from every reader in\npayment.\n\nOutside the world, Streamlord is a software development kit, and this entry is how the\nworld and the software meet. The grimoire's voice is Sarn's; the creed on its first page is\nGorvek's; the names in it are Gallowmark's.\n\n## The rule\n\nStreamlord carries exactly what the wielder means, and nothing else. The [[river-priests]]\nsay this is why [[thurn]] allows it: a stream held still is still a stream.",
+      "file": "artifacts/streamlord.md"
+    },
+    "the-ashfall": {
+      "id": "the-ashfall",
+      "type": "event",
+      "name": "The Ashfall",
+      "aliases": [
+        "the Grey",
+        "the Falling"
+      ],
+      "status": "canon",
+      "tags": [
+        "catastrophe",
+        "mist",
+        "era"
+      ],
+      "summary": "The grey mist that came down over the north of Gallowmark and stayed a generation; the year it lifted is year zero of every calendar in the Mark.",
+      "year": 0,
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "bonereach",
+          "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "bonereach",
+          "kind": "destroyed",
+          "declared": true
+        },
+        {
+          "to": "the-drowning-of-kell",
+          "kind": "follows",
+          "declared": false
+        }
+      ],
+      "body": "## What fell\n\nNobody agrees on what the Ashfall was: ash, mist, or something that wanted to be mistaken\nfor both. It came down over [[bonereach]] and the north of [[gallowmark]] and stayed for a\ngeneration, and inside it people did what people do when nobody can see them.\n\n## What came out\n\nWhen it lifted, the ones who walked out were called the Ashborn. [[gorvek]] is one. The\n[[greycloaks]] are, in a sense, another: the order was born guarding the drowned quays of\n[[kell]] in the grey, and it never took the cloak off.\n\n## The calendar\n\nThe Mark counts its years from the lifting. Everything before is *in the grey*, and nobody\nis precise about it.",
+      "file": "events/the-ashfall.md"
+    },
+    "the-drowning-of-kell": {
+      "id": "the-drowning-of-kell",
+      "type": "event",
+      "name": "The Drowning of Kell",
+      "aliases": [
+        "the Night of Three Stones"
+      ],
+      "status": "canon",
+      "tags": [
+        "catastrophe",
+        "theft"
+      ],
+      "summary": "The night Sarn took the three rubies from the Iron Crown and Kell went under by morning; forty years before the Ashfall lifted, and the reason there are Greycloaks.",
+      "year": -40,
+      "relations": [
+        {
+          "to": "kell",
+          "kind": "destroyed",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "caused-by",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "precedes",
+          "declared": true
+        }
+      ],
+      "body": "## The night\n\n[[sarn]] entered the iron-roofed hall of [[kell]], took the three rubies from the\n[[iron-crown-of-kell]], and was gone. Nobody saw a face. By morning the grey rivers had left\ntheir beds and the quays were under water.\n\n## What it made\n\nThe guards of the drowned quays became the [[greycloaks]]. The river-priests of [[thurn]]\ngave Sarn the name Lord of Streams that same year, as a warning. And the Mark learned the\nlesson it has lived by since: a thing held in place by belief is held in place by nothing.",
+      "file": "events/the-drowning-of-kell.md"
+    },
+    "gorveks-creed": {
+      "id": "gorveks-creed",
+      "type": "story",
+      "name": "Gorvek's Creed",
+      "aliases": [
+        "What a warrior wants of a stream"
+      ],
+      "status": "canon",
+      "tags": [
+        "creed",
+        "epigraph"
+      ],
+      "summary": "The four lines Gorvek gave the elders of Bonereach when they asked what a warrior wants of a stream; the opening of the Streamlord grimoire.",
+      "speaker": "gorvek",
+      "form": "creed",
+      "relations": [
+        {
+          "to": "streamlord",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "bonereach",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "gorvek",
+          "kind": "spoken-by",
+          "declared": false
+        }
+      ],
+      "body": "*The elders of Bonereach asked Gorvek what a warrior wants of a stream.*\n\n*\"That it flows when I say flow. That it stops when I say stop. That it carries my will to\nthe far shore, and nothing else.\"*\n\n*\"And the JavaScript?\"*\n\n*\"I do not know the word.\"*\n\n— Gorvek of Bonereach, who walked out of the Ashfall with iron in his hand\n\n## Use\n\nThe first page of every [[streamlord]] grimoire. The cadence is the rule for everything\n[[gorvek]] says: a question from someone else, an answer in the present tense, and no\nexplanation.",
+      "file": "stories/gorveks-creed.md"
+    },
+    "sarns-whisper": {
+      "id": "sarns-whisper",
+      "type": "story",
+      "name": "Sarn's Whisper",
+      "aliases": [
+        "Sit. Read."
+      ],
+      "status": "canon",
+      "tags": [
+        "whisper",
+        "epigraph"
+      ],
+      "summary": "Sarn's greeting to the reader of the grimoire, in which a gift is offered and a belief is taken.",
+      "speaker": "sarn",
+      "form": "whisper",
+      "relations": [
+        {
+          "to": "streamlord",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "spoken-by",
+          "declared": false
+        }
+      ],
+      "body": "*Every soul in Gallowmark knows my name, and not one knows my face. I took three rubies\nfrom the Iron Crown of Kell and the land fell apart in my hands. Now I will take one thing\nfrom you: the belief that the browser must be bought with JavaScript.*\n\n*Sit. Read. The stream was always yours to bend.*\n\n— Sarn the Faceless, whom the river-priests of Thurn call the Lord of Streams\n\n## Use\n\nThe second epigraph of the [[streamlord]] grimoire, and the model for every section note in\n[[sarn]]'s voice: a confession, a theft dressed as a gift, and an order.",
+      "file": "stories/sarns-whisper.md"
+    },
+    "the-forge-and-the-eye": {
+      "id": "the-forge-and-the-eye",
+      "type": "story",
+      "name": "The Forge and the Eye",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "whisper",
+        "epigraph"
+      ],
+      "summary": "Sarn on the difference between making a blade and seeing its flaw; the epigraph of the editor tooling.",
+      "speaker": "sarn",
+      "form": "whisper",
+      "relations": [
+        {
+          "to": "streamlord",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "spoken-by",
+          "declared": false
+        }
+      ],
+      "body": "*The forge is one thing. The eye that sees the flaw before the blade is quenched is another.\nI have both, and I lend them to you for nothing. Ask yourself why.*\n\n— Sarn the Faceless\n\n## Use\n\nThe epigraph of the tools that watch over [[streamlord]] code as it is written. Sarn lends;\nSarn does not give.",
+      "file": "stories/the-forge-and-the-eye.md"
+    }
+  },
+  "relations": [
+    {
+      "from": "gorvek",
+      "to": "bonereach",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "bonereach",
+      "to": "gorvek",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "gorvek",
+      "to": "the-ashfall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "gorvek",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "gorvek",
+      "to": "streamlord",
+      "kind": "wields",
+      "declared": true
+    },
+    {
+      "from": "streamlord",
+      "to": "gorvek",
+      "kind": "wielded-by",
+      "declared": false
+    },
+    {
+      "from": "gorvek",
+      "to": "greycloaks",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "gorvek",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "gorvek",
+      "to": "sarn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "gorvek",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "iron-crown-of-kell",
+      "kind": "stole",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "sarn",
+      "kind": "stolen-by",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "thurn",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "sarn",
+      "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "gallowmark",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "sarn",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "streamlord",
+      "kind": "narrates",
+      "declared": true
+    },
+    {
+      "from": "streamlord",
+      "to": "sarn",
+      "kind": "narrated-by",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "kell",
+      "kind": "destroyed",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "sarn",
+      "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "bonereach",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "bonereach",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "bonereach",
+      "to": "the-ashfall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "bonereach",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "gallowmark",
+      "to": "kell",
+      "kind": "contains",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": false
+    },
+    {
+      "from": "gallowmark",
+      "to": "greycloaks",
+      "kind": "home-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "gallowmark",
+      "kind": "lives-in",
+      "declared": false
+    },
+    {
+      "from": "kell",
+      "to": "iron-crown-of-kell",
+      "kind": "created",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "kell",
+      "kind": "created-by",
+      "declared": false
+    },
+    {
+      "from": "greycloaks",
+      "to": "kell",
+      "kind": "guards",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "greycloaks",
+      "kind": "guarded-by",
+      "declared": false
+    },
+    {
+      "from": "river-priests",
+      "to": "thurn",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "river-priests",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "river-priests",
+      "to": "sarn",
+      "kind": "names",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "river-priests",
+      "kind": "named-by",
+      "declared": false
+    },
+    {
+      "from": "thurn",
+      "to": "gallowmark",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "thurn",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "streamlord",
+      "to": "river-priests",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "river-priests",
+      "to": "streamlord",
+      "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "the-ashfall",
+      "to": "bonereach",
+      "kind": "destroyed",
+      "declared": true
+    },
+    {
+      "from": "bonereach",
+      "to": "the-ashfall",
+      "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "the-drowning-of-kell",
+      "to": "kell",
+      "kind": "destroyed",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "the-drowning-of-kell",
+      "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "the-drowning-of-kell",
+      "to": "sarn",
+      "kind": "caused-by",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "the-drowning-of-kell",
+      "kind": "caused",
+      "declared": false
+    },
+    {
+      "from": "the-drowning-of-kell",
+      "to": "the-ashfall",
+      "kind": "precedes",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "the-drowning-of-kell",
+      "kind": "follows",
+      "declared": false
+    },
+    {
+      "from": "gorveks-creed",
+      "to": "streamlord",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "streamlord",
+      "to": "gorveks-creed",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "gorveks-creed",
+      "to": "bonereach",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "bonereach",
+      "to": "gorveks-creed",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "gorvek",
+      "to": "gorveks-creed",
+      "kind": "speaks",
+      "declared": true
+    },
+    {
+      "from": "gorveks-creed",
+      "to": "gorvek",
+      "kind": "spoken-by",
+      "declared": false
+    },
+    {
+      "from": "sarns-whisper",
+      "to": "streamlord",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "streamlord",
+      "to": "sarns-whisper",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "sarns-whisper",
+      "to": "iron-crown-of-kell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "sarns-whisper",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "sarns-whisper",
+      "kind": "speaks",
+      "declared": true
+    },
+    {
+      "from": "sarns-whisper",
+      "to": "sarn",
+      "kind": "spoken-by",
+      "declared": false
+    },
+    {
+      "from": "the-forge-and-the-eye",
+      "to": "streamlord",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "streamlord",
+      "to": "the-forge-and-the-eye",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "sarn",
+      "to": "the-forge-and-the-eye",
+      "kind": "speaks",
+      "declared": true
+    },
+    {
+      "from": "the-forge-and-the-eye",
+      "to": "sarn",
+      "kind": "spoken-by",
+      "declared": false
+    }
+  ],
+  "timeline": [
+    {
+      "year": -40,
+      "id": "the-drowning-of-kell",
+      "name": "The Drowning of Kell",
+      "summary": "The night Sarn took the three rubies from the Iron Crown and Kell went under by morning; forty years before the Ashfall lifted, and the reason there are Greycloaks."
+    },
+    {
+      "year": 0,
+      "id": "the-ashfall",
+      "name": "The Ashfall",
+      "summary": "The grey mist that came down over the north of Gallowmark and stayed a generation; the year it lifted is year zero of every calendar in the Mark."
+    }
+  ]
+}
