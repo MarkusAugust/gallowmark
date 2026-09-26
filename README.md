@@ -10,7 +10,7 @@ rules of writing it. [GRAPH.md](GRAPH.md) draws the relations.
 ## Layout
 
 ```
-characters/  places/  factions/  gods/  artifacts/  events/  stories/
+characters/  places/  factions/  gods/  artifacts/  events/  stories/  quotes/
     one Markdown file per entity; the file name is the id
 tools/lore.mjs         validate, build, check, new, list  (no dependencies)
 schema/lore.schema.json  JSON Schema for dist/lore.json
@@ -41,6 +41,27 @@ Prose. Link other entities with [[gorvek]].
 
 Events add `year:` (years since the Ashfall; negative is before). Stories add `speaker:`
 (an entity id) and `form:` (creed, whisper, chronicle, prose, verse).
+
+## A quote
+
+The one-liners a tool draws at random live in `quotes/`, one file each. The body is the
+text; `name` and `summary` are derived from it, so the frontmatter is only where it is used:
+
+```markdown
+---
+speaker: gorvek            # optional; an entity id
+pool: farewell             # where the tool uses it: farewell, initializing, scanning, analyzing, complete
+used-in: [linelord]        # the projects that draw from this pool
+status: canon
+tags: [nod]                # nod: a reference to the films or the old stories; see STYLE.md
+---
+
+Enough talk of code. The wind calls my name.
+```
+
+The export carries them twice: as entities, and as a flat `quotes` array
+(`{ id, text, speaker, pool, usedIn, status, tags }`) that a tool can filter by project and
+pool. Quotes are not drawn in GRAPH.md.
 
 Relations are written on one side only; the export carries the inverse (`stole` becomes
 `stolen-by` on the crown). Kinds: ally-of, enemy-of, rival-of, kin-of, born-in, lives-in,
@@ -104,7 +125,9 @@ const creed = lore.entities["gorveks-creed"].body;
 ## The first uses
 
 The Streamlord SDK takes its epigraphs from `stories/`, its narrator from [[sarn]] and its
-hero from [[gorvek]]. A game, one day, starts from the same file.
+hero from [[gorvek]]. LineLord takes its names from the canon and its farewells and analysis
+messages from `quotes/`, generated into its source by `bun run sync-lore` from this file. A
+game, one day, starts from the same file.
 
 ## License
 

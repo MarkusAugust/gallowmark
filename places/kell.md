@@ -15,6 +15,9 @@ Kell was the only city in [[gallowmark]] that deserved the word. Stone quays, a 
 roof of iron plates, and a king with a crown that held the three rivers in place: that is
 how the river-priests tell it, and they tell it with their hands over their mouths.
 
+The last king kept the ledger [[linelord]] in the iron-roofed hall and read it the winter
+before the night, looking for a wall that would hold. Brother [[nask]] was a boy on the quay.
+
 ## The night
 
 Then [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by

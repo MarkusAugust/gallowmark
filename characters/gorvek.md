@@ -11,6 +11,7 @@ relations:
   - { to: streamlord, kind: wields }
   - { to: greycloaks, kind: enemy-of }
   - { to: sarn, kind: rival-of }
+  - { to: vurn, kind: ally-of }
 ---
 
 ## Who
@@ -20,6 +21,9 @@ came down; he was a man when it lifted, and nobody in the village he walked back
 him what he had eaten in between. He is broad, scarred along the left forearm where a
 Greycloak's hook took a strip of him, and quiet in the way of people who have decided that
 most words are a kind of cowardice.
+
+His hands are scarred by fire, and he does not say which fire. He rides a grey mare he has
+not named, because naming is river-priest work.
 
 He does not read. He does not need to. He has a gift for knowing when a thing is lying to
 him, and machines lie less than men, which is why he tolerates them.
@@ -40,6 +44,8 @@ it and dislikes it.
 - He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they
   raise every winter and never pay.
 - He has met Sarn three times and seen a face none of the times.
+- He walked out of the grey beside [[vurn]], who tells the sagas Gorvek will not, and reads
+  him the ledger [[linelord]] that he says he does not need.
 
 ## Threads
 
