@@ -18,4 +18,4 @@ gets into the wound and stays.
 ## In the world
 
 - They are not [[the-kept]]. They were dead before the night. The coast folk say this is why
-  they are angry, and Brother [[nask]] says nothing, at length.
+  they are angry, and Brother [[ruun]] says nothing, at length.

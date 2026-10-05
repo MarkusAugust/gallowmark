@@ -18,7 +18,7 @@ down toward the hall, as if somebody had called them home.
 
 ## Voice
 
-None. Their mouths move. Brother [[nask]] says they are saying their names, so that the sea
+None. Their mouths move. Brother [[ruun]] says they are saying their names, so that the sea
 does not forget them, and that it never has.
 
 ## In the world

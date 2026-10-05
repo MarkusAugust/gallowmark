@@ -16,7 +16,7 @@ roof of iron plates, and a king with a crown that held the three rivers in place
 how the river-priests tell it, and they tell it with their hands over their mouths.
 
 The last king kept the ledger [[linelord]] in the iron-roofed hall and read it the winter
-before the night, looking for a wall that would hold. Brother [[nask]] was a boy on the quay.
+before the night, looking for a wall that would hold. Brother [[ruun]] was a boy on the quay.
 
 ## The night
 

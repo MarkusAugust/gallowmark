@@ -20,10 +20,10 @@ deeper each time, because the sea does.
 
 ## At the Head
 
-- [[kesk]] sells them iron on the shingle and buys back what they bring up.
-- Brother [[nask]] names what they bring up, for a price, on the sand, before the tide takes
+- [[barr]] sells them iron on the shingle and buys back what they bring up.
+- Brother [[ruun]] names what they bring up, for a price, on the sand, before the tide takes
   the name.
-- [[osk]] has come down from the rim of [[greyhollow]] with a stall of things from the grey.
+- [[mardra]] has come down from the rim of [[greyhollow]] with a stall of things from the grey.
   She takes payment in kind.
 - [[tolm]] sits in the door of the fort and tithes what comes up, and apologises for it.
 - The salt-pile takes what it is given. The coast folk say that sometimes, once, the sea

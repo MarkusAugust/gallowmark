@@ -14,6 +14,31 @@
     "quote"
   ],
   "entities": {
+    "barr": {
+      "id": "barr",
+      "type": "character",
+      "name": "Barr",
+      "aliases": [
+        "Barr of Wrackhead"
+      ],
+      "status": "draft",
+      "tags": [
+        "smith",
+        "merchant",
+        "coast"
+      ],
+      "summary": "The smith on the shingle below the fort at Wrackhead, who sells iron to everyone going down into Kell and buys back whatever comes up, and has not asked a question in eleven years.",
+      "epithet": "the Salt-Smith",
+      "relations": [
+        {
+          "to": "wrackhead",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nBarr keeps a forge on the shingle at [[wrackhead]], between the salt-pile and the fort,\nwhich is the only ground on the Head that nobody else wants. Hooks, knives, axes, lamp-cages,\nand mail with the grey dye scrubbed out of it: the [[greycloaks]] lose men on the\n[[quaysteps]] and Barr does not ask how the mail gets to him. Since [[the-ebb]] the forge has\nnot gone cold.\n\n## Voice\n\nPrices. Barr says the price, then the price again, slower, and then nothing. Ask him where\nsomething came from and he tells you what it weighs.\n\n## In the world\n\n- He buys back what comes up out of [[kell]] at a third of what he sells it for, and the\n  coast says that is fair, because he is the one who has to sell it to the fort.\n- [[rauk]] has never bought from him. He has never asked her why.",
+      "file": "characters/barr.md"
+    },
     "brim": {
       "id": "brim",
       "type": "character",
@@ -147,78 +172,12 @@
       "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHis hands are scarred by fire, and he does not say which fire. He rides a grey mare he has\nnot named, because naming is river-priest work.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n- He walked out of the grey beside [[vurn]], who tells the sagas Gorvek will not, and reads\n  him the ledger [[linelord]] that he says he does not need.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
       "file": "characters/gorvek.md"
     },
-    "kesk": {
-      "id": "kesk",
+    "mardra": {
+      "id": "mardra",
       "type": "character",
-      "name": "Kesk",
+      "name": "Mardra",
       "aliases": [
-        "Kesk of Wrackhead"
-      ],
-      "status": "draft",
-      "tags": [
-        "smith",
-        "merchant",
-        "coast"
-      ],
-      "summary": "The smith on the shingle below the fort at Wrackhead, who sells iron to everyone going down into Kell and buys back whatever comes up, and has not asked a question in eleven years.",
-      "epithet": "the Salt-Smith",
-      "relations": [
-        {
-          "to": "wrackhead",
-          "kind": "lives-in",
-          "declared": true
-        }
-      ],
-      "body": "## Who\n\nKesk keeps a forge on the shingle at [[wrackhead]], between the salt-pile and the fort,\nwhich is the only ground on the Head that nobody else wants. Hooks, knives, axes, lamp-cages,\nand mail with the grey dye scrubbed out of it: the [[greycloaks]] lose men on the\n[[quaysteps]] and Kesk does not ask how the mail gets to him. Since [[the-ebb]] the forge has\nnot gone cold.\n\n## Voice\n\nPrices. Kesk says the price, then the price again, slower, and then nothing. Ask him where\nsomething came from and he tells you what it weighs.\n\n## In the world\n\n- He buys back what comes up out of [[kell]] at a third of what he sells it for, and the\n  coast says that is fair, because he is the one who has to sell it to the fort.\n- [[rauk]] has never bought from him. He has never asked her why.",
-      "file": "characters/kesk.md"
-    },
-    "nask": {
-      "id": "nask",
-      "type": "character",
-      "name": "Nask",
-      "aliases": [
-        "Brother Nask",
-        "the Old Wet"
-      ],
-      "status": "canon",
-      "tags": [
-        "river-priest",
-        "namer",
-        "kell"
-      ],
-      "summary": "The last river-priest born in Kell, who was a boy on the quay the night Sarn came, and who has walked the drowned coast naming what the sea gives up ever since.",
-      "epithet": "of Kell",
-      "relations": [
-        {
-          "to": "river-priests",
-          "kind": "member-of",
-          "declared": true
-        },
-        {
-          "to": "thurn",
-          "kind": "worships",
-          "declared": true
-        },
-        {
-          "to": "kell",
-          "kind": "born-in",
-          "declared": true
-        },
-        {
-          "to": "the-drowning-of-kell",
-          "kind": "survived",
-          "declared": true
-        }
-      ],
-      "body": "## Who\n\nNask was born in [[kell]] when Kell had streets, and was on the quay the night the\n[[iron-crown-of-kell]] lost its stones. He was nine. He saw the water come up the steps\nand he did not see a face. He is old now, bent, and wet to the hip rather than the knee,\nbecause the coast is where he walks and the coast is where the sea takes back what it\ngave.\n\n## The names\n\nNask names what washes up. A plank, a bone, a child. He gave [[sarn]] no name; that was the\npriests upriver, and he has said it was the right name and the wrong year. He taught\n[[vell]] the names of the two rivers and was not consulted when Vell named [[the-ebb]]. He\nhas said nothing about that, at length.\n\n## Voice\n\nNames, never reasons, and slower than the young ones. Nask will answer a question the\nfollowing morning, on the shingle, with the name written in the wet sand, and let the tide\ntake it.\n\n## In the world\n\n- He goes down to the salt-pile at [[wrackhead]] once a year and names it, and the coast\n  folk do not ask him to stop.\n- He named the ledger the coast calls [[linelord]], and then did what the river-priests do\n  with the things they name: he stopped talking about it.\n\n## Threads\n\n- What did Nask see on the quay that was not a face?",
-      "file": "characters/nask.md"
-    },
-    "osk": {
-      "id": "osk",
-      "type": "character",
-      "name": "Osk",
-      "aliases": [
-        "Osk of the Hollow",
+        "Mardra of the Hollow",
         "the Ashwife"
       ],
       "status": "canon",
@@ -241,8 +200,8 @@
           "declared": true
         }
       ],
-      "body": "## Who\n\nOsk went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the mist, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the grey: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Osk says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nOsk explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]].\n\n## Threads\n\n- What did Osk find in the grey that made her stay?\n- Does she know where a ruby is?",
-      "file": "characters/osk.md"
+      "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the mist, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the grey: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]].\n\n## Threads\n\n- What did Mardra find in the grey that made her stay?\n- Does she know where a ruby is?",
+      "file": "characters/mardra.md"
     },
     "rauk": {
       "id": "rauk",
@@ -275,6 +234,47 @@
       ],
       "body": "## Who\n\nRauk is the best diver on the drowned coast, which means the best in the Mark, which means\nthe only one who has gone down through the iron roof of [[kell]]'s hall and come back up.\nShe is salt-marked: white lines on her arms where the deep cold got in and stayed. She is\nnot tall. She has broken a Greycloak's arm on the shingle at [[wrackhead]] and been forgiven\nfor it, which is rarer than the dive.\n\n## The crown\n\nShe has touched the [[iron-crown-of-kell]]. It is still on the king. She says the three\nsockets are empty and cold and the iron is warm, and she says nothing else about it, and she\nhas stopped going down. The coast folk say [[vorr]] told her something. Rauk says the sea\ndoes not talk. It keeps.\n\n## Voice\n\nRauk speaks like a diver: short, between breaths, saving the air. She does not swear by the\nAshfall, which never reached the coast. She swears by the pile.\n\n## In the world\n\n- She pulled [[brim]] out of the water at Wrackhead eleven years ago and has kept the child\n  since, and does not say what else came up with it.\n- Since [[the-ebb]] the [[greycloaks]] have offered her the fort's weight in coin to go down\n  once more. She has said no in a way they have accepted.\n\n## Threads\n\n- What is the warm iron?\n- Why has she stopped diving now that diving is getting easier?",
       "file": "characters/rauk.md"
+    },
+    "ruun": {
+      "id": "ruun",
+      "type": "character",
+      "name": "Ruun",
+      "aliases": [
+        "Brother Ruun",
+        "the Old Wet"
+      ],
+      "status": "canon",
+      "tags": [
+        "river-priest",
+        "namer",
+        "kell"
+      ],
+      "summary": "The last river-priest born in Kell, who was a boy on the quay the night Sarn came, and who has walked the drowned coast naming what the sea gives up ever since.",
+      "epithet": "of Kell",
+      "relations": [
+        {
+          "to": "river-priests",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "worships",
+          "declared": true
+        },
+        {
+          "to": "kell",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "the-drowning-of-kell",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nRuun was born in [[kell]] when Kell had streets, and was on the quay the night the\n[[iron-crown-of-kell]] lost its stones. He was nine. He saw the water come up the steps\nand he did not see a face. He is old now, bent, and wet to the hip rather than the knee,\nbecause the coast is where he walks and the coast is where the sea takes back what it\ngave.\n\n## The names\n\nRuun names what washes up. A plank, a bone, a child. He gave [[sarn]] no name; that was the\npriests upriver, and he has said it was the right name and the wrong year. He taught\n[[vell]] the names of the two rivers and was not consulted when Vell named [[the-ebb]]. He\nhas said nothing about that, at length.\n\n## Voice\n\nNames, never reasons, and slower than the young ones. Ruun will answer a question the\nfollowing morning, on the shingle, with the name written in the wet sand, and let the tide\ntake it.\n\n## In the world\n\n- He goes down to the salt-pile at [[wrackhead]] once a year and names it, and the coast\n  folk do not ask him to stop.\n- He named the ledger the coast calls [[linelord]], and then did what the river-priests do\n  with the things they name: he stopped talking about it.\n\n## Threads\n\n- What did Ruun see on the quay that was not a face?",
+      "file": "characters/ruun.md"
     },
     "sarn": {
       "id": "sarn",
@@ -668,7 +668,7 @@
       "summary": "A hollow in the eastern hills where the Ashfall never lifted; the grey stands in it like milk in a bowl, and what walks out is never quite what walked in.",
       "relations": [
         {
-          "to": "osk",
+          "to": "mardra",
           "kind": "home-of",
           "declared": false
         },
@@ -683,7 +683,7 @@
           "declared": true
         }
       ],
-      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the grey stayed. From the rim you\ncan see it: [[the-ashfall]], a generation late, lying in the hollow like milk in a bowl and\nnot moving with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[osk]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the grey. Osk says it is the first, and that the\nrest of the Ashfall was only spillage.\n\n## Threads\n\n- Does the grey in the Hollow rise when the sea goes out?",
+      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the grey stayed. From the rim you\ncan see it: [[the-ashfall]], a generation late, lying in the hollow like milk in a bowl and\nnot moving with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the grey. Mardra says it is the first, and that the\nrest of the Ashfall was only spillage.\n\n## Threads\n\n- Does the grey in the Hollow rise when the sea goes out?",
       "file": "places/greyhollow.md"
     },
     "hangmoot": {
@@ -770,7 +770,7 @@
       "summary": "The old royal city on the drowned coast, seat of the Iron Crown, which came apart the night Sarn took the rubies and has been sinking ever since.",
       "relations": [
         {
-          "to": "nask",
+          "to": "ruun",
           "kind": "birthplace-of",
           "declared": false
         },
@@ -835,7 +835,7 @@
           "declared": false
         }
       ],
-      "body": "## The city\n\nKell was the only city in [[gallowmark]] that deserved the word. Stone quays, a hall with a\nroof of iron plates, and a king with a crown that held the three rivers in place: that is\nhow the river-priests tell it, and they tell it with their hands over their mouths.\n\nThe last king kept the ledger [[linelord]] in the iron-roofed hall and read it the winter\nbefore the night, looking for a wall that would hold. Brother [[nask]] was a boy on the quay.\n\n## The night\n\nThen [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by\nmorning the quays were under water and the king was under the quays. Whether the crown held\nthe sea back or only the people's belief that it did, the result is the same: Kell is a place\nyou sail over.\n\n## Now\n\nOld Kell is a name the coast people still use for the water where the city was. The\n[[greycloaks]] say they will raise it. They have said so for forty years.",
+      "body": "## The city\n\nKell was the only city in [[gallowmark]] that deserved the word. Stone quays, a hall with a\nroof of iron plates, and a king with a crown that held the three rivers in place: that is\nhow the river-priests tell it, and they tell it with their hands over their mouths.\n\nThe last king kept the ledger [[linelord]] in the iron-roofed hall and read it the winter\nbefore the night, looking for a wall that would hold. Brother [[ruun]] was a boy on the quay.\n\n## The night\n\nThen [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by\nmorning the quays were under water and the king was under the quays. Whether the crown held\nthe sea back or only the people's belief that it did, the result is the same: Kell is a place\nyou sail over.\n\n## Now\n\nOld Kell is a name the coast people still use for the water where the city was. The\n[[greycloaks]] say they will raise it. They have said so for forty years.",
       "file": "places/kell.md"
     },
     "lowstreets": {
@@ -1020,12 +1020,12 @@
       "summary": "The headland over the drowned city, where the Greycloaks' first fort stands, the coast folk keep the salt-pile for Vorr, and the wreckers dive Old Kell for what the sea has not kept.",
       "relations": [
         {
-          "to": "brim",
+          "to": "barr",
           "kind": "home-of",
           "declared": false
         },
         {
-          "to": "kesk",
+          "to": "brim",
           "kind": "home-of",
           "declared": false
         },
@@ -1124,7 +1124,7 @@
       "summary": "The barefoot priesthood of the river-god Thurn, keepers of the names, who alone dare call Sarn the Lord of Streams and who say all the grey rivers are one.",
       "relations": [
         {
-          "to": "nask",
+          "to": "ruun",
           "kind": "has-member",
           "declared": false
         },
@@ -1211,7 +1211,7 @@
       "summary": "The river-god of Gallowmark, the one grey river that pretends to be many; cold, patient, and the only god whose priests are taken seriously by people who trust nothing.",
       "relations": [
         {
-          "to": "nask",
+          "to": "ruun",
           "kind": "worshipped-by",
           "declared": false
         },
@@ -1368,7 +1368,7 @@
           "declared": false
         }
       ],
-      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[nask]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## Threads\n\n- Where is the ledger now, and did it drown with the hall?",
+      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## Threads\n\n- Where is the ledger now, and did it drown with the hall?",
       "file": "artifacts/linelord.md"
     },
     "streamlord": {
@@ -1594,7 +1594,7 @@
           "declared": false
         }
       ],
-      "body": "## What\n\n[[vorr]] keeps what the sea takes, and the sea took [[kell]] whole. The people are still\nin it. At low water they stand in their doorways in the [[lowstreets]] with the silt to their\nknees, as still as the bollards. When the flood comes back they wake and walk with it,\ndown toward the hall, as if somebody had called them home.\n\n## Voice\n\nNone. Their mouths move. Brother [[nask]] says they are saying their names, so that the sea\ndoes not forget them, and that it never has.\n\n## In the world\n\n- The coast folk do not call them dead. They call them kept, and pay the salt-pile, and do\n  not ask.",
+      "body": "## What\n\n[[vorr]] keeps what the sea takes, and the sea took [[kell]] whole. The people are still\nin it. At low water they stand in their doorways in the [[lowstreets]] with the silt to their\nknees, as still as the bollards. When the flood comes back they wake and walk with it,\ndown toward the hall, as if somebody had called them home.\n\n## Voice\n\nNone. Their mouths move. Brother [[ruun]] says they are saying their names, so that the sea\ndoes not forget them, and that it never has.\n\n## In the world\n\n- The coast folk do not call them dead. They call them kept, and pay the salt-pile, and do\n  not ask.",
       "file": "creatures/the-kept.md"
     },
     "the-quaywatch": {
@@ -1690,7 +1690,7 @@
           "declared": true
         }
       ],
-      "body": "## What\n\nKell salted the dead it was proud of and shelved them in the [[brinevaults]] under the\nhall, because salt keeps. The sea got in and the salt drank it, and the shelved dead are\nstanding up. They are slow and they are hard as cured hide, and where they strike the salt\ngets into the wound and stays.\n\n## In the world\n\n- They are not [[the-kept]]. They were dead before the night. The coast folk say this is why\n  they are angry, and Brother [[nask]] says nothing, at length.",
+      "body": "## What\n\nKell salted the dead it was proud of and shelved them in the [[brinevaults]] under the\nhall, because salt keeps. The sea got in and the salt drank it, and the shelved dead are\nstanding up. They are slow and they are hard as cured hide, and where they strike the salt\ngets into the wound and stays.\n\n## In the world\n\n- They are not [[the-kept]]. They were dead before the night. The coast folk say this is why\n  they are angry, and Brother [[ruun]] says nothing, at length.",
       "file": "creatures/the-salted.md"
     },
     "the-ashfall": {
@@ -1716,7 +1716,7 @@
           "declared": false
         },
         {
-          "to": "osk",
+          "to": "mardra",
           "kind": "survived-by",
           "declared": false
         },
@@ -1770,7 +1770,7 @@
       "year": -40,
       "relations": [
         {
-          "to": "nask",
+          "to": "ruun",
           "kind": "survived-by",
           "declared": false
         },
@@ -1831,7 +1831,7 @@
           "declared": false
         }
       ],
-      "body": "## What is happening\n\nIn the first winter after the grey lifted, the sea went out from Old [[kell]] on the low\ntide and did not come all the way back. Every month since, it has gone a little further. The\nquay-stones of the drowned city are showing below [[wrackhead]]. On a still day the iron\nroof of the hall stands clear of the water for an hour. Nobody has walked to it yet.\nEverybody is going to.\n\n## Three gods, one name\n\n[[vell]] named it the Ebb before the coast had noticed, and the [[river-priests]] say\n[[thurn]] is calling the rivers home to their beds. The coast folk say [[vorr]] is opening\nhis mouth to give something back. The hangmen of [[hangmoot]] say a rope that went slack\nforty-one years ago is being drawn tight from the other end, and that [[hask]] does not draw\na rope for nothing. All three are pointing at the same iron hall and the three empty sockets\nin it.\n\n## Who is moving\n\n- The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for\n  them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the\n  [[wallgate]] for the first time since the grey.\n- [[gorvek]] has been told by Vell what he carries and has turned toward the coast. He has\n  not said why.\n- [[osk]] has begun selling things from the grey that she says came up out of Kell.\n- [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.\n- [[sarn]] narrates. Sarn always did. Sarn has started narrating this.\n\n## What it binds\n\nEvery gallows, every river, every fort and every debt in the Mark is drawn tight toward one\niron hall standing up out of the salt. The [[iron-crown-of-kell]] held the world together by\nbeing believed in. The sea is about to show everyone whether it is still there.\n\n## Threads\n\n- How far out does the sea go?\n- What is at the low-water mark when it stops?",
+      "body": "## What is happening\n\nIn the first winter after the grey lifted, the sea went out from Old [[kell]] on the low\ntide and did not come all the way back. Every month since, it has gone a little further. The\nquay-stones of the drowned city are showing below [[wrackhead]]. On a still day the iron\nroof of the hall stands clear of the water for an hour. Nobody has walked to it yet.\nEverybody is going to.\n\n## Three gods, one name\n\n[[vell]] named it the Ebb before the coast had noticed, and the [[river-priests]] say\n[[thurn]] is calling the rivers home to their beds. The coast folk say [[vorr]] is opening\nhis mouth to give something back. The hangmen of [[hangmoot]] say a rope that went slack\nforty-one years ago is being drawn tight from the other end, and that [[hask]] does not draw\na rope for nothing. All three are pointing at the same iron hall and the three empty sockets\nin it.\n\n## Who is moving\n\n- The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for\n  them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the\n  [[wallgate]] for the first time since the grey.\n- [[gorvek]] has been told by Vell what he carries and has turned toward the coast. He has\n  not said why.\n- [[mardra]] has begun selling things from the grey that she says came up out of Kell.\n- [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.\n- [[sarn]] narrates. Sarn always did. Sarn has started narrating this.\n\n## What it binds\n\nEvery gallows, every river, every fort and every debt in the Mark is drawn tight toward one\niron hall standing up out of the salt. The [[iron-crown-of-kell]] held the world together by\nbeing believed in. The sea is about to show everyone whether it is still there.\n\n## Threads\n\n- How far out does the sea go?\n- What is at the low-water mark when it stops?",
       "file": "events/the-ebb.md"
     },
     "the-walk-to-the-hall": {
@@ -1872,7 +1872,7 @@
           "declared": false
         }
       ],
-      "body": "## What is happening\n\nSince [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,\nwreckers from the coast, novices who left [[hookford]] without asking: they come with a\nknife and a lamp, and they go down the [[quaysteps]] at low water, and they go a little\ndeeper each time, because the sea does.\n\n## At the Head\n\n- [[kesk]] sells them iron on the shingle and buys back what they bring up.\n- Brother [[nask]] names what they bring up, for a price, on the sand, before the tide takes\n  the name.\n- [[osk]] has come down from the rim of [[greyhollow]] with a stall of things from the grey.\n  She takes payment in kind.\n- [[tolm]] sits in the door of the fort and tithes what comes up, and apologises for it.\n- The salt-pile takes what it is given. The coast folk say that sometimes, once, the sea\n  gives you back.\n- [[rauk]] does not go down. She will tell you how, between breaths, if you ask.\n\n## Where it goes\n\nDown: through the [[lowstreets]] and the [[brinevaults]] to [[the-iron-hall]], where the\nledger [[linelord]] lies, and out through the iron roof at low water, if you are lucky.\n[[sarn]] narrates every walk.\n\n## Threads\n\n- Who was first into the hall, and did they come back out?",
+      "body": "## What is happening\n\nSince [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,\nwreckers from the coast, novices who left [[hookford]] without asking: they come with a\nknife and a lamp, and they go down the [[quaysteps]] at low water, and they go a little\ndeeper each time, because the sea does.\n\n## At the Head\n\n- [[barr]] sells them iron on the shingle and buys back what they bring up.\n- Brother [[ruun]] names what they bring up, for a price, on the sand, before the tide takes\n  the name.\n- [[mardra]] has come down from the rim of [[greyhollow]] with a stall of things from the grey.\n  She takes payment in kind.\n- [[tolm]] sits in the door of the fort and tithes what comes up, and apologises for it.\n- The salt-pile takes what it is given. The coast folk say that sometimes, once, the sea\n  gives you back.\n- [[rauk]] does not go down. She will tell you how, between breaths, if you ask.\n\n## Where it goes\n\nDown: through the [[lowstreets]] and the [[brinevaults]] to [[the-iron-hall]], where the\nledger [[linelord]] lies, and out through the iron roof at low water, if you are lucky.\n[[sarn]] narrates every walk.\n\n## Threads\n\n- Who was first into the hall, and did they come back out?",
       "file": "events/the-walk-to-the-hall.md"
     },
     "five-rites": {
@@ -2228,7 +2228,7 @@
       "status": "draft",
       "tags": [],
       "summary": "A lamp-cage holds the flame in the wet. Twelve marks. Twelve.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -2264,7 +2264,7 @@
       "status": "draft",
       "tags": [],
       "summary": "A merchant takes what you agree to. A thief takes what you do not. Ask the priests which I am. They do not know either.",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -3022,7 +3022,7 @@
       "status": "draft",
       "tags": [],
       "summary": "Do not ask why. Ask what. What is the only question I answer.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -3094,7 +3094,7 @@
       "status": "draft",
       "tags": [],
       "summary": "Everything I tell you is true. That is why it costs.",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -3184,7 +3184,7 @@
       "status": "draft",
       "tags": [],
       "summary": "Forty marks. Forty. Marks.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -3446,7 +3446,7 @@
       "status": "draft",
       "tags": [],
       "summary": "I do not want your coin. I want the thing you did not know you had. You will find out what it was.",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -3890,7 +3890,7 @@
       "status": "draft",
       "tags": [],
       "summary": "Mail. The dye is out. Do not ask whose.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -3971,24 +3971,6 @@
       "relations": [],
       "body": "My part in this digital tapestry is woven. Until the pattern calls for me again.",
       "file": "quotes/my-part-in-this-digital-tapestry.md"
-    },
-    "nask-writes-the-name-in-the": {
-      "id": "nask-writes-the-name-in-the",
-      "type": "quote",
-      "name": "Nask writes the name in the…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Nask writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
-      "speaker": "nask",
-      "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Nask writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
-      "relations": [],
-      "body": "Nask writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
-      "file": "quotes/nask-writes-the-name-in-the.md"
     },
     "no-coder-should-be-shackled-to": {
       "id": "no-coder-should-be-shackled-to",
@@ -4187,6 +4169,24 @@
       "relations": [],
       "body": "Ruby gems of repository data sparkle...",
       "file": "quotes/ruby-gems-of-repository-data-sparkle.md"
+    },
+    "ruun-writes-the-name-in-the": {
+      "id": "ruun-writes-the-name-in-the",
+      "type": "quote",
+      "name": "Ruun writes the name in the…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "speaker": "ruun",
+      "pool": "naming",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "relations": [],
+      "body": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "file": "quotes/ruun-writes-the-name-in-the.md"
     },
     "salt-in-a-wound-stays-wash": {
       "id": "salt-in-a-wound-stays-wash",
@@ -4448,7 +4448,7 @@
       "status": "draft",
       "tags": [],
       "summary": "That is not a stone. That has a name, and now you have it.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -4466,7 +4466,7 @@
       "status": "draft",
       "tags": [],
       "summary": "That weighs what it weighs. I will give you a third of it.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -6384,7 +6384,7 @@
       "status": "draft",
       "tags": [],
       "summary": "Things that have names can be held. Things that do not, hold you.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -6402,7 +6402,7 @@
       "status": "draft",
       "tags": [],
       "summary": "This came up out of Kell. So did you, nearly. Shall we trade?",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -6714,7 +6714,7 @@
       "status": "draft",
       "tags": [],
       "summary": "Tomorrow. On the shingle. The name will be there until the water comes.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -7663,6 +7663,18 @@
   },
   "relations": [
     {
+      "from": "barr",
+      "to": "wrackhead",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "wrackhead",
+      "to": "barr",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
       "from": "brim",
       "to": "wrackhead",
       "kind": "lives-in",
@@ -7795,86 +7807,26 @@
       "declared": false
     },
     {
-      "from": "kesk",
-      "to": "wrackhead",
-      "kind": "lives-in",
-      "declared": true
-    },
-    {
-      "from": "wrackhead",
-      "to": "kesk",
-      "kind": "home-of",
-      "declared": false
-    },
-    {
-      "from": "nask",
-      "to": "river-priests",
-      "kind": "member-of",
-      "declared": true
-    },
-    {
-      "from": "river-priests",
-      "to": "nask",
-      "kind": "has-member",
-      "declared": false
-    },
-    {
-      "from": "nask",
-      "to": "thurn",
-      "kind": "worships",
-      "declared": true
-    },
-    {
-      "from": "thurn",
-      "to": "nask",
-      "kind": "worshipped-by",
-      "declared": false
-    },
-    {
-      "from": "nask",
-      "to": "kell",
-      "kind": "born-in",
-      "declared": true
-    },
-    {
-      "from": "kell",
-      "to": "nask",
-      "kind": "birthplace-of",
-      "declared": false
-    },
-    {
-      "from": "nask",
-      "to": "the-drowning-of-kell",
-      "kind": "survived",
-      "declared": true
-    },
-    {
-      "from": "the-drowning-of-kell",
-      "to": "nask",
-      "kind": "survived-by",
-      "declared": false
-    },
-    {
-      "from": "osk",
+      "from": "mardra",
       "to": "greyhollow",
       "kind": "lives-in",
       "declared": true
     },
     {
       "from": "greyhollow",
-      "to": "osk",
+      "to": "mardra",
       "kind": "home-of",
       "declared": false
     },
     {
-      "from": "osk",
+      "from": "mardra",
       "to": "the-ashfall",
       "kind": "survived",
       "declared": true
     },
     {
       "from": "the-ashfall",
-      "to": "osk",
+      "to": "mardra",
       "kind": "survived-by",
       "declared": false
     },
@@ -7900,6 +7852,54 @@
       "from": "brim",
       "to": "rauk",
       "kind": "kin-of",
+      "declared": false
+    },
+    {
+      "from": "ruun",
+      "to": "river-priests",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "river-priests",
+      "to": "ruun",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "ruun",
+      "to": "thurn",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "ruun",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "ruun",
+      "to": "kell",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "ruun",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "ruun",
+      "to": "the-drowning-of-kell",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-drowning-of-kell",
+      "to": "ruun",
+      "kind": "survived-by",
       "declared": false
     },
     {
@@ -9007,7 +9007,7 @@
     {
       "id": "a-lamp-cage-holds-the-flame-in",
       "text": "A lamp-cage holds the flame in the wet. Twelve marks. Twelve.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -9029,7 +9029,7 @@
     {
       "id": "a-merchant-takes-what-you-agree",
       "text": "A merchant takes what you agree to. A thief takes what you do not. Ask the priests which I am. They do not know either.",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -9507,7 +9507,7 @@
     {
       "id": "do-not-ask-why-ask-what",
       "text": "Do not ask why. Ask what. What is the only question I answer.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -9551,7 +9551,7 @@
     {
       "id": "everything-i-tell-you-is-true",
       "text": "Everything I tell you is true. That is why it costs.",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -9606,7 +9606,7 @@
     {
       "id": "forty-marks-forty-marks",
       "text": "Forty marks. Forty. Marks.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -9770,7 +9770,7 @@
     {
       "id": "i-do-not-want-your-coin",
       "text": "I do not want your coin. I want the thing you did not know you had. You will find out what it was.",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -10046,7 +10046,7 @@
     {
       "id": "mail-the-dye-is-out-do",
       "text": "Mail. The dye is out. Do not ask whose.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -10096,17 +10096,6 @@
         "linelord"
       ],
       "status": "canon",
-      "tags": []
-    },
-    {
-      "id": "nask-writes-the-name-in-the",
-      "text": "Nask writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
-      "speaker": "nask",
-      "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
       "tags": []
     },
     {
@@ -10228,6 +10217,17 @@
         "linelord"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "ruun-writes-the-name-in-the",
+      "text": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "speaker": "ruun",
+      "pool": "naming",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -10387,7 +10387,7 @@
     {
       "id": "that-is-not-a-stone-that",
       "text": "That is not a stone. That has a name, and now you have it.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -10398,7 +10398,7 @@
     {
       "id": "that-weighs-what-it-weighs-i",
       "text": "That weighs what it weighs. I will give you a third of it.",
-      "speaker": "kesk",
+      "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
@@ -11595,7 +11595,7 @@
     {
       "id": "things-that-have-names-can-be",
       "text": "Things that have names can be held. Things that do not, hold you.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
@@ -11606,7 +11606,7 @@
     {
       "id": "this-came-up-out-of-kell",
       "text": "This came up out of Kell. So did you, nearly. Shall we trade?",
-      "speaker": "osk",
+      "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
@@ -11799,7 +11799,7 @@
     {
       "id": "tomorrow-on-the-shingle-the-name",
       "text": "Tomorrow. On the shingle. The name will be there until the water comes.",
-      "speaker": "nask",
+      "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
