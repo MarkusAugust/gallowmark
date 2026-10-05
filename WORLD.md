@@ -47,6 +47,18 @@ is going out from the drowned city, and everyone is walking toward it.
 | [[nask]] | The old river-priest born in Kell | Was on the quay the night; names what washes up |
 | [[vurn]] | The other Ashborn | Tells the sagas Gorvek will not; the voice of LineLord's farewells |
 
+## In draft: the descent
+
+Not canon yet. Everything below is `status: draft`, written for the game on LineLord's site.
+
+| Who or where | What | Pull |
+|---|---|---|
+| [[the-walk-to-the-hall]] | The coast in the first years of the Ebb | Everyone goes down at low water |
+| [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ten flights to the ledger |
+| [[kesk]] | The salt-smith at Wrackhead | Iron down, salvage up |
+| [[shinglers]], [[pickers]], [[the-kept]], [[the-quaywatch]], [[gapes]], [[the-salted]], [[the-drawn]], [[the-salt-mouth]] | The creatures of the descent | What the sea kept, and what keeps it |
+| [[the-descent]] | Sarn's whisper at the top of the steps | The way in, and the price |
+
 ## The theme
 
 Things held in place by belief are held in place by nothing. Streams obey the one who means

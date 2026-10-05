@@ -7,6 +7,7 @@ graph LR
   brim["Brim"]
   drusk["Drusk"]
   gorvek["Gorvek"]
+  kesk["Kesk"]
   nask["Nask"]
   osk["Osk"]
   rauk["Rauk"]
@@ -15,11 +16,15 @@ graph LR
   vell["Vell"]
   vurn["Vurn"]
   bonereach["Bonereach"]
+  brinevaults["The Brinevaults"]
   gallowmark["Gallowmark"]
   greyhollow["Greyhollow"]
   hangmoot["Hangmoot"]
   hookford["Hookford"]
   kell["Kell"]
+  lowstreets["The Lowstreets"]
+  quaysteps["The Quaysteps"]
+  the-iron-hall["The Iron Hall"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
   greycloaks["The Greycloaks"]
@@ -30,13 +35,23 @@ graph LR
   iron-crown-of-kell["The Iron Crown of Kell"]
   linelord["LineLord"]
   streamlord["Streamlord"]
+  gapes["Gapes"]
+  pickers["The Pickers"]
+  shinglers["Shinglers"]
+  the-drawn["The Drawn"]
+  the-kept["The Kept"]
+  the-quaywatch["The Quaywatch"]
+  the-salt-mouth["The Salt Mouth"]
+  the-salted["The Salted"]
   the-ashfall["The Ashfall"]
   the-drowning-of-kell["The Drowning of Kell"]
   the-ebb["The Ebb"]
+  the-walk-to-the-hall["The Walk to the Hall"]
   five-rites["Five Rites"]
   gorveks-creed["Gorvek's Creed"]
   know-this["Know This"]
   sarns-whisper["Sarn's Whisper"]
+  the-descent["The Descent"]
   the-forge-and-the-eye["The Forge and the Eye"]
   the-siege["The Siege"]
   what-is-best-in-code["What Is Best in Code"]
@@ -51,6 +66,7 @@ graph LR
   gorvek -- enemy-of --> greycloaks
   gorvek -- rival-of --> sarn
   gorvek -- ally-of --> vurn
+  kesk -- lives-in --> wrackhead
   nask -- member-of --> river-priests
   nask -- worships --> thurn
   nask -- born-in --> kell
@@ -73,6 +89,7 @@ graph LR
   vurn -- survived --> the-ashfall
   bonereach -- located-in --> gallowmark
   bonereach -- survived --> the-ashfall
+  brinevaults -- located-in --> kell
   gallowmark -- contains --> kell
   gallowmark -- home-of --> greycloaks
   greyhollow -- located-in --> gallowmark
@@ -80,6 +97,9 @@ graph LR
   hangmoot -- located-in --> gallowmark
   hookford -- located-in --> gallowmark
   kell -- created --> iron-crown-of-kell
+  lowstreets -- located-in --> kell
+  quaysteps -- located-in --> kell
+  the-iron-hall -- located-in --> kell
   wallgate -- located-in --> gallowmark
   wrackhead -- located-in --> gallowmark
   greycloaks -- guards --> kell
@@ -94,12 +114,32 @@ graph LR
   linelord -- named-by --> river-priests
   linelord -- created-by --> kell
   streamlord -- named-by --> river-priests
+  gapes -- serves --> vorr
+  gapes -- haunts --> lowstreets
+  gapes -- haunts --> brinevaults
+  pickers -- born-in --> wrackhead
+  pickers -- haunts --> quaysteps
+  pickers -- haunts --> lowstreets
+  shinglers -- haunts --> quaysteps
+  the-drawn -- serves --> hask
+  the-drawn -- haunts --> brinevaults
+  the-kept -- serves --> vorr
+  the-kept -- haunts --> lowstreets
+  the-quaywatch -- member-of --> the-kept
+  the-quaywatch -- haunts --> quaysteps
+  the-quaywatch -- haunts --> lowstreets
+  the-salt-mouth -- serves --> vorr
+  the-salt-mouth -- haunts --> the-iron-hall
+  the-salted -- haunts --> brinevaults
   the-ashfall -- destroyed --> bonereach
   the-drowning-of-kell -- destroyed --> kell
   the-drowning-of-kell -- caused-by --> sarn
   the-drowning-of-kell -- precedes --> the-ashfall
   the-ebb -- follows --> the-ashfall
   the-ebb -- named-by --> vell
+  the-walk-to-the-hall -- follows --> the-ebb
+  the-walk-to-the-hall -- features --> wrackhead
+  the-walk-to-the-hall -- features --> the-iron-hall
   five-rites -- features --> streamlord
   sarn -- speaks --> five-rites
   gorveks-creed -- features --> streamlord
@@ -112,6 +152,10 @@ graph LR
   sarns-whisper -- features --> streamlord
   sarns-whisper -- features --> iron-crown-of-kell
   sarn -- speaks --> sarns-whisper
+  the-descent -- features --> the-walk-to-the-hall
+  the-descent -- features --> the-iron-hall
+  the-descent -- features --> linelord
+  sarn -- speaks --> the-descent
   the-forge-and-the-eye -- features --> streamlord
   sarn -- speaks --> the-forge-and-the-eye
   the-siege -- features --> streamlord

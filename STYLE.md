@@ -6,6 +6,9 @@
   words for places (Gallowmark, Bonereach). If a name is soft or long, it is wrong.
 - Invented, always. No names, places, gods, orders or artifacts from any published setting,
   game, book or film. If a name turns out to exist elsewhere, change it.
+- Creatures are named for what they do or what was done to them (the Kept, the Drawn,
+  Shinglers, Gapes), never for a monster from another table. No ghouls, no wights, no
+  krakens: if the word has a bestiary entry somewhere else, it is wrong here.
 - English is the language of the canon. Nordic roots are welcome as long as the word does
   not mean something silly in Norwegian.
 

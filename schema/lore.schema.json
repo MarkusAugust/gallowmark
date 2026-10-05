@@ -102,6 +102,7 @@
             "faction",
             "god",
             "artifact",
+            "creature",
             "event",
             "story",
             "quote"
