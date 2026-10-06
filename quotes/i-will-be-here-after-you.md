@@ -2,7 +2,7 @@
 speaker: sethra
 pool: sethra-yields
 used-in: [descent]
-status: draft
+status: canon
 tags: [conquest]
 ---
 

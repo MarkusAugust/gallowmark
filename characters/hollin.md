@@ -2,7 +2,7 @@
 name: Hollin
 epithet: the First Down
 aliases: [Holder of the Quaysteps, Hollin of the Steps]
-status: draft
+status: canon
 tags: [holder, picker, descent, conquest]
 summary: The picker who went down the Quaysteps the first winter of the Ebb, before anyone else dared, and has held them since on no better grounds than that she was first.
 relations:

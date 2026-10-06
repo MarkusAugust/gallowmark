@@ -2,7 +2,7 @@
 name: Jarn
 epithet: the Linelord
 aliases: [The Linelord, Jarn of the Shingle]
-status: draft
+status: canon
 tags: [title, holder, coast, conquest]
 summary: The one the ledger names as holding the most ground in the Mark, and so the Linelord; he holds the shingle under Wrackhead, and at every low water draws a line across the sand with an iron blade from Kell.
 relations:

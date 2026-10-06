@@ -2,7 +2,7 @@
 speaker: sarn
 pool: wrack
 used-in: [descent]
-status: draft
+status: canon
 tags: [conquest]
 ---
 

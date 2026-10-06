@@ -2,7 +2,7 @@
 speaker: hollin
 pool: hollin
 used-in: [descent]
-status: draft
+status: canon
 tags: [conquest]
 ---
 

@@ -2,7 +2,7 @@
 speaker: grue
 pool: grue-yields
 used-in: [descent]
-status: draft
+status: canon
 tags: [conquest]
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: Your Wrack
 aliases: [the wrack, what the sea gave back]
-status: draft
+status: canon
 tags: [creature, descent, conquest, ebb]
 summary: What the sea gives back of those who went down into Kell and did not come up, yours among them; each holds the ground it fell on and what it carried, and does not remember losing it.
 relations:

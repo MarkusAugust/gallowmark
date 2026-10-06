@@ -2,7 +2,7 @@
 name: Grue
 epithet: the Toll
 aliases: [Lord of the Lowstreets, the Man at the Narrow]
-status: draft
+status: canon
 tags: [holder, toll, descent, conquest]
 summary: The coast man who took the one toll-house in the Lowstreets that kept its roof, and has charged everyone who goes past it a tenth ever since; he has never gone deeper, because he has never needed to.
 relations:

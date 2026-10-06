@@ -2,7 +2,7 @@
 name: Sethra
 epithet: the Patient
 aliases: [Keeper of the Brinevaults, the One After]
-status: draft
+status: canon
 tags: [holder, scavenger, descent, conquest]
 summary: The woman who waits in the Brinevaults while others go deeper, and takes what they carried when they do not come back; she holds the vaults by outliving everyone who passes through them.
 relations:

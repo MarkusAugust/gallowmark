@@ -2,7 +2,7 @@
 name: Corve
 epithet: the Rust-Sitter
 aliases: [Old Corve, Sitter in the Iron Hall]
-status: draft
+status: canon
 tags: [holder, warrior, descent, conquest, grey]
 summary: The warrior who reached the Iron Hall before anyone living and sat down beside the drowned king and the ledger; his armour has rusted shut on him, the grey has taken most of what he was, and the ledger counts him on every page.
 relations:

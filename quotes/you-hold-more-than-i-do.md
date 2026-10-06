@@ -2,7 +2,7 @@
 speaker: jarn
 pool: linelord-won
 used-in: [descent]
-status: draft
+status: canon
 tags: [conquest]
 ---
 

@@ -84,7 +84,7 @@
         "Old Corve",
         "Sitter in the Iron Hall"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "holder",
         "warrior",
@@ -218,7 +218,7 @@
         "Lord of the Lowstreets",
         "the Man at the Narrow"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "holder",
         "toll",
@@ -255,7 +255,7 @@
         "Holder of the Quaysteps",
         "Hollin of the Steps"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "holder",
         "picker",
@@ -297,7 +297,7 @@
         "The Linelord",
         "Jarn of the Shingle"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "title",
         "holder",
@@ -546,7 +546,7 @@
         "Keeper of the Brinevaults",
         "the One After"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "holder",
         "scavenger",
@@ -1904,7 +1904,7 @@
         "the wrack",
         "what the sea gave back"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "descent",
@@ -2541,7 +2541,7 @@
       "type": "quote",
       "name": "A tenth. Of you, if you…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3301,7 +3301,7 @@
       "type": "quote",
       "name": "Did you mean to?",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Did you mean to?",
       "speaker": "jarn",
@@ -3445,7 +3445,7 @@
       "type": "quote",
       "name": "Everything in these vaults was carried…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3483,7 +3483,7 @@
       "type": "quote",
       "name": "First down, first up. You are…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3575,7 +3575,7 @@
       "type": "quote",
       "name": "Forty years in this chair. The…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3595,7 +3595,7 @@
       "type": "quote",
       "name": "Go on, then. The door was…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3805,7 +3805,7 @@
       "type": "quote",
       "name": "Held. Not earned. The ledger does…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3843,7 +3843,7 @@
       "type": "quote",
       "name": "I counted these steps before the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3863,7 +3863,7 @@
       "type": "quote",
       "name": "I do not stop anyone. I…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -3991,7 +3991,7 @@
       "type": "quote",
       "name": "I will be here after you.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -4437,7 +4437,7 @@
       "type": "quote",
       "name": "Nobody goes down past my door.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -4511,7 +4511,7 @@
       "type": "quote",
       "name": "Old ground, and yours. It is…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -4711,7 +4711,7 @@
       "type": "quote",
       "name": "Sit, if you can stand up…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -4767,7 +4767,7 @@
       "type": "quote",
       "name": "Someone held it longer. That is…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -4913,7 +4913,7 @@
       "type": "quote",
       "name": "Take the chair. It will take…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -4933,7 +4933,7 @@
       "type": "quote",
       "name": "Take them, then. Count them every…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -5007,7 +5007,7 @@
       "type": "quote",
       "name": "That one went down with your…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -6003,7 +6003,7 @@
       "type": "quote",
       "name": "The ledger has a new name…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -6023,7 +6023,7 @@
       "type": "quote",
       "name": "The Linelord draws a line in…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The Linelord draws a line in the sand.",
       "speaker": null,
@@ -6343,7 +6343,7 @@
       "type": "quote",
       "name": "The sea takes the line.",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The sea takes the line.",
       "speaker": null,
@@ -8083,7 +8083,7 @@
       "type": "quote",
       "name": "You hold more than I do.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -8231,7 +8231,7 @@
       "type": "quote",
       "name": "Your line, across Jarn's.",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Your line, across Jarn's.",
       "speaker": null,
@@ -8249,7 +8249,7 @@
       "type": "quote",
       "name": "Your name is a line further…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -8269,7 +8269,7 @@
       "type": "quote",
       "name": "Your wrack holds what you dropped.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ],
@@ -9838,7 +9838,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10318,7 +10318,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10406,7 +10406,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10430,7 +10430,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10487,7 +10487,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10500,7 +10500,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10633,7 +10633,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10657,7 +10657,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10670,7 +10670,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -10749,7 +10749,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11027,7 +11027,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11073,7 +11073,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11196,7 +11196,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11231,7 +11231,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11321,7 +11321,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11334,7 +11334,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11380,7 +11380,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -11998,7 +11998,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -12011,7 +12011,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -12212,7 +12212,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -13308,7 +13308,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -13400,7 +13400,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -13411,7 +13411,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
@@ -13424,7 +13424,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "conquest"
       ]
