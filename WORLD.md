@@ -58,6 +58,7 @@ states.
 | [[the-walk-to-the-hall]] | The coast in the first years of the Ebb | Everyone goes down at low water |
 | [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ash in the silt, barred doors, counted days, the grey at home |
 | [[barr]] | The salt-smith at Wrackhead | Iron down, salvage up |
+| [[jarn]] | The Linelord, for now: holds the shingle and draws the line | The title goes to whoever holds the most |
 | [[pickers]], [[firstcloaks]], [[the-barred]], [[the-unasked]], [[notchers]], [[the-drawn]], [[the-standing]] | The creatures of the descent | What the grey left, and what it is |
 | [[the-descent]] | Sarn's whisper at the top of the steps | Which way to look |
 

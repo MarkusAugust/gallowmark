@@ -8,6 +8,7 @@ graph LR
   brim["Brim"]
   drusk["Drusk"]
   gorvek["Gorvek"]
+  jarn["Jarn"]
   mardra["Mardra"]
   rauk["Rauk"]
   ruun["Ruun"]
@@ -67,6 +68,8 @@ graph LR
   gorvek -- enemy-of --> greycloaks
   gorvek -- rival-of --> sarn
   gorvek -- ally-of --> vurn
+  jarn -- lives-in --> wrackhead
+  jarn -- named-by --> linelord
   mardra -- lives-in --> greyhollow
   mardra -- survived --> the-ashfall
   rauk -- born-in --> wrackhead
