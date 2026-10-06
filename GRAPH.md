@@ -20,15 +20,19 @@ graph LR
   tolm["Tolm"]
   vell["Vell"]
   vurn["Vurn"]
+  bonded-stores["The Bonded Stores"]
   bonereach["Bonereach"]
+  bricked-rooms["The Bricked Rooms"]
   brinevaults["The Brinevaults"]
   gallowmark["Gallowmark"]
   greyhollow["Greyhollow"]
   hangmoot["Hangmoot"]
   hookford["Hookford"]
   kell["Kell"]
+  kings-way["The King's Way"]
   lowstreets["The Lowstreets"]
   quaysteps["The Quaysteps"]
+  strongrooms["The Strongrooms"]
   the-iron-hall["The Iron Hall"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
@@ -108,8 +112,10 @@ graph LR
   vell -- born-in --> hookford
   vurn -- born-in --> bonereach
   vurn -- survived --> the-ashfall
+  bonded-stores -- located-in --> quaysteps
   bonereach -- located-in --> gallowmark
   bonereach -- survived --> the-ashfall
+  bricked-rooms -- located-in --> lowstreets
   brinevaults -- located-in --> kell
   gallowmark -- contains --> kell
   gallowmark -- home-of --> greycloaks
@@ -118,8 +124,10 @@ graph LR
   hangmoot -- located-in --> gallowmark
   hookford -- located-in --> gallowmark
   kell -- created --> iron-crown-of-kell
+  kings-way -- located-in --> the-iron-hall
   lowstreets -- located-in --> kell
   quaysteps -- located-in --> kell
+  strongrooms -- located-in --> brinevaults
   the-iron-hall -- located-in --> kell
   wallgate -- located-in --> gallowmark
   wrackhead -- located-in --> gallowmark

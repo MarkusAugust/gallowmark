@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-10-06",
-  "entityCount": 370,
+  "entityCount": 380,
   "types": [
     "character",
     "place",
@@ -692,6 +692,31 @@
       "body": "## Who\n\nTwo walked out of the grey into the same village on the same morning. One was [[gorvek]].\nThe other was Vurn, who was thinner, louder, and had kept count of the days. The elders of\n[[bonereach]] asked them both what they wanted. Gorvek's answer became a creed. Vurn's\nanswer was *ale*, and the Reach has liked him for it since.\n\n## The telling\n\nVurn tells the sagas. He tells them at [[hookford]] for drink, on the ridge at\n[[hangmoot]] for free, and in Bonereach to children who have heard them before. They are\nthe sagas of the Reach: what a warrior wants, what a warrior does, and what he says when\nthe work is done. Half of them are Gorvek's deeds and the other half are Vurn's, and Vurn\nhas been honest about which is which exactly once, and was drunk.\n\n## Voice\n\nVurn speaks in the cadence of the sagas because he made it. Loud, physical, present tense,\nwith a boast at the end where Gorvek would have put nothing. He swears by the Ashfall, like\nGorvek, and also by ale, mead, the Reach, and anything else within reach.\n\n## In the world\n\n- He reads. He reads the ledger [[linelord]] aloud to Gorvek, who says he does not need it\n  and listens to every line.\n- He has met [[sarn]] once, and told the story forty times, and it is different every time,\n  and the eyes are always yellow.\n\n## Threads\n\n- What did Vurn count in the grey, and why did he stop at the number he stopped at?",
       "file": "characters/vurn.md"
     },
+    "bonded-stores": {
+      "id": "bonded-stores",
+      "type": "place",
+      "name": "The Bonded Stores",
+      "aliases": [
+        "the quay-master's stores"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruin",
+        "quay",
+        "kell",
+        "descent"
+      ],
+      "summary": "The quay-master's storerooms on the Quaysteps, sealed with goods still in them and silted shut; nobody came to collect.",
+      "relations": [
+        {
+          "to": "quaysteps",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The stores\n\nKell's quay-master kept what came off the ships under seal until the duty was\npaid. The night the city went down, nobody paid it. The stores were shut with\nthe goods in them, and the packing closed them the rest of the way. The seals\non the doors are still whole. What is behind them is still owed.\n\n## Threads\n\n- Whose goods were they, and is anyone on the coast still owed them?",
+      "file": "places/bonded-stores.md"
+    },
     "bonereach": {
       "id": "bonereach",
       "type": "place",
@@ -741,6 +766,31 @@
       "body": "## The reach\n\nBonereach is the part of [[gallowmark]] nobody wanted and somebody kept. Scree slopes, birch\nso pale it looks skinned, and villages built into the lee of rocks because the wind comes\noff the Wallmountains with an opinion. The people of the Reach are the people of the Mark\nboiled down: fewer words, harder hands, a longer memory.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] fell here first and lifted here last. The Reach lost half its villages\nand does not say which half. Those who walked out of the grey, [[gorvek]] among them, are\ncalled the Ashborn behind their backs and never to their faces.\n\n## Custom\n\nThe elders of the Reach do not ask a returning warrior where he has been. They ask what he\nwants. The answer is the man.",
       "file": "places/bonereach.md"
     },
+    "bricked-rooms": {
+      "id": "bricked-rooms",
+      "type": "place",
+      "name": "The Bricked Rooms",
+      "aliases": [
+        "the walled rooms"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruin",
+        "street",
+        "kell",
+        "descent"
+      ],
+      "summary": "Rooms in the Lowstreets that their people walled up from the inside when the grey came, with what they meant to keep, and sometimes themselves.",
+      "relations": [
+        {
+          "to": "lowstreets",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The rooms\n\nWhen the grey came down the coast the Lowstreets did what poor streets do: they\nhid what they had. Families bricked up a back room with the silver in it and\nlived in the front. Some bricked themselves in with it. The water came, and the\npacking filled every crack, and the rooms are still shut from the inside.\n\n## Threads\n\n- Did any of them come out, and where did they go?",
+      "file": "places/bricked-rooms.md"
+    },
     "brinevaults": {
       "id": "brinevaults",
       "type": "place",
@@ -768,6 +818,11 @@
           "to": "kell",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "strongrooms",
+          "kind": "contains",
+          "declared": false
         },
         {
           "to": "notchers",
@@ -1046,8 +1101,34 @@
           "declared": false
         }
       ],
-      "body": "## The city\n\nKell was the only city in [[gallowmark]] that deserved the word. Stone quays, a hall with a\nroof of iron plates, and a king with a crown that held the three rivers in place: that is\nhow the river-priests tell it, and they tell it with their hands over their mouths.\n\nThe last king kept the ledger [[linelord]] in the iron-roofed hall and read it the winter\nbefore the night, looking for a wall that would hold. Brother [[ruun]] was a boy on the quay.\n\n## The night\n\nThen [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by\nmorning the quays were under water and the king was under the quays. Whether the crown held\nthe sea back or only the people's belief that it did, the result is the same: Kell is a place\nyou sail over.\n\n## Now\n\nOld Kell is a name the coast people still use for the water where the city was. The\n[[greycloaks]] say they will raise it. They have said so for forty years.",
+      "body": "## The city\n\nKell was the only city in [[gallowmark]] that deserved the word. Stone quays, a hall with a\nroof of iron plates, and a king with a crown that held the three rivers in place: that is\nhow the river-priests tell it, and they tell it with their hands over their mouths.\n\nThe last king kept the ledger [[linelord]] in the iron-roofed hall and read it the winter\nbefore the night, looking for a wall that would hold. Brother [[ruun]] was a boy on the quay.\n\n## The night\n\nThen [[sarn]] came, and the [[iron-crown-of-kell]] lost its three rubies in one night, and by\nmorning the quays were under water and the king was under the quays. Whether the crown held\nthe sea back or only the people's belief that it did, the result is the same: Kell is a place\nyou sail over.\n\n## Now\n\nOld Kell is a name the coast people still use for the water where the city was. The\n[[greycloaks]] say they will raise it. They have said so for forty years.\n\n## The packing\n\nForty years of water have packed the ash into Kell's walls. Where a doorway was\nbricked up, a wall cracked, or a room shut in a hurry, the gaps are full of it:\ngrey, hard as clay and softer than stone. The divers call it the packing. A\npick goes through it where a pick would never go through stone, and behind it\nare the rooms Kell shut and nobody opened: the [[bonded-stores]] on the\n[[quaysteps]], the [[bricked-rooms]] of the [[lowstreets]], the\n[[strongrooms]] of the [[brinevaults]], and in [[the-iron-hall]], the\n[[kings-way]].",
       "file": "places/kell.md"
+    },
+    "kings-way": {
+      "id": "kings-way",
+      "type": "place",
+      "name": "The King's Way",
+      "aliases": [
+        "the walled stair",
+        "the hidden stair"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruin",
+        "hall",
+        "kell",
+        "descent"
+      ],
+      "summary": "A stair from the Iron Hall that the last king of Kell had built for himself and walled up behind him; nobody was meant to know about it, and it goes up.",
+      "relations": [
+        {
+          "to": "the-iron-hall",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The stair\n\nThe last king of Kell did not trust the doors of his own hall. He had a stair\ncut through the wall behind the throne, up toward the iron roof, and had it\nbricked over so it looked like wall. He never used it. The night came on him in\nhis chair. The packing has filled the brickwork, and the stair is still there,\ngoing up.\n\n## Threads\n\n- Did Corve know about it, sitting in front of it for forty years?",
+      "file": "places/kings-way.md"
     },
     "lowstreets": {
       "id": "lowstreets",
@@ -1069,6 +1150,11 @@
         {
           "to": "grue",
           "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "bricked-rooms",
+          "kind": "contains",
           "declared": false
         },
         {
@@ -1113,6 +1199,11 @@
           "declared": false
         },
         {
+          "to": "bonded-stores",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "kell",
           "kind": "located-in",
           "declared": true
@@ -1130,6 +1221,31 @@
       ],
       "body": "## The steps\n\n[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water\nbelow [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up\nwith iron and bollard-rings, and with grey on their boots that does not wash off.\n\n## The silt\n\nThe silt on the steps is not sand. It is ash, packed by forty years of water. Lamps burn\ngrey down here. In it lie bones in cloaks the colour of the silt, the order's first men, from\nthe years when the [[greycloaks]] guarded these quays in the grey of [[the-ashfall]]. Some\nof them are still guarding.\n\n## Threads\n\n- Why was there ash under the sea, when the grey fell in the north?",
       "file": "places/quaysteps.md"
+    },
+    "strongrooms": {
+      "id": "strongrooms",
+      "type": "place",
+      "name": "The Strongrooms",
+      "aliases": [
+        "the clerks' strongrooms"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruin",
+        "vault",
+        "kell",
+        "descent"
+      ],
+      "summary": "The clerks' strongrooms in the Brinevaults, where the first ledgers were kept under lock; the ledgers in them counted something other than lines.",
+      "relations": [
+        {
+          "to": "brinevaults",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The rooms\n\nEvery vault of the clerks had its strongroom, behind a door with two locks and a\nclerk's seal on each. The first ledgers were kept there, and the clerks' own\npay, and the things the clerks took in lieu. The doors held when the water came\nin. The packing has made them part of the wall.\n\n## Threads\n\n- What did the strongroom ledgers count, if not lines?",
+      "file": "places/strongrooms.md"
     },
     "the-iron-hall": {
       "id": "the-iron-hall",
@@ -1151,6 +1267,11 @@
         {
           "to": "corve",
           "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "kings-way",
+          "kind": "contains",
           "declared": false
         },
         {
@@ -2536,6 +2657,46 @@
       "body": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
       "file": "quotes/a-shelf-of-ledgers-the-last.md"
     },
+    "a-stair-nobody-was-meant-to": {
+      "id": "a-stair-nobody-was-meant-to",
+      "type": "quote",
+      "name": "A stair nobody was meant to…",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ],
+      "summary": "A stair nobody was meant to know about. It goes up.",
+      "speaker": "sarn",
+      "pool": "kings-way",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "A stair nobody was meant to know about. It goes up.",
+      "relations": [],
+      "body": "A stair nobody was meant to know about. It goes up.",
+      "file": "quotes/a-stair-nobody-was-meant-to.md"
+    },
+    "a-strongroom-the-ledgers-here-counted": {
+      "id": "a-strongroom-the-ledgers-here-counted",
+      "type": "quote",
+      "name": "A strongroom. The ledgers here counted…",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ],
+      "summary": "A strongroom. The ledgers here counted something other than lines.",
+      "speaker": "sarn",
+      "pool": "strongroom",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "A strongroom. The ledgers here counted something other than lines.",
+      "relations": [],
+      "body": "A strongroom. The ledgers here counted something other than lines.",
+      "file": "quotes/a-strongroom-the-ledgers-here-counted.md"
+    },
     "a-tenth-of-you-if-you": {
       "id": "a-tenth-of-you-if-you",
       "type": "quote",
@@ -2755,6 +2916,26 @@
       "relations": [],
       "body": "Between the time when the Ashfall drank the villages, and the rise of the Ashborn, there was an age undreamed of. And onto this, LineLord, destined to track all code in your repository!",
       "file": "quotes/between-the-time-when-the-ashfall.md"
+    },
+    "bonded-stores-the-seals-are-the": {
+      "id": "bonded-stores-the-seals-are-the",
+      "type": "quote",
+      "name": "Bonded stores. The seals are the…",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ],
+      "summary": "Bonded stores. The seals are the quay-master's. Nobody came to collect.",
+      "speaker": "sarn",
+      "pool": "stores",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Bonded stores. The seals are the quay-master's. Nobody came to collect.",
+      "relations": [],
+      "body": "Bonded stores. The seals are the quay-master's. Nobody came to collect.",
+      "file": "quotes/bonded-stores-the-seals-are-the.md"
     },
     "bones-in-a-cloak-the-colour": {
       "id": "bones-in-a-cloak-the-colour",
@@ -4744,6 +4925,26 @@
       "body": "Slaying bugs and counting lines with steel and fury...",
       "file": "quotes/slaying-bugs-and-counting-lines-with.md"
     },
+    "somebody-bricked-this-room-up-from": {
+      "id": "somebody-bricked-this-room-up-from",
+      "type": "quote",
+      "name": "Somebody bricked this room up from…",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ],
+      "summary": "Somebody bricked this room up from the inside.",
+      "speaker": "sarn",
+      "pool": "bricked",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Somebody bricked this room up from the inside.",
+      "relations": [],
+      "body": "Somebody bricked this room up from the inside.",
+      "file": "quotes/somebody-bricked-this-room-up-from.md"
+    },
     "somebody-lived-down-here-look-at": {
       "id": "somebody-lived-down-here-look-at",
       "type": "quote",
@@ -4781,6 +4982,26 @@
       "relations": [],
       "body": "Someone held it longer. That is all the ledger asks.",
       "file": "quotes/someone-held-it-longer-that-is.md"
+    },
+    "something-in-the-wall-it-was": {
+      "id": "something-in-the-wall-it-was",
+      "type": "quote",
+      "name": "Something in the wall. It was…",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ],
+      "summary": "Something in the wall. It was put there to be found, by someone who never came back.",
+      "speaker": "sarn",
+      "pool": "in-wall",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Something in the wall. It was put there to be found, by someone who never came back.",
+      "relations": [],
+      "body": "Something in the wall. It was put there to be found, by someone who never came back.",
+      "file": "quotes/something-in-the-wall-it-was.md"
     },
     "steel-and-sorcery-meet-in-digital": {
       "id": "steel-and-sorcery-meet-in-digital",
@@ -5133,6 +5354,26 @@
       "relations": [],
       "body": "The app may end, but the repository is eternal!",
       "file": "quotes/the-app-may-end-but-the.md"
+    },
+    "the-ash-comes-away-in-plates": {
+      "id": "the-ash-comes-away-in-plates",
+      "type": "quote",
+      "name": "The ash comes away in plates.…",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ],
+      "summary": "The ash comes away in plates. Forty years of water packed it; it gives in forty strokes.",
+      "speaker": "sarn",
+      "pool": "dig",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The ash comes away in plates. Forty years of water packed it; it gives in forty strokes.",
+      "relations": [],
+      "body": "The ash comes away in plates. Forty years of water packed it; it gives in forty strokes.",
+      "file": "quotes/the-ash-comes-away-in-plates.md"
     },
     "the-barbarian-accountant-tallies-the-conquest": {
       "id": "the-barbarian-accountant-tallies-the-conquest",
@@ -8851,6 +9092,18 @@
       "declared": false
     },
     {
+      "from": "bonded-stores",
+      "to": "quaysteps",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "quaysteps",
+      "to": "bonded-stores",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "bonereach",
       "to": "gallowmark",
       "kind": "located-in",
@@ -8872,6 +9125,18 @@
       "from": "the-ashfall",
       "to": "bonereach",
       "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "bricked-rooms",
+      "to": "lowstreets",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "lowstreets",
+      "to": "bricked-rooms",
+      "kind": "contains",
       "declared": false
     },
     {
@@ -8971,6 +9236,18 @@
       "declared": false
     },
     {
+      "from": "kings-way",
+      "to": "the-iron-hall",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "the-iron-hall",
+      "to": "kings-way",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "lowstreets",
       "to": "kell",
       "kind": "located-in",
@@ -8991,6 +9268,18 @@
     {
       "from": "kell",
       "to": "quaysteps",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "strongrooms",
+      "to": "brinevaults",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "brinevaults",
+      "to": "strongrooms",
       "kind": "contains",
       "declared": false
     },
@@ -9831,6 +10120,32 @@
       "tags": []
     },
     {
+      "id": "a-stair-nobody-was-meant-to",
+      "text": "A stair nobody was meant to know about. It goes up.",
+      "speaker": "sarn",
+      "pool": "kings-way",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ]
+    },
+    {
+      "id": "a-strongroom-the-ledgers-here-counted",
+      "text": "A strongroom. The ledgers here counted something other than lines.",
+      "speaker": "sarn",
+      "pool": "strongroom",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ]
+    },
+    {
       "id": "a-tenth-of-you-if-you",
       "text": "A tenth. Of you, if you have nothing else.",
       "speaker": "grue",
@@ -9964,6 +10279,19 @@
       "status": "canon",
       "tags": [
         "nod"
+      ]
+    },
+    {
+      "id": "bonded-stores-the-seals-are-the",
+      "text": "Bonded stores. The seals are the quay-master's. Nobody came to collect.",
+      "speaker": "sarn",
+      "pool": "stores",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "canon",
+      "tags": [
+        "packing"
       ]
     },
     {
@@ -11213,6 +11541,19 @@
       "tags": []
     },
     {
+      "id": "somebody-bricked-this-room-up-from",
+      "text": "Somebody bricked this room up from the inside.",
+      "speaker": "sarn",
+      "pool": "bricked",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ]
+    },
+    {
       "id": "somebody-lived-down-here-look-at",
       "text": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
       "speaker": "sarn",
@@ -11234,6 +11575,19 @@
       "status": "canon",
       "tags": [
         "conquest"
+      ]
+    },
+    {
+      "id": "something-in-the-wall-it-was",
+      "text": "Something in the wall. It was put there to be found, by someone who never came back.",
+      "speaker": "sarn",
+      "pool": "in-wall",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "canon",
+      "tags": [
+        "packing"
       ]
     },
     {
@@ -11454,6 +11808,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "the-ash-comes-away-in-plates",
+      "text": "The ash comes away in plates. Forty years of water packed it; it gives in forty strokes.",
+      "speaker": "sarn",
+      "pool": "dig",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "canon",
+      "tags": [
+        "packing"
+      ]
     },
     {
       "id": "the-barbarian-accountant-tallies-the-conquest",
