@@ -1,6 +1,6 @@
 ---
 speaker: jarn
-pool: shore
+pool: jarn
 used-in: [descent]
 status: draft
 tags: []

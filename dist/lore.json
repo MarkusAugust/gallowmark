@@ -3025,7 +3025,7 @@
       "tags": [],
       "summary": "Did you mean to?",
       "speaker": "jarn",
-      "pool": "shore",
+      "pool": "jarn",
       "usedIn": [
         "descent"
       ],
@@ -9461,7 +9461,7 @@
       "id": "did-you-mean-to",
       "text": "Did you mean to?",
       "speaker": "jarn",
-      "pool": "shore",
+      "pool": "jarn",
       "usedIn": [
         "descent"
       ],
