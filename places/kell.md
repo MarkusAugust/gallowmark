@@ -29,3 +29,15 @@ you sail over.
 
 Old Kell is a name the coast people still use for the water where the city was. The
 [[greycloaks]] say they will raise it. They have said so for forty years.
+
+## The packing
+
+Forty years of water have packed the ash into Kell's walls. Where a doorway was
+bricked up, a wall cracked, or a room shut in a hurry, the gaps are full of it:
+grey, hard as clay and softer than stone. The divers call it the packing. A
+pick goes through it where a pick would never go through stone, and behind it
+are the rooms Kell shut and nobody opened: the [[bonded-stores]] on the
+[[quaysteps]], the [[bricked-rooms]] of the [[lowstreets]], the
+[[strongrooms]] of the [[brinevaults]], and in [[the-iron-hall]], the
+[[kings-way]].
+
