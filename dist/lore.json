@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
-  "generatedAt": "2026-10-05",
-  "entityCount": 347,
+  "generatedAt": "2026-10-06",
+  "entityCount": 340,
   "types": [
     "character",
     "place",
@@ -551,7 +551,7 @@
         "salt",
         "descent"
       ],
-      "summary": "The cellars, cisterns and counting-vaults under the iron hall, where Kell kept its salt, its coin and its dead, all three packed the same way.",
+      "summary": "The salt-cut cellars and counting-rooms under the iron hall, where Kell's clerks copied the ledger, and kept on copying it, day by day, all through the grey.",
       "relations": [
         {
           "to": "kell",
@@ -559,7 +559,7 @@
           "declared": true
         },
         {
-          "to": "gapes",
+          "to": "notchers",
           "kind": "haunted-by",
           "declared": false
         },
@@ -567,14 +567,9 @@
           "to": "the-drawn",
           "kind": "haunted-by",
           "declared": false
-        },
-        {
-          "to": "the-salted",
-          "kind": "haunted-by",
-          "declared": false
         }
       ],
-      "body": "## The vaults\n\nKell was rich in two things, salt and records, and it kept both under the hall. The\nBrinevaults are rooms of salt cut from salt: cisterns, cellars, and long low counting-rooms\nwhere clerks copied the ledger [[linelord]] by lamplight. Kell salted its dead and shelved\nthem here too, because salt keeps and the city believed in keeping.\n\n## Since the Ebb\n\nThe vaults were the last of Kell to be under water and are the last to come out of it. The\nsalt has drunk the sea for forty years and is still wet. What was shelved here is\n[[the-salted]] now. The ropes that hang down the cistern shafts are pulled taut toward the\nhall, and nobody at [[wrackhead]] has gone far enough to see what pulls them.\n\n## Threads\n\n- Where are Kell's copies of the ledger? The clerks made many.",
+      "body": "## The vaults\n\nKell kept its salt, its coin and its records under the hall. In the long counting-rooms the\nclerks copied the ledger [[linelord]] by lamplight. The copies are still on the shelves. The\nlast of them count days, not lines: a stroke for every day of [[the-ashfall]], in a hand that\ngets worse, until it stops.\n\n## The ropes\n\nRopes hang down the cistern shafts, drawn taut toward the hall, and [[the-drawn]] move along\nthem. In the deepest cistern a fall of water stands in the air, still, as if somebody had\ntold it to stop and meant it.\n\n## Threads\n\n- Who counted the days, down here, and how did they know when the grey had lifted?",
       "file": "places/brinevaults.md"
     },
     "gallowmark": {
@@ -843,7 +838,7 @@
       "type": "place",
       "name": "The Lowstreets",
       "aliases": [
-        "the Silted Streets",
+        "the Barred Streets",
         "Under-Kell"
       ],
       "status": "draft",
@@ -853,7 +848,7 @@
         "kell",
         "descent"
       ],
-      "summary": "The streets of drowned Kell under forty years of silt, where the houses still stand with their doors shut from the inside.",
+      "summary": "The streets of drowned Kell, where every house is barred from the inside, and not against the water.",
       "relations": [
         {
           "to": "kell",
@@ -861,27 +856,17 @@
           "declared": true
         },
         {
-          "to": "gapes",
+          "to": "the-barred",
           "kind": "haunted-by",
           "declared": false
         },
         {
-          "to": "pickers",
-          "kind": "haunted-by",
-          "declared": false
-        },
-        {
-          "to": "the-kept",
-          "kind": "haunted-by",
-          "declared": false
-        },
-        {
-          "to": "the-quaywatch",
+          "to": "the-unasked",
           "kind": "haunted-by",
           "declared": false
         }
       ],
-      "body": "## The streets\n\nBelow [[quaysteps]] the city is still a city. The streets run where they ran, half full of\nsilt and wreck, and the houses stand along them with their roofs gone and their doors shut.\nShut from the inside. The coast folk say Kell did not run that night. It went home, barred\nthe door, and waited for the crown to hold.\n\n## What lives here\n\nWhat the sea did not keep, it gave to the things that eat. What it did keep stands in the\ndoorways: [[the-kept]], who wake when the flood comes and walk with it. The pickers of\n[[wrackhead]] work the Lowstreets in pairs and leave a rope back to the steps, and the\nrope is the thing they trust.\n\n## Threads\n\n- What did Kell bar its doors against, if not the water?",
+      "body": "## The streets\n\nBelow [[quaysteps]] the city is still a city, and every door in it is barred from the\ninside. The coast says Kell went home that night and waited for the crown to hold. The\nscratches on the doors are on the outside, low, and they are not from water.\n\n## The houses\n\nSome of the people inside lived. The sea came, and then the grey came after it, up through\nthe water, and the people in the barred houses stayed shut in with it for a generation. When\nit lifted they were still there. Nobody has asked them what they ate.\n\n## Threads\n\n- What came up the streets, that a city would bar its doors against the water to keep out?",
       "file": "places/lowstreets.md"
     },
     "quaysteps": {
@@ -899,7 +884,7 @@
         "kell",
         "descent"
       ],
-      "summary": "The stone quays and water-stairs of drowned Kell, the first ground the Ebb gave back, where the coast goes picking at low water and does not always come up.",
+      "summary": "The stone quays and water-stairs of drowned Kell, the first ground the Ebb gave back; the silt on them is grey, and the bones in it wear the order's cloak.",
       "relations": [
         {
           "to": "kell",
@@ -907,22 +892,17 @@
           "declared": true
         },
         {
+          "to": "firstcloaks",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "pickers",
-          "kind": "haunted-by",
-          "declared": false
-        },
-        {
-          "to": "shinglers",
-          "kind": "haunted-by",
-          "declared": false
-        },
-        {
-          "to": "the-quaywatch",
           "kind": "haunted-by",
           "declared": false
         }
       ],
-      "body": "## The steps\n\nKell met the sea in stairs. Broad stone steps went down from every street to the water, and\nthe water came up them twice a day to meet the city halfway. Now the city is under the\nsteps and the steps are under the weed, and since [[the-ebb]] the top of them shows at low\nwater below [[wrackhead]], green and slick and going down.\n\nThis is the first of drowned [[kell]], and the shallowest. Boats rot on the quay where they\nwere tied. Bollards stand in rows with the ropes still on them. Everything here has been\npicked once already.\n\n## The tide\n\nThe sea goes out further every month, but it still comes back twice a day. At low water\nthe quays are a place you can walk. At the flood they are a place you drown. The coast folk\nwho go down count their steps and count the time, and the ones who forget one of the two\nare kept.\n\n## Threads\n\n- Who tied the boats, the night before?",
+      "body": "## The steps\n\n[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water\nbelow [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up\nwith iron and bollard-rings, and with grey on their boots that does not wash off.\n\n## The silt\n\nThe silt on the steps is not sand. It is ash, packed by forty years of water. Lamps burn\ngrey down here. In it lie bones in cloaks the colour of the silt, the order's first men, from\nthe years when the [[greycloaks]] guarded these quays in the grey of [[the-ashfall]]. Some\nof them are still guarding.\n\n## Threads\n\n- Why was there ash under the sea, when the grey fell in the north?",
       "file": "places/quaysteps.md"
     },
     "the-iron-hall": {
@@ -940,7 +920,7 @@
         "king",
         "descent"
       ],
-      "summary": "The hall of the last king of Kell under its roof of iron plates, where the king still sits with the empty crown, the ledger is still on its stand, and the one who keeps is underneath.",
+      "summary": "The hall of the last king of Kell under its roof of iron plates, where the grey stands like milk in a bowl, the ledger lies open, and a barbarian stands in the drain with a stream held still.",
       "relations": [
         {
           "to": "kell",
@@ -948,7 +928,7 @@
           "declared": true
         },
         {
-          "to": "the-salt-mouth",
+          "to": "the-standing",
           "kind": "haunted-by",
           "declared": false
         },
@@ -963,7 +943,7 @@
           "declared": false
         }
       ],
-      "body": "## The hall\n\nThe iron roof is the only part of [[kell]] the coast can see: for an hour on a still day at\nlow water it stands clear of the salt below [[wrackhead]], and since [[the-ebb]] the hour\ngets longer. Under it is the hall. The king sits where he sat. [[rauk]] has touched the\n[[iron-crown-of-kell]] on his head and come up saying the iron is warm.\n\n## The ledger\n\nThe last king read [[linelord]] in this hall the winter before the night, looking for a wall\nthat would hold. It is still here, open on its stand at the king's right hand,\nheavier than a man can carry far and lighter than it ought to be. Whoever takes it up has to\ngo out the only way the hall leaves open: up, through a gap in the iron roof, at low water.\n\n## Underneath\n\nBelow the hall floor is the drain the Ebb runs out through, and in it is [[the-salt-mouth]].\nThe river-priests do not name it. The coast folk say it is what [[vorr]] keeps his mouth\nwith.\n\n## Threads\n\n- Is the ledger here, or a copy the clerks made? This draft answers the thread on [[linelord]]; canon has not.\n- What is the warm iron?",
+      "body": "## The hall\n\nThe iron roof is the only part of [[kell]] the coast can see, and since [[the-ebb]] it stands\nclear of the salt a little longer every low water. Under it the king sits with the\n[[iron-crown-of-kell]] on his head. The iron is warm.\n\n## The grey\n\nThe hall is full of grey, standing still like the grey in [[greyhollow]], and it rises when\nthe sea goes out. In the floor is the drain where the one river ends, and the sea is going\nout through it.\n\n## The ledger\n\n[[linelord]] lies open on its stand at the king's right hand. The last line in it is not the\nking's. It reads: *held the drain, days still counting.*\n\n[[gorvek]] stands in the drain with [[streamlord]] in his hand, holding the stream still. He\nwent down before anyone. He does not say for how long.\n\n## Threads\n\n- How long can a stream be told to stop?\n- What happens to the grey if he lets go?",
       "file": "places/the-iron-hall.md"
     },
     "wallgate": {
@@ -1100,6 +1080,11 @@
           "declared": true
         },
         {
+          "to": "firstcloaks",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "the-siege",
           "kind": "featured-in",
           "declared": false
@@ -1184,6 +1169,11 @@
           "to": "hangmoot",
           "kind": "haunts",
           "declared": true
+        },
+        {
+          "to": "notchers",
+          "kind": "served-by",
+          "declared": false
         },
         {
           "to": "the-drawn",
@@ -1273,17 +1263,7 @@
           "declared": true
         },
         {
-          "to": "gapes",
-          "kind": "served-by",
-          "declared": false
-        },
-        {
-          "to": "the-kept",
-          "kind": "served-by",
-          "declared": false
-        },
-        {
-          "to": "the-salt-mouth",
+          "to": "the-barred",
           "kind": "served-by",
           "declared": false
         }
@@ -1430,31 +1410,58 @@
       "body": "## What it is\n\nIn the world, Streamlord is a thing that makes a stream obey. Not by damming it. By telling\nit, and being believed. [[gorvek]] carries it and does not know what it is, only what it does;\n[[sarn]] narrates the grimoire that teaches its use and takes one belief from every reader in\npayment.\n\nOutside the world, Streamlord is a software development kit, and this entry is how the\nworld and the software meet. The grimoire's voice is Sarn's; the creed on its first page is\nGorvek's; the names in it are Gallowmark's.\n\n## The rule\n\nStreamlord carries exactly what the wielder means, and nothing else. The [[river-priests]]\nsay this is why [[thurn]] allows it: a stream held still is still a stream.",
       "file": "artifacts/streamlord.md"
     },
-    "gapes": {
-      "id": "gapes",
+    "firstcloaks": {
+      "id": "firstcloaks",
       "type": "creature",
-      "name": "Gapes",
+      "name": "The Firstcloaks",
       "aliases": [
-        "the Mouths",
-        "Vorr's Teeth"
+        "the First Watch",
+        "the Order's Dead"
       ],
       "status": "draft",
       "tags": [
         "creature",
-        "beast",
-        "deep",
+        "greycloak",
+        "undead",
+        "grey",
         "descent"
       ],
-      "summary": "Eel-bodied mouths that live in the walls and floors of drowned Kell and open when the flood comes in; the coast folk say each one is a little of Vorr.",
+      "summary": "The order's first men, who guarded the drowned quays of Kell in the grey and never came up; still on duty, still polite, still collecting.",
       "relations": [
         {
-          "to": "vorr",
-          "kind": "serves",
+          "to": "greycloaks",
+          "kind": "member-of",
           "declared": true
         },
         {
-          "to": "lowstreets",
+          "to": "quaysteps",
           "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nThe [[greycloaks]] began as the men who guarded the drowned quays of [[kell]] in\n[[the-ashfall]]. Not all of them were relieved. On the [[quaysteps]] they still stand their\nposts, cloaked in grey silt, and they still tithe.\n\n## Voice\n\n\"Pardon. A tenth.\" Pay, and they stand aside. Refuse, and the hook comes out.\n\n## In the world\n\n- The fort at [[wrackhead]] keeps no list of the men it lost in the grey. [[tolm]] has asked\n  for one, politely, twice.",
+      "file": "creatures/firstcloaks.md"
+    },
+    "notchers": {
+      "id": "notchers",
+      "type": "creature",
+      "name": "Notchers",
+      "aliases": [
+        "the Counters",
+        "the Reeve's Men"
+      ],
+      "status": "draft",
+      "tags": [
+        "creature",
+        "debt",
+        "rope",
+        "descent"
+      ],
+      "summary": "Thin grey shapes in the Brinevaults that cut one notch in the wall for every moment you stand in their sight; at nine, a rope finds your neck.",
+      "relations": [
+        {
+          "to": "hask",
+          "kind": "serves",
           "declared": true
         },
         {
@@ -1463,8 +1470,8 @@
           "declared": true
         }
       ],
-      "body": "## What\n\nA hole in a wall, at low water. A hole with teeth, at the flood. Gapes are long grey bodies\nthat live in the cracks of drowned [[kell]] and are nothing but a ring of teeth where they\nmeet the air. They do not chase. They wait for the water to bring them something, and since\n[[the-ebb]] the water brings them people.\n\n## In the world\n\n- The coast folk say every gape is a little of [[vorr]], and that he has been opening his\n  mouth in a great many places.",
-      "file": "creatures/gapes.md"
+      "body": "## What\n\nEverything owed in the Mark is owed to [[hask]]'s rope, and the [[brinevaults]] are where\nKell kept its accounts. The Notchers keep them still. They do not touch you. They watch, and\ncut a notch in the salt for every moment you are in their sight, and they cut slowly, and\nthere are nine gallows on [[hangmoot]].\n\nAt the ninth notch the debt is called. A rope comes down out of the dark, and you are one of\n[[the-drawn]].",
+      "file": "creatures/notchers.md"
     },
     "pickers": {
       "id": "pickers",
@@ -1481,7 +1488,7 @@
         "scavenger",
         "descent"
       ],
-      "summary": "Coast folk who went down into Kell before you, for what they could carry; most are honest, all are armed, and the ones still down there have decided you are competition.",
+      "summary": "Coast folk who went down into Kell before you for what they could carry; the ones still down there have decided you are what they can carry.",
       "relations": [
         {
           "to": "wrackhead",
@@ -1492,6 +1499,32 @@
           "to": "quaysteps",
           "kind": "haunts",
           "declared": true
+        }
+      ],
+      "body": "## Who\n\nSince [[the-ebb]] everybody on the coast with a knife and a rope has been down the\n[[quaysteps]]. Most come up. Some found a dry room below and stayed, and live off what they\nfind and what they take from whoever comes after.\n\n## Voice\n\nThey do not talk to you. They talk about you, to each other, while you can hear.",
+      "file": "creatures/pickers.md"
+    },
+    "the-barred": {
+      "id": "the-barred",
+      "type": "creature",
+      "name": "The Barred",
+      "aliases": [
+        "the Door-Holders"
+      ],
+      "status": "draft",
+      "tags": [
+        "creature",
+        "drowned",
+        "undead",
+        "kell",
+        "descent"
+      ],
+      "summary": "The drowned of Kell who are still holding their doors shut from the inside; harmless until you open one, and then it is not them you have to worry about.",
+      "relations": [
+        {
+          "to": "vorr",
+          "kind": "serves",
+          "declared": true
         },
         {
           "to": "lowstreets",
@@ -1499,34 +1532,8 @@
           "declared": true
         }
       ],
-      "body": "## Who\n\nSince [[the-ebb]], everybody on the coast who owns a knife and a rope has been down the\n[[quaysteps]] at least once. Most come up with a bollard-ring and a story. Some do not come\nup, and of those, some are not dead: they have found a dry house in the [[lowstreets]] and\nare living off what they find and what they take from the people who come after.\n\n## Voice\n\nThey do not talk to you. They talk about you, to each other, while you can hear.\n\n## In the world\n\n- The [[greycloaks]] tithe what the pickers bring up. The pickers who stay down have stopped\n  paying.",
-      "file": "creatures/pickers.md"
-    },
-    "shinglers": {
-      "id": "shinglers",
-      "type": "creature",
-      "name": "Shinglers",
-      "aliases": [
-        "quay-crabs",
-        "the Pale Backs"
-      ],
-      "status": "draft",
-      "tags": [
-        "creature",
-        "beast",
-        "quay",
-        "descent"
-      ],
-      "summary": "Crabs the size of a shield, grown pale on forty years of what the sea did not keep; they own the Quaysteps at low water and do not share.",
-      "relations": [
-        {
-          "to": "quaysteps",
-          "kind": "haunts",
-          "declared": true
-        }
-      ],
-      "body": "## What\n\nCrabs. Only crabs, the coast folk say, and then they show you the scar. The shinglers of\n[[quaysteps]] have eaten well for forty years and grown to the width of a shield, with backs\ngone white in the dark and one claw always bigger than the other. They come out at low\nwater, when the steps are theirs, and go back under when the flood comes.\n\n## In the world\n\n- Pickers from [[wrackhead]] eat them. The shinglers return the favour.",
-      "file": "creatures/shinglers.md"
+      "body": "## What\n\nEvery door in the [[lowstreets]] is barred, and behind most of them somebody is still\nleaning on it. The Barred drowned with their shoulders to the wood. They do not come out.\nThey do not want you to go in. Open a door anyway and they let go of it, all at once, and\nwhatever they were keeping out comes past them.\n\n## In the world\n\n- The coast folk say [[vorr]] keeps what the sea takes. The Barred are what he took. What is\n  behind the doors he did not.",
+      "file": "creatures/the-barred.md"
     },
     "the-drawn": {
       "id": "the-drawn",
@@ -1544,7 +1551,7 @@
         "gallows",
         "descent"
       ],
-      "summary": "Hanged men with the rope still on, pulled through the Brinevaults toward the iron hall by a rope drawn tight from the other end; they do not fight you, they take you with them.",
+      "summary": "The hanged, with the rope still on, pulled through the Brinevaults toward the iron hall by a rope drawn tight from the other end; they do not fight you, they take you with them.",
       "relations": [
         {
           "to": "hask",
@@ -1557,141 +1564,66 @@
           "declared": true
         }
       ],
-      "body": "## What\n\nThe hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn\ntight. In the [[brinevaults]] you can see what is on the end of it. The Drawn are the\nhanged of Kell, each with a rope at the neck running off into the dark toward the hall,\nand each moving along it, slowly, whether it wants to or not.\n\nThey do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.\n\n## In the world\n\n- Every debt in the Mark is paid at [[hask]]'s rope. The Drawn are the ones still paying.",
+      "body": "## What\n\nThe hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn\ntight. In the [[brinevaults]] you can see what is on the end of it: the hanged, each with a\nrope at the neck running off toward the hall, each moving along it whether it wants to or\nnot, the way water moves toward a drain.\n\nThey do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.",
       "file": "creatures/the-drawn.md"
     },
-    "the-kept": {
-      "id": "the-kept",
+    "the-standing": {
+      "id": "the-standing",
       "type": "creature",
-      "name": "The Kept",
+      "name": "The Standing",
       "aliases": [
-        "the Drowned of Kell",
-        "Vorr's Own"
+        "the Grey at Home",
+        "the Milk"
       ],
       "status": "draft",
       "tags": [
         "creature",
-        "drowned",
-        "undead",
-        "kell",
+        "grey",
+        "ashfall",
         "descent"
       ],
-      "summary": "The people of drowned Kell, kept by the sea the night the crown failed; they stand in their doorways at low water and walk with the flood.",
+      "summary": "The grey in the iron hall, standing still like milk in a bowl and rising when the sea goes out; it does not hurt you, it takes things from you.",
       "relations": [
-        {
-          "to": "vorr",
-          "kind": "serves",
-          "declared": true
-        },
-        {
-          "to": "lowstreets",
-          "kind": "haunts",
-          "declared": true
-        },
-        {
-          "to": "the-quaywatch",
-          "kind": "has-member",
-          "declared": false
-        }
-      ],
-      "body": "## What\n\n[[vorr]] keeps what the sea takes, and the sea took [[kell]] whole. The people are still\nin it. At low water they stand in their doorways in the [[lowstreets]] with the silt to their\nknees, as still as the bollards. When the flood comes back they wake and walk with it,\ndown toward the hall, as if somebody had called them home.\n\n## Voice\n\nNone. Their mouths move. Brother [[ruun]] says they are saying their names, so that the sea\ndoes not forget them, and that it never has.\n\n## In the world\n\n- The coast folk do not call them dead. They call them kept, and pay the salt-pile, and do\n  not ask.",
-      "file": "creatures/the-kept.md"
-    },
-    "the-quaywatch": {
-      "id": "the-quaywatch",
-      "type": "creature",
-      "name": "The Quaywatch",
-      "aliases": [
-        "the Old Watch",
-        "the Watch that Failed"
-      ],
-      "status": "draft",
-      "tags": [
-        "creature",
-        "drowned",
-        "undead",
-        "soldier",
-        "kell",
-        "descent"
-      ],
-      "summary": "The watch of Kell, who stood on the quays the night the crown lost its stones and are standing there still, in mail gone green, asking who goes there and not waiting for an answer.",
-      "relations": [
-        {
-          "to": "the-kept",
-          "kind": "member-of",
-          "declared": true
-        },
-        {
-          "to": "quaysteps",
-          "kind": "haunts",
-          "declared": true
-        },
-        {
-          "to": "lowstreets",
-          "kind": "haunts",
-          "declared": true
-        }
-      ],
-      "body": "## What\n\nKell had a watch before the [[greycloaks]] had a cloak. It stood on the quays the night\n[[sarn]] came, and nobody it stopped was the one it should have stopped. The sea kept it\nwhere it stood. The Quaywatch are [[the-kept]] who were on duty: mailed, armed, in rows, and\nstill guarding the steps against the thief they missed.\n\n## Voice\n\n\"Who goes?\" Once. Then the spear.\n\n## In the world\n\n- The Greycloaks began as the men who guarded the drowned quays. Nobody in the order says\n  whom they relieved.",
-      "file": "creatures/the-quaywatch.md"
-    },
-    "the-salt-mouth": {
-      "id": "the-salt-mouth",
-      "type": "creature",
-      "name": "The Salt Mouth",
-      "aliases": [
-        "the One Who Keeps",
-        "the Drain",
-        "the Underneath"
-      ],
-      "status": "draft",
-      "tags": [
-        "creature",
-        "deep",
-        "vorr",
-        "descent"
-      ],
-      "summary": "What lies in the drain under the iron hall, where the Ebb runs out; it does not move and does not need to, because everything in drowned Kell is already flowing toward it.",
-      "relations": [
-        {
-          "to": "vorr",
-          "kind": "serves",
-          "declared": true
-        },
         {
           "to": "the-iron-hall",
           "kind": "haunts",
           "declared": true
         }
       ],
-      "body": "## What\n\nUnder the floor of [[the-iron-hall]] there is a hole in the world, and the sea is going out\nthrough it. That is [[the-ebb]], seen from below. In the hole is the thing [[sarn]] calls\nthe one who keeps: a mouth of salt and old iron, wide as the hall, that does not move.\nIt pulls. Water, silt, [[the-kept]], [[the-drawn]] on their ropes: all of drowned [[kell]]\nruns toward it, a little more every month.\n\n## In the world\n\n- The coast folk say it is how [[vorr]] keeps his mouth. The river-priests do not name it,\n  which is the strongest thing they have ever said about anything.\n- Nobody knows whether it can be killed. The way out of the hall does not need it to be.",
-      "file": "creatures/the-salt-mouth.md"
+      "body": "## What\n\nIn [[greyhollow]] the grey lies in a fold of the hills and does not move with the wind. In\n[[the-iron-hall]] it stands the same way, and it is the same grey. At the flood it lies low.\nAt low water it rises.\n\nIt does no harm a lamp could show. It takes: a name you had learned, the knowledge of what\na thing in your pack is, a winter of your life. [[mardra]] went into it a midwife. She says it\ndoes not take at random. It takes what you would have used.",
+      "file": "creatures/the-standing.md"
     },
-    "the-salted": {
-      "id": "the-salted",
+    "the-unasked": {
+      "id": "the-unasked",
       "type": "creature",
-      "name": "The Salted",
+      "name": "The Unasked",
       "aliases": [
-        "the Shelved",
-        "the Packed Dead"
+        "the Shut-In",
+        "the Ones Who Ate"
       ],
       "status": "draft",
       "tags": [
         "creature",
-        "undead",
-        "salt",
+        "people",
+        "grey",
+        "hunger",
         "descent"
       ],
-      "summary": "Kell's honoured dead, packed in salt and shelved in the Brinevaults long before the drowning; forty years of sea have woken them, slow, hard, and stinging.",
+      "summary": "The people of Kell who lived through the grey in their barred houses under the sea; nobody asked them what they ate, and they can smell hunger on you.",
       "relations": [
         {
-          "to": "brinevaults",
+          "to": "lowstreets",
           "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "survived",
           "declared": true
         }
       ],
-      "body": "## What\n\nKell salted the dead it was proud of and shelved them in the [[brinevaults]] under the\nhall, because salt keeps. The sea got in and the salt drank it, and the shelved dead are\nstanding up. They are slow and they are hard as cured hide, and where they strike the salt\ngets into the wound and stays.\n\n## In the world\n\n- They are not [[the-kept]]. They were dead before the night. The coast folk say this is why\n  they are angry, and Brother [[ruun]] says nothing, at length.",
-      "file": "creatures/the-salted.md"
+      "body": "## What\n\nThe elders of [[bonereach]] do not ask a returning warrior where he has been. Nobody asked\nthe people of the [[lowstreets]] either. They lived through [[the-ashfall]] in barred houses\nwith the sea above them and the grey inside, for a generation, and when it lifted they were\nstill alive. They are thin. They are quick. They come for the hungry first.\n\n## In the world\n\n- Anyone who means it too often in the grey becomes one of them. The pickers say they have\n  met people they knew.",
+      "file": "creatures/the-unasked.md"
     },
     "the-ashfall": {
       "id": "the-ashfall",
@@ -1733,6 +1665,11 @@
         {
           "to": "greyhollow",
           "kind": "located-in",
+          "declared": false
+        },
+        {
+          "to": "the-unasked",
+          "kind": "survived-by",
           "declared": false
         },
         {
@@ -1788,6 +1725,11 @@
           "to": "the-ashfall",
           "kind": "precedes",
           "declared": true
+        },
+        {
+          "to": "the-going-home",
+          "kind": "precedes",
+          "declared": false
         }
       ],
       "body": "## The night\n\n[[sarn]] entered the iron-roofed hall of [[kell]], took the three rubies from the\n[[iron-crown-of-kell]], and was gone. Nobody saw a face. By morning the grey rivers had left\ntheir beds and the quays were under water.\n\n## What it made\n\nThe guards of the drowned quays became the [[greycloaks]]. The river-priests of [[thurn]]\ngave Sarn the name Lord of Streams that same year, as a warning. And the Mark learned the\nlesson it has lived by since: a thing held in place by belief is held in place by nothing.",
@@ -1821,6 +1763,11 @@
           "declared": true
         },
         {
+          "to": "the-going-home",
+          "kind": "caused-by",
+          "declared": false
+        },
+        {
           "to": "the-walk-to-the-hall",
           "kind": "precedes",
           "declared": false
@@ -1833,6 +1780,37 @@
       ],
       "body": "## What is happening\n\nIn the first winter after the grey lifted, the sea went out from Old [[kell]] on the low\ntide and did not come all the way back. Every month since, it has gone a little further. The\nquay-stones of the drowned city are showing below [[wrackhead]]. On a still day the iron\nroof of the hall stands clear of the water for an hour. Nobody has walked to it yet.\nEverybody is going to.\n\n## Three gods, one name\n\n[[vell]] named it the Ebb before the coast had noticed, and the [[river-priests]] say\n[[thurn]] is calling the rivers home to their beds. The coast folk say [[vorr]] is opening\nhis mouth to give something back. The hangmen of [[hangmoot]] say a rope that went slack\nforty-one years ago is being drawn tight from the other end, and that [[hask]] does not draw\na rope for nothing. All three are pointing at the same iron hall and the three empty sockets\nin it.\n\n## Who is moving\n\n- The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for\n  them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the\n  [[wallgate]] for the first time since the grey.\n- [[gorvek]] has been told by Vell what he carries and has turned toward the coast. He has\n  not said why.\n- [[mardra]] has begun selling things from the grey that she says came up out of Kell.\n- [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.\n- [[sarn]] narrates. Sarn always did. Sarn has started narrating this.\n\n## What it binds\n\nEvery gallows, every river, every fort and every debt in the Mark is drawn tight toward one\niron hall standing up out of the salt. The [[iron-crown-of-kell]] held the world together by\nbeing believed in. The sea is about to show everyone whether it is still there.\n\n## Threads\n\n- How far out does the sea go?\n- What is at the low-water mark when it stops?",
       "file": "events/the-ebb.md"
+    },
+    "the-going-home": {
+      "id": "the-going-home",
+      "type": "event",
+      "name": "The Going Home",
+      "aliases": [
+        "What the Ebb Is"
+      ],
+      "status": "draft",
+      "tags": [
+        "secret",
+        "grey",
+        "ashfall",
+        "descent"
+      ],
+      "summary": "What the descent shows and nobody in the Mark says: the grey came up out of Kell, and it is going back down, and it is drawing the sea after it.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "the-ebb",
+          "kind": "caused",
+          "declared": true
+        },
+        {
+          "to": "the-drowning-of-kell",
+          "kind": "follows",
+          "declared": true
+        }
+      ],
+      "body": "## What is true\n\nThis entry is the truth behind the descent, for the people who write it. No character in\nthe Mark says it, and no line in the game states it. The player reads it in what they find.\n\nWhen [[sarn]] took the stones, the three rivers left their beds, the sea came in over\n[[kell]], and the place under the iron hall where the one river ends was opened. The grey\ncame up out of it, through the water, and climbed the rivers against the current to where\nthey rise beyond the [[wallgate]]. It came down over the north from there, and so the north\nhas always believed it came from the north. That was [[the-ashfall]].\n\nWhen it lifted it did not go away. It went home, down the rivers, into the drain under the\nhall, and it is drawing the sea after it. That is [[the-ebb]]. [[thurn]] calling the rivers\nhome, [[vorr]] opening his mouth, [[hask]]'s rope drawn tight: all three are right, and none\nof them is the reason. [[greyhollow]] is the part that never made it home, and it rises when\nthe sea goes out because it is the same body.\n\n[[vell]] told [[gorvek]] what he carries: the one thing that can tell a stream to stop. He\nwent down before anyone, and he is standing in the drain with [[streamlord]], holding it.\n\n## What the player learns, tier by tier\n\n1. [[quaysteps]]: ash in the silt; the order's first men, dead in the grey, still on duty.\n2. [[lowstreets]]: the doors were barred against the grey, not the water.\n3. [[brinevaults]]: the clerks counted the days of the grey; a fall of water stands still.\n4. [[the-iron-hall]]: the grey at home, and Gorvek in the drain, and his line in the ledger.\n\n## Threads\n\n- How long can he hold it?\n- When the sea is all the way out, does the grey come up again?",
+      "file": "events/the-going-home.md"
     },
     "the-walk-to-the-hall": {
       "id": "the-walk-to-the-hall",
@@ -1872,7 +1850,7 @@
           "declared": false
         }
       ],
-      "body": "## What is happening\n\nSince [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,\nwreckers from the coast, novices who left [[hookford]] without asking: they come with a\nknife and a lamp, and they go down the [[quaysteps]] at low water, and they go a little\ndeeper each time, because the sea does.\n\n## At the Head\n\n- [[barr]] sells them iron on the shingle and buys back what they bring up.\n- Brother [[ruun]] names what they bring up, for a price, on the sand, before the tide takes\n  the name.\n- [[mardra]] has come down from the rim of [[greyhollow]] with a stall of things from the grey.\n  She takes payment in kind.\n- [[tolm]] sits in the door of the fort and tithes what comes up, and apologises for it.\n- The salt-pile takes what it is given. The coast folk say that sometimes, once, the sea\n  gives you back.\n- [[rauk]] does not go down. She will tell you how, between breaths, if you ask.\n\n## Where it goes\n\nDown: through the [[lowstreets]] and the [[brinevaults]] to [[the-iron-hall]], where the\nledger [[linelord]] lies, and out through the iron roof at low water, if you are lucky.\n[[sarn]] narrates every walk.\n\n## Threads\n\n- Who was first into the hall, and did they come back out?",
+      "body": "## The road\n\nSince [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,\nwreckers from the coast, novices who left [[hookford]] without asking. They go down the\n[[quaysteps]] at low water, and a little deeper each time, because the sea does.\n\n## At the Head\n\n- [[barr]] sells them iron on the shingle and buys back what they bring up.\n- Brother [[ruun]] names what they bring up, in the wet sand, before the tide takes it.\n- [[mardra]] has come down from [[greyhollow]]. She says the grey is the same down there.\n- [[tolm]] sits in the door of the fort and takes a tenth, and apologises.\n- The salt-pile takes what it is given, and once, they say, gives you back.\n- [[rauk]] does not go down any more. She will tell you how, between breaths.\n\n## Threads\n\n- [[gorvek]] came through Wrackhead before the first of them and went down alone. Nobody has\n  seen him come up.",
       "file": "events/the-walk-to-the-hall.md"
     },
     "five-rites": {
@@ -2028,7 +2006,7 @@
         "epigraph",
         "descent"
       ],
-      "summary": "Sarn's whisper to whoever goes down the Quaysteps, in which the way to the iron hall is told, and the price for the telling is named.",
+      "summary": "Sarn's whisper to whoever stands at the top of the Quaysteps, in which a ledger is asked for, a roof is promised, and a belief is taken.",
       "speaker": "sarn",
       "form": "whisper",
       "relations": [
@@ -2053,7 +2031,7 @@
           "declared": false
         }
       ],
-      "body": "*You came down the road like the others. Sit on the steps a moment. The water is going out.*\n\n*Under you is Kell. Ten flights of it: the quays, the streets, the vaults, the hall. In the\nhall a king sits with an empty crown, and at his right hand is the ledger, open, at the page\nhe was reading. It knows every wall in the Mark. It does not know you yet.*\n\n*The sea goes out and the sea comes back. Count your steps. Count the time. The ones who\nforget one of the two are kept.*\n\n*I will meet you down there. I will offer you things. Take them or do not. Every gift is a\ntheft, and I have never once lied about which.*\n\n*The way out of the hall is up, through the roof, at low water. Nobody has walked it. Go.*\n\n— Sarn the Faceless, who has walked it\n\n## Use\n\nThe opening of the game on LineLord's site, in which the player goes down into [[kell]] for\nthe ledger. The form is Sarn's whisper: direct address, the knife at the end.",
+      "body": "*The sea is going out. You think it is leaving.*\n\n*Under Kell a king is still reading, and the grey the north remembers has gone home.*\n\n*Bring me the ledger and I will show you the roof.*\n\n*I will take one thing for it: the belief that the grey is behind you.*\n\n*Low water. That is when it breathes.*\n\n— Sarn the Faceless\n\n## Use\n\nThe opening of the game on LineLord's site. It does not say what is down there. It says\nwhich way to look.",
       "file": "stories/the-descent.md"
     },
     "the-forge-and-the-eye": {
@@ -2148,6 +2126,24 @@
       "body": "*\"What is best in code? To crush the bugs, see them driven from your repository, and to\nhear the lamentations of their stack traces!\"*\n\n— Gorvek of Bonereach\n\n## Use\n\nThe epigraph of [[linelord]]. It is [[vurn]]'s cadence put in [[gorvek]]'s mouth, which is\nhow most of the sagas of the Reach work, and it is a nod to the old stories rather than a\nname from them. See STYLE.md on nods.",
       "file": "stories/what-is-best-in-code.md"
     },
+    "a-blade-that-cuts-anything-i": {
+      "id": "a-blade-that-cuts-anything-i",
+      "type": "quote",
+      "name": "A blade that cuts anything. I…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "A blade that cuts anything. I did not say what it will cut first.",
+      "speaker": "sarn",
+      "pool": "gift",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "A blade that cuts anything. I did not say what it will cut first.",
+      "relations": [],
+      "body": "A blade that cuts anything. I did not say what it will cut first.",
+      "file": "quotes/a-blade-that-cuts-anything-i.md"
+    },
     "a-database-without-queries-is-like": {
       "id": "a-database-without-queries-is-like",
       "type": "quote",
@@ -2202,42 +2198,6 @@
       "body": "A developer needs many things: caffeine, patience, and the wisdom to know when to restart the server.",
       "file": "quotes/a-developer-needs-many-things-caffeine.md"
     },
-    "a-gift-for-the-one-who": {
-      "id": "a-gift-for-the-one-who",
-      "type": "quote",
-      "name": "A gift, for the one who…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "A gift, for the one who came this far. The price is small. You will notice it later.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "A gift, for the one who came this far. The price is small. You will notice it later.",
-      "relations": [],
-      "body": "A gift, for the one who came this far. The price is small. You will notice it later.",
-      "file": "quotes/a-gift-for-the-one-who.md"
-    },
-    "a-lamp-cage-holds-the-flame-in": {
-      "id": "a-lamp-cage-holds-the-flame-in",
-      "type": "quote",
-      "name": "A lamp-cage holds the flame in…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "A lamp-cage holds the flame in the wet. Twelve marks. Twelve.",
-      "speaker": "barr",
-      "pool": "haggle",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "A lamp-cage holds the flame in the wet. Twelve marks. Twelve.",
-      "relations": [],
-      "body": "A lamp-cage holds the flame in the wet. Twelve marks. Twelve.",
-      "file": "quotes/a-lamp-cage-holds-the-flame-in.md"
-    },
     "a-man-who-trades-his-hearth-fire": {
       "id": "a-man-who-trades-his-hearth-fire",
       "type": "quote",
@@ -2256,23 +2216,23 @@
       "body": "A man who trades his hearth-fire for the fleeting warmth of a stranger's bed is a fool whose honor is as thin as watered ale. Let him shiver in the end.",
       "file": "quotes/a-man-who-trades-his-hearth-fire.md"
     },
-    "a-merchant-takes-what-you-agree": {
-      "id": "a-merchant-takes-what-you-agree",
+    "a-shelf-of-ledgers-the-last": {
+      "id": "a-shelf-of-ledgers-the-last",
       "type": "quote",
-      "name": "A merchant takes what you agree…",
+      "name": "A shelf of ledgers. The last…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "A merchant takes what you agree to. A thief takes what you do not. Ask the priests which I am. They do not know either.",
-      "speaker": "mardra",
-      "pool": "trade",
+      "summary": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
+      "speaker": "sarn",
+      "pool": "arrive-vaults",
       "usedIn": [
         "descent"
       ],
-      "text": "A merchant takes what you agree to. A thief takes what you do not. Ask the priests which I am. They do not know either.",
+      "text": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
       "relations": [],
-      "body": "A merchant takes what you agree to. A thief takes what you do not. Ask the priests which I am. They do not know either.",
-      "file": "quotes/a-merchant-takes-what-you-agree.md"
+      "body": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
+      "file": "quotes/a-shelf-of-ledgers-the-last.md"
     },
     "ancient-mathematics-flow-like-northern-wine": {
       "id": "ancient-mathematics-flow-like-northern-wine",
@@ -2364,23 +2324,23 @@
       "body": "Another beast of logic slain. I sheathe my keyboard.",
       "file": "quotes/another-beast-of-logic-slain-i.md"
     },
-    "another-doorway-on-the-lowstreets-with": {
-      "id": "another-doorway-on-the-lowstreets-with",
+    "another-line-in-the-ledger-short": {
+      "id": "another-line-in-the-ledger-short",
       "type": "quote",
-      "name": "Another doorway on the Lowstreets with…",
+      "name": "Another line in the ledger. Short.",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Another doorway on the Lowstreets with somebody standing in it.",
+      "summary": "Another line in the ledger. Short.",
       "speaker": "sarn",
       "pool": "death",
       "usedIn": [
         "descent"
       ],
-      "text": "Another doorway on the Lowstreets with somebody standing in it.",
+      "text": "Another line in the ledger. Short.",
       "relations": [],
-      "body": "Another doorway on the Lowstreets with somebody standing in it.",
-      "file": "quotes/another-doorway-on-the-lowstreets-with.md"
+      "body": "Another line in the ledger. Short.",
+      "file": "quotes/another-line-in-the-ledger-short.md"
     },
     "awakening-the-ancient-powers-of-blame": {
       "id": "awakening-the-ancient-powers-of-blame",
@@ -2473,6 +2433,24 @@
       "relations": [],
       "body": "Between the time when the Ashfall drank the villages, and the rise of the Ashborn, there was an age undreamed of. And onto this, LineLord, destined to track all code in your repository!",
       "file": "quotes/between-the-time-when-the-ashfall.md"
+    },
+    "bones-in-a-cloak-the-colour": {
+      "id": "bones-in-a-cloak-the-colour",
+      "type": "quote",
+      "name": "Bones in a cloak the colour…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Bones in a cloak the colour of the floor. The order lost men here. The order does not say when.",
+      "speaker": "sarn",
+      "pool": "arrive-quays",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Bones in a cloak the colour of the floor. The order lost men here. The order does not say when.",
+      "relations": [],
+      "body": "Bones in a cloak the colour of the floor. The order lost men here. The order does not say when.",
+      "file": "quotes/bones-in-a-cloak-the-colour.md"
     },
     "by-gorvek-s-blade-this-code": {
       "id": "by-gorvek-s-blade-this-code",
@@ -2938,24 +2916,6 @@
       "body": "Contemplate this upon the Tree of Woe: merge conflicts are temporary, but git history is forever.",
       "file": "quotes/contemplate-this-upon-the-tree-of.md"
     },
-    "count-steps-count-time-both": {
-      "id": "count-steps-count-time-both",
-      "type": "quote",
-      "name": "Count steps. Count time. Both.",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Count steps. Count time. Both.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Count steps. Count time. Both.",
-      "relations": [],
-      "body": "Count steps. Count time. Both.",
-      "file": "quotes/count-steps-count-time-both.md"
-    },
     "counting-the-spoils-of-war": {
       "id": "counting-the-spoils-of-war",
       "type": "quote",
@@ -3017,38 +2977,56 @@
     "do-not-ask-why-ask-what": {
       "id": "do-not-ask-why-ask-what",
       "type": "quote",
-      "name": "Do not ask why. Ask what.…",
+      "name": "Do not ask why. Ask what.",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Do not ask why. Ask what. What is the only question I answer.",
+      "summary": "Do not ask why. Ask what.",
       "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
       ],
-      "text": "Do not ask why. Ask what. What is the only question I answer.",
+      "text": "Do not ask why. Ask what.",
       "relations": [],
-      "body": "Do not ask why. Ask what. What is the only question I answer.",
+      "body": "Do not ask why. Ask what.",
       "file": "quotes/do-not-ask-why-ask-what.md"
     },
-    "doorways-do-not-stand-in-front": {
-      "id": "doorways-do-not-stand-in-front",
+    "do-not-count-my-days-the": {
+      "id": "do-not-count-my-days-the",
       "type": "quote",
-      "name": "Doorways. Do not stand in front…",
+      "name": "Do not count my days. The…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Doorways. Do not stand in front of one. Ever.",
+      "summary": "Do not count my days. The book does that.",
+      "speaker": "gorvek",
+      "pool": "drain",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Do not count my days. The book does that.",
+      "relations": [],
+      "body": "Do not count my days. The book does that.",
+      "file": "quotes/do-not-count-my-days-the.md"
+    },
+    "doors-do-not-open-them-not": {
+      "id": "doors-do-not-open-them-not",
+      "type": "quote",
+      "name": "Doors. Do not open them. Not…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Doors. Do not open them. Not the barred ones.",
       "speaker": "rauk",
       "pool": "advice",
       "usedIn": [
         "descent"
       ],
-      "text": "Doorways. Do not stand in front of one. Ever.",
+      "text": "Doors. Do not open them. Not the barred ones.",
       "relations": [],
-      "body": "Doorways. Do not stand in front of one. Ever.",
-      "file": "quotes/doorways-do-not-stand-in-front.md"
+      "body": "Doors. Do not open them. Not the barred ones.",
+      "file": "quotes/doors-do-not-open-them-not.md"
     },
     "enough-talk-of-code-the-wind": {
       "id": "enough-talk-of-code-the-wind",
@@ -3067,6 +3045,24 @@
       "relations": [],
       "body": "Enough talk of code. The wind calls my name.",
       "file": "quotes/enough-talk-of-code-the-wind.md"
+    },
+    "every-door-is-barred-look-at": {
+      "id": "every-door-is-barred-look-at",
+      "type": "quote",
+      "name": "Every door is barred. Look at…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Every door is barred. Look at the scratches. They are on the outside.",
+      "speaker": "sarn",
+      "pool": "arrive-streets",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Every door is barred. Look at the scratches. They are on the outside.",
+      "relations": [],
+      "body": "Every door is barred. Look at the scratches. They are on the outside.",
+      "file": "quotes/every-door-is-barred-look-at.md"
     },
     "everyone-has-the-power-to-code": {
       "id": "everyone-has-the-power-to-code",
@@ -3122,23 +3118,23 @@
       "body": "Farewell, brave coder. May your terminal never crash and your deployments always succeed.",
       "file": "quotes/farewell-brave-coder-may-your-terminal.md"
     },
-    "flood-comes-find-the-stair-not": {
-      "id": "flood-comes-find-the-stair-not",
+    "flood-the-grey-sinks-under-the": {
+      "id": "flood-the-grey-sinks-under-the",
       "type": "quote",
-      "name": "Flood comes. Find the stair. Not…",
+      "name": "Flood. The grey sinks under the…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Flood comes. Find the stair. Not the deep. The stair.",
-      "speaker": "rauk",
-      "pool": "advice",
+      "summary": "Flood. The grey sinks under the water and waits. You have a while.",
+      "speaker": "sarn",
+      "pool": "tide",
       "usedIn": [
         "descent"
       ],
-      "text": "Flood comes. Find the stair. Not the deep. The stair.",
+      "text": "Flood. The grey sinks under the water and waits. You have a while.",
       "relations": [],
-      "body": "Flood comes. Find the stair. Not the deep. The stair.",
-      "file": "quotes/flood-comes-find-the-stair-not.md"
+      "body": "Flood. The grey sinks under the water and waits. You have a while.",
+      "file": "quotes/flood-the-grey-sinks-under-the.md"
     },
     "forging-the-blade-of-analysis": {
       "id": "forging-the-blade-of-analysis",
@@ -3284,24 +3280,6 @@
       "body": "Gorvek's vengeance against technical debt knows no bounds!",
       "file": "quotes/gorvek-s-vengeance-against-technical-debt.md"
     },
-    "green-steps-going-down-everything-here": {
-      "id": "green-steps-going-down-everything-here",
-      "type": "quote",
-      "name": "Green steps, going down. Everything here…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Green steps, going down. Everything here has been picked once. Not everything has been picked by the living.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Green steps, going down. Everything here has been picked once. Not everything has been picked by the living.",
-      "relations": [],
-      "body": "Green steps, going down. Everything here has been picked once. Not everything has been picked by the living.",
-      "file": "quotes/green-steps-going-down-everything-here.md"
-    },
     "he-is-fast-if-my-algorithm": {
       "id": "he-is-fast-if-my-algorithm",
       "type": "quote",
@@ -3402,24 +3380,6 @@
       "body": "He is wise! If my abstraction leaks, I have to go before him, and he will ask me, 'What is the riddle of true encapsulation?' If I don't know it, he will cast my module out of the core library and laugh at its coupling. That's the Old Guard Developer, strong on his principles!",
       "file": "quotes/he-is-wise-if-my-abstraction.md"
     },
-    "here-something-you-need-for-something": {
-      "id": "here-something-you-need-for-something",
-      "type": "quote",
-      "name": "Here. Something you need, for something…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Here. Something you need, for something you will not miss until you do.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Here. Something you need, for something you will not miss until you do.",
-      "relations": [],
-      "body": "Here. Something you need, for something you will not miss until you do.",
-      "file": "quotes/here-something-you-need-for-something.md"
-    },
     "i-am-sorry-a-tenth-for": {
       "id": "i-am-sorry-a-tenth-for",
       "type": "quote",
@@ -3427,15 +3387,15 @@
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday, and I am sorry about that too.",
+      "summary": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "speaker": "tolm",
       "pool": "tithe",
       "usedIn": [
         "descent"
       ],
-      "text": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday, and I am sorry about that too.",
+      "text": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "relations": [],
-      "body": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday, and I am sorry about that too.",
+      "body": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "file": "quotes/i-am-sorry-a-tenth-for.md"
     },
     "i-do-not-want-your-coin": {
@@ -3445,15 +3405,15 @@
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "I do not want your coin. I want the thing you did not know you had. You will find out what it was.",
+      "summary": "I do not want your coin. I want something you do not know you have.",
       "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
       ],
-      "text": "I do not want your coin. I want the thing you did not know you had. You will find out what it was.",
+      "text": "I do not want your coin. I want something you do not know you have.",
       "relations": [],
-      "body": "I do not want your coin. I want the thing you did not know you had. You will find out what it was.",
+      "body": "I do not want your coin. I want something you do not know you have.",
       "file": "quotes/i-do-not-want-your-coin.md"
     },
     "i-have-known-many-gods-git": {
@@ -3510,59 +3470,41 @@
       "body": "I live, I code, I commit... and I am content.",
       "file": "quotes/i-live-i-code-i-commit.md"
     },
-    "i-never-lie-this-blade-will": {
-      "id": "i-never-lie-this-blade-will",
+    "i-offered-you-took-you-heard": {
+      "id": "i-offered-you-took-you-heard",
       "type": "quote",
-      "name": "I never lie. This blade will…",
+      "name": "I offered. You took. You heard…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "I never lie. This blade will cut anything. I did not say whose hand would hold it.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "I never lie. This blade will cut anything. I did not say whose hand would hold it.",
-      "relations": [],
-      "body": "I never lie. This blade will cut anything. I did not say whose hand would hold it.",
-      "file": "quotes/i-never-lie-this-blade-will.md"
-    },
-    "i-offered-you-took-i-said": {
-      "id": "i-offered-you-took-i-said",
-      "type": "quote",
-      "name": "I offered. You took. I said…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "I offered. You took. I said every gift is a theft. You heard gift.",
+      "summary": "I offered. You took. You heard gift.",
       "speaker": "sarn",
       "pool": "death",
       "usedIn": [
         "descent"
       ],
-      "text": "I offered. You took. I said every gift is a theft. You heard gift.",
+      "text": "I offered. You took. You heard gift.",
       "relations": [],
-      "body": "I offered. You took. I said every gift is a theft. You heard gift.",
-      "file": "quotes/i-offered-you-took-i-said.md"
+      "body": "I offered. You took. You heard gift.",
+      "file": "quotes/i-offered-you-took-you-heard.md"
     },
-    "i-would-not-ask-if-it": {
-      "id": "i-would-not-ask-if-it",
+    "i-went-down-to-the-hall": {
+      "id": "i-went-down-to-the-hall",
       "type": "quote",
-      "name": "I would not ask if it…",
+      "name": "I went down to the hall…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "I would not ask if it were up to me. It is up to me. I am asking.",
-      "speaker": "tolm",
-      "pool": "tithe",
+      "summary": "I went down to the hall once. The crown was warm. I did not go back.",
+      "speaker": "rauk",
+      "pool": "advice",
       "usedIn": [
         "descent"
       ],
-      "text": "I would not ask if it were up to me. It is up to me. I am asking.",
+      "text": "I went down to the hall once. The crown was warm. I did not go back.",
       "relations": [],
-      "body": "I would not ask if it were up to me. It is up to me. I am asking.",
-      "file": "quotes/i-would-not-ask-if-it.md"
+      "body": "I went down to the hall once. The crown was warm. I did not go back.",
+      "file": "quotes/i-went-down-to-the-hall.md"
     },
     "if-a-lesser-coder-wields-his": {
       "id": "if-a-lesser-coder-wields-his",
@@ -3636,24 +3578,6 @@
       "body": "In the name of the Ashfall! Your code compiles without warning!",
       "file": "quotes/in-the-name-of-the-ashfall.md"
     },
-    "iron-overhead-you-are-under-the": {
-      "id": "iron-overhead-you-are-under-the",
-      "type": "quote",
-      "name": "Iron overhead. You are under the…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Iron overhead. You are under the roof now. Breathe while there is air worth breathing.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Iron overhead. You are under the roof now. Breathe while there is air worth breathing.",
-      "relations": [],
-      "body": "Iron overhead. You are under the roof now. Breathe while there is air worth breathing.",
-      "file": "quotes/iron-overhead-you-are-under-the.md"
-    },
     "it-is-complex-if-my-deployment": {
       "id": "it-is-complex-if-my-deployment",
       "type": "quote",
@@ -3712,24 +3636,6 @@
       "body": "It is sung that the last king of Kell himself sought LineLord's counsel when the demonic hordes threatened, seeking the lost command lines that could awaken Gallowmark's forgotten defenses.",
       "file": "quotes/it-is-sung-that-the-last.md"
     },
-    "kept-the-sea-does-not-forget": {
-      "id": "kept-the-sea-does-not-forget",
-      "type": "quote",
-      "name": "Kept. The sea does not forget…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Kept. The sea does not forget a name. It simply never gives it back.",
-      "speaker": "sarn",
-      "pool": "death",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Kept. The sea does not forget a name. It simply never gives it back.",
-      "relations": [],
-      "body": "Kept. The sea does not forget a name. It simply never gives it back.",
-      "file": "quotes/kept-the-sea-does-not-forget.md"
-    },
     "know-o-prince-that-between-the": {
       "id": "know-o-prince-that-between-the",
       "type": "quote",
@@ -3777,15 +3683,15 @@
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Lamp first. Then knife. In the dark, the knife is no use.",
+      "summary": "Lamp first. Then knife. In the dark the knife is nothing.",
       "speaker": "rauk",
       "pool": "advice",
       "usedIn": [
         "descent"
       ],
-      "text": "Lamp first. Then knife. In the dark, the knife is no use.",
+      "text": "Lamp first. Then knife. In the dark the knife is nothing.",
       "relations": [],
-      "body": "Lamp first. Then knife. In the dark, the knife is no use.",
+      "body": "Lamp first. Then knife. In the dark the knife is nothing.",
       "file": "quotes/lamp-first-then-knife-in-the.md"
     },
     "let-me-tell-you-of-the": {
@@ -3864,23 +3770,41 @@
       "body": "Let the spiteful coder choke on his own spaghetti code. Your path is straight and true. Until next time.",
       "file": "quotes/let-the-spiteful-coder-choke-on.md"
     },
-    "low-water-the-steps-are-yours": {
-      "id": "low-water-the-steps-are-yours",
+    "low-water-breathe-now-while-it": {
+      "id": "low-water-breathe-now-while-it",
       "type": "quote",
-      "name": "Low water. The steps are yours…",
+      "name": "Low water. Breathe now, while it…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Low water. The steps are yours for a while. A while is not long.",
+      "summary": "Low water. Breathe now, while it is still your air.",
       "speaker": "sarn",
       "pool": "tide",
       "usedIn": [
         "descent"
       ],
-      "text": "Low water. The steps are yours for a while. A while is not long.",
+      "text": "Low water. Breathe now, while it is still your air.",
       "relations": [],
-      "body": "Low water. The steps are yours for a while. A while is not long.",
-      "file": "quotes/low-water-the-steps-are-yours.md"
+      "body": "Low water. Breathe now, while it is still your air.",
+      "file": "quotes/low-water-breathe-now-while-it.md"
+    },
+    "low-water-is-not-safe-it": {
+      "id": "low-water-is-not-safe-it",
+      "type": "quote",
+      "name": "Low water is not safe. It…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Low water is not safe. It only looks it.",
+      "speaker": "rauk",
+      "pool": "advice",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Low water is not safe. It only looks it.",
+      "relations": [],
+      "body": "Low water is not safe. It only looks it.",
+      "file": "quotes/low-water-is-not-safe-it.md"
     },
     "mail-the-dye-is-out-do": {
       "id": "mail-the-dye-is-out-do",
@@ -4008,6 +3932,24 @@
       "body": "No more commands. My will is my own again.",
       "file": "quotes/no-more-commands-my-will-is.md"
     },
+    "nobody-will-ask-you-what-you": {
+      "id": "nobody-will-ask-you-what-you",
+      "type": "quote",
+      "name": "Nobody will ask you what you…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Nobody will ask you what you ate. That is the custom.",
+      "speaker": "sarn",
+      "pool": "unasked",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Nobody will ask you what you ate. That is the custom.",
+      "relations": [],
+      "body": "Nobody will ask you what you ate. That is the custom.",
+      "file": "quotes/nobody-will-ask-you-what-you.md"
+    },
     "northern-strength-flows-through-the-bytes": {
       "id": "northern-strength-flows-through-the-bytes",
       "type": "quote",
@@ -4026,23 +3968,41 @@
       "body": "Northern strength flows through the bytes...",
       "file": "quotes/northern-strength-flows-through-the-bytes.md"
     },
-    "out-through-the-roof-at-low": {
-      "id": "out-through-the-roof-at-low",
+    "notches-in-the-salt-nine-to": {
+      "id": "notches-in-the-salt-nine-to",
       "type": "quote",
-      "name": "Out through the roof at low…",
+      "name": "Notches in the salt. Nine to…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Out through the roof at low water, with the ledger under your arm and the sea coming in behind. Nobody walked it before. Somebody has now.",
+      "summary": "Notches in the salt. Nine to a row. Nobody here is short of time.",
+      "speaker": "sarn",
+      "pool": "arrive-vaults",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Notches in the salt. Nine to a row. Nobody here is short of time.",
+      "relations": [],
+      "body": "Notches in the salt. Nine to a row. Nobody here is short of time.",
+      "file": "quotes/notches-in-the-salt-nine-to.md"
+    },
+    "out-through-the-roof-with-the": {
+      "id": "out-through-the-roof-with-the",
+      "type": "quote",
+      "name": "Out through the roof with the…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Out through the roof with the ledger under your arm. Behind you a man is still holding a river.",
       "speaker": "sarn",
       "pool": "escape",
       "usedIn": [
         "descent"
       ],
-      "text": "Out through the roof at low water, with the ledger under your arm and the sea coming in behind. Nobody walked it before. Somebody has now.",
+      "text": "Out through the roof with the ledger under your arm. Behind you a man is still holding a river.",
       "relations": [],
-      "body": "Out through the roof at low water, with the ledger under your arm and the sea coming in behind. Nobody walked it before. Somebody has now.",
-      "file": "quotes/out-through-the-roof-at-low.md"
+      "body": "Out through the roof with the ledger under your arm. Behind you a man is still holding a river.",
+      "file": "quotes/out-through-the-roof-with-the.md"
     },
     "pay-no-mind-to-the-whispers": {
       "id": "pay-no-mind-to-the-whispers",
@@ -4098,23 +4058,23 @@
       "body": "Preparing for the conquest of code...",
       "file": "quotes/preparing-for-the-conquest-of-code.md"
     },
-    "refuse-then-that-is-a-choice": {
-      "id": "refuse-then-that-is-a-choice",
+    "refuse-then-i-will-offer-it": {
+      "id": "refuse-then-i-will-offer-it",
       "type": "quote",
-      "name": "Refuse, then. That is a choice…",
+      "name": "Refuse, then. I will offer it…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Refuse, then. That is a choice too, and choices are what I trade in.",
+      "summary": "Refuse, then. I will offer it to the next one. There is always a next one.",
       "speaker": "sarn",
       "pool": "gift",
       "usedIn": [
         "descent"
       ],
-      "text": "Refuse, then. That is a choice too, and choices are what I trade in.",
+      "text": "Refuse, then. I will offer it to the next one. There is always a next one.",
       "relations": [],
-      "body": "Refuse, then. That is a choice too, and choices are what I trade in.",
-      "file": "quotes/refuse-then-that-is-a-choice.md"
+      "body": "Refuse, then. I will offer it to the next one. There is always a next one.",
+      "file": "quotes/refuse-then-i-will-offer-it.md"
     },
     "riding-through-the-codebase-like-thunder": {
       "id": "riding-through-the-codebase-like-thunder",
@@ -4133,24 +4093,6 @@
       "relations": [],
       "body": "Riding through the codebase like thunder...",
       "file": "quotes/riding-through-the-codebase-like-thunder.md"
-    },
-    "ropes-in-the-vaults-pulled-taut": {
-      "id": "ropes-in-the-vaults-pulled-taut",
-      "type": "quote",
-      "name": "Ropes in the vaults. Pulled taut.…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Ropes in the vaults. Pulled taut. Cut, do not hold.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Ropes in the vaults. Pulled taut. Cut, do not hold.",
-      "relations": [],
-      "body": "Ropes in the vaults. Pulled taut. Cut, do not hold.",
-      "file": "quotes/ropes-in-the-vaults-pulled-taut.md"
     },
     "ruby-gems-of-repository-data-sparkle": {
       "id": "ruby-gems-of-repository-data-sparkle",
@@ -4177,52 +4119,16 @@
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "summary": "Ruun writes the name in the wet sand. The tide takes it. You do not forget it.",
       "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
         "descent"
       ],
-      "text": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "text": "Ruun writes the name in the wet sand. The tide takes it. You do not forget it.",
       "relations": [],
-      "body": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "body": "Ruun writes the name in the wet sand. The tide takes it. You do not forget it.",
       "file": "quotes/ruun-writes-the-name-in-the.md"
-    },
-    "salt-in-a-wound-stays-wash": {
-      "id": "salt-in-a-wound-stays-wash",
-      "type": "quote",
-      "name": "Salt in a wound stays. Wash…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Salt in a wound stays. Wash it or carry it.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Salt in a wound stays. Wash it or carry it.",
-      "relations": [],
-      "body": "Salt in a wound stays. Wash it or carry it.",
-      "file": "quotes/salt-in-a-wound-stays-wash.md"
-    },
-    "salt-underfoot-salt-in-the-walls": {
-      "id": "salt-underfoot-salt-in-the-walls",
-      "type": "quote",
-      "name": "Salt underfoot, salt in the walls,…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Salt underfoot, salt in the walls, salt in the air. You will taste this floor for a week.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Salt underfoot, salt in the walls, salt in the air. You will taste this floor for a week.",
-      "relations": [],
-      "body": "Salt underfoot, salt in the walls, salt in the air. You will taste this floor for a week.",
-      "file": "quotes/salt-underfoot-salt-in-the-walls.md"
     },
     "savage-swords-slash-through-tangled-dependencies": {
       "id": "savage-swords-slash-through-tangled-dependencies",
@@ -4260,24 +4166,6 @@
       "body": "Sharpening the sword of scrutiny...",
       "file": "quotes/sharpening-the-sword-of-scrutiny.md"
     },
-    "silt-to-the-knee-and-doors": {
-      "id": "silt-to-the-knee-and-doors",
-      "type": "quote",
-      "name": "Silt to the knee and doors…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Silt to the knee and doors barred from the inside. Kell went home that night. Knock if you like.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Silt to the knee and doors barred from the inside. Kell went home that night. Knock if you like.",
-      "relations": [],
-      "body": "Silt to the knee and doors barred from the inside. Kell went home that night. Knock if you like.",
-      "file": "quotes/silt-to-the-knee-and-doors.md"
-    },
     "slaying-bugs-and-counting-lines-with": {
       "id": "slaying-bugs-and-counting-lines-with",
       "type": "quote",
@@ -4295,6 +4183,24 @@
       "relations": [],
       "body": "Slaying bugs and counting lines with steel and fury...",
       "file": "quotes/slaying-bugs-and-counting-lines-with.md"
+    },
+    "somebody-lived-down-here-look-at": {
+      "id": "somebody-lived-down-here-look-at",
+      "type": "quote",
+      "name": "Somebody lived down here. Look at…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
+      "speaker": "sarn",
+      "pool": "arrive-streets",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
+      "relations": [],
+      "body": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
+      "file": "quotes/somebody-lived-down-here-look-at.md"
     },
     "steel-and-sorcery-meet-in-digital": {
       "id": "steel-and-sorcery-meet-in-digital",
@@ -4386,6 +4292,42 @@
       "body": "Summoning the spirits of git...",
       "file": "quotes/summoning-the-spirits-of-git.md"
     },
+    "take-it-it-is-better-than": {
+      "id": "take-it-it-is-better-than",
+      "type": "quote",
+      "name": "Take it. It is better than…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Take it. It is better than anything Barr sells. Ask yourself what I sell.",
+      "speaker": "sarn",
+      "pool": "gift",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Take it. It is better than anything Barr sells. Ask yourself what I sell.",
+      "relations": [],
+      "body": "Take it. It is better than anything Barr sells. Ask yourself what I sell.",
+      "file": "quotes/take-it-it-is-better-than.md"
+    },
+    "take-the-book-go-up-i": {
+      "id": "take-the-book-go-up-i",
+      "type": "quote",
+      "name": "Take the book. Go up. I…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Take the book. Go up. I hold.",
+      "speaker": "gorvek",
+      "pool": "drain",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Take the book. Go up. I hold.",
+      "relations": [],
+      "body": "Take the book. Go up. I hold.",
+      "file": "quotes/take-the-book-go-up-i.md"
+    },
     "tallying-the-conquered-territories": {
       "id": "tallying-the-conquered-territories",
       "type": "quote",
@@ -4440,41 +4382,23 @@
       "body": "Thank you for coming up. The order thanks you. The order would like a tenth.",
       "file": "quotes/thank-you-for-coming-up-the.md"
     },
-    "that-is-not-a-stone-that": {
-      "id": "that-is-not-a-stone-that",
+    "that-weighs-what-it-weighs-a": {
+      "id": "that-weighs-what-it-weighs-a",
       "type": "quote",
-      "name": "That is not a stone. That…",
+      "name": "That weighs what it weighs. A…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "That is not a stone. That has a name, and now you have it.",
-      "speaker": "ruun",
-      "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "That is not a stone. That has a name, and now you have it.",
-      "relations": [],
-      "body": "That is not a stone. That has a name, and now you have it.",
-      "file": "quotes/that-is-not-a-stone-that.md"
-    },
-    "that-weighs-what-it-weighs-i": {
-      "id": "that-weighs-what-it-weighs-i",
-      "type": "quote",
-      "name": "That weighs what it weighs. I…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "That weighs what it weighs. I will give you a third of it.",
+      "summary": "That weighs what it weighs. A third.",
       "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
         "descent"
       ],
-      "text": "That weighs what it weighs. I will give you a third of it.",
+      "text": "That weighs what it weighs. A third.",
       "relations": [],
-      "body": "That weighs what it weighs. I will give you a third of it.",
-      "file": "quotes/that-weighs-what-it-weighs-i.md"
+      "body": "That weighs what it weighs. A third.",
+      "file": "quotes/that-weighs-what-it-weighs-a.md"
     },
     "the-algorithms-are-silent-good-they": {
       "id": "the-algorithms-are-silent-good-they",
@@ -4936,24 +4860,6 @@
       "body": "The black pearls of productivity are counted...",
       "file": "quotes/the-black-pearls-of-productivity-are.md"
     },
-    "the-boats-are-still-tied-somebody": {
-      "id": "the-boats-are-still-tied-somebody",
-      "type": "quote",
-      "name": "The boats are still tied. Somebody…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The boats are still tied. Somebody meant to come back for them. Somebody did not.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The boats are still tied. Somebody meant to come back for them. Somebody did not.",
-      "relations": [],
-      "body": "The boats are still tied. Somebody meant to come back for them. Somebody did not.",
-      "file": "quotes/the-boats-are-still-tied-somebody.md"
-    },
     "the-code-is-but-a-shadow": {
       "id": "the-code-is-but-a-shadow",
       "type": "quote",
@@ -4989,24 +4895,6 @@
       "relations": [],
       "body": "The code is strong, but flesh is stronger!",
       "file": "quotes/the-code-is-strong-but-flesh.md"
-    },
-    "the-crabs-own-the-steps-at": {
-      "id": "the-crabs-own-the-steps-at",
-      "type": "quote",
-      "name": "The crabs own the steps at…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The crabs own the steps at low water. Go round.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The crabs own the steps at low water. Go round.",
-      "relations": [],
-      "body": "The crabs own the steps at low water. Go round.",
-      "file": "quotes/the-crabs-own-the-steps-at.md"
     },
     "the-dark-lord-s-secrets-lie": {
       "id": "the-dark-lord-s-secrets-lie",
@@ -5065,6 +4953,24 @@
       "relations": [],
       "body": "The digital spirits are restless. I leave them to their flickering dance.",
       "file": "quotes/the-digital-spirits-are-restless-i.md"
+    },
+    "the-doors-were-barred-against-something": {
+      "id": "the-doors-were-barred-against-something",
+      "type": "quote",
+      "name": "The doors were barred against something.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The doors were barred against something. The sea was only what came first.",
+      "speaker": "sarn",
+      "pool": "arrive-streets",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The doors were barred against something. The sea was only what came first.",
+      "relations": [],
+      "body": "The doors were barred against something. The sea was only what came first.",
+      "file": "quotes/the-doors-were-barred-against-something.md"
     },
     "the-drums-of-war-echo-through": {
       "id": "the-drums-of-war-echo-through",
@@ -5138,41 +5044,23 @@
       "body": "The final keystroke falls like a barbarian axe. The session is cleaved.",
       "file": "quotes/the-final-keystroke-falls-like-a.md"
     },
-    "the-flood-is-in-lamps-go": {
-      "id": "the-flood-is-in-lamps-go",
+    "the-flood-is-turning-the-water": {
+      "id": "the-flood-is-turning-the-water",
       "type": "quote",
-      "name": "The flood is in. Lamps go…",
+      "name": "The flood is turning. The water…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "The flood is in. Lamps go out first. Then the brave.",
+      "summary": "The flood is turning. The water is coming back up the steps. So is everything in it.",
       "speaker": "sarn",
       "pool": "tide",
       "usedIn": [
         "descent"
       ],
-      "text": "The flood is in. Lamps go out first. Then the brave.",
+      "text": "The flood is turning. The water is coming back up the steps. So is everything in it.",
       "relations": [],
-      "body": "The flood is in. Lamps go out first. Then the brave.",
-      "file": "quotes/the-flood-is-in-lamps-go.md"
-    },
-    "the-flood-is-turning-count-your": {
-      "id": "the-flood-is-turning-count-your",
-      "type": "quote",
-      "name": "The flood is turning. Count your…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The flood is turning. Count your steps to the stair. Then count them again, faster.",
-      "speaker": "sarn",
-      "pool": "tide",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The flood is turning. Count your steps to the stair. Then count them again, faster.",
-      "relations": [],
-      "body": "The flood is turning. Count your steps to the stair. Then count them again, faster.",
-      "file": "quotes/the-flood-is-turning-count-your.md"
+      "body": "The flood is turning. The water is coming back up the steps. So is everything in it.",
+      "file": "quotes/the-flood-is-turning-the-water.md"
     },
     "the-frost-giant-s-daughter-whispers": {
       "id": "the-frost-giant-s-daughter-whispers",
@@ -5232,6 +5120,60 @@
       "body": "The golden fleece of git metrics unfolds...",
       "file": "quotes/the-golden-fleece-of-git-metrics.md"
     },
+    "the-grey-down-there-is-the": {
+      "id": "the-grey-down-there-is-the",
+      "type": "quote",
+      "name": "The grey down there is the…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "speaker": "mardra",
+      "pool": "trade",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "relations": [],
+      "body": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "file": "quotes/the-grey-down-there-is-the.md"
+    },
+    "the-grey-stands-in-the-hall": {
+      "id": "the-grey-stands-in-the-hall",
+      "type": "quote",
+      "name": "The grey stands in the hall…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "speaker": "sarn",
+      "pool": "arrive-hall",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "relations": [],
+      "body": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "file": "quotes/the-grey-stands-in-the-hall.md"
+    },
+    "the-grey-took-you-it-takes": {
+      "id": "the-grey-took-you-it-takes",
+      "type": "quote",
+      "name": "The grey took you. It takes…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The grey took you. It takes what it would have used.",
+      "speaker": "sarn",
+      "pool": "death",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The grey took you. It takes what it would have used.",
+      "relations": [],
+      "body": "The grey took you. It takes what it would have used.",
+      "file": "quotes/the-grey-took-you-it-takes.md"
+    },
     "the-halls-of-the-dead-echo": {
       "id": "the-halls-of-the-dead-echo",
       "type": "quote",
@@ -5285,24 +5227,6 @@
       "relations": [],
       "body": "The hunt for bugs is over... for now. I shall return when the scent is fresh.",
       "file": "quotes/the-hunt-for-bugs-is-over.md"
-    },
-    "the-iron-roof-at-your-back": {
-      "id": "the-iron-roof-at-your-back",
-      "type": "quote",
-      "name": "The iron roof at your back…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The iron roof at your back and the sky in your face. The coast will want to know what you carried. Tell them it counts lines.",
-      "speaker": "sarn",
-      "pool": "escape",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The iron roof at your back and the sky in your face. The coast will want to know what you carried. Tell them it counts lines.",
-      "relations": [],
-      "body": "The iron roof at your back and the sky in your face. The coast will want to know what you carried. Tell them it counts lines.",
-      "file": "quotes/the-iron-roof-at-your-back.md"
     },
     "the-ivory-tower-of-statistics-stands": {
       "id": "the-ivory-tower-of-statistics-stands",
@@ -5398,6 +5322,24 @@
       "body": "The jewels of the ancients shine with completion!",
       "file": "quotes/the-jewels-of-the-ancients-shine.md"
     },
+    "the-king-s-crown-is-warm-something": {
+      "id": "the-king-s-crown-is-warm-something",
+      "type": "quote",
+      "name": "The king's crown is warm. Something…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The king's crown is warm. Something under the floor is breathing against it.",
+      "speaker": "sarn",
+      "pool": "arrive-hall",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The king's crown is warm. Something under the floor is breathing against it.",
+      "relations": [],
+      "body": "The king's crown is warm. Something under the floor is breathing against it.",
+      "file": "quotes/the-king-s-crown-is-warm-something.md"
+    },
     "the-last-command-is-given-if": {
       "id": "the-last-command-is-given-if",
       "type": "quote",
@@ -5415,24 +5357,6 @@
       "relations": [],
       "body": "The last command is given. If the server displeases Thurn, it will answer to the river.",
       "file": "quotes/the-last-command-is-given-if.md"
-    },
-    "the-ledger-counts-lines-and-days": {
-      "id": "the-ledger-counts-lines-and-days",
-      "type": "quote",
-      "name": "The ledger counts lines and days.…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The ledger counts lines and days. It has your days now. All of them.",
-      "speaker": "sarn",
-      "pool": "death",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The ledger counts lines and days. It has your days now. All of them.",
-      "relations": [],
-      "body": "The ledger counts lines and days. It has your days now. All of them.",
-      "file": "quotes/the-ledger-counts-lines-and-days.md"
     },
     "the-machine-sleeps-so-too-shall": {
       "id": "the-machine-sleeps-so-too-shall",
@@ -5547,24 +5471,6 @@
       "relations": [],
       "body": "The phoenix rises from ashes of old code...",
       "file": "quotes/the-phoenix-rises-from-ashes-of.md"
-    },
-    "the-pile-takes-it-nobody-says": {
-      "id": "the-pile-takes-it-nobody-says",
-      "type": "quote",
-      "name": "The pile takes it. Nobody says…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The pile takes it. Nobody says what for.",
-      "speaker": null,
-      "pool": "salt-pile",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The pile takes it. Nobody says what for.",
-      "relations": [],
-      "body": "The pile takes it. Nobody says what for.",
-      "file": "quotes/the-pile-takes-it-nobody-says.md"
     },
     "the-prophecy-of-analysis-unfolds": {
       "id": "the-prophecy-of-analysis-unfolds",
@@ -5700,41 +5606,23 @@
       "body": "The river-priests of Thurn whispered that LineLord's gaze could unravel the very threads of a man's fate, woven in the code of the elder gods.",
       "file": "quotes/the-river-priests-of-thurn-whispered-that.md"
     },
-    "the-roof-has-a-gap-low": {
-      "id": "the-roof-has-a-gap-low",
+    "the-ropes-in-the-vaults-cut": {
+      "id": "the-ropes-in-the-vaults-cut",
       "type": "quote",
-      "name": "The roof has a gap. Low…",
+      "name": "The ropes in the vaults. Cut.…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "The roof has a gap. Low water only. I did not tell you.",
+      "summary": "The ropes in the vaults. Cut. Never hold.",
       "speaker": "rauk",
       "pool": "advice",
       "usedIn": [
         "descent"
       ],
-      "text": "The roof has a gap. Low water only. I did not tell you.",
+      "text": "The ropes in the vaults. Cut. Never hold.",
       "relations": [],
-      "body": "The roof has a gap. Low water only. I did not tell you.",
-      "file": "quotes/the-roof-has-a-gap-low.md"
-    },
-    "the-ropes-here-are-taut-all": {
-      "id": "the-ropes-here-are-taut-all",
-      "type": "quote",
-      "name": "The ropes here are taut, all…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The ropes here are taut, all of them, all one way. Do not stand where a rope is going.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The ropes here are taut, all of them, all one way. Do not stand where a rope is going.",
-      "relations": [],
-      "body": "The ropes here are taut, all of them, all one way. Do not stand where a rope is going.",
-      "file": "quotes/the-ropes-here-are-taut-all.md"
+      "body": "The ropes in the vaults. Cut. Never hold.",
+      "file": "quotes/the-ropes-in-the-vaults-cut.md"
     },
     "the-scales-of-justice-weigh-each": {
       "id": "the-scales-of-justice-weigh-each",
@@ -5754,41 +5642,23 @@
       "body": "The scales of justice weigh each contribution...",
       "file": "quotes/the-scales-of-justice-weigh-each.md"
     },
-    "the-sea-gave-you-back-it": {
-      "id": "the-sea-gave-you-back-it",
+    "the-sea-gave-you-back-somebody": {
+      "id": "the-sea-gave-you-back-somebody",
       "type": "quote",
-      "name": "The sea gave you back. It…",
+      "name": "The sea gave you back. Somebody…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "The sea gave you back. It will not do it twice.",
+      "summary": "The sea gave you back. Somebody on the shingle did not wake this morning.",
       "speaker": null,
       "pool": "salt-pile",
       "usedIn": [
         "descent"
       ],
-      "text": "The sea gave you back. It will not do it twice.",
+      "text": "The sea gave you back. Somebody on the shingle did not wake this morning.",
       "relations": [],
-      "body": "The sea gave you back. It will not do it twice.",
-      "file": "quotes/the-sea-gave-you-back-it.md"
-    },
-    "the-sea-goes-out-again-it": {
-      "id": "the-sea-goes-out-again-it",
-      "type": "quote",
-      "name": "The sea goes out again. It…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The sea goes out again. It always does. It took something with it this time. Check.",
-      "speaker": "sarn",
-      "pool": "tide",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The sea goes out again. It always does. It took something with it this time. Check.",
-      "relations": [],
-      "body": "The sea goes out again. It always does. It took something with it this time. Check.",
-      "file": "quotes/the-sea-goes-out-again-it.md"
+      "body": "The sea gave you back. Somebody on the shingle did not wake this morning.",
+      "file": "quotes/the-sea-gave-you-back-somebody.md"
     },
     "the-serpent-of-the-old-gods": {
       "id": "the-serpent-of-the-old-gods",
@@ -5888,6 +5758,24 @@
       "body": "The silence of the server is a good omen. I depart.",
       "file": "quotes/the-silence-of-the-server-is.md"
     },
+    "the-silt-is-grey-taste-it": {
+      "id": "the-silt-is-grey-taste-it",
+      "type": "quote",
+      "name": "The silt is grey. Taste it.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The silt is grey. Taste it. That is not sand.",
+      "speaker": "sarn",
+      "pool": "arrive-quays",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The silt is grey. Taste it. That is not sand.",
+      "relations": [],
+      "body": "The silt is grey. Taste it. That is not sand.",
+      "file": "quotes/the-silt-is-grey-taste-it.md"
+    },
     "the-spirits-of-the-mainframe-are": {
       "id": "the-spirits-of-the-mainframe-are",
       "type": "quote",
@@ -5961,6 +5849,24 @@
       "relations": [],
       "body": "The stars are not aligned for coding tonight. Close your IDE and rest, warrior.",
       "file": "quotes/the-stars-are-not-aligned-for.md"
+    },
+    "the-stream-stops-when-i-say": {
+      "id": "the-stream-stops-when-i-say",
+      "type": "quote",
+      "name": "The stream stops when I say…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The stream stops when I say stop. I have not said go.",
+      "speaker": "gorvek",
+      "pool": "drain",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The stream stops when I say stop. I have not said go.",
+      "relations": [],
+      "body": "The stream stops when I say stop. I have not said go.",
+      "file": "quotes/the-stream-stops-when-i-say.md"
     },
     "the-task-is-done-now-for": {
       "id": "the-task-is-done-now-for",
@@ -6224,23 +6130,23 @@
       "body": "The warrior who loses command of his own spirit is a broken blade, useless and unpredictable. There is no honor in madness, only a hollow echo where a man once stood.",
       "file": "quotes/the-warrior-who-loses-command-of.md"
     },
-    "the-water-has-stopped-going-out": {
-      "id": "the-water-has-stopped-going-out",
+    "the-water-is-going-out-again": {
+      "id": "the-water-is-going-out-again",
       "type": "quote",
-      "name": "The water has stopped going out.…",
+      "name": "The water is going out again.…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "The water has stopped going out. Listen. It is thinking about coming back.",
+      "summary": "The water is going out again. Watch the grey. It rises when the sea leaves.",
       "speaker": "sarn",
       "pool": "tide",
       "usedIn": [
         "descent"
       ],
-      "text": "The water has stopped going out. Listen. It is thinking about coming back.",
+      "text": "The water is going out again. Watch the grey. It rises when the sea leaves.",
       "relations": [],
-      "body": "The water has stopped going out. Listen. It is thinking about coming back.",
-      "file": "quotes/the-water-has-stopped-going-out.md"
+      "body": "The water is going out again. Watch the grey. It rises when the sea leaves.",
+      "file": "quotes/the-water-is-going-out-again.md"
     },
     "the-way-of-the-reach-is": {
       "id": "the-way-of-the-reach-is",
@@ -6277,24 +6183,6 @@
       "relations": [],
       "body": "The weakling's cruelty is a pale fire. Douse it with the cold fury of your superior logic. Go now.",
       "file": "quotes/the-weakling-s-cruelty-is-a.md"
-    },
-    "the-weather-is-turning-so-is": {
-      "id": "the-weather-is-turning-so-is",
-      "type": "quote",
-      "name": "The weather is turning. So is…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "The weather is turning. So is the tithe, in winter. I apologise for both.",
-      "speaker": "tolm",
-      "pool": "tithe",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "The weather is turning. So is the tithe, in winter. I apologise for both.",
-      "relations": [],
-      "body": "The weather is turning. So is the tithe, in winter. I apologise for both.",
-      "file": "quotes/the-weather-is-turning-so-is.md"
     },
     "the-wheel-of-debugging-turns-and": {
       "id": "the-wheel-of-debugging-turns-and",
@@ -6356,6 +6244,24 @@
       "body": "The winds of the frozen wastes howl...",
       "file": "quotes/the-winds-of-the-frozen-wastes.md"
     },
+    "there-is-someone-standing-in-the": {
+      "id": "there-is-someone-standing-in-the",
+      "type": "quote",
+      "name": "There is someone standing in the…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "There is someone standing in the drain. He has been standing there a long time.",
+      "speaker": "sarn",
+      "pool": "arrive-hall",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "There is someone standing in the drain. He has been standing there a long time.",
+      "relations": [],
+      "body": "There is someone standing in the drain. He has been standing there a long time.",
+      "file": "quotes/there-is-someone-standing-in-the.md"
+    },
     "they-are-recursive-if-my-base": {
       "id": "they-are-recursive-if-my-base",
       "type": "quote",
@@ -6394,24 +6300,6 @@
       "body": "Things that have names can be held. Things that do not, hold you.",
       "file": "quotes/things-that-have-names-can-be.md"
     },
-    "this-came-up-out-of-kell": {
-      "id": "this-came-up-out-of-kell",
-      "type": "quote",
-      "name": "This came up out of Kell.…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "This came up out of Kell. So did you, nearly. Shall we trade?",
-      "speaker": "mardra",
-      "pool": "trade",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "This came up out of Kell. So did you, nearly. Shall we trade?",
-      "relations": [],
-      "body": "This came up out of Kell. So did you, nearly. Shall we trade?",
-      "file": "quotes/this-came-up-out-of-kell.md"
-    },
     "this-glowing-rock-has-no-more": {
       "id": "this-glowing-rock-has-no-more",
       "type": "quote",
@@ -6429,6 +6317,24 @@
       "relations": [],
       "body": "This glowing rock has no more to offer. I go to where the steel sings.",
       "file": "quotes/this-glowing-rock-has-no-more.md"
+    },
+    "this-lamp-will-never-burn-grey": {
+      "id": "this-lamp-will-never-burn-grey",
+      "type": "quote",
+      "name": "This lamp will never burn grey.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "speaker": "sarn",
+      "pool": "gift",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "relations": [],
+      "body": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "file": "quotes/this-lamp-will-never-burn-grey.md"
     },
     "this-metal-box-has-served-its": {
       "id": "this-metal-box-has-served-its",
@@ -6501,24 +6407,6 @@
       "relations": [],
       "body": "This session is a memory. Like a forgotten god, it fades.",
       "file": "quotes/this-session-is-a-memory-like.md"
-    },
-    "this-street-is-quiet-quiet-is": {
-      "id": "this-street-is-quiet-quiet-is",
-      "type": "quote",
-      "name": "This street is quiet. Quiet is…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "This street is quiet. Quiet is not empty. Ask the doorways.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "This street is quiet. Quiet is not empty. Ask the doorways.",
-      "relations": [],
-      "body": "This street is quiet. Quiet is not empty. Ask the doorways.",
-      "file": "quotes/this-street-is-quiet-quiet-is.md"
     },
     "this-task-is-dust-i-blow": {
       "id": "this-task-is-dust-i-blow",
@@ -6706,24 +6594,6 @@
       "body": "To the hellish depths with runtime errors! Victory belongs to the debugger!",
       "file": "quotes/to-the-hellish-depths-with-runtime.md"
     },
-    "tomorrow-on-the-shingle-the-name": {
-      "id": "tomorrow-on-the-shingle-the-name",
-      "type": "quote",
-      "name": "Tomorrow. On the shingle. The name…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "Tomorrow. On the shingle. The name will be there until the water comes.",
-      "speaker": "ruun",
-      "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Tomorrow. On the shingle. The name will be there until the water comes.",
-      "relations": [],
-      "body": "Tomorrow. On the shingle. The name will be there until the water comes.",
-      "file": "quotes/tomorrow-on-the-shingle-the-name.md"
-    },
     "trust-no-framework-you-cannot-debug": {
       "id": "trust-no-framework-you-cannot-debug",
       "type": "quote",
@@ -6798,23 +6668,23 @@
       "body": "Victory! The repository has been conquered!",
       "file": "quotes/victory-the-repository-has-been-conquered.md"
     },
-    "water-at-your-ankles-the-doorways": {
-      "id": "water-at-your-ankles-the-doorways",
+    "water-stands-in-the-air-above": {
+      "id": "water-stands-in-the-air-above",
       "type": "quote",
-      "name": "Water at your ankles. The doorways…",
+      "name": "Water stands in the air above…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Water at your ankles. The doorways are waking.",
+      "summary": "Water stands in the air above the cistern. Somebody told it to stop.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "arrive-vaults",
       "usedIn": [
         "descent"
       ],
-      "text": "Water at your ankles. The doorways are waking.",
+      "text": "Water stands in the air above the cistern. Somebody told it to stop.",
       "relations": [],
-      "body": "Water at your ankles. The doorways are waking.",
-      "file": "quotes/water-at-your-ankles-the-doorways.md"
+      "body": "Water stands in the air above the cistern. Somebody told it to stop.",
+      "file": "quotes/water-stands-in-the-air-above.md"
     },
     "weighing-the-gold-of-your-contributions": {
       "id": "weighing-the-gold-of-your-contributions",
@@ -7474,59 +7344,23 @@
       "body": "When the final bug of this age is squashed, and the last server falls silent, LineLord's chronicle alone will remain, a testament to the chaos and the craft.",
       "file": "quotes/when-the-final-bug-of-this.md"
     },
-    "yellow-eyes-in-the-dark-and": {
-      "id": "yellow-eyes-in-the-dark-and",
+    "you-came-up-he-did-not": {
+      "id": "you-came-up-he-did-not",
       "type": "quote",
-      "name": "Yellow eyes in the dark, and…",
+      "name": "You came up. He did not.…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "Yellow eyes in the dark, and a hand held out. Take it. I will take one thing from you. You will not choose which.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "Yellow eyes in the dark, and a hand held out. Take it. I will take one thing from you. You will not choose which.",
-      "relations": [],
-      "body": "Yellow eyes in the dark, and a hand held out. Take it. I will take one thing from you. You will not choose which.",
-      "file": "quotes/yellow-eyes-in-the-dark-and.md"
-    },
-    "you-came-up-i-said-nobody": {
-      "id": "you-came-up-i-said-nobody",
-      "type": "quote",
-      "name": "You came up. I said nobody…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "You came up. I said nobody had walked it. I never lie. Now somebody has, and I will tell it.",
+      "summary": "You came up. He did not. The book has both your lines now.",
       "speaker": "sarn",
       "pool": "escape",
       "usedIn": [
         "descent"
       ],
-      "text": "You came up. I said nobody had walked it. I never lie. Now somebody has, and I will tell it.",
+      "text": "You came up. He did not. The book has both your lines now.",
       "relations": [],
-      "body": "You came up. I said nobody had walked it. I never lie. Now somebody has, and I will tell it.",
-      "file": "quotes/you-came-up-i-said-nobody.md"
-    },
-    "you-counted-your-steps-you-forgot": {
-      "id": "you-counted-your-steps-you-forgot",
-      "type": "quote",
-      "name": "You counted your steps. You forgot…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [],
-      "summary": "You counted your steps. You forgot the time. They always forget one.",
-      "speaker": "sarn",
-      "pool": "death",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "You counted your steps. You forgot the time. They always forget one.",
-      "relations": [],
-      "body": "You counted your steps. You forgot the time. They always forget one.",
-      "file": "quotes/you-counted-your-steps-you-forgot.md"
+      "body": "You came up. He did not. The book has both your lines now.",
+      "file": "quotes/you-came-up-he-did-not.md"
     },
     "you-die-shall-the-ledger-name": {
       "id": "you-die-shall-the-ledger-name",
@@ -7548,42 +7382,22 @@
       "body": "You die. Shall the ledger name what you carried?",
       "file": "quotes/you-die-shall-the-ledger-name.md"
     },
-    "you-feel-something-watching-you-from": {
-      "id": "you-feel-something-watching-you-from",
-      "type": "quote",
-      "name": "You feel something watching you from…",
-      "aliases": [],
-      "status": "draft",
-      "tags": [
-        "nod"
-      ],
-      "summary": "You feel something watching you from the shelves. It is not me. I would be easier to see.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "text": "You feel something watching you from the shelves. It is not me. I would be easier to see.",
-      "relations": [],
-      "body": "You feel something watching you from the shelves. It is not me. I would be easier to see.",
-      "file": "quotes/you-feel-something-watching-you-from.md"
-    },
     "you-lay-it-on-the-salt-pile": {
       "id": "you-lay-it-on-the-salt-pile",
       "type": "quote",
-      "name": "You lay it on the salt-pile…",
+      "name": "You lay it on the salt-pile.…",
       "aliases": [],
       "status": "draft",
       "tags": [],
-      "summary": "You lay it on the salt-pile and the wind takes the smell of it. The sea keeps. Sometimes, once, it gives back.",
+      "summary": "You lay it on the salt-pile. The sea takes the smell of it. Nobody says what it buys.",
       "speaker": null,
       "pool": "salt-pile",
       "usedIn": [
         "descent"
       ],
-      "text": "You lay it on the salt-pile and the wind takes the smell of it. The sea keeps. Sometimes, once, it gives back.",
+      "text": "You lay it on the salt-pile. The sea takes the smell of it. Nobody says what it buys.",
       "relations": [],
-      "body": "You lay it on the salt-pile and the wind takes the smell of it. The sea keeps. Sometimes, once, it gives back.",
+      "body": "You lay it on the salt-pile. The sea takes the smell of it. Nobody says what it buys.",
       "file": "quotes/you-lay-it-on-the-salt-pile.md"
     },
     "you-may-keep-the-rest-you": {
@@ -7603,6 +7417,24 @@
       "relations": [],
       "body": "You may keep the rest. You may always keep the rest. That is how it works.",
       "file": "quotes/you-may-keep-the-rest-you.md"
+    },
+    "you-meant-it-once-too-often": {
+      "id": "you-meant-it-once-too-often",
+      "type": "quote",
+      "name": "You meant it once too often.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "You meant it once too often. You are hungry now, and you know what for.",
+      "speaker": "sarn",
+      "pool": "unasked",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "You meant it once too often. You are hungry now, and you know what for.",
+      "relations": [],
+      "body": "You meant it once too often. You are hungry now, and you know what for.",
+      "file": "quotes/you-meant-it-once-too-often.md"
     },
     "your-application-ends-if-it-did": {
       "id": "your-application-ends-if-it-did",
@@ -7659,6 +7491,24 @@
       "relations": [],
       "body": "Your commits have been weighed, your pushes measured... and you have not been found wanting.",
       "file": "quotes/your-commits-have-been-weighed-your.md"
+    },
+    "your-lamp-burns-grey-it-will": {
+      "id": "your-lamp-burns-grey-it-will",
+      "type": "quote",
+      "name": "Your lamp burns grey. It will…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Your lamp burns grey. It will burn grey all the way down.",
+      "speaker": "sarn",
+      "pool": "arrive-quays",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Your lamp burns grey. It will burn grey all the way down.",
+      "relations": [],
+      "body": "Your lamp burns grey. It will burn grey all the way down.",
+      "file": "quotes/your-lamp-burns-grey-it-will.md"
     }
   },
   "relations": [
@@ -8371,38 +8221,50 @@
       "declared": false
     },
     {
-      "from": "gapes",
-      "to": "vorr",
-      "kind": "serves",
+      "from": "firstcloaks",
+      "to": "greycloaks",
+      "kind": "member-of",
       "declared": true
     },
     {
-      "from": "vorr",
-      "to": "gapes",
-      "kind": "served-by",
+      "from": "greycloaks",
+      "to": "firstcloaks",
+      "kind": "has-member",
       "declared": false
     },
     {
-      "from": "gapes",
-      "to": "lowstreets",
+      "from": "firstcloaks",
+      "to": "quaysteps",
       "kind": "haunts",
       "declared": true
     },
     {
-      "from": "lowstreets",
-      "to": "gapes",
+      "from": "quaysteps",
+      "to": "firstcloaks",
       "kind": "haunted-by",
       "declared": false
     },
     {
-      "from": "gapes",
+      "from": "notchers",
+      "to": "hask",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "hask",
+      "to": "notchers",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "notchers",
       "to": "brinevaults",
       "kind": "haunts",
       "declared": true
     },
     {
       "from": "brinevaults",
-      "to": "gapes",
+      "to": "notchers",
       "kind": "haunted-by",
       "declared": false
     },
@@ -8431,26 +8293,26 @@
       "declared": false
     },
     {
-      "from": "pickers",
+      "from": "the-barred",
+      "to": "vorr",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "vorr",
+      "to": "the-barred",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-barred",
       "to": "lowstreets",
       "kind": "haunts",
       "declared": true
     },
     {
       "from": "lowstreets",
-      "to": "pickers",
-      "kind": "haunted-by",
-      "declared": false
-    },
-    {
-      "from": "shinglers",
-      "to": "quaysteps",
-      "kind": "haunts",
-      "declared": true
-    },
-    {
-      "from": "quaysteps",
-      "to": "shinglers",
+      "to": "the-barred",
       "kind": "haunted-by",
       "declared": false
     },
@@ -8479,99 +8341,39 @@
       "declared": false
     },
     {
-      "from": "the-kept",
-      "to": "vorr",
-      "kind": "serves",
-      "declared": true
-    },
-    {
-      "from": "vorr",
-      "to": "the-kept",
-      "kind": "served-by",
-      "declared": false
-    },
-    {
-      "from": "the-kept",
-      "to": "lowstreets",
-      "kind": "haunts",
-      "declared": true
-    },
-    {
-      "from": "lowstreets",
-      "to": "the-kept",
-      "kind": "haunted-by",
-      "declared": false
-    },
-    {
-      "from": "the-quaywatch",
-      "to": "the-kept",
-      "kind": "member-of",
-      "declared": true
-    },
-    {
-      "from": "the-kept",
-      "to": "the-quaywatch",
-      "kind": "has-member",
-      "declared": false
-    },
-    {
-      "from": "the-quaywatch",
-      "to": "quaysteps",
-      "kind": "haunts",
-      "declared": true
-    },
-    {
-      "from": "quaysteps",
-      "to": "the-quaywatch",
-      "kind": "haunted-by",
-      "declared": false
-    },
-    {
-      "from": "the-quaywatch",
-      "to": "lowstreets",
-      "kind": "haunts",
-      "declared": true
-    },
-    {
-      "from": "lowstreets",
-      "to": "the-quaywatch",
-      "kind": "haunted-by",
-      "declared": false
-    },
-    {
-      "from": "the-salt-mouth",
-      "to": "vorr",
-      "kind": "serves",
-      "declared": true
-    },
-    {
-      "from": "vorr",
-      "to": "the-salt-mouth",
-      "kind": "served-by",
-      "declared": false
-    },
-    {
-      "from": "the-salt-mouth",
+      "from": "the-standing",
       "to": "the-iron-hall",
       "kind": "haunts",
       "declared": true
     },
     {
       "from": "the-iron-hall",
-      "to": "the-salt-mouth",
+      "to": "the-standing",
       "kind": "haunted-by",
       "declared": false
     },
     {
-      "from": "the-salted",
-      "to": "brinevaults",
+      "from": "the-unasked",
+      "to": "lowstreets",
       "kind": "haunts",
       "declared": true
     },
     {
-      "from": "brinevaults",
-      "to": "the-salted",
+      "from": "lowstreets",
+      "to": "the-unasked",
       "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-unasked",
+      "to": "the-ashfall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "the-unasked",
+      "kind": "survived-by",
       "declared": false
     },
     {
@@ -8644,6 +8446,30 @@
       "from": "vell",
       "to": "the-ebb",
       "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "the-going-home",
+      "to": "the-ebb",
+      "kind": "caused",
+      "declared": true
+    },
+    {
+      "from": "the-ebb",
+      "to": "the-going-home",
+      "kind": "caused-by",
+      "declared": false
+    },
+    {
+      "from": "the-going-home",
+      "to": "the-drowning-of-kell",
+      "kind": "follows",
+      "declared": true
+    },
+    {
+      "from": "the-drowning-of-kell",
+      "to": "the-going-home",
+      "kind": "precedes",
       "declared": false
     },
     {
@@ -8961,6 +8787,17 @@
   ],
   "quotes": [
     {
+      "id": "a-blade-that-cuts-anything-i",
+      "text": "A blade that cuts anything. I did not say what it will cut first.",
+      "speaker": "sarn",
+      "pool": "gift",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "a-database-without-queries-is-like",
       "text": "A database without queries is like a sword without a blade - useless!",
       "speaker": "gorvek",
@@ -8994,28 +8831,6 @@
       "tags": []
     },
     {
-      "id": "a-gift-for-the-one-who",
-      "text": "A gift, for the one who came this far. The price is small. You will notice it later.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "a-lamp-cage-holds-the-flame-in",
-      "text": "A lamp-cage holds the flame in the wet. Twelve marks. Twelve.",
-      "speaker": "barr",
-      "pool": "haggle",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "a-man-who-trades-his-hearth-fire",
       "text": "A man who trades his hearth-fire for the fleeting warmth of a stranger's bed is a fool whose honor is as thin as watered ale. Let him shiver in the end.",
       "speaker": "gorvek",
@@ -9027,10 +8842,10 @@
       "tags": []
     },
     {
-      "id": "a-merchant-takes-what-you-agree",
-      "text": "A merchant takes what you agree to. A thief takes what you do not. Ask the priests which I am. They do not know either.",
-      "speaker": "mardra",
-      "pool": "trade",
+      "id": "a-shelf-of-ledgers-the-last",
+      "text": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
+      "speaker": "sarn",
+      "pool": "arrive-vaults",
       "usedIn": [
         "descent"
       ],
@@ -9093,8 +8908,8 @@
       "tags": []
     },
     {
-      "id": "another-doorway-on-the-lowstreets-with",
-      "text": "Another doorway on the Lowstreets with somebody standing in it.",
+      "id": "another-line-in-the-ledger-short",
+      "text": "Another line in the ledger. Short.",
       "speaker": "sarn",
       "pool": "death",
       "usedIn": [
@@ -9159,6 +8974,17 @@
       "tags": [
         "nod"
       ]
+    },
+    {
+      "id": "bones-in-a-cloak-the-colour",
+      "text": "Bones in a cloak the colour of the floor. The order lost men here. The order does not say when.",
+      "speaker": "sarn",
+      "pool": "arrive-quays",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
     },
     {
       "id": "by-gorvek-s-blade-this-code",
@@ -9457,17 +9283,6 @@
       ]
     },
     {
-      "id": "count-steps-count-time-both",
-      "text": "Count steps. Count time. Both.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "counting-the-spoils-of-war",
       "text": "Counting the spoils of war...",
       "speaker": null,
@@ -9506,7 +9321,7 @@
     },
     {
       "id": "do-not-ask-why-ask-what",
-      "text": "Do not ask why. Ask what. What is the only question I answer.",
+      "text": "Do not ask why. Ask what.",
       "speaker": "ruun",
       "pool": "naming",
       "usedIn": [
@@ -9516,8 +9331,19 @@
       "tags": []
     },
     {
-      "id": "doorways-do-not-stand-in-front",
-      "text": "Doorways. Do not stand in front of one. Ever.",
+      "id": "do-not-count-my-days-the",
+      "text": "Do not count my days. The book does that.",
+      "speaker": "gorvek",
+      "pool": "drain",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "doors-do-not-open-them-not",
+      "text": "Doors. Do not open them. Not the barred ones.",
       "speaker": "rauk",
       "pool": "advice",
       "usedIn": [
@@ -9535,6 +9361,17 @@
         "linelord"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "every-door-is-barred-look-at",
+      "text": "Every door is barred. Look at the scratches. They are on the outside.",
+      "speaker": "sarn",
+      "pool": "arrive-streets",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -9571,10 +9408,10 @@
       "tags": []
     },
     {
-      "id": "flood-comes-find-the-stair-not",
-      "text": "Flood comes. Find the stair. Not the deep. The stair.",
-      "speaker": "rauk",
-      "pool": "advice",
+      "id": "flood-the-grey-sinks-under-the",
+      "text": "Flood. The grey sinks under the water and waits. You have a while.",
+      "speaker": "sarn",
+      "pool": "tide",
       "usedIn": [
         "descent"
       ],
@@ -9670,17 +9507,6 @@
       "tags": []
     },
     {
-      "id": "green-steps-going-down-everything-here",
-      "text": "Green steps, going down. Everything here has been picked once. Not everything has been picked by the living.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "he-is-fast-if-my-algorithm",
       "text": "He is fast! If my algorithm is slow, I have to go before him, and he will ask me, 'What is the riddle of Big O notation?' If I don't know it, he will cast my function out of the hot path and laugh at its inefficiency. That's the Performance Engineer, strong on his benchmarks!",
       "speaker": "gorvek",
@@ -9746,19 +9572,8 @@
       ]
     },
     {
-      "id": "here-something-you-need-for-something",
-      "text": "Here. Something you need, for something you will not miss until you do.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "i-am-sorry-a-tenth-for",
-      "text": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday, and I am sorry about that too.",
+      "text": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "speaker": "tolm",
       "pool": "tithe",
       "usedIn": [
@@ -9769,7 +9584,7 @@
     },
     {
       "id": "i-do-not-want-your-coin",
-      "text": "I do not want your coin. I want the thing you did not know you had. You will find out what it was.",
+      "text": "I do not want your coin. I want something you do not know you have.",
       "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
@@ -9812,19 +9627,8 @@
       "tags": []
     },
     {
-      "id": "i-never-lie-this-blade-will",
-      "text": "I never lie. This blade will cut anything. I did not say whose hand would hold it.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "i-offered-you-took-i-said",
-      "text": "I offered. You took. I said every gift is a theft. You heard gift.",
+      "id": "i-offered-you-took-you-heard",
+      "text": "I offered. You took. You heard gift.",
       "speaker": "sarn",
       "pool": "death",
       "usedIn": [
@@ -9834,10 +9638,10 @@
       "tags": []
     },
     {
-      "id": "i-would-not-ask-if-it",
-      "text": "I would not ask if it were up to me. It is up to me. I am asking.",
-      "speaker": "tolm",
-      "pool": "tithe",
+      "id": "i-went-down-to-the-hall",
+      "text": "I went down to the hall once. The crown was warm. I did not go back.",
+      "speaker": "rauk",
+      "pool": "advice",
       "usedIn": [
         "descent"
       ],
@@ -9889,17 +9693,6 @@
       "tags": []
     },
     {
-      "id": "iron-overhead-you-are-under-the",
-      "text": "Iron overhead. You are under the roof now. Breathe while there is air worth breathing.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "it-is-complex-if-my-deployment",
       "text": "It is complex! If my deployment crashes, I have to face its logs, and they will ask me, 'What is the riddle of idempotent scripts?' If I don't know it, it will cast my build out of production and laugh at me with stack traces. That's the Legacy System, strong on its mountain of tech debt!",
       "speaker": "gorvek",
@@ -9937,17 +9730,6 @@
       "tags": []
     },
     {
-      "id": "kept-the-sea-does-not-forget",
-      "text": "Kept. The sea does not forget a name. It simply never gives it back.",
-      "speaker": "sarn",
-      "pool": "death",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "know-o-prince-that-between-the",
       "text": "Know, o prince, that between the years of repository creation and deployment, there was an age of debugging...",
       "speaker": "gorvek",
@@ -9975,7 +9757,7 @@
     },
     {
       "id": "lamp-first-then-knife-in-the",
-      "text": "Lamp first. Then knife. In the dark, the knife is no use.",
+      "text": "Lamp first. Then knife. In the dark the knife is nothing.",
       "speaker": "rauk",
       "pool": "advice",
       "usedIn": [
@@ -10033,10 +9815,21 @@
       "tags": []
     },
     {
-      "id": "low-water-the-steps-are-yours",
-      "text": "Low water. The steps are yours for a while. A while is not long.",
+      "id": "low-water-breathe-now-while-it",
+      "text": "Low water. Breathe now, while it is still your air.",
       "speaker": "sarn",
       "pool": "tide",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "low-water-is-not-safe-it",
+      "text": "Low water is not safe. It only looks it.",
+      "speaker": "rauk",
+      "pool": "advice",
       "usedIn": [
         "descent"
       ],
@@ -10121,6 +9914,17 @@
       "tags": []
     },
     {
+      "id": "nobody-will-ask-you-what-you",
+      "text": "Nobody will ask you what you ate. That is the custom.",
+      "speaker": "sarn",
+      "pool": "unasked",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "northern-strength-flows-through-the-bytes",
       "text": "Northern strength flows through the bytes...",
       "speaker": null,
@@ -10132,8 +9936,19 @@
       "tags": []
     },
     {
-      "id": "out-through-the-roof-at-low",
-      "text": "Out through the roof at low water, with the ledger under your arm and the sea coming in behind. Nobody walked it before. Somebody has now.",
+      "id": "notches-in-the-salt-nine-to",
+      "text": "Notches in the salt. Nine to a row. Nobody here is short of time.",
+      "speaker": "sarn",
+      "pool": "arrive-vaults",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "out-through-the-roof-with-the",
+      "text": "Out through the roof with the ledger under your arm. Behind you a man is still holding a river.",
       "speaker": "sarn",
       "pool": "escape",
       "usedIn": [
@@ -10176,8 +9991,8 @@
       "tags": []
     },
     {
-      "id": "refuse-then-that-is-a-choice",
-      "text": "Refuse, then. That is a choice too, and choices are what I trade in.",
+      "id": "refuse-then-i-will-offer-it",
+      "text": "Refuse, then. I will offer it to the next one. There is always a next one.",
       "speaker": "sarn",
       "pool": "gift",
       "usedIn": [
@@ -10198,17 +10013,6 @@
       "tags": []
     },
     {
-      "id": "ropes-in-the-vaults-pulled-taut",
-      "text": "Ropes in the vaults. Pulled taut. Cut, do not hold.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "ruby-gems-of-repository-data-sparkle",
       "text": "Ruby gems of repository data sparkle...",
       "speaker": null,
@@ -10221,31 +10025,9 @@
     },
     {
       "id": "ruun-writes-the-name-in-the",
-      "text": "Ruun writes the name in the wet sand and says nothing. The tide takes it. You remember it.",
+      "text": "Ruun writes the name in the wet sand. The tide takes it. You do not forget it.",
       "speaker": "ruun",
       "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "salt-in-a-wound-stays-wash",
-      "text": "Salt in a wound stays. Wash it or carry it.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "salt-underfoot-salt-in-the-walls",
-      "text": "Salt underfoot, salt in the walls, salt in the air. You will taste this floor for a week.",
-      "speaker": "sarn",
-      "pool": "arrive",
       "usedIn": [
         "descent"
       ],
@@ -10275,17 +10057,6 @@
       "tags": []
     },
     {
-      "id": "silt-to-the-knee-and-doors",
-      "text": "Silt to the knee and doors barred from the inside. Kell went home that night. Knock if you like.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "slaying-bugs-and-counting-lines-with",
       "text": "Slaying bugs and counting lines with steel and fury...",
       "speaker": null,
@@ -10294,6 +10065,17 @@
         "linelord"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "somebody-lived-down-here-look-at",
+      "text": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
+      "speaker": "sarn",
+      "pool": "arrive-streets",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -10352,6 +10134,28 @@
       "tags": []
     },
     {
+      "id": "take-it-it-is-better-than",
+      "text": "Take it. It is better than anything Barr sells. Ask yourself what I sell.",
+      "speaker": "sarn",
+      "pool": "gift",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "take-the-book-go-up-i",
+      "text": "Take the book. Go up. I hold.",
+      "speaker": "gorvek",
+      "pool": "drain",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "tallying-the-conquered-territories",
       "text": "Tallying the conquered territories...",
       "speaker": null,
@@ -10385,19 +10189,8 @@
       "tags": []
     },
     {
-      "id": "that-is-not-a-stone-that",
-      "text": "That is not a stone. That has a name, and now you have it.",
-      "speaker": "ruun",
-      "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "that-weighs-what-it-weighs-i",
-      "text": "That weighs what it weighs. I will give you a third of it.",
+      "id": "that-weighs-what-it-weighs-a",
+      "text": "That weighs what it weighs. A third.",
       "speaker": "barr",
       "pool": "haggle",
       "usedIn": [
@@ -10692,17 +10485,6 @@
       "tags": []
     },
     {
-      "id": "the-boats-are-still-tied-somebody",
-      "text": "The boats are still tied. Somebody meant to come back for them. Somebody did not.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "the-code-is-but-a-shadow",
       "text": "The code is but a shadow. I walk into the light of the real world.",
       "speaker": "gorvek",
@@ -10722,17 +10504,6 @@
         "linelord"
       ],
       "status": "canon",
-      "tags": []
-    },
-    {
-      "id": "the-crabs-own-the-steps-at",
-      "text": "The crabs own the steps at low water. Go round.",
-      "speaker": "rauk",
-      "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
       "tags": []
     },
     {
@@ -10770,6 +10541,17 @@
         "linelord"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "the-doors-were-barred-against-something",
+      "text": "The doors were barred against something. The sea was only what came first.",
+      "speaker": "sarn",
+      "pool": "arrive-streets",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -10817,19 +10599,8 @@
       "tags": []
     },
     {
-      "id": "the-flood-is-in-lamps-go",
-      "text": "The flood is in. Lamps go out first. Then the brave.",
-      "speaker": "sarn",
-      "pool": "tide",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "the-flood-is-turning-count-your",
-      "text": "The flood is turning. Count your steps to the stair. Then count them again, faster.",
+      "id": "the-flood-is-turning-the-water",
+      "text": "The flood is turning. The water is coming back up the steps. So is everything in it.",
       "speaker": "sarn",
       "pool": "tide",
       "usedIn": [
@@ -10876,6 +10647,39 @@
       ]
     },
     {
+      "id": "the-grey-down-there-is-the",
+      "text": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "speaker": "mardra",
+      "pool": "trade",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "the-grey-stands-in-the-hall",
+      "text": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "speaker": "sarn",
+      "pool": "arrive-hall",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "the-grey-took-you-it-takes",
+      "text": "The grey took you. It takes what it would have used.",
+      "speaker": "sarn",
+      "pool": "death",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "the-halls-of-the-dead-echo",
       "text": "The halls of the dead echo with commit messages...",
       "speaker": null,
@@ -10906,17 +10710,6 @@
         "linelord"
       ],
       "status": "canon",
-      "tags": []
-    },
-    {
-      "id": "the-iron-roof-at-your-back",
-      "text": "The iron roof at your back and the sky in your face. The coast will want to know what you carried. Tell them it counts lines.",
-      "speaker": "sarn",
-      "pool": "escape",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
       "tags": []
     },
     {
@@ -10979,6 +10772,17 @@
       ]
     },
     {
+      "id": "the-king-s-crown-is-warm-something",
+      "text": "The king's crown is warm. Something under the floor is breathing against it.",
+      "speaker": "sarn",
+      "pool": "arrive-hall",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "the-last-command-is-given-if",
       "text": "The last command is given. If the server displeases Thurn, it will answer to the river.",
       "speaker": "gorvek",
@@ -10987,17 +10791,6 @@
         "linelord"
       ],
       "status": "canon",
-      "tags": []
-    },
-    {
-      "id": "the-ledger-counts-lines-and-days",
-      "text": "The ledger counts lines and days. It has your days now. All of them.",
-      "speaker": "sarn",
-      "pool": "death",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
       "tags": []
     },
     {
@@ -11071,17 +10864,6 @@
       "tags": [
         "nod"
       ]
-    },
-    {
-      "id": "the-pile-takes-it-nobody-says",
-      "text": "The pile takes it. Nobody says what for.",
-      "speaker": null,
-      "pool": "salt-pile",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
     },
     {
       "id": "the-prophecy-of-analysis-unfolds",
@@ -11169,21 +10951,10 @@
       "tags": []
     },
     {
-      "id": "the-roof-has-a-gap-low",
-      "text": "The roof has a gap. Low water only. I did not tell you.",
+      "id": "the-ropes-in-the-vaults-cut",
+      "text": "The ropes in the vaults. Cut. Never hold.",
       "speaker": "rauk",
       "pool": "advice",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "the-ropes-here-are-taut-all",
-      "text": "The ropes here are taut, all of them, all one way. Do not stand where a rope is going.",
-      "speaker": "sarn",
-      "pool": "arrive",
       "usedIn": [
         "descent"
       ],
@@ -11202,21 +10973,10 @@
       "tags": []
     },
     {
-      "id": "the-sea-gave-you-back-it",
-      "text": "The sea gave you back. It will not do it twice.",
+      "id": "the-sea-gave-you-back-somebody",
+      "text": "The sea gave you back. Somebody on the shingle did not wake this morning.",
       "speaker": null,
       "pool": "salt-pile",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "the-sea-goes-out-again-it",
-      "text": "The sea goes out again. It always does. It took something with it this time. Check.",
-      "speaker": "sarn",
-      "pool": "tide",
       "usedIn": [
         "descent"
       ],
@@ -11287,6 +11047,17 @@
       "tags": []
     },
     {
+      "id": "the-silt-is-grey-taste-it",
+      "text": "The silt is grey. Taste it. That is not sand.",
+      "speaker": "sarn",
+      "pool": "arrive-quays",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "the-spirits-of-the-mainframe-are",
       "text": "The spirits of the mainframe are sated. I leave them to their slumber.",
       "speaker": "gorvek",
@@ -11330,6 +11101,17 @@
         "linelord"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "the-stream-stops-when-i-say",
+      "text": "The stream stops when I say stop. I have not said go.",
+      "speaker": "gorvek",
+      "pool": "drain",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -11497,8 +11279,8 @@
       "tags": []
     },
     {
-      "id": "the-water-has-stopped-going-out",
-      "text": "The water has stopped going out. Listen. It is thinking about coming back.",
+      "id": "the-water-is-going-out-again",
+      "text": "The water is going out again. Watch the grey. It rises when the sea leaves.",
       "speaker": "sarn",
       "pool": "tide",
       "usedIn": [
@@ -11527,17 +11309,6 @@
         "linelord"
       ],
       "status": "canon",
-      "tags": []
-    },
-    {
-      "id": "the-weather-is-turning-so-is",
-      "text": "The weather is turning. So is the tithe, in winter. I apologise for both.",
-      "speaker": "tolm",
-      "pool": "tithe",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
       "tags": []
     },
     {
@@ -11580,6 +11351,17 @@
       ]
     },
     {
+      "id": "there-is-someone-standing-in-the",
+      "text": "There is someone standing in the drain. He has been standing there a long time.",
+      "speaker": "sarn",
+      "pool": "arrive-hall",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "they-are-recursive-if-my-base",
       "text": "They are recursive! If my base case is flawed, I have to go before them, and they will ask me, 'What is the riddle of the Y combinator?' If I don't know it, they will cast my stack into overflow and laugh at its unbounded depth. That's the Senior Functional Programmer, strong on their termination proofs!",
       "speaker": "gorvek",
@@ -11604,17 +11386,6 @@
       "tags": []
     },
     {
-      "id": "this-came-up-out-of-kell",
-      "text": "This came up out of Kell. So did you, nearly. Shall we trade?",
-      "speaker": "mardra",
-      "pool": "trade",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "this-glowing-rock-has-no-more",
       "text": "This glowing rock has no more to offer. I go to where the steel sings.",
       "speaker": "gorvek",
@@ -11623,6 +11394,17 @@
         "linelord"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "this-lamp-will-never-burn-grey",
+      "text": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "speaker": "sarn",
+      "pool": "gift",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -11667,17 +11449,6 @@
         "linelord"
       ],
       "status": "canon",
-      "tags": []
-    },
-    {
-      "id": "this-street-is-quiet-quiet-is",
-      "text": "This street is quiet. Quiet is not empty. Ask the doorways.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
       "tags": []
     },
     {
@@ -11797,17 +11568,6 @@
       ]
     },
     {
-      "id": "tomorrow-on-the-shingle-the-name",
-      "text": "Tomorrow. On the shingle. The name will be there until the water comes.",
-      "speaker": "ruun",
-      "pool": "naming",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
       "id": "trust-no-framework-you-cannot-debug",
       "text": "Trust no framework you cannot debug with your own hands.",
       "speaker": "gorvek",
@@ -11854,10 +11614,10 @@
       "tags": []
     },
     {
-      "id": "water-at-your-ankles-the-doorways",
-      "text": "Water at your ankles. The doorways are waking.",
+      "id": "water-stands-in-the-air-above",
+      "text": "Water stands in the air above the cistern. Somebody told it to stop.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "arrive-vaults",
       "usedIn": [
         "descent"
       ],
@@ -12285,32 +12045,10 @@
       "tags": []
     },
     {
-      "id": "yellow-eyes-in-the-dark-and",
-      "text": "Yellow eyes in the dark, and a hand held out. Take it. I will take one thing from you. You will not choose which.",
-      "speaker": "sarn",
-      "pool": "gift",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "you-came-up-i-said-nobody",
-      "text": "You came up. I said nobody had walked it. I never lie. Now somebody has, and I will tell it.",
+      "id": "you-came-up-he-did-not",
+      "text": "You came up. He did not. The book has both your lines now.",
       "speaker": "sarn",
       "pool": "escape",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": []
-    },
-    {
-      "id": "you-counted-your-steps-you-forgot",
-      "text": "You counted your steps. You forgot the time. They always forget one.",
-      "speaker": "sarn",
-      "pool": "death",
       "usedIn": [
         "descent"
       ],
@@ -12331,21 +12069,8 @@
       ]
     },
     {
-      "id": "you-feel-something-watching-you-from",
-      "text": "You feel something watching you from the shelves. It is not me. I would be easier to see.",
-      "speaker": "sarn",
-      "pool": "arrive",
-      "usedIn": [
-        "descent"
-      ],
-      "status": "draft",
-      "tags": [
-        "nod"
-      ]
-    },
-    {
       "id": "you-lay-it-on-the-salt-pile",
-      "text": "You lay it on the salt-pile and the wind takes the smell of it. The sea keeps. Sometimes, once, it gives back.",
+      "text": "You lay it on the salt-pile. The sea takes the smell of it. Nobody says what it buys.",
       "speaker": null,
       "pool": "salt-pile",
       "usedIn": [
@@ -12359,6 +12084,17 @@
       "text": "You may keep the rest. You may always keep the rest. That is how it works.",
       "speaker": "tolm",
       "pool": "tithe",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
+      "id": "you-meant-it-once-too-often",
+      "text": "You meant it once too often. You are hungry now, and you know what for.",
+      "speaker": "sarn",
+      "pool": "unasked",
       "usedIn": [
         "descent"
       ],
@@ -12399,6 +12135,17 @@
       "tags": [
         "nod"
       ]
+    },
+    {
+      "id": "your-lamp-burns-grey-it-will",
+      "text": "Your lamp burns grey. It will burn grey all the way down.",
+      "speaker": "sarn",
+      "pool": "arrive-quays",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
     }
   ],
   "timeline": [
@@ -12419,6 +12166,12 @@
       "id": "the-ebb",
       "name": "The Ebb",
       "summary": "The first winter after the grey lifted, the sea began to go out from Old Kell and has not come back; the drowned quays are showing, every power in the Mark is moving toward the coast, and three gods have been given the credit."
+    },
+    {
+      "year": 1,
+      "id": "the-going-home",
+      "name": "The Going Home",
+      "summary": "What the descent shows and nobody in the Mark says: the grey came up out of Kell, and it is going back down, and it is drawing the sea after it."
     },
     {
       "year": 1,

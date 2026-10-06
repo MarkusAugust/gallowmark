@@ -6,4 +6,4 @@ status: draft
 tags: []
 ---
 
-Lamp first. Then knife. In the dark the knife is nothing.
+The ropes in the vaults. Cut. Never hold.

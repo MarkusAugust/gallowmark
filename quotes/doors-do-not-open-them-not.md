@@ -6,4 +6,4 @@ status: draft
 tags: []
 ---
 
-Lamp first. Then knife. In the dark the knife is nothing.
+Doors. Do not open them. Not the barred ones.

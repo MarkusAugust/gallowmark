@@ -3,32 +3,32 @@ name: The Iron Hall
 aliases: [the King's Hall, the Hall under the Roof]
 status: draft
 tags: [ruin, hall, kell, king, descent]
-summary: The hall of the last king of Kell under its roof of iron plates, where the king still sits with the empty crown, the ledger is still on its stand, and the one who keeps is underneath.
+summary: The hall of the last king of Kell under its roof of iron plates, where the grey stands like milk in a bowl, the ledger lies open, and a barbarian stands in the drain with a stream held still.
 relations:
   - { to: kell, kind: located-in }
 ---
 
 ## The hall
 
-The iron roof is the only part of [[kell]] the coast can see: for an hour on a still day at
-low water it stands clear of the salt below [[wrackhead]], and since [[the-ebb]] the hour
-gets longer. Under it is the hall. The king sits where he sat. [[rauk]] has touched the
-[[iron-crown-of-kell]] on his head and come up saying the iron is warm.
+The iron roof is the only part of [[kell]] the coast can see, and since [[the-ebb]] it stands
+clear of the salt a little longer every low water. Under it the king sits with the
+[[iron-crown-of-kell]] on his head. The iron is warm.
+
+## The grey
+
+The hall is full of grey, standing still like the grey in [[greyhollow]], and it rises when
+the sea goes out. In the floor is the drain where the one river ends, and the sea is going
+out through it.
 
 ## The ledger
 
-The last king read [[linelord]] in this hall the winter before the night, looking for a wall
-that would hold. It is still here, open on its stand at the king's right hand,
-heavier than a man can carry far and lighter than it ought to be. Whoever takes it up has to
-go out the only way the hall leaves open: up, through a gap in the iron roof, at low water.
+[[linelord]] lies open on its stand at the king's right hand. The last line in it is not the
+king's. It reads: *held the drain, days still counting.*
 
-## Underneath
-
-Below the hall floor is the drain the Ebb runs out through, and in it is [[the-salt-mouth]].
-The river-priests do not name it. The coast folk say it is what [[vorr]] keeps his mouth
-with.
+[[gorvek]] stands in the drain with [[streamlord]] in his hand, holding the stream still. He
+went down before anyone. He does not say for how long.
 
 ## Threads
 
-- Is the ledger here, or a copy the clerks made? This draft answers the thread on [[linelord]]; canon has not.
-- What is the warm iron?
+- How long can a stream be told to stop?
+- What happens to the grey if he lets go?

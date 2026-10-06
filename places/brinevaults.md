@@ -3,25 +3,24 @@ name: The Brinevaults
 aliases: [the Salt Cellars, the Counting-Vaults]
 status: draft
 tags: [ruin, vault, kell, salt, descent]
-summary: The cellars, cisterns and counting-vaults under the iron hall, where Kell kept its salt, its coin and its dead, all three packed the same way.
+summary: The salt-cut cellars and counting-rooms under the iron hall, where Kell's clerks copied the ledger, and kept on copying it, day by day, all through the grey.
 relations:
   - { to: kell, kind: located-in }
 ---
 
 ## The vaults
 
-Kell was rich in two things, salt and records, and it kept both under the hall. The
-Brinevaults are rooms of salt cut from salt: cisterns, cellars, and long low counting-rooms
-where clerks copied the ledger [[linelord]] by lamplight. Kell salted its dead and shelved
-them here too, because salt keeps and the city believed in keeping.
+Kell kept its salt, its coin and its records under the hall. In the long counting-rooms the
+clerks copied the ledger [[linelord]] by lamplight. The copies are still on the shelves. The
+last of them count days, not lines: a stroke for every day of [[the-ashfall]], in a hand that
+gets worse, until it stops.
 
-## Since the Ebb
+## The ropes
 
-The vaults were the last of Kell to be under water and are the last to come out of it. The
-salt has drunk the sea for forty years and is still wet. What was shelved here is
-[[the-salted]] now. The ropes that hang down the cistern shafts are pulled taut toward the
-hall, and nobody at [[wrackhead]] has gone far enough to see what pulls them.
+Ropes hang down the cistern shafts, drawn taut toward the hall, and [[the-drawn]] move along
+them. In the deepest cistern a fall of water stands in the air, still, as if somebody had
+told it to stop and meant it.
 
 ## Threads
 
-- Where are Kell's copies of the ledger? The clerks made many.
+- Who counted the days, down here, and how did they know when the grey had lifted?

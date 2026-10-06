@@ -50,14 +50,15 @@ is going out from the drowned city, and everyone is walking toward it.
 ## In draft: the descent
 
 Not canon yet. Everything below is `status: draft`, written for the game on LineLord's site.
+[[the-going-home]] holds the truth behind it, which no line in the game states.
 
 | Who or where | What | Pull |
 |---|---|---|
 | [[the-walk-to-the-hall]] | The coast in the first years of the Ebb | Everyone goes down at low water |
-| [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ten flights to the ledger |
+| [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ash in the silt, barred doors, counted days, the grey at home |
 | [[barr]] | The salt-smith at Wrackhead | Iron down, salvage up |
-| [[shinglers]], [[pickers]], [[the-kept]], [[the-quaywatch]], [[gapes]], [[the-salted]], [[the-drawn]], [[the-salt-mouth]] | The creatures of the descent | What the sea kept, and what keeps it |
-| [[the-descent]] | Sarn's whisper at the top of the steps | The way in, and the price |
+| [[pickers]], [[firstcloaks]], [[the-barred]], [[the-unasked]], [[notchers]], [[the-drawn]], [[the-standing]] | The creatures of the descent | What the grey left, and what it is |
+| [[the-descent]] | Sarn's whisper at the top of the steps | Which way to look |
 
 ## The theme
 

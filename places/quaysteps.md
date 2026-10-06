@@ -3,29 +3,24 @@ name: The Quaysteps
 aliases: [the Steps, the Low Quays]
 status: draft
 tags: [ruin, quay, kell, descent]
-summary: The stone quays and water-stairs of drowned Kell, the first ground the Ebb gave back, where the coast goes picking at low water and does not always come up.
+summary: The stone quays and water-stairs of drowned Kell, the first ground the Ebb gave back; the silt on them is grey, and the bones in it wear the order's cloak.
 relations:
   - { to: kell, kind: located-in }
 ---
 
 ## The steps
 
-Kell met the sea in stairs. Broad stone steps went down from every street to the water, and
-the water came up them twice a day to meet the city halfway. Now the city is under the
-steps and the steps are under the weed, and since [[the-ebb]] the top of them shows at low
-water below [[wrackhead]], green and slick and going down.
+[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water
+below [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up
+with iron and bollard-rings, and with grey on their boots that does not wash off.
 
-This is the first of drowned [[kell]], and the shallowest. Boats rot on the quay where they
-were tied. Bollards stand in rows with the ropes still on them. Everything here has been
-picked once already.
+## The silt
 
-## The tide
-
-The sea goes out further every month, but it still comes back twice a day. At low water
-the quays are a place you can walk. At the flood they are a place you drown. The coast folk
-who go down count their steps and count the time, and the ones who forget one of the two
-are kept.
+The silt on the steps is not sand. It is ash, packed by forty years of water. Lamps burn
+grey down here. In it lie bones in cloaks the colour of the silt, the order's first men, from
+the years when the [[greycloaks]] guarded these quays in the grey of [[the-ashfall]]. Some
+of them are still guarding.
 
 ## Threads
 
-- Who tied the boats, the night before?
+- Why was there ash under the sea, when the grey fell in the north?

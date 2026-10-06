@@ -35,17 +35,17 @@ graph LR
   iron-crown-of-kell["The Iron Crown of Kell"]
   linelord["LineLord"]
   streamlord["Streamlord"]
-  gapes["Gapes"]
+  firstcloaks["The Firstcloaks"]
+  notchers["Notchers"]
   pickers["The Pickers"]
-  shinglers["Shinglers"]
+  the-barred["The Barred"]
   the-drawn["The Drawn"]
-  the-kept["The Kept"]
-  the-quaywatch["The Quaywatch"]
-  the-salt-mouth["The Salt Mouth"]
-  the-salted["The Salted"]
+  the-standing["The Standing"]
+  the-unasked["The Unasked"]
   the-ashfall["The Ashfall"]
   the-drowning-of-kell["The Drowning of Kell"]
   the-ebb["The Ebb"]
+  the-going-home["The Going Home"]
   the-walk-to-the-hall["The Walk to the Hall"]
   five-rites["Five Rites"]
   gorveks-creed["Gorvek's Creed"]
@@ -114,29 +114,27 @@ graph LR
   linelord -- named-by --> river-priests
   linelord -- created-by --> kell
   streamlord -- named-by --> river-priests
-  gapes -- serves --> vorr
-  gapes -- haunts --> lowstreets
-  gapes -- haunts --> brinevaults
+  firstcloaks -- member-of --> greycloaks
+  firstcloaks -- haunts --> quaysteps
+  notchers -- serves --> hask
+  notchers -- haunts --> brinevaults
   pickers -- born-in --> wrackhead
   pickers -- haunts --> quaysteps
-  pickers -- haunts --> lowstreets
-  shinglers -- haunts --> quaysteps
+  the-barred -- serves --> vorr
+  the-barred -- haunts --> lowstreets
   the-drawn -- serves --> hask
   the-drawn -- haunts --> brinevaults
-  the-kept -- serves --> vorr
-  the-kept -- haunts --> lowstreets
-  the-quaywatch -- member-of --> the-kept
-  the-quaywatch -- haunts --> quaysteps
-  the-quaywatch -- haunts --> lowstreets
-  the-salt-mouth -- serves --> vorr
-  the-salt-mouth -- haunts --> the-iron-hall
-  the-salted -- haunts --> brinevaults
+  the-standing -- haunts --> the-iron-hall
+  the-unasked -- haunts --> lowstreets
+  the-unasked -- survived --> the-ashfall
   the-ashfall -- destroyed --> bonereach
   the-drowning-of-kell -- destroyed --> kell
   the-drowning-of-kell -- caused-by --> sarn
   the-drowning-of-kell -- precedes --> the-ashfall
   the-ebb -- follows --> the-ashfall
   the-ebb -- named-by --> vell
+  the-going-home -- caused --> the-ebb
+  the-going-home -- follows --> the-drowning-of-kell
   the-walk-to-the-hall -- follows --> the-ebb
   the-walk-to-the-hall -- features --> wrackhead
   the-walk-to-the-hall -- features --> the-iron-hall

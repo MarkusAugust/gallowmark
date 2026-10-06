@@ -11,31 +11,22 @@ relations:
   - { to: the-iron-hall, kind: features }
 ---
 
-## What is happening
+## The road
 
 Since [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,
-wreckers from the coast, novices who left [[hookford]] without asking: they come with a
-knife and a lamp, and they go down the [[quaysteps]] at low water, and they go a little
-deeper each time, because the sea does.
+wreckers from the coast, novices who left [[hookford]] without asking. They go down the
+[[quaysteps]] at low water, and a little deeper each time, because the sea does.
 
 ## At the Head
 
 - [[barr]] sells them iron on the shingle and buys back what they bring up.
-- Brother [[ruun]] names what they bring up, for a price, on the sand, before the tide takes
-  the name.
-- [[mardra]] has come down from the rim of [[greyhollow]] with a stall of things from the grey.
-  She takes payment in kind.
-- [[tolm]] sits in the door of the fort and tithes what comes up, and apologises for it.
-- The salt-pile takes what it is given. The coast folk say that sometimes, once, the sea
-  gives you back.
-- [[rauk]] does not go down. She will tell you how, between breaths, if you ask.
-
-## Where it goes
-
-Down: through the [[lowstreets]] and the [[brinevaults]] to [[the-iron-hall]], where the
-ledger [[linelord]] lies, and out through the iron roof at low water, if you are lucky.
-[[sarn]] narrates every walk.
+- Brother [[ruun]] names what they bring up, in the wet sand, before the tide takes it.
+- [[mardra]] has come down from [[greyhollow]]. She says the grey is the same down there.
+- [[tolm]] sits in the door of the fort and takes a tenth, and apologises.
+- The salt-pile takes what it is given, and once, they say, gives you back.
+- [[rauk]] does not go down any more. She will tell you how, between breaths.
 
 ## Threads
 
-- Who was first into the hall, and did they come back out?
+- [[gorvek]] came through Wrackhead before the first of them and went down alone. Nobody has
+  seen him come up.

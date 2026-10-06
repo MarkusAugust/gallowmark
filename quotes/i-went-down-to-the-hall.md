@@ -6,4 +6,4 @@ status: draft
 tags: []
 ---
 
-Lamp first. Then knife. In the dark the knife is nothing.
+I went down to the hall once. The crown was warm. I did not go back.

@@ -6,4 +6,4 @@ status: draft
 tags: []
 ---
 
-Do not ask why. Ask what. What is the only question I answer.
+Do not ask why. Ask what.

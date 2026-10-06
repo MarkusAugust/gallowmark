@@ -3,7 +3,7 @@ name: The Descent
 aliases: [Sarn's Low Water]
 status: draft
 tags: [whisper, epigraph, descent]
-summary: Sarn's whisper to whoever goes down the Quaysteps, in which the way to the iron hall is told, and the price for the telling is named.
+summary: Sarn's whisper to whoever stands at the top of the Quaysteps, in which a ledger is asked for, a roof is promised, and a belief is taken.
 speaker: sarn
 form: whisper
 relations:
@@ -12,23 +12,19 @@ relations:
   - { to: linelord, kind: features }
 ---
 
-*You came down the road like the others. Sit on the steps a moment. The water is going out.*
+*The sea is going out. You think it is leaving.*
 
-*Under you is Kell. Ten flights of it: the quays, the streets, the vaults, the hall. In the
-hall a king sits with an empty crown, and at his right hand is the ledger, open, at the page
-he was reading. It knows every wall in the Mark. It does not know you yet.*
+*Under Kell a king is still reading, and the grey the north remembers has gone home.*
 
-*The sea goes out and the sea comes back. Count your steps. Count the time. The ones who
-forget one of the two are kept.*
+*Bring me the ledger and I will show you the roof.*
 
-*I will meet you down there. I will offer you things. Take them or do not. Every gift is a
-theft, and I have never once lied about which.*
+*I will take one thing for it: the belief that the grey is behind you.*
 
-*The way out of the hall is up, through the roof, at low water. Nobody has walked it. Go.*
+*Low water. That is when it breathes.*
 
-— Sarn the Faceless, who has walked it
+— Sarn the Faceless
 
 ## Use
 
-The opening of the game on LineLord's site, in which the player goes down into [[kell]] for
-the ledger. The form is Sarn's whisper: direct address, the knife at the end.
+The opening of the game on LineLord's site. It does not say what is down there. It says
+which way to look.

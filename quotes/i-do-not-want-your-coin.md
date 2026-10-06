@@ -6,4 +6,4 @@ status: draft
 tags: []
 ---
 
-I do not want your coin. I want the thing you did not know you had. You will find out what it was.
+I do not want your coin. I want something you do not know you have.
