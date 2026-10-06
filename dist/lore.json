@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-10-06",
-  "entityCount": 340,
+  "entityCount": 345,
   "types": [
     "character",
     "place",
@@ -171,6 +171,38 @@
       ],
       "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHis hands are scarred by fire, and he does not say which fire. He rides a grey mare he has\nnot named, because naming is river-priest work.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n- He walked out of the grey beside [[vurn]], who tells the sagas Gorvek will not, and reads\n  him the ledger [[linelord]] that he says he does not need.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
       "file": "characters/gorvek.md"
+    },
+    "jarn": {
+      "id": "jarn",
+      "type": "character",
+      "name": "Jarn",
+      "aliases": [
+        "The Linelord",
+        "Jarn of the Shingle"
+      ],
+      "status": "draft",
+      "tags": [
+        "title",
+        "holder",
+        "coast",
+        "conquest"
+      ],
+      "summary": "The one the ledger names as holding the most ground in the Mark, and so the Linelord; he holds the shingle under Wrackhead, and at every low water draws a line across the sand with an iron blade from Kell.",
+      "epithet": "the Linelord",
+      "relations": [
+        {
+          "to": "wrackhead",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## The title\n\nThe Linelord is not a man. It is a title, and the [[linelord]] gives it: whoever the\nledger names as holding the most ground in [[gallowmark]], wall by wall and day by day,\nis the Linelord until someone holds more. The title has changed hands more often than the\ncrown of [[kell]] did, and nobody has kept it by deserving it. They kept it by holding.\n\n## Jarn\n\nJarn holds it now. He came down to [[wrackhead]] the first winter of [[the-ebb]] with an\niron blade that came up out of Kell, and he has not gone further. He does not need to. He\nholds the shingle, and the ledger counts it, and every low water he walks the length of\nthe beach dragging the blade behind him, and leaves a line in the wet sand from the fort to\nthe salt-pile.\n\nThe line says: this far is mine. The flood takes it twice a day. He draws it again twice a\nday. That is the whole of what he does, and it is enough to hold the title.\n\n## Voice\n\nJarn does not argue. He points at the line. If you cross it, he asks whether you meant to.\n\n## In the world\n\n- The pickers going down the [[quaysteps]] step over his line, and he lets them; what is\n  under the water is not the shingle.\n- [[tolm]] tithes everyone on the coast and has never asked Jarn for a tenth. The fort\n  keeps its own line, on the other side of his.\n- Brother [[ruun]] writes names in the same sand. Jarn has never drawn across one.\n\n## Threads\n\n- Who held the title before him, and what did they hold?\n- What does the ledger say about the one who crosses his line?",
+      "file": "characters/jarn.md"
     },
     "mardra": {
       "id": "mardra",
@@ -1010,6 +1042,11 @@
           "declared": false
         },
         {
+          "to": "jarn",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "rauk",
           "kind": "birthplace-of",
           "declared": false
@@ -1327,6 +1364,11 @@
       ],
       "summary": "The ledger older than Kell that remembers every line of every wall in the Mark, who laid it, and how long it has stood; named by the river-priests, read aloud by Vurn, listened to by Gorvek.",
       "relations": [
+        {
+          "to": "jarn",
+          "kind": "names",
+          "declared": false
+        },
         {
           "to": "river-priests",
           "kind": "named-by",
@@ -2973,6 +3015,24 @@
       "relations": [],
       "body": "Crushing enemies, seeing code driven before me...",
       "file": "quotes/crushing-enemies-seeing-code-driven-before.md"
+    },
+    "did-you-mean-to": {
+      "id": "did-you-mean-to",
+      "type": "quote",
+      "name": "Did you mean to?",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Did you mean to?",
+      "speaker": "jarn",
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Did you mean to?",
+      "relations": [],
+      "body": "Did you mean to?",
+      "file": "quotes/did-you-mean-to.md"
     },
     "do-not-ask-why-ask-what": {
       "id": "do-not-ask-why-ask-what",
@@ -5358,6 +5418,24 @@
       "body": "The last command is given. If the server displeases Thurn, it will answer to the river.",
       "file": "quotes/the-last-command-is-given-if.md"
     },
+    "the-linelord-draws-a-line-in": {
+      "id": "the-linelord-draws-a-line-in",
+      "type": "quote",
+      "name": "The Linelord draws a line in…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The Linelord draws a line in the sand.",
+      "speaker": null,
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The Linelord draws a line in the sand.",
+      "relations": [],
+      "body": "The Linelord draws a line in the sand.",
+      "file": "quotes/the-linelord-draws-a-line-in.md"
+    },
     "the-machine-sleeps-so-too-shall": {
       "id": "the-machine-sleeps-so-too-shall",
       "type": "quote",
@@ -5659,6 +5737,24 @@
       "relations": [],
       "body": "The sea gave you back. Somebody on the shingle did not wake this morning.",
       "file": "quotes/the-sea-gave-you-back-somebody.md"
+    },
+    "the-sea-takes-the-line": {
+      "id": "the-sea-takes-the-line",
+      "type": "quote",
+      "name": "The sea takes the line.",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "The sea takes the line.",
+      "speaker": null,
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The sea takes the line.",
+      "relations": [],
+      "body": "The sea takes the line.",
+      "file": "quotes/the-sea-takes-the-line.md"
     },
     "the-serpent-of-the-old-gods": {
       "id": "the-serpent-of-the-old-gods",
@@ -7509,6 +7605,24 @@
       "relations": [],
       "body": "Your lamp burns grey. It will burn grey all the way down.",
       "file": "quotes/your-lamp-burns-grey-it-will.md"
+    },
+    "your-line-across-jarn-s": {
+      "id": "your-line-across-jarn-s",
+      "type": "quote",
+      "name": "Your line, across Jarn's.",
+      "aliases": [],
+      "status": "draft",
+      "tags": [],
+      "summary": "Your line, across Jarn's.",
+      "speaker": null,
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Your line, across Jarn's.",
+      "relations": [],
+      "body": "Your line, across Jarn's.",
+      "file": "quotes/your-line-across-jarn-s.md"
     }
   },
   "relations": [
@@ -7654,6 +7768,30 @@
       "from": "vurn",
       "to": "gorvek",
       "kind": "ally-of",
+      "declared": false
+    },
+    {
+      "from": "jarn",
+      "to": "wrackhead",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "wrackhead",
+      "to": "jarn",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "jarn",
+      "to": "linelord",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "jarn",
+      "kind": "names",
       "declared": false
     },
     {
@@ -9320,6 +9458,17 @@
       ]
     },
     {
+      "id": "did-you-mean-to",
+      "text": "Did you mean to?",
+      "speaker": "jarn",
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "do-not-ask-why-ask-what",
       "text": "Do not ask why. Ask what.",
       "speaker": "ruun",
@@ -10794,6 +10943,17 @@
       "tags": []
     },
     {
+      "id": "the-linelord-draws-a-line-in",
+      "text": "The Linelord draws a line in the sand.",
+      "speaker": null,
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": []
+    },
+    {
       "id": "the-machine-sleeps-so-too-shall",
       "text": "The machine sleeps. So too shall this warrior.",
       "speaker": "gorvek",
@@ -10981,6 +11141,17 @@
         "descent"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "the-sea-takes-the-line",
+      "text": "The sea takes the line.",
+      "speaker": null,
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     },
     {
@@ -12145,6 +12316,17 @@
         "descent"
       ],
       "status": "canon",
+      "tags": []
+    },
+    {
+      "id": "your-line-across-jarn-s",
+      "text": "Your line, across Jarn's.",
+      "speaker": null,
+      "pool": "shore",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
       "tags": []
     }
   ],
