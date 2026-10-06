@@ -2,7 +2,7 @@
 speaker: sarn
 pool: death
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

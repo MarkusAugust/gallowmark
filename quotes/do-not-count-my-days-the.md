@@ -2,7 +2,7 @@
 speaker: gorvek
 pool: drain
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

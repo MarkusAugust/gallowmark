@@ -1,7 +1,7 @@
 ---
 name: The Standing
 aliases: [the Grey at Home, the Milk]
-status: draft
+status: canon
 tags: [creature, grey, ashfall, descent]
 summary: The grey in the iron hall, standing still like milk in a bowl and rising when the sea goes out; it does not hurt you, it takes things from you.
 relations:

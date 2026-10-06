@@ -1,7 +1,7 @@
 ---
 name: The Going Home
 aliases: [What the Ebb Is]
-status: draft
+status: canon
 tags: [secret, grey, ashfall, descent]
 summary: What the descent shows and nobody in the Mark says: the grey came up out of Kell, and it is going back down, and it is drawing the sea after it.
 year: 1

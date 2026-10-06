@@ -2,7 +2,7 @@
 name: Barr
 epithet: the Salt-Smith
 aliases: [Barr of Wrackhead]
-status: draft
+status: canon
 tags: [smith, merchant, coast]
 summary: The smith on the shingle below the fort at Wrackhead, who sells iron to everyone going down into Kell and buys back whatever comes up, and has not asked a question in eleven years.
 relations:

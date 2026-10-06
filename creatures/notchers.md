@@ -1,7 +1,7 @@
 ---
 name: Notchers
 aliases: [the Counters, the Reeve's Men]
-status: draft
+status: canon
 tags: [creature, debt, rope, descent]
 summary: Thin grey shapes in the Brinevaults that cut one notch in the wall for every moment you stand in their sight; at nine, a rope finds your neck.
 relations:

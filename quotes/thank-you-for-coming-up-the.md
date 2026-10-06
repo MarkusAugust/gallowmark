@@ -2,7 +2,7 @@
 speaker: tolm
 pool: tithe
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

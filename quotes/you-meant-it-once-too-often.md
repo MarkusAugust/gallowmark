@@ -2,7 +2,7 @@
 speaker: sarn
 pool: unasked
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

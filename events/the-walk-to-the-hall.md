@@ -1,7 +1,7 @@
 ---
 name: The Walk to the Hall
 aliases: [the Going-Down, the Low-Water Road]
-status: draft
+status: canon
 tags: [descent, coast, era]
 summary: In the first years of the Ebb, people from every corner of the Mark come to Wrackhead to go down into drowned Kell at low water, toward the iron hall and the ledger in it.
 year: 1

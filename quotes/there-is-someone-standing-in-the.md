@@ -2,7 +2,7 @@
 speaker: sarn
 pool: arrive-hall
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

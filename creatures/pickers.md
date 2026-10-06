@@ -1,7 +1,7 @@
 ---
 name: The Pickers
 aliases: [quay-pickers, the Early Ones]
-status: draft
+status: canon
 tags: [creature, people, scavenger, descent]
 summary: Coast folk who went down into Kell before you for what they could carry; the ones still down there have decided you are what they can carry.
 relations:

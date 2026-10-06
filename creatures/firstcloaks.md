@@ -1,7 +1,7 @@
 ---
 name: The Firstcloaks
 aliases: [the First Watch, the Order's Dead]
-status: draft
+status: canon
 tags: [creature, greycloak, undead, grey, descent]
 summary: The order's first men, who guarded the drowned quays of Kell in the grey and never came up; still on duty, still polite, still collecting.
 relations:

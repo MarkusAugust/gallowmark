@@ -2,7 +2,7 @@
 speaker: sarn
 pool: gift
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

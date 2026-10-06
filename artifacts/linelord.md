@@ -16,7 +16,8 @@ laid one line of stone at a time, and the ledger remembers who laid each line an
 it has stood, and nothing else. It does not say whether the wall was any good. It says who
 held the ground, and for how long, and that is the whole of what it says. The last king of
 [[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking
-for a wall that would hold. The [[greycloaks]]' tithe-books are a poor copy of it. Brother
+for a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and
+the last line in it is not the king's. The [[greycloaks]]' tithe-books are a poor copy of it. Brother
 [[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.
 
 [[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.
@@ -34,4 +35,5 @@ Gallowmark's; its rule is the one above, and it stands on every screen.
 
 ## Threads
 
-- Where is the ledger now, and did it drown with the hall?
+- Is the ledger in the hall the one the king read, or one of the copies the clerks made in
+  the [[brinevaults]]?

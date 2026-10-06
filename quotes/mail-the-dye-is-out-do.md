@@ -2,7 +2,7 @@
 speaker: barr
 pool: haggle
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

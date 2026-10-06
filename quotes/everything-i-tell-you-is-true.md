@@ -2,7 +2,7 @@
 speaker: mardra
 pool: trade
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

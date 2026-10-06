@@ -1,7 +1,7 @@
 ---
 name: The Lowstreets
 aliases: [the Barred Streets, Under-Kell]
-status: draft
+status: canon
 tags: [ruin, street, kell, descent]
 summary: The streets of drowned Kell, where every house is barred from the inside, and not against the water.
 relations:

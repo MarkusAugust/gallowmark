@@ -2,7 +2,7 @@
 speaker: sarn
 pool: tide-flood
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 
