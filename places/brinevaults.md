@@ -1,7 +1,7 @@
 ---
 name: The Brinevaults
 aliases: [the Salt Cellars, the Counting-Vaults]
-status: draft
+status: canon
 tags: [ruin, vault, kell, salt, descent]
 summary: The salt-cut cellars and counting-rooms under the iron hall, where Kell's clerks copied the ledger, and kept on copying it, day by day, all through the grey.
 relations:

@@ -1,7 +1,7 @@
 ---
 name: The Unasked
 aliases: [the Shut-In, the Ones Who Ate]
-status: draft
+status: canon
 tags: [creature, people, grey, hunger, descent]
 summary: The people of Kell who lived through the grey in their barred houses under the sea; nobody asked them what they ate, and they can smell hunger on you.
 relations:

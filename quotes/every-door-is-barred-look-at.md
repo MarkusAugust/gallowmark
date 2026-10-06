@@ -2,7 +2,7 @@
 speaker: sarn
 pool: arrive-streets
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 speaker: ruun
 pool: naming
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

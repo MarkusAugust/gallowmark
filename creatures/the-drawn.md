@@ -1,7 +1,7 @@
 ---
 name: The Drawn
 aliases: [the Rope-Dead, Hask's Freight]
-status: draft
+status: canon
 tags: [creature, undead, rope, gallows, descent]
 summary: The hanged, with the rope still on, pulled through the Brinevaults toward the iron hall by a rope drawn tight from the other end; they do not fight you, they take you with them.
 relations:

@@ -21,7 +21,7 @@
       "aliases": [
         "Barr of Wrackhead"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "smith",
         "merchant",
@@ -543,7 +543,7 @@
         "the Salt Cellars",
         "the Counting-Vaults"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "ruin",
         "vault",
@@ -841,7 +841,7 @@
         "the Barred Streets",
         "Under-Kell"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "ruin",
         "street",
@@ -877,7 +877,7 @@
         "the Steps",
         "the Low Quays"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "ruin",
         "quay",
@@ -912,7 +912,7 @@
       "aliases": [
         "the King's Hall, the Hall under the Roof"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "ruin",
         "hall",
@@ -1348,7 +1348,7 @@
           "declared": false
         }
       ],
-      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## Threads\n\n- Where is the ledger now, and did it drown with the hall?",
+      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and\nthe last line in it is not the king's. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## Threads\n\n- Is the ledger in the hall the one the king read, or one of the copies the clerks made in\n  the [[brinevaults]]?",
       "file": "artifacts/linelord.md"
     },
     "streamlord": {
@@ -1418,7 +1418,7 @@
         "the First Watch",
         "the Order's Dead"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "greycloak",
@@ -1450,7 +1450,7 @@
         "the Counters",
         "the Reeve's Men"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "debt",
@@ -1481,7 +1481,7 @@
         "quay-pickers",
         "the Early Ones"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "people",
@@ -1511,7 +1511,7 @@
       "aliases": [
         "the Door-Holders"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "drowned",
@@ -1543,7 +1543,7 @@
         "the Rope-Dead",
         "Hask's Freight"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "undead",
@@ -1575,7 +1575,7 @@
         "the Grey at Home",
         "the Milk"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "grey",
@@ -1601,7 +1601,7 @@
         "the Shut-In",
         "the Ones Who Ate"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "creature",
         "people",
@@ -1788,7 +1788,7 @@
       "aliases": [
         "What the Ebb Is"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "secret",
         "grey",
@@ -1820,7 +1820,7 @@
         "the Going-Down",
         "the Low-Water Road"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "descent",
         "coast",
@@ -2000,7 +2000,7 @@
       "aliases": [
         "Sarn's Low Water"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "whisper",
         "epigraph",
@@ -2131,7 +2131,7 @@
       "type": "quote",
       "name": "A blade that cuts anything. I…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "A blade that cuts anything. I did not say what it will cut first.",
       "speaker": "sarn",
@@ -2221,7 +2221,7 @@
       "type": "quote",
       "name": "A shelf of ledgers. The last…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
       "speaker": "sarn",
@@ -2329,7 +2329,7 @@
       "type": "quote",
       "name": "Another line in the ledger. Short.",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Another line in the ledger. Short.",
       "speaker": "sarn",
@@ -2439,7 +2439,7 @@
       "type": "quote",
       "name": "Bones in a cloak the colour…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Bones in a cloak the colour of the floor. The order lost men here. The order does not say when.",
       "speaker": "sarn",
@@ -2979,7 +2979,7 @@
       "type": "quote",
       "name": "Do not ask why. Ask what.",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Do not ask why. Ask what.",
       "speaker": "ruun",
@@ -2997,7 +2997,7 @@
       "type": "quote",
       "name": "Do not count my days. The…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Do not count my days. The book does that.",
       "speaker": "gorvek",
@@ -3015,7 +3015,7 @@
       "type": "quote",
       "name": "Doors. Do not open them. Not…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Doors. Do not open them. Not the barred ones.",
       "speaker": "rauk",
@@ -3051,7 +3051,7 @@
       "type": "quote",
       "name": "Every door is barred. Look at…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Every door is barred. Look at the scratches. They are on the outside.",
       "speaker": "sarn",
@@ -3087,7 +3087,7 @@
       "type": "quote",
       "name": "Everything I tell you is true.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Everything I tell you is true. That is why it costs.",
       "speaker": "mardra",
@@ -3123,7 +3123,7 @@
       "type": "quote",
       "name": "Flood. The grey sinks under the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Flood. The grey sinks under the water and waits. You have a while.",
       "speaker": "sarn",
@@ -3177,7 +3177,7 @@
       "type": "quote",
       "name": "Forty marks. Forty. Marks.",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Forty marks. Forty. Marks.",
       "speaker": "barr",
@@ -3385,7 +3385,7 @@
       "type": "quote",
       "name": "I am sorry. A tenth, for…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "speaker": "tolm",
@@ -3403,7 +3403,7 @@
       "type": "quote",
       "name": "I do not want your coin.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "I do not want your coin. I want something you do not know you have.",
       "speaker": "mardra",
@@ -3475,7 +3475,7 @@
       "type": "quote",
       "name": "I offered. You took. You heard…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "I offered. You took. You heard gift.",
       "speaker": "sarn",
@@ -3493,7 +3493,7 @@
       "type": "quote",
       "name": "I went down to the hall…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "I went down to the hall once. The crown was warm. I did not go back.",
       "speaker": "rauk",
@@ -3681,7 +3681,7 @@
       "type": "quote",
       "name": "Lamp first. Then knife. In the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Lamp first. Then knife. In the dark the knife is nothing.",
       "speaker": "rauk",
@@ -3775,7 +3775,7 @@
       "type": "quote",
       "name": "Low water. Breathe now, while it…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Low water. Breathe now, while it is still your air.",
       "speaker": "sarn",
@@ -3793,7 +3793,7 @@
       "type": "quote",
       "name": "Low water is not safe. It…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Low water is not safe. It only looks it.",
       "speaker": "rauk",
@@ -3811,7 +3811,7 @@
       "type": "quote",
       "name": "Mail. The dye is out. Do…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Mail. The dye is out. Do not ask whose.",
       "speaker": "barr",
@@ -3937,7 +3937,7 @@
       "type": "quote",
       "name": "Nobody will ask you what you…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Nobody will ask you what you ate. That is the custom.",
       "speaker": "sarn",
@@ -3973,7 +3973,7 @@
       "type": "quote",
       "name": "Notches in the salt. Nine to…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Notches in the salt. Nine to a row. Nobody here is short of time.",
       "speaker": "sarn",
@@ -3991,7 +3991,7 @@
       "type": "quote",
       "name": "Out through the roof with the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Out through the roof with the ledger under your arm. Behind you a man is still holding a river.",
       "speaker": "sarn",
@@ -4063,7 +4063,7 @@
       "type": "quote",
       "name": "Refuse, then. I will offer it…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Refuse, then. I will offer it to the next one. There is always a next one.",
       "speaker": "sarn",
@@ -4117,7 +4117,7 @@
       "type": "quote",
       "name": "Ruun writes the name in the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Ruun writes the name in the wet sand. The tide takes it. You do not forget it.",
       "speaker": "ruun",
@@ -4189,7 +4189,7 @@
       "type": "quote",
       "name": "Somebody lived down here. Look at…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
       "speaker": "sarn",
@@ -4297,7 +4297,7 @@
       "type": "quote",
       "name": "Take it. It is better than…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Take it. It is better than anything Barr sells. Ask yourself what I sell.",
       "speaker": "sarn",
@@ -4315,7 +4315,7 @@
       "type": "quote",
       "name": "Take the book. Go up. I…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Take the book. Go up. I hold.",
       "speaker": "gorvek",
@@ -4369,7 +4369,7 @@
       "type": "quote",
       "name": "Thank you for coming up. The…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Thank you for coming up. The order thanks you. The order would like a tenth.",
       "speaker": "tolm",
@@ -4387,7 +4387,7 @@
       "type": "quote",
       "name": "That weighs what it weighs. A…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "That weighs what it weighs. A third.",
       "speaker": "barr",
@@ -4959,7 +4959,7 @@
       "type": "quote",
       "name": "The doors were barred against something.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The doors were barred against something. The sea was only what came first.",
       "speaker": "sarn",
@@ -5049,7 +5049,7 @@
       "type": "quote",
       "name": "The flood is turning. The water…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The flood is turning. The water is coming back up the steps. So is everything in it.",
       "speaker": "sarn",
@@ -5125,7 +5125,7 @@
       "type": "quote",
       "name": "The grey down there is the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The grey down there is the grey I live beside. It is not two greys. It never was.",
       "speaker": "mardra",
@@ -5143,7 +5143,7 @@
       "type": "quote",
       "name": "The grey stands in the hall…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The grey stands in the hall like milk in a bowl. It was here first.",
       "speaker": "sarn",
@@ -5161,7 +5161,7 @@
       "type": "quote",
       "name": "The grey took you. It takes…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The grey took you. It takes what it would have used.",
       "speaker": "sarn",
@@ -5327,7 +5327,7 @@
       "type": "quote",
       "name": "The king's crown is warm. Something…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The king's crown is warm. Something under the floor is breathing against it.",
       "speaker": "sarn",
@@ -5611,7 +5611,7 @@
       "type": "quote",
       "name": "The ropes in the vaults. Cut.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The ropes in the vaults. Cut. Never hold.",
       "speaker": "rauk",
@@ -5647,7 +5647,7 @@
       "type": "quote",
       "name": "The sea gave you back. Somebody…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The sea gave you back. Somebody on the shingle did not wake this morning.",
       "speaker": null,
@@ -5763,7 +5763,7 @@
       "type": "quote",
       "name": "The silt is grey. Taste it.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The silt is grey. Taste it. That is not sand.",
       "speaker": "sarn",
@@ -5855,7 +5855,7 @@
       "type": "quote",
       "name": "The stream stops when I say…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The stream stops when I say stop. I have not said go.",
       "speaker": "gorvek",
@@ -6135,7 +6135,7 @@
       "type": "quote",
       "name": "The water is going out again.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "The water is going out again. Watch the grey. It rises when the sea leaves.",
       "speaker": "sarn",
@@ -6249,7 +6249,7 @@
       "type": "quote",
       "name": "There is someone standing in the…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "There is someone standing in the drain. He has been standing there a long time.",
       "speaker": "sarn",
@@ -6287,7 +6287,7 @@
       "type": "quote",
       "name": "Things that have names can be…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Things that have names can be held. Things that do not, hold you.",
       "speaker": "ruun",
@@ -6323,7 +6323,7 @@
       "type": "quote",
       "name": "This lamp will never burn grey.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
       "speaker": "sarn",
@@ -6673,7 +6673,7 @@
       "type": "quote",
       "name": "Water stands in the air above…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Water stands in the air above the cistern. Somebody told it to stop.",
       "speaker": "sarn",
@@ -7349,7 +7349,7 @@
       "type": "quote",
       "name": "You came up. He did not.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "You came up. He did not. The book has both your lines now.",
       "speaker": "sarn",
@@ -7367,7 +7367,7 @@
       "type": "quote",
       "name": "You die. Shall the ledger name…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "nod"
       ],
@@ -7387,7 +7387,7 @@
       "type": "quote",
       "name": "You lay it on the salt-pile.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "You lay it on the salt-pile. The sea takes the smell of it. Nobody says what it buys.",
       "speaker": null,
@@ -7405,7 +7405,7 @@
       "type": "quote",
       "name": "You may keep the rest. You…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "You may keep the rest. You may always keep the rest. That is how it works.",
       "speaker": "tolm",
@@ -7423,7 +7423,7 @@
       "type": "quote",
       "name": "You meant it once too often.…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "You meant it once too often. You are hungry now, and you know what for.",
       "speaker": "sarn",
@@ -7497,7 +7497,7 @@
       "type": "quote",
       "name": "Your lamp burns grey. It will…",
       "aliases": [],
-      "status": "draft",
+      "status": "canon",
       "tags": [],
       "summary": "Your lamp burns grey. It will burn grey all the way down.",
       "speaker": "sarn",
@@ -8794,7 +8794,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -8849,7 +8849,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -8915,7 +8915,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -8983,7 +8983,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9327,7 +9327,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9338,7 +9338,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9349,7 +9349,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9371,7 +9371,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9393,7 +9393,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9415,7 +9415,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9448,7 +9448,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9579,7 +9579,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9590,7 +9590,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9634,7 +9634,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9645,7 +9645,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9763,7 +9763,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9822,7 +9822,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9833,7 +9833,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9844,7 +9844,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9921,7 +9921,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9943,7 +9943,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9954,7 +9954,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -9998,7 +9998,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10031,7 +10031,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10075,7 +10075,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10141,7 +10141,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10152,7 +10152,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10185,7 +10185,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10196,7 +10196,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10551,7 +10551,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10606,7 +10606,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10654,7 +10654,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10665,7 +10665,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10676,7 +10676,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10779,7 +10779,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10958,7 +10958,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -10980,7 +10980,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11054,7 +11054,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11111,7 +11111,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11286,7 +11286,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11358,7 +11358,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11382,7 +11382,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11404,7 +11404,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -11621,7 +11621,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -12052,7 +12052,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -12063,7 +12063,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": [
         "nod"
       ]
@@ -12076,7 +12076,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -12087,7 +12087,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -12098,7 +12098,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     },
     {
@@ -12144,7 +12144,7 @@
       "usedIn": [
         "descent"
       ],
-      "status": "draft",
+      "status": "canon",
       "tags": []
     }
   ],

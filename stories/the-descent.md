@@ -1,7 +1,7 @@
 ---
 name: The Descent
 aliases: [Sarn's Low Water]
-status: draft
+status: canon
 tags: [whisper, epigraph, descent]
 summary: Sarn's whisper to whoever stands at the top of the Quaysteps, in which a ledger is asked for, a roof is promised, and a belief is taken.
 speaker: sarn

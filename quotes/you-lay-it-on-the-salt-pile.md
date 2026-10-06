@@ -1,7 +1,7 @@
 ---
 pool: salt-pile
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 speaker: rauk
 pool: advice
 used-in: [descent]
-status: draft
+status: canon
 tags: []
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: The Barred
 aliases: [the Door-Holders]
-status: draft
+status: canon
 tags: [creature, drowned, undead, kell, descent]
 summary: The drowned of Kell who are still holding their doors shut from the inside; harmless until you open one, and then it is not them you have to worry about.
 relations:

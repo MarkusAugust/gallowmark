@@ -1,7 +1,7 @@
 ---
 name: The Iron Hall
 aliases: [the King's Hall, the Hall under the Roof]
-status: draft
+status: canon
 tags: [ruin, hall, kell, king, descent]
 summary: The hall of the last king of Kell under its roof of iron plates, where the grey stands like milk in a bowl, the ledger lies open, and a barbarian stands in the drain with a stream held still.
 relations:

@@ -1,7 +1,7 @@
 ---
 name: The Quaysteps
 aliases: [the Steps, the Low Quays]
-status: draft
+status: canon
 tags: [ruin, quay, kell, descent]
 summary: The stone quays and water-stairs of drowned Kell, the first ground the Ebb gave back; the silt on them is grey, and the bones in it wear the order's cloak.
 relations:

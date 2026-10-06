@@ -47,10 +47,11 @@ is going out from the drowned city, and everyone is walking toward it.
 | [[ruun]] | The old river-priest born in Kell | Was on the quay the night; names what washes up |
 | [[vurn]] | The other Ashborn | Tells the sagas Gorvek will not; the voice of LineLord's farewells |
 
-## In draft: the descent
+## The descent
 
-Not canon yet. Everything below is `status: draft`, written for the game on LineLord's site.
-[[the-going-home]] holds the truth behind it, which no line in the game states.
+Drowned Kell from the top of the steps to the hall, as the game on LineLord's site walks it.
+[[the-going-home]] holds the truth behind it, which no character says and no line in the game
+states.
 
 | Who or where | What | Pull |
 |---|---|---|
