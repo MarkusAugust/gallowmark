@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-10-06",
-  "entityCount": 345,
+  "entityCount": 370,
   "types": [
     "character",
     "place",
@@ -75,6 +75,44 @@
       ],
       "body": "## Who\n\nEleven years ago, in the grey, on a still day at low water, [[rauk]] came up from Old\n[[kell]] with a child under one arm that had not been there when she went down. It was\nperhaps three. It is perhaps nine now, and it should be fourteen. It has never spoken. It\nhas salt-white eyes that see in the dark and a habit of looking at the sea as if waiting for\nsomeone to finish a sentence.\n\n## What the coast decided\n\nThe coast folk decided, without a meeting, that the child was the last of the kings of Kell,\ngiven back. They call it Brim, which is the name [[vell]] gave it, and they leave fish at\nRauk's door. Nobody has proved a word of it. Nobody has needed to. It is believed, and in the\nMark that is a kind of iron.\n\n## In the world\n\n- The [[greycloaks]] have offered to foster the child at the fort on [[wrackhead]]. Rauk\n  declined. The offer stands, and is polite.\n- Since [[the-ebb]] the child has walked to the waterline every morning and stood where the\n  quay-stones are showing, and the water has been a little further out each time.\n- [[sarn]], asked about the child, did not change the subject. That is the only time.\n\n## Threads\n\n- If the child is the king, whose is the crown?\n- If it is not, what came up with it?",
       "file": "characters/brim.md"
+    },
+    "corve": {
+      "id": "corve",
+      "type": "character",
+      "name": "Corve",
+      "aliases": [
+        "Old Corve",
+        "Sitter in the Iron Hall"
+      ],
+      "status": "draft",
+      "tags": [
+        "holder",
+        "warrior",
+        "descent",
+        "conquest",
+        "grey"
+      ],
+      "summary": "The warrior who reached the Iron Hall before anyone living and sat down beside the drowned king and the ledger; his armour has rusted shut on him, the grey has taken most of what he was, and the ledger counts him on every page.",
+      "epithet": "the Rust-Sitter",
+      "relations": [
+        {
+          "to": "the-iron-hall",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "jarn",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nCorve got to [[the-iron-hall]] first, years before [[rauk]] dived it, and he sat down in a\nchair beside the drowned king and the ledger open on its stand, to rest. He is still resting.\nHis mail has rusted into one piece with him in it. [[the-standing]] has taken most of what he\nknew: the name of his village, the faces of his children, the reason he came down. It has\nleft him the chair.\n\nEvery page of the ledger in the hall has his name on it, because he has not moved. That is\nwhat the ledger counts.\n\n## Voice\n\nCorve says how long. It is the one thing he still knows.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Iron Hall the **Sitter in the Iron Hall**.\nNobody has taken the title from Corve, because nobody who reached the chair has wanted to sit\nin it after looking at him.\n\n## Threads\n\n- Is the last line in the ledger, the one that is not the king's, Corve's?",
+      "file": "characters/corve.md"
     },
     "drusk": {
       "id": "drusk",
@@ -172,6 +210,85 @@
       "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHis hands are scarred by fire, and he does not say which fire. He rides a grey mare he has\nnot named, because naming is river-priest work.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n- He walked out of the grey beside [[vurn]], who tells the sagas Gorvek will not, and reads\n  him the ledger [[linelord]] that he says he does not need.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
       "file": "characters/gorvek.md"
     },
+    "grue": {
+      "id": "grue",
+      "type": "character",
+      "name": "Grue",
+      "aliases": [
+        "Lord of the Lowstreets",
+        "the Man at the Narrow"
+      ],
+      "status": "draft",
+      "tags": [
+        "holder",
+        "toll",
+        "descent",
+        "conquest"
+      ],
+      "summary": "The coast man who took the one toll-house in the Lowstreets that kept its roof, and has charged everyone who goes past it a tenth ever since; he has never gone deeper, because he has never needed to.",
+      "epithet": "the Toll",
+      "relations": [
+        {
+          "to": "lowstreets",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "jarn",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nWhere the [[lowstreets]] narrow to one lane between two fallen houses there is a toll-house\nthat kept its roof, and in its door sits Grue. He is large, wet to the waist at every tide,\nand he learned the trade from watching [[tolm]] at the Wallgate: sit in the door, name a\nprice, be sorry about nothing. He takes a tenth of whatever goes down past him and a tenth of\nwhatever comes back up.\n\nHe has never been below the Lowstreets. He does not need to go to the ground. The ground\ncomes to him.\n\n## Voice\n\nGrue names a price. He names it before you ask, and it is always a tenth.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Lowstreets the **Lord of the Lowstreets**.\nGrue has been called it so long that the pickers think it is his name.\n\n## Threads\n\n- Who kept the toll-house before the water came, and what did they charge?",
+      "file": "characters/grue.md"
+    },
+    "hollin": {
+      "id": "hollin",
+      "type": "character",
+      "name": "Hollin",
+      "aliases": [
+        "Holder of the Quaysteps",
+        "Hollin of the Steps"
+      ],
+      "status": "draft",
+      "tags": [
+        "holder",
+        "picker",
+        "descent",
+        "conquest"
+      ],
+      "summary": "The picker who went down the Quaysteps the first winter of the Ebb, before anyone else dared, and has held them since on no better grounds than that she was first.",
+      "epithet": "the First Down",
+      "relations": [
+        {
+          "to": "quaysteps",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "wrackhead",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "jarn",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nHollin went down the [[quaysteps]] the first winter of [[the-ebb]], when the top step had\nshown for three days and nobody else would put a foot on it. She came up with a bollard-ring\nand a cough, and went down again the next low water. The [[pickers]] came after her. They\nstill come after her. That is the whole of her claim, and the ledger has counted it every day\nsince: she was first, so the steps are hers.\n\nShe is old now. She counts the steps every morning, top to bottom, and the count is always\nthe same, and she is always pleased by it.\n\n## Voice\n\nHollin talks about who came first. She does not talk about what came after.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Quaysteps the **Holder of the Quaysteps**.\nIt has called her that for longer than anyone has held anything else in [[kell]]. It does not\nsay she has held them well. It says she has held them.\n\n## Threads\n\n- Who did she pass on the steps that first winter, coming up as she went down?",
+      "file": "characters/hollin.md"
+    },
     "jarn": {
       "id": "jarn",
       "type": "character",
@@ -191,6 +308,21 @@
       "epithet": "the Linelord",
       "relations": [
         {
+          "to": "corve",
+          "kind": "rival-of",
+          "declared": false
+        },
+        {
+          "to": "grue",
+          "kind": "rival-of",
+          "declared": false
+        },
+        {
+          "to": "hollin",
+          "kind": "rival-of",
+          "declared": false
+        },
+        {
           "to": "wrackhead",
           "kind": "lives-in",
           "declared": true
@@ -199,6 +331,11 @@
           "to": "linelord",
           "kind": "named-by",
           "declared": true
+        },
+        {
+          "to": "sethra",
+          "kind": "rival-of",
+          "declared": false
         }
       ],
       "body": "## The title\n\nThe Linelord is not a man. It is a title, and the [[linelord]] gives it: whoever the\nledger names as holding the most ground in [[gallowmark]], wall by wall and day by day,\nis the Linelord until someone holds more. The title has changed hands more often than the\ncrown of [[kell]] did, and nobody has kept it by deserving it. They kept it by holding.\n\n## Jarn\n\nJarn holds it now. He came down to [[wrackhead]] the first winter of [[the-ebb]] with an\niron blade that came up out of Kell, and he has not gone further. He does not need to. He\nholds the shingle, and the ledger counts it, and every low water he walks the length of\nthe beach dragging the blade behind him, and leaves a line in the wet sand from the fort to\nthe salt-pile.\n\nThe line says: this far is mine. The flood takes it twice a day. He draws it again twice a\nday. That is the whole of what he does, and it is enough to hold the title.\n\n## Voice\n\nJarn does not argue. He points at the line. If you cross it, he asks whether you meant to.\n\n## In the world\n\n- The pickers going down the [[quaysteps]] step over his line, and he lets them; what is\n  under the water is not the shingle.\n- [[tolm]] tithes everyone on the coast and has never asked Jarn for a tenth. The fort\n  keeps its own line, on the other side of his.\n- Brother [[ruun]] writes names in the same sand. Jarn has never drawn across one.\n\n## Threads\n\n- Who held the title before him, and what did they hold?\n- What does the ledger say about the one who crosses his line?",
@@ -401,6 +538,43 @@
       "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading, including the one\nthat teaches the use of [[streamlord]].\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
     },
+    "sethra": {
+      "id": "sethra",
+      "type": "character",
+      "name": "Sethra",
+      "aliases": [
+        "Keeper of the Brinevaults",
+        "the One After"
+      ],
+      "status": "draft",
+      "tags": [
+        "holder",
+        "scavenger",
+        "descent",
+        "conquest"
+      ],
+      "summary": "The woman who waits in the Brinevaults while others go deeper, and takes what they carried when they do not come back; she holds the vaults by outliving everyone who passes through them.",
+      "epithet": "the Patient",
+      "relations": [
+        {
+          "to": "brinevaults",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "jarn",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nSethra does not stop anyone in the [[brinevaults]]. She sits among the clerks' shelves with\na lamp turned low and lets you pass. Then she waits. Most of the ones who go down past her do\nnot come back, and in a season or a year she goes down a little way after them and brings up\nwhat they carried. Everything she owns was carried into Kell by someone braver.\n\nShe has never fought for the vaults. Nobody who fought her for them is still alive to say\nwhether she would have won.\n\n## Voice\n\nSethra speaks quietly and about afterwards. She is always certain there will be one.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Brinevaults the **Keeper of the\nBrinevaults**. It has called her that through every one of the people she waited out.\n\n## Threads\n\n- What does she do with the ledgers on the clerks' shelves, and does she read them?",
+      "file": "characters/sethra.md"
+    },
     "tolm": {
       "id": "tolm",
       "type": "character",
@@ -585,6 +759,11 @@
       ],
       "summary": "The salt-cut cellars and counting-rooms under the iron hall, where Kell's clerks copied the ledger, and kept on copying it, day by day, all through the grey.",
       "relations": [
+        {
+          "to": "sethra",
+          "kind": "ruled-by",
+          "declared": false
+        },
         {
           "to": "kell",
           "kind": "located-in",
@@ -852,6 +1031,11 @@
           "declared": false
         },
         {
+          "to": "wrack",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "the-drowning-of-kell",
           "kind": "destroyed-by",
           "declared": false
@@ -882,6 +1066,11 @@
       ],
       "summary": "The streets of drowned Kell, where every house is barred from the inside, and not against the water.",
       "relations": [
+        {
+          "to": "grue",
+          "kind": "ruled-by",
+          "declared": false
+        },
         {
           "to": "kell",
           "kind": "located-in",
@@ -919,6 +1108,11 @@
       "summary": "The stone quays and water-stairs of drowned Kell, the first ground the Ebb gave back; the silt on them is grey, and the bones in it wear the order's cloak.",
       "relations": [
         {
+          "to": "hollin",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
           "to": "kell",
           "kind": "located-in",
           "declared": true
@@ -954,6 +1148,11 @@
       ],
       "summary": "The hall of the last king of Kell under its roof of iron plates, where the grey stands like milk in a bowl, the ledger lies open, and a barbarian stands in the drain with a stream held still.",
       "relations": [
+        {
+          "to": "corve",
+          "kind": "ruled-by",
+          "declared": false
+        },
         {
           "to": "kell",
           "kind": "located-in",
@@ -1042,6 +1241,11 @@
           "declared": false
         },
         {
+          "to": "hollin",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
           "to": "jarn",
           "kind": "home-of",
           "declared": false
@@ -1059,6 +1263,11 @@
         {
           "to": "pickers",
           "kind": "birthplace-of",
+          "declared": false
+        },
+        {
+          "to": "wrack",
+          "kind": "names",
           "declared": false
         },
         {
@@ -1365,7 +1574,27 @@
       "summary": "The ledger older than Kell that remembers every line of every wall in the Mark, who laid it, and how long it has stood; named by the river-priests, read aloud by Vurn, listened to by Gorvek.",
       "relations": [
         {
+          "to": "corve",
+          "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "grue",
+          "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "hollin",
+          "kind": "names",
+          "declared": false
+        },
+        {
           "to": "jarn",
+          "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "sethra",
           "kind": "names",
           "declared": false
         },
@@ -1390,7 +1619,7 @@
           "declared": false
         }
       ],
-      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and\nthe last line in it is not the king's. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## Threads\n\n- Is the ledger in the hall the one the king read, or one of the copies the clerks made in\n  the [[brinevaults]]?",
+      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and\nthe last line in it is not the king's. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## The holds\n\nUnder [[wrackhead]] the ledger names a holder for each of the four depths of [[kell]], by\nwho holds the most ground there and for how long, and calls them by the old titles: the\n**Holder of the Quaysteps**, the **Lord of the Lowstreets**, the **Keeper of the\nBrinevaults** and the **Sitter in the Iron Hall**. Above them is the **Linelord**, which goes\nto whoever holds the most of the Mark in all; [[jarn]] holds it now. A title is won by\nholding more and lost the same way. Old holders are not good ones. They are only the ones\nnobody has moved yet.\n\n## Threads\n\n- Is the ledger in the hall the one the king read, or one of the copies the clerks made in\n  the [[brinevaults]]?",
       "file": "artifacts/linelord.md"
     },
     "streamlord": {
@@ -1666,6 +1895,37 @@
       ],
       "body": "## What\n\nThe elders of [[bonereach]] do not ask a returning warrior where he has been. Nobody asked\nthe people of the [[lowstreets]] either. They lived through [[the-ashfall]] in barred houses\nwith the sea above them and the grey inside, for a generation, and when it lifted they were\nstill alive. They are thin. They are quick. They come for the hungry first.\n\n## In the world\n\n- Anyone who means it too often in the grey becomes one of them. The pickers say they have\n  met people they knew.",
       "file": "creatures/the-unasked.md"
+    },
+    "wrack": {
+      "id": "wrack",
+      "type": "creature",
+      "name": "Your Wrack",
+      "aliases": [
+        "the wrack",
+        "what the sea gave back"
+      ],
+      "status": "draft",
+      "tags": [
+        "creature",
+        "descent",
+        "conquest",
+        "ebb"
+      ],
+      "summary": "What the sea gives back of those who went down into Kell and did not come up, yours among them; each holds the ground it fell on and what it carried, and does not remember losing it.",
+      "relations": [
+        {
+          "to": "kell",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "wrackhead",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nWrack is what the sea throws back onto the shingle at [[wrackhead]]: weed, spars, a boot. In\n[[kell]] the sea throws back the ones who went down and stayed. Each comes up again where it\nfell, holding what it held, standing on the ground the ledger last counted for it.\n\nYours come up too. Every time you went down and did not come back, something with your name\nand your gear stayed on the floor where you fell, and it holds that ground now. It does not\nknow you. It is old ground, and it is yours, and it is still not good.\n\n## Threads\n\n- Does the ledger count your wrack as you, or as someone else who held the same ground?",
+      "file": "creatures/wrack.md"
     },
     "the-ashfall": {
       "id": "the-ashfall",
@@ -2275,6 +2535,26 @@
       "relations": [],
       "body": "A shelf of ledgers. The last ones count days, not lines. The hand gets worse.",
       "file": "quotes/a-shelf-of-ledgers-the-last.md"
+    },
+    "a-tenth-of-you-if-you": {
+      "id": "a-tenth-of-you-if-you",
+      "type": "quote",
+      "name": "A tenth. Of you, if you…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "A tenth. Of you, if you have nothing else.",
+      "speaker": "grue",
+      "pool": "grue",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "A tenth. Of you, if you have nothing else.",
+      "relations": [],
+      "body": "A tenth. Of you, if you have nothing else.",
+      "file": "quotes/a-tenth-of-you-if-you.md"
     },
     "ancient-mathematics-flow-like-northern-wine": {
       "id": "ancient-mathematics-flow-like-northern-wine",
@@ -3160,6 +3440,26 @@
       "body": "Everything I tell you is true. That is why it costs.",
       "file": "quotes/everything-i-tell-you-is-true.md"
     },
+    "everything-in-these-vaults-was-carried": {
+      "id": "everything-in-these-vaults-was-carried",
+      "type": "quote",
+      "name": "Everything in these vaults was carried…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Everything in these vaults was carried down by someone braver.",
+      "speaker": "sethra",
+      "pool": "sethra",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Everything in these vaults was carried down by someone braver.",
+      "relations": [],
+      "body": "Everything in these vaults was carried down by someone braver.",
+      "file": "quotes/everything-in-these-vaults-was-carried.md"
+    },
     "farewell-brave-coder-may-your-terminal": {
       "id": "farewell-brave-coder-may-your-terminal",
       "type": "quote",
@@ -3177,6 +3477,26 @@
       "relations": [],
       "body": "Farewell, brave coder. May your terminal never crash and your deployments always succeed.",
       "file": "quotes/farewell-brave-coder-may-your-terminal.md"
+    },
+    "first-down-first-up-you-are": {
+      "id": "first-down-first-up-you-are",
+      "type": "quote",
+      "name": "First down, first up. You are…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "First down, first up. You are neither.",
+      "speaker": "hollin",
+      "pool": "hollin",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "First down, first up. You are neither.",
+      "relations": [],
+      "body": "First down, first up. You are neither.",
+      "file": "quotes/first-down-first-up-you-are.md"
     },
     "flood-the-grey-sinks-under-the": {
       "id": "flood-the-grey-sinks-under-the",
@@ -3249,6 +3569,46 @@
       "relations": [],
       "body": "Forty marks. Forty. Marks.",
       "file": "quotes/forty-marks-forty-marks.md"
+    },
+    "forty-years-in-this-chair-the": {
+      "id": "forty-years-in-this-chair-the",
+      "type": "quote",
+      "name": "Forty years in this chair. The…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Forty years in this chair. The ledger has me on every page.",
+      "speaker": "corve",
+      "pool": "corve",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Forty years in this chair. The ledger has me on every page.",
+      "relations": [],
+      "body": "Forty years in this chair. The ledger has me on every page.",
+      "file": "quotes/forty-years-in-this-chair-the.md"
+    },
+    "go-on-then-the-door-was": {
+      "id": "go-on-then-the-door-was",
+      "type": "quote",
+      "name": "Go on, then. The door was…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Go on, then. The door was never mine. The toll was.",
+      "speaker": "grue",
+      "pool": "grue-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Go on, then. The door was never mine. The toll was.",
+      "relations": [],
+      "body": "Go on, then. The door was never mine. The toll was.",
+      "file": "quotes/go-on-then-the-door-was.md"
     },
     "golden-coins-of-code-scatter-in": {
       "id": "golden-coins-of-code-scatter-in",
@@ -3440,6 +3800,26 @@
       "body": "He is wise! If my abstraction leaks, I have to go before him, and he will ask me, 'What is the riddle of true encapsulation?' If I don't know it, he will cast my module out of the core library and laugh at its coupling. That's the Old Guard Developer, strong on his principles!",
       "file": "quotes/he-is-wise-if-my-abstraction.md"
     },
+    "held-not-earned-the-ledger-does": {
+      "id": "held-not-earned-the-ledger-does",
+      "type": "quote",
+      "name": "Held. Not earned. The ledger does…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Held. Not earned. The ledger does not know the difference.",
+      "speaker": "sarn",
+      "pool": "title-won",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Held. Not earned. The ledger does not know the difference.",
+      "relations": [],
+      "body": "Held. Not earned. The ledger does not know the difference.",
+      "file": "quotes/held-not-earned-the-ledger-does.md"
+    },
     "i-am-sorry-a-tenth-for": {
       "id": "i-am-sorry-a-tenth-for",
       "type": "quote",
@@ -3457,6 +3837,46 @@
       "relations": [],
       "body": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "file": "quotes/i-am-sorry-a-tenth-for.md"
+    },
+    "i-counted-these-steps-before-the": {
+      "id": "i-counted-these-steps-before-the",
+      "type": "quote",
+      "name": "I counted these steps before the…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "I counted these steps before the sea did.",
+      "speaker": "hollin",
+      "pool": "hollin",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "I counted these steps before the sea did.",
+      "relations": [],
+      "body": "I counted these steps before the sea did.",
+      "file": "quotes/i-counted-these-steps-before-the.md"
+    },
+    "i-do-not-stop-anyone-i": {
+      "id": "i-do-not-stop-anyone-i",
+      "type": "quote",
+      "name": "I do not stop anyone. I…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "I do not stop anyone. I wait for them to come back up. Most don't.",
+      "speaker": "sethra",
+      "pool": "sethra",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "I do not stop anyone. I wait for them to come back up. Most don't.",
+      "relations": [],
+      "body": "I do not stop anyone. I wait for them to come back up. Most don't.",
+      "file": "quotes/i-do-not-stop-anyone-i.md"
     },
     "i-do-not-want-your-coin": {
       "id": "i-do-not-want-your-coin",
@@ -3565,6 +3985,26 @@
       "relations": [],
       "body": "I went down to the hall once. The crown was warm. I did not go back.",
       "file": "quotes/i-went-down-to-the-hall.md"
+    },
+    "i-will-be-here-after-you": {
+      "id": "i-will-be-here-after-you",
+      "type": "quote",
+      "name": "I will be here after you.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "I will be here after you. I am always here after.",
+      "speaker": "sethra",
+      "pool": "sethra-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "I will be here after you. I am always here after.",
+      "relations": [],
+      "body": "I will be here after you. I am always here after.",
+      "file": "quotes/i-will-be-here-after-you.md"
     },
     "if-a-lesser-coder-wields-his": {
       "id": "if-a-lesser-coder-wields-his",
@@ -3992,6 +4432,26 @@
       "body": "No more commands. My will is my own again.",
       "file": "quotes/no-more-commands-my-will-is.md"
     },
+    "nobody-goes-down-past-my-door": {
+      "id": "nobody-goes-down-past-my-door",
+      "type": "quote",
+      "name": "Nobody goes down past my door.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Nobody goes down past my door. They go down past my price.",
+      "speaker": "grue",
+      "pool": "grue",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Nobody goes down past my door. They go down past my price.",
+      "relations": [],
+      "body": "Nobody goes down past my door. They go down past my price.",
+      "file": "quotes/nobody-goes-down-past-my-door.md"
+    },
     "nobody-will-ask-you-what-you": {
       "id": "nobody-will-ask-you-what-you",
       "type": "quote",
@@ -4045,6 +4505,26 @@
       "relations": [],
       "body": "Notches in the salt. Nine to a row. Nobody here is short of time.",
       "file": "quotes/notches-in-the-salt-nine-to.md"
+    },
+    "old-ground-and-yours-it-is": {
+      "id": "old-ground-and-yours-it-is",
+      "type": "quote",
+      "name": "Old ground, and yours. It is…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Old ground, and yours. It is still not good.",
+      "speaker": "sarn",
+      "pool": "wrack",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Old ground, and yours. It is still not good.",
+      "relations": [],
+      "body": "Old ground, and yours. It is still not good.",
+      "file": "quotes/old-ground-and-yours-it-is.md"
     },
     "out-through-the-roof-with-the": {
       "id": "out-through-the-roof-with-the",
@@ -4226,6 +4706,26 @@
       "body": "Sharpening the sword of scrutiny...",
       "file": "quotes/sharpening-the-sword-of-scrutiny.md"
     },
+    "sit-if-you-can-stand-up": {
+      "id": "sit-if-you-can-stand-up",
+      "type": "quote",
+      "name": "Sit, if you can stand up…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Sit, if you can stand up again after.",
+      "speaker": "corve",
+      "pool": "corve",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Sit, if you can stand up again after.",
+      "relations": [],
+      "body": "Sit, if you can stand up again after.",
+      "file": "quotes/sit-if-you-can-stand-up.md"
+    },
     "slaying-bugs-and-counting-lines-with": {
       "id": "slaying-bugs-and-counting-lines-with",
       "type": "quote",
@@ -4261,6 +4761,26 @@
       "relations": [],
       "body": "Somebody lived down here. Look at the bones in the gutter. Somebody ate.",
       "file": "quotes/somebody-lived-down-here-look-at.md"
+    },
+    "someone-held-it-longer-that-is": {
+      "id": "someone-held-it-longer-that-is",
+      "type": "quote",
+      "name": "Someone held it longer. That is…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Someone held it longer. That is all the ledger asks.",
+      "speaker": "sarn",
+      "pool": "title-lost",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Someone held it longer. That is all the ledger asks.",
+      "relations": [],
+      "body": "Someone held it longer. That is all the ledger asks.",
+      "file": "quotes/someone-held-it-longer-that-is.md"
     },
     "steel-and-sorcery-meet-in-digital": {
       "id": "steel-and-sorcery-meet-in-digital",
@@ -4388,6 +4908,46 @@
       "body": "Take the book. Go up. I hold.",
       "file": "quotes/take-the-book-go-up-i.md"
     },
+    "take-the-chair-it-will-take": {
+      "id": "take-the-chair-it-will-take",
+      "type": "quote",
+      "name": "Take the chair. It will take…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Take the chair. It will take you back.",
+      "speaker": "corve",
+      "pool": "corve-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Take the chair. It will take you back.",
+      "relations": [],
+      "body": "Take the chair. It will take you back.",
+      "file": "quotes/take-the-chair-it-will-take.md"
+    },
+    "take-them-then-count-them-every": {
+      "id": "take-them-then-count-them-every",
+      "type": "quote",
+      "name": "Take them, then. Count them every…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Take them, then. Count them every morning. See how long.",
+      "speaker": "hollin",
+      "pool": "hollin-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Take them, then. Count them every morning. See how long.",
+      "relations": [],
+      "body": "Take them, then. Count them every morning. See how long.",
+      "file": "quotes/take-them-then-count-them-every.md"
+    },
     "tallying-the-conquered-territories": {
       "id": "tallying-the-conquered-territories",
       "type": "quote",
@@ -4441,6 +5001,26 @@
       "relations": [],
       "body": "Thank you for coming up. The order thanks you. The order would like a tenth.",
       "file": "quotes/thank-you-for-coming-up-the.md"
+    },
+    "that-one-went-down-with-your": {
+      "id": "that-one-went-down-with-your",
+      "type": "quote",
+      "name": "That one went down with your…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "That one went down with your name. The sea has given it back.",
+      "speaker": "sarn",
+      "pool": "wrack",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "That one went down with your name. The sea has given it back.",
+      "relations": [],
+      "body": "That one went down with your name. The sea has given it back.",
+      "file": "quotes/that-one-went-down-with-your.md"
     },
     "that-weighs-what-it-weighs-a": {
       "id": "that-weighs-what-it-weighs-a",
@@ -5417,6 +5997,26 @@
       "relations": [],
       "body": "The last command is given. If the server displeases Thurn, it will answer to the river.",
       "file": "quotes/the-last-command-is-given-if.md"
+    },
+    "the-ledger-has-a-new-name": {
+      "id": "the-ledger-has-a-new-name",
+      "type": "quote",
+      "name": "The ledger has a new name…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "The ledger has a new name in it. It has had many.",
+      "speaker": "sarn",
+      "pool": "title-won",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "The ledger has a new name in it. It has had many.",
+      "relations": [],
+      "body": "The ledger has a new name in it. It has had many.",
+      "file": "quotes/the-ledger-has-a-new-name.md"
     },
     "the-linelord-draws-a-line-in": {
       "id": "the-linelord-draws-a-line-in",
@@ -7478,6 +8078,26 @@
       "body": "You die. Shall the ledger name what you carried?",
       "file": "quotes/you-die-shall-the-ledger-name.md"
     },
+    "you-hold-more-than-i-do": {
+      "id": "you-hold-more-than-i-do",
+      "type": "quote",
+      "name": "You hold more than I do.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "You hold more than I do. Draw your own line.",
+      "speaker": "jarn",
+      "pool": "linelord-won",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "You hold more than I do. Draw your own line.",
+      "relations": [],
+      "body": "You hold more than I do. Draw your own line.",
+      "file": "quotes/you-hold-more-than-i-do.md"
+    },
     "you-lay-it-on-the-salt-pile": {
       "id": "you-lay-it-on-the-salt-pile",
       "type": "quote",
@@ -7623,6 +8243,46 @@
       "relations": [],
       "body": "Your line, across Jarn's.",
       "file": "quotes/your-line-across-jarn-s.md"
+    },
+    "your-name-is-a-line-further": {
+      "id": "your-name-is-a-line-further",
+      "type": "quote",
+      "name": "Your name is a line further…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Your name is a line further down now.",
+      "speaker": "sarn",
+      "pool": "title-lost",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Your name is a line further down now.",
+      "relations": [],
+      "body": "Your name is a line further down now.",
+      "file": "quotes/your-name-is-a-line-further.md"
+    },
+    "your-wrack-holds-what-you-dropped": {
+      "id": "your-wrack-holds-what-you-dropped",
+      "type": "quote",
+      "name": "Your wrack holds what you dropped.…",
+      "aliases": [],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ],
+      "summary": "Your wrack holds what you dropped. It does not remember dropping it.",
+      "speaker": "sarn",
+      "pool": "wrack",
+      "usedIn": [
+        "descent"
+      ],
+      "text": "Your wrack holds what you dropped. It does not remember dropping it.",
+      "relations": [],
+      "body": "Your wrack holds what you dropped. It does not remember dropping it.",
+      "file": "quotes/your-wrack-holds-what-you-dropped.md"
     }
   },
   "relations": [
@@ -7659,6 +8319,42 @@
     {
       "from": "vell",
       "to": "brim",
+      "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "corve",
+      "to": "the-iron-hall",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-iron-hall",
+      "to": "corve",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "corve",
+      "to": "jarn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "jarn",
+      "to": "corve",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "corve",
+      "to": "linelord",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "corve",
       "kind": "names",
       "declared": false
     },
@@ -7768,6 +8464,90 @@
       "from": "vurn",
       "to": "gorvek",
       "kind": "ally-of",
+      "declared": false
+    },
+    {
+      "from": "grue",
+      "to": "lowstreets",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "lowstreets",
+      "to": "grue",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "grue",
+      "to": "jarn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "jarn",
+      "to": "grue",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "grue",
+      "to": "linelord",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "grue",
+      "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "hollin",
+      "to": "quaysteps",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "quaysteps",
+      "to": "hollin",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "hollin",
+      "to": "wrackhead",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "wrackhead",
+      "to": "hollin",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "hollin",
+      "to": "jarn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "jarn",
+      "to": "hollin",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "hollin",
+      "to": "linelord",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "hollin",
+      "kind": "names",
       "declared": false
     },
     {
@@ -7948,6 +8728,42 @@
       "from": "kell",
       "to": "sarn",
       "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "sethra",
+      "to": "brinevaults",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "brinevaults",
+      "to": "sethra",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "sethra",
+      "to": "jarn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "jarn",
+      "to": "sethra",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "sethra",
+      "to": "linelord",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "sethra",
+      "kind": "names",
       "declared": false
     },
     {
@@ -8515,6 +9331,30 @@
       "declared": false
     },
     {
+      "from": "wrack",
+      "to": "kell",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "wrack",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "wrack",
+      "to": "wrackhead",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "wrackhead",
+      "to": "wrack",
+      "kind": "names",
+      "declared": false
+    },
+    {
       "from": "the-ashfall",
       "to": "bonereach",
       "kind": "destroyed",
@@ -8989,6 +9829,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "a-tenth-of-you-if-you",
+      "text": "A tenth. Of you, if you have nothing else.",
+      "speaker": "grue",
+      "pool": "grue",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "ancient-mathematics-flow-like-northern-wine",
@@ -9546,6 +10399,19 @@
       "tags": []
     },
     {
+      "id": "everything-in-these-vaults-was-carried",
+      "text": "Everything in these vaults was carried down by someone braver.",
+      "speaker": "sethra",
+      "pool": "sethra",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
       "id": "farewell-brave-coder-may-your-terminal",
       "text": "Farewell, brave coder. May your terminal never crash and your deployments always succeed.",
       "speaker": "gorvek",
@@ -9555,6 +10421,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "first-down-first-up-you-are",
+      "text": "First down, first up. You are neither.",
+      "speaker": "hollin",
+      "pool": "hollin",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "flood-the-grey-sinks-under-the",
@@ -9599,6 +10478,32 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "forty-years-in-this-chair-the",
+      "text": "Forty years in this chair. The ledger has me on every page.",
+      "speaker": "corve",
+      "pool": "corve",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
+      "id": "go-on-then-the-door-was",
+      "text": "Go on, then. The door was never mine. The toll was.",
+      "speaker": "grue",
+      "pool": "grue-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "golden-coins-of-code-scatter-in",
@@ -9721,6 +10626,19 @@
       ]
     },
     {
+      "id": "held-not-earned-the-ledger-does",
+      "text": "Held. Not earned. The ledger does not know the difference.",
+      "speaker": "sarn",
+      "pool": "title-won",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
       "id": "i-am-sorry-a-tenth-for",
       "text": "I am sorry. A tenth, for the fort. It is the same tenth it was yesterday.",
       "speaker": "tolm",
@@ -9730,6 +10648,32 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "i-counted-these-steps-before-the",
+      "text": "I counted these steps before the sea did.",
+      "speaker": "hollin",
+      "pool": "hollin",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
+      "id": "i-do-not-stop-anyone-i",
+      "text": "I do not stop anyone. I wait for them to come back up. Most don't.",
+      "speaker": "sethra",
+      "pool": "sethra",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "i-do-not-want-your-coin",
@@ -9796,6 +10740,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "i-will-be-here-after-you",
+      "text": "I will be here after you. I am always here after.",
+      "speaker": "sethra",
+      "pool": "sethra-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "if-a-lesser-coder-wields-his",
@@ -10063,6 +11020,19 @@
       "tags": []
     },
     {
+      "id": "nobody-goes-down-past-my-door",
+      "text": "Nobody goes down past my door. They go down past my price.",
+      "speaker": "grue",
+      "pool": "grue",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
       "id": "nobody-will-ask-you-what-you",
       "text": "Nobody will ask you what you ate. That is the custom.",
       "speaker": "sarn",
@@ -10094,6 +11064,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "old-ground-and-yours-it-is",
+      "text": "Old ground, and yours. It is still not good.",
+      "speaker": "sarn",
+      "pool": "wrack",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "out-through-the-roof-with-the",
@@ -10206,6 +11189,19 @@
       "tags": []
     },
     {
+      "id": "sit-if-you-can-stand-up",
+      "text": "Sit, if you can stand up again after.",
+      "speaker": "corve",
+      "pool": "corve",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
       "id": "slaying-bugs-and-counting-lines-with",
       "text": "Slaying bugs and counting lines with steel and fury...",
       "speaker": null,
@@ -10226,6 +11222,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "someone-held-it-longer-that-is",
+      "text": "Someone held it longer. That is all the ledger asks.",
+      "speaker": "sarn",
+      "pool": "title-lost",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "steel-and-sorcery-meet-in-digital",
@@ -10305,6 +11314,32 @@
       "tags": []
     },
     {
+      "id": "take-the-chair-it-will-take",
+      "text": "Take the chair. It will take you back.",
+      "speaker": "corve",
+      "pool": "corve-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
+      "id": "take-them-then-count-them-every",
+      "text": "Take them, then. Count them every morning. See how long.",
+      "speaker": "hollin",
+      "pool": "hollin-yields",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
       "id": "tallying-the-conquered-territories",
       "text": "Tallying the conquered territories...",
       "speaker": null,
@@ -10336,6 +11371,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "that-one-went-down-with-your",
+      "text": "That one went down with your name. The sea has given it back.",
+      "speaker": "sarn",
+      "pool": "wrack",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "that-weighs-what-it-weighs-a",
@@ -10941,6 +11989,19 @@
       ],
       "status": "canon",
       "tags": []
+    },
+    {
+      "id": "the-ledger-has-a-new-name",
+      "text": "The ledger has a new name in it. It has had many.",
+      "speaker": "sarn",
+      "pool": "title-won",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     },
     {
       "id": "the-linelord-draws-a-line-in",
@@ -12240,6 +13301,19 @@
       ]
     },
     {
+      "id": "you-hold-more-than-i-do",
+      "text": "You hold more than I do. Draw your own line.",
+      "speaker": "jarn",
+      "pool": "linelord-won",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
       "id": "you-lay-it-on-the-salt-pile",
       "text": "You lay it on the salt-pile. The sea takes the smell of it. Nobody says what it buys.",
       "speaker": null,
@@ -12328,6 +13402,32 @@
       ],
       "status": "draft",
       "tags": []
+    },
+    {
+      "id": "your-name-is-a-line-further",
+      "text": "Your name is a line further down now.",
+      "speaker": "sarn",
+      "pool": "title-lost",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
+    },
+    {
+      "id": "your-wrack-holds-what-you-dropped",
+      "text": "Your wrack holds what you dropped. It does not remember dropping it.",
+      "speaker": "sarn",
+      "pool": "wrack",
+      "usedIn": [
+        "descent"
+      ],
+      "status": "draft",
+      "tags": [
+        "conquest"
+      ]
     }
   ],
   "timeline": [

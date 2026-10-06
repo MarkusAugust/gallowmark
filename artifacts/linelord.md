@@ -33,6 +33,16 @@ holds which line of a codebase and for how long. This entry is where the world a
 meet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are
 Gallowmark's; its rule is the one above, and it stands on every screen.
 
+## The holds
+
+Under [[wrackhead]] the ledger names a holder for each of the four depths of [[kell]], by
+who holds the most ground there and for how long, and calls them by the old titles: the
+**Holder of the Quaysteps**, the **Lord of the Lowstreets**, the **Keeper of the
+Brinevaults** and the **Sitter in the Iron Hall**. Above them is the **Linelord**, which goes
+to whoever holds the most of the Mark in all; [[jarn]] holds it now. A title is won by
+holding more and lost the same way. Old holders are not good ones. They are only the ones
+nobody has moved yet.
+
 ## Threads
 
 - Is the ledger in the hall the one the king read, or one of the copies the clerks made in
