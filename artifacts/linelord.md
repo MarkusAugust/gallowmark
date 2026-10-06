@@ -17,7 +17,7 @@ it has stood, and nothing else. It does not say whether the wall was any good. I
 held the ground, and for how long, and that is the whole of what it says. The last king of
 [[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking
 for a wall that would hold. The [[greycloaks]]' tithe-books are a poor copy of it. Brother
-[[nask]] named it, and then stopped talking about it, as the [[river-priests]] do.
+[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.
 
 [[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.
 

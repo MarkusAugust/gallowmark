@@ -39,13 +39,26 @@ is going out from the drowned city, and everyone is walking toward it.
 |---|---|---|
 | [[tolm]] | The Greycloak captain in the door of [[wallgate]] | The polite horror, with a face |
 | [[vell]] | The river-priest of [[hookford]] who named the Ebb | Names have teeth; he bites first |
-| [[osk]] | The Ashwife on the rim of [[greyhollow]] | The only one who explains, and what it costs |
+| [[mardra]] | The Ashwife on the rim of [[greyhollow]] | The only one who explains, and what it costs |
 | [[rauk]] | The diver of [[wrackhead]] who touched the crown | Knows what is under the water and will not say |
 | [[brim]] | The Salt Child the coast decided is Kell's heir | A king held in place by being believed in |
 | [[hangmoot]] | The ridge of nine gallows | Where the Mark pays; the slack rope |
 | [[drusk]] | The Greycloak captain of the bridge at [[hookford]] | The hook Tolm does not carry; the books |
-| [[nask]] | The old river-priest born in Kell | Was on the quay the night; names what washes up |
+| [[ruun]] | The old river-priest born in Kell | Was on the quay the night; names what washes up |
 | [[vurn]] | The other Ashborn | Tells the sagas Gorvek will not; the voice of LineLord's farewells |
+
+## In draft: the descent
+
+Not canon yet. Everything below is `status: draft`, written for the game on LineLord's site.
+[[the-going-home]] holds the truth behind it, which no line in the game states.
+
+| Who or where | What | Pull |
+|---|---|---|
+| [[the-walk-to-the-hall]] | The coast in the first years of the Ebb | Everyone goes down at low water |
+| [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ash in the silt, barred doors, counted days, the grey at home |
+| [[barr]] | The salt-smith at Wrackhead | Iron down, salvage up |
+| [[pickers]], [[firstcloaks]], [[the-barred]], [[the-unasked]], [[notchers]], [[the-drawn]], [[the-standing]] | The creatures of the descent | What the grey left, and what it is |
+| [[the-descent]] | Sarn's whisper at the top of the steps | Which way to look |
 
 ## The theme
 

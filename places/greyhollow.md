@@ -18,14 +18,14 @@ inside. Nobody farms within a mile of it.
 
 ## Going in
 
-People go in. Some for what they lost in the grey, some for what [[osk]] sells, some because
+People go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because
 the [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out
 changed in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]
 has never said whether he has been back.
 
 ## What it is
 
-The Ashborn say the Hollow is the last of the grey. Osk says it is the first, and that the
+The Ashborn say the Hollow is the last of the grey. Mardra says it is the first, and that the
 rest of the Ashfall was only spillage.
 
 ## Threads

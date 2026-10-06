@@ -90,3 +90,19 @@ describe("quotes", () => {
     rmSync(dir, { recursive: true });
   });
 });
+
+describe("creatures", () => {
+  it("are a type of their own, kept in creatures/ and exported like any entity", () => {
+    const dir = mkdtempSync(join(tmpdir(), "lore-"));
+    mkdirSync(join(dir, "creatures"));
+    mkdirSync(join(dir, "places"));
+    writeFileSync(join(dir, "places/kell.md"), "---\nname: Kell\nstatus: canon\nsummary: x\n---\n");
+    writeFileSync(join(dir, "creatures/the-kept.md"), "---\nname: The Kept\nstatus: draft\nsummary: x\nrelations:\n  - { to: kell, kind: haunts }\n---\n\nThey wake at the flood in [[kell]].\n");
+    assert.deepEqual(validate(dir).problems, []);
+    const { out } = build(dir);
+    assert.ok(out.types.includes("creature"));
+    assert.equal(out.entities["the-kept"].type, "creature");
+    assert.equal(out.entities["the-kept"].file, "creatures/the-kept.md");
+    rmSync(dir, { recursive: true });
+  });
+});

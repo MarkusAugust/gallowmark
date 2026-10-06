@@ -1,0 +1,9 @@
+---
+speaker: ruun
+pool: naming
+used-in: [descent]
+status: draft
+tags: []
+---
+
+Do not ask why. Ask what.

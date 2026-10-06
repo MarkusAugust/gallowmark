@@ -1,7 +1,7 @@
 ---
-name: Nask
+name: Ruun
 epithet: of Kell
-aliases: [Brother Nask, the Old Wet]
+aliases: [Brother Ruun, the Old Wet]
 status: canon
 tags: [river-priest, namer, kell]
 summary: The last river-priest born in Kell, who was a boy on the quay the night Sarn came, and who has walked the drowned coast naming what the sea gives up ever since.
@@ -14,7 +14,7 @@ relations:
 
 ## Who
 
-Nask was born in [[kell]] when Kell had streets, and was on the quay the night the
+Ruun was born in [[kell]] when Kell had streets, and was on the quay the night the
 [[iron-crown-of-kell]] lost its stones. He was nine. He saw the water come up the steps
 and he did not see a face. He is old now, bent, and wet to the hip rather than the knee,
 because the coast is where he walks and the coast is where the sea takes back what it
@@ -22,14 +22,14 @@ gave.
 
 ## The names
 
-Nask names what washes up. A plank, a bone, a child. He gave [[sarn]] no name; that was the
+Ruun names what washes up. A plank, a bone, a child. He gave [[sarn]] no name; that was the
 priests upriver, and he has said it was the right name and the wrong year. He taught
 [[vell]] the names of the two rivers and was not consulted when Vell named [[the-ebb]]. He
 has said nothing about that, at length.
 
 ## Voice
 
-Names, never reasons, and slower than the young ones. Nask will answer a question the
+Names, never reasons, and slower than the young ones. Ruun will answer a question the
 following morning, on the shingle, with the name written in the wet sand, and let the tide
 take it.
 
@@ -42,4 +42,4 @@ take it.
 
 ## Threads
 
-- What did Nask see on the quay that was not a face?
+- What did Ruun see on the quay that was not a face?

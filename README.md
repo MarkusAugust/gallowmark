@@ -10,7 +10,7 @@ rules of writing it. [GRAPH.md](GRAPH.md) draws the relations.
 ## Layout
 
 ```
-characters/  places/  factions/  gods/  artifacts/  events/  stories/  quotes/
+characters/  places/  factions/  gods/  artifacts/  creatures/  events/  stories/  quotes/
     one Markdown file per entity; the file name is the id
 tools/lore.mjs         validate, build, check, new, list  (no dependencies)
 schema/lore.schema.json  JSON Schema for dist/lore.json
@@ -40,7 +40,9 @@ Prose. Link other entities with [[gorvek]].
 ```
 
 Events add `year:` (years since the Ashfall; negative is before). Stories add `speaker:`
-(an entity id) and `form:` (creed, whisper, chronicle, prose, verse).
+(an entity id) and `form:` (creed, whisper, chronicle, prose, verse). Creatures are the kinds
+of thing that are not one person (beasts, the drowned, what a god sends) and take the same
+fields as any entity.
 
 ## A quote
 
@@ -51,7 +53,7 @@ text; `name` and `summary` are derived from it, so the frontmatter is only where
 ---
 speaker: gorvek            # optional; an entity id
 pool: farewell             # where the tool uses it: farewell, initializing, scanning, analyzing, complete
-used-in: [linelord]        # the projects that draw from this pool
+used-in: [linelord]        # the projects that draw from this pool (linelord, descent)
 status: canon
 tags: [nod]                # nod: a reference to the films or the old stories; see STYLE.md
 ---
@@ -126,8 +128,10 @@ const creed = lore.entities["gorveks-creed"].body;
 
 The Streamlord SDK takes its epigraphs from `stories/`, its narrator from [[sarn]] and its
 hero from [[gorvek]]. LineLord takes its names from the canon and its farewells and analysis
-messages from `quotes/`, generated into its source by `bun run sync-lore` from this file. A
-game, one day, starts from the same file.
+messages from `quotes/`, generated into its source by `bun run sync-lore` from this file. The
+game on LineLord's site, *The Descent into Kell*, starts from the same file: its places,
+its creatures and its lines are the canon's, and its quotes carry `used-in: [descent]` so
+that LineLord's own `sync-lore` never sees them.
 
 ## License
 
