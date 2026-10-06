@@ -1,6 +1,6 @@
 ---
 speaker: sarn
-pool: tide
+pool: tide-low
 used-in: [descent]
 status: draft
 tags: []

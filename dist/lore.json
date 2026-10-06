@@ -3127,7 +3127,7 @@
       "tags": [],
       "summary": "Flood. The grey sinks under the water and waits. You have a while.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-flood",
       "usedIn": [
         "descent"
       ],
@@ -3779,7 +3779,7 @@
       "tags": [],
       "summary": "Low water. Breathe now, while it is still your air.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-low",
       "usedIn": [
         "descent"
       ],
@@ -5053,7 +5053,7 @@
       "tags": [],
       "summary": "The flood is turning. The water is coming back up the steps. So is everything in it.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-turning",
       "usedIn": [
         "descent"
       ],
@@ -6139,7 +6139,7 @@
       "tags": [],
       "summary": "The water is going out again. Watch the grey. It rises when the sea leaves.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-ebb",
       "usedIn": [
         "descent"
       ],
@@ -9411,7 +9411,7 @@
       "id": "flood-the-grey-sinks-under-the",
       "text": "Flood. The grey sinks under the water and waits. You have a while.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-flood",
       "usedIn": [
         "descent"
       ],
@@ -9818,7 +9818,7 @@
       "id": "low-water-breathe-now-while-it",
       "text": "Low water. Breathe now, while it is still your air.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-low",
       "usedIn": [
         "descent"
       ],
@@ -10602,7 +10602,7 @@
       "id": "the-flood-is-turning-the-water",
       "text": "The flood is turning. The water is coming back up the steps. So is everything in it.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-turning",
       "usedIn": [
         "descent"
       ],
@@ -11282,7 +11282,7 @@
       "id": "the-water-is-going-out-again",
       "text": "The water is going out again. Watch the grey. It rises when the sea leaves.",
       "speaker": "sarn",
-      "pool": "tide",
+      "pool": "tide-ebb",
       "usedIn": [
         "descent"
       ],
