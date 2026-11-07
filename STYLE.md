@@ -12,6 +12,16 @@
 - English is the language of the canon. Nordic roots are welcome as long as the word does
   not mean something silly in Norwegian.
 
+## Language
+
+- All lore is written in English: every entity, quote, story and WORLD.md. English is the
+  source of truth, and a translation never changes canon.
+- Translations come later and are tuned by hand. They live in `translations/<lang>/`
+  (Norwegian is `translations/nb/`), one file per entity with the same path and file name as
+  the English one. A translation keeps the names as they are (Gorvek, Sarn, Gallowmark,
+  the Greycloaks) unless the canon gives a translated name.
+- When the English changes, its translations are stale until someone tunes them again.
+
 ## Voices
 
 - **Gorvek** speaks in creeds: present tense, physical, no explanation. Someone else asks;
