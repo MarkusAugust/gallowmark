@@ -12,9 +12,9 @@ relations:
   - { to: iron-crown-of-kell, kind: features }
 ---
 
-*Know this, you who come late: the grey lifted, and the sea went out. The quays of Kell are
+*Know this, you who come late: the ash cleared, and the sea went out. The quays of Kell are
 showing. The iron roof stands up out of the salt for one hour on a still day, and under it a
-king sits with an empty crown, and under him is the one who keeps.*
+king sits with an empty crown, and under him the floor is warm.*
 
 *Three gods have been given the credit. The river says it is calling its water home. The
 salt says it is opening its mouth. The rope says it is being pulled from the other end. They
@@ -23,7 +23,7 @@ are all right, and none of them is the reason.*
 *I took three stones. I did not say where I put them.*
 
 *Every road in the Mark runs downhill to that hall now. The captain is coming from his door.
-The barbarian is coming with the thing he cannot name. The diver has stopped diving and the
+The barbarian is already down there, with a sack. The diver has stopped diving and the
 child has started walking. You are coming too. That is why you are reading.*
 
 *I will take one thing from you for the telling: the belief that the sea gives anything

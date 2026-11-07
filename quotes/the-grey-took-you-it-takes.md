@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-The grey took you. It takes what it would have used.
+Kell took you. It keeps what it is given.

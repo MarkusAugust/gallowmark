@@ -21,12 +21,13 @@ wreckers from the coast, novices who left [[hookford]] without asking. They go d
 
 - [[barr]] sells them iron on the shingle and buys back what they bring up.
 - Brother [[ruun]] names what they bring up, in the wet sand, before the tide takes it.
-- [[mardra]] has come down from [[greyhollow]]. She says the grey is the same down there.
+- [[mardra]] has come down from [[greyhollow]]. She says the ground down there is warm the way
+  the Hollow is warm, and charges for saying why.
 - [[tolm]] sits in the door of the fort and takes a tenth, and apologises.
 - The salt-pile takes what it is given, and once, they say, gives you back.
 - [[rauk]] does not go down any more. She will tell you how, between breaths.
 
 ## Threads
 
-- [[gorvek]] came through Wrackhead before the first of them and went down alone. Nobody has
-  seen him come up.
+- [[gorvek]] came through Wrackhead before the first of them, went down alone, and came up
+  with a sack. He has gone down twice since. What is he still looking for?

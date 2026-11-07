@@ -32,9 +32,9 @@ in it.
 - The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for
   them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the
   [[wallgate]] for the first time since the grey.
-- [[gorvek]] has been told by Vell what he carries and has turned toward the coast. He has
-  not said why.
-- [[mardra]] has begun selling things from the grey that she says came up out of Kell.
+- [[gorvek]] was on the coast before anyone, and went down first, for the crown.
+- [[mardra]] has begun selling things she says came up out of Kell, and says the floor of
+  the hall is warm.
 - [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.
 - [[sarn]] narrates. Sarn always did. Sarn has started narrating this.
 
@@ -48,3 +48,4 @@ being believed in. The sea is about to show everyone whether it is still there.
 
 - How far out does the sea go?
 - What is at the low-water mark when it stops?
+- Why is the shingle at Wrackhead warm to bare feet, this winter, for the first time?

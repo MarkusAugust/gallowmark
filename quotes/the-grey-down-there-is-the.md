@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-The grey down there is the grey I live beside. It is not two greys. It never was.
+The floor down there is warm the way the Hollow is warm. It is not two fires. It never was.

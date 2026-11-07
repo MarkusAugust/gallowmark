@@ -18,9 +18,9 @@ boiled down: fewer words, harder hands, a longer memory.
 
 ## Since the Ashfall
 
-The [[the-ashfall]] fell here first and lifted here last. The Reach lost half its villages
-and does not say which half. Those who walked out of the grey, [[gorvek]] among them, are
-called the Ashborn behind their backs and never to their faces.
+The ash of [[the-ashfall]] fell here first, hot enough to burn thatch, and cleared here last.
+The Reach lost half its villages and does not say which half. Those who walked out of the
+grey, [[gorvek]] among them, are called the Ashborn behind their backs and never to their faces.
 
 ## Custom
 

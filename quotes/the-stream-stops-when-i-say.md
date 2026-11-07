@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-The stream stops when I say stop. I have not said go.
+The crown is mine. The rest you can carry.

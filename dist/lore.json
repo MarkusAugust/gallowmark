@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
-  "generatedAt": "2026-10-06",
-  "entityCount": 380,
+  "generatedAt": "2026-11-07",
+  "entityCount": 382,
   "types": [
     "character",
     "place",
@@ -89,10 +89,9 @@
         "holder",
         "warrior",
         "descent",
-        "conquest",
-        "grey"
+        "conquest"
       ],
-      "summary": "The warrior who reached the Iron Hall before anyone living and sat down beside the drowned king and the ledger; his armour has rusted shut on him, the grey has taken most of what he was, and the ledger counts him on every page.",
+      "summary": "The warrior who reached the Iron Hall before anyone living and sat down beside the drowned king and the ledger; his armour has rusted shut on him, the years have taken most of what he was, and the ledger counts him on every page.",
       "epithet": "the Rust-Sitter",
       "relations": [
         {
@@ -111,7 +110,7 @@
           "declared": true
         }
       ],
-      "body": "## Who\n\nCorve got to [[the-iron-hall]] first, years before [[rauk]] dived it, and he sat down in a\nchair beside the drowned king and the ledger open on its stand, to rest. He is still resting.\nHis mail has rusted into one piece with him in it. [[the-standing]] has taken most of what he\nknew: the name of his village, the faces of his children, the reason he came down. It has\nleft him the chair.\n\nEvery page of the ledger in the hall has his name on it, because he has not moved. That is\nwhat the ledger counts.\n\n## Voice\n\nCorve says how long. It is the one thing he still knows.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Iron Hall the **Sitter in the Iron Hall**.\nNobody has taken the title from Corve, because nobody who reached the chair has wanted to sit\nin it after looking at him.\n\n## Threads\n\n- Is the last line in the ledger, the one that is not the king's, Corve's?",
+      "body": "## Who\n\nCorve got to [[the-iron-hall]] first, years before [[rauk]] dived it, and he sat down in a\nchair beside the drowned king and the ledger open on its stand, to rest. He is still resting.\nHis mail has rusted into one piece with him in it. The dark and the salt have taken most of\nwhat he knew: the name of his village, the faces of his children. They have not taken the\nreason he came down. He is sitting beside it, and [[the-standing]] have let him, because he\nhas never touched it.\n\nEvery page of the ledger in the hall has his name on it, because he has not moved. That is\nwhat the ledger counts.\n\n## Voice\n\nCorve says how long. It is the one thing he still knows.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Iron Hall the **Sitter in the Iron Hall**.\nNobody has taken the title from Corve, because nobody who reached the chair has wanted to sit\nin it after looking at him.\n\n## Threads\n\n- Is the last line in the ledger, the one that is not the king's, Corve's?",
       "file": "characters/corve.md"
     },
     "drusk": {
@@ -155,15 +154,18 @@
       "type": "character",
       "name": "Gorvek",
       "aliases": [
-        "Gorvek of Bonereach"
+        "Gorvek of Bonereach",
+        "Gorvek the Reaver"
       ],
       "status": "canon",
       "tags": [
         "barbarian",
         "warrior",
+        "thief",
+        "mercenary",
         "hero"
       ],
-      "summary": "A barbarian of Bonereach who walked out of the Ashfall with iron in his hand and wants of a stream only that it obeys.",
+      "summary": "A barbarian of Bonereach who walked out of the Ashfall with iron in his hand and has lived by it since, as reaver, thief and sword for hire; he takes what he wants and wants a great deal.",
       "epithet": "of Bonereach",
       "relations": [
         {
@@ -174,11 +176,6 @@
         {
           "to": "the-ashfall",
           "kind": "survived",
-          "declared": true
-        },
-        {
-          "to": "streamlord",
-          "kind": "wields",
           "declared": true
         },
         {
@@ -207,7 +204,7 @@
           "declared": true
         }
       ],
-      "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the grey\ncame down; he was a man when it lifted, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is broad, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHis hands are scarred by fire, and he does not say which fire. He rides a grey mare he has\nnot named, because naming is river-priest work.\n\nHe does not read. He does not need to. He has a gift for knowing when a thing is lying to\nhim, and machines lie less than men, which is why he tolerates them.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the river-priests\nof [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries [[streamlord]] and does not know what it is, only what it does.\n- He has killed Greycloaks and will again. The [[greycloaks]] have a price on him that they\n  raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times.\n- He walked out of the grey beside [[vurn]], who tells the sagas Gorvek will not, and reads\n  him the ledger [[linelord]] that he says he does not need.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- Who taught him that a stream can be told to stop?",
+      "body": "## Who\n\nGorvek is what [[bonereach]] makes of the ones it does not kill. He was a boy when the ash\ncame down; he was a man when it cleared, and nobody in the village he walked back into asked\nhim what he had eaten in between. He is huge, scarred along the left forearm where a\nGreycloak's hook took a strip of him, and quiet in the way of people who have decided that\nmost words are a kind of cowardice.\n\nHis hands are scarred by fire. The Reach knows which fire: the ash came down hot the first\nwinter, and he dug his mother out of it with his hands, too late.\n\n## What he wants\n\nGold, wine, a warm bed and someone in it, a good horse, a fight he can win, and the\n[[greycloaks]] dead. In the dark years the order tithed the grain out of the Reach and let\nthe villages starve, and the captain who took his village's tithe wore a hook. He has been\ntaking his tithe back ever since, one Greycloak at a time.\n\nHe has been a reaver on the coast road, a thief in [[hookford]], a sword for hire to anyone\nwho paid before the fight, and once, for a winter, a captain of the hire himself. He left\nthat with the payroll. Some say he will be a king. He says a crown is a thing you take\nbecause it is there.\n\n## Voice\n\nGorvek speaks in creeds: short, physical, in the present tense. He answers questions with\nwhat he wants, not with what he thinks. He never explains a joke and rarely makes one on\npurpose. When he swears, he swears by the Ashfall, never by a god; he has met the\nriver-priests of [[thurn]] and was not impressed.\n\nHe is the hero of the stories, not their narrator. That is [[sarn]]'s work, and Gorvek knows\nit and dislikes it.\n\n## In the world\n\n- He carries a long northern sword he took off a Greycloak captain, and has not named it,\n  because naming is river-priest work.\n- The [[greycloaks]] have a price on him that they raise every winter and never pay.\n- He has met Sarn three times and seen a face none of the times. Sarn owes him for the\n  second time, and knows it.\n- He walked out of the grey beside [[vurn]], who tells the sagas Gorvek will not, and reads\n  him the ledger [[linelord]] that he says he does not need.\n- When the sea went out from [[kell]] he was at [[wrackhead]] before the Greycloaks had\n  doubled the fort, and he went down first, alone, for the crown. He came up with something\n  in a sack and has not shown anyone what.\n\n## Threads\n\n- What did he eat in the Ashfall?\n- What is in the sack?",
       "file": "characters/gorvek.md"
     },
     "grue": {
@@ -355,7 +352,7 @@
         "witch",
         "ashborn"
       ],
-      "summary": "The sorcerer who stayed in the grey when it lifted and sells what she found there from the rim of Greyhollow; every price is a thing you did not know you had.",
+      "summary": "The sorcerer who stayed in the smoke of Greyhollow when the sky cleared and sells what she found there from its rim; every price is a thing you did not know you had.",
       "epithet": "the Ashwife",
       "relations": [
         {
@@ -369,7 +366,7 @@
           "declared": true
         }
       ],
-      "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the mist, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the grey: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]].\n\n## Threads\n\n- What did Mardra find in the grey that made her stay?\n- Does she know where a ruby is?",
+      "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the smoke, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]], and says the\n  fire under the Hollow and the warm iron under the hall are one fire.\n\n## Threads\n\n- What did Mardra find in the smoke that made her stay?\n- Does she know where a ruby is?",
       "file": "characters/mardra.md"
     },
     "rauk": {
@@ -461,7 +458,7 @@
         "narrator",
         "faceless"
       ],
-      "summary": "A faceless thief-demon every soul in Gallowmark can name and none has seen; stole the rubies of the Iron Crown and now narrates the grimoire with a smile nobody can find.",
+      "summary": "A faceless thief-demon every soul in Gallowmark can name and none has seen; stole the rubies of the Iron Crown and narrates everything since with a smile nobody can find.",
       "epithet": "the Faceless",
       "relations": [
         {
@@ -482,11 +479,6 @@
         {
           "to": "gallowmark",
           "kind": "haunts",
-          "declared": true
-        },
-        {
-          "to": "streamlord",
-          "kind": "narrates",
           "declared": true
         },
         {
@@ -535,7 +527,7 @@
           "declared": true
         }
       ],
-      "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading, including the one\nthat teaches the use of [[streamlord]].\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
+      "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading. Outside the world,\nSarn also narrates the grimoire of the software called [[streamlord]], which is no concern of\nanyone in the Mark.\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
     },
     "sethra": {
@@ -653,7 +645,7 @@
           "declared": false
         }
       ],
-      "body": "## Who\n\nVell was born under the bridge at [[hookford]] and has not worn a shoe since. He is young\nfor a river-priest, wet to the knee like the rest, and unwelcome at every table in town\nexcept the ones with a death in the family. He walks the two rivers from the ford to the\ncoast and back each season, and he keeps the names.\n\n## The naming\n\nWhen the water first went out from Old [[kell]], the coast folk sent to the [[river-priests]]\nfor a name. Vell had already given it. He had stood on the bridge at Hookford a month before\nand said the word *Ebb* to the river, and the river had gone down a finger under his feet.\nHe says this is not prophecy. He says a name is a grip, and he took hold of something before\nit had finished happening.\n\n## Voice\n\nNames, never reasons. Ask Vell why the sea is going out and he will say [[vorr]]. Ask him\nwhat to do and he will say [[thurn]]. Ask him what [[sarn]] wants and he will look at you a\nlong time and say your own name.\n\n## In the world\n\n- He named [[the-ebb]], and the river-priests are not sure he had the right.\n- He has met [[gorvek]] and named the thing Gorvek carries to his face. Gorvek did not\n  thank him.\n- He named the child at [[wrackhead]] [[brim]], and would not say why.\n\n## Threads\n\n- What name did Vell give the ninth gallows at [[hangmoot]], and why did the Reeve pay him\n  for it?",
+      "body": "## Who\n\nVell was born under the bridge at [[hookford]] and has not worn a shoe since. He is young\nfor a river-priest, wet to the knee like the rest, and unwelcome at every table in town\nexcept the ones with a death in the family. He walks the two rivers from the ford to the\ncoast and back each season, and he keeps the names.\n\n## The naming\n\nWhen the water first went out from Old [[kell]], the coast folk sent to the [[river-priests]]\nfor a name. Vell had already given it. He had stood on the bridge at Hookford a month before\nand said the word *Ebb* to the river, and the river had gone down a finger under his feet.\nHe says this is not prophecy. He says a name is a grip, and he took hold of something before\nit had finished happening.\n\n## Voice\n\nNames, never reasons. Ask Vell why the sea is going out and he will say [[vorr]]. Ask him\nwhat to do and he will say [[thurn]]. Ask him what [[sarn]] wants and he will look at you a\nlong time and say your own name.\n\n## In the world\n\n- He named [[the-ebb]], and the river-priests are not sure he had the right.\n- He has met [[gorvek]] and named him to his face, with a name Gorvek has not repeated. Gorvek did not\n  thank him.\n- He named the child at [[wrackhead]] [[brim]], and would not say why.\n\n## Threads\n\n- What name did Vell give the ninth gallows at [[hangmoot]], and why did the Reeve pay him\n  for it?",
       "file": "characters/vell.md"
     },
     "vurn": {
@@ -763,8 +755,44 @@
           "declared": false
         }
       ],
-      "body": "## The reach\n\nBonereach is the part of [[gallowmark]] nobody wanted and somebody kept. Scree slopes, birch\nso pale it looks skinned, and villages built into the lee of rocks because the wind comes\noff the Wallmountains with an opinion. The people of the Reach are the people of the Mark\nboiled down: fewer words, harder hands, a longer memory.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] fell here first and lifted here last. The Reach lost half its villages\nand does not say which half. Those who walked out of the grey, [[gorvek]] among them, are\ncalled the Ashborn behind their backs and never to their faces.\n\n## Custom\n\nThe elders of the Reach do not ask a returning warrior where he has been. They ask what he\nwants. The answer is the man.",
+      "body": "## The reach\n\nBonereach is the part of [[gallowmark]] nobody wanted and somebody kept. Scree slopes, birch\nso pale it looks skinned, and villages built into the lee of rocks because the wind comes\noff the Wallmountains with an opinion. The people of the Reach are the people of the Mark\nboiled down: fewer words, harder hands, a longer memory.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] fell here first, hot enough to burn thatch, and cleared here last.\nThe Reach lost half its villages and does not say which half. Those who walked out of the\ngrey, [[gorvek]] among them, are called the Ashborn behind their backs and never to their faces.\n\n## Custom\n\nThe elders of the Reach do not ask a returning warrior where he has been. They ask what he\nwants. The answer is the man.",
       "file": "places/bonereach.md"
+    },
+    "brandfell": {
+      "id": "brandfell",
+      "type": "place",
+      "name": "Brandfell",
+      "aliases": [
+        "the Burnt Fell",
+        "the Split Mountain"
+      ],
+      "status": "canon",
+      "tags": [
+        "mountain",
+        "north",
+        "fire",
+        "ashfall"
+      ],
+      "summary": "The mountain of the Wallmountains north of the Wallgate that split open and burned, and whose ash came down over the north of the Mark for a generation; the Reach does not say its name after dark.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "caused",
+          "declared": true
+        },
+        {
+          "to": "the-heave",
+          "kind": "featured-in",
+          "declared": false
+        }
+      ],
+      "body": "## The mountain\n\nBrandfell stands in the Wallmountains a day north of the [[wallgate]], and before the\nAshfall it was only the tallest of them. Then it split from the crown to the knees, and the\nfire inside came out, and the sky over [[bonereach]] went black and stayed that way for a\ngeneration. That was [[the-ashfall]].\n\n## Now\n\nIt still smokes. The snow does not lie on its south face. The Reach sends nobody up it and\nasks nobody who has come down from it where they have been.\n\n## Threads\n\n- What is north of Brandfell, that came down through the Wallgate after the ash cleared?",
+      "file": "places/brandfell.md"
     },
     "bricked-rooms": {
       "id": "bricked-rooms",
@@ -780,7 +808,7 @@
         "kell",
         "descent"
       ],
-      "summary": "Rooms in the Lowstreets that their people walled up from the inside when the grey came, with what they meant to keep, and sometimes themselves.",
+      "summary": "Rooms in the Lowstreets that their people walled up from the inside the night the crown went empty, with what they meant to keep, and sometimes themselves.",
       "relations": [
         {
           "to": "lowstreets",
@@ -788,7 +816,7 @@
           "declared": true
         }
       ],
-      "body": "## The rooms\n\nWhen the grey came down the coast the Lowstreets did what poor streets do: they\nhid what they had. Families bricked up a back room with the silver in it and\nlived in the front. Some bricked themselves in with it. The water came, and the\npacking filled every crack, and the rooms are still shut from the inside.\n\n## Threads\n\n- Did any of them come out, and where did they go?",
+      "body": "## The rooms\n\nWhen the crown went empty and the knives came up the hill, the Lowstreets did\nwhat streets do: they hid what they had. Families bricked up a back room with the silver in it and\nlived in the front. Some bricked themselves in with it. The water came, and the\npacking filled every crack, and the rooms are still shut from the inside.\n\n## Threads\n\n- Did any of them come out, and where did they go?",
       "file": "places/bricked-rooms.md"
     },
     "brinevaults": {
@@ -807,7 +835,7 @@
         "salt",
         "descent"
       ],
-      "summary": "The salt-cut cellars and counting-rooms under the iron hall, where Kell's clerks copied the ledger, and kept on copying it, day by day, all through the grey.",
+      "summary": "The salt-cut cellars and counting-rooms under the iron hall, where Kell's clerks copied the ledger, and shut themselves in with the coin when the water came, and counted the days.",
       "relations": [
         {
           "to": "sethra",
@@ -835,7 +863,7 @@
           "declared": false
         }
       ],
-      "body": "## The vaults\n\nKell kept its salt, its coin and its records under the hall. In the long counting-rooms the\nclerks copied the ledger [[linelord]] by lamplight. The copies are still on the shelves. The\nlast of them count days, not lines: a stroke for every day of [[the-ashfall]], in a hand that\ngets worse, until it stops.\n\n## The ropes\n\nRopes hang down the cistern shafts, drawn taut toward the hall, and [[the-drawn]] move along\nthem. In the deepest cistern a fall of water stands in the air, still, as if somebody had\ntold it to stop and meant it.\n\n## Threads\n\n- Who counted the days, down here, and how did they know when the grey had lifted?",
+      "body": "## The vaults\n\nKell kept its salt, its coin and its records under the hall. In the long counting-rooms the\nclerks copied the ledger [[linelord]] by lamplight. The copies are still on the shelves. The\nlast of them count days, not lines. When the sea came in the clerks barred the vault doors\nwith the coin inside and themselves with it, and the doors held, and the air held for a while.\nA stroke for every day, in a hand that gets worse, until it stops.\n\n## The ropes\n\nRopes hang down the cistern shafts, drawn taut toward the hall, and [[the-drawn]] move along\nthem. In the deepest cistern the water has dripped for forty years and left a column of salt as\nthick as a man, and the clerks' coin is under it.\n\n## Threads\n\n- Who counted the last days, down here, and who were they waiting for?",
       "file": "places/brinevaults.md"
     },
     "gallowmark": {
@@ -850,7 +878,7 @@
         "land",
         "region"
       ],
-      "summary": "The land itself; a march of gallows, grey rivers and stubborn people between the mountains and the drowned coast, where the Ashfall fell and never quite lifted.",
+      "summary": "The land itself; a march of gallows, grey rivers and stubborn people between the mountains and the drowned coast, where the Ashfall fell and the ground has not been still since.",
       "relations": [
         {
           "to": "sarn",
@@ -859,6 +887,11 @@
         },
         {
           "to": "bonereach",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "brandfell",
           "kind": "contains",
           "declared": false
         },
@@ -908,7 +941,7 @@
           "declared": false
         }
       ],
-      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the Ashfall never lifted.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## Since the Ashfall\n\nThe [[the-ashfall]] came down over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the grey lifted the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
+      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[brandfell]] beyond it, the mountain that split and burned.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the ash never cooled.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] came down out of [[brandfell]] over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the ash cleared the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
       "file": "places/gallowmark.md"
     },
     "greyhollow": {
@@ -922,11 +955,12 @@
       "status": "canon",
       "tags": [
         "valley",
-        "mist",
+        "ash",
+        "fire",
         "east",
         "ashfall"
       ],
-      "summary": "A hollow in the eastern hills where the Ashfall never lifted; the grey stands in it like milk in a bowl, and what walks out is never quite what walked in.",
+      "summary": "A hollow in the eastern hills where the ash lies deep and has never cooled; smoke stands in it like milk in a bowl, and what walks out is never quite what walked in.",
       "relations": [
         {
           "to": "mardra",
@@ -944,7 +978,7 @@
           "declared": true
         }
       ],
-      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the grey stayed. From the rim you\ncan see it: [[the-ashfall]], a generation late, lying in the hollow like milk in a bowl and\nnot moving with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the grey. Mardra says it is the first, and that the\nrest of the Ashfall was only spillage.\n\n## Threads\n\n- Does the grey in the Hollow rise when the sea goes out?",
+      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the ash of [[the-ashfall]] lay\nthree men deep and never cooled. The ground under it is hot. Smoke comes up through it and\nstands in the hollow like milk in a bowl, and does not move with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the Ashfall. Mardra says it is the nearest the fire\nunder the Mark comes to the top, and that the Hollow is not cooling. It is warming.\n\n## Threads\n\n- Why is the Hollow warmer every winter since the sea began to go out?",
       "file": "places/greyhollow.md"
     },
     "hangmoot": {
@@ -1173,7 +1207,7 @@
           "declared": false
         }
       ],
-      "body": "## The streets\n\nBelow [[quaysteps]] the city is still a city, and every door in it is barred from the\ninside. The coast says Kell went home that night and waited for the crown to hold. The\nscratches on the doors are on the outside, low, and they are not from water.\n\n## The houses\n\nSome of the people inside lived. The sea came, and then the grey came after it, up through\nthe water, and the people in the barred houses stayed shut in with it for a generation. When\nit lifted they were still there. Nobody has asked them what they ate.\n\n## Threads\n\n- What came up the streets, that a city would bar its doors against the water to keep out?",
+      "body": "## The streets\n\nBelow [[quaysteps]] the city is still a city, and every door in it is barred from the\ninside. The coast says Kell went home that night and waited for the crown to hold. The\nscratches on the doors are on the outside, low, and they are not from water.\n\nWhen the crown went empty, Kell came apart before the water came in. The streets that\nhad nothing went up the hill to the streets that had something, with knives. Every house\nthat had a bar used it.\n\n## The houses\n\nThe people inside held the doors against their neighbours, and the sea came in through the\nwindows instead, and they drowned with their shoulders to the wood. Some of them did not stay\ndrowned. Nobody has asked them what they ate.\n\n## Threads\n\n- Who led the streets up the hill that night, and did they get what they came for?",
       "file": "places/lowstreets.md"
     },
     "quaysteps": {
@@ -1219,7 +1253,7 @@
           "declared": false
         }
       ],
-      "body": "## The steps\n\n[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water\nbelow [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up\nwith iron and bollard-rings, and with grey on their boots that does not wash off.\n\n## The silt\n\nThe silt on the steps is not sand. It is ash, packed by forty years of water. Lamps burn\ngrey down here. In it lie bones in cloaks the colour of the silt, the order's first men, from\nthe years when the [[greycloaks]] guarded these quays in the grey of [[the-ashfall]]. Some\nof them are still guarding.\n\n## Threads\n\n- Why was there ash under the sea, when the grey fell in the north?",
+      "body": "## The steps\n\n[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water\nbelow [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up\nwith iron and bollard-rings, and with grey on their boots that does not wash off, because it is ash.\n\n## The silt\n\nThe silt on the steps is not sand. It is ash, thirty years of it, that the grey rivers carried\ndown out of the north and laid on the sea floor. Lamps burn grey down here, in the dust. In it lie bones in cloaks the colour of the silt, the order's first men, from\nthe years when the [[greycloaks]] guarded these quays from salvagers, and kept guarding them\nwhen the ash came down the rivers and nobody came to relieve them. Some\nof them are still guarding.\n\n## Threads\n\n- Why are the steps warm, under the silt, where the sea has only just let go of them?",
       "file": "places/quaysteps.md"
     },
     "strongrooms": {
@@ -1262,7 +1296,7 @@
         "king",
         "descent"
       ],
-      "summary": "The hall of the last king of Kell under its roof of iron plates, where the grey stands like milk in a bowl, the ledger lies open, and a barbarian stands in the drain with a stream held still.",
+      "summary": "The hall of the last king of Kell under its roof of iron plates, where the king still sits in the empty crown, his guard still stands in its ranks, the ledger lies open, and the floor is warm.",
       "relations": [
         {
           "to": "corve",
@@ -1295,7 +1329,7 @@
           "declared": false
         }
       ],
-      "body": "## The hall\n\nThe iron roof is the only part of [[kell]] the coast can see, and since [[the-ebb]] it stands\nclear of the salt a little longer every low water. Under it the king sits with the\n[[iron-crown-of-kell]] on his head. The iron is warm.\n\n## The grey\n\nThe hall is full of grey, standing still like the grey in [[greyhollow]], and it rises when\nthe sea goes out. In the floor is the drain where the one river ends, and the sea is going\nout through it.\n\n## The ledger\n\n[[linelord]] lies open on its stand at the king's right hand. The last line in it is not the\nking's. It reads: *held the drain, days still counting.*\n\n[[gorvek]] stands in the drain with [[streamlord]] in his hand, holding the stream still. He\nwent down before anyone. He does not say for how long.\n\n## Threads\n\n- How long can a stream be told to stop?\n- What happens to the grey if he lets go?",
+      "body": "## The hall\n\nThe iron roof is the only part of [[kell]] the coast can see, and since [[the-ebb]] it stands\nclear of the salt a little longer every low water. Under it the king sits with the\n[[iron-crown-of-kell]] on his head and three empty sockets in it. The iron is warm.\n\n## The guard\n\nThe king's household guard drowned at their posts in full iron, and [[the-standing]] are\nwhat is left of them: two ranks down the length of the hall, salt-white, facing the door.\nThey do not move while the king sits. Reach for what is his and they do.\n\n## The floor\n\nThe flagstones are warm under the silt, warmer the nearer the throne. In the middle of the\nfloor is the grate of the great cistern, and the water that goes down it comes back up as\nsteam on a cold day. [[the-heave]] is under the hall, and closest here.\n\n## The ledger\n\n[[linelord]] lies open on its stand at the king's right hand. The last line in it is not the\nking's. [[corve]] sits beside it and has not moved in years. Behind the throne, the\n[[kings-way]] goes up.\n\n## Threads\n\n- Is one of the three rubies still in this room, as Sarn has never quite denied?\n- What did [[gorvek]] take out of here in a sack?",
       "file": "places/the-iron-hall.md"
     },
     "wallgate": {
@@ -1331,7 +1365,7 @@
           "declared": false
         }
       ],
-      "body": "## The pass\n\nThe Wallmountains have one gap, and the Mark calls it the Wallgate because nobody in the\nMark wastes a second word. It is a throat of black rock a day's walk long, with the first of\nthe grey rivers coming down through it cold enough to stop a heart. North of it is whatever\nthe Ashfall came from. South of it is [[bonereach]].\n\n## The toll-house\n\nThe [[greycloaks]] hold the Wallgate the way they hold everything: one house, one captain,\none open door. [[tolm]] sits in it. Nobody has ever taken the Wallgate by force, because\nnobody has ever needed to. It is a gate that cannot be shut, and the order likes those.\n\n## What comes through\n\nSince the grey lifted, things come down out of the north through the Wallgate that did not\nbefore. The toll-house tithes them like anyone else.\n\n## Threads\n\n- What is north of the Wallgate?\n- Why does the first river run warm for one night each winter?",
+      "body": "## The pass\n\nThe Wallmountains have one gap, and the Mark calls it the Wallgate because nobody in the\nMark wastes a second word. It is a throat of black rock a day's walk long, with the first of\nthe grey rivers coming down through it cold enough to stop a heart. North of it is [[brandfell]], still smoking, and whatever is past that. South of it is [[bonereach]].\n\n## The toll-house\n\nThe [[greycloaks]] hold the Wallgate the way they hold everything: one house, one captain,\none open door. [[tolm]] sits in it. Nobody has ever taken the Wallgate by force, because\nnobody has ever needed to. It is a gate that cannot be shut, and the order likes those.\n\n## What comes through\n\nSince the grey lifted, things come down out of the north through the Wallgate that did not\nbefore. The toll-house tithes them like anyone else.\n\n## Threads\n\n- What is north of the Wallgate?\n- Why does the first river run warm for one night each winter?",
       "file": "places/wallgate.md"
     },
     "wrackhead": {
@@ -1499,14 +1533,9 @@
           "to": "linelord",
           "kind": "names",
           "declared": false
-        },
-        {
-          "to": "streamlord",
-          "kind": "names",
-          "declared": false
         }
       ],
-      "body": "## Who they are\n\nBarefoot, wet to the knee, and unwelcome at most tables, the river-priests walk the banks of\nthe grey rivers of [[gallowmark]] and keep the names of things. They hold that every stream\nin the Mark is the same river, [[thurn]], pretending to be many, and that to name a thing\ntruly is to have a grip on it.\n\n## The naming\n\nIt was the river-priests who named [[sarn]] the Lord of Streams, and they meant it as a\nwarning: here is the thing that goes where water goes. They also named the artifact that\n[[gorvek]] carries. They called it [[streamlord]], and then they stopped talking about it.\n\n## Custom\n\nA river-priest will answer any question with a name, and never with a reason.",
+      "body": "## Who they are\n\nBarefoot, wet to the knee, and unwelcome at most tables, the river-priests walk the banks of\nthe grey rivers of [[gallowmark]] and keep the names of things. They hold that every stream\nin the Mark is the same river, [[thurn]], pretending to be many, and that to name a thing\ntruly is to have a grip on it.\n\n## The naming\n\nIt was the river-priests who named [[sarn]] the Lord of Streams, and they meant it as a\nwarning: here is the thing that goes where water goes and takes what water takes. They have\nnamed every Greycloak captain and every gallows on [[hangmoot]], and once, to his face,\n[[gorvek]].\n\n## Custom\n\nA river-priest will answer any question with a name, and never with a reason.",
       "file": "factions/river-priests.md"
     },
     "hask": {
@@ -1598,7 +1627,7 @@
           "declared": false
         }
       ],
-      "body": "## The god\n\nThurn does not have a face, a temple, or a promise. Thurn has water, and water goes where it\ngoes. The people of [[gallowmark]] do not pray to Thurn; they keep out of the way. The\n[[river-priests]] say this is the correct form of worship.\n\n## Streams\n\nEverything that flows is Thurn's, in the priests' telling: rivers, blood, rumour, and the\nthing that moves between a server and a browser when [[streamlord]] is used. A stream that\nobeys a man is a piece of the god held still, and the priests are of two minds about whether\nthat is a blasphemy or the whole point.\n\n## Threads\n\n- Does Thurn mind that [[sarn]] has been called Lord of Streams?",
+      "body": "## The god\n\nThurn does not have a face, a temple, or a promise. Thurn has water, and water goes where it\ngoes. The people of [[gallowmark]] do not pray to Thurn; they keep out of the way. The\n[[river-priests]] say this is the correct form of worship.\n\n## The rivers\n\nThree grey rivers come down out of the Wallmountains and meet the sea at [[kell]], and the\npriests say they are one river pretending to be three. Thurn is in them the way cold is in\nthem: no voice, no wants, only weight and direction. In the dark years they ran grey with ash\nfrom the north, and the priests say Thurn carried the north's dead to the sea and did not\ncomplain.\n\n## Threads\n\n- Does Thurn mind that [[sarn]] has been called Lord of Streams?",
       "file": "gods/thurn.md"
     },
     "vorr": {
@@ -1631,6 +1660,16 @@
         },
         {
           "to": "the-barred",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "the-standing",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "the-unasked",
           "kind": "served-by",
           "declared": false
         }
@@ -1692,7 +1731,7 @@
         "ledger",
         "chronicle"
       ],
-      "summary": "The ledger older than Kell that remembers every line of every wall in the Mark, who laid it, and how long it has stood; named by the river-priests, read aloud by Vurn, listened to by Gorvek.",
+      "summary": "The king's ledger of Kell, which records every line of every wall in the Mark, who laid it, and who holds the ground behind it; named by the river-priests, read aloud by Vurn, listened to by Gorvek.",
       "relations": [
         {
           "to": "corve",
@@ -1740,7 +1779,7 @@
           "declared": false
         }
       ],
-      "body": "## What it is\n\nIn the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is\nlaid one line of stone at a time, and the ledger remembers who laid each line and how long\nit has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and\nthe last line in it is not the king's. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## The holds\n\nUnder [[wrackhead]] the ledger names a holder for each of the four depths of [[kell]], by\nwho holds the most ground there and for how long, and calls them by the old titles: the\n**Holder of the Quaysteps**, the **Lord of the Lowstreets**, the **Keeper of the\nBrinevaults** and the **Sitter in the Iron Hall**. Above them is the **Linelord**, which goes\nto whoever holds the most of the Mark in all; [[jarn]] holds it now. A title is won by\nholding more and lost the same way. Old holders are not good ones. They are only the ones\nnobody has moved yet.\n\n## Threads\n\n- Is the ledger in the hall the one the king read, or one of the copies the clerks made in\n  the [[brinevaults]]?",
+      "body": "## What it is\n\nIn the world, LineLord is a ledger: a big book bound in iron. Not of coin; of lines. Every\nwall in [[gallowmark]] is laid one line of stone at a time, and the king's clerks wrote down\nwho laid each line and how long it has stood, and nothing else. It does not say whether the wall was any good. It says who\nheld the ground, and for how long, and that is the whole of what it says. The last king of\n[[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking\nfor a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and\nthe last line in it is not the king's. The [[greycloaks]]' tithe-books are a poor copy of it. Brother\n[[ruun]] named it, and then stopped talking about it, as the [[river-priests]] do.\n\n[[vurn]] reads it aloud. [[gorvek]] says he does not need it, and listens to every line.\n\n## The rule\n\nThe ledger counts lines and days. It is not a measure of worth, and the Reach has never\nmistaken it for one: a wall nobody dares touch stands as long in the ledger as a wall that\nearned its place.\n\nOutside the world, LineLord is a command-line tool that reads `git blame` and reports who\nholds which line of a codebase and for how long. This entry is where the world and the tool\nmeet. Its farewells are the sagas of the Reach in Vurn's cadence; its names are\nGallowmark's; its rule is the one above, and it stands on every screen.\n\n## The holds\n\nUnder [[wrackhead]] the ledger names a holder for each of the four depths of [[kell]], by\nwho holds the most ground there and for how long, and calls them by the old titles: the\n**Holder of the Quaysteps**, the **Lord of the Lowstreets**, the **Keeper of the\nBrinevaults** and the **Sitter in the Iron Hall**. Above them is the **Linelord**, which goes\nto whoever holds the most of the Mark in all; [[jarn]] holds it now. A title is won by\nholding more and lost the same way. Old holders are not good ones. They are only the ones\nnobody has moved yet.\n\n## Threads\n\n- Is the ledger in the hall the one the king read, or one of the copies the clerks made in\n  the [[brinevaults]]?",
       "file": "artifacts/linelord.md"
     },
     "streamlord": {
@@ -1748,31 +1787,15 @@
       "type": "artifact",
       "name": "Streamlord",
       "aliases": [
-        "the Artifact"
+        "the Grimoire"
       ],
       "status": "canon",
       "tags": [
-        "artifact",
-        "stream",
+        "software",
         "grimoire"
       ],
-      "summary": "The artifact that bends a stream to a will: it flows when told to flow, stops when told to stop, and carries only what its wielder means it to; named by the river-priests, narrated by Sarn, carried by Gorvek.",
+      "summary": "The name of a software development kit and of the grimoire that documents it; not a thing anyone in the Mark carries, only a book whose epigraphs borrow the Mark's voices.",
       "relations": [
-        {
-          "to": "gorvek",
-          "kind": "wielded-by",
-          "declared": false
-        },
-        {
-          "to": "sarn",
-          "kind": "narrated-by",
-          "declared": false
-        },
-        {
-          "to": "river-priests",
-          "kind": "named-by",
-          "declared": true
-        },
         {
           "to": "five-rites",
           "kind": "featured-in",
@@ -1799,7 +1822,7 @@
           "declared": false
         }
       ],
-      "body": "## What it is\n\nIn the world, Streamlord is a thing that makes a stream obey. Not by damming it. By telling\nit, and being believed. [[gorvek]] carries it and does not know what it is, only what it does;\n[[sarn]] narrates the grimoire that teaches its use and takes one belief from every reader in\npayment.\n\nOutside the world, Streamlord is a software development kit, and this entry is how the\nworld and the software meet. The grimoire's voice is Sarn's; the creed on its first page is\nGorvek's; the names in it are Gallowmark's.\n\n## The rule\n\nStreamlord carries exactly what the wielder means, and nothing else. The [[river-priests]]\nsay this is why [[thurn]] allows it: a stream held still is still a stream.",
+      "body": "## What it is\n\nStreamlord is not a thing in [[gallowmark]]. Nobody in the Mark carries it, wields it, or\nhas heard of it. It is a software development kit, and its documentation is written as a\ngrimoire, and that grimoire borrows the Mark's voices for its epigraphs: [[sarn]] narrates\nit, the creed on its first page is [[gorvek]]'s, and the names in it are Gallowmark's.\n\n## The rule\n\nWhat the grimoire says about streams is about the software. Nothing in the canon depends on\nit, and no character in the Mark can make a river obey.",
       "file": "artifacts/streamlord.md"
     },
     "firstcloaks": {
@@ -1956,7 +1979,7 @@
           "declared": true
         }
       ],
-      "body": "## What\n\nThe hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn\ntight. In the [[brinevaults]] you can see what is on the end of it: the hanged, each with a\nrope at the neck running off toward the hall, each moving along it whether it wants to or\nnot, the way water moves toward a drain.\n\nThey do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.",
+      "body": "## What\n\nThe hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn\ntight. In the [[brinevaults]] you can see what is on the end of it: the hanged, each with a\nrope at the neck running off toward the hall, each moving along it whether it wants to or\nnot, the way a debt moves toward the one it is owed.\n\nThey do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.",
       "file": "creatures/the-drawn.md"
     },
     "the-standing": {
@@ -1964,25 +1987,30 @@
       "type": "creature",
       "name": "The Standing",
       "aliases": [
-        "the Grey at Home",
-        "the Milk"
+        "the King's Iron, the Salt Guard"
       ],
       "status": "canon",
       "tags": [
         "creature",
-        "grey",
-        "ashfall",
+        "drowned",
+        "undead",
+        "guard",
         "descent"
       ],
-      "summary": "The grey in the iron hall, standing still like milk in a bowl and rising when the sea goes out; it does not hurt you, it takes things from you.",
+      "summary": "The household guard of the last king of Kell, drowned at their posts in full iron and still standing in their ranks in the hall; they do not move while the king sits, and they move when you touch what is his.",
       "relations": [
         {
           "to": "the-iron-hall",
           "kind": "haunts",
           "declared": true
+        },
+        {
+          "to": "vorr",
+          "kind": "serves",
+          "declared": true
         }
       ],
-      "body": "## What\n\nIn [[greyhollow]] the grey lies in a fold of the hills and does not move with the wind. In\n[[the-iron-hall]] it stands the same way, and it is the same grey. At the flood it lies low.\nAt low water it rises.\n\nIt does no harm a lamp could show. It takes: a name you had learned, the knowledge of what\na thing in your pack is, a winter of your life. [[mardra]] went into it a midwife. She says it\ndoes not take at random. It takes what you would have used.",
+      "body": "## What\n\nWhen the sea came in over [[kell]] the king did not leave his chair, and the men sworn to\nstand by it did not leave their posts. They are still there: two ranks down the length of\n[[the-iron-hall]], salt grown white over the iron, faces gone, spears grounded.\n\nThey do not stop you walking between them. They do not stop you looking. Lay a hand on the\ncrown, the coin under the throne, or anything else that was the king's, and every one of\nthem turns at once.\n\n## In the world\n\n- The divers of [[wrackhead]] say the coast's oldest oath was sworn by these men: *until the\n  king stands*. He has not stood.\n- [[gorvek]] went between them and came out with a sack. Nobody knows whether he touched the\n  crown, or what he touched instead.",
       "file": "creatures/the-standing.md"
     },
     "the-unasked": {
@@ -1996,12 +2024,12 @@
       "status": "canon",
       "tags": [
         "creature",
-        "people",
-        "grey",
+        "drowned",
+        "undead",
         "hunger",
         "descent"
       ],
-      "summary": "The people of Kell who lived through the grey in their barred houses under the sea; nobody asked them what they ate, and they can smell hunger on you.",
+      "summary": "The drowned of the Lowstreets who did not stay drowned, and ate the ones who did; nobody asked them what they ate, and they can smell hunger on you.",
       "relations": [
         {
           "to": "lowstreets",
@@ -2009,12 +2037,12 @@
           "declared": true
         },
         {
-          "to": "the-ashfall",
-          "kind": "survived",
+          "to": "vorr",
+          "kind": "serves",
           "declared": true
         }
       ],
-      "body": "## What\n\nThe elders of [[bonereach]] do not ask a returning warrior where he has been. Nobody asked\nthe people of the [[lowstreets]] either. They lived through [[the-ashfall]] in barred houses\nwith the sea above them and the grey inside, for a generation, and when it lifted they were\nstill alive. They are thin. They are quick. They come for the hungry first.\n\n## In the world\n\n- Anyone who means it too often in the grey becomes one of them. The pickers say they have\n  met people they knew.",
+      "body": "## What\n\nThe elders of [[bonereach]] do not ask a returning warrior where he has been. Nobody asked\nthe drowned of the [[lowstreets]] either. They went under with their doors barred, and some\nof them did not stay under. Forty years in the dark with nothing to eat but the others.\nThey are thin. They are quick. They come for the hungry first.\n\n## In the world\n\n- The pickers say they have met people they knew, who went down too often and too hungry.",
       "file": "creatures/the-unasked.md"
     },
     "wrack": {
@@ -2054,15 +2082,17 @@
       "name": "The Ashfall",
       "aliases": [
         "the Grey",
-        "the Falling"
+        "the Falling",
+        "the Long Dark"
       ],
       "status": "canon",
       "tags": [
         "catastrophe",
-        "mist",
+        "fire",
+        "ash",
         "era"
       ],
-      "summary": "The grey mist that came down over the north of Gallowmark and stayed a generation; the year it lifted is year zero of every calendar in the Mark.",
+      "summary": "The ash that came down over the north of Gallowmark when Brandfell split open, and darkened the sky for a generation; the year it cleared is year zero of every calendar in the Mark.",
       "year": 0,
       "relations": [
         {
@@ -2086,13 +2116,13 @@
           "declared": false
         },
         {
-          "to": "greyhollow",
-          "kind": "located-in",
+          "to": "brandfell",
+          "kind": "caused-by",
           "declared": false
         },
         {
-          "to": "the-unasked",
-          "kind": "survived-by",
+          "to": "greyhollow",
+          "kind": "located-in",
           "declared": false
         },
         {
@@ -2109,9 +2139,14 @@
           "to": "the-ebb",
           "kind": "precedes",
           "declared": false
+        },
+        {
+          "to": "the-heave",
+          "kind": "precedes",
+          "declared": false
         }
       ],
-      "body": "## What fell\n\nNobody agrees on what the Ashfall was: ash, mist, or something that wanted to be mistaken\nfor both. It came down over [[bonereach]] and the north of [[gallowmark]] and stayed for a\ngeneration, and inside it people did what people do when nobody can see them.\n\n## What came out\n\nWhen it lifted, the ones who walked out were called the Ashborn. [[gorvek]] is one. The\n[[greycloaks]] are, in a sense, another: the order was born guarding the drowned quays of\n[[kell]] in the grey, and it never took the cloak off.\n\n## The calendar\n\nThe Mark counts its years from the lifting. Everything before is *in the grey*, and nobody\nis precise about it.",
+      "body": "## What fell\n\nTen years after [[kell]] went under, [[brandfell]] split open in the Wallmountains, and the\nfire in it came out. The sky over the north of [[gallowmark]] went black. Then the ash came\ndown: hot at first, burning thatch and birch and the people who could not get under stone,\nthen cold and grey and endless, a finger deep, a hand deep, to the knee. It fell on\n[[bonereach]] first and hardest, and it stayed a generation. The sun was a coin behind it.\nNothing grew. Inside the dark people did what people do when nobody can see them.\n\nThe rivers carried it south. For thirty years the grey rivers ran grey in earnest, and laid\nthe ash down on the sea floor over drowned Kell, which is why the silt on the\n[[quaysteps]] is not sand.\n\n## What came out\n\nWhen the sky cleared, the ones who walked out of the north were called the Ashborn.\n[[gorvek]] is one. The [[greycloaks]] are, in a sense, another: the order was born guarding\nthe drowned quays of [[kell]], took the north in the dark years while nobody could see it\nhappen, and never took the cloak off.\n\n## The calendar\n\nThe Mark counts its years from the clearing. Everything before is *in the grey*, and nobody\nis precise about it.\n\n## Threads\n\n- Why did Brandfell split, ten years to the season after the stones were taken?",
       "file": "events/the-ashfall.md"
     },
     "the-drowning-of-kell": {
@@ -2191,6 +2226,11 @@
           "declared": false
         },
         {
+          "to": "the-heave",
+          "kind": "caused-by",
+          "declared": false
+        },
+        {
           "to": "the-walk-to-the-hall",
           "kind": "precedes",
           "declared": false
@@ -2201,7 +2241,7 @@
           "declared": false
         }
       ],
-      "body": "## What is happening\n\nIn the first winter after the grey lifted, the sea went out from Old [[kell]] on the low\ntide and did not come all the way back. Every month since, it has gone a little further. The\nquay-stones of the drowned city are showing below [[wrackhead]]. On a still day the iron\nroof of the hall stands clear of the water for an hour. Nobody has walked to it yet.\nEverybody is going to.\n\n## Three gods, one name\n\n[[vell]] named it the Ebb before the coast had noticed, and the [[river-priests]] say\n[[thurn]] is calling the rivers home to their beds. The coast folk say [[vorr]] is opening\nhis mouth to give something back. The hangmen of [[hangmoot]] say a rope that went slack\nforty-one years ago is being drawn tight from the other end, and that [[hask]] does not draw\na rope for nothing. All three are pointing at the same iron hall and the three empty sockets\nin it.\n\n## Who is moving\n\n- The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for\n  them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the\n  [[wallgate]] for the first time since the grey.\n- [[gorvek]] has been told by Vell what he carries and has turned toward the coast. He has\n  not said why.\n- [[mardra]] has begun selling things from the grey that she says came up out of Kell.\n- [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.\n- [[sarn]] narrates. Sarn always did. Sarn has started narrating this.\n\n## What it binds\n\nEvery gallows, every river, every fort and every debt in the Mark is drawn tight toward one\niron hall standing up out of the salt. The [[iron-crown-of-kell]] held the world together by\nbeing believed in. The sea is about to show everyone whether it is still there.\n\n## Threads\n\n- How far out does the sea go?\n- What is at the low-water mark when it stops?",
+      "body": "## What is happening\n\nIn the first winter after the grey lifted, the sea went out from Old [[kell]] on the low\ntide and did not come all the way back. Every month since, it has gone a little further. The\nquay-stones of the drowned city are showing below [[wrackhead]]. On a still day the iron\nroof of the hall stands clear of the water for an hour. Nobody has walked to it yet.\nEverybody is going to.\n\n## Three gods, one name\n\n[[vell]] named it the Ebb before the coast had noticed, and the [[river-priests]] say\n[[thurn]] is calling the rivers home to their beds. The coast folk say [[vorr]] is opening\nhis mouth to give something back. The hangmen of [[hangmoot]] say a rope that went slack\nforty-one years ago is being drawn tight from the other end, and that [[hask]] does not draw\na rope for nothing. All three are pointing at the same iron hall and the three empty sockets\nin it.\n\n## Who is moving\n\n- The [[greycloaks]] said for forty years they would raise Kell. The sea is doing it for\n  them. They have doubled the fort at Wrackhead and sent [[tolm]] south from the\n  [[wallgate]] for the first time since the grey.\n- [[gorvek]] was on the coast before anyone, and went down first, for the crown.\n- [[mardra]] has begun selling things she says came up out of Kell, and says the floor of\n  the hall is warm.\n- [[rauk]] has stopped diving, and [[brim]] walks to the waterline every morning.\n- [[sarn]] narrates. Sarn always did. Sarn has started narrating this.\n\n## What it binds\n\nEvery gallows, every river, every fort and every debt in the Mark is drawn tight toward one\niron hall standing up out of the salt. The [[iron-crown-of-kell]] held the world together by\nbeing believed in. The sea is about to show everyone whether it is still there.\n\n## Threads\n\n- How far out does the sea go?\n- What is at the low-water mark when it stops?\n- Why is the shingle at Wrackhead warm to bare feet, this winter, for the first time?",
       "file": "events/the-ebb.md"
     },
     "the-going-home": {
@@ -2211,7 +2251,7 @@
       "aliases": [
         "What the Ebb Is"
       ],
-      "status": "canon",
+      "status": "retired",
       "tags": [
         "secret",
         "grey",
@@ -2232,8 +2272,46 @@
           "declared": true
         }
       ],
-      "body": "## What is true\n\nThis entry is the truth behind the descent, for the people who write it. No character in\nthe Mark says it, and no line in the game states it. The player reads it in what they find.\n\nWhen [[sarn]] took the stones, the three rivers left their beds, the sea came in over\n[[kell]], and the place under the iron hall where the one river ends was opened. The grey\ncame up out of it, through the water, and climbed the rivers against the current to where\nthey rise beyond the [[wallgate]]. It came down over the north from there, and so the north\nhas always believed it came from the north. That was [[the-ashfall]].\n\nWhen it lifted it did not go away. It went home, down the rivers, into the drain under the\nhall, and it is drawing the sea after it. That is [[the-ebb]]. [[thurn]] calling the rivers\nhome, [[vorr]] opening his mouth, [[hask]]'s rope drawn tight: all three are right, and none\nof them is the reason. [[greyhollow]] is the part that never made it home, and it rises when\nthe sea goes out because it is the same body.\n\n[[vell]] told [[gorvek]] what he carries: the one thing that can tell a stream to stop. He\nwent down before anyone, and he is standing in the drain with [[streamlord]], holding it.\n\n## What the player learns, tier by tier\n\n1. [[quaysteps]]: ash in the silt; the order's first men, dead in the grey, still on duty.\n2. [[lowstreets]]: the doors were barred against the grey, not the water.\n3. [[brinevaults]]: the clerks counted the days of the grey; a fall of water stands still.\n4. [[the-iron-hall]]: the grey at home, and Gorvek in the drain, and his line in the ledger.\n\n## Threads\n\n- How long can he hold it?\n- When the sea is all the way out, does the grey come up again?",
+      "body": "## Retired\n\nThis was the truth behind the descent until the canon was repaired: the grey as something\nthat came up out of Kell and went home down a drain. The Ashfall is fire and ash from\n[[brandfell]], and the Ebb is [[the-heave]]. Kept so the old lines can be traced; do not\nwrite from it.\n\n## What was written\n\nThis entry is the truth behind the descent, for the people who write it. No character in\nthe Mark says it, and no line in the game states it. The player reads it in what they find.\n\nWhen [[sarn]] took the stones, the three rivers left their beds, the sea came in over\n[[kell]], and the place under the iron hall where the one river ends was opened. The grey\ncame up out of it, through the water, and climbed the rivers against the current to where\nthey rise beyond the [[wallgate]]. It came down over the north from there, and so the north\nhas always believed it came from the north. That was [[the-ashfall]].\n\nWhen it lifted it did not go away. It went home, down the rivers, into the drain under the\nhall, and it is drawing the sea after it. That is [[the-ebb]]. [[thurn]] calling the rivers\nhome, [[vorr]] opening his mouth, [[hask]]'s rope drawn tight: all three are right, and none\nof them is the reason. [[greyhollow]] is the part that never made it home, and it rises when\nthe sea goes out because it is the same body.\n\n[[vell]] told [[gorvek]] what he carries: the one thing that can tell a stream to stop. He\nwent down before anyone, and he is standing in the drain with [[streamlord]], holding it.\n\n## What the player learns, tier by tier\n\n1. [[quaysteps]]: ash in the silt; the order's first men, dead in the grey, still on duty.\n2. [[lowstreets]]: the doors were barred against the grey, not the water.\n3. [[brinevaults]]: the clerks counted the days of the grey; a fall of water stands still.\n4. [[the-iron-hall]]: the grey at home, and Gorvek in the drain, and his line in the ledger.\n\n## Threads\n\n- How long can he hold it?\n- When the sea is all the way out, does the grey come up again?",
       "file": "events/the-going-home.md"
+    },
+    "the-heave": {
+      "id": "the-heave",
+      "type": "event",
+      "name": "The Heave",
+      "aliases": [
+        "the Rising Ground",
+        "the Loaf"
+      ],
+      "status": "canon",
+      "tags": [
+        "secret",
+        "fire",
+        "ashfall",
+        "ebb",
+        "descent"
+      ],
+      "summary": "What the descent shows and nobody in the Mark says: the fire that broke Brandfell and made the Ashfall is still under the Mark, and it is lifting the land; the sea is not going out, the coast is coming up.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "the-ebb",
+          "kind": "caused",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "follows",
+          "declared": true
+        },
+        {
+          "to": "brandfell",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## What is true\n\nThis entry is the truth behind the descent, for the people who write it. No character in\nthe Mark says it plainly, and no line in the game states it. The player reads it in what\nthey find.\n\nTen years after [[sarn]] took the stones and [[kell]] went under, the mountain the Reach\ncalls [[brandfell]] split open north of the [[wallgate]], and ash came down over the north\nfor a generation. That was [[the-ashfall]]. It was fire, and fire does not go away when the\nsky clears. It went under.\n\nIt runs under the whole Mark now, from Brandfell to the coast, close under [[greyhollow]]\nwhere the ash never cooled, and closest of all under [[kell]]. It is lifting the ground the\nway a loaf lifts in the oven. The sea is not going out. The coast is coming up out of it.\nThat is [[the-ebb]]. [[thurn]] calling the rivers home, [[vorr]] opening his mouth, [[hask]]'s\nrope drawn tight: all three are given the credit, and none of them is the reason.\n\n## Why the iron is warm\n\n[[rauk]] touched the crown and said the iron was warm. The first river runs warm one night\neach winter at the Wallgate. The floor of [[the-iron-hall]] is warm under the salt. Every\none of them is the same fire, nearer the top than anyone has guessed.\n\n## Why everyone goes down\n\nNot for the truth. For what Kell had: the coin in the [[brinevaults]], the goods in the\n[[bonded-stores]], the silver in the [[bricked-rooms]], the empty [[iron-crown-of-kell]] on\na dead king's head, and the rumour, which Sarn has never denied, that one of the three rubies\nnever left the hall. The ledger names whoever holds the most of it. That is the whole\ndescent: a drowned city, uncovered, and everyone in the Mark with a rope and a knife.\n\n## What the player learns, tier by tier\n\n1. [[quaysteps]]: ash in the silt that the rivers carried down; the order's first men, dead\n   at their posts, still on duty.\n2. [[lowstreets]]: the doors were barred against the city, not the water.\n3. [[brinevaults]]: the clerks shut themselves in with the coin and counted the days.\n4. [[the-iron-hall]]: the king, his guard still standing, a warm floor, and the stair he\n   walled up behind him.\n\n## Threads\n\n- When the coast is all the way up, does the fire come up with it?\n- Did Sarn know about the mountain when Sarn took the stones?",
+      "file": "events/the-heave.md"
     },
     "the-walk-to-the-hall": {
       "id": "the-walk-to-the-hall",
@@ -2273,7 +2351,7 @@
           "declared": false
         }
       ],
-      "body": "## The road\n\nSince [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,\nwreckers from the coast, novices who left [[hookford]] without asking. They go down the\n[[quaysteps]] at low water, and a little deeper each time, because the sea does.\n\n## At the Head\n\n- [[barr]] sells them iron on the shingle and buys back what they bring up.\n- Brother [[ruun]] names what they bring up, in the wet sand, before the tide takes it.\n- [[mardra]] has come down from [[greyhollow]]. She says the grey is the same down there.\n- [[tolm]] sits in the door of the fort and takes a tenth, and apologises.\n- The salt-pile takes what it is given, and once, they say, gives you back.\n- [[rauk]] does not go down any more. She will tell you how, between breaths.\n\n## Threads\n\n- [[gorvek]] came through Wrackhead before the first of them and went down alone. Nobody has\n  seen him come up.",
+      "body": "## The road\n\nSince [[the-ebb]] the road to [[wrackhead]] has not been empty. Ashborn from the north,\nwreckers from the coast, novices who left [[hookford]] without asking. They go down the\n[[quaysteps]] at low water, and a little deeper each time, because the sea does.\n\n## At the Head\n\n- [[barr]] sells them iron on the shingle and buys back what they bring up.\n- Brother [[ruun]] names what they bring up, in the wet sand, before the tide takes it.\n- [[mardra]] has come down from [[greyhollow]]. She says the ground down there is warm the way\n  the Hollow is warm, and charges for saying why.\n- [[tolm]] sits in the door of the fort and takes a tenth, and apologises.\n- The salt-pile takes what it is given, and once, they say, gives you back.\n- [[rauk]] does not go down any more. She will tell you how, between breaths.\n\n## Threads\n\n- [[gorvek]] came through Wrackhead before the first of them, went down alone, and came up\n  with a sack. He has gone down twice since. What is he still looking for?",
       "file": "events/the-walk-to-the-hall.md"
     },
     "five-rites": {
@@ -2378,7 +2456,7 @@
           "declared": false
         }
       ],
-      "body": "*Know this, you who come late: the grey lifted, and the sea went out. The quays of Kell are\nshowing. The iron roof stands up out of the salt for one hour on a still day, and under it a\nking sits with an empty crown, and under him is the one who keeps.*\n\n*Three gods have been given the credit. The river says it is calling its water home. The\nsalt says it is opening its mouth. The rope says it is being pulled from the other end. They\nare all right, and none of them is the reason.*\n\n*I took three stones. I did not say where I put them.*\n\n*Every road in the Mark runs downhill to that hall now. The captain is coming from his door.\nThe barbarian is coming with the thing he cannot name. The diver has stopped diving and the\nchild has started walking. You are coming too. That is why you are reading.*\n\n*I will take one thing from you for the telling: the belief that the sea gives anything\nback. Sit. Read. The water is going out.*\n\n— Sarn the Faceless, Lord of Streams, who was there the first time\n\n## Use\n\nThe chronicle that opens [[the-ebb]]; the third epigraph of any book that tells it. The form\nis the Mark's own: *Know this, you who come late,* then what happened, in order, with the\nknife at the end. [[sarn]] names nobody in it. Everybody in it knows who they are.",
+      "body": "*Know this, you who come late: the ash cleared, and the sea went out. The quays of Kell are\nshowing. The iron roof stands up out of the salt for one hour on a still day, and under it a\nking sits with an empty crown, and under him the floor is warm.*\n\n*Three gods have been given the credit. The river says it is calling its water home. The\nsalt says it is opening its mouth. The rope says it is being pulled from the other end. They\nare all right, and none of them is the reason.*\n\n*I took three stones. I did not say where I put them.*\n\n*Every road in the Mark runs downhill to that hall now. The captain is coming from his door.\nThe barbarian is already down there, with a sack. The diver has stopped diving and the\nchild has started walking. You are coming too. That is why you are reading.*\n\n*I will take one thing from you for the telling: the belief that the sea gives anything\nback. Sit. Read. The water is going out.*\n\n— Sarn the Faceless, Lord of Streams, who was there the first time\n\n## Use\n\nThe chronicle that opens [[the-ebb]]; the third epigraph of any book that tells it. The form\nis the Mark's own: *Know this, you who come late,* then what happened, in order, with the\nknife at the end. [[sarn]] names nobody in it. Everybody in it knows who they are.",
       "file": "stories/know-this.md"
     },
     "sarns-whisper": {
@@ -3682,19 +3760,19 @@
     "flood-the-grey-sinks-under-the": {
       "id": "flood-the-grey-sinks-under-the",
       "type": "quote",
-      "name": "Flood. The grey sinks under the…",
+      "name": "Flood. The sea comes back over…",
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "Flood. The grey sinks under the water and waits. You have a while.",
+      "summary": "Flood. The sea comes back over the steps and waits. You have a while.",
       "speaker": "sarn",
       "pool": "tide-flood",
       "usedIn": [
         "descent"
       ],
-      "text": "Flood. The grey sinks under the water and waits. You have a while.",
+      "text": "Flood. The sea comes back over the steps and waits. You have a while.",
       "relations": [],
-      "body": "Flood. The grey sinks under the water and waits. You have a while.",
+      "body": "Flood. The sea comes back over the steps and waits. You have a while.",
       "file": "quotes/flood-the-grey-sinks-under-the.md"
     },
     "forging-the-blade-of-analysis": {
@@ -5118,15 +5196,15 @@
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "Take the book. Go up. I hold.",
+      "summary": "Take the book. Go up. I hold the stair.",
       "speaker": "gorvek",
       "pool": "drain",
       "usedIn": [
         "descent"
       ],
-      "text": "Take the book. Go up. I hold.",
+      "text": "Take the book. Go up. I hold the stair.",
       "relations": [],
-      "body": "Take the book. Go up. I hold.",
+      "body": "Take the book. Go up. I hold the stair.",
       "file": "quotes/take-the-book-go-up-i.md"
     },
     "take-the-chair-it-will-take": {
@@ -6004,55 +6082,55 @@
     "the-grey-down-there-is-the": {
       "id": "the-grey-down-there-is-the",
       "type": "quote",
-      "name": "The grey down there is the…",
+      "name": "The floor down there is warm…",
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "summary": "The floor down there is warm the way the Hollow is warm. It is not two fires. It never was.",
       "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
         "descent"
       ],
-      "text": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "text": "The floor down there is warm the way the Hollow is warm. It is not two fires. It never was.",
       "relations": [],
-      "body": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "body": "The floor down there is warm the way the Hollow is warm. It is not two fires. It never was.",
       "file": "quotes/the-grey-down-there-is-the.md"
     },
     "the-grey-stands-in-the-hall": {
       "id": "the-grey-stands-in-the-hall",
       "type": "quote",
-      "name": "The grey stands in the hall…",
+      "name": "The king's guard still stands in…",
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "summary": "The king's guard still stands in the hall. They were here first.",
       "speaker": "sarn",
       "pool": "arrive-hall",
       "usedIn": [
         "descent"
       ],
-      "text": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "text": "The king's guard still stands in the hall. They were here first.",
       "relations": [],
-      "body": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "body": "The king's guard still stands in the hall. They were here first.",
       "file": "quotes/the-grey-stands-in-the-hall.md"
     },
     "the-grey-took-you-it-takes": {
       "id": "the-grey-took-you-it-takes",
       "type": "quote",
-      "name": "The grey took you. It takes…",
+      "name": "Kell took you. It keeps what…",
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "The grey took you. It takes what it would have used.",
+      "summary": "Kell took you. It keeps what it is given.",
       "speaker": "sarn",
       "pool": "death",
       "usedIn": [
         "descent"
       ],
-      "text": "The grey took you. It takes what it would have used.",
+      "text": "Kell took you. It keeps what it is given.",
       "relations": [],
-      "body": "The grey took you. It takes what it would have used.",
+      "body": "Kell took you. It keeps what it is given.",
       "file": "quotes/the-grey-took-you-it-takes.md"
     },
     "the-halls-of-the-dead-echo": {
@@ -6790,19 +6868,19 @@
     "the-stream-stops-when-i-say": {
       "id": "the-stream-stops-when-i-say",
       "type": "quote",
-      "name": "The stream stops when I say…",
+      "name": "The crown is mine. The rest…",
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "The stream stops when I say stop. I have not said go.",
+      "summary": "The crown is mine. The rest you can carry.",
       "speaker": "gorvek",
       "pool": "drain",
       "usedIn": [
         "descent"
       ],
-      "text": "The stream stops when I say stop. I have not said go.",
+      "text": "The crown is mine. The rest you can carry.",
       "relations": [],
-      "body": "The stream stops when I say stop. I have not said go.",
+      "body": "The crown is mine. The rest you can carry.",
       "file": "quotes/the-stream-stops-when-i-say.md"
     },
     "the-task-is-done-now-for": {
@@ -7074,15 +7152,15 @@
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "The water is going out again. Watch the grey. It rises when the sea leaves.",
+      "summary": "The water is going out again. Put your hand on the steps. They are warmer than the sea.",
       "speaker": "sarn",
       "pool": "tide-ebb",
       "usedIn": [
         "descent"
       ],
-      "text": "The water is going out again. Watch the grey. It rises when the sea leaves.",
+      "text": "The water is going out again. Put your hand on the steps. They are warmer than the sea.",
       "relations": [],
-      "body": "The water is going out again. Watch the grey. It rises when the sea leaves.",
+      "body": "The water is going out again. Put your hand on the steps. They are warmer than the sea.",
       "file": "quotes/the-water-is-going-out-again.md"
     },
     "the-way-of-the-reach-is": {
@@ -7184,19 +7262,19 @@
     "there-is-someone-standing-in-the": {
       "id": "there-is-someone-standing-in-the",
       "type": "quote",
-      "name": "There is someone standing in the…",
+      "name": "There is someone sitting by the…",
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "There is someone standing in the drain. He has been standing there a long time.",
+      "summary": "There is someone sitting by the ledger. He has been sitting there a long time.",
       "speaker": "sarn",
       "pool": "arrive-hall",
       "usedIn": [
         "descent"
       ],
-      "text": "There is someone standing in the drain. He has been standing there a long time.",
+      "text": "There is someone sitting by the ledger. He has been sitting there a long time.",
       "relations": [],
-      "body": "There is someone standing in the drain. He has been standing there a long time.",
+      "body": "There is someone sitting by the ledger. He has been sitting there a long time.",
       "file": "quotes/there-is-someone-standing-in-the.md"
     },
     "they-are-recursive-if-my-base": {
@@ -7262,15 +7340,15 @@
       "aliases": [],
       "status": "canon",
       "tags": [],
-      "summary": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "summary": "This lamp will never burn grey. I took the dust out of it. I put it somewhere.",
       "speaker": "sarn",
       "pool": "gift",
       "usedIn": [
         "descent"
       ],
-      "text": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "text": "This lamp will never burn grey. I took the dust out of it. I put it somewhere.",
       "relations": [],
-      "body": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "body": "This lamp will never burn grey. I took the dust out of it. I put it somewhere.",
       "file": "quotes/this-lamp-will-never-burn-grey.md"
     },
     "this-metal-box-has-served-its": {
@@ -8661,18 +8739,6 @@
     },
     {
       "from": "gorvek",
-      "to": "streamlord",
-      "kind": "wields",
-      "declared": true
-    },
-    {
-      "from": "streamlord",
-      "to": "gorvek",
-      "kind": "wielded-by",
-      "declared": false
-    },
-    {
-      "from": "gorvek",
       "to": "greycloaks",
       "kind": "enemy-of",
       "declared": true
@@ -8949,18 +9015,6 @@
     },
     {
       "from": "sarn",
-      "to": "streamlord",
-      "kind": "narrates",
-      "declared": true
-    },
-    {
-      "from": "streamlord",
-      "to": "sarn",
-      "kind": "narrated-by",
-      "declared": false
-    },
-    {
-      "from": "sarn",
       "to": "kell",
       "kind": "destroyed",
       "declared": true
@@ -9125,6 +9179,30 @@
       "from": "the-ashfall",
       "to": "bonereach",
       "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "brandfell",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "brandfell",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "brandfell",
+      "to": "the-ashfall",
+      "kind": "caused",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "brandfell",
+      "kind": "caused-by",
       "declared": false
     },
     {
@@ -9452,18 +9530,6 @@
       "declared": false
     },
     {
-      "from": "streamlord",
-      "to": "river-priests",
-      "kind": "named-by",
-      "declared": true
-    },
-    {
-      "from": "river-priests",
-      "to": "streamlord",
-      "kind": "names",
-      "declared": false
-    },
-    {
       "from": "firstcloaks",
       "to": "greycloaks",
       "kind": "member-of",
@@ -9596,6 +9662,18 @@
       "declared": false
     },
     {
+      "from": "the-standing",
+      "to": "vorr",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "vorr",
+      "to": "the-standing",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
       "from": "the-unasked",
       "to": "lowstreets",
       "kind": "haunts",
@@ -9609,14 +9687,14 @@
     },
     {
       "from": "the-unasked",
-      "to": "the-ashfall",
-      "kind": "survived",
+      "to": "vorr",
+      "kind": "serves",
       "declared": true
     },
     {
-      "from": "the-ashfall",
+      "from": "vorr",
       "to": "the-unasked",
-      "kind": "survived-by",
+      "kind": "served-by",
       "declared": false
     },
     {
@@ -9737,6 +9815,42 @@
       "from": "the-drowning-of-kell",
       "to": "the-going-home",
       "kind": "precedes",
+      "declared": false
+    },
+    {
+      "from": "the-heave",
+      "to": "the-ebb",
+      "kind": "caused",
+      "declared": true
+    },
+    {
+      "from": "the-ebb",
+      "to": "the-heave",
+      "kind": "caused-by",
+      "declared": false
+    },
+    {
+      "from": "the-heave",
+      "to": "the-ashfall",
+      "kind": "follows",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "the-heave",
+      "kind": "precedes",
+      "declared": false
+    },
+    {
+      "from": "the-heave",
+      "to": "brandfell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "brandfell",
+      "to": "the-heave",
+      "kind": "featured-in",
       "declared": false
     },
     {
@@ -10765,7 +10879,7 @@
     },
     {
       "id": "flood-the-grey-sinks-under-the",
-      "text": "Flood. The grey sinks under the water and waits. You have a while.",
+      "text": "Flood. The sea comes back over the steps and waits. You have a while.",
       "speaker": "sarn",
       "pool": "tide-flood",
       "usedIn": [
@@ -11658,7 +11772,7 @@
     },
     {
       "id": "take-the-book-go-up-i",
-      "text": "Take the book. Go up. I hold.",
+      "text": "Take the book. Go up. I hold the stair.",
       "speaker": "gorvek",
       "pool": "drain",
       "usedIn": [
@@ -12212,7 +12326,7 @@
     },
     {
       "id": "the-grey-down-there-is-the",
-      "text": "The grey down there is the grey I live beside. It is not two greys. It never was.",
+      "text": "The floor down there is warm the way the Hollow is warm. It is not two fires. It never was.",
       "speaker": "mardra",
       "pool": "trade",
       "usedIn": [
@@ -12223,7 +12337,7 @@
     },
     {
       "id": "the-grey-stands-in-the-hall",
-      "text": "The grey stands in the hall like milk in a bowl. It was here first.",
+      "text": "The king's guard still stands in the hall. They were here first.",
       "speaker": "sarn",
       "pool": "arrive-hall",
       "usedIn": [
@@ -12234,7 +12348,7 @@
     },
     {
       "id": "the-grey-took-you-it-takes",
-      "text": "The grey took you. It takes what it would have used.",
+      "text": "Kell took you. It keeps what it is given.",
       "speaker": "sarn",
       "pool": "death",
       "usedIn": [
@@ -12704,7 +12818,7 @@
     },
     {
       "id": "the-stream-stops-when-i-say",
-      "text": "The stream stops when I say stop. I have not said go.",
+      "text": "The crown is mine. The rest you can carry.",
       "speaker": "gorvek",
       "pool": "drain",
       "usedIn": [
@@ -12879,7 +12993,7 @@
     },
     {
       "id": "the-water-is-going-out-again",
-      "text": "The water is going out again. Watch the grey. It rises when the sea leaves.",
+      "text": "The water is going out again. Put your hand on the steps. They are warmer than the sea.",
       "speaker": "sarn",
       "pool": "tide-ebb",
       "usedIn": [
@@ -12951,7 +13065,7 @@
     },
     {
       "id": "there-is-someone-standing-in-the",
-      "text": "There is someone standing in the drain. He has been standing there a long time.",
+      "text": "There is someone sitting by the ledger. He has been sitting there a long time.",
       "speaker": "sarn",
       "pool": "arrive-hall",
       "usedIn": [
@@ -12997,7 +13111,7 @@
     },
     {
       "id": "this-lamp-will-never-burn-grey",
-      "text": "This lamp will never burn grey. I took the grey out of it. I put it somewhere.",
+      "text": "This lamp will never burn grey. I took the dust out of it. I put it somewhere.",
       "speaker": "sarn",
       "pool": "gift",
       "usedIn": [
@@ -13808,7 +13922,7 @@
       "year": 0,
       "id": "the-ashfall",
       "name": "The Ashfall",
-      "summary": "The grey mist that came down over the north of Gallowmark and stayed a generation; the year it lifted is year zero of every calendar in the Mark."
+      "summary": "The ash that came down over the north of Gallowmark when Brandfell split open, and darkened the sky for a generation; the year it cleared is year zero of every calendar in the Mark."
     },
     {
       "year": 1,
@@ -13821,6 +13935,12 @@
       "id": "the-going-home",
       "name": "The Going Home",
       "summary": "What the descent shows and nobody in the Mark says: the grey came up out of Kell, and it is going back down, and it is drawing the sea after it."
+    },
+    {
+      "year": 1,
+      "id": "the-heave",
+      "name": "The Heave",
+      "summary": "What the descent shows and nobody in the Mark says: the fire that broke Brandfell and made the Ashfall is still under the Mark, and it is lifting the land; the sea is not going out, the coast is coming up."
     },
     {
       "year": 1,

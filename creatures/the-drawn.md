@@ -14,6 +14,6 @@ relations:
 The hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn
 tight. In the [[brinevaults]] you can see what is on the end of it: the hanged, each with a
 rope at the neck running off toward the hall, each moving along it whether it wants to or
-not, the way water moves toward a drain.
+not, the way a debt moves toward the one it is owed.
 
 They do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.

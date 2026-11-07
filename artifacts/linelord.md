@@ -3,7 +3,7 @@ name: LineLord
 aliases: [the Ledger, the Chronicle of Lines]
 status: canon
 tags: [artifact, ledger, chronicle]
-summary: The ledger older than Kell that remembers every line of every wall in the Mark, who laid it, and how long it has stood; named by the river-priests, read aloud by Vurn, listened to by Gorvek.
+summary: The king's ledger of Kell, which records every line of every wall in the Mark, who laid it, and who holds the ground behind it; named by the river-priests, read aloud by Vurn, listened to by Gorvek.
 relations:
   - { to: river-priests, kind: named-by }
   - { to: kell, kind: created-by }
@@ -11,9 +11,9 @@ relations:
 
 ## What it is
 
-In the world, LineLord is a ledger. Not of coin; of lines. Every wall in [[gallowmark]] is
-laid one line of stone at a time, and the ledger remembers who laid each line and how long
-it has stood, and nothing else. It does not say whether the wall was any good. It says who
+In the world, LineLord is a ledger: a big book bound in iron. Not of coin; of lines. Every
+wall in [[gallowmark]] is laid one line of stone at a time, and the king's clerks wrote down
+who laid each line and how long it has stood, and nothing else. It does not say whether the wall was any good. It says who
 held the ground, and for how long, and that is the whole of what it says. The last king of
 [[kell]] kept it in the iron-roofed hall and read it the winter before the night, looking
 for a wall that would hold. It is there still, open on its stand in [[the-iron-hall]], and

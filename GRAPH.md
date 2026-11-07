@@ -22,6 +22,7 @@ graph LR
   vurn["Vurn"]
   bonded-stores["The Bonded Stores"]
   bonereach["Bonereach"]
+  brandfell["Brandfell"]
   bricked-rooms["The Bricked Rooms"]
   brinevaults["The Brinevaults"]
   gallowmark["Gallowmark"]
@@ -56,6 +57,7 @@ graph LR
   the-drowning-of-kell["The Drowning of Kell"]
   the-ebb["The Ebb"]
   the-going-home["The Going Home"]
+  the-heave["The Heave"]
   the-walk-to-the-hall["The Walk to the Hall"]
   five-rites["Five Rites"]
   gorveks-creed["Gorvek's Creed"]
@@ -76,7 +78,6 @@ graph LR
   drusk -- rival-of --> tolm
   gorvek -- born-in --> bonereach
   gorvek -- survived --> the-ashfall
-  gorvek -- wields --> streamlord
   gorvek -- enemy-of --> greycloaks
   gorvek -- rival-of --> sarn
   gorvek -- ally-of --> vurn
@@ -100,7 +101,6 @@ graph LR
   sarn -- stole --> iron-crown-of-kell
   sarn -- named-by --> thurn
   sarn -- haunts --> gallowmark
-  sarn -- narrates --> streamlord
   sarn -- destroyed --> kell
   sethra -- rules --> brinevaults
   sethra -- rival-of --> jarn
@@ -115,6 +115,8 @@ graph LR
   bonded-stores -- located-in --> quaysteps
   bonereach -- located-in --> gallowmark
   bonereach -- survived --> the-ashfall
+  brandfell -- located-in --> gallowmark
+  brandfell -- caused --> the-ashfall
   bricked-rooms -- located-in --> lowstreets
   brinevaults -- located-in --> kell
   gallowmark -- contains --> kell
@@ -142,7 +144,6 @@ graph LR
   vorr -- rival-of --> thurn
   linelord -- named-by --> river-priests
   linelord -- created-by --> kell
-  streamlord -- named-by --> river-priests
   firstcloaks -- member-of --> greycloaks
   firstcloaks -- haunts --> quaysteps
   notchers -- serves --> hask
@@ -154,8 +155,9 @@ graph LR
   the-drawn -- serves --> hask
   the-drawn -- haunts --> brinevaults
   the-standing -- haunts --> the-iron-hall
+  the-standing -- serves --> vorr
   the-unasked -- haunts --> lowstreets
-  the-unasked -- survived --> the-ashfall
+  the-unasked -- serves --> vorr
   wrack -- haunts --> kell
   wrack -- named-by --> wrackhead
   the-ashfall -- destroyed --> bonereach
@@ -166,6 +168,9 @@ graph LR
   the-ebb -- named-by --> vell
   the-going-home -- caused --> the-ebb
   the-going-home -- follows --> the-drowning-of-kell
+  the-heave -- caused --> the-ebb
+  the-heave -- follows --> the-ashfall
+  the-heave -- features --> brandfell
   the-walk-to-the-hall -- follows --> the-ebb
   the-walk-to-the-hall -- features --> wrackhead
   the-walk-to-the-hall -- features --> the-iron-hall

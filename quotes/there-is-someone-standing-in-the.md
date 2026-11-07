@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-There is someone standing in the drain. He has been standing there a long time.
+There is someone sitting by the ledger. He has been sitting there a long time.

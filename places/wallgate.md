@@ -12,8 +12,7 @@ relations:
 
 The Wallmountains have one gap, and the Mark calls it the Wallgate because nobody in the
 Mark wastes a second word. It is a throat of black rock a day's walk long, with the first of
-the grey rivers coming down through it cold enough to stop a heart. North of it is whatever
-the Ashfall came from. South of it is [[bonereach]].
+the grey rivers coming down through it cold enough to stop a heart. North of it is [[brandfell]], still smoking, and whatever is past that. South of it is [[bonereach]].
 
 ## The toll-house
 

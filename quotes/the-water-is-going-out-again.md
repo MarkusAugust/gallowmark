@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-The water is going out again. Watch the grey. It rises when the sea leaves.
+The water is going out again. Put your hand on the steps. They are warmer than the sea.

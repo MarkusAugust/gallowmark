@@ -4,12 +4,11 @@ epithet: the Faceless
 aliases: [Sarn the Faceless, Lord of Streams, the Thief of Kell]
 status: canon
 tags: [demon, thief, narrator, faceless]
-summary: A faceless thief-demon every soul in Gallowmark can name and none has seen; stole the rubies of the Iron Crown and now narrates the grimoire with a smile nobody can find.
+summary: A faceless thief-demon every soul in Gallowmark can name and none has seen; stole the rubies of the Iron Crown and narrates everything since with a smile nobody can find.
 relations:
   - { to: iron-crown-of-kell, kind: stole }
   - { to: thurn, kind: named-by }
   - { to: gallowmark, kind: haunts }
-  - { to: streamlord, kind: narrates }
   - { to: kell, kind: destroyed }
   - { to: gorvek, kind: rival-of }
 ---
@@ -32,8 +31,9 @@ end where the knife goes in. Sarn addresses the reader directly ("Sit. Read.") a
 gifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright
 and never tells the whole truth. When Sarn is generous, ask why.
 
-Sarn is the voice of every grimoire in Gallowmark that is worth reading, including the one
-that teaches the use of [[streamlord]].
+Sarn is the voice of every grimoire in Gallowmark that is worth reading. Outside the world,
+Sarn also narrates the grimoire of the software called [[streamlord]], which is no concern of
+anyone in the Mark.
 
 ## In the world
 

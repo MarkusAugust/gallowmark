@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-Flood. The grey sinks under the water and waits. You have a while.
+Flood. The sea comes back over the steps and waits. You have a while.

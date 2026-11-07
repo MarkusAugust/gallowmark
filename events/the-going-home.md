@@ -1,7 +1,7 @@
 ---
 name: The Going Home
 aliases: [What the Ebb Is]
-status: canon
+status: retired
 tags: [secret, grey, ashfall, descent]
 summary: What the descent shows and nobody in the Mark says: the grey came up out of Kell, and it is going back down, and it is drawing the sea after it.
 year: 1
@@ -10,7 +10,14 @@ relations:
   - { to: the-drowning-of-kell, kind: follows }
 ---
 
-## What is true
+## Retired
+
+This was the truth behind the descent until the canon was repaired: the grey as something
+that came up out of Kell and went home down a drain. The Ashfall is fire and ash from
+[[brandfell]], and the Ebb is [[the-heave]]. Kept so the old lines can be traced; do not
+write from it.
+
+## What was written
 
 This entry is the truth behind the descent, for the people who write it. No character in
 the Mark says it, and no line in the game states it. The player reads it in what they find.

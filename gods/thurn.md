@@ -14,12 +14,13 @@ Thurn does not have a face, a temple, or a promise. Thurn has water, and water g
 goes. The people of [[gallowmark]] do not pray to Thurn; they keep out of the way. The
 [[river-priests]] say this is the correct form of worship.
 
-## Streams
+## The rivers
 
-Everything that flows is Thurn's, in the priests' telling: rivers, blood, rumour, and the
-thing that moves between a server and a browser when [[streamlord]] is used. A stream that
-obeys a man is a piece of the god held still, and the priests are of two minds about whether
-that is a blasphemy or the whole point.
+Three grey rivers come down out of the Wallmountains and meet the sea at [[kell]], and the
+priests say they are one river pretending to be three. Thurn is in them the way cold is in
+them: no voice, no wants, only weight and direction. In the dark years they ran grey with ash
+from the north, and the priests say Thurn carried the north's dead to the sea and did not
+complain.
 
 ## Threads
 

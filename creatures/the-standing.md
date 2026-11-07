@@ -1,19 +1,27 @@
 ---
 name: The Standing
-aliases: [the Grey at Home, the Milk]
+aliases: [the King's Iron, the Salt Guard]
 status: canon
-tags: [creature, grey, ashfall, descent]
-summary: The grey in the iron hall, standing still like milk in a bowl and rising when the sea goes out; it does not hurt you, it takes things from you.
+tags: [creature, drowned, undead, guard, descent]
+summary: The household guard of the last king of Kell, drowned at their posts in full iron and still standing in their ranks in the hall; they do not move while the king sits, and they move when you touch what is his.
 relations:
   - { to: the-iron-hall, kind: haunts }
+  - { to: vorr, kind: serves }
 ---
 
 ## What
 
-In [[greyhollow]] the grey lies in a fold of the hills and does not move with the wind. In
-[[the-iron-hall]] it stands the same way, and it is the same grey. At the flood it lies low.
-At low water it rises.
+When the sea came in over [[kell]] the king did not leave his chair, and the men sworn to
+stand by it did not leave their posts. They are still there: two ranks down the length of
+[[the-iron-hall]], salt grown white over the iron, faces gone, spears grounded.
 
-It does no harm a lamp could show. It takes: a name you had learned, the knowledge of what
-a thing in your pack is, a winter of your life. [[mardra]] went into it a midwife. She says it
-does not take at random. It takes what you would have used.
+They do not stop you walking between them. They do not stop you looking. Lay a hand on the
+crown, the coin under the throne, or anything else that was the king's, and every one of
+them turns at once.
+
+## In the world
+
+- The divers of [[wrackhead]] say the coast's oldest oath was sworn by these men: *until the
+  king stands*. He has not stood.
+- [[gorvek]] went between them and came out with a sack. Nobody knows whether he touched the
+  crown, or what he touched instead.

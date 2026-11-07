@@ -19,8 +19,9 @@ truly is to have a grip on it.
 ## The naming
 
 It was the river-priests who named [[sarn]] the Lord of Streams, and they meant it as a
-warning: here is the thing that goes where water goes. They also named the artifact that
-[[gorvek]] carries. They called it [[streamlord]], and then they stopped talking about it.
+warning: here is the thing that goes where water goes and takes what water takes. They have
+named every Greycloak captain and every gallows on [[hangmoot]], and once, to his face,
+[[gorvek]].
 
 ## Custom
 

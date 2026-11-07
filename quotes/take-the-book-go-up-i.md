@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-Take the book. Go up. I hold.
+Take the book. Go up. I hold the stair.

@@ -12,15 +12,16 @@ relations:
 
 [[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water
 below [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up
-with iron and bollard-rings, and with grey on their boots that does not wash off.
+with iron and bollard-rings, and with grey on their boots that does not wash off, because it is ash.
 
 ## The silt
 
-The silt on the steps is not sand. It is ash, packed by forty years of water. Lamps burn
-grey down here. In it lie bones in cloaks the colour of the silt, the order's first men, from
-the years when the [[greycloaks]] guarded these quays in the grey of [[the-ashfall]]. Some
+The silt on the steps is not sand. It is ash, thirty years of it, that the grey rivers carried
+down out of the north and laid on the sea floor. Lamps burn grey down here, in the dust. In it lie bones in cloaks the colour of the silt, the order's first men, from
+the years when the [[greycloaks]] guarded these quays from salvagers, and kept guarding them
+when the ash came down the rivers and nobody came to relieve them. Some
 of them are still guarding.
 
 ## Threads
 
-- Why was there ash under the sea, when the grey fell in the north?
+- Why are the steps warm, under the silt, where the sea has only just let go of them?

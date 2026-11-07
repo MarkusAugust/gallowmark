@@ -35,7 +35,7 @@ long time and say your own name.
 ## In the world
 
 - He named [[the-ebb]], and the river-priests are not sure he had the right.
-- He has met [[gorvek]] and named the thing Gorvek carries to his face. Gorvek did not
+- He has met [[gorvek]] and named him to his face, with a name Gorvek has not repeated. Gorvek did not
   thank him.
 - He named the child at [[wrackhead]] [[brim]], and would not say why.
 

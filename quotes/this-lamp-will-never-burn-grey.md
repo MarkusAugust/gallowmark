@@ -6,4 +6,4 @@ status: canon
 tags: []
 ---
 
-This lamp will never burn grey. I took the grey out of it. I put it somewhere.
+This lamp will never burn grey. I took the dust out of it. I put it somewhere.
