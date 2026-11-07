@@ -28,6 +28,12 @@ way a loaf lifts in the oven. The sea is not going out. The coast is coming up o
 That is [[the-ebb]]. [[thurn]] calling the rivers home, [[vorr]] opening his mouth, [[hask]]'s
 rope drawn tight: all three are given the credit, and none of them is the reason.
 
+## What the fire is
+
+[[mardra]] says the fire under the Mark is not a fire. It is [[the-unborn]], turning over in
+their sleep, because the knot is looser than it was. She charges a great deal for saying so,
+and she does not ask anyone to believe her.
+
 ## Why the iron is warm
 
 [[rauk]] touched the crown and said the iron was warm. The first river runs warm one night

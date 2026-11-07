@@ -15,6 +15,12 @@ to prove. Three rubies were set in it, one for each of the grey rivers that met 
 and the river-priests of [[thurn]] said that while the stones sat in the iron, the rivers sat
 in their beds.
 
+## The ring
+
+The crown is older than Kell. It is the iron ring of [[the-first-knot]], carried south and
+worn by the emperors of [[old-vahr]] before the kings of Kell had it, and the three rubies were
+set in it to hold the ring shut. That is the part the river-priests leave out.
+
 ## The theft
 
 [[sarn]] took all three in a single night. Nobody saw the face. The rivers left their beds.

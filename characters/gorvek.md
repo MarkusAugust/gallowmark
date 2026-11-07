@@ -11,6 +11,7 @@ relations:
   - { to: greycloaks, kind: enemy-of }
   - { to: sarn, kind: rival-of }
   - { to: vurn, kind: ally-of }
+  - { to: hrok, kind: ally-of }
 ---
 
 ## Who
@@ -59,7 +60,14 @@ it and dislikes it.
   doubled the fort, and he went down first, alone, for the crown. He came up with something
   in a sack and has not shown anyone what.
 
+## The end, which is not one
+
+In the thirty-first winter after the ash cleared he rode north past [[brandfell]] with two
+horses and the sack, and was not seen again. That is [[gorveks-last-road]]. Every bastard line
+in the north says it is his.
+
 ## Threads
 
 - What did he eat in the Ashfall?
 - What is in the sack?
+- Where did he go?

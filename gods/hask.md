@@ -24,6 +24,12 @@ debt. The [[greycloaks]] have never written Hask's name in a ledger, and they co
 shape: patiently, and once. Hask has no priests. He has hangmen, and the Reeve of
 [[hangmoot]] is the first among them.
 
+## The knot
+
+What the hangmen do not tell strangers: the first men did not hang Hask so that the land would
+hold. They hanged him so that something else would stay under it. That is [[the-first-knot]],
+and the [[ossar]] and [[the-unborn]] are what it holds.
+
 ## The rope and the crown
 
 The hangmen say the land is held in place by nine ropes and one iron ring, and that the night

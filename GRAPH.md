@@ -11,8 +11,12 @@ graph LR
   gorvek["Gorvek"]
   grue["Grue"]
   hollin["Hollin"]
+  hrok["Hrok"]
   jarn["Jarn"]
+  lusk["Lusk"]
   mardra["Mardra"]
+  ommet["Ommet"]
+  orsk["Orsk"]
   rauk["Rauk"]
   ruun["Ruun"]
   sarn["Sarn"]
@@ -25,21 +29,34 @@ graph LR
   brandfell["Brandfell"]
   bricked-rooms["The Bricked Rooms"]
   brinevaults["The Brinevaults"]
+  crownhold["Crownhold"]
+  feverfen["The Feverfen"]
   gallowmark["Gallowmark"]
+  glassands["The Glassands"]
   greyhollow["Greyhollow"]
   hangmoot["Hangmoot"]
+  harrowmere["Harrowmere"]
   hookford["Hookford"]
   kell["Kell"]
   kings-way["The King's Way"]
   lowstreets["The Lowstreets"]
+  old-vahr["Old Vahr"]
   quaysteps["The Quaysteps"]
+  rimewold["The Rimewold"]
   strongrooms["The Strongrooms"]
   the-iron-hall["The Iron Hall"]
+  the-sunder["The Sunder"]
+  the-teeth["The Teeth"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
   greycloaks["The Greycloaks"]
+  ossar["The Ossar"]
+  rimeclans["The Rimeclans"]
   river-priests["The River-Priests of Thurn"]
+  the-gilded["The Gilded"]
+  the-kneeling["The Kneeling"]
   hask["Hask"]
+  the-unborn["The Unborn"]
   thurn["Thurn"]
   vorr["Vorr"]
   iron-crown-of-kell["The Iron Crown of Kell"]
@@ -53,9 +70,12 @@ graph LR
   the-standing["The Standing"]
   the-unasked["The Unasked"]
   wrack["Your Wrack"]
+  gorveks-last-road["Gorvek's Last Road"]
   the-ashfall["The Ashfall"]
   the-drowning-of-kell["The Drowning of Kell"]
   the-ebb["The Ebb"]
+  the-fall-of-vahr["The Fall of Vahr"]
+  the-first-knot["The First Knot"]
   the-going-home["The Going Home"]
   the-heave["The Heave"]
   the-walk-to-the-hall["The Walk to the Hall"]
@@ -81,6 +101,7 @@ graph LR
   gorvek -- enemy-of --> greycloaks
   gorvek -- rival-of --> sarn
   gorvek -- ally-of --> vurn
+  gorvek -- ally-of --> hrok
   grue -- rules --> lowstreets
   grue -- rival-of --> jarn
   grue -- named-by --> linelord
@@ -88,10 +109,19 @@ graph LR
   hollin -- born-in --> wrackhead
   hollin -- rival-of --> jarn
   hollin -- named-by --> linelord
+  hrok -- leads --> rimeclans
+  hrok -- enemy-of --> greycloaks
   jarn -- lives-in --> wrackhead
   jarn -- named-by --> linelord
+  lusk -- member-of --> the-gilded
+  lusk -- lives-in --> harrowmere
+  lusk -- rival-of --> orsk
   mardra -- lives-in --> greyhollow
   mardra -- survived --> the-ashfall
+  ommet -- rules --> old-vahr
+  ommet -- serves --> the-unborn
+  orsk -- rules --> crownhold
+  orsk -- rival-of --> the-gilded
   rauk -- born-in --> wrackhead
   rauk -- kin-of --> brim
   ruun -- member-of --> river-priests
@@ -119,26 +149,43 @@ graph LR
   brandfell -- caused --> the-ashfall
   bricked-rooms -- located-in --> lowstreets
   brinevaults -- located-in --> kell
+  crownhold -- located-in --> the-sunder
+  feverfen -- located-in --> the-sunder
   gallowmark -- contains --> kell
   gallowmark -- home-of --> greycloaks
+  glassands -- located-in --> the-sunder
   greyhollow -- located-in --> gallowmark
   greyhollow -- contains --> the-ashfall
   hangmoot -- located-in --> gallowmark
+  harrowmere -- located-in --> the-sunder
   hookford -- located-in --> gallowmark
   kell -- created --> iron-crown-of-kell
   kings-way -- located-in --> the-iron-hall
   lowstreets -- located-in --> kell
+  old-vahr -- located-in --> glassands
   quaysteps -- located-in --> kell
+  rimewold -- located-in --> the-sunder
   strongrooms -- located-in --> brinevaults
   the-iron-hall -- located-in --> kell
+  the-sunder -- contains --> gallowmark
+  the-sunder -- contains --> the-teeth
   wallgate -- located-in --> gallowmark
   wrackhead -- located-in --> gallowmark
   greycloaks -- guards --> kell
   greycloaks -- guards --> wallgate
+  greycloaks -- haunts --> the-sunder
+  ossar -- serves --> the-unborn
+  ossar -- lives-in --> the-sunder
+  rimeclans -- lives-in --> rimewold
+  rimeclans -- enemy-of --> greycloaks
   river-priests -- worships --> thurn
   river-priests -- names --> sarn
+  the-gilded -- rules --> harrowmere
+  the-kneeling -- worships --> the-unborn
+  the-kneeling -- serves --> ossar
   hask -- haunts --> gallowmark
   hask -- haunts --> hangmoot
+  the-unborn -- haunts --> the-sunder
   thurn -- haunts --> gallowmark
   vorr -- haunts --> kell
   vorr -- rival-of --> thurn
@@ -160,12 +207,23 @@ graph LR
   the-unasked -- serves --> vorr
   wrack -- haunts --> kell
   wrack -- named-by --> wrackhead
+  gorveks-last-road -- features --> gorvek
+  gorveks-last-road -- features --> rimewold
+  gorveks-last-road -- features --> brandfell
+  gorveks-last-road -- features --> hrok
   the-ashfall -- destroyed --> bonereach
   the-drowning-of-kell -- destroyed --> kell
   the-drowning-of-kell -- caused-by --> sarn
   the-drowning-of-kell -- precedes --> the-ashfall
   the-ebb -- follows --> the-ashfall
   the-ebb -- named-by --> vell
+  the-fall-of-vahr -- destroyed --> old-vahr
+  the-fall-of-vahr -- created --> glassands
+  the-fall-of-vahr -- follows --> the-first-knot
+  the-first-knot -- features --> hask
+  the-first-knot -- features --> hangmoot
+  the-first-knot -- features --> ossar
+  the-first-knot -- features --> the-unborn
   the-going-home -- caused --> the-ebb
   the-going-home -- follows --> the-drowning-of-kell
   the-heave -- caused --> the-ebb

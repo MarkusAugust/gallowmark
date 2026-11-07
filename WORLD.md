@@ -1,41 +1,67 @@
 # Gallowmark
 
-A march of gallows and grey rivers between the Wallmountains and a drowned coast. Forty
-years before the calendar starts, a faceless thief took three rubies from an iron crown and a
-city went under the sea. Ten years later a mountain in the north split open, and its ash came
-down over the north and stayed a generation.
-The people who walked out of it are the people of this world: short on words, long on
-memory, and unwilling to trust anything they cannot hold.
+The Sunder is a continent that was an empire a thousand years ago and has been falling apart
+ever since: rotten gilt kingdoms, a canal-city that owns everyone's debts, a desert of glass
+where the empire burned, fens over the temples of an older, colder people, and ice in the
+north with shapes in it. Gallowmark is its northern edge, a march of gallows and grey
+rivers under the mountains, and it matters more than it looks, because it is where the world
+is tied shut.
+
+Before men there were the Ossar, pale priests of the things that were before the gods. Men
+were their cattle. Then men hanged their own god on a northern ridge, and the oath held, and
+the Ossar and their masters went under. Three thousand years later a faceless thief took
+three rubies out of an iron crown, a city drowned, and ten years after that a mountain split
+open and the ash came down over the north for a generation. The people who walked out of it
+are the people of this world: short on words, long on memory, and unwilling to trust anything
+they cannot hold. The knot is loosening, and something under the world is warm.
 
 ## The pitch in one breath
 
-Grimdark without the cynicism. Gallowmark is brutal, but its people are not; they are tired,
-stubborn and occasionally magnificent. There is one god who does not care, one who hangs and
-one who keeps, one order that takes villages through the gate you forgot, one thief who
-narrates everything, and one barbarian who takes what he wants: gold, wine, a fight, and the
-Greycloaks dead. And now the sea is going out from the drowned city, and everyone with a
-rope and a knife is walking toward it.
+Grimdark sword and sorcery. The Sunder is brutal and so are most of its people: kings poison
+their sons, princes sell their cities, sorcerers pay in pieces of themselves, and an order in
+grey takes a tenth of everything, politely, everywhere. There is one god who hangs and holds
+the world shut, one who flows and one who keeps; one barbarian who took what he wanted and
+then rode north and was never seen again; one thief who narrates everything; and under all
+of it, the Unborn, waiting for the rope to give.
 
 ## The fixed points
 
 | Thing | What it is | Why it matters |
 |---|---|---|
-| [[gallowmark]] | The land | Everything happens here |
-| [[the-ashfall]] | The ash of Brandfell, year 0 | Made the people what they are |
+| [[the-sunder]] | The continent | Everything happens here |
+| [[gallowmark]] | The northern march | Where the world is tied shut |
+| [[the-unborn]] | What was before the gods | Under the world, bound; the source of all sorcery |
+| [[ossar]] | The old, pale people | Ruled men before men ruled anything; not all gone |
+| [[the-first-knot]] | The hanging of Hask, year -3000 | Why the Unborn are under, and why the Mark is gallows |
+| [[the-fall-of-vahr]] | The empire burns, year -1000 | Why the Sunder is broken |
+| [[the-drowning-of-kell]] | The theft and the flood, year -40 | The rope goes slack; Sarn's name |
+| [[the-ashfall]] | The ash of Brandfell, year 0 | Made the people of the Mark what they are |
 | [[brandfell]] | The mountain that split | Where the fire came out, and is still |
-| [[the-drowning-of-kell]] | The theft and the flood, year -40 | Made the Greycloaks and Sarn's name |
 | [[gorvek]] | The barbarian | The hero; reaver, thief, sword for hire; the creed |
-| [[sarn]] | The faceless thief | The narrator; the whisper |
+| [[gorveks-last-road]] | Gorvek rides north, year 31 | Never seen again; every bastard line claims him |
+| [[sarn]] | The faceless thief | The narrator; the whisper; the one who loosened the knot |
+| [[hask]] | The hanged god | Gallows, oaths, debts; the knot itself |
 | [[thurn]] | The river-god | The one river; cold, patient, no wants |
-| [[greycloaks]] | The order | The enemy that wins by sitting down |
+| [[vorr]] | The drowned god | What the sea keeps; what took Kell |
+| [[greycloaks]] | The order | Everywhere, ruling nothing, taking a tenth |
 | [[river-priests]] | The naming cult | Who names things, and why names bite |
-| [[iron-crown-of-kell]] | The empty crown | The thing that held the world together by being believed in |
+| [[the-kneeling]] | The cult of the Unborn | Cutting the ropes, one at a time |
+| [[iron-crown-of-kell]] | The empty crown | The iron ring of the knot, emptied |
 | [[streamlord]] | The software | Not a thing in the Mark; a grimoire that borrows its voices |
 | [[linelord]] | The king's ledger | Where the world meets the other software; counts who holds what, nothing else |
-| [[hask]] | The hanged god | Gallows, oaths, debts; why the land is named for a rope |
-| [[vorr]] | The drowned god | What the sea keeps; what took Kell |
-| [[the-ebb]] | The sea going out, year 1 | The thing that pulls every thread toward one iron hall |
-| [[the-heave]] | What the Ebb is | The fire under the Mark, lifting the coast; nobody says it |
+
+## The lands of the Sunder
+
+| Where | What | Pull |
+|---|---|---|
+| [[rimewold]] | The ice beyond the Wallmountains | The [[rimeclans]] under [[hrok]]; shapes in the far ice |
+| [[gallowmark]] | The ash-forest march | Gallows, grey rivers, Greycloak forts, the drowned coast |
+| [[crownhold]] | The gilt kingdom | The Gilt King [[orsk]]; poison, offices, debt, the iron under the gold |
+| [[harrowmere]] | The canal-city | [[the-gilded]] and [[lusk]]; everything for sale; a lake with no bottom |
+| [[glassands]] | The desert of glass | Vahr's ruins on Ossar foundations; sorcerer-kings |
+| [[old-vahr]] | The burnt capital | [[ommet]] on the glass throne, the last emperor, maybe |
+| [[feverfen]] | The swamp-jungle | Black Ossar temples in the water; the fen-folk |
+| [[the-teeth]] | The reaver isles | No law but the captain's word |
 
 ## The cast around the fixed points
 
@@ -51,15 +77,18 @@ rope and a knife is walking toward it.
 | [[ruun]] | The old river-priest born in Kell | Was on the quay the night; names what washes up |
 | [[vurn]] | The other Ashborn | Tells the sagas Gorvek will not; the voice of LineLord's farewells |
 
-## The descent
+## Kell, one place among many
 
-Drowned Kell from the top of the steps to the hall, as the game on LineLord's site walks it.
+Drowned Kell on the coast of Gallowmark, and the walk down into it in the first years after
+the sea began to go out, as the game on LineLord's site walks it. It is one story in the
+Sunder, not the shape of it.
 [[the-heave]] holds the truth behind it, which no character says and no line in the game
 states. Nobody goes down for the truth. They go down for Kell's coin, the king's goods, the
 iron crown, and the ruby Sarn has never quite said is gone.
 
 | Who or where | What | Pull |
 |---|---|---|
+| [[the-ebb]] | The sea going out from Kell, year 1 | Local: the drowned city comes up, and the coast goes looting |
 | [[the-walk-to-the-hall]] | The coast in the first years of the Ebb | Everyone goes down at low water, to plunder |
 | [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ash in the silt, barred doors, counted days, the king's guard on a warm floor |
 | [[barr]] | The salt-smith at Wrackhead | Iron down, salvage up |
