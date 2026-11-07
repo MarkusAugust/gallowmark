@@ -93,7 +93,7 @@ iron crown, and the ruby Sarn has never quite said is gone.
 | [[quaysteps]], [[lowstreets]], [[brinevaults]], [[the-iron-hall]] | Drowned Kell, top to bottom | Ash in the silt, barred doors, counted days, the king's guard on a warm floor |
 | [[barr]] | The salt-smith at Wrackhead | Iron down, salvage up |
 | [[jarn]] | The Linelord, for now: holds the shingle and draws the line | The title goes to whoever holds the most |
-| [[pickers]], [[firstcloaks]], [[the-barred]], [[the-unasked]], [[notchers]], [[the-drawn]], [[the-standing]] | The creatures of the descent | What the grey left, and what it is |
+| [[pickers]], [[firstcloaks]], [[the-barred]], [[the-unasked]], [[notchers]], [[the-drawn]], [[the-standing]] | The creatures of the descent | What drowned Kell keeps, and who came for it |
 | [[the-descent]] | Sarn's whisper at the top of the steps | Which way to look |
 
 ## The theme
