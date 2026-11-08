@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 466,
+  "entityCount": 471,
   "types": [
     "character",
     "place",
@@ -566,7 +566,7 @@
           "declared": true
         }
       ],
-      "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the smoke, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]], and says the\n  fire under the Hollow and the warm iron under the hall are one fire.\n\n## Threads\n\n- What did Mardra find in the smoke that made her stay?\n- Does she know where a ruby is?",
+      "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the smoke, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## Before\n\nThe Mark thinks she was a midwife of the east who went into the grey. She was. Before that she\nwas something else, a long way south and a long time ago: one of [[the-leech-mothers]] of the\n[[feverfen]], who went further into [[the-black-step]] for her last lesson than any Leech-Mother\nbefore or since, and came out with a very long life and a great deal she was not meant to know.\nShe walked north over three hundred years. Her pactmarks are fewer than they should be because\nwhat she paid, she paid inside the temple, and it was not in coin.\n\n## Why everyone needs her\n\nShe is the only one in Harth who understands all of it: [[the-first-knot]], the fire under the\nMark, [[the-unborn]], what the [[ossar]] want and why [[the-nine-irons]] matter. Kings send to\nher. [[the-ninth-rope]] sends to her. [[the-kneeling]] send to her, and she sends them back with\nsomething missing. She tells everyone the truth, at a price, and lets them decide what to do with\nit.\n\n## What she sells\n\nThings from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]], and says the\n  fire under the Hollow and the warm iron under the hall are one fire.\n\n## Threads\n\n- What did Mardra find in the smoke that made her stay?\n- What did she learn inside the Black Step, and is she still paying for it?\n- Does she know where a ruby is?",
       "file": "characters/mardra.md"
     },
     "oruana-blackwake": {
@@ -855,7 +855,7 @@
           "declared": true
         }
       ],
-      "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading. Outside the world,\nSarn also narrates the grimoire of the software called [[streamlord]], which is no concern of\nanyone in the Mark.\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
+      "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading. Outside the world,\nSarn also narrates the grimoire of the software called [[streamlord]], which is no concern of\nanyone in the Mark.\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Everywhere\n\nSarn is not only Gallowmark's. Every theft in Harth worth telling has Sarn in it somewhere: the\nempty vault in [[harrowmere]], the forged seal on a Crownhold treaty, the ruby nobody can find,\nthe betrayal at the turn of a war. [[the-honest-company-of-takers]] claim Sarn wrote their\ncharter. The [[the-gilded]] keep a page for Sarn in every ledger. And in every story, Sarn is the\none telling it.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
     },
     "seraphine-vasthorne": {
@@ -1344,6 +1344,16 @@
           "declared": false
         },
         {
+          "to": "the-sunward-faith",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "helion-castor",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "the-burning-of-the-rolls",
           "kind": "featured-in",
           "declared": false
@@ -1359,7 +1369,7 @@
           "declared": false
         }
       ],
-      "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## The crises\n\n- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and\n  [[marcus-halberd]], and one old king.\n- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].\n- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
+      "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The church\n\nThe state church is [[the-sunward-faith]] of [[helion-castor]], the sun against the dark below:\ngold domes, incense, offices for sale, and an Exarch at the king's right hand.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## The crises\n\n- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and\n  [[marcus-halberd]], and one old king.\n- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].\n- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
       "file": "places/crownhold.md"
     },
     "driftholds": {
@@ -1850,6 +1860,16 @@
         {
           "to": "the-hoofborn",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "schuldbrieven",
+          "kind": "created",
+          "declared": false
+        },
+        {
+          "to": "the-harrowmere-mark",
+          "kind": "created",
           "declared": false
         },
         {
@@ -3391,6 +3411,11 @@
           "declared": false
         },
         {
+          "to": "the-harrowmere-mark",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "the-hiring-of-the-wise",
           "kind": "featured-in",
           "declared": false
@@ -3575,6 +3600,11 @@
           "declared": false
         },
         {
+          "to": "the-sunward-faith",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "the-burning-of-ossery",
           "kind": "featured-in",
           "declared": false
@@ -3692,6 +3722,44 @@
       ],
       "body": "## Who they are\n\nEvery slave sold in [[harrowmere]] is weighed against salt on the Stairs of Weighing, and the\nsalt is the price. The Saltless are the ones who ran, from galleys, mines and canal-houses, and\nreached the mountains. They buried the salt they were bought for, and called the place\n[[saltgrave]], and themselves the ones without a price.\n\n## The law\n\nNo one in Saltgrave owns anyone. Anyone who tries is hanged in salt-sacks. Anyone who brings a\nslaver's coin in is hanged beside them. Anyone who leaves and comes back is asked one question\nat the gate, and nobody outside knows what it is.\n\n## Threads\n\n- Who is the gate-keeper, and what is the question?",
       "file": "factions/the-saltless.md"
+    },
+    "the-sunward-faith": {
+      "id": "the-sunward-faith",
+      "type": "faction",
+      "name": "The Sunward Faith",
+      "aliases": [
+        "the Sunward Church",
+        "the Church of Helion",
+        "the Gilt Church"
+      ],
+      "status": "canon",
+      "tags": [
+        "church",
+        "religion",
+        "crownhold",
+        "corrupt",
+        "power"
+      ],
+      "summary": "The state church of Crownhold, sworn to Helion Castor against the dark below; gold domes, incense, tithes, a hierarchy for sale, and an Exarch who sits at the king's right hand.",
+      "relations": [
+        {
+          "to": "helion-castor",
+          "kind": "worships",
+          "declared": true
+        },
+        {
+          "to": "crownhold",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The church\n\nEvery town in [[crownhold]] has a sun-temple with a gilt dome, and every temple takes its tithe,\nand the tithes go up to the cathedral in the capital, where the Exarch of the Sunward sits beside\nthe throne of [[aurelian-vasthorne]]. Offices in the church are bought the way offices at court\nare. Many priests are believers. Few bishops are.\n\n## Its enemies\n\nThe faith hates [[the-kneeling]] by doctrine: below against above. It also hates [[the-ninth-rope]],\nbecause the hangmen say the sun is not what holds the dark down, a rope is. And it fears\n[[quintus-ashhand]], who was one of its priests, and burned his arm in one of its chapels.\n\n## Threads\n\n- How many of its bishops kneel in the cellars at night?",
+      "file": "factions/the-sunward-faith.md"
     },
     "the-tenth-legion": {
       "id": "the-tenth-legion",
@@ -3851,6 +3919,39 @@
       ],
       "body": "## The god\n\n[[gallowmark]] is named for the gallows, and the gallows are for Hask. The first rulers of\nthe Mark, before [[kell]] had a quay, built nine gallows on a ridge and hanged their god on\nthe ninth so the land would hold. That is the story the hangmen tell, and they tell it with\nthe knot already tied. Hask did not die. A hanged god does not; he hangs. Everything owed in\nthe Mark is owed to the rope, and the rope is his.\n\n## The debt\n\nHask is the god of what is owed. A tithe is a debt, an oath is a debt, a name given is a\ndebt. The [[greycloaks]] have never written Hask's name in a ledger, and they collect in his\nshape: patiently, and once. Hask has no priests. He has hangmen, and the Reeve of\n[[hangmoot]] is the first among them.\n\n## The knot\n\nWhat the hangmen do not tell strangers: the first men did not hang Hask so that the land would\nhold. They hanged him so that something else would stay under it. That is [[the-first-knot]],\nand the [[ossar]] and [[the-unborn]] are what it holds.\n\n## The rope and the crown\n\nThe hangmen say the land is held in place by nine ropes and [[the-nine-irons]], and that the night\n[[sarn]] emptied the [[iron-crown-of-kell]], the ninth ring, the ninth rope went slack.\nSince [[the-ebb]] they have stopped saying nothing.\n\n## Threads\n\n- Is Hask the god the Greycloaks do not name, or the god they are afraid of?\n- Whom did the first rulers hang, really?",
       "file": "gods/hask.md"
+    },
+    "helion-castor": {
+      "id": "helion-castor",
+      "type": "god",
+      "name": "Helion Castor",
+      "aliases": [
+        "the Unconquered Sun",
+        "the Sunward",
+        "the Bright Father"
+      ],
+      "status": "canon",
+      "tags": [
+        "god",
+        "sun",
+        "crownhold",
+        "church",
+        "light"
+      ],
+      "summary": "The sun god of Crownhold's state church, the Sunward Faith; the bright father who stands against the dark below, worshipped in gold-domed temples by a church that is rich, corrupt and very powerful.",
+      "relations": [
+        {
+          "to": "the-sunward-faith",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
+          "to": "crownhold",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## The god\n\nHelion Castor is the sun, and the sun is above, and what is above stands against what is below.\nThat is the whole of the faith's teaching, and it is older than Crownhold: the priests say the\nemperors of [[old-vahr]] prayed to him before they began to ask the other way.\n\n## Whether he answers\n\nThe sun rises. The priests say that is the answer.\n\n## Threads\n\n- Did the emperors stop praying to him, or did he stop listening?",
+      "file": "gods/helion-castor.md"
     },
     "mother-murk": {
       "id": "mother-murk",
@@ -4913,10 +5014,80 @@
           "to": "hask",
           "kind": "created-by",
           "declared": true
+        },
+        {
+          "to": "schuldbrieven",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The oath\n\nPut your hand on a hangman's rope, say what you will do, and the [[the-ninth-rope]] will tie a\nknot in it and keep it. That is a rope-oath. It is the oldest law in Harth and the only one\nnobody can buy out of, not even in [[harrowmere]].\n\n## Breaking it\n\nThe oath-breaker feels the rope at once: a tightness at the throat that does not go away. Each day\nit is worse. Breath shortens, the face darkens, the voice goes. Keep the oath, late, and it\nloosens. Do not, and in a season or a year the rope finishes what it began.\n\n## Custom\n\nKings swear rope-oaths at their crowning, captains at their hiring, reavers on [[the-teeth]] by\nthe Captain's Oath, which is the same thing with a mast for a gallows.",
       "file": "concepts/rope-oaths.md"
+    },
+    "schuldbrieven": {
+      "id": "schuldbrieven",
+      "type": "concept",
+      "name": "Schuldbrieven",
+      "aliases": [
+        "debt-letters",
+        "ropes",
+        "paper chains"
+      ],
+      "status": "canon",
+      "tags": [
+        "debt",
+        "money",
+        "harrowmere",
+        "law",
+        "hask"
+      ],
+      "summary": "The debt-letters of Harrowmere, traded like coin, inherited like land and sworn on Hask's rope; the whole of Harth runs on them, and a man can be hanged on one he never signed.",
+      "relations": [
+        {
+          "to": "harrowmere",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "rope-oaths",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The letters\n\nA schuldbrief is a debt written down: who owes, whom, how much, by when, sealed by a Harrowmere\nhouse and sworn with a hand on a hangman's rope. Once written it can be sold, and most are, many\ntimes. The debtor owes whoever holds the paper. Most debtors do not know who that is.\n\n## Inheriting\n\nDebts pass to heirs in Harth, and so do schuldbrieven. A child can be born owing. [[stillwater]]\nis full of people who never signed what put them there.\n\n## The rope\n\nBecause they are sworn as [[rope-oaths]], a schuldbrief that goes unpaid tightens. The hangmen\nsay every one paid pulls the knot of [[the-first-knot]] a little tighter, which is why\n[[the-ninth-rope]] defends Harrowmere's debts and despises Harrowmere. The [[the-burning-of-the-rolls]]\nburns schuldbrieven, and the hangmen are afraid of what that does.",
+      "file": "concepts/schuldbrieven.md"
+    },
+    "the-harrowmere-mark": {
+      "id": "the-harrowmere-mark",
+      "type": "concept",
+      "name": "The Harrowmere Mark",
+      "aliases": [
+        "the mark",
+        "marks",
+        "salt-marks"
+      ],
+      "status": "canon",
+      "tags": [
+        "coin",
+        "money",
+        "harrowmere",
+        "trade"
+      ],
+      "summary": "The silver coin of Harrowmere, struck by the House of Salt with a handshake on the reverse; the only coin taken everywhere in Harth, and trusted nowhere.",
+      "relations": [
+        {
+          "to": "harrowmere",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The coin\n\nA thin silver disc, a ship on the face, two hands clasped on the back, and the mint-mark of the\nHouse of Salt on the rim. Every kingdom of Harth strikes its own coin. Every kingdom of Harth\nprices in marks.\n\n## The trust\n\nNobody trusts it. Each house of [[the-gilded]] shaves the silver a little when it suits them, and\nthe weight of a mark has fallen every generation since [[the-fall-of-vahr]]. People take it\nanyway, because the alternative is to be paid in something worse, and in Harth the something worse\nis [[schuldbrieven]].\n\n## Sayings\n\n- *Clasped hands, open purse.*\n- *A mark is a promise from a liar, and the liar is rich.*",
+      "file": "concepts/the-harrowmere-mark.md"
     },
     "truenaming": {
       "id": "truenaming",
@@ -4949,6 +5120,27 @@
       ],
       "body": "## The art\n\nThe [[river-priests]] hold that every thing has a true name, under the one people call it, and\nthat the true name is a handle. Say it, and you have hold. A flood named truly goes down a\nfinger, as the river went down under [[vell]]'s feet. A man named truly does what he was going\nto do anyway, but cannot stop.\n\n## The cost\n\nTruenaming is not a pact. Nothing below is asked. The price is paid in the namer's own name: each\ntrue name given takes a little of the giver's. Young priests have long names. Brother [[ruun]] is\ncalled by one syllable, and some days he does not answer to it.\n\n## Threads\n\n- What happens to a priest who gives the last of their name?",
       "file": "concepts/truenaming.md"
+    },
+    "war-in-harth": {
+      "id": "war-in-harth",
+      "type": "concept",
+      "name": "War in Harth",
+      "aliases": [
+        "the way of war",
+        "how Harth fights"
+      ],
+      "status": "canon",
+      "tags": [
+        "war",
+        "mercenaries",
+        "siege",
+        "sorcery",
+        "cavalry"
+      ],
+      "summary": "How Harth fights: free companies hired by the season, holdfasts and gates that decide everything, sorcerers bought at the Hiring who poison both sides, and armoured horse against the riders of the Grass Sea.",
+      "relations": [],
+      "body": "## Free companies\n\nNo king of Harth can afford an army. They keep a guard and buy the rest: free companies like\n[[the-unmourned]], hired at [[fordham]], [[harrowmere]] or the camp-fairs of [[crownhold]], paid\nin [[the-harrowmere-mark]] or in plunder. A company fights for its contract, swears a\n[[rope-oaths]] on it, and worships [[nevermourn]].\n\n## Gates and walls\n\nHarth is a land of walls: Vahrish fortresses, river cities, the holdfasts of the Mark. Battles are\nrare. Sieges are not. Whoever holds the gates holds the land, which is why every side wants the\n[[greycloaks]] and nobody trusts them.\n\n## Sorcerers in war\n\nA sorcerer bought at [[the-hiring-of-the-wise]] can sour a well, send a fever, turn a river, make\nan army forget its orders. Every asking costs the sorcerer, and it costs the land: a field\npoisoned by sorcery stays poisoned. Captains hire them anyway, and hang them after if they can.\n\n## Horse\n\nCrownhold's armoured knights are the heaviest horse in Harth and were built for one enemy: the\n[[the-hoofborn]] of [[the-grass-sea]], who fight from the saddle with the bow and never charge.\nSixty years ago the knights lost.",
+      "file": "concepts/war-in-harth.md"
     },
     "gorveks-last-road": {
       "id": "gorveks-last-road",
@@ -13851,6 +14043,42 @@
       "declared": false
     },
     {
+      "from": "the-sunward-faith",
+      "to": "helion-castor",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "helion-castor",
+      "to": "the-sunward-faith",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "the-sunward-faith",
+      "to": "crownhold",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "the-sunward-faith",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-sunward-faith",
+      "to": "the-kneeling",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "the-sunward-faith",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
       "from": "the-tenth-legion",
       "to": "old-vahr",
       "kind": "serves",
@@ -13931,6 +14159,18 @@
     {
       "from": "hangmoot",
       "to": "hask",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "helion-castor",
+      "to": "crownhold",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "helion-castor",
       "kind": "haunted-by",
       "declared": false
     },
@@ -14484,6 +14724,54 @@
       "from": "hask",
       "to": "rope-oaths",
       "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "schuldbrieven",
+      "to": "harrowmere",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "schuldbrieven",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "schuldbrieven",
+      "to": "rope-oaths",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "rope-oaths",
+      "to": "schuldbrieven",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-harrowmere-mark",
+      "to": "harrowmere",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-harrowmere-mark",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-harrowmere-mark",
+      "to": "the-gilded",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "the-harrowmere-mark",
+      "kind": "featured-in",
       "declared": false
     },
     {

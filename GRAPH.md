@@ -91,10 +91,12 @@ graph LR
   the-leech-mothers["The Leech-Mothers"]
   the-ninth-rope["The Ninth Rope"]
   the-saltless["The Saltless"]
+  the-sunward-faith["The Sunward Faith"]
   the-tenth-legion["The Tenth Legion"]
   the-unmourned["The Unmourned"]
   the-well-kings["The Well-Kings"]
   hask["Hask"]
+  helion-castor["Helion Castor"]
   mother-murk["Mother Murk"]
   nevermourn["Nevermourn"]
   the-old-smith-under-the-snow["The Old Smith Under the Snow"]
@@ -125,7 +127,10 @@ graph LR
   wrack["Your Wrack"]
   pactmarks["Pactmarks"]
   rope-oaths["Rope-oaths"]
+  schuldbrieven["Schuldbrieven"]
+  the-harrowmere-mark["The Harrowmere Mark"]
   truenaming["Truenaming"]
+  war-in-harth["War in Harth"]
   gorveks-last-road["Gorvek's Last Road"]
   the-ashfall["The Ashfall"]
   the-broken-years["The Broken Years"]
@@ -310,6 +315,9 @@ graph LR
   the-ninth-rope -- enemy-of --> the-kneeling
   the-saltless -- lives-in --> saltgrave
   the-saltless -- enemy-of --> the-gilded
+  the-sunward-faith -- worships --> helion-castor
+  the-sunward-faith -- lives-in --> crownhold
+  the-sunward-faith -- enemy-of --> the-kneeling
   the-tenth-legion -- serves --> old-vahr
   the-tenth-legion -- created --> greycloaks
   the-unmourned -- worships --> nevermourn
@@ -317,6 +325,7 @@ graph LR
   the-well-kings -- serves --> the-unborn
   hask -- haunts --> gallowmark
   hask -- haunts --> hangmoot
+  helion-castor -- haunts --> crownhold
   mother-murk -- haunts --> feverfen
   nevermourn -- haunts --> harth
   the-old-smith-under-the-snow -- haunts --> brandfell
@@ -363,6 +372,10 @@ graph LR
   wrack -- named-by --> wrackhead
   pactmarks -- created-by --> the-unborn
   rope-oaths -- created-by --> hask
+  schuldbrieven -- created-by --> harrowmere
+  schuldbrieven -- features --> rope-oaths
+  the-harrowmere-mark -- created-by --> harrowmere
+  the-harrowmere-mark -- features --> the-gilded
   truenaming -- created-by --> river-priests
   truenaming -- features --> thurn
   gorveks-last-road -- features --> gorvek

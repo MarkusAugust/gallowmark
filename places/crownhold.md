@@ -23,6 +23,11 @@ lords of the provinces raise armies against each other in his name. The [[greycl
 the kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what
 else they take.
 
+## The church
+
+The state church is [[the-sunward-faith]] of [[helion-castor]], the sun against the dark below:
+gold domes, incense, offices for sale, and an Exarch at the king's right hand.
+
 ## The cult
 
 In the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not

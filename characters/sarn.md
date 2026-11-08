@@ -41,6 +41,14 @@ anyone in the Mark.
 - The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.
 - Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.
 
+## Everywhere
+
+Sarn is not only Gallowmark's. Every theft in Harth worth telling has Sarn in it somewhere: the
+empty vault in [[harrowmere]], the forged seal on a Crownhold treaty, the ruby nobody can find,
+the betrayal at the turn of a war. [[the-honest-company-of-takers]] claim Sarn wrote their
+charter. The [[the-gilded]] keep a page for Sarn in every ledger. And in every story, Sarn is the
+one telling it.
+
 ## Threads
 
 - Where are the three rubies now?

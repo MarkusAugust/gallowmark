@@ -17,6 +17,23 @@ word to. She is not old. She looks it in some lights. She lives on the rim of [[
 in a house with its back to the smoke, and she goes in when she pleases, which is the thing
 nobody else can do.
 
+## Before
+
+The Mark thinks she was a midwife of the east who went into the grey. She was. Before that she
+was something else, a long way south and a long time ago: one of [[the-leech-mothers]] of the
+[[feverfen]], who went further into [[the-black-step]] for her last lesson than any Leech-Mother
+before or since, and came out with a very long life and a great deal she was not meant to know.
+She walked north over three hundred years. Her pactmarks are fewer than they should be because
+what she paid, she paid inside the temple, and it was not in coin.
+
+## Why everyone needs her
+
+She is the only one in Harth who understands all of it: [[the-first-knot]], the fire under the
+Mark, [[the-unborn]], what the [[ossar]] want and why [[the-nine-irons]] matter. Kings send to
+her. [[the-ninth-rope]] sends to her. [[the-kneeling]] send to her, and she sends them back with
+something missing. She tells everyone the truth, at a price, and lets them decide what to do with
+it.
+
 ## What she sells
 
 Things from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a
@@ -43,4 +60,5 @@ about her. Everything she says is true, checkable, and slightly too much.
 ## Threads
 
 - What did Mardra find in the smoke that made her stay?
+- What did she learn inside the Black Step, and is she still paying for it?
 - Does she know where a ruby is?
