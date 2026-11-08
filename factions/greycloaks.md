@@ -9,7 +9,7 @@ relations:
   - { to: gorvek, kind: enemy-of }
   - { to: kell, kind: guards }
   - { to: wallgate, kind: guards }
-  - { to: the-sunder, kind: haunts }
+  - { to: harth, kind: haunts }
 ---
 
 ## What they are
@@ -35,7 +35,7 @@ ledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing 
 ## Beyond the Mark
 
 The order holds Gallowmark, and nothing else, and is everywhere. It keeps a chapterhouse in
-every city of [[the-sunder]]: on the Grand Canal in [[harrowmere]], under the palace walls of
+every city of [[harth]]: on the Grand Canal in [[harrowmere]], under the palace walls of
 [[crownhold]], at the wells of the [[glassands]]. It rules no kingdom and wants none. It is
 hired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, hold a pass.
 It is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is

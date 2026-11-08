@@ -3,9 +3,9 @@ name: Harrowmere
 aliases: [the Mere, the Gilded City, the Bought City]
 status: canon
 tags: [city-state, decadent, canals, trade, slavery]
-summary: The canal-city of merchant princes on a black lake east of Crownhold, the richest place in the Sunder; everything is for sale in it, including sorcery, people and the empire's old debts.
+summary: The canal-city of merchant princes on a black lake east of Crownhold, the richest place in Harth; everything is for sale in it, including sorcery, people and the empire's old debts.
 relations:
-  - { to: the-sunder, kind: located-in }
+  - { to: harth, kind: located-in }
 ---
 
 ## The city
@@ -13,7 +13,7 @@ relations:
 Harrowmere is built on piles driven into a black lake, a thousand palaces and ten thousand
 hovels joined by canals. It has no king. It has [[the-gilded]], the merchant princes, who
 bought the debts of [[old-vahr]] the year after it burned and have been collecting on them
-since. Every kingdom in the Sunder owes Harrowmere. Harrowmere owes nobody, and says so.
+since. Every kingdom in Harth owes Harrowmere. Harrowmere owes nobody, and says so.
 
 ## What is for sale
 

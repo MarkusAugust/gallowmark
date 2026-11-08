@@ -5,7 +5,7 @@ status: canon
 tags: [desert, ruins, sorcery, south]
 summary: The desert where the heartland of Vahr burned in one night; sand fused to glass for a hundred miles, ruin-cities half buried in it, caravan roads between them, and sorcerer-kings in the old towers.
 relations:
-  - { to: the-sunder, kind: located-in }
+  - { to: harth, kind: located-in }
 ---
 
 ## The desert
@@ -25,7 +25,7 @@ were the [[ossar]]'s. Diggers go down for gold and come up with bones too long f
 
 In the old towers sit sorcerer-kings who rule a well, a ruin and a few hundred desperate
 people each, and who make pacts with [[the-unborn]] the way other kings raise taxes. The
-greatest of them is [[ommet]], in Old Vahr itself.
+greatest of them is [[qeth-ummar]], in Old Vahr itself.
 
 ## Threads
 

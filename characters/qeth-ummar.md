@@ -1,5 +1,5 @@
 ---
-name: Ommet
+name: Qeth-Ummar
 epithet: the Undying
 aliases: [the Glass Emperor, the Last of Vahr]
 status: canon
@@ -12,14 +12,14 @@ relations:
 
 ## Who
 
-Ommet is thin as a rope, wrapped in white linen against the glare, and nobody has seen him
+Qeth-Ummar is thin as a rope, wrapped in white linen against the glare, and nobody has seen him
 eat. His skin is glass in places. He says he was a prince of [[old-vahr]] on the night of
 [[the-fall-of-vahr]] and that the emperors got what they asked for. He does not say what that
 was. He looks as though it was him.
 
 ## Voice
 
-Ommet speaks slowly, as if he is remembering each word from a long way off, and sometimes he
+Qeth-Ummar speaks slowly, as if he is remembering each word from a long way off, and sometimes he
 forgets what the last one was.
 
 ## Threads

@@ -1,6 +1,6 @@
 # Gallowmark
 
-The Sunder is a continent that was an empire a thousand years ago and has been falling apart
+Harth is a continent that was an empire a thousand years ago and has been falling apart
 ever since: rotten gilt kingdoms, a canal-city that owns everyone's debts, a desert of glass
 where the empire burned, fens over the temples of an older, colder people, and ice in the
 north with shapes in it. Gallowmark is its northern edge, a march of gallows and grey
@@ -17,7 +17,7 @@ they cannot hold. The knot is loosening, and something under the world is warm.
 
 ## The pitch in one breath
 
-Grimdark sword and sorcery. The Sunder is brutal and so are most of its people: kings poison
+Grimdark sword and sorcery. Harth is brutal and so are most of its people: kings poison
 their sons, princes sell their cities, sorcerers pay in pieces of themselves, and an order in
 grey takes a tenth of everything, politely, everywhere. There is one god who hangs and holds
 the world shut, one who flows and one who keeps; one barbarian who took what he wanted and
@@ -28,12 +28,12 @@ of it, the Unborn, waiting for the rope to give.
 
 | Thing | What it is | Why it matters |
 |---|---|---|
-| [[the-sunder]] | The continent | Everything happens here |
+| [[harth]] | The continent | Everything happens here |
 | [[gallowmark]] | The northern march | Where the world is tied shut |
 | [[the-unborn]] | What was before the gods | Under the world, bound; the source of all sorcery |
 | [[ossar]] | The old, pale people | Ruled men before men ruled anything; not all gone |
 | [[the-first-knot]] | The hanging of Hask, year -3000 | Why the Unborn are under, and why the Mark is gallows |
-| [[the-fall-of-vahr]] | The empire burns, year -1000 | Why the Sunder is broken |
+| [[the-fall-of-vahr]] | The empire burns, year -1000 | Why Harth is broken |
 | [[the-drowning-of-kell]] | The theft and the flood, year -40 | The rope goes slack; Sarn's name |
 | [[the-ashfall]] | The ash of Brandfell, year 0 | Made the people of the Mark what they are |
 | [[brandfell]] | The mountain that split | Where the fire came out, and is still |
@@ -50,16 +50,29 @@ of it, the Unborn, waiting for the rope to give.
 | [[streamlord]] | The software | Not a thing in the Mark; a grimoire that borrows its voices |
 | [[linelord]] | The king's ledger | Where the world meets the other software; counts who holds what, nothing else |
 
-## The lands of the Sunder
+## Gods and peoples beyond the Mark
+
+| Who | What | Pull |
+|---|---|---|
+| [[nevermourn]] | The crow goddess | Sellswords give her the dead and do not weep |
+| [[the-old-smith-under-the-snow]] | The fire god of the north | Brandfell is his forge; something burns every winter |
+| [[mother-murk]] | The swamp-mother | The fen worships nothing and feeds her anyway |
+| [[the-hadd]] | Night-walking nomads of the glass | The only safe way across the Glassands |
+| [[the-ashen]] | The grey folk of Greyhollow's rim | Stayed through the Ashfall; feared |
+| [[the-saltless]] | Escaped slaves of Harrowmere | Free in [[saltgrave]], under a crueller law |
+| [[argentine-houses]] | Silver-eyed noble lines | Vahr's blood, they say; colder, others say |
+| [[the-paid]] | Those who paid all three coins | Still walking; not them |
+
+## The lands of Harth
 
 | Where | What | Pull |
 |---|---|---|
 | [[rimewold]] | The ice beyond the Wallmountains | The [[rimeclans]] under [[hrok]]; shapes in the far ice |
 | [[gallowmark]] | The ash-forest march | Gallows, grey rivers, Greycloak forts, the drowned coast |
-| [[crownhold]] | The gilt kingdom | The Gilt King [[orsk]]; poison, offices, debt, the iron under the gold |
-| [[harrowmere]] | The canal-city | [[the-gilded]] and [[lusk]]; everything for sale; a lake with no bottom |
+| [[crownhold]] | The gilt kingdom | The Gilt King [[aurelian-vasthorne]]; poison, offices, debt, the iron under the gold |
+| [[harrowmere]] | The canal-city | [[the-gilded]] and [[aleid-van-der-haalst]]; everything for sale; a lake with no bottom |
 | [[glassands]] | The desert of glass | Vahr's ruins on Ossar foundations; sorcerer-kings |
-| [[old-vahr]] | The burnt capital | [[ommet]] on the glass throne, the last emperor, maybe |
+| [[old-vahr]] | The burnt capital | [[qeth-ummar]] on the glass throne, the last emperor, maybe |
 | [[feverfen]] | The swamp-jungle | Black Ossar temples in the water; the fen-folk |
 | [[the-teeth]] | The reaver isles | No law but the captain's word |
 

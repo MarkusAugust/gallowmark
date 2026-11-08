@@ -3,7 +3,7 @@ name: The Kneeling
 aliases: [the Kneelers, the Called, the Cellar Church]
 status: canon
 tags: [cult, sorcery, unborn, secret]
-summary: The secret cult of the Unborn, spread through every city of the Sunder; they kneel to what is under the world, ask it for what they want, and say the Ossar are coming back and that it will be good to be counted again.
+summary: The secret cult of the Unborn, spread through every city of Harth; they kneel to what is under the world, ask it for what they want, and say the Ossar are coming back and that it will be good to be counted again.
 relations:
   - { to: the-unborn, kind: worships }
   - { to: ossar, kind: serves }

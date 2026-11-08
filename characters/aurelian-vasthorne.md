@@ -1,7 +1,7 @@
 ---
-name: Orsk
+name: Aurelian Vasthorne VII
 epithet: the Gilt King
-aliases: [King Orsk, the Heir of Vahr]
+aliases: [King Aurelian, the Seventh, the Heir of Vahr]
 status: canon
 tags: [king, decadent, crownhold]
 summary: The old king of Crownhold, who has outlived four heirs and two queens by poison and patience, owes Harrowmere more than his kingdom is worth, and lets the Greycloaks collect his taxes.
@@ -12,14 +12,14 @@ relations:
 
 ## Who
 
-Orsk is seventy, fat, gilded to the knuckles and very much cleverer than he lets anyone
+Aurelian is seventy, fat, gilded to the knuckles and very much cleverer than he lets anyone
 see. He came to the throne by outliving his brothers, and he has kept it by outliving his
 sons. He wears an iron circlet under the gold, on the Vahrish pattern, and takes it off for
 nobody.
 
 ## Voice
 
-Orsk is kind. He asks after your family. He remembers their names. Later, so do the
+Aurelian is kind. He asks after your family. He remembers their names. Later, so do the
 poisoners.
 
 ## Threads

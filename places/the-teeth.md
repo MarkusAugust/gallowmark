@@ -3,9 +3,9 @@ name: The Teeth
 aliases: [the Reaver Isles, the Broken Jaw]
 status: canon
 tags: [islands, pirates, sea, south-east]
-summary: A chain of black volcanic islands off the Feverfen coast, where the reaver fleets winter, the slave ships of Harrowmere are taken, and no law in the Sunder reaches.
+summary: A chain of black volcanic islands off the Feverfen coast, where the reaver fleets winter, the slave ships of Harrowmere are taken, and no law in Harth reaches.
 relations:
-  - { to: the-sunder, kind: located-in }
+  - { to: harth, kind: located-in }
 ---
 
 ## The islands

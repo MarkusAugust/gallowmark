@@ -1,6 +1,6 @@
 ---
-name: The Sunder
-aliases: [the Sundered Lands, the Broken Lands]
+name: Harth
+aliases: [the Lands of Harth, the Broken Lands]
 status: canon
 tags: [continent, world]
 summary: The continent Gallowmark is the northern edge of; what was the empire of Vahr, broken a thousand years ago into rotten kingdoms, ruin-deserts, fens, ice and borderlands, and held together by nothing.
@@ -18,7 +18,7 @@ relations:
 
 Ice in the north, glass in the south, rot in the east, and in between a thousand years of
 kingdoms that are each sure they are what is left of [[old-vahr]]. Nobody calls it one
-place except the people who are not from it. The Sunder is what the empire looked like
+place except the people who are not from it. Harth is what the empire looked like
 after [[the-fall-of-vahr]]: a plate dropped on a stone floor.
 
 ## From north to south

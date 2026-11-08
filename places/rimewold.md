@@ -5,7 +5,7 @@ status: canon
 tags: [region, north, ice, barbarian]
 summary: The frozen uplands north of the Wallmountains, where the clans fight the winter and each other, Brandfell smokes on the southern skyline, and the ice is older than anything that walks on it.
 relations:
-  - { to: the-sunder, kind: located-in }
+  - { to: harth, kind: located-in }
 ---
 
 ## The land

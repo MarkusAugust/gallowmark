@@ -3,9 +3,9 @@ name: The Unborn
 aliases: [What Was Before, the Under, the Ones Below]
 status: canon
 tags: [elder, sorcery, below, horror]
-summary: The things that were before the gods and are under the world now, bound; every sorcery in the Sunder is borrowed from them, and every loan is paid back with interest.
+summary: The things that were before the gods and are under the world now, bound; every sorcery in Harth is borrowed from them, and every loan is paid back with interest.
 relations:
-  - { to: the-sunder, kind: haunts }
+  - { to: harth, kind: haunts }
 ---
 
 ## What they are
@@ -22,7 +22,7 @@ put them there. It did not put them anywhere they cannot be heard.
 
 All sorcery is a pact with something below. A sorcerer asks, the Unborn give, and the
 price is taken from the body, the memory or the soul, in that order, and the asking gets
-easier each time. That is how every sorcerer in the Sunder ends: easier and easier, and then
+easier each time. That is how every sorcerer in Harth ends: easier and easier, and then
 not a person. [[mardra]] says she has paid only in the first two coins. Nobody believes her.
 
 ## Stirring

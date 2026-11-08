@@ -3,7 +3,7 @@ name: The Fall of Vahr
 aliases: [the Sundering, the Glassing]
 status: canon
 tags: [catastrophe, empire, sorcery, era]
-summary: The end of the empire of Vahr a thousand years before Kell drowned, when its sorcerer-emperors asked the Unborn for one thing too many; the heartland burned to glass, and the empire broke into the kingdoms of the Sunder.
+summary: The end of the empire of Vahr a thousand years before Kell drowned, when its sorcerer-emperors asked the Unborn for one thing too many; the heartland burned to glass, and the empire broke into the kingdoms of Harth.
 year: -1000
 relations:
   - { to: old-vahr, kind: destroyed }
@@ -30,7 +30,7 @@ like water and set like glass. That is the [[glassands]].
 The provinces woke up without an emperor and became kingdoms: [[crownhold]], which says it
 is Vahr's heir; [[harrowmere]], which bought the empire's debts and calls that the same
 thing; the cities of the coast, of which [[kell]] kept the iron ring. The rest of the
-[[the-sunder]] is what happens when nobody holds a land for a thousand years.
+[[harth]] is what happens when nobody holds a land for a thousand years.
 
 ## Threads
 

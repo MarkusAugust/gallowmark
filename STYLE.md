@@ -2,8 +2,21 @@
 
 ## Names
 
-- Short and hard. One or two syllables for people and gods (Sarn, Thurn, Kell), compound
-  words for places (Gallowmark, Bonereach). If a name is soft or long, it is wrong.
+- Every land of Harth has its own naming culture. A name from one land should not sound like
+  it came from another:
+  - **Gallowmark and the Rimewold**: short and hard, Nordic. One or two syllables for people
+    and gods (Sarn, Thurn, Hrok), compound words for places (Bonereach, Brandfell). Northern
+    gods are often not named at all, only called (the Old Smith Under the Snow).
+  - **Crownhold**: Latinate and imperial, long, with house names and regnal numbers
+    (Aurelian Vasthorne VII).
+  - **Harrowmere**: Dutch-sober, merchant names and house names (Aleid van der Haalst, the
+    House of Salt).
+  - **The Glassands, the Hadd and Old Vahr**: alien and their own, hard consonants and breaks,
+    no model in any real language (Qeth-Ummar, Ysh'ra).
+  - **The Feverfen**: vowel-rich and soft, names like water (Aoleiwa).
+  - **Common speech across Harth**: plain English titles and epithets (Nevermourn, the Paid,
+    Saltgrave).
+- Names are chosen, not dashed off. Offer several in different registers before one is fixed.
 - Invented, always. No names, places, gods, orders or artifacts from any published setting,
   game, book or film. If a name turns out to exist elsewhere, change it.
 - Creatures are named for what they do or what was done to them (the Barred, the Drawn,

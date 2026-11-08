@@ -5,7 +5,7 @@ status: canon
 tags: [swamp, jungle, coast, ruins, ossar]
 summary: The swamp-jungle of the south-east coast, hot, green and rotten, where the black temples of the Ossar stand in the water and the fen-folk say the Ossar never left, only the daylight.
 relations:
-  - { to: the-sunder, kind: located-in }
+  - { to: harth, kind: located-in }
 ---
 
 ## The fen

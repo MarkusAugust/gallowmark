@@ -3,10 +3,10 @@ name: The Ossar
 aliases: [the Pale, the Old Priests, the First Masters]
 status: canon
 tags: [elder-folk, sorcery, ruins, not-human]
-summary: The tall, pale, cold-blooded people who ruled the Sunder before men, as priests of the Unborn; men were their cattle, until men hanged a god to bind them under the earth.
+summary: The tall, pale, cold-blooded people who ruled Harth before men, as priests of the Unborn; men were their cattle, until men hanged a god to bind them under the earth.
 relations:
   - { to: the-unborn, kind: serves }
-  - { to: the-sunder, kind: lives-in }
+  - { to: harth, kind: lives-in }
 ---
 
 ## What they were
