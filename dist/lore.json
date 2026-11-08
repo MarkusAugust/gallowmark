@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 414,
+  "entityCount": 422,
   "types": [
     "character",
     "place",
@@ -46,6 +46,11 @@
           "to": "aurelian-vasthorne",
           "kind": "rival-of",
           "declared": true
+        },
+        {
+          "to": "tiberian-vasthorne",
+          "kind": "served-by",
+          "declared": false
         }
       ],
       "body": "## Who\n\nAleid is small, sharp-faced, dressed in grey, and does not wear gold, because, she says,\npeople who are owed do not need to. She has buried three husbands and two brothers and\nwritten each of them off in the ledger the same afternoon.\n\n## Voice\n\nAleid talks in sums. Everything has a price, and she tells you yours before you ask.\n\n## Threads\n\n- Why does the House of Salt buy every iron ring that comes to market?",
@@ -83,6 +88,26 @@
           "to": "the-gilded",
           "kind": "rival-of",
           "declared": true
+        },
+        {
+          "to": "marcus-halberd",
+          "kind": "kin-of",
+          "declared": false
+        },
+        {
+          "to": "seraphine-vasthorne",
+          "kind": "kin-of",
+          "declared": false
+        },
+        {
+          "to": "tiberian-vasthorne",
+          "kind": "kin-of",
+          "declared": false
+        },
+        {
+          "to": "the-three-crowns",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## Who\n\nAurelian is seventy, fat, gilded to the knuckles and very much cleverer than he lets anyone\nsee. He came to the throne by outliving his brothers, and he has kept it by outliving his\nsons. He wears an iron circlet under the gold, on the Vahrish pattern, and takes it off for\nnobody.\n\n## Voice\n\nAurelian is kind. He asks after your family. He remembers their names. Later, so do the\npoisoners.\n\n## Threads\n\n- Why does he wear the iron?\n- Who will hold Crownhold when he dies, and how many will die choosing?",
@@ -464,6 +489,49 @@
       "body": "## The title\n\nThe Linelord is not a man. It is a title, and the [[linelord]] gives it: whoever the\nledger names as holding the most ground in [[gallowmark]], wall by wall and day by day,\nis the Linelord until someone holds more. The title has changed hands more often than the\ncrown of [[kell]] did, and nobody has kept it by deserving it. They kept it by holding.\n\n## Jarn\n\nJarn holds it now. He came down to [[wrackhead]] the first winter of [[the-ebb]] with an\niron blade that came up out of Kell, and he has not gone further. He does not need to. He\nholds the shingle, and the ledger counts it, and every low water he walks the length of\nthe beach dragging the blade behind him, and leaves a line in the wet sand from the fort to\nthe salt-pile.\n\nThe line says: this far is mine. The flood takes it twice a day. He draws it again twice a\nday. That is the whole of what he does, and it is enough to hold the title.\n\n## Voice\n\nJarn does not argue. He points at the line. If you cross it, he asks whether you meant to.\n\n## In the world\n\n- The pickers going down the [[quaysteps]] step over his line, and he lets them; what is\n  under the water is not the shingle.\n- [[tolm]] tithes everyone on the coast and has never asked Jarn for a tenth. The fort\n  keeps its own line, on the other side of his.\n- Brother [[ruun]] writes names in the same sand. Jarn has never drawn across one.\n\n## Threads\n\n- Who held the title before him, and what did they hold?\n- What does the ledger say about the one who crosses his line?",
       "file": "characters/jarn.md"
     },
+    "marcus-halberd": {
+      "id": "marcus-halberd",
+      "type": "character",
+      "name": "Marcus Halberd",
+      "aliases": [
+        "the Bastard",
+        "Captain Halberd"
+      ],
+      "status": "canon",
+      "tags": [
+        "captain",
+        "mercenary",
+        "heir",
+        "crownhold",
+        "bastard"
+      ],
+      "summary": "The king's son by a palace laundress, raised in the free companies, now captain of the Unmourned; he has an army, a claim, and his father's face, and he has stopped hiding any of them.",
+      "epithet": "called the Bastard",
+      "relations": [
+        {
+          "to": "aurelian-vasthorne",
+          "kind": "kin-of",
+          "declared": true
+        },
+        {
+          "to": "the-unmourned",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "nevermourn",
+          "kind": "worships",
+          "declared": true
+        },
+        {
+          "to": "the-three-crowns",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nMarcus was sent out of the palace at four, with a purse and no name, and grew up carrying\nwater in a free company. He took his name from the first weapon he was given. At thirty-five he\nis broad, scarred, and the best captain in [[crownhold]], and when he takes his helmet off,\nthe old men of the court go quiet, because he has [[aurelian-vasthorne]]'s face at forty.\n\n## Voice\n\nA soldier's: short, practical, and funny at the wrong moment. He swears by [[nevermourn]].\n\n## Threads\n\n- Did the king send him away to save him, or to forget him?",
+      "file": "characters/marcus-halberd.md"
+    },
     "mardra": {
       "id": "mardra",
       "type": "character",
@@ -526,6 +594,40 @@
       ],
       "body": "## Who\n\nQeth-Ummar is thin as a rope, wrapped in white linen against the glare, and nobody has seen him\neat. His skin is glass in places. He says he was a prince of [[old-vahr]] on the night of\n[[the-fall-of-vahr]] and that the emperors got what they asked for. He does not say what that\nwas. He looks as though it was him.\n\n## Voice\n\nQeth-Ummar speaks slowly, as if he is remembering each word from a long way off, and sometimes he\nforgets what the last one was.\n\n## Threads\n\n- What is he still asking for?",
       "file": "characters/qeth-ummar.md"
+    },
+    "quintus-ashhand": {
+      "id": "quintus-ashhand",
+      "type": "character",
+      "name": "Quintus Ashhand",
+      "aliases": [
+        "Brother Quintus",
+        "the Ashhand",
+        "the One-Armed Prophet"
+      ],
+      "status": "canon",
+      "tags": [
+        "prophet",
+        "priest",
+        "rebel",
+        "crownhold",
+        "peasants"
+      ],
+      "summary": "A defrocked priest of Crownhold who burned off his own arm as an offering and now leads the hungry provinces in the Burning of the Rolls; he speaks like a flame, and the tax-rolls and the Greycloak houses burn where he goes.",
+      "epithet": "the Brother",
+      "relations": [
+        {
+          "to": "the-burning-of-the-rolls",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nQuintus was a chapel priest in a grain province, until the year the [[greycloaks]] took the\ntithe in seed-corn and the province starved. He put his right arm into the chapel fire and\nheld it there while the village watched, and said a hand that had blessed the tithe would\nbless nothing more. He has been walking since. The stump is black. He does not cover it.\n\n## Voice\n\nHe speaks in fire: short, rising, and the crowd says the last word with him.\n\n## Threads\n\n- Is the fire he talks about the one in the chapel, or the one under the ground?",
+      "file": "characters/quintus-ashhand.md"
     },
     "rauk": {
       "id": "rauk",
@@ -688,6 +790,43 @@
       "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading. Outside the world,\nSarn also narrates the grimoire of the software called [[streamlord]], which is no concern of\nanyone in the Mark.\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
     },
+    "seraphine-vasthorne": {
+      "id": "seraphine-vasthorne",
+      "type": "character",
+      "name": "Seraphine Vasthorne",
+      "aliases": [
+        "Princess Seraphine",
+        "the Pale Princess"
+      ],
+      "status": "canon",
+      "tags": [
+        "princess",
+        "heir",
+        "crownhold",
+        "cult",
+        "kneeling"
+      ],
+      "summary": "The youngest daughter of Aurelian VII, pious and pale, who goes down to the cellars of the palace every night to kneel; she wants the iron ring her father wears under the gold, and she knows what it is.",
+      "relations": [
+        {
+          "to": "aurelian-vasthorne",
+          "kind": "kin-of",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "the-three-crowns",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nSeraphine is nineteen, thin, quiet, and the only one of the king's children who prays. The\ncourt thinks she prays to the gods of the chapel. She prays with her forehead on the cellar\nfloor, and something answers her.\n\n## What she wants\n\nThe iron circlet her father wears under the gold. [[the-kneeling]] have told her it is one of\nthe rings of [[the-first-knot]], carried south out of [[old-vahr]], and that a ring broken in\nthe right place loosens the rope. She has not told them she would rather wear it.\n\n## Threads\n\n- Is she one of the [[argentine-houses]] by her mother's side?",
+      "file": "characters/seraphine-vasthorne.md"
+    },
     "sethra": {
       "id": "sethra",
       "type": "character",
@@ -724,6 +863,43 @@
       ],
       "body": "## Who\n\nSethra does not stop anyone in the [[brinevaults]]. She sits among the clerks' shelves with\na lamp turned low and lets you pass. Then she waits. Most of the ones who go down past her do\nnot come back, and in a season or a year she goes down a little way after them and brings up\nwhat they carried. Everything she owns was carried into Kell by someone braver.\n\nShe has never fought for the vaults. Nobody who fought her for them is still alive to say\nwhether she would have won.\n\n## Voice\n\nSethra speaks quietly and about afterwards. She is always certain there will be one.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Brinevaults the **Keeper of the\nBrinevaults**. It has called her that through every one of the people she waited out.\n\n## Threads\n\n- What does she do with the ledgers on the clerks' shelves, and does she read them?",
       "file": "characters/sethra.md"
+    },
+    "tiberian-vasthorne": {
+      "id": "tiberian-vasthorne",
+      "type": "character",
+      "name": "Tiberian Vasthorne",
+      "aliases": [
+        "Prince Tiberian",
+        "Tiberian the Fair"
+      ],
+      "status": "canon",
+      "tags": [
+        "prince",
+        "heir",
+        "crownhold",
+        "traitor"
+      ],
+      "summary": "The eldest living son of Aurelian VII, beautiful, beloved by the crowds of Crownhold and empty inside; his councillors have sold the kingdom to Harrowmere in his name, and he believes every word they tell him.",
+      "epithet": "the Fair",
+      "relations": [
+        {
+          "to": "aurelian-vasthorne",
+          "kind": "kin-of",
+          "declared": true
+        },
+        {
+          "to": "the-three-crowns",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "aleid-van-der-haalst",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nTiberian is thirty, golden-haired, tall, and good at everything that is done in front of a\ncrowd: riding, speaking, weeping at funerals. He has never read a document he signed. His\ncouncillors read them for him, and his councillors are paid by the House of Salt.\n\n## Voice\n\nWarm, sincere, and a little too loud. He means it. That is the worst of it.\n\n## Threads\n\n- Does he know, somewhere under the gilt, what he has signed?",
+      "file": "characters/tiberian-vasthorne.md"
     },
     "tolm": {
       "id": "tolm",
@@ -1060,9 +1236,24 @@
           "to": "harth",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "the-burning-of-the-rolls",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-three-crowns",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-unpaid-war",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
-      "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
+      "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## The crises\n\n- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and\n  [[marcus-halberd]], and one old king.\n- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].\n- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
       "file": "places/crownhold.md"
     },
     "feverfen": {
@@ -1343,6 +1534,11 @@
         {
           "to": "the-gilded",
           "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "the-unpaid-war",
+          "kind": "featured-in",
           "declared": false
         }
       ],
@@ -2060,6 +2256,11 @@
           "declared": false
         },
         {
+          "to": "quintus-ashhand",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "tolm",
           "kind": "has-member",
           "declared": false
@@ -2092,6 +2293,11 @@
         {
           "to": "firstcloaks",
           "kind": "has-member",
+          "declared": false
+        },
+        {
+          "to": "the-burning-of-the-rolls",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -2299,6 +2505,11 @@
           "to": "the-saltless",
           "kind": "enemy-of",
           "declared": false
+        },
+        {
+          "to": "the-unpaid-war",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The houses\n\nNine houses, each with a palace on the Grand Canal, a fleet, a bank and a feud with the other\neight. A prince is whoever holds the house's ledger. Princes rarely die of old age. [[aleid-van-der-haalst]],\nof the House of Salt, has held hers for thirty years, which is the record.\n\n## The debt\n\nWhen [[old-vahr]] burned, the Gilded bought its debts from the dead for a copper on the\ncrown. Every kingdom of Harth grew up owing Harrowmere for an empire it never saw. The\nprinces do not collect it all. They collect enough.\n\n## Threads\n\n- What did the Gilded pay for, that they keep in the Tenth Palace?",
@@ -2350,6 +2561,11 @@
       "summary": "The secret cult of the Unborn, spread through every city of Harth; they kneel to what is under the world, ask it for what they want, and say the Ossar are coming back and that it will be good to be counted again.",
       "relations": [
         {
+          "to": "seraphine-vasthorne",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "the-unborn",
           "kind": "worships",
           "declared": true
@@ -2393,6 +2609,36 @@
       ],
       "body": "## Who they are\n\nEvery slave sold in [[harrowmere]] is weighed against salt on the Stairs of Weighing, and the\nsalt is the price. The Saltless are the ones who ran, from galleys, mines and canal-houses, and\nreached the mountains. They buried the salt they were bought for, and called the place\n[[saltgrave]], and themselves the ones without a price.\n\n## The law\n\nNo one in Saltgrave owns anyone. Anyone who tries is hanged in salt-sacks. Anyone who brings a\nslaver's coin in is hanged beside them. Anyone who leaves and comes back is asked one question\nat the gate, and nobody outside knows what it is.\n\n## Threads\n\n- Who is the gate-keeper, and what is the question?",
       "file": "factions/the-saltless.md"
+    },
+    "the-unmourned": {
+      "id": "the-unmourned",
+      "type": "faction",
+      "name": "The Unmourned",
+      "aliases": [
+        "the Bastard's Company, Nevermourn's Own"
+      ],
+      "status": "canon",
+      "tags": [
+        "mercenary",
+        "free-company",
+        "crownhold",
+        "nevermourn"
+      ],
+      "summary": "The free company of Marcus Halberd, the best-paid and least-loved swords in Crownhold; they give their dead to Nevermourn and weep for nobody, and nobody weeps for them.",
+      "relations": [
+        {
+          "to": "marcus-halberd",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "nevermourn",
+          "kind": "worships",
+          "declared": true
+        }
+      ],
+      "body": "## The company\n\nFour thousand foot, six hundred horse, a baggage train like a town, and a black banner with a\nwhite crow. The Unmourned have fought for Crownhold, against it, and for Harrowmere twice. Since\ntheir captain stopped hiding his face, they fight for him.\n\n## Custom\n\nThey do not bury their dead. They lay them out for the crows on the field, and sing over them\nloudly and badly, and march on in the morning. A man of the Unmourned who weeps is fined a\nmonth's pay. Most of them think it is cheap.",
+      "file": "factions/the-unmourned.md"
     },
     "hask": {
       "id": "hask",
@@ -2488,6 +2734,16 @@
       ],
       "summary": "The crow goddess of battlefields and carrion, worshipped by the sellswords of all Harth; one does not weep for the fallen, one gives them to her.",
       "relations": [
+        {
+          "to": "marcus-halberd",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
+          "to": "the-unmourned",
+          "kind": "worshipped-by",
+          "declared": false
+        },
         {
           "to": "harth",
           "kind": "haunts",
@@ -3302,6 +3558,43 @@
       "body": "## What fell\n\nTen years after [[kell]] went under, [[brandfell]] split open in the Wallmountains, and the\nfire in it came out. The sky over the north of [[gallowmark]] went black. Then the ash came\ndown: hot at first, burning thatch and birch and the people who could not get under stone,\nthen cold and grey and endless, a finger deep, a hand deep, to the knee. It fell on\n[[bonereach]] first and hardest, and it stayed a generation. The sun was a coin behind it.\nNothing grew. Inside the dark people did what people do when nobody can see them.\n\nThe rivers carried it south. For thirty years the grey rivers ran grey in earnest, and laid\nthe ash down on the sea floor over drowned Kell, which is why the silt on the\n[[quaysteps]] is not sand.\n\n## What came out\n\nWhen the sky cleared, the ones who walked out of the north were called the Ashborn.\n[[gorvek]] is one. The [[greycloaks]] are, in a sense, another: the order was born guarding\nthe drowned quays of [[kell]], took the north in the dark years while nobody could see it\nhappen, and never took the cloak off.\n\n## The calendar\n\nThe Mark counts its years from the clearing. Everything before is *in the grey*, and nobody\nis precise about it.\n\n## Threads\n\n- Why did Brandfell split, ten years to the season after the stones were taken?",
       "file": "events/the-ashfall.md"
     },
+    "the-burning-of-the-rolls": {
+      "id": "the-burning-of-the-rolls",
+      "type": "event",
+      "name": "The Burning of the Rolls",
+      "aliases": [
+        "the Ashhand Rising",
+        "the Tenth Refused"
+      ],
+      "status": "canon",
+      "tags": [
+        "rebellion",
+        "peasants",
+        "crownhold",
+        "greycloaks"
+      ],
+      "summary": "The peasant rising of Crownhold's hungry provinces under the one-armed prophet Quintus Ashhand, who burn the tax-rolls and the Greycloak houses and refuse the tenth.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "quintus-ashhand",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "crownhold",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The rising\n\nIt started in a single village, when [[quintus-ashhand]] put the tax-rolls into the chapel\nfire. Now it is nine provinces. The rebels march from village to village, open the granaries,\nburn every list of who owes what, and pull down the [[greycloaks]]' chapterhouses stone by\nstone.\n\n## Why it frightens everyone\n\nNot the peasants. The lists. In Harth a debt is a rope, and a rope is the knot, and the\nhangmen of [[hangmoot]] have sent word south that every roll burned loosens it. The\n[[the-kneeling]] have sent word too. They are delighted.\n\n## Threads\n\n- Who is paying for the rebels' iron?",
+      "file": "events/the-burning-of-the-rolls.md"
+    },
     "the-drowning-of-kell": {
       "id": "the-drowning-of-kell",
       "type": "event",
@@ -3550,6 +3843,100 @@
       ],
       "body": "## What is true\n\nThis entry is the truth behind the descent, for the people who write it. No character in\nthe Mark says it plainly, and no line in the game states it. The player reads it in what\nthey find.\n\nTen years after [[sarn]] took the stones and [[kell]] went under, the mountain the Reach\ncalls [[brandfell]] split open north of the [[wallgate]], and ash came down over the north\nfor a generation. That was [[the-ashfall]]. It was fire, and fire does not go away when the\nsky clears. It went under.\n\nIt runs under the whole Mark now, from Brandfell to the coast, close under [[greyhollow]]\nwhere the ash never cooled, and closest of all under [[kell]]. It is lifting the ground the\nway a loaf lifts in the oven. The sea is not going out. The coast is coming up out of it.\nThat is [[the-ebb]]. [[thurn]] calling the rivers home, [[vorr]] opening his mouth, [[hask]]'s\nrope drawn tight: all three are given the credit, and none of them is the reason.\n\n## What the fire is\n\n[[mardra]] says the fire under the Mark is not a fire. It is [[the-unborn]], turning over in\ntheir sleep, because the knot is looser than it was. She charges a great deal for saying so,\nand she does not ask anyone to believe her.\n\n## Why the iron is warm\n\n[[rauk]] touched the crown and said the iron was warm. The first river runs warm one night\neach winter at the Wallgate. The floor of [[the-iron-hall]] is warm under the salt. Every\none of them is the same fire, nearer the top than anyone has guessed.\n\n## Why everyone goes down\n\nNot for the truth. For what Kell had: the coin in the [[brinevaults]], the goods in the\n[[bonded-stores]], the silver in the [[bricked-rooms]], the empty [[iron-crown-of-kell]] on\na dead king's head, and the rumour, which Sarn has never denied, that one of the three rubies\nnever left the hall. The ledger names whoever holds the most of it. That is the whole\ndescent: a drowned city, uncovered, and everyone in the Mark with a rope and a knife.\n\n## What the player learns, tier by tier\n\n1. [[quaysteps]]: ash in the silt that the rivers carried down; the order's first men, dead\n   at their posts, still on duty.\n2. [[lowstreets]]: the doors were barred against the city, not the water.\n3. [[brinevaults]]: the clerks shut themselves in with the coin and counted the days.\n4. [[the-iron-hall]]: the king, his guard still standing, a warm floor, and the stair he\n   walled up behind him.\n\n## Threads\n\n- When the coast is all the way up, does the fire come up with it?\n- Did Sarn know about the mountain when Sarn took the stones?",
       "file": "events/the-heave.md"
+    },
+    "the-three-crowns": {
+      "id": "the-three-crowns",
+      "type": "event",
+      "name": "The Three Crowns",
+      "aliases": [
+        "the Succession of Crownhold",
+        "the Seventh Chair"
+      ],
+      "status": "canon",
+      "tags": [
+        "war",
+        "succession",
+        "crownhold",
+        "intrigue"
+      ],
+      "summary": "The war of succession in Crownhold, fought in shadow while Aurelian VII lives and in the open the winter he dies, when three heirs are crowned in three cities: the Fair, the Pale and the Bastard.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "marcus-halberd",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "seraphine-vasthorne",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "tiberian-vasthorne",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "crownhold",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "aurelian-vasthorne",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-unpaid-war",
+          "kind": "precedes",
+          "declared": true
+        }
+      ],
+      "body": "## The shadow war\n\n[[aurelian-vasthorne]] has outlived four heirs. Three are left, and each has begun the war\nalready: poison in the wine, fires in the granaries, councillors found in the river.\n[[tiberian-vasthorne]] has the crowds and Harrowmere's money. [[seraphine-vasthorne]] has the\ncellars and whatever answers her there. [[marcus-halberd]] has [[the-unmourned]].\n\n## The winter he dies\n\nThe chronicles name it for what happens then: three crownings, in three cities, in one\nwinter. The capital crowns the Fair. The chapel crowns the Pale. The army crowns the Bastard.\n\n## Threads\n\n- Who kills the king, in the end, or does he outlive all three?",
+      "file": "events/the-three-crowns.md"
+    },
+    "the-unpaid-war": {
+      "id": "the-unpaid-war",
+      "type": "event",
+      "name": "The Unpaid War",
+      "aliases": [
+        "the Debt War",
+        "the War of Black Water"
+      ],
+      "status": "canon",
+      "tags": [
+        "war",
+        "crownhold",
+        "harrowmere",
+        "debt"
+      ],
+      "summary": "The war Crownhold makes on Harrowmere to wipe out the empire's old debt with the sword, and Harrowmere fights with every free company money can buy.",
+      "year": 2,
+      "relations": [
+        {
+          "to": "the-three-crowns",
+          "kind": "follows",
+          "declared": false
+        },
+        {
+          "to": "crownhold",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "harrowmere",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The war\n\nHarrowmere names it: Crownhold did not pay, so now it pays in blood. Whichever crown sits in\nthe capital, the debt sits under it, and the only way to be rid of a debt to a city with no\narmy is to burn the city. [[the-gilded]] know this, and have hired every free company in\nHarth that is not already the [[the-unmourned]].\n\n## Where it is fought\n\nOn the imperial road, in the river cities, and on the black lake, where most of the fallen go.\nThe Greycloaks are paid by both sides and fight for neither.\n\n## Threads\n\n- Who holds the debt when the ledger-keeper is dead?",
+      "file": "events/the-unpaid-war.md"
     },
     "the-walk-to-the-hall": {
       "id": "the-walk-to-the-hall",
@@ -10216,6 +10603,54 @@
       "declared": false
     },
     {
+      "from": "marcus-halberd",
+      "to": "aurelian-vasthorne",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "aurelian-vasthorne",
+      "to": "marcus-halberd",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
+      "from": "marcus-halberd",
+      "to": "the-unmourned",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-unmourned",
+      "to": "marcus-halberd",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "marcus-halberd",
+      "to": "nevermourn",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "nevermourn",
+      "to": "marcus-halberd",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "marcus-halberd",
+      "to": "the-three-crowns",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "marcus-halberd",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "mardra",
       "to": "greyhollow",
       "kind": "lives-in",
@@ -10261,6 +10696,30 @@
       "from": "the-unborn",
       "to": "qeth-ummar",
       "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "quintus-ashhand",
+      "to": "the-burning-of-the-rolls",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-burning-of-the-rolls",
+      "to": "quintus-ashhand",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "quintus-ashhand",
+      "to": "greycloaks",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "quintus-ashhand",
+      "kind": "enemy-of",
       "declared": false
     },
     {
@@ -10384,6 +10843,42 @@
       "declared": false
     },
     {
+      "from": "seraphine-vasthorne",
+      "to": "aurelian-vasthorne",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "aurelian-vasthorne",
+      "to": "seraphine-vasthorne",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
+      "from": "seraphine-vasthorne",
+      "to": "the-kneeling",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "seraphine-vasthorne",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "seraphine-vasthorne",
+      "to": "the-three-crowns",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "seraphine-vasthorne",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "sethra",
       "to": "brinevaults",
       "kind": "rules",
@@ -10417,6 +10912,42 @@
       "from": "linelord",
       "to": "sethra",
       "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "tiberian-vasthorne",
+      "to": "aurelian-vasthorne",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "aurelian-vasthorne",
+      "to": "tiberian-vasthorne",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
+      "from": "tiberian-vasthorne",
+      "to": "the-three-crowns",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "tiberian-vasthorne",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "tiberian-vasthorne",
+      "to": "aleid-van-der-haalst",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "aleid-van-der-haalst",
+      "to": "tiberian-vasthorne",
+      "kind": "served-by",
       "declared": false
     },
     {
@@ -11092,6 +11623,18 @@
       "declared": false
     },
     {
+      "from": "the-unmourned",
+      "to": "nevermourn",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "nevermourn",
+      "to": "the-unmourned",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
       "from": "hask",
       "to": "gallowmark",
       "kind": "haunts",
@@ -11536,6 +12079,30 @@
       "declared": false
     },
     {
+      "from": "the-burning-of-the-rolls",
+      "to": "crownhold",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "the-burning-of-the-rolls",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-burning-of-the-rolls",
+      "to": "greycloaks",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "the-burning-of-the-rolls",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "the-drowning-of-kell",
       "to": "kell",
       "kind": "destroyed",
@@ -11736,6 +12303,78 @@
     {
       "from": "brandfell",
       "to": "the-heave",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "crownhold",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "the-three-crowns",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "aurelian-vasthorne",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "aurelian-vasthorne",
+      "to": "the-three-crowns",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "the-unpaid-war",
+      "kind": "precedes",
+      "declared": true
+    },
+    {
+      "from": "the-unpaid-war",
+      "to": "the-three-crowns",
+      "kind": "follows",
+      "declared": false
+    },
+    {
+      "from": "the-unpaid-war",
+      "to": "crownhold",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "the-unpaid-war",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-unpaid-war",
+      "to": "harrowmere",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-unpaid-war",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-unpaid-war",
+      "to": "the-gilded",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "the-unpaid-war",
       "kind": "featured-in",
       "declared": false
     },
@@ -15824,6 +16463,12 @@
     },
     {
       "year": 1,
+      "id": "the-burning-of-the-rolls",
+      "name": "The Burning of the Rolls",
+      "summary": "The peasant rising of Crownhold's hungry provinces under the one-armed prophet Quintus Ashhand, who burn the tax-rolls and the Greycloak houses and refuse the tenth."
+    },
+    {
+      "year": 1,
       "id": "the-ebb",
       "name": "The Ebb",
       "summary": "The first winter after the grey lifted, the sea began to go out from Old Kell and has not come back; the drowned quays are showing, every power in the Mark is moving toward the coast, and three gods have been given the credit."
@@ -15842,9 +16487,21 @@
     },
     {
       "year": 1,
+      "id": "the-three-crowns",
+      "name": "The Three Crowns",
+      "summary": "The war of succession in Crownhold, fought in shadow while Aurelian VII lives and in the open the winter he dies, when three heirs are crowned in three cities: the Fair, the Pale and the Bastard."
+    },
+    {
+      "year": 1,
       "id": "the-walk-to-the-hall",
       "name": "The Walk to the Hall",
       "summary": "In the first years of the Ebb, people from every corner of the Mark come to Wrackhead to go down into drowned Kell at low water, toward the iron hall and the ledger in it."
+    },
+    {
+      "year": 2,
+      "id": "the-unpaid-war",
+      "name": "The Unpaid War",
+      "summary": "The war Crownhold makes on Harrowmere to wipe out the empire's old debt with the sword, and Harrowmere fights with every free company money can buy."
     },
     {
       "year": 31,

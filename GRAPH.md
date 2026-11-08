@@ -15,12 +15,16 @@ graph LR
   hollin["Hollin"]
   hrok["Hrok"]
   jarn["Jarn"]
+  marcus-halberd["Marcus Halberd"]
   mardra["Mardra"]
   qeth-ummar["Qeth-Ummar"]
+  quintus-ashhand["Quintus Ashhand"]
   rauk["Rauk"]
   ruun["Ruun"]
   sarn["Sarn"]
+  seraphine-vasthorne["Seraphine Vasthorne"]
   sethra["Sethra"]
+  tiberian-vasthorne["Tiberian Vasthorne"]
   tolm["Tolm"]
   vell["Vell"]
   vurn["Vurn"]
@@ -60,6 +64,7 @@ graph LR
   the-hadd["The Hadd"]
   the-kneeling["The Kneeling"]
   the-saltless["The Saltless"]
+  the-unmourned["The Unmourned"]
   hask["Hask"]
   mother-murk["Mother Murk"]
   nevermourn["Nevermourn"]
@@ -84,12 +89,15 @@ graph LR
   wrack["Your Wrack"]
   gorveks-last-road["Gorvek's Last Road"]
   the-ashfall["The Ashfall"]
+  the-burning-of-the-rolls["The Burning of the Rolls"]
   the-drowning-of-kell["The Drowning of Kell"]
   the-ebb["The Ebb"]
   the-fall-of-vahr["The Fall of Vahr"]
   the-first-knot["The First Knot"]
   the-going-home["The Going Home"]
   the-heave["The Heave"]
+  the-three-crowns["The Three Crowns"]
+  the-unpaid-war["The Unpaid War"]
   the-walk-to-the-hall["The Walk to the Hall"]
   five-rites["Five Rites"]
   gorveks-creed["Gorvek's Creed"]
@@ -130,10 +138,16 @@ graph LR
   hrok -- enemy-of --> greycloaks
   jarn -- lives-in --> wrackhead
   jarn -- named-by --> linelord
+  marcus-halberd -- kin-of --> aurelian-vasthorne
+  marcus-halberd -- leads --> the-unmourned
+  marcus-halberd -- worships --> nevermourn
+  marcus-halberd -- features --> the-three-crowns
   mardra -- lives-in --> greyhollow
   mardra -- survived --> the-ashfall
   qeth-ummar -- rules --> old-vahr
   qeth-ummar -- serves --> the-unborn
+  quintus-ashhand -- leads --> the-burning-of-the-rolls
+  quintus-ashhand -- enemy-of --> greycloaks
   rauk -- born-in --> wrackhead
   rauk -- kin-of --> brim
   ruun -- member-of --> river-priests
@@ -144,9 +158,15 @@ graph LR
   sarn -- named-by --> thurn
   sarn -- haunts --> gallowmark
   sarn -- destroyed --> kell
+  seraphine-vasthorne -- kin-of --> aurelian-vasthorne
+  seraphine-vasthorne -- member-of --> the-kneeling
+  seraphine-vasthorne -- features --> the-three-crowns
   sethra -- rules --> brinevaults
   sethra -- rival-of --> jarn
   sethra -- named-by --> linelord
+  tiberian-vasthorne -- kin-of --> aurelian-vasthorne
+  tiberian-vasthorne -- features --> the-three-crowns
+  tiberian-vasthorne -- serves --> aleid-van-der-haalst
   tolm -- member-of --> greycloaks
   tolm -- lives-in --> wallgate
   vell -- member-of --> river-priests
@@ -203,6 +223,7 @@ graph LR
   the-kneeling -- serves --> ossar
   the-saltless -- lives-in --> saltgrave
   the-saltless -- enemy-of --> the-gilded
+  the-unmourned -- worships --> nevermourn
   hask -- haunts --> gallowmark
   hask -- haunts --> hangmoot
   mother-murk -- haunts --> feverfen
@@ -240,6 +261,8 @@ graph LR
   gorveks-last-road -- features --> brandfell
   gorveks-last-road -- features --> hrok
   the-ashfall -- destroyed --> bonereach
+  the-burning-of-the-rolls -- features --> crownhold
+  the-burning-of-the-rolls -- features --> greycloaks
   the-drowning-of-kell -- destroyed --> kell
   the-drowning-of-kell -- caused-by --> sarn
   the-drowning-of-kell -- precedes --> the-ashfall
@@ -257,6 +280,12 @@ graph LR
   the-heave -- caused --> the-ebb
   the-heave -- follows --> the-ashfall
   the-heave -- features --> brandfell
+  the-three-crowns -- features --> crownhold
+  the-three-crowns -- features --> aurelian-vasthorne
+  the-three-crowns -- precedes --> the-unpaid-war
+  the-unpaid-war -- features --> crownhold
+  the-unpaid-war -- features --> harrowmere
+  the-unpaid-war -- features --> the-gilded
   the-walk-to-the-hall -- follows --> the-ebb
   the-walk-to-the-hall -- features --> wrackhead
   the-walk-to-the-hall -- features --> the-iron-hall

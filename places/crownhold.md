@@ -28,6 +28,13 @@ else they take.
 In the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not
 to find. Some of the people who meet there wear court silk.
 
+## The crises
+
+- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and
+  [[marcus-halberd]], and one old king.
+- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].
+- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.
+
 ## Threads
 
 - How much of Crownhold does the order already own?
