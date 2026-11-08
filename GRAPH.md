@@ -29,48 +29,65 @@ graph LR
   tolm["Tolm"]
   vell["Vell"]
   vurn["Vurn"]
+  ahl-sereth["Ahl-Sereth"]
   bonded-stores["The Bonded Stores"]
   bonereach["Bonereach"]
   brandfell["Brandfell"]
   bricked-rooms["The Bricked Rooms"]
   brinevaults["The Brinevaults"]
   crownhold["Crownhold"]
+  driftholds["Driftholds"]
+  emberstead["Emberstead"]
   feverfen["The Feverfen"]
+  fordham["Fordham"]
   gallowmark["Gallowmark"]
   glassands["The Glassands"]
   greyhollow["Greyhollow"]
+  grimwatch["Grimwatch"]
   hangmoot["Hangmoot"]
   harrowmere["Harrowmere"]
   harth["Harth"]
   hookford["Hookford"]
+  irondeep["Irondeep"]
   kell["Kell"]
   kings-way["The King's Way"]
   lowstreets["The Lowstreets"]
   old-vahr["Old Vahr"]
   quaysteps["The Quaysteps"]
   rimewold["The Rimewold"]
+  rotwater["Rotwater"]
   saltgrave["Saltgrave"]
   smokemouth["Smokemouth"]
   stillwater["Stillwater"]
   strongrooms["The Strongrooms"]
+  the-black-step["The Black Step"]
+  the-greywood["The Greywood"]
   the-iron-hall["The Iron Hall"]
+  the-sleepers-wall["The Sleepers' Wall"]
   the-teeth["The Teeth"]
   the-tenth-palace["The Tenth Palace"]
+  ush-kaddah["Ush-Kaddah"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
   argentine-houses["The Argentine Houses"]
   blackwakes-own["Blackwake's Own"]
+  clan-skoll["Clan Skoll-Without-Fire"]
   greycloaks["The Greycloaks"]
   ossar["The Ossar"]
+  qarr-dhuun["Qarr-Dhuun"]
   rimeclans["The Rimeclans"]
   river-priests["The River-Priests of Thurn"]
   the-ashen["The Ashen"]
   the-gilded["The Gilded"]
   the-hadd["The Hadd"]
+  the-holdfast-lords["The Holdfast Lords"]
   the-honest-company-of-takers["The Honest Company of Takers"]
   the-kneeling["The Kneeling"]
+  the-leech-mothers["The Leech-Mothers"]
+  the-ninth-rope["The Ninth Rope"]
   the-saltless["The Saltless"]
   the-unmourned["The Unmourned"]
+  the-well-kings["The Well-Kings"]
   hask["Hask"]
   mother-murk["Mother Murk"]
   nevermourn["Nevermourn"]
@@ -103,6 +120,7 @@ graph LR
   the-going-home["The Going Home"]
   the-heave["The Heave"]
   the-hiring-of-the-wise["The Hiring of the Wise"]
+  the-icething["The Icething"]
   the-three-crowns["The Three Crowns"]
   the-unpaid-war["The Unpaid War"]
   the-walk-to-the-hall["The Walk to the Hall"]
@@ -185,6 +203,7 @@ graph LR
   vell -- born-in --> hookford
   vurn -- born-in --> bonereach
   vurn -- survived --> the-ashfall
+  ahl-sereth -- located-in --> glassands
   bonded-stores -- located-in --> quaysteps
   bonereach -- located-in --> gallowmark
   bonereach -- survived --> the-ashfall
@@ -193,29 +212,44 @@ graph LR
   bricked-rooms -- located-in --> lowstreets
   brinevaults -- located-in --> kell
   crownhold -- located-in --> harth
+  driftholds -- located-in --> feverfen
+  emberstead -- located-in --> rimewold
+  emberstead -- worships --> the-old-smith-under-the-snow
   feverfen -- located-in --> harth
+  fordham -- located-in --> gallowmark
   gallowmark -- contains --> kell
   gallowmark -- home-of --> greycloaks
   glassands -- located-in --> harth
   greyhollow -- located-in --> gallowmark
   greyhollow -- contains --> the-ashfall
+  grimwatch -- located-in --> gallowmark
+  grimwatch -- guarded-by --> greycloaks
   hangmoot -- located-in --> gallowmark
   harrowmere -- located-in --> harth
   harth -- contains --> gallowmark
   harth -- contains --> rimewold
   harth -- contains --> the-teeth
   hookford -- located-in --> gallowmark
+  irondeep -- located-in --> gallowmark
   kell -- created --> iron-crown-of-kell
   kings-way -- located-in --> the-iron-hall
   lowstreets -- located-in --> kell
   old-vahr -- located-in --> glassands
   quaysteps -- located-in --> kell
+  rotwater -- located-in --> feverfen
   saltgrave -- located-in --> harth
   smokemouth -- located-in --> the-teeth
   stillwater -- located-in --> harrowmere
   strongrooms -- located-in --> brinevaults
+  the-black-step -- located-in --> feverfen
+  the-black-step -- created-by --> ossar
+  the-greywood -- located-in --> gallowmark
+  the-greywood -- survived --> the-ashfall
   the-iron-hall -- located-in --> kell
+  the-sleepers-wall -- located-in --> rimewold
   the-tenth-palace -- located-in --> harrowmere
+  ush-kaddah -- located-in --> glassands
+  ush-kaddah -- home-of --> the-hadd
   wallgate -- located-in --> gallowmark
   wrackhead -- located-in --> gallowmark
   argentine-houses -- lives-in --> harth
@@ -223,11 +257,15 @@ graph LR
   blackwakes-own -- lives-in --> the-teeth
   blackwakes-own -- ally-of --> the-saltless
   blackwakes-own -- enemy-of --> the-gilded
+  clan-skoll -- member-of --> rimeclans
+  clan-skoll -- survived --> the-sleepers-wall
   greycloaks -- guards --> kell
   greycloaks -- guards --> wallgate
   greycloaks -- haunts --> harth
   ossar -- serves --> the-unborn
   ossar -- lives-in --> harth
+  qarr-dhuun -- lives-in --> glassands
+  qarr-dhuun -- serves --> the-gilded
   rimeclans -- lives-in --> rimewold
   rimeclans -- enemy-of --> greycloaks
   river-priests -- worships --> thurn
@@ -236,13 +274,22 @@ graph LR
   the-ashen -- survived --> the-ashfall
   the-gilded -- rules --> harrowmere
   the-hadd -- lives-in --> glassands
+  the-holdfast-lords -- lives-in --> gallowmark
+  the-holdfast-lords -- serves --> greycloaks
   the-honest-company-of-takers -- lives-in --> harrowmere
   the-honest-company-of-takers -- named-by --> sarn
   the-kneeling -- worships --> the-unborn
   the-kneeling -- serves --> ossar
+  the-leech-mothers -- lives-in --> feverfen
+  the-leech-mothers -- serves --> mother-murk
+  the-ninth-rope -- serves --> hask
+  the-ninth-rope -- lives-in --> hangmoot
+  the-ninth-rope -- enemy-of --> the-kneeling
   the-saltless -- lives-in --> saltgrave
   the-saltless -- enemy-of --> the-gilded
   the-unmourned -- worships --> nevermourn
+  the-well-kings -- rules --> glassands
+  the-well-kings -- serves --> the-unborn
   hask -- haunts --> gallowmark
   hask -- haunts --> hangmoot
   mother-murk -- haunts --> feverfen
@@ -301,6 +348,8 @@ graph LR
   the-heave -- features --> brandfell
   the-hiring-of-the-wise -- features --> harrowmere
   the-hiring-of-the-wise -- features --> the-gilded
+  the-icething -- features --> rimewold
+  the-icething -- features --> rimeclans
   the-three-crowns -- features --> crownhold
   the-three-crowns -- features --> aurelian-vasthorne
   the-three-crowns -- precedes --> the-unpaid-war

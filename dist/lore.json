@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 429,
+  "entityCount": 447,
   "types": [
     "character",
     "place",
@@ -1065,6 +1065,34 @@
       "body": "## Who\n\nTwo walked out of the grey into the same village on the same morning. One was [[gorvek]].\nThe other was Vurn, who was thinner, louder, and had kept count of the days. The elders of\n[[bonereach]] asked them both what they wanted. Gorvek's answer became a creed. Vurn's\nanswer was *ale*, and the Reach has liked him for it since.\n\n## The telling\n\nVurn tells the sagas. He tells them at [[hookford]] for drink, on the ridge at\n[[hangmoot]] for free, and in Bonereach to children who have heard them before. They are\nthe sagas of the Reach: what a warrior wants, what a warrior does, and what he says when\nthe work is done. Half of them are Gorvek's deeds and the other half are Vurn's, and Vurn\nhas been honest about which is which exactly once, and was drunk.\n\n## Voice\n\nVurn speaks in the cadence of the sagas because he made it. Loud, physical, present tense,\nwith a boast at the end where Gorvek would have put nothing. He swears by the Ashfall, like\nGorvek, and also by ale, mead, the Reach, and anything else within reach.\n\n## In the world\n\n- He reads. He reads the ledger [[linelord]] aloud to Gorvek, who says he does not need it\n  and listens to every line.\n- He has met [[sarn]] once, and told the story forty times, and it is different every time,\n  and the eyes are always yellow.\n\n## Threads\n\n- What did Vurn count in the grey, and why did he stop at the number he stopped at?",
       "file": "characters/vurn.md"
     },
+    "ahl-sereth": {
+      "id": "ahl-sereth",
+      "type": "place",
+      "name": "Ahl-Sereth",
+      "aliases": [
+        "the White",
+        "Where Night Does Not Come",
+        "the Emperor's Floor"
+      ],
+      "status": "canon",
+      "tags": [
+        "desert",
+        "glass",
+        "glassands",
+        "forbidden",
+        "sorcery"
+      ],
+      "summary": "The innermost glass around Old Vahr, white and faintly glowing at night, where the emperors stood when they made their last asking; the Hadd never walk it, and something else does.",
+      "relations": [
+        {
+          "to": "glassands",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The glass\n\nFor a day's walk in every direction from [[old-vahr]], the glass is white. Not green, not black:\nwhite, smooth as ice, and at night it gives off a light like the moon through cloud, so that\nthe dark never quite comes. The [[the-hadd]] call it the place where night does not come, and\nwill not walk on it for any price.\n\n## What walks it\n\nTracks cross the white glass that are not Qaddir, not horse, not man. Caravans that cut a corner\nof it lose people in the night without a sound. [[qeth-ummar]]'s Paid walk it to and from his\npalace and come to no harm, which tells you something.\n\n## Threads\n\n- What did the emperors ask for, standing here, and is it still being given?",
+      "file": "places/ahl-sereth.md"
+    },
     "bonded-stores": {
       "id": "bonded-stores",
       "type": "place",
@@ -1303,6 +1331,64 @@
       "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## The crises\n\n- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and\n  [[marcus-halberd]], and one old king.\n- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].\n- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
       "file": "places/crownhold.md"
     },
+    "driftholds": {
+      "id": "driftholds",
+      "type": "place",
+      "name": "Driftholds",
+      "aliases": [
+        "the floating villages",
+        "reed-rafts"
+      ],
+      "status": "canon",
+      "tags": [
+        "village",
+        "feverfen",
+        "reed",
+        "nomadic"
+      ],
+      "summary": "The floating villages of the fen-folk, built on islands of woven reed that drift with the water, so that no one, and nothing, can find them twice in the same place.",
+      "relations": [
+        {
+          "to": "feverfen",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The villages\n\nA drifthold is a raft of reed as big as a field, a dozen huts on it, gardens in baskets, and\nthe whole thing moving a little every day with the current. When the fen-folk want to go\nsomewhere else, they pole it. When something finds them, they cut the ropes and scatter.\n\n## Why\n\nThe fen-folk say a place that stays still gets known, and a place that gets known gets visited,\nand the [[ossar]] visit. No drifthold has ever been built within sight of [[the-black-step]].",
+      "file": "places/driftholds.md"
+    },
+    "emberstead": {
+      "id": "emberstead",
+      "type": "place",
+      "name": "Emberstead",
+      "aliases": [
+        "the Smithing Town",
+        "the Warm Side"
+      ],
+      "status": "canon",
+      "tags": [
+        "town",
+        "forge",
+        "rimewold",
+        "brandfell",
+        "fire"
+      ],
+      "summary": "The town of smiths on the south face of Brandfell, where snow does not lie; they forge with the mountain's own heat and every forge has a hole in its back wall for the Old Smith to look out.",
+      "relations": [
+        {
+          "to": "rimewold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-old-smith-under-the-snow",
+          "kind": "worships",
+          "declared": true
+        }
+      ],
+      "body": "## The town\n\nSince [[brandfell]] split, its south face has been warm. Vents in the rock breathe hot air,\nand the snow melts before it lands. The smiths of the north came up to it and built Emberstead\nin the vents: stone forges set over cracks in the mountain, fed by the fire under it, no\ncharcoal needed.\n\n## The work\n\nThe best iron in Harth comes out of Emberstead, black, heavy, and slightly warm for a day after\nit is quenched. The smiths worship [[the-old-smith-under-the-snow]] and burn something for\nhim every winter. Some winters it is a smith.\n\n## Threads\n\n- What are the smiths hearing in the vents at night, that has made three of them walk into\n  the mountain?",
+      "file": "places/emberstead.md"
+    },
     "feverfen": {
       "id": "feverfen",
       "type": "place",
@@ -1328,9 +1414,29 @@
           "declared": false
         },
         {
+          "to": "driftholds",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "rotwater",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-black-step",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-leech-mothers",
+          "kind": "home-of",
+          "declared": false
         },
         {
           "to": "mother-murk",
@@ -1343,8 +1449,34 @@
           "declared": false
         }
       ],
-      "body": "## The fen\n\nWhere the rivers of the east come to the sea they give up and spread out into a hundred\nmiles of mangrove, reed and black water under a canopy that does not let the sun down.\nFever lives here, and leeches as long as a forearm, and things the fen-folk do not name.\n\n## The temples\n\nThe [[ossar]] built in black stone, and here the stone still stands, stepped temples rising\nout of the water with the jungle grown over them. The fen-folk fish around them and do not\ngo inside. The ones who do go in come out pale, if they come out.\n\n## The fen-folk\n\nSmall, quiet, tattooed people who pole flat boats through the channels and trade with the\nreavers of [[the-teeth]]. They worship nothing. They say worship is what the Ossar wanted.\n\n## Threads\n\n- What do the fen-folk leave on the temple steps every new moon, and who takes it?",
+      "body": "## The fen\n\nWhere the rivers of the east come to the sea they give up and spread out into a hundred\nmiles of mangrove, reed and black water under a canopy that does not let the sun down.\nFever lives here, and leeches as long as a forearm, and things the fen-folk do not name.\n\n## The temples\n\nThe [[ossar]] built in black stone, and here the stone still stands, stepped temples rising\nout of the water with the jungle grown over them. The fen-folk fish around them and do not\ngo inside. The ones who do go in come out pale, if they come out.\n\n## The fen-folk\n\nSmall, quiet, tattooed people who pole flat boats through the channels and trade with the\nreavers of [[the-teeth]]. They worship nothing. They say worship is what the Ossar wanted.\n\n## Places and powers\n\n- [[the-black-step]], the greatest temple.\n- [[driftholds]], the floating villages.\n- [[the-leech-mothers]], the fever-healers.\n- [[rotwater]], the smugglers' port.\n\n## Threads\n\n- What do the fen-folk leave on the temple steps every new moon, and who takes it?",
       "file": "places/feverfen.md"
+    },
+    "fordham": {
+      "id": "fordham",
+      "type": "place",
+      "name": "Fordham",
+      "aliases": [
+        "the Horse Fair",
+        "the Third Ford"
+      ],
+      "status": "canon",
+      "tags": [
+        "town",
+        "market",
+        "gallowmark",
+        "river"
+      ],
+      "summary": "The market town on the third grey river, where the horse and cattle fairs of the Mark are held, the Holdfast Lords hire their swords, and every feud in the west is settled or started.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The town\n\n[[hookford]] has the bridge and the hooks. Fordham has the horses. On the third of the grey\nrivers, where it runs shallow over gravel, the fairs of the west Mark have been held since the\nash cleared: horses, cattle, iron from [[irondeep]], grey wood from [[the-greywood]], and swords\nfor hire.\n\n## The fair\n\nAt the spring fair the [[the-holdfast-lords]] hire their seasons of Ashborn, and the Ashborn\nlook them over the way they look over the horses. More feuds start at Fordham than anywhere in\nthe Mark, and more end there.",
+      "file": "places/fordham.md"
     },
     "gallowmark": {
       "id": "gallowmark",
@@ -1376,6 +1508,11 @@
           "declared": false
         },
         {
+          "to": "fordham",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "kell",
           "kind": "contains",
           "declared": true
@@ -1387,6 +1524,11 @@
         },
         {
           "to": "greyhollow",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "grimwatch",
           "kind": "contains",
           "declared": false
         },
@@ -1406,6 +1548,16 @@
           "declared": false
         },
         {
+          "to": "irondeep",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-greywood",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "wallgate",
           "kind": "contains",
           "declared": false
@@ -1413,6 +1565,11 @@
         {
           "to": "wrackhead",
           "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-holdfast-lords",
+          "kind": "home-of",
           "declared": false
         },
         {
@@ -1426,7 +1583,7 @@
           "declared": false
         }
       ],
-      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[brandfell]] beyond it, the mountain that split and burned.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the ash never cooled.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] came down out of [[brandfell]] over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the ash cleared the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
+      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[brandfell]] beyond it, the mountain that split and burned.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the ash never cooled.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## More of the Mark\n\n- [[the-greywood]], the forest that died standing, in the west.\n- [[grimwatch]], the border keep on the imperial road south.\n- [[irondeep]], the mining town in the foothills.\n- [[fordham]], the horse fair on the third river.\n- [[the-holdfast-lords]] in their towers, and [[the-ninth-rope]] at Hangmoot.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] came down out of [[brandfell]] over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the ash cleared the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
       "file": "places/gallowmark.md"
     },
     "glassands": {
@@ -1448,6 +1605,11 @@
       "summary": "The desert where the heartland of Vahr burned in one night; sand fused to glass for a hundred miles, ruin-cities half buried in it, caravan roads between them, and sorcerer-kings in the old towers.",
       "relations": [
         {
+          "to": "ahl-sereth",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "located-in",
           "declared": true
@@ -1458,8 +1620,23 @@
           "declared": false
         },
         {
+          "to": "ush-kaddah",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "qarr-dhuun",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "the-hadd",
           "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "the-well-kings",
+          "kind": "ruled-by",
           "declared": false
         },
         {
@@ -1473,7 +1650,7 @@
           "declared": false
         }
       ],
-      "body": "## The desert\n\nSouth of Crownhold the land goes yellow, then white, then hard. For a hundred miles around\n[[old-vahr]] the sand is glass, green and black and cracked, and a man who walks on it in\nthe noon sun goes blind. The caravans cross at night, between the old cities, carrying salt,\nglass, and what the diggers bring out of the ruins.\n\n## The ruins\n\nVahr's cities are still out there, half drowned in sand: towers, aqueducts, streets of\nstatues with their faces melted. Under them are older foundations, black and too large, that\nwere the [[ossar]]'s. Diggers go down for gold and come up with bones too long for any grave.\n\n## The kings of the glass\n\nIn the old towers sit sorcerer-kings who rule a well, a ruin and a few hundred desperate\npeople each, and who make pacts with [[the-unborn]] the way other kings raise taxes. The\ngreatest of them is [[qeth-ummar]], in Old Vahr itself.\n\n## Threads\n\n- What is under the glass, in the place where the fire was whitest?",
+      "body": "## The desert\n\nSouth of Crownhold the land goes yellow, then white, then hard. For a hundred miles around\n[[old-vahr]] the sand is glass, green and black and cracked, and a man who walks on it in\nthe noon sun goes blind. The caravans cross at night, between the old cities, carrying salt,\nglass, and what the diggers bring out of the ruins.\n\n## The ruins\n\nVahr's cities are still out there, half drowned in sand: towers, aqueducts, streets of\nstatues with their faces melted. Under them are older foundations, black and too large, that\nwere the [[ossar]]'s. Diggers go down for gold and come up with bones too long for any grave.\n\n## The kings of the glass\n\nIn the old towers sit sorcerer-kings who rule a well, a ruin and a few hundred desperate\npeople each, and who make pacts with [[the-unborn]] the way other kings raise taxes. The\ngreatest of them is [[qeth-ummar]], in Old Vahr itself.\n\n## Places and powers\n\n- [[ush-kaddah]], the city of the bottomless well.\n- [[the-well-kings]], the sorcerer-kings of the towers.\n- [[qarr-dhuun]], the diggers' guild.\n- [[ahl-sereth]], the white glass where night does not come.\n\n## Threads\n\n- What is under the glass, in the place where the fire was whitest?",
       "file": "places/glassands.md"
     },
     "greyhollow": {
@@ -1518,6 +1695,37 @@
       "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the ash of [[the-ashfall]] lay\nthree men deep and never cooled. The ground under it is hot. Smoke comes up through it and\nstands in the hollow like milk in a bowl, and does not move with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the Ashfall. Mardra says it is the nearest the fire\nunder the Mark comes to the top, and that the Hollow is not cooling. It is warming.\n\n## Threads\n\n- Why is the Hollow warmer every winter since the sea began to go out?",
       "file": "places/greyhollow.md"
     },
+    "grimwatch": {
+      "id": "grimwatch",
+      "type": "place",
+      "name": "Grimwatch",
+      "aliases": [
+        "the South Watch",
+        "the Border Keep"
+      ],
+      "status": "canon",
+      "tags": [
+        "fortress",
+        "border",
+        "gallowmark",
+        "crownhold"
+      ],
+      "summary": "The stone fortress on the southern border of Gallowmark where the old imperial road crosses into Crownhold; held by the Greycloaks for a king who has forgotten it, and the first place the Three Crowns will fight over.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "guarded-by",
+          "declared": true
+        }
+      ],
+      "body": "## The keep\n\nGrimwatch is Vahrish, older than anything else in the Mark, a square of black stone where the\nimperial road comes down out of the hills into Gallowmark. [[crownhold]] built it as a border\nkeep. The [[greycloaks]] were hired to garrison it two hundred years ago and never left.\n\n## Now\n\nWhichever of [[the-three-crowns]] holds Grimwatch holds the road north. All three know it.\nThe captain of the keep has received three letters this winter and answered all three, politely.",
+      "file": "places/grimwatch.md"
+    },
     "hangmoot": {
       "id": "hangmoot",
       "type": "place",
@@ -1539,6 +1747,11 @@
           "to": "gallowmark",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "the-ninth-rope",
+          "kind": "home-of",
+          "declared": false
         },
         {
           "to": "hask",
@@ -1736,6 +1949,32 @@
       ],
       "body": "## The town\n\nTwo of the three grey rivers meet at Hookford. The ford was there before the town, and the\nbridge before the [[greycloaks]]. It is the only place in the middle Mark with a market, a\nsmith who takes coin, and a hall where a stranger can sleep with a door between him and the\nwind. The people of the Mark distrust it accordingly.\n\n## The hooks\n\nThe Greycloaks hung their hooks on the bridge the year they came, one per span, and hang the\ntithe-books from them. Nobody has ever been hanged from the bridge. Everybody knows that they\ncould be, and pays.\n\n## The road\n\nEvery road in the Mark passes through Hookford: down from [[wallgate]] and [[bonereach]], up\nfrom [[wrackhead]] and the coast, east to the rim of [[greyhollow]], and the ridge road to\n[[hangmoot]]. If [[the-ebb]] pulls the Mark to the coast, it will pull it through here.\n\n## Threads\n\n- Who owned the bridge before the hooks?",
       "file": "places/hookford.md"
+    },
+    "irondeep": {
+      "id": "irondeep",
+      "type": "place",
+      "name": "Irondeep",
+      "aliases": [
+        "the Pits",
+        "the Deep Town"
+      ],
+      "status": "canon",
+      "tags": [
+        "town",
+        "mine",
+        "gallowmark",
+        "iron"
+      ],
+      "summary": "The mining town in the foothills of the Wallmountains, built over the deepest iron pits in the Mark; the shafts have grown warm since Brandfell split, and the miners have started hearing things.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The town\n\nBlack houses on a black hillside, slag-heaps, and the mouths of the pits. Irondeep has dug iron\nfor the Mark since before [[kell]] had a quay. The miners are Ashborn, debtors and convicts, and\nthe [[greycloaks]] take a tenth of the ore at the pithead.\n\n## Since Brandfell\n\nThe deep shafts have grown warm. The lowest galleries are too hot to work in summer. The miners\nsay they hear knocking below the deepest level, regular, like a hammer. The smiths of\n[[emberstead]] say they know exactly what that is.\n\n## Threads\n\n- Who is knocking?",
+      "file": "places/irondeep.md"
     },
     "kell": {
       "id": "kell",
@@ -2005,8 +2244,18 @@
       "summary": "The frozen uplands north of the Wallmountains, where the clans fight the winter and each other, Brandfell smokes on the southern skyline, and the ice is older than anything that walks on it.",
       "relations": [
         {
+          "to": "emberstead",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "located-in",
+          "declared": false
+        },
+        {
+          "to": "the-sleepers-wall",
+          "kind": "contains",
           "declared": false
         },
         {
@@ -2023,10 +2272,41 @@
           "to": "gorveks-last-road",
           "kind": "featured-in",
           "declared": false
+        },
+        {
+          "to": "the-icething",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
-      "body": "## The land\n\nNorth of the [[wallgate]] the world goes white and stays white. Snowfields, black stone,\nlakes frozen to the bottom, and wind that does not stop for a generation at a time. The\nclans of the Rimewold live in longhouses dug into the hillsides and fight over the few\nvalleys where anything grows. [[brandfell]] smokes on the southern horizon, and since it\nsplit the snow on that side melts in the middle of winter.\n\n## The clans\n\nThe [[rimeclans]] have no king and want none. They raid south through the Wallgate when the\nwinters are bad, and the winters are always bad. A clan is a hall, a chief, and whoever\nfollowed the chief home from the last fight.\n\n## The ice\n\nThe ice is not only weather. In the deep north it stands in walls taller than any tower,\nand in it, if you go far enough, there are shapes. The clans do not go that far.\n\n## Threads\n\n- What is frozen in the far ice?\n- Did [[gorvek]] go that far?",
+      "body": "## The land\n\nNorth of the [[wallgate]] the world goes white and stays white. Snowfields, black stone,\nlakes frozen to the bottom, and wind that does not stop for a generation at a time. The\nclans of the Rimewold live in longhouses dug into the hillsides and fight over the few\nvalleys where anything grows. [[brandfell]] smokes on the southern horizon, and since it\nsplit the snow on that side melts in the middle of winter.\n\n## The clans\n\nThe [[rimeclans]] have no king and want none. They raid south through the Wallgate when the\nwinters are bad, and the winters are always bad. A clan is a hall, a chief, and whoever\nfollowed the chief home from the last fight.\n\n## The ice\n\nThe ice is not only weather. In the deep north it stands in walls taller than any tower,\nand in it, if you go far enough, there are shapes. The clans do not go that far.\n\n## Places and powers\n\n- [[the-icething]], the seventh-year moot on the ice.\n- [[emberstead]], the smiths' town on Brandfell's warm face.\n- [[the-sleepers-wall]], the ice with shapes in it.\n- [[clan-skoll]], the clan that came back.\n\n## Threads\n\n- What is frozen in the far ice?\n- Did [[gorvek]] go that far?",
       "file": "places/rimewold.md"
+    },
+    "rotwater": {
+      "id": "rotwater",
+      "type": "place",
+      "name": "Rotwater",
+      "aliases": [
+        "the Smugglers' Port, the Fen Market"
+      ],
+      "status": "canon",
+      "tags": [
+        "port",
+        "smugglers",
+        "feverfen",
+        "teeth",
+        "trade"
+      ],
+      "summary": "The rotten smuggling port on the Feverfen coast where the reavers of the Teeth sell their plunder; rum, poison, slaves, incense, and no questions, under lanterns that mean safe trading tonight and only tonight.",
+      "relations": [
+        {
+          "to": "feverfen",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The port\n\nStilt-houses over the mud at a river mouth, a quay of rotting timber, a hundred taverns and no\nlaw. The reavers of [[the-teeth]] bring their prizes here, and the buyers of [[harrowmere]] come\nmasked to buy them back. Lanterns hung on the quay mean trading is safe tonight. When the\nlanterns come down, it is not.\n\n## Who is here\n\nEveryone. Fen-folk selling fish and poison, reavers, Harrowmere factors, deserters from\n[[the-unpaid-war]], [[the-honest-company-of-takers]] on a working holiday, and the\n[[greycloaks]], who keep a small, polite house by the quay and tithe the lantern-oil.\n\n## Threads\n\n- Who pays for the lanterns?",
+      "file": "places/rotwater.md"
     },
     "saltgrave": {
       "id": "saltgrave",
@@ -2136,6 +2416,68 @@
       "body": "## The rooms\n\nEvery vault of the clerks had its strongroom, behind a door with two locks and a\nclerk's seal on each. The first ledgers were kept there, and the clerks' own\npay, and the things the clerks took in lieu. The doors held when the water came\nin. The packing has made them part of the wall.\n\n## Threads\n\n- What did the strongroom ledgers count, if not lines?",
       "file": "places/strongrooms.md"
     },
+    "the-black-step": {
+      "id": "the-black-step",
+      "type": "place",
+      "name": "The Black Step",
+      "aliases": [
+        "the Great Temple",
+        "the Lantern Stair"
+      ],
+      "status": "canon",
+      "tags": [
+        "temple",
+        "ossar",
+        "feverfen",
+        "ruin"
+      ],
+      "summary": "The greatest of the Ossar temples, a black stepped pyramid in the heart of the Feverfen where lights burn on the top at night that nobody has lit; the fen-folk leave offerings on its lowest step.",
+      "relations": [
+        {
+          "to": "feverfen",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "ossar",
+          "kind": "created-by",
+          "declared": true
+        }
+      ],
+      "body": "## The temple\n\nIn the middle of the [[feverfen]], where the water is deepest and the trees tallest, a black\npyramid stands up out of the swamp in steps, each one the height of a man. Vines cover the lower\nsteps. The upper ones are clean. Nothing grows on them, and nothing has been seen to clean them.\n\n## The lights\n\nOn some nights there are lights at the top: pale, steady, not fire. The fen-folk leave fish,\nreed-cloth and sometimes worse on the lowest step at new moon, and in the morning it is gone.\n[[the-leech-mothers]] say the [[ossar]] are inside, and that the warmth coming out of the\ntemple has been rising every year since [[brandfell]] split.\n\n## Threads\n\n- How many steps are there below the water?",
+      "file": "places/the-black-step.md"
+    },
+    "the-greywood": {
+      "id": "the-greywood",
+      "type": "place",
+      "name": "The Greywood",
+      "aliases": [
+        "the Dead Wood",
+        "the Standing Trees"
+      ],
+      "status": "canon",
+      "tags": [
+        "forest",
+        "ash",
+        "gallowmark",
+        "outlaws"
+      ],
+      "summary": "The forest of the west Mark that died in the Ashfall and never fell; grey trunks to the horizon, no leaves, no birds, outlaws in the hollows and worse things in the deep of it.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashfall",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## The wood\n\nWest of [[hookford]] the old forest of the Mark stood in the path of the ash. It died standing.\nThirty years on, the trunks are still there, grey and bare, hard as bone, and the wind goes\nthrough them with a sound like breathing. Nothing grows under them. Nothing nests in them.\n\n## Who lives there\n\nOutlaws, because the [[greycloaks]] do not go in. Charcoal-burners, because grey wood burns hot.\nAnd in the deep of it, past where the outlaws go, things the outlaws do not name.\n\n## Threads\n\n- Why has nobody ever found the far side of the deep wood?",
+      "file": "places/the-greywood.md"
+    },
     "the-iron-hall": {
       "id": "the-iron-hall",
       "type": "place",
@@ -2186,6 +2528,37 @@
       ],
       "body": "## The hall\n\nThe iron roof is the only part of [[kell]] the coast can see, and since [[the-ebb]] it stands\nclear of the salt a little longer every low water. Under it the king sits with the\n[[iron-crown-of-kell]] on his head and three empty sockets in it. The iron is warm.\n\n## The guard\n\nThe king's household guard drowned at their posts in full iron, and [[the-standing]] are\nwhat is left of them: two ranks down the length of the hall, salt-white, facing the door.\nThey do not move while the king sits. Reach for what is his and they do.\n\n## The floor\n\nThe flagstones are warm under the silt, warmer the nearer the throne. In the middle of the\nfloor is the grate of the great cistern, and the water that goes down it comes back up as\nsteam on a cold day. [[the-heave]] is under the hall, and closest here.\n\n## The ledger\n\n[[linelord]] lies open on its stand at the king's right hand. The last line in it is not the\nking's. [[corve]] sits beside it and has not moved in years. Behind the throne, the\n[[kings-way]] goes up.\n\n## Threads\n\n- Is one of the three rubies still in this room, as Sarn has never quite denied?\n- What did [[gorvek]] take out of here in a sack?",
       "file": "places/the-iron-hall.md"
+    },
+    "the-sleepers-wall": {
+      "id": "the-sleepers-wall",
+      "type": "place",
+      "name": "The Sleepers' Wall",
+      "aliases": [
+        "the Long White Wall",
+        "the Wall in the Ice"
+      ],
+      "status": "canon",
+      "tags": [
+        "ice",
+        "north",
+        "ossar",
+        "mystery"
+      ],
+      "summary": "The cliffs of ancient ice in the far north of the Rimewold, taller than any tower, in which shapes stand frozen; the clans say they are not dead, they are sleeping.",
+      "relations": [
+        {
+          "to": "rimewold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "clan-skoll",
+          "kind": "survived-by",
+          "declared": false
+        }
+      ],
+      "body": "## The wall\n\nFar north, past the last valley anyone has farmed, the ice stands up in a wall: blue-white,\nmiles long, higher than the towers of [[crownhold]]. In it, deep, there are shapes. Tall ones,\ntoo tall, standing upright with their arms at their sides, the way the [[ossar]] were drawn on\nthe walls of their temples. Behind them, deeper, larger ones that are not shaped like anything.\n\n## The sleep\n\nThe [[rimeclans]] say the shapes are sleeping, not dead, and that the cold is what keeps them\nasleep. Since [[brandfell]] split, the north has been warmer. Water runs down the face of the Wall\nin summer now. [[clan-skoll]] went there and came back changed.\n\n## Threads\n\n- How much warmer does the north have to get?",
+      "file": "places/the-sleepers-wall.md"
     },
     "the-teeth": {
       "id": "the-teeth",
@@ -2253,6 +2626,38 @@
       ],
       "body": "## The house\n\nBetween the palaces of Salt and Tallow stands one more, as fine as either, built of the same\npale stone, and it has no doors. No windows. No water-gate. The canal runs along its walls and\nnothing goes in. The people of [[harrowmere]] call whatever lives there the Tenth Prince.\n\n## The payment\n\nOnce a year, on the night of [[the-hiring-of-the-wise]], each of [[the-gilded]] sends a sealed\nchest by barge, and the barge is tied against the blank wall, and in the morning the chest is\ngone. Each house keeps the contents in its own ledger. No house has ever shown another.\n\n## Threads\n\n- What did the Gilded buy, when they bought Vahr's debts, that came with a house?",
       "file": "places/the-tenth-palace.md"
+    },
+    "ush-kaddah": {
+      "id": "ush-kaddah",
+      "type": "place",
+      "name": "Ush-Kaddah",
+      "aliases": [
+        "the Well That Does Not Count",
+        "the Neutral City"
+      ],
+      "status": "canon",
+      "tags": [
+        "city",
+        "well",
+        "glassands",
+        "neutral",
+        "trade"
+      ],
+      "summary": "The only living city of the Glassands, built around a well no one has found the bottom of; neutral ground for every Hadd tribe, Well-King and caravan, where blood spilled is paid for in water.",
+      "relations": [
+        {
+          "to": "glassands",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-hadd",
+          "kind": "home-of",
+          "declared": true
+        }
+      ],
+      "body": "## The city\n\nA circle of white walls around a hole in the glass. The well at the heart of Ush-Kaddah is\nwide as a market square and goes down past the reach of any rope. The water is cold and never\nfails. Around it, the only city in the [[glassands]]: markets, caravanserais, Hadd tents, the\ncounting-houses of [[harrowmere]], and a small grey chapterhouse of the [[greycloaks]].\n\n## The peace\n\nThe name means *the water that does not count*: here no tribe, king or caravan owes anything\nfor drinking. Blood spilled inside the walls is paid for in water, weighed against the dead, and\nthe killer goes thirsty for the debt. Even [[the-well-kings]] keep the peace here.\n\n## Threads\n\n- What is at the bottom of the well, that keeps the water cold?",
+      "file": "places/ush-kaddah.md"
     },
     "wallgate": {
       "id": "wallgate",
@@ -2430,6 +2835,38 @@
       "body": "## The crews\n\nEvery one of them has rowed in chains. They wear the scar of the oar-iron on the ankle and do\nnot hide it. They take only slave ships, or ships that owe [[the-gilded]], which is all of them.\n\n## Custom\n\nThey leave a galley drifting with its hold open and its masters chained to the oars. The\n[[the-saltless]] of [[saltgrave]] send them salt every year, which in Saltgrave is the\ngreatest honour there is.",
       "file": "factions/blackwakes-own.md"
     },
+    "clan-skoll": {
+      "id": "clan-skoll",
+      "type": "faction",
+      "name": "Clan Skoll-Without-Fire",
+      "aliases": [
+        "Clan Skoll",
+        "the Fireless",
+        "the Returned"
+      ],
+      "status": "canon",
+      "tags": [
+        "clan",
+        "rimewold",
+        "ice",
+        "changed"
+      ],
+      "summary": "One of the three clans that walked north into the far ice after Brandfell split, and the only one to come back; they no longer light fires, and they do not feel the cold.",
+      "relations": [
+        {
+          "to": "rimeclans",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "the-sleepers-wall",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## Who they were\n\nClan Skoll was a small, hard clan of the far north, sixty spears and a longhouse. When\n[[brandfell]] split and the winters went strange, Skoll and two other clans walked north into\nthe ice toward [[the-sleepers-wall]], looking for land the fire could not reach.\n\n## Who came back\n\nSkoll came back. Fewer, thinner, and pale to the lips. They do not light fires, not for cooking,\nnot for warmth, and they sit in the snow at night without cloaks. They say they made a bargain\nat the Wall. They will not say with whom. The other two clans did not come back at all.\n\n## Threads\n\n- What did Skoll promise, and to what?",
+      "file": "factions/clan-skoll.md"
+    },
     "greycloaks": {
       "id": "greycloaks",
       "type": "faction",
@@ -2477,6 +2914,11 @@
           "declared": false
         },
         {
+          "to": "grimwatch",
+          "kind": "guards",
+          "declared": false
+        },
+        {
           "to": "kell",
           "kind": "guards",
           "declared": true
@@ -2494,6 +2936,11 @@
         {
           "to": "rimeclans",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "the-holdfast-lords",
+          "kind": "served-by",
           "declared": false
         },
         {
@@ -2534,6 +2981,11 @@
       "summary": "The tall, pale, cold-blooded people who ruled Harth before men, as priests of the Unborn; men were their cattle, until men hanged a god to bind them under the earth.",
       "relations": [
         {
+          "to": "the-black-step",
+          "kind": "created",
+          "declared": false
+        },
+        {
           "to": "the-unborn",
           "kind": "serves",
           "declared": true
@@ -2556,6 +3008,39 @@
       ],
       "body": "## What they were\n\nTaller than a man by a head, white as a thing grown in a cellar, with eyes like wet stone\nand blood that does not warm. The Ossar built the black temple-cities whose roots are still\nunder the [[feverfen]] and the [[glassands]], and in them they kept the [[the-unborn]]\ncompany and kept men the way men keep pigs: fed, counted, and taken.\n\nThey taught men sorcery. It was the cruellest thing they did, because it worked.\n\n## The fall\n\nMen rose, once, and lost, many times. Then they tied the [[the-first-knot]] on a ridge in\nthe north, and the oath held, and the Ossar went down into the earth after their masters.\nNot all of them. Not all the way.\n\n## Now\n\nBones too long for any grave are dug up in the Glassands every year. The fen-folk of the\nFeverfen say the Ossar never left their temples, only the daylight. The [[the-kneeling]] say\nthe Ossar are coming back, and that it will be good to be counted again.\n\n## Threads\n\n- How many of them are still awake under the Feverfen?\n- Is anything in a human throne-room descended from them?",
       "file": "factions/ossar.md"
+    },
+    "qarr-dhuun": {
+      "id": "qarr-dhuun",
+      "type": "faction",
+      "name": "Qarr-Dhuun",
+      "aliases": [
+        "the Diggers",
+        "the Takers from the Dead",
+        "the Guild of Lowerers"
+      ],
+      "status": "canon",
+      "tags": [
+        "guild",
+        "diggers",
+        "glassands",
+        "ruins",
+        "grave-robbers"
+      ],
+      "summary": "The guild of diggers who go down into the ruins of the Glassands for gold and Ossar bones, and sell both in Harrowmere; the Hadd name means those who take from the dead, and it is not a compliment.",
+      "relations": [
+        {
+          "to": "glassands",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## The guild\n\nRope, lamp, pick and a debt to a Harrowmere house: that is a digger. Qarr-Dhuun licenses them,\nmaps the ruins, sells the finds, and takes half. They go down through the sand into Vahr's\nstreets, and under the streets into the black foundations of the [[ossar]].\n\n## What they bring up\n\nGold, glass, statues with melted faces, and bones too long for any grave, which sell in\n[[harrowmere]] for more than gold to buyers who do not give names. About one digger in five\ndoes not come up. The guild writes them off in its ledger the same day.\n\n## Threads\n\n- Who is buying the Ossar bones, and what is being built with them?",
+      "file": "factions/qarr-dhuun.md"
     },
     "rimeclans": {
       "id": "rimeclans",
@@ -2580,6 +3065,11 @@
           "declared": false
         },
         {
+          "to": "clan-skoll",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "rimewold",
           "kind": "lives-in",
           "declared": true
@@ -2592,6 +3082,11 @@
         {
           "to": "the-old-smith-under-the-snow",
           "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "the-icething",
+          "kind": "featured-in",
           "declared": false
         }
       ],
@@ -2713,6 +3208,11 @@
           "declared": false
         },
         {
+          "to": "qarr-dhuun",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
           "to": "harrowmere",
           "kind": "rules",
           "declared": true
@@ -2755,6 +3255,11 @@
       "summary": "The veiled night-walking nomads of the Glassands, who read the stars and the cracks in the glass, lead the caravans between the ruins, and trust nobody who walks by day.",
       "relations": [
         {
+          "to": "ush-kaddah",
+          "kind": "lives-in",
+          "declared": false
+        },
+        {
           "to": "glassands",
           "kind": "lives-in",
           "declared": true
@@ -2762,6 +3267,37 @@
       ],
       "body": "## Who they are\n\n*Hadd* is their word for the border, and they are the people of it: the line between glass and\nsand, between night and day, between the ruins and the living. They walk only at night, faces\nveiled to the eyes, and sleep under black tents through the burning day. A Hadd guide is the\nonly way across the [[glassands]] that is not a way to die.\n\n## Names\n\nTheir names come from a language with no cousin in Harth, hard and full of breaks: Qeth,\nYsh'ra, Torr-Halaq, Ummar-Seb. A child is not named until it has walked one night on the\nglass.\n\n## Custom\n\nTo walk by day is to be a *sun-fool*. To unveil before a stranger is to offer your life. The\nHadd will guide anyone across the glass for water, and will leave anyone on it who lies to\nthem.\n\n## Threads\n\n- Why will no Hadd go within sight of [[old-vahr]]?",
       "file": "factions/the-hadd.md"
+    },
+    "the-holdfast-lords": {
+      "id": "the-holdfast-lords",
+      "type": "faction",
+      "name": "The Holdfast Lords",
+      "aliases": [
+        "the Crumb-Lords",
+        "the Motte-Holders"
+      ],
+      "status": "canon",
+      "tags": [
+        "warlords",
+        "gallowmark",
+        "lords",
+        "ashborn"
+      ],
+      "summary": "The petty lords of Gallowmark, each with a timber or stone holdfast and a few dozen swords, who fight each other for what the Greycloaks leave and hire Ashborn by the season.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## The lords\n\nAfter [[the-ashfall]] the Mark was empty of everything but the [[greycloaks]] and whoever could\nhold a hill. The Holdfast Lords are whoever held one: a tower on a mound, a ditch, a palisade,\na hall full of hired swords. They call themselves lords. The Greycloaks call them that too,\npolitely, and take a tenth of whatever they take.\n\n## Their wars\n\nSmall, endless and bloody. A holdfast changes hands every few winters. The lords hire Ashborn\nout of [[bonereach]] for the fighting, and the Ashborn hire out to whoever is winning.",
+      "file": "factions/the-holdfast-lords.md"
     },
     "the-honest-company-of-takers": {
       "id": "the-honest-company-of-takers",
@@ -2827,10 +3363,84 @@
           "to": "ossar",
           "kind": "serves",
           "declared": true
+        },
+        {
+          "to": "the-ninth-rope",
+          "kind": "enemy-of",
+          "declared": false
         }
       ],
       "body": "## What they are\n\nNot one church. Cells: a cellar in [[crownhold]], a barge in [[harrowmere]], a ruin in the\n[[glassands]], a farm at the edge of [[greyhollow]]. They meet at night, they kneel with\ntheir foreheads on bare earth, and they ask. Sometimes they are answered.\n\n## What they believe\n\nThat the [[the-first-knot]] was a crime. That men were happier counted. That the knot is\nloosening, and that those who knelt first will be eaten last.\n\n## How they work\n\nThey cut ropes. A gallows burned, a debt forgiven, an oath broken in public, an iron ring\nstolen: the Kneeling do these things, because each one loosens the knot a little. The\nhangmen of [[hangmoot]] hunt them, and hang them, and say each hanging pulls it tight again.\n\n## Threads\n\n- Did the Kneeling hire [[sarn]] to empty the crown?",
       "file": "factions/the-kneeling.md"
+    },
+    "the-leech-mothers": {
+      "id": "the-leech-mothers",
+      "type": "faction",
+      "name": "The Leech-Mothers",
+      "aliases": [
+        "the Fever-Healers",
+        "the Mothers"
+      ],
+      "status": "canon",
+      "tags": [
+        "healers",
+        "women",
+        "feverfen",
+        "ossar",
+        "lore"
+      ],
+      "summary": "The healers of the Feverfen, women only, who fight the fever with leeches and poison and have gone into the Ossar temples further than anyone living; feared and loved in every drifthold.",
+      "relations": [
+        {
+          "to": "feverfen",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "mother-murk",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## Who they are\n\nOld women with leech-jars at their belts and black stains to the elbow. They draw the fever\nout with leeches, kill the leeches, and burn them. They know every poison in the\n[[feverfen]] and use most of them as medicine.\n\n## What they know\n\nThe fever comes from the temples, they say. To learn to cure it they went in. Every Leech-Mother\nhas been inside [[the-black-step]] at least once, as her last lesson. Some do not come out.\nThose who do know more about the [[ossar]] than any scholar of [[crownhold]], and say very\nlittle.\n\n## Threads\n\n- What is the last lesson, inside the temple?",
+      "file": "factions/the-leech-mothers.md"
+    },
+    "the-ninth-rope": {
+      "id": "the-ninth-rope",
+      "type": "faction",
+      "name": "The Ninth Rope",
+      "aliases": [
+        "the Hangmen of Hask",
+        "the Knot-Keepers"
+      ],
+      "status": "canon",
+      "tags": [
+        "order",
+        "hangmen",
+        "hask",
+        "hangmoot",
+        "hunters"
+      ],
+      "summary": "The order of hangmen of Hangmoot, who keep the knot tight: they hang the Mark's debtors on Hask's pattern, hunt the Kneeling across Harth, and burn the Paid.",
+      "relations": [
+        {
+          "to": "hask",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "hangmoot",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The order\n\nThe Reeve of [[hangmoot]] and the hangmen under him. Every one of them has been hanged, once, as\ntheir oath, and cut down before the end; they wear the scar like a collar. They know what\n[[the-first-knot]] is. That is their whole secret, and they keep it.\n\n## The work\n\nThey hang, on the nine gallows and wherever else they are needed, because every debt paid at\nthe rope pulls the knot tight. They hunt [[the-kneeling]] from Gallowmark to [[harrowmere]], and\nburn [[the-paid]], because a rope does not hold what has no breath.\n\n## Threads\n\n- What do they do when a king is the debtor?",
+      "file": "factions/the-ninth-rope.md"
     },
     "the-saltless": {
       "id": "the-saltless",
@@ -2898,6 +3508,37 @@
       "body": "## The company\n\nFour thousand foot, six hundred horse, a baggage train like a town, and a black banner with a\nwhite crow. The Unmourned have fought for Crownhold, against it, and for Harrowmere twice. Since\ntheir captain stopped hiding his face, they fight for him.\n\n## Custom\n\nThey do not bury their dead. They lay them out for the crows on the field, and sing over them\nloudly and badly, and march on in the morning. A man of the Unmourned who weeps is fined a\nmonth's pay. Most of them think it is cheap.",
       "file": "factions/the-unmourned.md"
     },
+    "the-well-kings": {
+      "id": "the-well-kings",
+      "type": "faction",
+      "name": "The Well-Kings",
+      "aliases": [
+        "the Tower-Lords",
+        "the Askers of the Glass"
+      ],
+      "status": "canon",
+      "tags": [
+        "sorcerers",
+        "kings",
+        "glassands",
+        "pacts"
+      ],
+      "summary": "The sorcerer-kings of the Glassands, each ruling a well, a ruined tower and a few hundred thirsty people, who war on each other with pacts the way other kings war with armies; Qeth-Ummar is the greatest of them.",
+      "relations": [
+        {
+          "to": "glassands",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "the-unborn",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## The kings\n\nWater is power in the [[glassands]], and every well outside [[ush-kaddah]] has a king. They\nlive in the old Vahrish towers above their wells, with the people who need the water living\nbelow. Each is a sorcerer. Each has paid [[the-unborn]] in at least one coin, and most in two.\n\n## Their wars\n\nA Well-King does not raise an army. He asks. Wells go bitter, caravans lose their way, a rival's\npeople wake up in the night unable to remember their names. [[qeth-ummar]] is the greatest of\nthem, and the others pay him in water to be left alone.\n\n## Threads\n\n- What happens to a well when its king pays the third coin?",
+      "file": "factions/the-well-kings.md"
+    },
     "hask": {
       "id": "hask",
       "type": "god",
@@ -2916,6 +3557,11 @@
       ],
       "summary": "The hanged god of the gallows on the ridges; the first rulers of the Mark hanged him so the land would hold, and every debt in Gallowmark is still paid at his rope.",
       "relations": [
+        {
+          "to": "the-ninth-rope",
+          "kind": "served-by",
+          "declared": false
+        },
         {
           "to": "gallowmark",
           "kind": "haunts",
@@ -2964,6 +3610,11 @@
       ],
       "summary": "The hungry, fertile swamp-mother of the Feverfen; the fen-folk say they worship nothing, and feed her all the same.",
       "relations": [
+        {
+          "to": "the-leech-mothers",
+          "kind": "served-by",
+          "declared": false
+        },
         {
           "to": "feverfen",
           "kind": "haunts",
@@ -3031,6 +3682,11 @@
       "summary": "The fire god of the Rimeclans, whose name is never said; they hold that Brandfell is his forge, that the ash was the sweepings of his work, and that he wants something burned every winter.",
       "relations": [
         {
+          "to": "emberstead",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
           "to": "brandfell",
           "kind": "haunts",
           "declared": true
@@ -3075,6 +3731,11 @@
         {
           "to": "the-kneeling",
           "kind": "worshipped-by",
+          "declared": false
+        },
+        {
+          "to": "the-well-kings",
+          "kind": "served-by",
           "declared": false
         },
         {
@@ -3788,6 +4449,11 @@
           "declared": false
         },
         {
+          "to": "the-greywood",
+          "kind": "survived-by",
+          "declared": false
+        },
+        {
           "to": "the-ashen",
           "kind": "survived-by",
           "declared": false
@@ -4133,6 +4799,39 @@
       ],
       "body": "## The auction\n\nOnce a year, at midwinter, the sorcerers of Harth who will work for coin come to\n[[harrowmere]] and stand on the Stairs of Weighing in white masks, and the princes, kings and\ncaptains of Harth bid for a year of each. The bidding is in the open. The contracts are not.\n\n## The festival\n\nThe whole city goes masked. There is fire on the canals and music on every bridge, and the\n[[the-honest-company-of-takers]] work all night with the city's blessing. It is also the night\nthe barges go to [[the-tenth-palace]].\n\n## Threads\n\n- Which sorcerer has never been outbid, and who keeps hiring them?",
       "file": "events/the-hiring-of-the-wise.md"
+    },
+    "the-icething": {
+      "id": "the-icething",
+      "type": "event",
+      "name": "The Icething",
+      "aliases": [
+        "the Seventh-Year Moot",
+        "the Truce of White Water"
+      ],
+      "status": "canon",
+      "tags": [
+        "moot",
+        "truce",
+        "rimewold",
+        "clans",
+        "festival"
+      ],
+      "summary": "The gathering of every clan of the Rimewold on a frozen lake once in seven years, to fight, marry, divorce and settle feuds; the one place in the north where no clan kills another.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "rimewold",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "rimeclans",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The moot\n\nEvery seventh winter the [[rimeclans]] walk out onto the great frozen lake of the middle\nRimewold and pitch their tents on the ice. For nine days nobody may draw blood except in the\nring. Feuds are fought out with fists and axe-hafts, marriages made, marriages broken, chiefs\ncounted by who stands behind them. [[hrok]] has been counted the longest line at five\nIcethings running.\n\n## The law of the ice\n\nBlood on the ice outside the ring breaks the truce, and the clan that broke it is put off the\nlake into the night with the [[rimehounds]]. It has happened twice in living memory.\n\n## Threads\n\n- Will [[clan-skoll]] come to the next Icething, and will anyone let them onto the ice?",
+      "file": "events/the-icething.md"
     },
     "the-three-crowns": {
       "id": "the-three-crowns",
@@ -11373,6 +12072,18 @@
       "declared": false
     },
     {
+      "from": "ahl-sereth",
+      "to": "glassands",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "glassands",
+      "to": "ahl-sereth",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "bonded-stores",
       "to": "quaysteps",
       "kind": "located-in",
@@ -11469,6 +12180,42 @@
       "declared": false
     },
     {
+      "from": "driftholds",
+      "to": "feverfen",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "feverfen",
+      "to": "driftholds",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "emberstead",
+      "to": "rimewold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "rimewold",
+      "to": "emberstead",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "emberstead",
+      "to": "the-old-smith-under-the-snow",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "the-old-smith-under-the-snow",
+      "to": "emberstead",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
       "from": "feverfen",
       "to": "harth",
       "kind": "located-in",
@@ -11477,6 +12224,18 @@
     {
       "from": "harth",
       "to": "feverfen",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "fordham",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "fordham",
       "kind": "contains",
       "declared": false
     },
@@ -11538,6 +12297,30 @@
       "from": "the-ashfall",
       "to": "greyhollow",
       "kind": "located-in",
+      "declared": false
+    },
+    {
+      "from": "grimwatch",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "grimwatch",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "grimwatch",
+      "to": "greycloaks",
+      "kind": "guarded-by",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "grimwatch",
+      "kind": "guards",
       "declared": false
     },
     {
@@ -11613,6 +12396,18 @@
       "declared": false
     },
     {
+      "from": "irondeep",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "irondeep",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "kell",
       "to": "iron-crown-of-kell",
       "kind": "created",
@@ -11673,6 +12468,18 @@
       "declared": false
     },
     {
+      "from": "rotwater",
+      "to": "feverfen",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "feverfen",
+      "to": "rotwater",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "saltgrave",
       "to": "harth",
       "kind": "located-in",
@@ -11721,6 +12528,54 @@
       "declared": false
     },
     {
+      "from": "the-black-step",
+      "to": "feverfen",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "feverfen",
+      "to": "the-black-step",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-black-step",
+      "to": "ossar",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-black-step",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-greywood",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "the-greywood",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-greywood",
+      "to": "the-ashfall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "the-greywood",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
       "from": "the-iron-hall",
       "to": "kell",
       "kind": "located-in",
@@ -11729,6 +12584,18 @@
     {
       "from": "kell",
       "to": "the-iron-hall",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-sleepers-wall",
+      "to": "rimewold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "rimewold",
+      "to": "the-sleepers-wall",
       "kind": "contains",
       "declared": false
     },
@@ -11742,6 +12609,30 @@
       "from": "harrowmere",
       "to": "the-tenth-palace",
       "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "ush-kaddah",
+      "to": "glassands",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "glassands",
+      "to": "ush-kaddah",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "ush-kaddah",
+      "to": "the-hadd",
+      "kind": "home-of",
+      "declared": true
+    },
+    {
+      "from": "the-hadd",
+      "to": "ush-kaddah",
+      "kind": "lives-in",
       "declared": false
     },
     {
@@ -11829,6 +12720,30 @@
       "declared": false
     },
     {
+      "from": "clan-skoll",
+      "to": "rimeclans",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "rimeclans",
+      "to": "clan-skoll",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "clan-skoll",
+      "to": "the-sleepers-wall",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-sleepers-wall",
+      "to": "clan-skoll",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
       "from": "greycloaks",
       "to": "kell",
       "kind": "guards",
@@ -11886,6 +12801,30 @@
       "from": "harth",
       "to": "ossar",
       "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "qarr-dhuun",
+      "to": "glassands",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "glassands",
+      "to": "qarr-dhuun",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "qarr-dhuun",
+      "to": "the-gilded",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "qarr-dhuun",
+      "kind": "served-by",
       "declared": false
     },
     {
@@ -11985,6 +12924,30 @@
       "declared": false
     },
     {
+      "from": "the-holdfast-lords",
+      "to": "gallowmark",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "the-holdfast-lords",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-holdfast-lords",
+      "to": "greycloaks",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "the-holdfast-lords",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
       "from": "the-honest-company-of-takers",
       "to": "harrowmere",
       "kind": "lives-in",
@@ -12033,6 +12996,66 @@
       "declared": false
     },
     {
+      "from": "the-leech-mothers",
+      "to": "feverfen",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "feverfen",
+      "to": "the-leech-mothers",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-leech-mothers",
+      "to": "mother-murk",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "mother-murk",
+      "to": "the-leech-mothers",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "hask",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "hask",
+      "to": "the-ninth-rope",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "hangmoot",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hangmoot",
+      "to": "the-ninth-rope",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "the-kneeling",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "the-ninth-rope",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
       "from": "the-saltless",
       "to": "saltgrave",
       "kind": "lives-in",
@@ -12066,6 +13089,30 @@
       "from": "nevermourn",
       "to": "the-unmourned",
       "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "the-well-kings",
+      "to": "glassands",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "glassands",
+      "to": "the-well-kings",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "the-well-kings",
+      "to": "the-unborn",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "the-well-kings",
+      "kind": "served-by",
       "declared": false
     },
     {
@@ -12761,6 +13808,30 @@
     {
       "from": "the-gilded",
       "to": "the-hiring-of-the-wise",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-icething",
+      "to": "rimewold",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "rimewold",
+      "to": "the-icething",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-icething",
+      "to": "rimeclans",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "rimeclans",
+      "to": "the-icething",
       "kind": "featured-in",
       "declared": false
     },
@@ -16948,6 +18019,12 @@
       "id": "the-hiring-of-the-wise",
       "name": "The Hiring of the Wise",
       "summary": "The yearly auction in Harrowmere where sorcerers are hired out for a year to the highest bidder; the greatest festival in the city, with masks, fire on the water, and everyone knowing exactly what is being sold."
+    },
+    {
+      "year": 1,
+      "id": "the-icething",
+      "name": "The Icething",
+      "summary": "The gathering of every clan of the Rimewold on a frozen lake once in seven years, to fight, marry, divorce and settle feuds; the one place in the north where no clan kills another."
     },
     {
       "year": 1,

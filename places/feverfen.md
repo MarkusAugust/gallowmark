@@ -25,6 +25,13 @@ go inside. The ones who do go in come out pale, if they come out.
 Small, quiet, tattooed people who pole flat boats through the channels and trade with the
 reavers of [[the-teeth]]. They worship nothing. They say worship is what the Ossar wanted.
 
+## Places and powers
+
+- [[the-black-step]], the greatest temple.
+- [[driftholds]], the floating villages.
+- [[the-leech-mothers]], the fever-healers.
+- [[rotwater]], the smugglers' port.
+
 ## Threads
 
 - What do the fen-folk leave on the temple steps every new moon, and who takes it?

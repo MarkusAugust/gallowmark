@@ -27,6 +27,13 @@ In the old towers sit sorcerer-kings who rule a well, a ruin and a few hundred d
 people each, and who make pacts with [[the-unborn]] the way other kings raise taxes. The
 greatest of them is [[qeth-ummar]], in Old Vahr itself.
 
+## Places and powers
+
+- [[ush-kaddah]], the city of the bottomless well.
+- [[the-well-kings]], the sorcerer-kings of the towers.
+- [[qarr-dhuun]], the diggers' guild.
+- [[ahl-sereth]], the white glass where night does not come.
+
 ## Threads
 
 - What is under the glass, in the place where the fire was whitest?

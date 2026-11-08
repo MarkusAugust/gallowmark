@@ -27,6 +27,13 @@ followed the chief home from the last fight.
 The ice is not only weather. In the deep north it stands in walls taller than any tower,
 and in it, if you go far enough, there are shapes. The clans do not go that far.
 
+## Places and powers
+
+- [[the-icething]], the seventh-year moot on the ice.
+- [[emberstead]], the smiths' town on Brandfell's warm face.
+- [[the-sleepers-wall]], the ice with shapes in it.
+- [[clan-skoll]], the clan that came back.
+
 ## Threads
 
 - What is frozen in the far ice?
