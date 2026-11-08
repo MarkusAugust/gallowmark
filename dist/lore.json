@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 447,
+  "entityCount": 466,
   "types": [
     "character",
     "place",
@@ -9,6 +9,7 @@
     "god",
     "artifact",
     "creature",
+    "concept",
     "event",
     "story",
     "quote"
@@ -110,7 +111,7 @@
           "declared": false
         }
       ],
-      "body": "## Who\n\nAurelian is seventy, fat, gilded to the knuckles and very much cleverer than he lets anyone\nsee. He came to the throne by outliving his brothers, and he has kept it by outliving his\nsons. He wears an iron circlet under the gold, on the Vahrish pattern, and takes it off for\nnobody.\n\n## Voice\n\nAurelian is kind. He asks after your family. He remembers their names. Later, so do the\npoisoners.\n\n## Threads\n\n- Why does he wear the iron?\n- Who will hold Crownhold when he dies, and how many will die choosing?",
+      "body": "## Who\n\nAurelian is seventy, fat, gilded to the knuckles and very much cleverer than he lets anyone\nsee. He came to the throne by outliving his brothers, and he has kept it by outliving his\nsons. He wears an iron circlet under the gold, one of [[the-nine-irons]], and takes it off for\nnobody.\n\n## Voice\n\nAurelian is kind. He asks after your family. He remembers their names. Later, so do the\npoisoners.\n\n## Threads\n\n- Why does he wear the iron?\n- Who will hold Crownhold when he dies, and how many will die choosing?",
       "file": "characters/aurelian-vasthorne.md"
     },
     "barr": {
@@ -296,6 +297,11 @@
           "to": "hrok",
           "kind": "ally-of",
           "declared": true
+        },
+        {
+          "to": "hookbreaker",
+          "kind": "wields",
+          "declared": false
         },
         {
           "to": "gorveks-last-road",
@@ -796,6 +802,21 @@
         {
           "to": "the-honest-company-of-takers",
           "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "imryn",
+          "kind": "stole",
+          "declared": false
+        },
+        {
+          "to": "tharsk",
+          "kind": "stole",
+          "declared": false
+        },
+        {
+          "to": "velloch",
+          "kind": "stole",
           "declared": false
         },
         {
@@ -1313,6 +1334,16 @@
           "declared": true
         },
         {
+          "to": "ossery",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-hoofborn",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "the-burning-of-the-rolls",
           "kind": "featured-in",
           "declared": false
@@ -1817,6 +1848,11 @@
           "declared": false
         },
         {
+          "to": "the-hoofborn",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "the-hiring-of-the-wise",
           "kind": "featured-in",
           "declared": false
@@ -2171,13 +2207,64 @@
           "declared": false
         },
         {
+          "to": "the-tenth-legion",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "the-hungry-books",
+          "kind": "created",
+          "declared": false
+        },
+        {
+          "to": "the-last-asking",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "the-fall-of-vahr",
           "kind": "destroyed-by",
+          "declared": false
+        },
+        {
+          "to": "the-long-peace-of-vahr",
+          "kind": "featured-in",
           "declared": false
         }
       ],
       "body": "## The city\n\nThe fire that ended the empire was whitest here. The towers of Old Vahr stand bent like\ncandles in a hot room, their stone run into glass. The palace still stands, because it was\nbuilt on [[ossar]] foundations, and those did not melt.\n\n## The throne\n\nOn the glass throne sits [[qeth-ummar]], who says he is the last emperor and was there on the\nnight. Nobody can prove he was not. The caravans pay him in water to cross his glass.\n\n## Threads\n\n- Is there a door in the Ossar foundations, under the throne?",
       "file": "places/old-vahr.md"
+    },
+    "ossery": {
+      "id": "ossery",
+      "type": "place",
+      "name": "Ossery",
+      "aliases": [
+        "the Burnt City",
+        "the Kneelers' City"
+      ],
+      "status": "canon",
+      "tags": [
+        "city",
+        "ruin",
+        "crownhold",
+        "kneeling"
+      ],
+      "summary": "The city in the east of Crownhold that the Kneeling took in the Broken Years and the hangmen and kings burned to the ground; nothing is built on the ash, and nothing grows there.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-burning-of-ossery",
+          "kind": "destroyed-by",
+          "declared": false
+        }
+      ],
+      "body": "## The city\n\nOssery was a river city of the old empire, rich, learned and named, the scholars said, after the\n[[ossar]] who first built there. It was the first city [[the-kneeling]] took whole. It is ash now.\nNothing grows on it four hundred years on, and the Crownhold road goes round.\n\n## Threads\n\n- What did the Kneeling of Ossery raise, that it took a city's burning to put it down?",
+      "file": "places/ossery.md"
     },
     "quaysteps": {
       "id": "quaysteps",
@@ -2446,6 +2533,52 @@
       ],
       "body": "## The temple\n\nIn the middle of the [[feverfen]], where the water is deepest and the trees tallest, a black\npyramid stands up out of the swamp in steps, each one the height of a man. Vines cover the lower\nsteps. The upper ones are clean. Nothing grows on them, and nothing has been seen to clean them.\n\n## The lights\n\nOn some nights there are lights at the top: pale, steady, not fire. The fen-folk leave fish,\nreed-cloth and sometimes worse on the lowest step at new moon, and in the morning it is gone.\n[[the-leech-mothers]] say the [[ossar]] are inside, and that the warmth coming out of the\ntemple has been rising every year since [[brandfell]] split.\n\n## Threads\n\n- How many steps are there below the water?",
       "file": "places/the-black-step.md"
+    },
+    "the-counted-lands": {
+      "id": "the-counted-lands",
+      "type": "place",
+      "name": "The Counted Lands",
+      "aliases": [
+        "Beyond the Glass",
+        "the South"
+      ],
+      "status": "canon",
+      "tags": [
+        "land",
+        "south",
+        "ossar",
+        "forbidden"
+      ],
+      "summary": "The land south of the Glassands, where the caravans do not go; the Hadd say the Ossar still rule there, and that men there are still kept, fed and counted.",
+      "relations": [],
+      "body": "## What is said\n\nSouth of the [[glassands]] the maps stop. The [[the-hadd]] say the land goes on, green, rich and\nordered, and that the [[ossar]] never went under there, because the knot was tied in the north and\ndid not reach so far. Men live there, the Hadd say, in neat villages, fed, counted, and taken.\n\n## What is known\n\nNothing. Once in a generation someone walks out of the south across the glass: thin, quiet, with a\nnumber tattooed on the inside of the wrist. They do not talk about it. They do not stay long.\n\n## Threads\n\n- Are the Counted Lands what Harth would be, if the knot gave?",
+      "file": "places/the-counted-lands.md"
+    },
+    "the-grass-sea": {
+      "id": "the-grass-sea",
+      "type": "place",
+      "name": "The Grass Sea",
+      "aliases": [
+        "the Steppe",
+        "the East"
+      ],
+      "status": "canon",
+      "tags": [
+        "steppe",
+        "east",
+        "grassland",
+        "riders"
+      ],
+      "summary": "The endless grassland east of the mountains, where the Hoofborn ride; once a generation it pours west over Crownhold and Harrowmere like a flood, and then goes home.",
+      "relations": [
+        {
+          "to": "the-hoofborn",
+          "kind": "home-of",
+          "declared": true
+        }
+      ],
+      "body": "## The land\n\nEast of the eastern hills the trees stop and the grass begins, and it does not stop. A sea of it,\nto the height of a horse's chest, moving under the wind for a thousand miles. The [[the-hoofborn]]\nlive on it, and nothing else does that the Hoofborn have not decided to leave alive.",
+      "file": "places/the-grass-sea.md"
     },
     "the-greywood": {
       "id": "the-greywood",
@@ -2761,6 +2894,26 @@
       "body": "## The head\n\nA black headland shaped like a fist, with Old [[kell]] under the water at its knuckles. The\n[[greycloaks]] built their first fort here, forty years ago, to guard the drowned quays. It\nis the smallest fort they hold and the only one they have never left.\n\n## The salt-pile\n\nBelow the fort, on the shingle, the coast folk keep a pile of wreck-wood and salt for\n[[vorr]]. A plank from every wreck, a handful from every net. The Greycloaks tithe\neverything on the coast and have never touched the pile.\n\n## The wreckers\n\nThe people of Wrackhead dive. On a still day at low water you can see the iron roof of\nKell's hall, and once a year somebody goes down to it. [[rauk]] has gone down more than\nanyone, come up with less each time, and stopped talking about it.\n\n## Since the Ebb\n\nThe water is going out. The quays are showing. Since [[the-ebb]] the fort has doubled its\ngarrison and the salt-pile has doubled in height, and neither side has said why.\n\n## Threads\n\n- What is the fort really guarding: Kell, or the pile?",
       "file": "places/wrackhead.md"
     },
+    "ysveld": {
+      "id": "ysveld",
+      "type": "place",
+      "name": "Ysveld",
+      "aliases": [
+        "the Further Shore",
+        "the West over the Sea"
+      ],
+      "status": "canon",
+      "tags": [
+        "continent",
+        "west",
+        "sea",
+        "foreign"
+      ],
+      "summary": "The land across the western sea whose tall, courteous people trade with Harrowmere under white sails, and never say where on it they come from or why they come.",
+      "relations": [],
+      "body": "## The land\n\nNobody in Harth has been there and come back to say so. The ships come from the west, a few each\nsummer, white-sailed and too fast, into [[harrowmere]], and their people call it Ysveld.\n\n## The people\n\nTall, fair, soft-voiced, with names like Ilvar, Saelith and Corvanne. They are unfailingly\ncourteous. They buy iron, salt, Ossar bones and, once, a [[the-hungry-books]], and pay in silver\nthat does not tarnish. They do not drink, do not marry, and do not answer questions about home.\n\n## Threads\n\n- Why do the Ysveldings buy Ossar bones?\n- Have they ever bought one of [[the-nine-irons]]?",
+      "file": "places/ysveld.md"
+    },
     "argentine-houses": {
       "id": "argentine-houses",
       "type": "faction",
@@ -2944,6 +3097,16 @@
           "declared": false
         },
         {
+          "to": "the-tenth-legion",
+          "kind": "created-by",
+          "declared": false
+        },
+        {
+          "to": "hookbreaker",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "firstcloaks",
           "kind": "has-member",
           "declared": false
@@ -2959,7 +3122,7 @@
           "declared": false
         }
       ],
-      "body": "## What they are\n\nThe Greycloaks began as the men who guarded the drowned quays of [[kell]] so that nobody\nwould steal what the sea had not yet taken. Forty years on, they guard everything, and what\nthey guard they tithe. Their cloaks are grey because grey hides ash, and the order was born\nin the [[the-ashfall]].\n\n## How they take a village\n\nNever by storm. A Greycloak captain rides in alone, finds the one gate left open, and sits\ndown inside it. By evening the village is paying tithe and thinks it decided to. Every siege\nin Gallowmark has been lost this way, which is why the wise close every gate, including the\nones they cannot see.\n\n## The books\n\nWhat the order tithes it writes down. The tithe-books hang from the hooks on the bridge at\n[[hookford]], in Captain [[drusk]]'s hand, and the hangmen say they are a poor copy of the\nledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing down.\n\n## Beyond the Mark\n\nThe order holds Gallowmark, and nothing else, and is everywhere. It keeps a chapterhouse in\nevery city of [[harth]]: on the Grand Canal in [[harrowmere]], under the palace walls of\n[[crownhold]], at the wells of the [[glassands]]. It rules no kingdom and wants none. It is\nhired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, hold a pass.\nIt is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is\na gate the order holds and the king has forgotten he gave it.\n\nNobody knows who leads it. The captains answer to the books, and the books answer to\nsomeone.\n\n## Enemies\n\n\n[[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried\nto hire and to kill, and the order's own records disagree on which came first.",
+      "body": "## What they are\n\nThe Greycloaks began as the men who guarded the drowned quays of [[kell]] so that nobody\nwould steal what the sea had not yet taken. Forty years on, they guard everything, and what\nthey guard they tithe. Their cloaks are grey because grey hides ash, and the order was born\nin the [[the-ashfall]].\n\n## How they take a village\n\nNever by storm. A Greycloak captain rides in alone, finds the one gate left open, and sits\ndown inside it. By evening the village is paying tithe and thinks it decided to. Every siege\nin Gallowmark has been lost this way, which is why the wise close every gate, including the\nones they cannot see.\n\n## The books\n\nWhat the order tithes it writes down. The tithe-books hang from the hooks on the bridge at\n[[hookford]], in Captain [[drusk]]'s hand, and the hangmen say they are a poor copy of the\nledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing down.\n\n## Beyond the Mark\n\nThe order holds Gallowmark, and nothing else, and is everywhere. It keeps a chapterhouse in\nevery city of [[harth]]: on the Grand Canal in [[harrowmere]], under the palace walls of\n[[crownhold]], at the wells of the [[glassands]]. It rules no kingdom and wants none. It is\nhired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, hold a pass.\nIt is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is\na gate the order holds and the king has forgotten he gave it.\n\nThe order is older than it says. It is [[the-tenth-legion]] of Vahr, which kept its gates when\nthe empire burned and never stopped. Nobody knows who leads it. The captains answer to the books, and the books answer to\nsomeone.\n\n## Enemies\n\n\n[[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried\nto hire and to kill, and the order's own records disagree on which came first.",
       "file": "factions/greycloaks.md"
     },
     "ossar": {
@@ -3131,6 +3294,11 @@
         {
           "to": "linelord",
           "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "truenaming",
+          "kind": "created",
           "declared": false
         }
       ],
@@ -3331,6 +3499,43 @@
       "body": "## The company\n\nA guildhall with a sign over the door, a charter with nine forged seals, a tariff of fees\npainted on the wall: so much for a purse, so much for a ring, so much for a man's papers out\nof a locked room. A member pays dues. A non-member who steals in Harrowmere is found in the\ncanal. The city watch is a member.\n\n## Its founder\n\nThe Company says [[sarn]] wrote its charter, a long time before Kell, and left it unsigned.\nThe charter is in the guildhall under glass. The bottom of it is blank. Every master of the\nCompany has looked at that blank and decided not to fill it in.\n\n## Threads\n\n- Did Sarn steal the rubies on a Company contract, and who paid?",
       "file": "factions/the-honest-company-of-takers.md"
     },
+    "the-hoofborn": {
+      "id": "the-hoofborn",
+      "type": "faction",
+      "name": "The Hoofborn",
+      "aliases": [
+        "the Riders",
+        "the Grass People"
+      ],
+      "status": "canon",
+      "tags": [
+        "people",
+        "riders",
+        "steppe",
+        "east",
+        "raiders"
+      ],
+      "summary": "The horse peoples of the Grass Sea, who ride west over the hills once a generation and take everything; they last came sixty years ago, the old men of Crownhold still remember the fires, and the calendars say they are due.",
+      "relations": [
+        {
+          "to": "the-grass-sea",
+          "kind": "lives-in",
+          "declared": false
+        },
+        {
+          "to": "crownhold",
+          "kind": "enemy-of",
+          "declared": true
+        },
+        {
+          "to": "harrowmere",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who they are\n\nSmall, hard, bow-legged, born in the saddle, and named for it. They have no cities and want none.\nA Hoofborn host is a nation on horseback: men, women, children, herds, and the gods in carts.\n\n## The coming\n\nOnce a generation the grass fails, or something east of the grass pushes them, and they come\nwest over the hills into [[crownhold]] and up to the lake of [[harrowmere]]. They last came sixty\nyears ago. They burned forty towns, took a king's head, and went home. The old men of Crownhold\nremember the fires. The calendars of the Gilded say they are due again, and [[the-gilded]] have\nbegun buying horses.\n\n## Threads\n\n- What pushes them west?",
+      "file": "factions/the-hoofborn.md"
+    },
     "the-kneeling": {
       "id": "the-kneeling",
       "type": "faction",
@@ -3367,6 +3572,11 @@
         {
           "to": "the-ninth-rope",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "the-burning-of-ossery",
+          "kind": "featured-in",
           "declared": false
         }
       ],
@@ -3437,6 +3647,11 @@
           "to": "the-kneeling",
           "kind": "enemy-of",
           "declared": true
+        },
+        {
+          "to": "the-burning-of-ossery",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The order\n\nThe Reeve of [[hangmoot]] and the hangmen under him. Every one of them has been hanged, once, as\ntheir oath, and cut down before the end; they wear the scar like a collar. They know what\n[[the-first-knot]] is. That is their whole secret, and they keep it.\n\n## The work\n\nThey hang, on the nine gallows and wherever else they are needed, because every debt paid at\nthe rope pulls the knot tight. They hunt [[the-kneeling]] from Gallowmark to [[harrowmere]], and\nburn [[the-paid]], because a rope does not hold what has no breath.\n\n## Threads\n\n- What do they do when a king is the debtor?",
@@ -3477,6 +3692,42 @@
       ],
       "body": "## Who they are\n\nEvery slave sold in [[harrowmere]] is weighed against salt on the Stairs of Weighing, and the\nsalt is the price. The Saltless are the ones who ran, from galleys, mines and canal-houses, and\nreached the mountains. They buried the salt they were bought for, and called the place\n[[saltgrave]], and themselves the ones without a price.\n\n## The law\n\nNo one in Saltgrave owns anyone. Anyone who tries is hanged in salt-sacks. Anyone who brings a\nslaver's coin in is hanged beside them. Anyone who leaves and comes back is asked one question\nat the gate, and nobody outside knows what it is.\n\n## Threads\n\n- Who is the gate-keeper, and what is the question?",
       "file": "factions/the-saltless.md"
+    },
+    "the-tenth-legion": {
+      "id": "the-tenth-legion",
+      "type": "faction",
+      "name": "The Tenth Legion",
+      "aliases": [
+        "the Gatewardens of Vahr",
+        "the Grey Legion"
+      ],
+      "status": "canon",
+      "tags": [
+        "legion",
+        "vahr",
+        "greycloaks",
+        "history"
+      ],
+      "summary": "The gate-legion of Vahr that held every gate, bridge and pass of the empire for a tenth of what went through; it outlived the empire, put on grey, and is the order the Mark calls the Greycloaks.",
+      "relations": [
+        {
+          "to": "old-vahr",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "created",
+          "declared": true
+        },
+        {
+          "to": "the-long-peace-of-vahr",
+          "kind": "featured-in",
+          "declared": false
+        }
+      ],
+      "body": "## The legion\n\nEvery gate of Vahr had a cohort of the Tenth, grey-cloaked, polite, taking a tenth. The legion\nwas never sent to war. It did not need to be: it held the gates, and an army that does not own\nthe gates is just a crowd.\n\n## After the fall\n\nWhen [[old-vahr]] burned, the Tenth did not. It had no emperor to obey and kept its gates anyway,\nfor whoever paid. In the [[the-broken-years]] it forgot its name, kept its cloaks and its tenth,\nand became the order. The [[greycloaks]] say they began guarding the quays of [[kell]]. They began\nthere again. They are much older than that.\n\n## Threads\n\n- Who did the Tenth answer to, if not the emperor? And who do the books answer to now?",
+      "file": "factions/the-tenth-legion.md"
     },
     "the-unmourned": {
       "id": "the-unmourned",
@@ -3573,6 +3824,11 @@
           "declared": true
         },
         {
+          "to": "the-nine-irons",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "notchers",
           "kind": "served-by",
           "declared": false
@@ -3583,12 +3839,17 @@
           "declared": false
         },
         {
+          "to": "rope-oaths",
+          "kind": "created",
+          "declared": false
+        },
+        {
           "to": "the-first-knot",
           "kind": "featured-in",
           "declared": false
         }
       ],
-      "body": "## The god\n\n[[gallowmark]] is named for the gallows, and the gallows are for Hask. The first rulers of\nthe Mark, before [[kell]] had a quay, built nine gallows on a ridge and hanged their god on\nthe ninth so the land would hold. That is the story the hangmen tell, and they tell it with\nthe knot already tied. Hask did not die. A hanged god does not; he hangs. Everything owed in\nthe Mark is owed to the rope, and the rope is his.\n\n## The debt\n\nHask is the god of what is owed. A tithe is a debt, an oath is a debt, a name given is a\ndebt. The [[greycloaks]] have never written Hask's name in a ledger, and they collect in his\nshape: patiently, and once. Hask has no priests. He has hangmen, and the Reeve of\n[[hangmoot]] is the first among them.\n\n## The knot\n\nWhat the hangmen do not tell strangers: the first men did not hang Hask so that the land would\nhold. They hanged him so that something else would stay under it. That is [[the-first-knot]],\nand the [[ossar]] and [[the-unborn]] are what it holds.\n\n## The rope and the crown\n\nThe hangmen say the land is held in place by nine ropes and one iron ring, and that the night\n[[sarn]] emptied the [[iron-crown-of-kell]] one of the nine went slack. They do not say which.\nSince [[the-ebb]] they have stopped saying nothing.\n\n## Threads\n\n- Is Hask the god the Greycloaks do not name, or the god they are afraid of?\n- Whom did the first rulers hang, really?",
+      "body": "## The god\n\n[[gallowmark]] is named for the gallows, and the gallows are for Hask. The first rulers of\nthe Mark, before [[kell]] had a quay, built nine gallows on a ridge and hanged their god on\nthe ninth so the land would hold. That is the story the hangmen tell, and they tell it with\nthe knot already tied. Hask did not die. A hanged god does not; he hangs. Everything owed in\nthe Mark is owed to the rope, and the rope is his.\n\n## The debt\n\nHask is the god of what is owed. A tithe is a debt, an oath is a debt, a name given is a\ndebt. The [[greycloaks]] have never written Hask's name in a ledger, and they collect in his\nshape: patiently, and once. Hask has no priests. He has hangmen, and the Reeve of\n[[hangmoot]] is the first among them.\n\n## The knot\n\nWhat the hangmen do not tell strangers: the first men did not hang Hask so that the land would\nhold. They hanged him so that something else would stay under it. That is [[the-first-knot]],\nand the [[ossar]] and [[the-unborn]] are what it holds.\n\n## The rope and the crown\n\nThe hangmen say the land is held in place by nine ropes and [[the-nine-irons]], and that the night\n[[sarn]] emptied the [[iron-crown-of-kell]], the ninth ring, the ninth rope went slack.\nSince [[the-ebb]] they have stopped saying nothing.\n\n## Threads\n\n- Is Hask the god the Greycloaks do not name, or the god they are afraid of?\n- Whom did the first rulers hang, really?",
       "file": "gods/hask.md"
     },
     "mother-murk": {
@@ -3744,8 +4005,18 @@
           "declared": true
         },
         {
+          "to": "the-hungry-books",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "the-paid",
           "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "pactmarks",
+          "kind": "created",
           "declared": false
         },
         {
@@ -3802,6 +4073,11 @@
           "to": "vorr",
           "kind": "rival-of",
           "declared": false
+        },
+        {
+          "to": "truenaming",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The god\n\nThurn does not have a face, a temple, or a promise. Thurn has water, and water goes where it\ngoes. The people of [[gallowmark]] do not pray to Thurn; they keep out of the way. The\n[[river-priests]] say this is the correct form of worship.\n\n## The rivers\n\nThree grey rivers come down out of the Wallmountains and meet the sea at [[kell]], and the\npriests say they are one river pretending to be three. Thurn is in them the way cold is in\nthem: no voice, no wants, only weight and direction. In the dark years they ran grey with ash\nfrom the north, and the priests say Thurn carried the north's dead to the sea and did not\ncomplain.\n\n## Threads\n\n- Does Thurn mind that [[sarn]] has been called Lord of Streams?",
@@ -3854,6 +4130,67 @@
       "body": "## The god\n\n[[thurn]] is what flows. Vorr is where it stops. The [[river-priests]] say every grey river\nis one river; the coast folk say yes, and it ends in Vorr's mouth. Vorr is the salt at the\nbottom of things, the weight in a drowned man's boots, the god of what is kept. The people\nof the drowned coast do not pray to Vorr. They pay. A plank from every wreck goes onto the\nsalt-pile at [[wrackhead]], and nobody says what for.\n\n## Kell\n\nVorr took [[kell]] in one night and has been chewing since. The coast folk hold that the\ncrown never held the rivers; it held Vorr's mouth shut, and [[sarn]] opened it. The\nriver-priests call this a coast story. They have never gone down to the salt-pile to say so.\n\n## The Ebb\n\nSince [[the-ebb]] the sea has been going out from Old Kell. The coast folk say Vorr is\nopening his mouth to give something back, and that a god who has kept for forty years does\nnot give back for nothing.\n\n## Threads\n\n- Does Vorr have the three rubies, or only the crown?\n- What does the salt-pile buy?",
       "file": "gods/vorr.md"
     },
+    "hookbreaker": {
+      "id": "hookbreaker",
+      "type": "artifact",
+      "name": "Hookbreaker",
+      "aliases": [
+        "Gorvek's sword, the Long Northern"
+      ],
+      "status": "canon",
+      "tags": [
+        "sword",
+        "relic",
+        "gorvek",
+        "legend"
+      ],
+      "summary": "The long northern sword Gorvek took from a Greycloak captain and never named; the legends named it Hookbreaker for the hooks it broke, and it went north with him and was not seen again, though a hundred false ones hang in a hundred halls.",
+      "relations": [
+        {
+          "to": "gorvek",
+          "kind": "wielded-by",
+          "declared": true
+        },
+        {
+          "to": "greycloaks",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The sword\n\nA long, plain northern blade, black iron, a hand-and-a-half grip wrapped in horse-leather.\n[[gorvek]] took it off a [[greycloaks]] captain on the coast road and never gave it a name,\nbecause naming is river-priest work. The songs did it for him. It broke more Greycloak hooks than\nanyone could count, and the songs count them anyway.\n\n## After\n\nIt went north with him on [[gorveks-last-road]]. Every hall in the north and half the holdfasts of\nthe Mark have a Hookbreaker over the fire. None of them is it.\n\n## Threads\n\n- Would anyone know the real one if they saw it?",
+      "file": "artifacts/hookbreaker.md"
+    },
+    "imryn": {
+      "id": "imryn",
+      "type": "artifact",
+      "name": "Imryn",
+      "aliases": [
+        "Sarn's ruby"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruby",
+        "relic",
+        "kell",
+        "crown",
+        "knot"
+      ],
+      "summary": "One of the three rubies of the Iron Crown of Kell, which held the third river, the one that runs through Fordham in its bed; taken by Sarn, and now, the stories say, with Sarn still.",
+      "relations": [
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "stolen-by",
+          "declared": true
+        }
+      ],
+      "body": "## The stone\n\nImryn held the third river, the one that runs shallow at [[fordham]]. Of the three, it is the one\neverybody agrees about: [[sarn]] still has it. Where Sarn keeps it, nobody knows. The\n[[the-honest-company-of-takers]] say it is the only thing their first master never sold.\n\n## What it does\n\nSet in one of [[the-nine-irons]], it holds the ring shut, and the ring holds a rope of\n[[the-first-knot]]. Out of the iron, the stories disagree. Some say it gives the holder grip on\nthe river it held. Some say it gives the river grip on the holder.\n\n## Threads\n\n- What happens if it is set back?",
+      "file": "artifacts/imryn.md"
+    },
     "iron-crown-of-kell": {
       "id": "iron-crown-of-kell",
       "type": "artifact",
@@ -3881,6 +4218,21 @@
           "declared": false
         },
         {
+          "to": "imryn",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "tharsk",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "velloch",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "know-this",
           "kind": "featured-in",
           "declared": false
@@ -3891,7 +4243,7 @@
           "declared": false
         }
       ],
-      "body": "## The crown\n\nIron, not gold. The kings of [[kell]] wore iron because gold was for people with something\nto prove. Three rubies were set in it, one for each of the grey rivers that met at the city,\nand the river-priests of [[thurn]] said that while the stones sat in the iron, the rivers sat\nin their beds.\n\n## The ring\n\nThe crown is older than Kell. It is the iron ring of [[the-first-knot]], carried south and\nworn by the emperors of [[old-vahr]] before the kings of Kell had it, and the three rubies were\nset in it to hold the ring shut. That is the part the river-priests leave out.\n\n## The theft\n\n[[sarn]] took all three in a single night. Nobody saw the face. The rivers left their beds.\nWhether the crown held the water or only the belief in the crown did, Kell drowned either\nway, and the empty iron is somewhere under it.\n\n## Threads\n\n- The three rubies are the three most valuable objects in Gallowmark, and nobody has seen\n  one since. Sarn, asked, changes the subject.",
+      "body": "## The crown\n\nIron, not gold. The kings of [[kell]] wore iron because gold was for people with something\nto prove. Three rubies were set in it, one for each of the grey rivers that met at the city,\nand the river-priests of [[thurn]] said that while the stones sat in the iron, the rivers sat\nin their beds.\n\n## The ring\n\nThe crown is older than Kell. It is the ninth of [[the-nine-irons]] of [[the-first-knot]], carried\nsouth and worn by the emperors of [[old-vahr]] before the kings of Kell had it, and the three\nrubies, [[tharsk]], [[velloch]] and [[imryn]], were set in it to hold the ring shut. That is the part the river-priests leave out.\n\n## The theft\n\n[[sarn]] took all three in a single night. Nobody saw the face. The rivers left their beds.\nWhether the crown held the water or only the belief in the crown did, Kell drowned either\nway, and the empty iron is somewhere under it.\n\n## Threads\n\n- The three rubies are the three most valuable objects in Harth. Sarn, asked, changes the\n  subject.",
       "file": "artifacts/iron-crown-of-kell.md"
     },
     "linelord": {
@@ -4001,6 +4353,162 @@
       ],
       "body": "## What it is\n\nStreamlord is not a thing in [[gallowmark]]. Nobody in the Mark carries it, wields it, or\nhas heard of it. It is a software development kit, and its documentation is written as a\ngrimoire, and that grimoire borrows the Mark's voices for its epigraphs: [[sarn]] narrates\nit, the creed on its first page is [[gorvek]]'s, and the names in it are Gallowmark's.\n\n## The rule\n\nWhat the grimoire says about streams is about the software. Nothing in the canon depends on\nit, and no character in the Mark can make a river obey.",
       "file": "artifacts/streamlord.md"
+    },
+    "tharsk": {
+      "id": "tharsk",
+      "type": "artifact",
+      "name": "Tharsk",
+      "aliases": [
+        "the Harrowmere ruby"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruby",
+        "relic",
+        "kell",
+        "crown",
+        "knot"
+      ],
+      "summary": "One of the three rubies of the Iron Crown of Kell, which held the first river, the one that comes down through the Wallgate in its bed; taken by Sarn, and now, the stories say, with Harrowmere.",
+      "relations": [
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "stolen-by",
+          "declared": true
+        }
+      ],
+      "body": "## The stone\n\nTharsk held the first river in its bed, the cold one that comes down out of the north through the\n[[wallgate]]. The rumour of [[harrowmere]] is that it was sold there the year after Kell drowned, to\nthe House of Salt, and that it went by barge to [[the-tenth-palace]] and was never seen again.\n\n## What it does\n\nSet in one of [[the-nine-irons]], it holds the ring shut, and the ring holds a rope of\n[[the-first-knot]]. Out of the iron, the stories disagree. Some say it gives the holder grip on\nthe river it held. Some say it gives the river grip on the holder.\n\n## Threads\n\n- What happens if it is set back?",
+      "file": "artifacts/tharsk.md"
+    },
+    "the-hungry-books": {
+      "id": "the-hungry-books",
+      "type": "artifact",
+      "name": "The Hungry Books",
+      "aliases": [
+        "the Askings",
+        "the Vahrish grimoires"
+      ],
+      "status": "canon",
+      "tags": [
+        "grimoire",
+        "sorcery",
+        "vahr",
+        "forbidden"
+      ],
+      "summary": "The grimoires of Vahr that teach the forms of the pacts; every copy wants to be read, finds its way to someone who will, and is never where it was left.",
+      "relations": [
+        {
+          "to": "old-vahr",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "the-unborn",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The books\n\nThe emperors of [[old-vahr]] wrote down how to ask, so that their heirs would not have to learn\nit from the [[ossar]]. The books survived the fire. Nobody knows how many there are. Each one is\nbound in pale leather, written in a hand no scribe of Harth can match, and opens most easily at\nthe page its reader most wants.\n\n## The hunger\n\nA Hungry Book does not stay where it is put. Locked in a chest, it is found in a market. Burned,\nit is found in the ashes, a little scorched. It always ends in the hands of someone who will\nread it, and the first asking in it is always small.\n\n## In the world\n\n- [[the-ninth-rope]] keeps eleven under the gallows at [[hangmoot]], in iron, and counts them\n  every morning. Some mornings there are ten.\n- [[the-kneeling]] copy them, which is a crime the books seem to enjoy.",
+      "file": "artifacts/the-hungry-books.md"
+    },
+    "the-last-asking": {
+      "id": "the-last-asking",
+      "type": "artifact",
+      "name": "The Last Asking",
+      "aliases": [
+        "the Emperor's Bill, the Glass Tablet"
+      ],
+      "status": "canon",
+      "tags": [
+        "tablet",
+        "vahr",
+        "sorcery",
+        "contract",
+        "relic"
+      ],
+      "summary": "The tablet on which the last emperors of Vahr wrote what they asked of the Unborn on the night the empire burned; a contract, the Gilded say, and they own the debt.",
+      "relations": [
+        {
+          "to": "old-vahr",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-fall-of-vahr",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The tablet\n\nA slab of black stone the height of a man, written on both sides in the emperors' hand, carried\nout onto [[ahl-sereth]] on the last night and read aloud. When the fire came, the stone went white\nand half of it ran into the glass. What is left stands in the throne-room of [[old-vahr]], before\n[[qeth-ummar]], who reads it every night.\n\n## The contract\n\n[[the-gilded]] bought the debts of Vahr. They hold that the Last Asking is one of them: a contract,\nwith a price not yet paid in full. They have sent three expeditions to copy it. One came back.\n\n## Threads\n\n- What is written on the half that ran into the glass?",
+      "file": "artifacts/the-last-asking.md"
+    },
+    "the-nine-irons": {
+      "id": "the-nine-irons",
+      "type": "artifact",
+      "name": "The Nine Irons",
+      "aliases": [
+        "the knot-rings",
+        "Hask's collars, the iron rings"
+      ],
+      "status": "canon",
+      "tags": [
+        "relic",
+        "iron",
+        "knot",
+        "rings",
+        "hask"
+      ],
+      "summary": "The nine iron rings of the First Knot, one for each rope on Hangmoot; carried south and worn as crowns by the emperors of Vahr and the kings after them; the Iron Crown of Kell was the ninth, and the House of Salt buys every one that comes to market.",
+      "relations": [
+        {
+          "to": "the-first-knot",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "hask",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The rings\n\nNine ropes hang on [[hangmoot]] and nine iron rings were forged to hold them shut, one for each.\nThe first men gave them to their chiefs to wear, so that the oath would sit on the heads of those\nwho ruled. The emperors of [[old-vahr]] wore them as crowns, under the gold. When the empire broke,\nthe rings went with the provinces.\n\n## Where they are\n\n- The ninth was the [[iron-crown-of-kell]], set with [[tharsk]], [[velloch]] and [[imryn]]. It is\n  empty.\n- One is on the head of [[aurelian-vasthorne]], under the gold, and [[seraphine-vasthorne]] wants\n  it.\n- Some are in [[harrowmere]]: [[aleid-van-der-haalst]] buys every iron ring that comes to market,\n  real or not.\n- The rest are lost, or worn by people who do not know what they are.\n\n## Threads\n\n- Why does the House of Salt want them: to keep the knot, or to own it?",
+      "file": "artifacts/the-nine-irons.md"
+    },
+    "velloch": {
+      "id": "velloch",
+      "type": "artifact",
+      "name": "Velloch",
+      "aliases": [
+        "the the Iron Hall ruby"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruby",
+        "relic",
+        "kell",
+        "crown",
+        "knot"
+      ],
+      "summary": "One of the three rubies of the Iron Crown of Kell, which held the second river, the one that runs through Hookford in its bed; taken by Sarn, and now, the stories say, with the Iron Hall.",
+      "relations": [
+        {
+          "to": "iron-crown-of-kell",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "stolen-by",
+          "declared": true
+        }
+      ],
+      "body": "## The stone\n\nVelloch held the second river, the one that meets the first at [[hookford]]. It is the ruby\n[[sarn]] has never quite said is gone. The divers and the pickers believe it is still in\n[[the-iron-hall]], somewhere the king could reach. [[corve]] is sitting beside something.\n\n## What it does\n\nSet in one of [[the-nine-irons]], it holds the ring shut, and the ring holds a rope of\n[[the-first-knot]]. Out of the iron, the stories disagree. Some say it gives the holder grip on\nthe river it held. Some say it gives the river grip on the holder.\n\n## Threads\n\n- What happens if it is set back?",
+      "file": "artifacts/velloch.md"
     },
     "fenmaws": {
       "id": "fenmaws",
@@ -4358,6 +4866,90 @@
       "body": "## What\n\nWrack is what the sea throws back onto the shingle at [[wrackhead]]: weed, spars, a boot. In\n[[kell]] the sea throws back the ones who went down and stayed. Each comes up again where it\nfell, holding what it held, standing on the ground the ledger last counted for it.\n\nYours come up too. Every time you went down and did not come back, something with your name\nand your gear stayed on the floor where you fell, and it holds that ground now. It does not\nknow you. It is old ground, and it is yours, and it is still not good.\n\n## Threads\n\n- Does the ledger count your wrack as you, or as someone else who held the same ground?",
       "file": "creatures/wrack.md"
     },
+    "pactmarks": {
+      "id": "pactmarks",
+      "type": "concept",
+      "name": "Pactmarks",
+      "aliases": [
+        "the marks",
+        "the tally"
+      ],
+      "status": "canon",
+      "tags": [
+        "sorcery",
+        "unborn",
+        "body",
+        "sign"
+      ],
+      "summary": "The marks every pact with the Unborn leaves on the body that paid for it: black veins, glass in the skin, an eye that does not blink; anyone who knows how can read what a sorcerer has paid.",
+      "relations": [
+        {
+          "to": "the-unborn",
+          "kind": "created-by",
+          "declared": true
+        }
+      ],
+      "body": "## What they are\n\nThe first coin of every pact is the body, and the body keeps the receipt. A small asking leaves\na small mark: a vein gone black under the wrist, a nail turned to horn. A great one leaves a\ngreat one: skin that is glass in patches, like [[qeth-ummar]]'s; a voice that comes from slightly\nbehind the mouth; an eye that no longer blinks or weeps.\n\n## Reading them\n\nPhysicians, [[the-leech-mothers]] and [[the-ninth-rope]] can read pactmarks the way a clerk reads\na ledger: how many askings, how large, and how close the second coin is. Sorcerers cover them\nwith gloves, veils and paint. [[mardra]] does not, and her marks are fewer than they should be.\n\n## Threads\n\n- Can a pactmark be cut out, and does the debt go with it?",
+      "file": "concepts/pactmarks.md"
+    },
+    "rope-oaths": {
+      "id": "rope-oaths",
+      "type": "concept",
+      "name": "Rope-oaths",
+      "aliases": [
+        "the hangsworn oath",
+        "swearing on the rope"
+      ],
+      "status": "canon",
+      "tags": [
+        "oath",
+        "hask",
+        "binding",
+        "law"
+      ],
+      "summary": "Oaths sworn with a hand on one of Hask's ropes, which bind in earnest: the oath-breaker does not die at once, but begins to, and goes on dying until the oath is kept or the rope is done.",
+      "relations": [
+        {
+          "to": "hask",
+          "kind": "created-by",
+          "declared": true
+        }
+      ],
+      "body": "## The oath\n\nPut your hand on a hangman's rope, say what you will do, and the [[the-ninth-rope]] will tie a\nknot in it and keep it. That is a rope-oath. It is the oldest law in Harth and the only one\nnobody can buy out of, not even in [[harrowmere]].\n\n## Breaking it\n\nThe oath-breaker feels the rope at once: a tightness at the throat that does not go away. Each day\nit is worse. Breath shortens, the face darkens, the voice goes. Keep the oath, late, and it\nloosens. Do not, and in a season or a year the rope finishes what it began.\n\n## Custom\n\nKings swear rope-oaths at their crowning, captains at their hiring, reavers on [[the-teeth]] by\nthe Captain's Oath, which is the same thing with a mast for a gallows.",
+      "file": "concepts/rope-oaths.md"
+    },
+    "truenaming": {
+      "id": "truenaming",
+      "type": "concept",
+      "name": "Truenaming",
+      "aliases": [
+        "the Grip",
+        "the old naming",
+        "river-naming"
+      ],
+      "status": "canon",
+      "tags": [
+        "sorcery",
+        "names",
+        "river-priests",
+        "thurn"
+      ],
+      "summary": "The river-priests' art, older than pacts: to name a thing truly is to take a grip on it; it costs no soul, only a piece of the namer's own name, and an old river-priest has almost none left.",
+      "relations": [
+        {
+          "to": "river-priests",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "thurn",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The art\n\nThe [[river-priests]] hold that every thing has a true name, under the one people call it, and\nthat the true name is a handle. Say it, and you have hold. A flood named truly goes down a\nfinger, as the river went down under [[vell]]'s feet. A man named truly does what he was going\nto do anyway, but cannot stop.\n\n## The cost\n\nTruenaming is not a pact. Nothing below is asked. The price is paid in the namer's own name: each\ntrue name given takes a little of the giver's. Young priests have long names. Brother [[ruun]] is\ncalled by one syllable, and some days he does not answer to it.\n\n## Threads\n\n- What happens to a priest who gives the last of their name?",
+      "file": "concepts/truenaming.md"
+    },
     "gorveks-last-road": {
       "id": "gorveks-last-road",
       "type": "event",
@@ -4482,6 +5074,76 @@
       "body": "## What fell\n\nTen years after [[kell]] went under, [[brandfell]] split open in the Wallmountains, and the\nfire in it came out. The sky over the north of [[gallowmark]] went black. Then the ash came\ndown: hot at first, burning thatch and birch and the people who could not get under stone,\nthen cold and grey and endless, a finger deep, a hand deep, to the knee. It fell on\n[[bonereach]] first and hardest, and it stayed a generation. The sun was a coin behind it.\nNothing grew. Inside the dark people did what people do when nobody can see them.\n\nThe rivers carried it south. For thirty years the grey rivers ran grey in earnest, and laid\nthe ash down on the sea floor over drowned Kell, which is why the silt on the\n[[quaysteps]] is not sand.\n\n## What came out\n\nWhen the sky cleared, the ones who walked out of the north were called the Ashborn.\n[[gorvek]] is one. The [[greycloaks]] are, in a sense, another: the order was born guarding\nthe drowned quays of [[kell]], took the north in the dark years while nobody could see it\nhappen, and never took the cloak off.\n\n## The calendar\n\nThe Mark counts its years from the clearing. Everything before is *in the grey*, and nobody\nis precise about it.\n\n## Threads\n\n- Why did Brandfell split, ten years to the season after the stones were taken?",
       "file": "events/the-ashfall.md"
     },
+    "the-broken-years": {
+      "id": "the-broken-years",
+      "type": "event",
+      "name": "The Broken Years",
+      "aliases": [
+        "the Thousand Crowns",
+        "the Long Dusk"
+      ],
+      "status": "canon",
+      "tags": [
+        "era",
+        "harth",
+        "plague",
+        "migration"
+      ],
+      "summary": "The thousand years after the fall of Vahr, when kingdoms rose and fell across Harth, plagues walked the roads, peoples wandered, and the Greycloaks learned to be everywhere without ruling anywhere.",
+      "year": -900,
+      "relations": [
+        {
+          "to": "the-fall-of-vahr",
+          "kind": "follows",
+          "declared": true
+        },
+        {
+          "to": "the-drowning-of-kell",
+          "kind": "precedes",
+          "declared": true
+        }
+      ],
+      "body": "## What happened\n\nEverything, and none of it for long. A hundred kingdoms claimed the empire and ninety-eight\nfell. [[crownhold]] lasted. [[harrowmere]] bought the debts. The Red Cough emptied the river\ncities twice. The [[the-hoofborn]] came off [[the-grass-sea]] four times. [[the-kneeling]] took\na city and the hangmen burned it: [[the-burning-of-ossery]].\n\n## What it made\n\nThe Harth of now: kingdoms that remember an empire, an order in grey that holds every gate, a\ncity that owns everyone's debt, and a knot that nobody but the hangmen remembers is there.",
+      "file": "events/the-broken-years.md"
+    },
+    "the-burning-of-ossery": {
+      "id": "the-burning-of-ossery",
+      "type": "event",
+      "name": "The Burning of Ossery",
+      "aliases": [
+        "the First Kneeling War",
+        "the Night of Ropes"
+      ],
+      "status": "canon",
+      "tags": [
+        "war",
+        "kneeling",
+        "ninth-rope",
+        "crownhold",
+        "history"
+      ],
+      "summary": "The war in which the Kneeling took the city of Ossery and opened something under it, and the hangmen and the kings of the Broken Years burned the city with everyone in it to close it again.",
+      "year": -400,
+      "relations": [
+        {
+          "to": "ossery",
+          "kind": "destroyed",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-ninth-rope",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The war\n\nFor a generation the Kneeling had been in Ossery's cellars. Then they were in its council, and then\nits gates closed. What happened inside for the next year nobody wrote down. The river below the city\nran warm.\n\n## The burning\n\n[[the-ninth-rope]] came south with every hangman in Harth, and three kings came with their armies,\nand they did not besiege Ossery. They burned it, all of it, with everyone inside, and hanged anyone\nwho came out. The hangmen say the knot was tighter afterward. The kings did not ask how.",
+      "file": "events/the-burning-of-ossery.md"
+    },
     "the-burning-of-the-rolls": {
       "id": "the-burning-of-the-rolls",
       "type": "event",
@@ -4537,6 +5199,11 @@
         {
           "to": "ruun",
           "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "the-broken-years",
+          "kind": "follows",
           "declared": false
         },
         {
@@ -4633,6 +5300,16 @@
       "year": -1000,
       "relations": [
         {
+          "to": "the-last-asking",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-broken-years",
+          "kind": "precedes",
+          "declared": false
+        },
+        {
           "to": "old-vahr",
           "kind": "destroyed",
           "declared": true
@@ -4646,9 +5323,14 @@
           "to": "the-first-knot",
           "kind": "follows",
           "declared": true
+        },
+        {
+          "to": "the-long-peace-of-vahr",
+          "kind": "follows",
+          "declared": false
         }
       ],
-      "body": "## The empire\n\nVahr was the first thing men built that the [[ossar]] had not. It ran from the ice to the\nfens, it wore iron crowns because iron was the metal of the knot, and for a thousand years it\nkept the oath and hanged its debtors on Hask's pattern. Then it began to use what the Ossar\nhad taught.\n\n## The asking\n\nThe emperors of [[old-vahr]] asked [[the-unborn]] for victories, and got them; for long\nlives, and got them; and at the last, for an empire that would never end. Something gave\nit to them. The heartland burned in one night, white, and the sand around the capital ran\nlike water and set like glass. That is the [[glassands]].\n\n## What was left\n\nThe provinces woke up without an emperor and became kingdoms: [[crownhold]], which says it\nis Vahr's heir; [[harrowmere]], which bought the empire's debts and calls that the same\nthing; the cities of the coast, of which [[kell]] kept the iron ring. The rest of the\n[[harth]] is what happens when nobody holds a land for a thousand years.\n\n## Threads\n\n- Did the emperors die, or did they get what they asked for?",
+      "body": "## The empire\n\nVahr was the first thing men built that the [[ossar]] had not. It ran from the ice to the\nfens, it wore iron crowns because iron was the metal of the knot, and for a thousand years it\nkept the oath and hanged its debtors on Hask's pattern. Then it began to use what the Ossar\nhad taught.\n\n## The asking\n\nThe emperors of [[old-vahr]] asked [[the-unborn]] for victories, and got them; for long\nlives, and got them; and at the last, for an empire that would never end. Something gave\nit to them. The heartland burned in one night, white, and the sand around the capital ran\nlike water and set like glass. That is the [[glassands]].\n\n## What was left\n\nThe provinces woke up without an emperor and became kingdoms: [[crownhold]], which says it\nis Vahr's heir; [[harrowmere]], which bought the empire's debts and calls that the same\nthing; the cities of the coast, of which [[kell]] kept the ninth of [[the-nine-irons]]. The rest of the\n[[harth]] is what happens when nobody holds a land for a thousand years.\n\n## Threads\n\n- Did the emperors die, or did they get what they asked for?",
       "file": "events/the-fall-of-vahr.md"
     },
     "the-first-knot": {
@@ -4670,6 +5352,11 @@
       "summary": "The oath by which the first men bound the Ossar and the Unborn under the earth: they hanged their own god on the ninth gallows of a northern ridge, so that the rope would hold for as long as a god can hang.",
       "year": -3000,
       "relations": [
+        {
+          "to": "the-nine-irons",
+          "kind": "created",
+          "declared": false
+        },
         {
           "to": "the-fall-of-vahr",
           "kind": "precedes",
@@ -4696,7 +5383,7 @@
           "declared": true
         }
       ],
-      "body": "## The rope\n\nThe first men had one god of their own, the god of oaths, and they had lost every war\nagainst the [[ossar]]. So they swore the one oath that could not be broken, and they made a\ngod hold it: they built nine gallows on the ridge that is now [[hangmoot]] and hanged\n[[hask]] on the ninth. A hanged god does not die. He hangs, and the oath hangs with him, and\nwhat it binds stays bound. The Ossar and their masters went under.\n\n## The ropes and the ring\n\nThe hangmen say the binding is nine ropes and one iron ring, and that the ring was carried\nsouth and set with stones and worn by kings, until it was the [[iron-crown-of-kell]]. The\ncrown held the rivers in their beds because it held a great deal more than rivers.\n\n## Why the Mark is the Mark\n\nEverything owed in [[gallowmark]] is owed to the rope, because every debt paid at Hask's\ngallows pulls the knot a little tighter. The Mark is not a borderland by accident. It is\nthe place where the world is tied shut.\n\n## Threads\n\n- What did the first men promise Hask for hanging?\n- Who is meant to cut him down, and when?",
+      "body": "## The rope\n\nThe first men had one god of their own, the god of oaths, and they had lost every war\nagainst the [[ossar]]. So they swore the one oath that could not be broken, and they made a\ngod hold it: they built nine gallows on the ridge that is now [[hangmoot]] and hanged\n[[hask]] on the ninth. A hanged god does not die. He hangs, and the oath hangs with him, and\nwhat it binds stays bound. The Ossar and their masters went under.\n\n## The ropes and the ring\n\nThe hangmen say the binding is nine ropes and nine iron rings, [[the-nine-irons]], one to hold each\nrope shut, and that the rings were carried south and worn by emperors and kings. The ninth was set\nwith stones and became the [[iron-crown-of-kell]]. The\ncrown held the rivers in their beds because it held a great deal more than rivers.\n\n## What it is held with\n\n- [[rope-oaths]], sworn on the ropes, which bind in earnest.\n- [[the-nine-irons]], the rings.\n- [[the-ninth-rope]], the hangmen who keep it.\n\n## Why the Mark is the Mark\n\nEverything owed in [[gallowmark]] is owed to the rope, because every debt paid at Hask's\ngallows pulls the knot a little tighter. The Mark is not a borderland by accident. It is\nthe place where the world is tied shut.\n\n## Threads\n\n- What did the first men promise Hask for hanging?\n- Who is meant to cut him down, and when?",
       "file": "events/the-first-knot.md"
     },
     "the-going-home": {
@@ -4832,6 +5519,42 @@
       ],
       "body": "## The moot\n\nEvery seventh winter the [[rimeclans]] walk out onto the great frozen lake of the middle\nRimewold and pitch their tents on the ice. For nine days nobody may draw blood except in the\nring. Feuds are fought out with fists and axe-hafts, marriages made, marriages broken, chiefs\ncounted by who stands behind them. [[hrok]] has been counted the longest line at five\nIcethings running.\n\n## The law of the ice\n\nBlood on the ice outside the ring breaks the truce, and the clan that broke it is put off the\nlake into the night with the [[rimehounds]]. It has happened twice in living memory.\n\n## Threads\n\n- Will [[clan-skoll]] come to the next Icething, and will anyone let them onto the ice?",
       "file": "events/the-icething.md"
+    },
+    "the-long-peace-of-vahr": {
+      "id": "the-long-peace-of-vahr",
+      "type": "event",
+      "name": "The Long Peace of Vahr",
+      "aliases": [
+        "the Unbroken",
+        "the Iron Millennium"
+      ],
+      "status": "canon",
+      "tags": [
+        "era",
+        "empire",
+        "vahr"
+      ],
+      "summary": "The thousand years when the empire of Vahr held Harth from the ice to the fens: roads, iron law, the Tenth Legion at every gate, and the emperors keeping the knot until they began to ask.",
+      "year": -2000,
+      "relations": [
+        {
+          "to": "old-vahr",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-tenth-legion",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-fall-of-vahr",
+          "kind": "precedes",
+          "declared": true
+        }
+      ],
+      "body": "## The peace\n\nNot peace: quiet. The emperors of [[old-vahr]] held Harth with roads, law and iron. Every debt was\nwritten, every oath sworn on the rope, every gate held by [[the-tenth-legion]]. The roads are still\nthere, and the gallows by the milestones.\n\n## The rot\n\nFor the first five centuries the emperors kept the [[the-nine-irons]] on their heads and the knot\ntight. For the second five they read [[the-hungry-books]]. The peace ended the way it was always\ngoing to.",
+      "file": "events/the-long-peace-of-vahr.md"
     },
     "the-three-crowns": {
       "id": "the-three-crowns",
@@ -12456,6 +13179,18 @@
       "declared": false
     },
     {
+      "from": "ossery",
+      "to": "crownhold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "ossery",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "quaysteps",
       "to": "kell",
       "kind": "located-in",
@@ -12549,6 +13284,18 @@
       "from": "ossar",
       "to": "the-black-step",
       "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-grass-sea",
+      "to": "the-hoofborn",
+      "kind": "home-of",
+      "declared": true
+    },
+    {
+      "from": "the-hoofborn",
+      "to": "the-grass-sea",
+      "kind": "lives-in",
       "declared": false
     },
     {
@@ -12972,6 +13719,30 @@
       "declared": false
     },
     {
+      "from": "the-hoofborn",
+      "to": "crownhold",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "the-hoofborn",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "the-hoofborn",
+      "to": "harrowmere",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-hoofborn",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
       "from": "the-kneeling",
       "to": "the-unborn",
       "kind": "worships",
@@ -13077,6 +13848,30 @@
       "from": "the-gilded",
       "to": "the-saltless",
       "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "the-tenth-legion",
+      "to": "old-vahr",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "the-tenth-legion",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-tenth-legion",
+      "to": "greycloaks",
+      "kind": "created",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "the-tenth-legion",
+      "kind": "created-by",
       "declared": false
     },
     {
@@ -13236,6 +14031,54 @@
       "declared": false
     },
     {
+      "from": "hookbreaker",
+      "to": "gorvek",
+      "kind": "wielded-by",
+      "declared": true
+    },
+    {
+      "from": "gorvek",
+      "to": "hookbreaker",
+      "kind": "wields",
+      "declared": false
+    },
+    {
+      "from": "hookbreaker",
+      "to": "greycloaks",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "hookbreaker",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "imryn",
+      "to": "iron-crown-of-kell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "imryn",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "imryn",
+      "to": "sarn",
+      "kind": "stolen-by",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "imryn",
+      "kind": "stole",
+      "declared": false
+    },
+    {
       "from": "linelord",
       "to": "river-priests",
       "kind": "named-by",
@@ -13257,6 +14100,126 @@
       "from": "kell",
       "to": "linelord",
       "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "tharsk",
+      "to": "iron-crown-of-kell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "tharsk",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "tharsk",
+      "to": "sarn",
+      "kind": "stolen-by",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "tharsk",
+      "kind": "stole",
+      "declared": false
+    },
+    {
+      "from": "the-hungry-books",
+      "to": "old-vahr",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "the-hungry-books",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-hungry-books",
+      "to": "the-unborn",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "the-hungry-books",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-last-asking",
+      "to": "old-vahr",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "the-last-asking",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-last-asking",
+      "to": "the-fall-of-vahr",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-fall-of-vahr",
+      "to": "the-last-asking",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-nine-irons",
+      "to": "the-first-knot",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "the-first-knot",
+      "to": "the-nine-irons",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-nine-irons",
+      "to": "hask",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "hask",
+      "to": "the-nine-irons",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "velloch",
+      "to": "iron-crown-of-kell",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "iron-crown-of-kell",
+      "to": "velloch",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "velloch",
+      "to": "sarn",
+      "kind": "stolen-by",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "velloch",
+      "kind": "stole",
       "declared": false
     },
     {
@@ -13500,6 +14463,54 @@
       "declared": false
     },
     {
+      "from": "pactmarks",
+      "to": "the-unborn",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "pactmarks",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "rope-oaths",
+      "to": "hask",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "hask",
+      "to": "rope-oaths",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "truenaming",
+      "to": "river-priests",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "river-priests",
+      "to": "truenaming",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "truenaming",
+      "to": "thurn",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "truenaming",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "gorveks-last-road",
       "to": "gorvek",
       "kind": "features",
@@ -13557,6 +14568,66 @@
       "from": "bonereach",
       "to": "the-ashfall",
       "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "the-broken-years",
+      "to": "the-fall-of-vahr",
+      "kind": "follows",
+      "declared": true
+    },
+    {
+      "from": "the-fall-of-vahr",
+      "to": "the-broken-years",
+      "kind": "precedes",
+      "declared": false
+    },
+    {
+      "from": "the-broken-years",
+      "to": "the-drowning-of-kell",
+      "kind": "precedes",
+      "declared": true
+    },
+    {
+      "from": "the-drowning-of-kell",
+      "to": "the-broken-years",
+      "kind": "follows",
+      "declared": false
+    },
+    {
+      "from": "the-burning-of-ossery",
+      "to": "ossery",
+      "kind": "destroyed",
+      "declared": true
+    },
+    {
+      "from": "ossery",
+      "to": "the-burning-of-ossery",
+      "kind": "destroyed-by",
+      "declared": false
+    },
+    {
+      "from": "the-burning-of-ossery",
+      "to": "the-kneeling",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "the-burning-of-ossery",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-burning-of-ossery",
+      "to": "the-ninth-rope",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "the-burning-of-ossery",
+      "kind": "featured-in",
       "declared": false
     },
     {
@@ -13833,6 +14904,42 @@
       "from": "rimeclans",
       "to": "the-icething",
       "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-long-peace-of-vahr",
+      "to": "old-vahr",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "the-long-peace-of-vahr",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-long-peace-of-vahr",
+      "to": "the-tenth-legion",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-tenth-legion",
+      "to": "the-long-peace-of-vahr",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-long-peace-of-vahr",
+      "to": "the-fall-of-vahr",
+      "kind": "precedes",
+      "declared": true
+    },
+    {
+      "from": "the-fall-of-vahr",
+      "to": "the-long-peace-of-vahr",
+      "kind": "follows",
       "declared": false
     },
     {
@@ -17973,10 +19080,28 @@
       "summary": "The oath by which the first men bound the Ossar and the Unborn under the earth: they hanged their own god on the ninth gallows of a northern ridge, so that the rope would hold for as long as a god can hang."
     },
     {
+      "year": -2000,
+      "id": "the-long-peace-of-vahr",
+      "name": "The Long Peace of Vahr",
+      "summary": "The thousand years when the empire of Vahr held Harth from the ice to the fens: roads, iron law, the Tenth Legion at every gate, and the emperors keeping the knot until they began to ask."
+    },
+    {
       "year": -1000,
       "id": "the-fall-of-vahr",
       "name": "The Fall of Vahr",
       "summary": "The end of the empire of Vahr a thousand years before Kell drowned, when its sorcerer-emperors asked the Unborn for one thing too many; the heartland burned to glass, and the empire broke into the kingdoms of Harth."
+    },
+    {
+      "year": -900,
+      "id": "the-broken-years",
+      "name": "The Broken Years",
+      "summary": "The thousand years after the fall of Vahr, when kingdoms rose and fell across Harth, plagues walked the roads, peoples wandered, and the Greycloaks learned to be everywhere without ruling anywhere."
+    },
+    {
+      "year": -400,
+      "id": "the-burning-of-ossery",
+      "name": "The Burning of Ossery",
+      "summary": "The war in which the Kneeling took the city of Ossery and opened something under it, and the hangmen and the kings of the Broken Years burned the city with everyone in it to close it again."
     },
     {
       "year": -40,

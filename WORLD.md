@@ -46,7 +46,7 @@ of it, the Unborn, waiting for the rope to give.
 | [[greycloaks]] | The order | Everywhere, ruling nothing, taking a tenth |
 | [[river-priests]] | The naming cult | Who names things, and why names bite |
 | [[the-kneeling]] | The cult of the Unborn | Cutting the ropes, one at a time |
-| [[iron-crown-of-kell]] | The empty crown | The iron ring of the knot, emptied |
+| [[iron-crown-of-kell]] | The empty crown | The ninth of [[the-nine-irons]], emptied of its three rubies |
 | [[streamlord]] | The software | Not a thing in the Mark; a grimoire that borrows its voices |
 | [[linelord]] | The king's ledger | Where the world meets the other software; counts who holds what, nothing else |
 
@@ -75,6 +75,45 @@ of it, the Unborn, waiting for the rope to give.
 | [[old-vahr]] | The burnt capital | [[qeth-ummar]] on the glass throne, the last emperor, maybe |
 | [[feverfen]] | The swamp-jungle | Black Ossar temples in the water; the fen-folk |
 | [[the-teeth]] | The reaver isles | No law but the captain's word |
+
+## How the world works
+
+| Rule | What | Pull |
+|---|---|---|
+| [[pactmarks]] | Sorcery leaves a receipt on the body | You can read what a sorcerer has paid |
+| [[truenaming]] | The river-priests' grip | Costs the namer's own name |
+| [[rope-oaths]] | Oaths on Hask's rope bind | Break one and start dying |
+| [[the-hungry-books]] | Vahr's grimoires | Every copy finds a reader |
+
+## Relics
+
+| What | Where | Pull |
+|---|---|---|
+| [[the-nine-irons]] | On kings' heads, in Harrowmere's vaults, lost | The knot's rings |
+| [[tharsk]], [[velloch]], [[imryn]] | Harrowmere, the Iron Hall, Sarn | The three rubies of Kell |
+| [[hookbreaker]] | Gone north with Gorvek | A hundred false ones in a hundred halls |
+| [[the-last-asking]] | Before the glass throne | What the emperors asked for, half melted |
+
+## The ages
+
+| When | What |
+|---|---|
+| Year -3000 | [[the-first-knot]]: Hask hanged, the Ossar bound |
+| Year -2000 | [[the-long-peace-of-vahr]], and [[the-tenth-legion]] at every gate |
+| Year -1000 | [[the-fall-of-vahr]] |
+| From -1000 | [[the-broken-years]]; [[the-burning-of-ossery]] at -400; the [[the-hoofborn]] last came at -59 |
+| Year -40 | [[the-drowning-of-kell]] |
+| Year 0 | [[the-ashfall]] clears |
+| Year 1 | [[the-ebb]], [[the-three-crowns]], [[the-burning-of-the-rolls]] |
+| Year 31 | [[gorveks-last-road]] |
+
+## Beyond Harth
+
+| Where | What |
+|---|---|
+| [[ysveld]] | Across the western sea; white sails, courteous strangers |
+| [[the-counted-lands]] | South of the glass, where the Ossar may still rule |
+| [[the-grass-sea]] | The steppe of the [[the-hoofborn]], who are due |
 
 ## The cast around the fixed points
 

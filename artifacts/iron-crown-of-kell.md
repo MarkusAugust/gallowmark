@@ -17,9 +17,9 @@ in their beds.
 
 ## The ring
 
-The crown is older than Kell. It is the iron ring of [[the-first-knot]], carried south and
-worn by the emperors of [[old-vahr]] before the kings of Kell had it, and the three rubies were
-set in it to hold the ring shut. That is the part the river-priests leave out.
+The crown is older than Kell. It is the ninth of [[the-nine-irons]] of [[the-first-knot]], carried
+south and worn by the emperors of [[old-vahr]] before the kings of Kell had it, and the three
+rubies, [[tharsk]], [[velloch]] and [[imryn]], were set in it to hold the ring shut. That is the part the river-priests leave out.
 
 ## The theft
 
@@ -29,5 +29,5 @@ way, and the empty iron is somewhere under it.
 
 ## Threads
 
-- The three rubies are the three most valuable objects in Gallowmark, and nobody has seen
-  one since. Sarn, asked, changes the subject.
+- The three rubies are the three most valuable objects in Harth. Sarn, asked, changes the
+  subject.

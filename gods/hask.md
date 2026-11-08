@@ -32,8 +32,8 @@ and the [[ossar]] and [[the-unborn]] are what it holds.
 
 ## The rope and the crown
 
-The hangmen say the land is held in place by nine ropes and one iron ring, and that the night
-[[sarn]] emptied the [[iron-crown-of-kell]] one of the nine went slack. They do not say which.
+The hangmen say the land is held in place by nine ropes and [[the-nine-irons]], and that the night
+[[sarn]] emptied the [[iron-crown-of-kell]], the ninth ring, the ninth rope went slack.
 Since [[the-ebb]] they have stopped saying nothing.
 
 ## Threads

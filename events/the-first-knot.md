@@ -22,9 +22,16 @@ what it binds stays bound. The Ossar and their masters went under.
 
 ## The ropes and the ring
 
-The hangmen say the binding is nine ropes and one iron ring, and that the ring was carried
-south and set with stones and worn by kings, until it was the [[iron-crown-of-kell]]. The
+The hangmen say the binding is nine ropes and nine iron rings, [[the-nine-irons]], one to hold each
+rope shut, and that the rings were carried south and worn by emperors and kings. The ninth was set
+with stones and became the [[iron-crown-of-kell]]. The
 crown held the rivers in their beds because it held a great deal more than rivers.
+
+## What it is held with
+
+- [[rope-oaths]], sworn on the ropes, which bind in earnest.
+- [[the-nine-irons]], the rings.
+- [[the-ninth-rope]], the hangmen who keep it.
 
 ## Why the Mark is the Mark
 

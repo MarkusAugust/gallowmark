@@ -53,6 +53,7 @@ graph LR
   kings-way["The King's Way"]
   lowstreets["The Lowstreets"]
   old-vahr["Old Vahr"]
+  ossery["Ossery"]
   quaysteps["The Quaysteps"]
   rimewold["The Rimewold"]
   rotwater["Rotwater"]
@@ -61,6 +62,8 @@ graph LR
   stillwater["Stillwater"]
   strongrooms["The Strongrooms"]
   the-black-step["The Black Step"]
+  the-counted-lands["The Counted Lands"]
+  the-grass-sea["The Grass Sea"]
   the-greywood["The Greywood"]
   the-iron-hall["The Iron Hall"]
   the-sleepers-wall["The Sleepers' Wall"]
@@ -69,6 +72,7 @@ graph LR
   ush-kaddah["Ush-Kaddah"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
+  ysveld["Ysveld"]
   argentine-houses["The Argentine Houses"]
   blackwakes-own["Blackwake's Own"]
   clan-skoll["Clan Skoll-Without-Fire"]
@@ -82,10 +86,12 @@ graph LR
   the-hadd["The Hadd"]
   the-holdfast-lords["The Holdfast Lords"]
   the-honest-company-of-takers["The Honest Company of Takers"]
+  the-hoofborn["The Hoofborn"]
   the-kneeling["The Kneeling"]
   the-leech-mothers["The Leech-Mothers"]
   the-ninth-rope["The Ninth Rope"]
   the-saltless["The Saltless"]
+  the-tenth-legion["The Tenth Legion"]
   the-unmourned["The Unmourned"]
   the-well-kings["The Well-Kings"]
   hask["Hask"]
@@ -95,9 +101,16 @@ graph LR
   the-unborn["The Unborn"]
   thurn["Thurn"]
   vorr["Vorr"]
+  hookbreaker["Hookbreaker"]
+  imryn["Imryn"]
   iron-crown-of-kell["The Iron Crown of Kell"]
   linelord["LineLord"]
   streamlord["Streamlord"]
+  tharsk["Tharsk"]
+  the-hungry-books["The Hungry Books"]
+  the-last-asking["The Last Asking"]
+  the-nine-irons["The Nine Irons"]
+  velloch["Velloch"]
   fenmaws["Fenmaws"]
   firstcloaks["The Firstcloaks"]
   notchers["Notchers"]
@@ -110,8 +123,13 @@ graph LR
   the-standing["The Standing"]
   the-unasked["The Unasked"]
   wrack["Your Wrack"]
+  pactmarks["Pactmarks"]
+  rope-oaths["Rope-oaths"]
+  truenaming["Truenaming"]
   gorveks-last-road["Gorvek's Last Road"]
   the-ashfall["The Ashfall"]
+  the-broken-years["The Broken Years"]
+  the-burning-of-ossery["The Burning of Ossery"]
   the-burning-of-the-rolls["The Burning of the Rolls"]
   the-drowning-of-kell["The Drowning of Kell"]
   the-ebb["The Ebb"]
@@ -121,6 +139,7 @@ graph LR
   the-heave["The Heave"]
   the-hiring-of-the-wise["The Hiring of the Wise"]
   the-icething["The Icething"]
+  the-long-peace-of-vahr["The Long Peace of Vahr"]
   the-three-crowns["The Three Crowns"]
   the-unpaid-war["The Unpaid War"]
   the-walk-to-the-hall["The Walk to the Hall"]
@@ -235,6 +254,7 @@ graph LR
   kings-way -- located-in --> the-iron-hall
   lowstreets -- located-in --> kell
   old-vahr -- located-in --> glassands
+  ossery -- located-in --> crownhold
   quaysteps -- located-in --> kell
   rotwater -- located-in --> feverfen
   saltgrave -- located-in --> harth
@@ -243,6 +263,7 @@ graph LR
   strongrooms -- located-in --> brinevaults
   the-black-step -- located-in --> feverfen
   the-black-step -- created-by --> ossar
+  the-grass-sea -- home-of --> the-hoofborn
   the-greywood -- located-in --> gallowmark
   the-greywood -- survived --> the-ashfall
   the-iron-hall -- located-in --> kell
@@ -278,6 +299,8 @@ graph LR
   the-holdfast-lords -- serves --> greycloaks
   the-honest-company-of-takers -- lives-in --> harrowmere
   the-honest-company-of-takers -- named-by --> sarn
+  the-hoofborn -- enemy-of --> crownhold
+  the-hoofborn -- enemy-of --> harrowmere
   the-kneeling -- worships --> the-unborn
   the-kneeling -- serves --> ossar
   the-leech-mothers -- lives-in --> feverfen
@@ -287,6 +310,8 @@ graph LR
   the-ninth-rope -- enemy-of --> the-kneeling
   the-saltless -- lives-in --> saltgrave
   the-saltless -- enemy-of --> the-gilded
+  the-tenth-legion -- serves --> old-vahr
+  the-tenth-legion -- created --> greycloaks
   the-unmourned -- worships --> nevermourn
   the-well-kings -- rules --> glassands
   the-well-kings -- serves --> the-unborn
@@ -300,8 +325,22 @@ graph LR
   thurn -- haunts --> gallowmark
   vorr -- haunts --> kell
   vorr -- rival-of --> thurn
+  hookbreaker -- wielded-by --> gorvek
+  hookbreaker -- enemy-of --> greycloaks
+  imryn -- features --> iron-crown-of-kell
+  imryn -- stolen-by --> sarn
   linelord -- named-by --> river-priests
   linelord -- created-by --> kell
+  tharsk -- features --> iron-crown-of-kell
+  tharsk -- stolen-by --> sarn
+  the-hungry-books -- created-by --> old-vahr
+  the-hungry-books -- features --> the-unborn
+  the-last-asking -- located-in --> old-vahr
+  the-last-asking -- features --> the-fall-of-vahr
+  the-nine-irons -- created-by --> the-first-knot
+  the-nine-irons -- features --> hask
+  velloch -- features --> iron-crown-of-kell
+  velloch -- stolen-by --> sarn
   fenmaws -- haunts --> feverfen
   firstcloaks -- member-of --> greycloaks
   firstcloaks -- haunts --> quaysteps
@@ -322,11 +361,20 @@ graph LR
   the-unasked -- serves --> vorr
   wrack -- haunts --> kell
   wrack -- named-by --> wrackhead
+  pactmarks -- created-by --> the-unborn
+  rope-oaths -- created-by --> hask
+  truenaming -- created-by --> river-priests
+  truenaming -- features --> thurn
   gorveks-last-road -- features --> gorvek
   gorveks-last-road -- features --> rimewold
   gorveks-last-road -- features --> brandfell
   gorveks-last-road -- features --> hrok
   the-ashfall -- destroyed --> bonereach
+  the-broken-years -- follows --> the-fall-of-vahr
+  the-broken-years -- precedes --> the-drowning-of-kell
+  the-burning-of-ossery -- destroyed --> ossery
+  the-burning-of-ossery -- features --> the-kneeling
+  the-burning-of-ossery -- features --> the-ninth-rope
   the-burning-of-the-rolls -- features --> crownhold
   the-burning-of-the-rolls -- features --> greycloaks
   the-drowning-of-kell -- destroyed --> kell
@@ -350,6 +398,9 @@ graph LR
   the-hiring-of-the-wise -- features --> the-gilded
   the-icething -- features --> rimewold
   the-icething -- features --> rimeclans
+  the-long-peace-of-vahr -- features --> old-vahr
+  the-long-peace-of-vahr -- features --> the-tenth-legion
+  the-long-peace-of-vahr -- precedes --> the-fall-of-vahr
   the-three-crowns -- features --> crownhold
   the-three-crowns -- features --> aurelian-vasthorne
   the-three-crowns -- precedes --> the-unpaid-war

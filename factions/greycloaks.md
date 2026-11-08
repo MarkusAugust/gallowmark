@@ -41,7 +41,8 @@ hired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, ho
 It is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is
 a gate the order holds and the king has forgotten he gave it.
 
-Nobody knows who leads it. The captains answer to the books, and the books answer to
+The order is older than it says. It is [[the-tenth-legion]] of Vahr, which kept its gates when
+the empire burned and never stopped. Nobody knows who leads it. The captains answer to the books, and the books answer to
 someone.
 
 ## Enemies

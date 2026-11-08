@@ -29,7 +29,7 @@ like water and set like glass. That is the [[glassands]].
 
 The provinces woke up without an emperor and became kingdoms: [[crownhold]], which says it
 is Vahr's heir; [[harrowmere]], which bought the empire's debts and calls that the same
-thing; the cities of the coast, of which [[kell]] kept the iron ring. The rest of the
+thing; the cities of the coast, of which [[kell]] kept the ninth of [[the-nine-irons]]. The rest of the
 [[harth]] is what happens when nobody holds a land for a thousand years.
 
 ## Threads

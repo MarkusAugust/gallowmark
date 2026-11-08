@@ -22,6 +22,7 @@ export const TYPES = {
   god: "gods",
   artifact: "artifacts",
   creature: "creatures",
+  concept: "concepts",
   event: "events",
   story: "stories",
   quote: "quotes",

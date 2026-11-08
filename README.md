@@ -10,7 +10,7 @@ rules of writing it. [GRAPH.md](GRAPH.md) draws the relations.
 ## Layout
 
 ```
-characters/  places/  factions/  gods/  artifacts/  creatures/  events/  stories/  quotes/
+characters/  places/  factions/  gods/  artifacts/  creatures/  concepts/  events/  stories/  quotes/
     one Markdown file per entity; the file name is the id
 tools/lore.mjs         validate, build, check, new, list  (no dependencies)
 schema/lore.schema.json  JSON Schema for dist/lore.json
@@ -42,7 +42,8 @@ Prose. Link other entities with [[gorvek]].
 Events add `year:` (years since the Ashfall; negative is before). Stories add `speaker:`
 (an entity id) and `form:` (creed, whisper, chronicle, prose, verse). Creatures are the kinds
 of thing that are not one person (beasts, the drowned, what a god sends) and take the same
-fields as any entity.
+fields as any entity. Concepts are the rules of the world that are not a thing or a place
+(how sorcery is paid, how a name grips, what an oath does) and take the same fields too.
 
 ## A quote
 

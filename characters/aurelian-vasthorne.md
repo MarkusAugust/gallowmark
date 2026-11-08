@@ -14,7 +14,7 @@ relations:
 
 Aurelian is seventy, fat, gilded to the knuckles and very much cleverer than he lets anyone
 see. He came to the throne by outliving his brothers, and he has kept it by outliving his
-sons. He wears an iron circlet under the gold, on the Vahrish pattern, and takes it off for
+sons. He wears an iron circlet under the gold, one of [[the-nine-irons]], and takes it off for
 nobody.
 
 ## Voice
