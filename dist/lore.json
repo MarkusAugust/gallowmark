@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 517,
+  "entityCount": 522,
   "types": [
     "character",
     "place",
@@ -753,6 +753,11 @@
           "to": "the-three-crowns",
           "kind": "features",
           "declared": true
+        },
+        {
+          "to": "the-halberd-march",
+          "kind": "created",
+          "declared": false
         }
       ],
       "body": "## Who\n\nMarcus was sent out of the palace at four, with a purse and no name, and grew up carrying\nwater in a free company. He took his name from the first weapon he was given. At thirty-five he\nis broad, scarred, and the best captain in [[crownhold]], and when he takes his helmet off,\nthe old men of the court go quiet, because he has [[aurelian-vasthorne]]'s face at forty.\n\n## Voice\n\nA soldier's: short, practical, and funny at the wrong moment. He swears by [[nevermourn]].\n\n## Threads\n\n- Did the king send him away to save him, or to forget him?",
@@ -1232,6 +1237,16 @@
           "to": "the-three-crowns",
           "kind": "features",
           "declared": true
+        },
+        {
+          "to": "the-sunward-see",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-fraying",
+          "kind": "caused",
+          "declared": false
         }
       ],
       "body": "## Who\n\nSeraphine is nineteen, thin, quiet, and the only one of the king's children who prays. The\ncourt thinks she prays to the gods of the chapel. She prays with her forehead on the cellar\nfloor, and something answers her.\n\n## What she wants\n\nThe iron circlet her father wears under the gold. [[the-kneeling]] have told her it is one of\nthe rings of [[the-first-knot]], carried south out of [[old-vahr]], and that a ring broken in\nthe right place loosens the rope. She has not told them she would rather wear it.\n\n## Threads\n\n- Is she one of the [[argentine-houses]] by her mother's side?",
@@ -1300,6 +1315,11 @@
           "to": "crownhold",
           "kind": "enemy-of",
           "declared": true
+        },
+        {
+          "to": "the-saddle-throne",
+          "kind": "created",
+          "declared": false
         }
       ],
       "body": "## Who\n\nSorgan is twenty-four, lean, scarred across both cheeks by the wind, and has never lost a fight.\nWhen he was twelve a storm came west across [[the-grass-sea]] and he rode into it, against it, for\nthree days, and came out the other side. The tribes call him Windbreaker, and the old women say\nthe wind that pushes the [[the-hoofborn]] west every generation has met its rider.\n\n## What he wants\n\nThe west. Not to raid it this time. To keep it.\n\n## Threads\n\n- What did he see on the far side of the storm?",
@@ -1393,6 +1413,11 @@
           "to": "aleid-van-der-haalst",
           "kind": "serves",
           "declared": true
+        },
+        {
+          "to": "realm-of-solmerine",
+          "kind": "created",
+          "declared": false
         }
       ],
       "body": "## Who\n\nTiberian is thirty, golden-haired, tall, and good at everything that is done in front of a\ncrowd: riding, speaking, weeping at funerals. He has never read a document he signed. His\ncouncillors read them for him, and his councillors are paid by the House of Salt.\n\n## Voice\n\nWarm, sincere, and a little too loud. He means it. That is the worst of it.\n\n## Threads\n\n- Does he know, somewhere under the gilt, what he has signed?",
@@ -2072,6 +2097,11 @@
           "to": "fenmaws",
           "kind": "haunted-by",
           "declared": false
+        },
+        {
+          "to": "the-fraying",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The fen\n\nWhere the rivers of the east come to the sea they give up and spread out into a hundred\nmiles of mangrove, reed and black water under a canopy that does not let the sun down.\nFever lives here, and leeches as long as a forearm, and things the fen-folk do not name.\n\n## The temples\n\nThe [[ossar]] built in black stone, and here the stone still stands, stepped temples rising\nout of the water with the jungle grown over them. The fen-folk fish around them and do not\ngo inside. The ones who do go in come out pale, if they come out.\n\n## The fen-folk\n\nSmall, quiet, tattooed people who pole flat boats through the channels and trade with the\nreavers of [[the-teeth]]. They worship nothing. They say worship is what the Ossar wanted.\n\n## Places and powers\n\n- [[the-black-step]], the greatest temple.\n- [[driftholds]], the floating villages.\n- [[the-leech-mothers]], the fever-healers.\n- [[rotwater]], the smugglers' port.\n\n## Threads\n\n- What do the fen-folk leave on the temple steps every new moon, and who takes it?",
@@ -2298,6 +2328,11 @@
           "to": "the-fall-of-vahr",
           "kind": "created-by",
           "declared": false
+        },
+        {
+          "to": "the-fraying",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The desert\n\nSouth of Crownhold the land goes yellow, then white, then hard. For a hundred miles around\n[[old-vahr]] the sand is glass, green and black and cracked, and a man who walks on it in\nthe noon sun goes blind. The caravans cross at night, between the old cities, carrying salt,\nglass, and what the diggers bring out of the ruins.\n\n## The ruins\n\nVahr's cities are still out there, half drowned in sand: towers, aqueducts, streets of\nstatues with their faces melted. Under them are older foundations, black and too large, that\nwere the [[ossar]]'s. Diggers go down for gold and come up with bones too long for any grave.\n\n## The kings of the glass\n\nIn the old towers sit sorcerer-kings who rule a well, a ruin and a few hundred desperate\npeople each, and who make pacts with [[the-unborn]] the way other kings raise taxes. The\ngreatest of them is [[qeth-ummar]], in Old Vahr itself.\n\n## Places and powers\n\n- [[ush-kaddah]], the city of the bottomless well.\n- [[the-well-kings]], the sorcerer-kings of the towers.\n- [[qarr-dhuun]], the diggers' guild.\n- [[ahl-sereth]], the white glass where night does not come.\n\n## Threads\n\n- What is under the glass, in the place where the fire was whitest?",
@@ -2319,6 +2354,11 @@
           "to": "crownhold",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "the-sunward-see",
+          "kind": "featured-in",
+          "declared": false
         },
         {
           "to": "house-aldemar",
@@ -2417,6 +2457,11 @@
           "to": "greycloaks",
           "kind": "guarded-by",
           "declared": true
+        },
+        {
+          "to": "the-halberd-march",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The keep\n\nGrimwatch is Vahrish, older than anything else in the Mark, a square of black stone where the\nimperial road comes down out of the hills into Gallowmark. [[crownhold]] built it as a border\nkeep. The [[greycloaks]] were hired to garrison it two hundred years ago and never left.\n\n## Now\n\nWhichever of [[the-three-crowns]] holds Grimwatch holds the road north. All three know it.\nThe captain of the keep has received three letters this winter and answered all three, politely.",
@@ -2466,6 +2511,11 @@
         },
         {
           "to": "the-first-knot",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-fraying",
           "kind": "featured-in",
           "declared": false
         }
@@ -2927,6 +2977,11 @@
           "declared": true
         },
         {
+          "to": "the-saddle-throne",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "house-corvaith",
           "kind": "home-of",
           "declared": false
@@ -3087,6 +3142,44 @@
       ],
       "body": "## The steps\n\n[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water\nbelow [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up\nwith iron and bollard-rings, and with grey on their boots that does not wash off, because it is ash.\n\n## The silt\n\nThe silt on the steps is not sand. It is ash, thirty years of it, that the grey rivers carried\ndown out of the north and laid on the sea floor. Lamps burn grey down here, in the dust. In it lie bones in cloaks the colour of the silt, the order's first men, from\nthe years when the [[greycloaks]] guarded these quays from salvagers, and kept guarding them\nwhen the ash came down the rivers and nobody came to relieve them. Some\nof them are still guarding.\n\n## Threads\n\n- Why are the steps warm, under the silt, where the sea has only just let go of them?",
       "file": "places/quaysteps.md"
+    },
+    "realm-of-solmerine": {
+      "id": "realm-of-solmerine",
+      "type": "place",
+      "name": "The Realm of Solmerine",
+      "aliases": [
+        "Solmerine",
+        "the Gilt Realm",
+        "the Kingdom of the Fair"
+      ],
+      "status": "canon",
+      "tags": [
+        "kingdom",
+        "crownhold",
+        "successor",
+        "harrowmere",
+        "future"
+      ],
+      "summary": "The successor kingdom of Crownhold founded by Tiberian the Fair in the capital, rich, beautiful, and owned by Harrowmere; in the year 150 its kings still sign whatever the House of Salt puts in front of them.",
+      "relations": [
+        {
+          "to": "solmerine",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "tiberian-vasthorne",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "house-sabinus",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The realm\n\nWhen [[the-three-crowns]] were crowned, the capital crowned [[tiberian-vasthorne]], and he kept it:\n[[solmerine]], the Saltcoast, Vinalis and the river cities. His line holds them still, a dynasty of\ngolden kings with beautiful manners and Harrowmere councillors.\n\n## In the year 150\n\nThe richest of the three realms and the weakest. Its armies are bought. Its debts are held by\n[[aleid-van-der-haalst]]'s descendants. It wants the other two crowns back, and Harrowmere lends it\nthe money to try, every generation, at interest.",
+      "file": "places/realm-of-solmerine.md"
     },
     "rimcroft": {
       "id": "rimcroft",
@@ -3307,6 +3400,11 @@
       "summary": "The capital of Crownhold, built on a Vahrish provincial seat beside a wide bright lake the court calls the sun-sea; gold domes, marble stairs, poison at the banquets and beggars on every stair.",
       "relations": [
         {
+          "to": "realm-of-solmerine",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "crownhold",
           "kind": "located-in",
           "declared": true
@@ -3505,6 +3603,49 @@
       "body": "## The wood\n\nWest of [[hookford]] the old forest of the Mark stood in the path of the ash. It died standing.\nThirty years on, the trunks are still there, grey and bare, hard as bone, and the wind goes\nthrough them with a sound like breathing. Nothing grows under them. Nothing nests in them.\n\n## Who lives there\n\nOutlaws, because the [[greycloaks]] do not go in. Charcoal-burners, because grey wood burns hot.\nAnd in the deep of it, past where the outlaws go, things the outlaws do not name.\n\n## Threads\n\n- Why has nobody ever found the far side of the deep wood?",
       "file": "places/the-greywood.md"
     },
+    "the-halberd-march": {
+      "id": "the-halberd-march",
+      "type": "place",
+      "name": "The Halberd March",
+      "aliases": [
+        "the March",
+        "the Soldier Kingdom",
+        "the Bastard's Realm"
+      ],
+      "status": "canon",
+      "tags": [
+        "kingdom",
+        "crownhold",
+        "successor",
+        "soldiers",
+        "future"
+      ],
+      "summary": "The soldier-kingdom of the north road, founded by Marcus Halberd and the Unmourned between Crownhold and Gallowmark; its kings are captains, its law is the company contract, and it holds Grimwatch.",
+      "relations": [
+        {
+          "to": "marcus-halberd",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "the-unmourned",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "grimwatch",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "house-trevane",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The realm\n\nThe army crowned [[marcus-halberd]], and the army is what he kept: the north road, the border\nhouses, and [[grimwatch]], which he took from the Greycloaks by paying them more. His successors\nare the captains of [[the-unmourned]], each chosen by the company, each sworn on the rope.\n\n## In the year 150\n\nPoor, hard, and the best soldiers in Harth. The March fights Solmerine and the See for the\nheartland, and sends companies south to the Ossar front for pay. It worships [[nevermourn]] above\nthe sun, and its kings do not weep.",
+      "file": "places/the-halberd-march.md"
+    },
     "the-iron-hall": {
       "id": "the-iron-hall",
       "type": "place",
@@ -3556,6 +3697,44 @@
       "body": "## The hall\n\nThe iron roof is the only part of [[kell]] the coast can see, and since [[the-ebb]] it stands\nclear of the salt a little longer every low water. Under it the king sits with the\n[[iron-crown-of-kell]] on his head and three empty sockets in it. The iron is warm.\n\n## The guard\n\nThe king's household guard drowned at their posts in full iron, and [[the-standing]] are\nwhat is left of them: two ranks down the length of the hall, salt-white, facing the door.\nThey do not move while the king sits. Reach for what is his and they do.\n\n## The floor\n\nThe flagstones are warm under the silt, warmer the nearer the throne. In the middle of the\nfloor is the grate of the great cistern, and the water that goes down it comes back up as\nsteam on a cold day. [[the-heave]] is under the hall, and closest here.\n\n## The ledger\n\n[[linelord]] lies open on its stand at the king's right hand. The last line in it is not the\nking's. [[corve]] sits beside it and has not moved in years. Behind the throne, the\n[[kings-way]] goes up.\n\n## Threads\n\n- Is one of the three rubies still in this room, as Sarn has never quite denied?\n- What did [[gorvek]] take out of here in a sack?",
       "file": "places/the-iron-hall.md"
     },
+    "the-saddle-throne": {
+      "id": "the-saddle-throne",
+      "type": "place",
+      "name": "The Saddle Throne",
+      "aliases": [
+        "the Khanate",
+        "the Grass Realm",
+        "Marchgrass"
+      ],
+      "status": "canon",
+      "tags": [
+        "khanate",
+        "hoofborn",
+        "crownhold",
+        "successor",
+        "future"
+      ],
+      "summary": "The khanate the Hoofborn founded in the east of old Crownhold under Sorgan Windbreaker in year ten; its khans still hold court on horseback, and the old Marcheast is grassland again.",
+      "relations": [
+        {
+          "to": "the-hoofborn",
+          "kind": "home-of",
+          "declared": true
+        },
+        {
+          "to": "sorgan-windbreaker",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "marcheast",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The coming\n\nIn the tenth winter, while the three crowns fought each other and the south was burning,\n[[sorgan-windbreaker]] came west over the hills with every tribe of [[the-hoofborn]]. [[the-iron-hundred]]\nrode out to meet him and died to the last knight. He did not go home. He took [[marcheast]] and\nlet it go back to grass.\n\n## In the year 150\n\nThe khans of the Saddle Throne hold court in tents in the ruins of the eastern towns, and sit on\ntheir horses to give judgment. The khanate trades horses to all three realms of Crownhold, raids\nall three, and is the only power in Harth that has fought the Ossar on open ground and won. They\nknow now what pushed them west.",
+      "file": "places/the-saddle-throne.md"
+    },
     "the-sleepers-wall": {
       "id": "the-sleepers-wall",
       "type": "place",
@@ -3586,6 +3765,44 @@
       ],
       "body": "## The wall\n\nFar north, past the last valley anyone has farmed, the ice stands up in a wall: blue-white,\nmiles long, higher than the towers of [[crownhold]]. In it, deep, there are shapes. Tall ones,\ntoo tall, standing upright with their arms at their sides, the way the [[ossar]] were drawn on\nthe walls of their temples. Behind them, deeper, larger ones that are not shaped like anything.\n\n## The sleep\n\nThe [[rimeclans]] say the shapes are sleeping, not dead, and that the cold is what keeps them\nasleep. Since [[brandfell]] split, the north has been warmer. Water runs down the face of the Wall\nin summer now. [[clan-skoll]] went there and came back changed.\n\n## Threads\n\n- How much warmer does the north have to get?",
       "file": "places/the-sleepers-wall.md"
+    },
+    "the-sunward-see": {
+      "id": "the-sunward-see",
+      "type": "place",
+      "name": "The Sunward See",
+      "aliases": [
+        "the See",
+        "the Church-Realm",
+        "the Pale Throne"
+      ],
+      "status": "canon",
+      "tags": [
+        "kingdom",
+        "church",
+        "crownhold",
+        "successor",
+        "future"
+      ],
+      "summary": "The church-realm of the Sunward Faith in Granaria and the old heartland, which crowned Seraphine, burned her when she broke the ring, and kept her throne; ruled by its Exarchs, at war with the dark below and with everyone else.",
+      "relations": [
+        {
+          "to": "the-sunward-faith",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "granaria",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "seraphine-vasthorne",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The realm\n\nThe chapel crowned [[seraphine-vasthorne]]. When she broke the ring, the chapel burned her, and the\nExarch [[hadrian-mournevale]] took the throne in the name of [[helion-castor]], for safekeeping.\nNobody has given it back. The See is the grain heartland of old [[crownhold]], ruled from the\ncathedral by Exarchs of the [[the-sunward-faith]].\n\n## In the year 150\n\nThe See is the shield against the dark: its armies march south to the Ossar front every summer\nunder the sun-banner. It is also the realm that burns the most heretics, sells the most offices,\nand has the most silver-eyed bishops.",
+      "file": "places/the-sunward-see.md"
     },
     "the-teeth": {
       "id": "the-teeth",
@@ -4191,6 +4408,11 @@
       "summary": "House Sabinus, the money-house of the Saltcoast, deepest in debt to Harrowmere and deepest in its counting-houses, which backs Tiberian the Fair.",
       "relations": [
         {
+          "to": "realm-of-solmerine",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "saltcoast",
           "kind": "lives-in",
           "declared": true
@@ -4214,6 +4436,11 @@
       ],
       "summary": "House Trevane, the border house of the north road, holders of the march toward Gallowmark and Grimwatch, hard, poor and proud.",
       "relations": [
+        {
+          "to": "the-halberd-march",
+          "kind": "featured-in",
+          "declared": false
+        },
         {
           "to": "crownhold",
           "kind": "lives-in",
@@ -4702,6 +4929,11 @@
           "declared": false
         },
         {
+          "to": "the-saddle-throne",
+          "kind": "lives-in",
+          "declared": false
+        },
+        {
           "to": "crownhold",
           "kind": "enemy-of",
           "declared": true
@@ -4979,6 +5211,11 @@
           "declared": false
         },
         {
+          "to": "the-sunward-see",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
           "to": "helion-castor",
           "kind": "worships",
           "declared": true
@@ -5062,6 +5299,11 @@
         {
           "to": "marcus-halberd",
           "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "the-halberd-march",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -5903,6 +6145,11 @@
           "to": "hask",
           "kind": "features",
           "declared": true
+        },
+        {
+          "to": "the-fraying",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The rings\n\nNine ropes hang on [[hangmoot]] and nine iron rings were forged to hold them shut, one for each.\nThe first men gave them to their chiefs to wear, so that the oath would sit on the heads of those\nwho ruled. The emperors of [[old-vahr]] wore them as crowns, under the gold. When the empire broke,\nthe rings went with the provinces.\n\n## Where they are\n\n- The ninth was the [[iron-crown-of-kell]], set with [[tharsk]], [[velloch]] and [[imryn]]. It is\n  empty.\n- One is on the head of [[aurelian-vasthorne]], under the gold, and [[seraphine-vasthorne]] wants\n  it.\n- Some are in [[harrowmere]]: [[aleid-van-der-haalst]] buys every iron ring that comes to market,\n  real or not.\n- The rest are lost, or worn by people who do not know what they are.\n\n## Threads\n\n- Why does the House of Salt want them: to keep the knot, or to own it?",
@@ -7318,6 +7565,60 @@
       "body": "## The rope\n\nThe first men had one god of their own, the god of oaths, and they had lost every war\nagainst the [[ossar]]. So they swore the one oath that could not be broken, and they made a\ngod hold it: they built nine gallows on the ridge that is now [[hangmoot]] and hanged\n[[hask]] on the ninth. A hanged god does not die. He hangs, and the oath hangs with him, and\nwhat it binds stays bound. The Ossar and their masters went under.\n\n## The ropes and the ring\n\nThe hangmen say the binding is nine ropes and nine iron rings, [[the-nine-irons]], one to hold each\nrope shut, and that the rings were carried south and worn by emperors and kings. The ninth was set\nwith stones and became the [[iron-crown-of-kell]]. The\ncrown held the rivers in their beds because it held a great deal more than rivers.\n\n## What it is held with\n\n- [[rope-oaths]], sworn on the ropes, which bind in earnest.\n- [[the-nine-irons]], the rings.\n- [[the-ninth-rope]], the hangmen who keep it.\n\n## Why the Mark is the Mark\n\nEverything owed in [[gallowmark]] is owed to the rope, because every debt paid at Hask's\ngallows pulls the knot a little tighter. The Mark is not a borderland by accident. It is\nthe place where the world is tied shut.\n\n## Threads\n\n- What did the first men promise Hask for hanging?\n- Who is meant to cut him down, and when?",
       "file": "events/the-first-knot.md"
     },
+    "the-fraying": {
+      "id": "the-fraying",
+      "type": "event",
+      "name": "The Fraying",
+      "aliases": [
+        "the Snapping",
+        "the Slack Years",
+        "the Unknotting"
+      ],
+      "status": "canon",
+      "tags": [
+        "catastrophe",
+        "knot",
+        "ossar",
+        "era",
+        "future"
+      ],
+      "summary": "The age that began in year nine, when Seraphine Vasthorne broke her dead father's iron ring and a rope snapped on Hangmoot; the Ossar woke in the Feverfen and the south of the Glassands, those lands were lost, and Harth has been fighting to hold the rest ever since.",
+      "year": 9,
+      "relations": [
+        {
+          "to": "seraphine-vasthorne",
+          "kind": "caused-by",
+          "declared": true
+        },
+        {
+          "to": "the-nine-irons",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "hangmoot",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "feverfen",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "glassands",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-three-crowns",
+          "kind": "follows",
+          "declared": true
+        }
+      ],
+      "body": "## The night\n\n[[aurelian-vasthorne]] died in the sixth winter after the ash cleared, and [[the-three-crowns]]\nwere crowned in three cities. In the ninth, [[seraphine-vasthorne]], crowned by the chapel, took\nher father's circlet, one of [[the-nine-irons]], down into the cellars of [[solmerine]] and broke it\non the floor where she knelt. On [[hangmoot]], that same night, a rope snapped. [[haldis-graymane]]\nheard it from her bed.\n\n## What woke\n\nIn the [[feverfen]] the lights on [[the-black-step]] burned all night, and in the morning the\n[[the-stonesleepers]] were walking. In the south of the [[glassands]] the foundations under the\nruins opened. Within a year both lands were lost: their people fled, were taken, or were counted.\n[[smokemouth]] finished what was being built on it.\n\n## After\n\nThe Sunward church that crowned Seraphine burned her in the cathedral square of what became\n[[the-sunward-see]], and kept her throne. The other ropes held. They have held, barely, for a\nhundred and forty years.\n\n## A hundred and fifty years on\n\nThis is the Harth of the year 150:\n\n- Crownhold is three kingdoms at war with each other: [[realm-of-solmerine]], [[the-sunward-see]]\n  and [[the-halberd-march]]. Its east is [[the-saddle-throne]] of the Hoofborn.\n- The Feverfen and the south of the Glassands are Ossar country. The front is a line of forts,\n  ruins and burned villages, and nobody holds it for long.\n- [[the-ninth-rope]] holds Hangmoot with eight ropes, and hunts.\n- The [[greycloaks]] hold every gate, still, politely. They have never shut one.\n- [[harrowmere]] is richer than ever. Everyone owes it for the war.\n- Gorvek is a legend. Hookbreakers hang in every hall.\n\n## Threads\n\n- How long can eight ropes hold what nine held?\n- Who will try to cut the next one, and who will try to tie the ninth again?",
+      "file": "events/the-fraying.md"
+    },
     "the-going-home": {
       "id": "the-going-home",
       "type": "event",
@@ -7519,6 +7820,11 @@
         {
           "to": "tiberian-vasthorne",
           "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "the-fraying",
+          "kind": "precedes",
           "declared": false
         },
         {
@@ -15627,6 +15933,42 @@
       "declared": false
     },
     {
+      "from": "realm-of-solmerine",
+      "to": "solmerine",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "solmerine",
+      "to": "realm-of-solmerine",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "realm-of-solmerine",
+      "to": "tiberian-vasthorne",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "tiberian-vasthorne",
+      "to": "realm-of-solmerine",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "realm-of-solmerine",
+      "to": "house-sabinus",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "house-sabinus",
+      "to": "realm-of-solmerine",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "rimcroft",
       "to": "greyhollow",
       "kind": "located-in",
@@ -15795,6 +16137,54 @@
       "declared": false
     },
     {
+      "from": "the-halberd-march",
+      "to": "marcus-halberd",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "marcus-halberd",
+      "to": "the-halberd-march",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-halberd-march",
+      "to": "the-unmourned",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-unmourned",
+      "to": "the-halberd-march",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-halberd-march",
+      "to": "grimwatch",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "grimwatch",
+      "to": "the-halberd-march",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-halberd-march",
+      "to": "house-trevane",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "house-trevane",
+      "to": "the-halberd-march",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "the-iron-hall",
       "to": "kell",
       "kind": "located-in",
@@ -15807,6 +16197,42 @@
       "declared": false
     },
     {
+      "from": "the-saddle-throne",
+      "to": "the-hoofborn",
+      "kind": "home-of",
+      "declared": true
+    },
+    {
+      "from": "the-hoofborn",
+      "to": "the-saddle-throne",
+      "kind": "lives-in",
+      "declared": false
+    },
+    {
+      "from": "the-saddle-throne",
+      "to": "sorgan-windbreaker",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "sorgan-windbreaker",
+      "to": "the-saddle-throne",
+      "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-saddle-throne",
+      "to": "marcheast",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "marcheast",
+      "to": "the-saddle-throne",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "the-sleepers-wall",
       "to": "rimewold",
       "kind": "located-in",
@@ -15816,6 +16242,42 @@
       "from": "rimewold",
       "to": "the-sleepers-wall",
       "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-sunward-see",
+      "to": "the-sunward-faith",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-sunward-faith",
+      "to": "the-sunward-see",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "the-sunward-see",
+      "to": "granaria",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "granaria",
+      "to": "the-sunward-see",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-sunward-see",
+      "to": "seraphine-vasthorne",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "seraphine-vasthorne",
+      "to": "the-sunward-see",
+      "kind": "featured-in",
       "declared": false
     },
     {
@@ -17796,6 +18258,78 @@
       "from": "the-unborn",
       "to": "the-first-knot",
       "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-fraying",
+      "to": "seraphine-vasthorne",
+      "kind": "caused-by",
+      "declared": true
+    },
+    {
+      "from": "seraphine-vasthorne",
+      "to": "the-fraying",
+      "kind": "caused",
+      "declared": false
+    },
+    {
+      "from": "the-fraying",
+      "to": "the-nine-irons",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-nine-irons",
+      "to": "the-fraying",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-fraying",
+      "to": "hangmoot",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "hangmoot",
+      "to": "the-fraying",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-fraying",
+      "to": "feverfen",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "feverfen",
+      "to": "the-fraying",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-fraying",
+      "to": "glassands",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "glassands",
+      "to": "the-fraying",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-fraying",
+      "to": "the-three-crowns",
+      "kind": "follows",
+      "declared": true
+    },
+    {
+      "from": "the-three-crowns",
+      "to": "the-fraying",
+      "kind": "precedes",
       "declared": false
     },
     {
@@ -22168,6 +22702,12 @@
       "id": "the-unpaid-war",
       "name": "The Unpaid War",
       "summary": "The war Crownhold makes on Harrowmere to wipe out the empire's old debt with the sword, and Harrowmere fights with every free company money can buy."
+    },
+    {
+      "year": 9,
+      "id": "the-fraying",
+      "name": "The Fraying",
+      "summary": "The age that began in year nine, when Seraphine Vasthorne broke her dead father's iron ring and a rope snapped on Hangmoot; the Ossar woke in the Feverfen and the south of the Glassands, those lands were lost, and Harth has been fighting to hold the rest ever since."
     },
     {
       "year": 31,

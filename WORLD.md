@@ -105,7 +105,11 @@ of it, the Unborn, waiting for the rope to give.
 | Year -40 | [[the-drowning-of-kell]] |
 | Year 0 | [[the-ashfall]] clears |
 | Year 1 | [[the-ebb]], [[the-three-crowns]], [[the-burning-of-the-rolls]] |
+| Year 6 | Aurelian VII dies; [[the-three-crowns]] crowned |
+| Year 9 | [[the-fraying]]: Seraphine breaks the ring, a rope snaps, the Ossar wake |
+| Year 10 | [[the-saddle-throne]]: the Hoofborn come, and stay |
 | Year 31 | [[gorveks-last-road]] |
+| Year 150 | The age of the MMO: three realms of Crownhold, the Ossar front, eight ropes |
 
 ## Beyond Harth
 

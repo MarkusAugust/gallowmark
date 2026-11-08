@@ -74,6 +74,7 @@ graph LR
   old-vahr["Old Vahr"]
   ossery["Ossery"]
   quaysteps["The Quaysteps"]
+  realm-of-solmerine["The Realm of Solmerine"]
   rimcroft["Rimcroft"]
   rimewold["The Rimewold"]
   rotwater["Rotwater"]
@@ -87,8 +88,11 @@ graph LR
   the-counted-lands["The Counted Lands"]
   the-grass-sea["The Grass Sea"]
   the-greywood["The Greywood"]
+  the-halberd-march["The Halberd March"]
   the-iron-hall["The Iron Hall"]
+  the-saddle-throne["The Saddle Throne"]
   the-sleepers-wall["The Sleepers' Wall"]
+  the-sunward-see["The Sunward See"]
   the-teeth["The Teeth"]
   the-tenth-palace["The Tenth Palace"]
   the-underhollow["The Underhollow"]
@@ -186,6 +190,7 @@ graph LR
   the-ebb["The Ebb"]
   the-fall-of-vahr["The Fall of Vahr"]
   the-first-knot["The First Knot"]
+  the-fraying["The Fraying"]
   the-going-home["The Going Home"]
   the-heave["The Heave"]
   the-hiring-of-the-wise["The Hiring of the Wise"]
@@ -348,6 +353,9 @@ graph LR
   old-vahr -- located-in --> glassands
   ossery -- located-in --> crownhold
   quaysteps -- located-in --> kell
+  realm-of-solmerine -- located-in --> solmerine
+  realm-of-solmerine -- created-by --> tiberian-vasthorne
+  realm-of-solmerine -- features --> house-sabinus
   rimcroft -- located-in --> greyhollow
   rimcroft -- home-of --> the-ashen
   rotwater -- located-in --> feverfen
@@ -362,8 +370,18 @@ graph LR
   the-grass-sea -- home-of --> the-hoofborn
   the-greywood -- located-in --> gallowmark
   the-greywood -- survived --> the-ashfall
+  the-halberd-march -- created-by --> marcus-halberd
+  the-halberd-march -- features --> the-unmourned
+  the-halberd-march -- features --> grimwatch
+  the-halberd-march -- features --> house-trevane
   the-iron-hall -- located-in --> kell
+  the-saddle-throne -- home-of --> the-hoofborn
+  the-saddle-throne -- created-by --> sorgan-windbreaker
+  the-saddle-throne -- features --> marcheast
   the-sleepers-wall -- located-in --> rimewold
+  the-sunward-see -- rules --> the-sunward-faith
+  the-sunward-see -- features --> granaria
+  the-sunward-see -- features --> seraphine-vasthorne
   the-tenth-palace -- located-in --> harrowmere
   the-underhollow -- located-in --> greyhollow
   the-underhollow -- created-by --> ossar
@@ -529,6 +547,12 @@ graph LR
   the-first-knot -- features --> hangmoot
   the-first-knot -- features --> ossar
   the-first-knot -- features --> the-unborn
+  the-fraying -- caused-by --> seraphine-vasthorne
+  the-fraying -- features --> the-nine-irons
+  the-fraying -- features --> hangmoot
+  the-fraying -- features --> feverfen
+  the-fraying -- features --> glassands
+  the-fraying -- follows --> the-three-crowns
   the-going-home -- caused --> the-ebb
   the-going-home -- follows --> the-drowning-of-kell
   the-heave -- caused --> the-ebb
