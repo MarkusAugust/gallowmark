@@ -15,6 +15,13 @@ river cities along it. Its capital, the city of the same name, is built on the r
 Vahrish provincial seat, and its kings sit on a throne they say was carried out of
 [[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.
 
+## The land
+
+The capital is [[solmerine]]. The provinces are [[granaria]], [[vinalis]], [[marcheast]] and
+[[saltcoast]]. The great houses are [[house-aldemar]], [[house-corvaith]], [[house-lucentis]],
+[[house-trevane]] and [[house-sabinus]], with the Mournevales of the Exarch close behind. The
+knights are [[the-iron-hundred]].
+
 ## The court
 
 The court of Crownhold runs on three things: offices for sale, poison in the wine, and

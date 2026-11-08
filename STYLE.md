@@ -16,6 +16,9 @@
   - **The Feverfen**: vowel-rich and soft, names like water (Aoleiwa).
   - **Common speech across Harth**: plain English titles and epithets (Nevermourn, the Paid,
     Saltgrave).
+- Cultures modelled on a real language (Latinate Crownhold, Dutch Harrowmere) may use real
+  given names from it. Names from any published setting, game, book or film are never used:
+  if a name turns out to belong to someone else's world, change it.
 - Names are chosen, not dashed off. Offer several in different registers before one is fixed.
 - Invented, always. No names, places, gods, orders or artifacts from any published setting,
   game, book or film. If a name turns out to exist elsewhere, change it.

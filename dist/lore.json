@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 487,
+  "entityCount": 506,
   "types": [
     "character",
     "place",
@@ -475,6 +475,36 @@
       "body": "## Who\n\nHaldis was hanged at sixteen as her oath and cut down at the last breath, like every hangman, and\nthe scar at her throat is the darkest on the ridge. She has been Reeve for twenty years. She is the\nfirst woman to hold the office and the first Reeve since the Broken Years to be frightened.\n\n## What she knows\n\nEverything [[the-ninth-rope]] knows about [[the-first-knot]]. That the ninth rope has hung slack\nsince [[the-drowning-of-kell]]. That the [[the-burning-of-the-rolls]] loosens it with every fire.\nThat [[the-kneeling]] are winning. And lately, that the [[greycloaks]], who never shut a gate, may\nnot be on her side.\n\n## Threads\n\n- What will she do when she is sure about the order?",
       "file": "characters/haldis-graymane.md"
     },
+    "hild-kingsrope": {
+      "id": "hild-kingsrope",
+      "type": "character",
+      "name": "Hild Kingsrope",
+      "aliases": [
+        "the King's Hangman, Hild of the Ninth"
+      ],
+      "status": "canon",
+      "tags": [
+        "legend",
+        "hangman",
+        "ninth-rope",
+        "history"
+      ],
+      "summary": "The hangman of the Ninth Rope who, in the Broken Years, hanged a king of Crownhold for an unpaid debt on the ninth gallows; the only one ever to do it, and her rope still hangs on Hangmoot, unused since.",
+      "relations": [
+        {
+          "to": "the-ninth-rope",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "hangmoot",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## The story\n\nA king of [[crownhold]] in the Broken Years swore a [[rope-oaths]] to pay a debt to the Mark and did\nnot. Hild, a hangman of [[the-ninth-rope]], walked south alone, took him out of his own hall at\nnight, carried him north across his own kingdom, and hanged him on the ninth gallows of\n[[hangmoot]] in front of the moot. The kingdom did not go to war. The next king paid.\n\n## The rope\n\nHer rope hangs on Hangmoot still, apart from the others, and nobody has used it since. The Reeve\n[[haldis-graymane]] has started looking at it.",
+      "file": "characters/hild-kingsrope.md"
+    },
     "hollin": {
       "id": "hollin",
       "type": "character",
@@ -727,6 +757,37 @@
       ],
       "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the smoke, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## Before\n\nThe Mark thinks she was a midwife of the east who went into the grey. She was. Before that she\nwas something else, a long way south and a long time ago: one of [[the-leech-mothers]] of the\n[[feverfen]], who went further into [[the-black-step]] for her last lesson than any Leech-Mother\nbefore or since, and came out with a very long life and a great deal she was not meant to know.\nShe walked north over three hundred years. Her pactmarks are fewer than they should be because\nwhat she paid, she paid inside the temple, and it was not in coin.\n\n## Why everyone needs her\n\nShe is the only one in Harth who understands all of it: [[the-first-knot]], the fire under the\nMark, [[the-unborn]], what the [[ossar]] want and why [[the-nine-irons]] matter. Kings send to\nher. [[the-ninth-rope]] sends to her. [[the-kneeling]] send to her, and she sends them back with\nsomething missing. She tells everyone the truth, at a price, and lets them decide what to do with\nit.\n\n## What she sells\n\nThings from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]], and says the\n  fire under the Hollow and the warm iron under the hall are one fire.\n\n## Threads\n\n- What did Mardra find in the smoke that made her stay?\n- What did she learn inside the Black Step, and is she still paying for it?\n- Does she know where a ruby is?",
       "file": "characters/mardra.md"
+    },
+    "marhaun-of-the-gate": {
+      "id": "marhaun-of-the-gate",
+      "type": "character",
+      "name": "Marhaun of the Gate",
+      "aliases": [
+        "the Last Knight of Vahr",
+        "the Unrelieved"
+      ],
+      "status": "canon",
+      "tags": [
+        "legend",
+        "knight",
+        "vahr",
+        "history"
+      ],
+      "summary": "The last knight of Vahr, who held a gate of the burning empire alone for three days while the fire came, so that the people behind it could get out; the gate is named for him, and in the Glassands they say he is still standing at it.",
+      "relations": [
+        {
+          "to": "old-vahr",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "the-fall-of-vahr",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## The story\n\nOn the night [[old-vahr]] burned, a gate on the eastern road was the only way out. Marhaun, a\nknight of the emperor's guard, held it: not against the fire, against the people in the city who\nwere already changing. For three days he let the living out and kept the rest in, and when the\nlast of the living had gone through he shut the gate behind them and stayed on the inside.\n\n## Now\n\nThe gate stands in the [[glassands]], half melted, still shut. The [[the-hadd]] say a figure in\narmour stands behind it on still nights. The [[the-tenth-legion]] were supposed to hold that gate.\nThey had left it open.",
+      "file": "characters/marhaun-of-the-gate.md"
     },
     "oruana-blackwake": {
       "id": "oruana-blackwake",
@@ -1030,6 +1091,11 @@
           "declared": true
         },
         {
+          "to": "the-unseen-girl",
+          "kind": "rival-of",
+          "declared": false
+        },
+        {
           "to": "river-priests",
           "kind": "named-by",
           "declared": false
@@ -1197,6 +1263,62 @@
       ],
       "body": "## Who\n\nSorgan is twenty-four, lean, scarred across both cheeks by the wind, and has never lost a fight.\nWhen he was twelve a storm came west across [[the-grass-sea]] and he rode into it, against it, for\nthree days, and came out the other side. The tribes call him Windbreaker, and the old women say\nthe wind that pushes the [[the-hoofborn]] west every generation has met its rider.\n\n## What he wants\n\nThe west. Not to raid it this time. To keep it.\n\n## Threads\n\n- What did he see on the far side of the storm?",
       "file": "characters/sorgan-windbreaker.md"
+    },
+    "the-numbered-man": {
+      "id": "the-numbered-man",
+      "type": "character",
+      "name": "The Numbered Man",
+      "aliases": [
+        "the Man Who Was Counted",
+        "the Southwalker"
+      ],
+      "status": "canon",
+      "tags": [
+        "legend",
+        "counted-lands",
+        "south",
+        "history"
+      ],
+      "summary": "The man who walked south across the Glassands into the Counted Lands and came back, years later, with a number on his wrist and nothing he would say; he never slept indoors again.",
+      "relations": [
+        {
+          "to": "the-counted-lands",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## The story\n\nHe was a digger of [[qarr-dhuun]] who lost his way, and walked south instead of north, for forty\nnights, across the glass. He came back eleven years later out of the south, thin, quiet, with a\nnumber tattooed on the inside of his wrist, and walked into [[ush-kaddah]] and drank from the well\nfor a whole day.\n\n## After\n\nHe would not say what was in [[the-counted-lands]]. He would not sleep under a roof. He said, once,\ndrunk, that the people there were happy, and that this was the worst thing about it.",
+      "file": "characters/the-numbered-man.md"
+    },
+    "the-unseen-girl": {
+      "id": "the-unseen-girl",
+      "type": "character",
+      "name": "The Unseen Girl",
+      "aliases": [
+        "the One Who Robbed Sarn"
+      ],
+      "status": "canon",
+      "tags": [
+        "legend",
+        "thief",
+        "harrowmere",
+        "sarn"
+      ],
+      "summary": "The thief who stole from Sarn, perhaps the only one ever to; a girl of the Harrowmere canals with no name in any story, who took something from Sarn's own hand and was never seen again.",
+      "relations": [
+        {
+          "to": "sarn",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "harrowmere",
+          "kind": "born-in",
+          "declared": true
+        }
+      ],
+      "body": "## The story\n\nEvery version is different, which is how you know it is about [[sarn]]. In all of them a girl of\nthe canals of [[harrowmere]], no older than twelve, put her hand into Sarn's own pocket and took\nsomething out, and Sarn did not notice until the next morning. [[the-honest-company-of-takers]]\nkeep her a seat at their high table, empty.\n\n## What she took\n\nThe stories do not agree. A key. A face. The second ruby, before Sarn could hide it. Sarn, asked,\nsmiles, and does not change the subject, which is worse.",
+      "file": "characters/the-unseen-girl.md"
     },
     "tiberian-vasthorne": {
       "id": "tiberian-vasthorne",
@@ -1636,8 +1758,38 @@
           "declared": true
         },
         {
+          "to": "granaria",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "marcheast",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "ossery",
           "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "saltcoast",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "solmerine",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "vinalis",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "house-trevane",
+          "kind": "home-of",
           "declared": false
         },
         {
@@ -1671,7 +1823,7 @@
           "declared": false
         }
       ],
-      "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The church\n\nThe state church is [[the-sunward-faith]] of [[helion-castor]], the sun against the dark below:\ngold domes, incense, offices for sale, and an Exarch at the king's right hand.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## The crises\n\n- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and\n  [[marcus-halberd]], and one old king.\n- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].\n- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
+      "body": "## The kingdom\n\nCrownhold holds the best land in Harth: wheat, vine, the old imperial road and the\nriver cities along it. Its capital, the city of the same name, is built on the ruins of a\nVahrish provincial seat, and its kings sit on a throne they say was carried out of\n[[old-vahr]] the night it burned. It was not. Everyone at court knows it was not.\n\n## The land\n\nThe capital is [[solmerine]]. The provinces are [[granaria]], [[vinalis]], [[marcheast]] and\n[[saltcoast]]. The great houses are [[house-aldemar]], [[house-corvaith]], [[house-lucentis]],\n[[house-trevane]] and [[house-sabinus]], with the Mournevales of the Exarch close behind. The\nknights are [[the-iron-hundred]].\n\n## The court\n\nThe court of Crownhold runs on three things: offices for sale, poison in the wine, and\ndebts to [[harrowmere]]. The Gilt King [[aurelian-vasthorne]] has outlived four heirs and two queens. The\nlords of the provinces raise armies against each other in his name. The [[greycloaks]] farm\nthe kingdom's taxes for a tenth of them, and the king is grateful, and has never asked what\nelse they take.\n\n## The church\n\nThe state church is [[the-sunward-faith]] of [[helion-castor]], the sun against the dark below:\ngold domes, incense, offices for sale, and an Exarch at the king's right hand.\n\n## The cult\n\nIn the cellars of the capital the [[the-kneeling]] meet in rooms the city watch is paid not\nto find. Some of the people who meet there wear court silk.\n\n## The crises\n\n- [[the-three-crowns]]: three heirs, [[tiberian-vasthorne]], [[seraphine-vasthorne]] and\n  [[marcus-halberd]], and one old king.\n- [[the-burning-of-the-rolls]]: the hungry provinces under [[quintus-ashhand]].\n- [[the-unpaid-war]]: the sword taken to Harrowmere's ledger.\n\n## Threads\n\n- How much of Crownhold does the order already own?\n- Which of the king's councillors kneels?",
       "file": "places/crownhold.md"
     },
     "driftholds": {
@@ -1727,6 +1879,11 @@
           "to": "the-old-smith-under-the-snow",
           "kind": "worships",
           "declared": true
+        },
+        {
+          "to": "seepers",
+          "kind": "haunted-by",
+          "declared": false
         }
       ],
       "body": "## The town\n\nSince [[brandfell]] split, its south face has been warm. Vents in the rock breathe hot air,\nand the snow melts before it lands. The smiths of the north came up to it and built Emberstead\nin the vents: stone forges set over cracks in the mountain, fed by the fire under it, no\ncharcoal needed.\n\n## The work\n\nThe best iron in Harth comes out of Emberstead, black, heavy, and slightly warm for a day after\nit is quenched. The smiths worship [[the-old-smith-under-the-snow]] and burn something for\nhim every winter. Some winters it is a smith.\n\n## Threads\n\n- What are the smiths hearing in the vents at night, that has made three of them walk into\n  the mountain?",
@@ -1993,6 +2150,11 @@
           "declared": false
         },
         {
+          "to": "the-stonesleepers",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "the-fall-of-vahr",
           "kind": "created-by",
           "declared": false
@@ -2000,6 +2162,32 @@
       ],
       "body": "## The desert\n\nSouth of Crownhold the land goes yellow, then white, then hard. For a hundred miles around\n[[old-vahr]] the sand is glass, green and black and cracked, and a man who walks on it in\nthe noon sun goes blind. The caravans cross at night, between the old cities, carrying salt,\nglass, and what the diggers bring out of the ruins.\n\n## The ruins\n\nVahr's cities are still out there, half drowned in sand: towers, aqueducts, streets of\nstatues with their faces melted. Under them are older foundations, black and too large, that\nwere the [[ossar]]'s. Diggers go down for gold and come up with bones too long for any grave.\n\n## The kings of the glass\n\nIn the old towers sit sorcerer-kings who rule a well, a ruin and a few hundred desperate\npeople each, and who make pacts with [[the-unborn]] the way other kings raise taxes. The\ngreatest of them is [[qeth-ummar]], in Old Vahr itself.\n\n## Places and powers\n\n- [[ush-kaddah]], the city of the bottomless well.\n- [[the-well-kings]], the sorcerer-kings of the towers.\n- [[qarr-dhuun]], the diggers' guild.\n- [[ahl-sereth]], the white glass where night does not come.\n\n## Threads\n\n- What is under the glass, in the place where the fire was whitest?",
       "file": "places/glassands.md"
+    },
+    "granaria": {
+      "id": "granaria",
+      "type": "place",
+      "name": "Granaria",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "province",
+        "crownhold"
+      ],
+      "summary": "Granaria: the grain province in the heartland, flat, rich and starving under the tithe, where the Burning of the Rolls began.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "house-aldemar",
+          "kind": "home-of",
+          "declared": false
+        }
+      ],
+      "body": "## The province\n\nGranaria is the grain province in the heartland, flat, rich and starving under the tithe, where the Burning of the Rolls began.",
+      "file": "places/granaria.md"
     },
     "greyhollow": {
       "id": "greyhollow",
@@ -2097,6 +2285,11 @@
           "declared": false
         },
         {
+          "to": "hild-kingsrope",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "gallowmark",
           "kind": "located-in",
           "declared": true
@@ -2147,6 +2340,11 @@
         {
           "to": "saelith",
           "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "the-unseen-girl",
+          "kind": "birthplace-of",
           "declared": false
         },
         {
@@ -2344,6 +2542,11 @@
           "to": "gallowmark",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "seepers",
+          "kind": "haunted-by",
+          "declared": false
         }
       ],
       "body": "## The town\n\nBlack houses on a black hillside, slag-heaps, and the mouths of the pits. Irondeep has dug iron\nfor the Mark since before [[kell]] had a quay. The miners are Ashborn, debtors and convicts, and\nthe [[greycloaks]] take a tenth of the ore at the pithead.\n\n## Since Brandfell\n\nThe deep shafts have grown warm. The lowest galleries are too hot to work in summer. The miners\nsay they hear knocking below the deepest level, regular, like a hammer. The smiths of\n[[emberstead]] say they know exactly what that is.\n\n## Threads\n\n- Who is knocking?",
@@ -2511,6 +2714,32 @@
       "body": "## The streets\n\nBelow [[quaysteps]] the city is still a city, and every door in it is barred from the\ninside. The coast says Kell went home that night and waited for the crown to hold. The\nscratches on the doors are on the outside, low, and they are not from water.\n\nWhen the crown went empty, Kell came apart before the water came in. The streets that\nhad nothing went up the hill to the streets that had something, with knives. Every house\nthat had a bar used it.\n\n## The houses\n\nThe people inside held the doors against their neighbours, and the sea came in through the\nwindows instead, and they drowned with their shoulders to the wood. Some of them did not stay\ndrowned. Nobody has asked them what they ate.\n\n## Threads\n\n- Who led the streets up the hill that night, and did they get what they came for?",
       "file": "places/lowstreets.md"
     },
+    "marcheast": {
+      "id": "marcheast",
+      "type": "place",
+      "name": "Marcheast",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "province",
+        "crownhold"
+      ],
+      "summary": "Marcheast: the eastern march toward the Grass Sea, a land of burnt towns and watchtowers that remembers the Hoofborn.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "house-corvaith",
+          "kind": "home-of",
+          "declared": false
+        }
+      ],
+      "body": "## The province\n\nMarcheast is the eastern march toward the Grass Sea, a land of burnt towns and watchtowers that remembers the Hoofborn.",
+      "file": "places/marcheast.md"
+    },
     "old-vahr": {
       "id": "old-vahr",
       "type": "place",
@@ -2528,6 +2757,11 @@
       ],
       "summary": "The capital of the fallen empire, in the white heart of the Glassands; a city of melted towers and black Ossar foundations, where the sorcerer Qeth-Ummar sits on the glass throne and claims to be the last emperor.",
       "relations": [
+        {
+          "to": "marhaun-of-the-gate",
+          "kind": "served-by",
+          "declared": false
+        },
         {
           "to": "qeth-ummar",
           "kind": "ruled-by",
@@ -2742,6 +2976,32 @@
       "body": "## The port\n\nStilt-houses over the mud at a river mouth, a quay of rotting timber, a hundred taverns and no\nlaw. The reavers of [[the-teeth]] bring their prizes here, and the buyers of [[harrowmere]] come\nmasked to buy them back. Lanterns hung on the quay mean trading is safe tonight. When the\nlanterns come down, it is not.\n\n## Who is here\n\nEveryone. Fen-folk selling fish and poison, reavers, Harrowmere factors, deserters from\n[[the-unpaid-war]], [[the-honest-company-of-takers]] on a working holiday, and the\n[[greycloaks]], who keep a small, polite house by the quay and tithe the lantern-oil.\n\n## Threads\n\n- Who pays for the lanterns?",
       "file": "places/rotwater.md"
     },
+    "saltcoast": {
+      "id": "saltcoast",
+      "type": "place",
+      "name": "Saltcoast",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "province",
+        "crownhold"
+      ],
+      "summary": "Saltcoast: the salt-pan coast toward Harrowmere, whose pans the House of Salt owns in all but name.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "house-sabinus",
+          "kind": "home-of",
+          "declared": false
+        }
+      ],
+      "body": "## The province\n\nSaltcoast is the salt-pan coast toward Harrowmere, whose pans the House of Salt owns in all but name.",
+      "file": "places/saltcoast.md"
+    },
     "saltgrave": {
       "id": "saltgrave",
       "type": "place",
@@ -2798,6 +3058,37 @@
       ],
       "body": "## The island\n\nA black cone at the end of the jaw, the furthest of [[the-teeth]] from the coast. It was dead\nrock for as long as the reavers remember. The year [[brandfell]] split, it began to smoke. Last\nyear the top fell in, and now it breathes: a long plume by day, a red glow at night, and the\nsea around it warm enough to cook fish.\n\n## The building\n\nOn the crater's lip, something is going up: black stone, laid in the old way, too large. Ships\nthat put in to see do not come back. [[oruana-blackwake]] has forbidden her captains to try.\n\n## Threads\n\n- Who is building, and in whose pattern? The stone looks like the [[ossar]]'s.",
       "file": "places/smokemouth.md"
+    },
+    "solmerine": {
+      "id": "solmerine",
+      "type": "place",
+      "name": "Solmerine",
+      "aliases": [
+        "the City of the Sun-Sea",
+        "the Gilt City"
+      ],
+      "status": "canon",
+      "tags": [
+        "city",
+        "capital",
+        "crownhold",
+        "decadent"
+      ],
+      "summary": "The capital of Crownhold, built on a Vahrish provincial seat beside a wide bright lake the court calls the sun-sea; gold domes, marble stairs, poison at the banquets and beggars on every stair.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "house-lucentis",
+          "kind": "home-of",
+          "declared": false
+        }
+      ],
+      "body": "## The city\n\nSolmerine stands on the hills above a shallow lake so bright under the summer sun that the court\ncalls it the sun-sea. The palace of [[aurelian-vasthorne]] is on the highest hill; the cathedral\nof [[the-sunward-faith]] on the next; the great houses below; the poor everywhere else.\n\n## Its life\n\nBanquets, processions on [[helions-crown]], duels on the marble stairs, offices sold in the\ncathedral's side-rooms, and the cellars where [[the-kneeling]] meet. It is the most beautiful city\nin Harth and smells, in summer, of the lake.",
+      "file": "places/solmerine.md"
     },
     "stillwater": {
       "id": "stillwater",
@@ -2881,6 +3172,16 @@
           "to": "ossar",
           "kind": "created-by",
           "declared": true
+        },
+        {
+          "to": "the-blindkin",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "the-stonesleepers",
+          "kind": "haunted-by",
+          "declared": false
         }
       ],
       "body": "## The temple\n\nIn the middle of the [[feverfen]], where the water is deepest and the trees tallest, a black\npyramid stands up out of the swamp in steps, each one the height of a man. Vines cover the lower\nsteps. The upper ones are clean. Nothing grows on them, and nothing has been seen to clean them.\n\n## The lights\n\nOn some nights there are lights at the top: pale, steady, not fire. The fen-folk leave fish,\nreed-cloth and sometimes worse on the lowest step at new moon, and in the morning it is gone.\n[[the-leech-mothers]] say the [[ossar]] are inside, and that the warmth coming out of the\ntemple has been rising every year since [[brandfell]] split.\n\n## Threads\n\n- How many steps are there below the water?",
@@ -2902,7 +3203,13 @@
         "forbidden"
       ],
       "summary": "The land south of the Glassands, where the caravans do not go; the Hadd say the Ossar still rule there, and that men there are still kept, fed and counted.",
-      "relations": [],
+      "relations": [
+        {
+          "to": "the-numbered-man",
+          "kind": "survived-by",
+          "declared": false
+        }
+      ],
       "body": "## What is said\n\nSouth of the [[glassands]] the maps stop. The [[the-hadd]] say the land goes on, green, rich and\nordered, and that the [[ossar]] never went under there, because the knot was tied in the north and\ndid not reach so far. Men live there, the Hadd say, in neat villages, fed, counted, and taken.\n\n## What is known\n\nNothing. Once in a generation someone walks out of the south across the glass: thin, quiet, with a\nnumber tattooed on the inside of the wrist. They do not talk about it. They do not stay long.\n\n## Threads\n\n- Are the Counted Lands what Harth would be, if the knot gave?",
       "file": "places/the-counted-lands.md"
     },
@@ -3143,6 +3450,27 @@
       ],
       "body": "## The city\n\nA circle of white walls around a hole in the glass. The well at the heart of Ush-Kaddah is\nwide as a market square and goes down past the reach of any rope. The water is cold and never\nfails. Around it, the only city in the [[glassands]]: markets, caravanserais, Hadd tents, the\ncounting-houses of [[harrowmere]], and a small grey chapterhouse of the [[greycloaks]].\n\n## The peace\n\nThe name means *the water that does not count*: here no tribe, king or caravan owes anything\nfor drinking. Blood spilled inside the walls is paid for in water, weighed against the dead, and\nthe killer goes thirsty for the debt. Even [[the-well-kings]] keep the peace here.\n\n## Threads\n\n- What is at the bottom of the well, that keeps the water cold?",
       "file": "places/ush-kaddah.md"
+    },
+    "vinalis": {
+      "id": "vinalis",
+      "type": "place",
+      "name": "Vinalis",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "province",
+        "crownhold"
+      ],
+      "summary": "Vinalis: the wine province of the southern hills, terraced, sun-drunk and owned by absent lords in Solmerine.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The province\n\nVinalis is the wine province of the southern hills, terraced, sun-drunk and owned by absent lords in Solmerine.",
+      "file": "places/vinalis.md"
     },
     "wallgate": {
       "id": "wallgate",
@@ -3493,6 +3821,131 @@
       "body": "## What they are\n\nThe Greycloaks began as the men who guarded the drowned quays of [[kell]] so that nobody\nwould steal what the sea had not yet taken. Forty years on, they guard everything, and what\nthey guard they tithe. Their cloaks are grey because grey hides ash, and the order was born\nin the [[the-ashfall]].\n\n## How they take a village\n\nNever by storm. A Greycloak captain rides in alone, finds the one gate left open, and sits\ndown inside it. By evening the village is paying tithe and thinks it decided to. Every siege\nin Gallowmark has been lost this way, which is why the wise close every gate, including the\nones they cannot see.\n\n## The books\n\nWhat the order tithes it writes down. The tithe-books hang from the hooks on the bridge at\n[[hookford]], in Captain [[drusk]]'s hand, and the hangmen say they are a poor copy of the\nledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing down.\n\n## Beyond the Mark\n\nThe order holds Gallowmark, and nothing else, and is everywhere. It keeps a chapterhouse in\nevery city of [[harth]]: on the Grand Canal in [[harrowmere]], under the palace walls of\n[[crownhold]], at the wells of the [[glassands]]. It rules no kingdom and wants none. It is\nhired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, hold a pass.\nIt is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is\na gate the order holds and the king has forgotten he gave it.\n\nThe order is older than it says. It is [[the-tenth-legion]] of Vahr, which kept its gates when\nthe empire burned and never stopped. Nobody knows who leads it. The captains say *the Lady*, and lower their\nvoices. That is [[ishara-grey]]. The captains answer to the books, and the books answer to\nsomeone.\n\n## Enemies\n\n\n[[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried\nto hire and to kill, and the order's own records disagree on which came first.",
       "file": "factions/greycloaks.md"
     },
+    "house-aldemar": {
+      "id": "house-aldemar",
+      "type": "faction",
+      "name": "House Aldemar",
+      "aliases": [
+        "the Aldemars"
+      ],
+      "status": "canon",
+      "tags": [
+        "noble-house",
+        "crownhold",
+        "grain"
+      ],
+      "summary": "House Aldemar, the oldest house of Crownhold, holders of Granaria and the grain, who have married into the throne three times and never sat on it.",
+      "relations": [
+        {
+          "to": "granaria",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## The house\n\nHouse Aldemar is one of the five great houses of [[crownhold]], the oldest house of Crownhold, holders of Granaria and the grain, who have married into the throne three times and never sat on it.\n\n## In the Three Crowns\n\nEvery great house must choose in [[the-three-crowns]]. House Aldemar has chosen, or says it has, which in\n[[solmerine]] is not the same thing.",
+      "file": "factions/house-aldemar.md"
+    },
+    "house-corvaith": {
+      "id": "house-corvaith",
+      "type": "faction",
+      "name": "House Corvaith",
+      "aliases": [
+        "the Corvaiths"
+      ],
+      "status": "canon",
+      "tags": [
+        "noble-house",
+        "crownhold",
+        "war"
+      ],
+      "summary": "House Corvaith, the soldier-house of the Eastmarch, which leads the Iron Hundred and has not forgiven the Hoofborn for sixty years.",
+      "relations": [
+        {
+          "to": "marcheast",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-iron-hundred",
+          "kind": "leads",
+          "declared": false
+        }
+      ],
+      "body": "## The house\n\nHouse Corvaith is one of the five great houses of [[crownhold]], the soldier-house of the Eastmarch, which leads the Iron Hundred and has not forgiven the Hoofborn for sixty years.\n\n## In the Three Crowns\n\nEvery great house must choose in [[the-three-crowns]]. House Corvaith has chosen, or says it has, which in\n[[solmerine]] is not the same thing.",
+      "file": "factions/house-corvaith.md"
+    },
+    "house-lucentis": {
+      "id": "house-lucentis",
+      "type": "faction",
+      "name": "House Lucentis",
+      "aliases": [
+        "the Lucentiss"
+      ],
+      "status": "canon",
+      "tags": [
+        "noble-house",
+        "crownhold",
+        "church"
+      ],
+      "summary": "House Lucentis, the house of bishops and scholars, which fills half the high offices of the Sunward Faith and backs Seraphine in public.",
+      "relations": [
+        {
+          "to": "solmerine",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## The house\n\nHouse Lucentis is one of the five great houses of [[crownhold]], the house of bishops and scholars, which fills half the high offices of the Sunward Faith and backs Seraphine in public.\n\n## In the Three Crowns\n\nEvery great house must choose in [[the-three-crowns]]. House Lucentis has chosen, or says it has, which in\n[[solmerine]] is not the same thing.",
+      "file": "factions/house-lucentis.md"
+    },
+    "house-sabinus": {
+      "id": "house-sabinus",
+      "type": "faction",
+      "name": "House Sabinus",
+      "aliases": [
+        "the Sabinuss"
+      ],
+      "status": "canon",
+      "tags": [
+        "noble-house",
+        "crownhold",
+        "money"
+      ],
+      "summary": "House Sabinus, the money-house of the Saltcoast, deepest in debt to Harrowmere and deepest in its counting-houses, which backs Tiberian the Fair.",
+      "relations": [
+        {
+          "to": "saltcoast",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## The house\n\nHouse Sabinus is one of the five great houses of [[crownhold]], the money-house of the Saltcoast, deepest in debt to Harrowmere and deepest in its counting-houses, which backs Tiberian the Fair.\n\n## In the Three Crowns\n\nEvery great house must choose in [[the-three-crowns]]. House Sabinus has chosen, or says it has, which in\n[[solmerine]] is not the same thing.",
+      "file": "factions/house-sabinus.md"
+    },
+    "house-trevane": {
+      "id": "house-trevane",
+      "type": "faction",
+      "name": "House Trevane",
+      "aliases": [
+        "the Trevanes"
+      ],
+      "status": "canon",
+      "tags": [
+        "noble-house",
+        "crownhold",
+        "border"
+      ],
+      "summary": "House Trevane, the border house of the north road, holders of the march toward Gallowmark and Grimwatch, hard, poor and proud.",
+      "relations": [
+        {
+          "to": "crownhold",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## The house\n\nHouse Trevane is one of the five great houses of [[crownhold]], the border house of the north road, holders of the march toward Gallowmark and Grimwatch, hard, poor and proud.\n\n## In the Three Crowns\n\nEvery great house must choose in [[the-three-crowns]]. House Trevane has chosen, or says it has, which in\n[[solmerine]] is not the same thing.",
+      "file": "factions/house-trevane.md"
+    },
     "ossar": {
       "id": "ossar",
       "type": "faction",
@@ -3534,6 +3987,16 @@
         {
           "to": "the-kneeling",
           "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "the-blindkin",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "the-stonesleepers",
+          "kind": "has-member",
           "declared": false
         },
         {
@@ -3919,10 +4382,47 @@
           "to": "harrowmere",
           "kind": "enemy-of",
           "declared": true
+        },
+        {
+          "to": "the-iron-hundred",
+          "kind": "enemy-of",
+          "declared": false
         }
       ],
       "body": "## Who they are\n\nSmall, hard, bow-legged, born in the saddle, and named for it. They have no cities and want none.\nA Hoofborn host is a nation on horseback: men, women, children, herds, and the gods in carts.\n\n## The coming\n\nOnce a generation the grass fails, or something east of the grass pushes them, and they come\nwest over the hills into [[crownhold]] and up to the lake of [[harrowmere]]. They last came sixty\nyears ago. They burned forty towns, took a king's head, and went home. The old men of Crownhold\nremember the fires. The calendars of the Gilded say they are due again, and [[the-gilded]] have\nbegun buying horses.\n\n## Threads\n\n- What pushes them west?",
       "file": "factions/the-hoofborn.md"
+    },
+    "the-iron-hundred": {
+      "id": "the-iron-hundred",
+      "type": "faction",
+      "name": "The Iron Hundred",
+      "aliases": [
+        "the Hundred",
+        "the Knights of Crownhold"
+      ],
+      "status": "canon",
+      "tags": [
+        "knights",
+        "order",
+        "crownhold",
+        "cavalry",
+        "vengeance"
+      ],
+      "summary": "Crownhold's order of armoured knights, a thousand strong until the Hoofborn broke them sixty years ago; a hundred now, sworn on the rope to be a thousand again and to ride east.",
+      "relations": [
+        {
+          "to": "house-corvaith",
+          "kind": "led-by",
+          "declared": true
+        },
+        {
+          "to": "the-hoofborn",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The order\n\nThey were the Iron Thousand once, the heaviest horse in Harth, and they rode out to meet\n[[the-hoofborn]] sixty years ago in [[marcheast]] and were shot to pieces in a single afternoon by\nriders who never let them close. A hundred came home. The order kept the number as its name and\nswore a [[rope-oaths]] to be a thousand again before it dies.\n\n## Now\n\nThey are a hundred still, led by [[house-corvaith]], heavy, proud and obsolete, and they are the\nonly part of Crownhold's army that wants [[sorgan-windbreaker]] to come.",
+      "file": "factions/the-iron-hundred.md"
     },
     "the-kneeling": {
       "id": "the-kneeling",
@@ -3970,6 +4470,11 @@
         {
           "to": "the-sunward-faith",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "knotrats",
+          "kind": "created",
           "declared": false
         },
         {
@@ -4044,6 +4549,11 @@
         {
           "to": "haldis-graymane",
           "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "hild-kingsrope",
+          "kind": "has-member",
           "declared": false
         },
         {
@@ -4531,6 +5041,11 @@
         {
           "to": "the-hungry-books",
           "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "seepers",
+          "kind": "served-by",
           "declared": false
         },
         {
@@ -5092,6 +5607,32 @@
       "body": "## What\n\nThe [[greycloaks]] began as the men who guarded the drowned quays of [[kell]] in\n[[the-ashfall]]. Not all of them were relieved. On the [[quaysteps]] they still stand their\nposts, cloaked in grey silt, and they still tithe.\n\n## Voice\n\n\"Pardon. A tenth.\" Pay, and they stand aside. Refuse, and the hook comes out.\n\n## In the world\n\n- The fort at [[wrackhead]] keeps no list of the men it lost in the grey. [[tolm]] has asked\n  for one, politely, twice.",
       "file": "creatures/firstcloaks.md"
     },
+    "knotrats": {
+      "id": "knotrats",
+      "type": "creature",
+      "name": "Knotrats",
+      "aliases": [
+        "ropegnawers",
+        "the Kneelers' pets"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "vermin",
+        "kneeling",
+        "rope"
+      ],
+      "summary": "Rats the Kneeling breed to gnaw gallows-ropes and gallows-wood; grey, big as cats, with teeth that never stop growing, and loosed in the night under any gallows the cult wants down.",
+      "relations": [
+        {
+          "to": "the-kneeling",
+          "kind": "created-by",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nGrey, heavy, and bred for one thing: to chew. A knotrat's teeth grow a finger a month and it must\ngnaw or die. [[the-kneeling]] feed them on hemp. Loosed under a gallows, a nest of them will have\nthe rope down by dawn and the beam by the end of the week.\n\n## In the world\n\n- [[the-ninth-rope]] keep terriers at every gallows of [[hangmoot]], and the terriers are the\n  best-fed dogs in the Mark.",
+      "file": "creatures/knotrats.md"
+    },
     "notchers": {
       "id": "notchers",
       "type": "creature",
@@ -5212,6 +5753,42 @@
       "body": "## What\n\nRimehounds are wolves the way a glacier is a stream. White, silent, the size of a horse, they\nden in the far ice and come south once a year, on the longest night, in packs of a dozen. What\nis outside a wall that night is theirs. The [[rimeclans]] bring the herds in, bar the doors, and\nsing loud enough not to hear.\n\n## In the world\n\n- A clan-chief's cloak is a Rimehound hide, or it is not a chief's cloak. [[hrok]] has two.\n- Since [[brandfell]] split, the packs come further south each winter, and some have been seen\n  in [[bonereach]].",
       "file": "creatures/rimehounds.md"
     },
+    "seepers": {
+      "id": "seepers",
+      "type": "creature",
+      "name": "Seepers",
+      "aliases": [
+        "the Knockers",
+        "the Undercrawl"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "unborn",
+        "below",
+        "shapeless"
+      ],
+      "summary": "Things with no fixed shape that seep up through the cracks of deep mines and warm vents like water, and become something on the way; the miners of Irondeep and the smiths of Emberstead hear them before they see them.",
+      "relations": [
+        {
+          "to": "the-unborn",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "irondeep",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "emberstead",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nNot [[the-unborn]] themselves. Something that comes off them, the way steam comes off a pot. It\nrises through the warm cracks that [[brandfell]] opened, slow as water, and somewhere between\nthe deep and the light it takes a shape: a hand, a mouth, something the size of a dog with too\nmany joints. The knocking in the deepest shafts of [[irondeep]] is them.\n\n## In the world\n\n- Fire drives them back. Cold stops them. They are coming up further every year.",
+      "file": "creatures/seepers.md"
+    },
     "the-barred": {
       "id": "the-barred",
       "type": "creature",
@@ -5242,6 +5819,37 @@
       ],
       "body": "## What\n\nEvery door in the [[lowstreets]] is barred, and behind most of them somebody is still\nleaning on it. The Barred drowned with their shoulders to the wood. They do not come out.\nThey do not want you to go in. Open a door anyway and they let go of it, all at once, and\nwhatever they were keeping out comes past them.\n\n## In the world\n\n- The coast folk say [[vorr]] keeps what the sea takes. The Barred are what he took. What is\n  behind the doors he did not.",
       "file": "creatures/the-barred.md"
+    },
+    "the-blindkin": {
+      "id": "the-blindkin",
+      "type": "creature",
+      "name": "The Blindkin",
+      "aliases": [
+        "the Kept",
+        "Templebred"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "ossar",
+        "servants",
+        "temples"
+      ],
+      "summary": "The pale, eyeless people the Ossar bred from men to serve in their temples; a few thousand still live in the dark under the Black Step and the Glassands, tending what sleeps.",
+      "relations": [
+        {
+          "to": "ossar",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "the-black-step",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nThe [[ossar]] did not only eat men. They bred them: for size, for silence, for blindness, so that\nservants in the temple would never see what they served. The Blindkin are the result. Pale,\nsmooth-faced where the eyes should be, hairless, quick in the dark and slow in the light.\n\n## Now\n\nThey never left. In the deep of [[the-black-step]] and under the ruins of the [[glassands]] they\nstill sweep the floors, still tend [[the-stonesleepers]], still wait. [[qarr-dhuun]] diggers meet\nthem sometimes, and do not come up.",
+      "file": "creatures/the-blindkin.md"
     },
     "the-drawn": {
       "id": "the-drawn",
@@ -5331,6 +5939,42 @@
       ],
       "body": "## What\n\nWhen the sea came in over [[kell]] the king did not leave his chair, and the men sworn to\nstand by it did not leave their posts. They are still there: two ranks down the length of\n[[the-iron-hall]], salt grown white over the iron, faces gone, spears grounded.\n\nThey do not stop you walking between them. They do not stop you looking. Lay a hand on the\ncrown, the coin under the throne, or anything else that was the king's, and every one of\nthem turns at once.\n\n## In the world\n\n- The divers of [[wrackhead]] say the coast's oldest oath was sworn by these men: *until the\n  king stands*. He has not stood.\n- [[gorvek]] went between them and came out with a sack. Nobody knows whether he touched the\n  crown, or what he touched instead.",
       "file": "creatures/the-standing.md"
+    },
+    "the-stonesleepers": {
+      "id": "the-stonesleepers",
+      "type": "creature",
+      "name": "The Stonesleepers",
+      "aliases": [
+        "the Waking",
+        "the Buried Masters"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "ossar",
+        "sleep",
+        "waking"
+      ],
+      "summary": "The Ossar who went into the stone instead of under the earth when the knot was tied, and sleep there under the Glassands and the Feverfen; they are waking one at a time, over centuries, and the Kneeling call them the Buried Masters.",
+      "relations": [
+        {
+          "to": "ossar",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "the-black-step",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "glassands",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nNot every [[ossar]] went under the earth with their masters. Some lay down in the stone of their\ntemples, in niches cut to fit, and slept. The knot holds them too, but less. They lie under\n[[the-black-step]] and the black foundations of the [[glassands]], tended by [[the-blindkin]].\n\n## The waking\n\nSince [[brandfell]] split, the niches have begun to empty. One in the time of [[the-burning-of-ossery]].\nThree in the last generation. [[the-kneeling]] have a word for each one that wakes. The\nbuilding on [[smokemouth]] is in their pattern.",
+      "file": "creatures/the-stonesleepers.md"
     },
     "the-unasked": {
       "id": "the-unasked",
@@ -6130,6 +6774,11 @@
       "summary": "The end of the empire of Vahr a thousand years before Kell drowned, when its sorcerer-emperors asked the Unborn for one thing too many; the heartland burned to glass, and the empire broke into the kingdoms of Harth.",
       "year": -1000,
       "relations": [
+        {
+          "to": "marhaun-of-the-gate",
+          "kind": "survived-by",
+          "declared": false
+        },
         {
           "to": "the-last-asking",
           "kind": "featured-in",
@@ -13158,6 +13807,30 @@
       "declared": false
     },
     {
+      "from": "hild-kingsrope",
+      "to": "the-ninth-rope",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "hild-kingsrope",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "hild-kingsrope",
+      "to": "hangmoot",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hangmoot",
+      "to": "hild-kingsrope",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
       "from": "hollin",
       "to": "quaysteps",
       "kind": "rules",
@@ -13358,6 +14031,30 @@
     {
       "from": "the-ashfall",
       "to": "mardra",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "marhaun-of-the-gate",
+      "to": "old-vahr",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "marhaun-of-the-gate",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "marhaun-of-the-gate",
+      "to": "the-fall-of-vahr",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-fall-of-vahr",
+      "to": "marhaun-of-the-gate",
       "kind": "survived-by",
       "declared": false
     },
@@ -13734,6 +14431,42 @@
       "declared": false
     },
     {
+      "from": "the-numbered-man",
+      "to": "the-counted-lands",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-counted-lands",
+      "to": "the-numbered-man",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "the-unseen-girl",
+      "to": "sarn",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "the-unseen-girl",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "the-unseen-girl",
+      "to": "harrowmere",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-unseen-girl",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
       "from": "tiberian-vasthorne",
       "to": "aurelian-vasthorne",
       "kind": "kin-of",
@@ -14082,6 +14815,18 @@
       "declared": false
     },
     {
+      "from": "granaria",
+      "to": "crownhold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "granaria",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "greyhollow",
       "to": "gallowmark",
       "kind": "located-in",
@@ -14250,6 +14995,18 @@
       "declared": false
     },
     {
+      "from": "marcheast",
+      "to": "crownhold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "marcheast",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "old-vahr",
       "to": "glassands",
       "kind": "located-in",
@@ -14298,6 +15055,18 @@
       "declared": false
     },
     {
+      "from": "saltcoast",
+      "to": "crownhold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "saltcoast",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "saltgrave",
       "to": "harth",
       "kind": "located-in",
@@ -14318,6 +15087,18 @@
     {
       "from": "the-teeth",
       "to": "smokemouth",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "solmerine",
+      "to": "crownhold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "solmerine",
       "kind": "contains",
       "declared": false
     },
@@ -14466,6 +15247,18 @@
       "declared": false
     },
     {
+      "from": "vinalis",
+      "to": "crownhold",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "vinalis",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "wallgate",
       "to": "gallowmark",
       "kind": "located-in",
@@ -14607,6 +15400,66 @@
       "from": "harth",
       "to": "greycloaks",
       "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "house-aldemar",
+      "to": "granaria",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "granaria",
+      "to": "house-aldemar",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "house-corvaith",
+      "to": "marcheast",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "marcheast",
+      "to": "house-corvaith",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "house-lucentis",
+      "to": "solmerine",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "solmerine",
+      "to": "house-lucentis",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "house-sabinus",
+      "to": "saltcoast",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "saltcoast",
+      "to": "house-sabinus",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "house-trevane",
+      "to": "crownhold",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "house-trevane",
+      "kind": "home-of",
       "declared": false
     },
     {
@@ -14822,6 +15675,30 @@
     {
       "from": "harrowmere",
       "to": "the-hoofborn",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "the-iron-hundred",
+      "to": "house-corvaith",
+      "kind": "led-by",
+      "declared": true
+    },
+    {
+      "from": "house-corvaith",
+      "to": "the-iron-hundred",
+      "kind": "leads",
+      "declared": false
+    },
+    {
+      "from": "the-iron-hundred",
+      "to": "the-hoofborn",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-hoofborn",
+      "to": "the-iron-hundred",
       "kind": "enemy-of",
       "declared": false
     },
@@ -15390,6 +16267,18 @@
       "declared": false
     },
     {
+      "from": "knotrats",
+      "to": "the-kneeling",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "knotrats",
+      "kind": "created",
+      "declared": false
+    },
+    {
       "from": "notchers",
       "to": "hask",
       "kind": "serves",
@@ -15462,6 +16351,42 @@
       "declared": false
     },
     {
+      "from": "seepers",
+      "to": "the-unborn",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "seepers",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "seepers",
+      "to": "irondeep",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "irondeep",
+      "to": "seepers",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "seepers",
+      "to": "emberstead",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "emberstead",
+      "to": "seepers",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
       "from": "the-barred",
       "to": "vorr",
       "kind": "serves",
@@ -15482,6 +16407,30 @@
     {
       "from": "lowstreets",
       "to": "the-barred",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-blindkin",
+      "to": "ossar",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-blindkin",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-blindkin",
+      "to": "the-black-step",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-black-step",
+      "to": "the-blindkin",
       "kind": "haunted-by",
       "declared": false
     },
@@ -15543,6 +16492,42 @@
       "from": "vorr",
       "to": "the-standing",
       "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-stonesleepers",
+      "to": "ossar",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-stonesleepers",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "the-stonesleepers",
+      "to": "the-black-step",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-black-step",
+      "to": "the-stonesleepers",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-stonesleepers",
+      "to": "glassands",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "glassands",
+      "to": "the-stonesleepers",
+      "kind": "haunted-by",
       "declared": false
     },
     {

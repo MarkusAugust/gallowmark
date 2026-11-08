@@ -15,12 +15,14 @@ graph LR
   grue["Grue"]
   hadrian-mournevale["Hadrian Mournevale"]
   haldis-graymane["Haldis Graymane"]
+  hild-kingsrope["Hild Kingsrope"]
   hollin["Hollin"]
   hrok["Hrok"]
   ishara-grey["Ishara Grey"]
   jarn["Jarn"]
   marcus-halberd["Marcus Halberd"]
   mardra["Mardra"]
+  marhaun-of-the-gate["Marhaun of the Gate"]
   oruana-blackwake["Oruana Blackwake"]
   oulu-nae["Oulu-Nae"]
   qeth-ummar["Qeth-Ummar"]
@@ -32,6 +34,8 @@ graph LR
   seraphine-vasthorne["Seraphine Vasthorne"]
   sethra["Sethra"]
   sorgan-windbreaker["Sorgan Windbreaker"]
+  the-numbered-man["The Numbered Man"]
+  the-unseen-girl["The Unseen Girl"]
   tiberian-vasthorne["Tiberian Vasthorne"]
   tolm["Tolm"]
   torr-halaq["Torr-Halaq"]
@@ -50,6 +54,7 @@ graph LR
   fordham["Fordham"]
   gallowmark["Gallowmark"]
   glassands["The Glassands"]
+  granaria["Granaria"]
   greyhollow["Greyhollow"]
   grimwatch["Grimwatch"]
   hangmoot["Hangmoot"]
@@ -60,13 +65,16 @@ graph LR
   kell["Kell"]
   kings-way["The King's Way"]
   lowstreets["The Lowstreets"]
+  marcheast["Marcheast"]
   old-vahr["Old Vahr"]
   ossery["Ossery"]
   quaysteps["The Quaysteps"]
   rimewold["The Rimewold"]
   rotwater["Rotwater"]
+  saltcoast["Saltcoast"]
   saltgrave["Saltgrave"]
   smokemouth["Smokemouth"]
+  solmerine["Solmerine"]
   stillwater["Stillwater"]
   strongrooms["The Strongrooms"]
   the-black-step["The Black Step"]
@@ -78,6 +86,7 @@ graph LR
   the-teeth["The Teeth"]
   the-tenth-palace["The Tenth Palace"]
   ush-kaddah["Ush-Kaddah"]
+  vinalis["Vinalis"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
   ysveld["Ysveld"]
@@ -85,6 +94,11 @@ graph LR
   blackwakes-own["Blackwake's Own"]
   clan-skoll["Clan Skoll-Without-Fire"]
   greycloaks["The Greycloaks"]
+  house-aldemar["House Aldemar"]
+  house-corvaith["House Corvaith"]
+  house-lucentis["House Lucentis"]
+  house-sabinus["House Sabinus"]
+  house-trevane["House Trevane"]
   ossar["The Ossar"]
   qarr-dhuun["Qarr-Dhuun"]
   rimeclans["The Rimeclans"]
@@ -95,6 +109,7 @@ graph LR
   the-holdfast-lords["The Holdfast Lords"]
   the-honest-company-of-takers["The Honest Company of Takers"]
   the-hoofborn["The Hoofborn"]
+  the-iron-hundred["The Iron Hundred"]
   the-kneeling["The Kneeling"]
   the-leech-mothers["The Leech-Mothers"]
   the-ninth-rope["The Ninth Rope"]
@@ -123,14 +138,18 @@ graph LR
   velloch["Velloch"]
   fenmaws["Fenmaws"]
   firstcloaks["The Firstcloaks"]
+  knotrats["Knotrats"]
   notchers["Notchers"]
   pickers["The Pickers"]
   qaddir["Qaddir"]
   rimehounds["Rimehounds"]
+  seepers["Seepers"]
   the-barred["The Barred"]
+  the-blindkin["The Blindkin"]
   the-drawn["The Drawn"]
   the-paid["The Paid"]
   the-standing["The Standing"]
+  the-stonesleepers["The Stonesleepers"]
   the-unasked["The Unasked"]
   wrack["Your Wrack"]
   ashday["Ashday"]
@@ -204,6 +223,8 @@ graph LR
   haldis-graymane -- leads --> the-ninth-rope
   haldis-graymane -- rules --> hangmoot
   haldis-graymane -- enemy-of --> the-kneeling
+  hild-kingsrope -- member-of --> the-ninth-rope
+  hild-kingsrope -- lives-in --> hangmoot
   hollin -- rules --> quaysteps
   hollin -- born-in --> wrackhead
   hollin -- rival-of --> jarn
@@ -221,6 +242,8 @@ graph LR
   marcus-halberd -- features --> the-three-crowns
   mardra -- lives-in --> greyhollow
   mardra -- survived --> the-ashfall
+  marhaun-of-the-gate -- serves --> old-vahr
+  marhaun-of-the-gate -- survived --> the-fall-of-vahr
   oruana-blackwake -- lives-in --> the-teeth
   oruana-blackwake -- born-in --> feverfen
   oruana-blackwake -- leads --> blackwakes-own
@@ -252,6 +275,9 @@ graph LR
   sethra -- named-by --> linelord
   sorgan-windbreaker -- leads --> the-hoofborn
   sorgan-windbreaker -- enemy-of --> crownhold
+  the-numbered-man -- survived --> the-counted-lands
+  the-unseen-girl -- rival-of --> sarn
+  the-unseen-girl -- born-in --> harrowmere
   tiberian-vasthorne -- kin-of --> aurelian-vasthorne
   tiberian-vasthorne -- features --> the-three-crowns
   tiberian-vasthorne -- serves --> aleid-van-der-haalst
@@ -281,6 +307,7 @@ graph LR
   gallowmark -- contains --> kell
   gallowmark -- home-of --> greycloaks
   glassands -- located-in --> harth
+  granaria -- located-in --> crownhold
   greyhollow -- located-in --> gallowmark
   greyhollow -- contains --> the-ashfall
   grimwatch -- located-in --> gallowmark
@@ -295,12 +322,15 @@ graph LR
   kell -- created --> iron-crown-of-kell
   kings-way -- located-in --> the-iron-hall
   lowstreets -- located-in --> kell
+  marcheast -- located-in --> crownhold
   old-vahr -- located-in --> glassands
   ossery -- located-in --> crownhold
   quaysteps -- located-in --> kell
   rotwater -- located-in --> feverfen
+  saltcoast -- located-in --> crownhold
   saltgrave -- located-in --> harth
   smokemouth -- located-in --> the-teeth
+  solmerine -- located-in --> crownhold
   stillwater -- located-in --> harrowmere
   strongrooms -- located-in --> brinevaults
   the-black-step -- located-in --> feverfen
@@ -313,6 +343,7 @@ graph LR
   the-tenth-palace -- located-in --> harrowmere
   ush-kaddah -- located-in --> glassands
   ush-kaddah -- home-of --> the-hadd
+  vinalis -- located-in --> crownhold
   wallgate -- located-in --> gallowmark
   wrackhead -- located-in --> gallowmark
   argentine-houses -- lives-in --> harth
@@ -325,6 +356,11 @@ graph LR
   greycloaks -- guards --> kell
   greycloaks -- guards --> wallgate
   greycloaks -- haunts --> harth
+  house-aldemar -- lives-in --> granaria
+  house-corvaith -- lives-in --> marcheast
+  house-lucentis -- lives-in --> solmerine
+  house-sabinus -- lives-in --> saltcoast
+  house-trevane -- lives-in --> crownhold
   ossar -- serves --> the-unborn
   ossar -- lives-in --> harth
   qarr-dhuun -- lives-in --> glassands
@@ -343,6 +379,8 @@ graph LR
   the-honest-company-of-takers -- named-by --> sarn
   the-hoofborn -- enemy-of --> crownhold
   the-hoofborn -- enemy-of --> harrowmere
+  the-iron-hundred -- led-by --> house-corvaith
+  the-iron-hundred -- enemy-of --> the-hoofborn
   the-kneeling -- worships --> the-unborn
   the-kneeling -- serves --> ossar
   the-leech-mothers -- lives-in --> feverfen
@@ -390,19 +428,28 @@ graph LR
   fenmaws -- haunts --> feverfen
   firstcloaks -- member-of --> greycloaks
   firstcloaks -- haunts --> quaysteps
+  knotrats -- created-by --> the-kneeling
   notchers -- serves --> hask
   notchers -- haunts --> brinevaults
   pickers -- born-in --> wrackhead
   pickers -- haunts --> quaysteps
   qaddir -- haunts --> glassands
   rimehounds -- haunts --> rimewold
+  seepers -- serves --> the-unborn
+  seepers -- haunts --> irondeep
+  seepers -- haunts --> emberstead
   the-barred -- serves --> vorr
   the-barred -- haunts --> lowstreets
+  the-blindkin -- serves --> ossar
+  the-blindkin -- haunts --> the-black-step
   the-drawn -- serves --> hask
   the-drawn -- haunts --> brinevaults
   the-paid -- serves --> the-unborn
   the-standing -- haunts --> the-iron-hall
   the-standing -- serves --> vorr
+  the-stonesleepers -- member-of --> ossar
+  the-stonesleepers -- haunts --> the-black-step
+  the-stonesleepers -- haunts --> glassands
   the-unasked -- haunts --> lowstreets
   the-unasked -- serves --> vorr
   wrack -- haunts --> kell
