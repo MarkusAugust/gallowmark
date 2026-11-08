@@ -46,6 +46,14 @@ This is the Harth of the year 150:
 - [[the-ninth-rope]] holds Hangmoot with eight ropes, and hunts.
 - The [[greycloaks]] hold every gate, still, politely. They have never shut one.
 - [[harrowmere]] is richer than ever. Everyone owes it for the war.
+- The Brink runs along the edge of what was lost: [[the-brink]].
+- The Mark is still a borderland, forgotten and hard: the Greycloaks rule, the Holdfast Lords fight,
+  and few beyond the hangmen know how much it matters.
+- Kell is dry, and [[drykell]] has grown up in it. Brim is alive, they say, somewhere on the coast,
+  and anyone might be the salt-king.
+- The Rimewold is as it was: clans, ice, and war.
+- [[the-tenth-palace]] has a door, and [[the-tenth-prince]] sits openly with the Gilded.
+- Ishara Grey still reads the books. Nobody knows what she is.
 - Gorvek is a legend. Hookbreakers hang in every hall.
 
 ## Threads

@@ -36,6 +36,7 @@ graph LR
   sethra["Sethra"]
   sorgan-windbreaker["Sorgan Windbreaker"]
   the-numbered-man["The Numbered Man"]
+  the-tenth-prince["The Tenth Prince"]
   the-unseen-girl["The Unseen Girl"]
   tiberian-vasthorne["Tiberian Vasthorne"]
   tolm["Tolm"]
@@ -52,6 +53,7 @@ graph LR
   crownhold["Crownhold"]
   driftholds["Driftholds"]
   drownhaven["Drownhaven"]
+  drykell["Drykell"]
   ebbmouth["Ebbmouth"]
   emberstead["Emberstead"]
   feverfen["The Feverfen"]
@@ -85,6 +87,7 @@ graph LR
   stillwater["Stillwater"]
   strongrooms["The Strongrooms"]
   the-black-step["The Black Step"]
+  the-brink["The Brink"]
   the-counted-lands["The Counted Lands"]
   the-grass-sea["The Grass Sea"]
   the-greywood["The Greywood"]
@@ -295,6 +298,9 @@ graph LR
   sorgan-windbreaker -- leads --> the-hoofborn
   sorgan-windbreaker -- enemy-of --> crownhold
   the-numbered-man -- survived --> the-counted-lands
+  the-tenth-prince -- rules --> the-tenth-palace
+  the-tenth-prince -- member-of --> the-stonesleepers
+  the-tenth-prince -- rules --> the-gilded
   the-unseen-girl -- rival-of --> sarn
   the-unseen-girl -- born-in --> harrowmere
   tiberian-vasthorne -- kin-of --> aurelian-vasthorne
@@ -323,6 +329,8 @@ graph LR
   driftholds -- located-in --> feverfen
   drownhaven -- located-in --> gallowmark
   drownhaven -- worships --> vorr
+  drykell -- located-in --> kell
+  drykell -- features --> linelord
   ebbmouth -- located-in --> gallowmark
   ebbmouth -- worships --> vorr
   emberstead -- located-in --> rimewold
@@ -367,6 +375,9 @@ graph LR
   strongrooms -- located-in --> brinevaults
   the-black-step -- located-in --> feverfen
   the-black-step -- created-by --> ossar
+  the-brink -- located-in --> harth
+  the-brink -- follows --> the-fraying
+  the-brink -- enemy-of --> ossar
   the-grass-sea -- home-of --> the-hoofborn
   the-greywood -- located-in --> gallowmark
   the-greywood -- survived --> the-ashfall

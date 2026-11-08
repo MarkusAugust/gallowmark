@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 522,
+  "entityCount": 525,
   "types": [
     "character",
     "place",
@@ -1351,6 +1351,43 @@
       "body": "## The story\n\nHe was a digger of [[qarr-dhuun]] who lost his way, and walked south instead of north, for forty\nnights, across the glass. He came back eleven years later out of the south, thin, quiet, with a\nnumber tattooed on the inside of his wrist, and walked into [[ush-kaddah]] and drank from the well\nfor a whole day.\n\n## After\n\nHe would not say what was in [[the-counted-lands]]. He would not sleep under a roof. He said, once,\ndrunk, that the people there were happy, and that this was the worst thing about it.",
       "file": "characters/the-numbered-man.md"
     },
+    "the-tenth-prince": {
+      "id": "the-tenth-prince",
+      "type": "character",
+      "name": "The Tenth Prince",
+      "aliases": [
+        "the Prince with No Door",
+        "the Sleeper of the Mere"
+      ],
+      "status": "canon",
+      "tags": [
+        "prince",
+        "ossar",
+        "stonesleeper",
+        "harrowmere",
+        "future"
+      ],
+      "summary": "The ruler of the Tenth Palace, which has had a door since the Fraying: a Stonesleeper that woke under Harrowmere, which the Gilded paid for a thousand years to stay asleep; in year 150 it sits openly among the princes, and they pay it more.",
+      "relations": [
+        {
+          "to": "the-tenth-palace",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "the-stonesleepers",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "rules",
+          "declared": true
+        }
+      ],
+      "body": "## What the Gilded bought\n\nWhen [[the-gilded]] bought the debts of [[old-vahr]], one of the debts came with a house. Under the\nblack lake of [[harrowmere]] a [[the-stonesleepers]] lay in a niche older than the city, and the\nemperors had been paying it to sleep. The princes kept paying: a chest a year, on the night of\n[[the-hiring-of-the-wise]], to [[the-tenth-palace]]. It slept.\n\n## The door\n\nThe night of [[the-fraying]] it woke. In the morning the Tenth Palace had a door. A year later the\nTenth Prince sat in the council of the Gilded for the first time: tall, pale, cold, polite, wearing\na mask of silver because the princes asked it to. It has sat there since. It votes. It lends. It\nis paid more than ever, and the princes no longer say what for.\n\n## Threads\n\n- What is in the chests now?\n- Does it know [[ishara-grey]]?",
+      "file": "characters/the-tenth-prince.md"
+    },
     "the-unseen-girl": {
       "id": "the-unseen-girl",
       "type": "character",
@@ -1973,6 +2010,39 @@
       ],
       "body": "## The place\n\nDrownhaven is the largest fishing town of the Gallowmark coast, west of Wrackhead, where every family has lost someone to the sea and says so in the name. Its people fish, pay the salt-pile at [[wrackhead]] for [[vorr]], pay the\n[[greycloaks]] their tenth, and trust neither.",
       "file": "places/drownhaven.md"
+    },
+    "drykell": {
+      "id": "drykell",
+      "type": "place",
+      "name": "Drykell",
+      "aliases": [
+        "the Picking",
+        "the Plunder Town"
+      ],
+      "status": "canon",
+      "tags": [
+        "town",
+        "kell",
+        "plunder",
+        "lawless",
+        "future",
+        "year-150"
+      ],
+      "summary": "The lawless plunder town that has grown up in the dry ruins of Kell by year 150; built of wreck-wood and ash-brick on the old quays, ruled by whoever holds the most ground in the ledger, and still digging.",
+      "relations": [
+        {
+          "to": "kell",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The town\n\nWhen the coast was lifted far enough, Kell came out of the sea for good: quays, streets, vaults\nand the iron roof, dry and white with salt. The people who had been going down at low water stopped\nleaving. Drykell is what they built: shanties on the [[quaysteps]], taverns in the\n[[lowstreets]], gambling dens in the [[brinevaults]].\n\n## The law\n\nThere is none, except the ledger. Whoever holds the most ground in [[linelord]] calls themselves\nthe Linelord, and takes a tithe of every pick. The title changes hands every few years, usually with\na knife. The [[greycloaks]] hold the road out, and take theirs.\n\n## Still digging\n\nKell had a great many rooms, and the packing still fills most of them. Every week somebody breaks\ninto one nobody has opened, and every month somebody does not come back from one. Some of the\npickers pay a small tithe at the Iron Hall, to the king who is still sitting in his chair, and\nnobody says to whom it goes.",
+      "file": "places/drykell.md"
     },
     "ebbmouth": {
       "id": "ebbmouth",
@@ -2667,6 +2737,11 @@
           "declared": false
         },
         {
+          "to": "the-brink",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "argentine-houses",
           "kind": "home-of",
           "declared": false
@@ -2790,6 +2865,11 @@
         },
         {
           "to": "brinevaults",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "drykell",
           "kind": "contains",
           "declared": false
         },
@@ -3515,6 +3595,44 @@
       "body": "## The temple\n\nIn the middle of the [[feverfen]], where the water is deepest and the trees tallest, a black\npyramid stands up out of the swamp in steps, each one the height of a man. Vines cover the lower\nsteps. The upper ones are clean. Nothing grows on them, and nothing has been seen to clean them.\n\n## The lights\n\nOn some nights there are lights at the top: pale, steady, not fire. The fen-folk leave fish,\nreed-cloth and sometimes worse on the lowest step at new moon, and in the morning it is gone.\n[[the-leech-mothers]] say the [[ossar]] are inside, and that the warmth coming out of the\ntemple has been rising every year since [[brandfell]] split.\n\n## Threads\n\n- How many steps are there below the water?",
       "file": "places/the-black-step.md"
     },
+    "the-brink": {
+      "id": "the-brink",
+      "type": "place",
+      "name": "The Brink",
+      "aliases": [
+        "the Edge",
+        "the Front",
+        "the Southern Line"
+      ],
+      "status": "canon",
+      "tags": [
+        "front",
+        "war",
+        "ossar",
+        "future",
+        "year-150"
+      ],
+      "summary": "The front against the Ossar lands in year 150: a ragged line of forts, ruins and burned villages from the fen coast to the southern glass, held by every power in Harth in turn and by none for long; everything beyond it is lost.",
+      "relations": [
+        {
+          "to": "harth",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-fraying",
+          "kind": "follows",
+          "declared": true
+        },
+        {
+          "to": "ossar",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The line\n\nSince [[the-fraying]] the [[feverfen]] and the south of the [[glassands]] are Ossar country. The\nBrink is where that country ends, for now: watchtowers on the hills above the fen, Vahrish forts\nreoccupied on the edge of the glass, villages that are burned every few summers by one side or the\nother. Soldiers say *going to the Brink* the way the Mark says *going under*.\n\n## Who holds it\n\nEveryone, in turns. [[the-sunward-see]] marches south every summer under the sun-banner. Free\ncompanies of [[the-halberd-march]] hold forts for pay. [[the-saddle-throne]] rides along it and\nkills what comes out. [[harrowmere]] pays for it, at interest. The [[greycloaks]] hold its gates,\nand the gates are always open.\n\n## What comes over it\n\n[[the-blindkin]] in the night, [[the-paid]] in columns, [[seepers]] through the ground, and once or\ntwice a year a [[the-stonesleepers]] walking upright, and then a fort is gone.",
+      "file": "places/the-brink.md"
+    },
     "the-counted-lands": {
       "id": "the-counted-lands",
       "type": "place",
@@ -3862,6 +3980,11 @@
       ],
       "summary": "The palace on the Grand Canal of Harrowmere with no doors and no windows, where the Tenth Prince lives; the nine houses of the Gilded pay it something every year, and none of them will say what.",
       "relations": [
+        {
+          "to": "the-tenth-prince",
+          "kind": "ruled-by",
+          "declared": false
+        },
         {
           "to": "harrowmere",
           "kind": "located-in",
@@ -4479,6 +4602,11 @@
           "declared": false
         },
         {
+          "to": "the-brink",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "the-underhollow",
           "kind": "created",
           "declared": false
@@ -4759,6 +4887,11 @@
         {
           "to": "oruana-blackwake",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "the-tenth-prince",
+          "kind": "ruled-by",
           "declared": false
         },
         {
@@ -5959,6 +6092,11 @@
           "declared": false
         },
         {
+          "to": "drykell",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "river-priests",
           "kind": "named-by",
           "declared": true
@@ -6626,6 +6764,11 @@
       ],
       "summary": "The Ossar who went into the stone instead of under the earth when the knot was tied, and sleep there under the Glassands and the Feverfen; they are waking one at a time, over centuries, and the Kneeling call them the Buried Masters.",
       "relations": [
+        {
+          "to": "the-tenth-prince",
+          "kind": "has-member",
+          "declared": false
+        },
         {
           "to": "ossar",
           "kind": "member-of",
@@ -7586,6 +7729,11 @@
       "year": 9,
       "relations": [
         {
+          "to": "the-brink",
+          "kind": "precedes",
+          "declared": false
+        },
+        {
           "to": "seraphine-vasthorne",
           "kind": "caused-by",
           "declared": true
@@ -7616,7 +7764,7 @@
           "declared": true
         }
       ],
-      "body": "## The night\n\n[[aurelian-vasthorne]] died in the sixth winter after the ash cleared, and [[the-three-crowns]]\nwere crowned in three cities. In the ninth, [[seraphine-vasthorne]], crowned by the chapel, took\nher father's circlet, one of [[the-nine-irons]], down into the cellars of [[solmerine]] and broke it\non the floor where she knelt. On [[hangmoot]], that same night, a rope snapped. [[haldis-graymane]]\nheard it from her bed.\n\n## What woke\n\nIn the [[feverfen]] the lights on [[the-black-step]] burned all night, and in the morning the\n[[the-stonesleepers]] were walking. In the south of the [[glassands]] the foundations under the\nruins opened. Within a year both lands were lost: their people fled, were taken, or were counted.\n[[smokemouth]] finished what was being built on it.\n\n## After\n\nThe Sunward church that crowned Seraphine burned her in the cathedral square of what became\n[[the-sunward-see]], and kept her throne. The other ropes held. They have held, barely, for a\nhundred and forty years.\n\n## A hundred and fifty years on\n\nThis is the Harth of the year 150:\n\n- Crownhold is three kingdoms at war with each other: [[realm-of-solmerine]], [[the-sunward-see]]\n  and [[the-halberd-march]]. Its east is [[the-saddle-throne]] of the Hoofborn.\n- The Feverfen and the south of the Glassands are Ossar country. The front is a line of forts,\n  ruins and burned villages, and nobody holds it for long.\n- [[the-ninth-rope]] holds Hangmoot with eight ropes, and hunts.\n- The [[greycloaks]] hold every gate, still, politely. They have never shut one.\n- [[harrowmere]] is richer than ever. Everyone owes it for the war.\n- Gorvek is a legend. Hookbreakers hang in every hall.\n\n## Threads\n\n- How long can eight ropes hold what nine held?\n- Who will try to cut the next one, and who will try to tie the ninth again?",
+      "body": "## The night\n\n[[aurelian-vasthorne]] died in the sixth winter after the ash cleared, and [[the-three-crowns]]\nwere crowned in three cities. In the ninth, [[seraphine-vasthorne]], crowned by the chapel, took\nher father's circlet, one of [[the-nine-irons]], down into the cellars of [[solmerine]] and broke it\non the floor where she knelt. On [[hangmoot]], that same night, a rope snapped. [[haldis-graymane]]\nheard it from her bed.\n\n## What woke\n\nIn the [[feverfen]] the lights on [[the-black-step]] burned all night, and in the morning the\n[[the-stonesleepers]] were walking. In the south of the [[glassands]] the foundations under the\nruins opened. Within a year both lands were lost: their people fled, were taken, or were counted.\n[[smokemouth]] finished what was being built on it.\n\n## After\n\nThe Sunward church that crowned Seraphine burned her in the cathedral square of what became\n[[the-sunward-see]], and kept her throne. The other ropes held. They have held, barely, for a\nhundred and forty years.\n\n## A hundred and fifty years on\n\nThis is the Harth of the year 150:\n\n- Crownhold is three kingdoms at war with each other: [[realm-of-solmerine]], [[the-sunward-see]]\n  and [[the-halberd-march]]. Its east is [[the-saddle-throne]] of the Hoofborn.\n- The Feverfen and the south of the Glassands are Ossar country. The front is a line of forts,\n  ruins and burned villages, and nobody holds it for long.\n- [[the-ninth-rope]] holds Hangmoot with eight ropes, and hunts.\n- The [[greycloaks]] hold every gate, still, politely. They have never shut one.\n- [[harrowmere]] is richer than ever. Everyone owes it for the war.\n- The Brink runs along the edge of what was lost: [[the-brink]].\n- The Mark is still a borderland, forgotten and hard: the Greycloaks rule, the Holdfast Lords fight,\n  and few beyond the hangmen know how much it matters.\n- Kell is dry, and [[drykell]] has grown up in it. Brim is alive, they say, somewhere on the coast,\n  and anyone might be the salt-king.\n- The Rimewold is as it was: clans, ice, and war.\n- [[the-tenth-palace]] has a door, and [[the-tenth-prince]] sits openly with the Gilded.\n- Ishara Grey still reads the books. Nobody knows what she is.\n- Gorvek is a legend. Hookbreakers hang in every hall.\n\n## Threads\n\n- How long can eight ropes hold what nine held?\n- Who will try to cut the next one, and who will try to tie the ninth again?",
       "file": "events/the-fraying.md"
     },
     "the-going-home": {
@@ -15237,6 +15385,42 @@
       "declared": false
     },
     {
+      "from": "the-tenth-prince",
+      "to": "the-tenth-palace",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-tenth-palace",
+      "to": "the-tenth-prince",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "the-tenth-prince",
+      "to": "the-stonesleepers",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "the-stonesleepers",
+      "to": "the-tenth-prince",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "the-tenth-prince",
+      "to": "the-gilded",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "the-tenth-prince",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
       "from": "the-unseen-girl",
       "to": "sarn",
       "kind": "rival-of",
@@ -15570,6 +15754,30 @@
       "from": "vorr",
       "to": "drownhaven",
       "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "drykell",
+      "to": "kell",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "drykell",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "drykell",
+      "to": "linelord",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "drykell",
+      "kind": "featured-in",
       "declared": false
     },
     {
@@ -16098,6 +16306,42 @@
       "from": "ossar",
       "to": "the-black-step",
       "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-brink",
+      "to": "harth",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "harth",
+      "to": "the-brink",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-brink",
+      "to": "the-fraying",
+      "kind": "follows",
+      "declared": true
+    },
+    {
+      "from": "the-fraying",
+      "to": "the-brink",
+      "kind": "precedes",
+      "declared": false
+    },
+    {
+      "from": "the-brink",
+      "to": "ossar",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-brink",
+      "kind": "enemy-of",
       "declared": false
     },
     {
