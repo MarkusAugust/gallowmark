@@ -27,6 +27,13 @@ the Grand Canal and pay no harbour tax.
 The black lake has no bottom anyone has found. The princes sink their debtors in it. Things
 come up sometimes that were not sunk.
 
+## Places and powers
+
+- [[the-tenth-palace]], with no doors.
+- [[stillwater]], the debtors' prison on the lake.
+- [[the-honest-company-of-takers]], the thieves' guild.
+- [[the-hiring-of-the-wise]], the yearly auction of sorcerers.
+
 ## Threads
 
-- Who is the Tenth Prince, whose palace has no doors?
+- Who is the Tenth Prince?

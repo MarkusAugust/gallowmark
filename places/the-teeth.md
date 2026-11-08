@@ -16,10 +16,15 @@ here: the Harrowmere slave galleys, the Crownhold grain ships, the coast towns o
 
 ## The law
 
-There is none, except that a captain's word, once given, is kept, because a captain who
-breaks it is hanged from the mast on Hask's pattern by their own crew. The reavers have
+There is none but the Captain's Oath: a captain's word, once given, is kept, because a
+captain who breaks it is hanged from the mast on Hask's pattern by their own crew. The reavers have
 never heard of [[the-first-knot]]. They keep it anyway.
+
+## Who is here
+
+- [[oruana-blackwake]], the reaver queen, and [[blackwakes-own]].
+- [[smokemouth]], the island that breathes.
 
 ## Threads
 
-- Why do two of the islands smoke, since Brandfell split?
+- Why does a second island smoke, since Brandfell split?

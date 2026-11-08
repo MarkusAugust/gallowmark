@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 422,
+  "entityCount": 429,
   "types": [
     "character",
     "place",
@@ -563,6 +563,48 @@
       "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the smoke, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## What she sells\n\nThings from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]], and says the\n  fire under the Hollow and the warm iron under the hall are one fire.\n\n## Threads\n\n- What did Mardra find in the smoke that made her stay?\n- Does she know where a ruby is?",
       "file": "characters/mardra.md"
     },
+    "oruana-blackwake": {
+      "id": "oruana-blackwake",
+      "type": "character",
+      "name": "Oruana Blackwake",
+      "aliases": [
+        "the Reaver Queen",
+        "Blackwake"
+      ],
+      "status": "canon",
+      "tags": [
+        "captain",
+        "reaver",
+        "queen",
+        "teeth",
+        "feverfen"
+      ],
+      "summary": "The reaver queen of the Teeth, born in the Feverfen and raised on a deck; she rules nobody, every captain listens when she speaks, and her fleet frees the slave galleys of Harrowmere and sends their people to Saltgrave.",
+      "relations": [
+        {
+          "to": "the-teeth",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "feverfen",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "blackwakes-own",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nOruana was born in a reed village of the [[feverfen]] and sold at nine to a Harrowmere galley.\nAt sixteen she led the rowers up through the deck with their chains in their hands. She kept the\nship. Twenty years on she has thirty, and the reavers of [[the-teeth]] call her queen, which she\nallows and does not answer to.\n\n## Voice\n\nSoft, vowel-rich, fen-accented, and she never raises it. She has never needed to.\n\n## What she does\n\nShe takes Harrowmere's slave galleys, opens the holds, and gives every freed rower a choice: her\ndeck, or the road to [[saltgrave]]. Most choose the road. Those who choose the deck are\n[[blackwakes-own]].\n\n## Threads\n\n- What did she see on [[smokemouth]], that she will not let her ships put in there?",
+      "file": "characters/oruana-blackwake.md"
+    },
     "qeth-ummar": {
       "id": "qeth-ummar",
       "type": "character",
@@ -749,6 +791,11 @@
         {
           "to": "river-priests",
           "kind": "named-by",
+          "declared": false
+        },
+        {
+          "to": "the-honest-company-of-takers",
+          "kind": "names",
           "declared": false
         },
         {
@@ -1276,6 +1323,11 @@
       "summary": "The swamp-jungle of the south-east coast, hot, green and rotten, where the black temples of the Ossar stand in the water and the fen-folk say the Ossar never left, only the daylight.",
       "relations": [
         {
+          "to": "oruana-blackwake",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "located-in",
           "declared": true
@@ -1532,8 +1584,28 @@
           "declared": true
         },
         {
+          "to": "stillwater",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-tenth-palace",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "the-gilded",
           "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "the-honest-company-of-takers",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "the-hiring-of-the-wise",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -1542,7 +1614,7 @@
           "declared": false
         }
       ],
-      "body": "## The city\n\nHarrowmere is built on piles driven into a black lake, a thousand palaces and ten thousand\nhovels joined by canals. It has no king. It has [[the-gilded]], the merchant princes, who\nbought the debts of [[old-vahr]] the year after it burned and have been collecting on them\nsince. Every kingdom in Harth owes Harrowmere. Harrowmere owes nobody, and says so.\n\n## What is for sale\n\nGrain, iron, ships, slaves, poisons, offices in [[crownhold]], the names of the dead,\nsorcerers by the season, and once, they say, a god's tooth. The slave market on the\nStairs of Weighing is the largest in the world. The [[greycloaks]] keep a chapterhouse on\nthe Grand Canal and pay no harbour tax.\n\n## Under the water\n\nThe black lake has no bottom anyone has found. The princes sink their debtors in it. Things\ncome up sometimes that were not sunk.\n\n## Threads\n\n- Who is the Tenth Prince, whose palace has no doors?",
+      "body": "## The city\n\nHarrowmere is built on piles driven into a black lake, a thousand palaces and ten thousand\nhovels joined by canals. It has no king. It has [[the-gilded]], the merchant princes, who\nbought the debts of [[old-vahr]] the year after it burned and have been collecting on them\nsince. Every kingdom in Harth owes Harrowmere. Harrowmere owes nobody, and says so.\n\n## What is for sale\n\nGrain, iron, ships, slaves, poisons, offices in [[crownhold]], the names of the dead,\nsorcerers by the season, and once, they say, a god's tooth. The slave market on the\nStairs of Weighing is the largest in the world. The [[greycloaks]] keep a chapterhouse on\nthe Grand Canal and pay no harbour tax.\n\n## Under the water\n\nThe black lake has no bottom anyone has found. The princes sink their debtors in it. Things\ncome up sometimes that were not sunk.\n\n## Places and powers\n\n- [[the-tenth-palace]], with no doors.\n- [[stillwater]], the debtors' prison on the lake.\n- [[the-honest-company-of-takers]], the thieves' guild.\n- [[the-hiring-of-the-wise]], the yearly auction of sorcerers.\n\n## Threads\n\n- Who is the Tenth Prince?",
       "file": "places/harrowmere.md"
     },
     "harth": {
@@ -1987,6 +2059,58 @@
       "body": "## The city\n\nA gorge in the hills above [[harrowmere]], walled at both ends, its houses cut into the rock\nfaces in tiers. Under the gate is the grave: a pit full of salt, a handful from every one of\n[[the-saltless]] who ever came in. They walk over it every day.\n\n## Its enemies\n\n[[the-gilded]] have sent three armies up the gorge. The bones of the third are still in it. The\n[[greycloaks]] have never been hired against Saltgrave, and the order has never said why.\n\n## Threads\n\n- How long can a city with no masters and no trade hold out against a city that owns everything?",
       "file": "places/saltgrave.md"
     },
+    "smokemouth": {
+      "id": "smokemouth",
+      "type": "place",
+      "name": "Smokemouth",
+      "aliases": [
+        "the Smoking Isle",
+        "the Breathing Island"
+      ],
+      "status": "canon",
+      "tags": [
+        "island",
+        "teeth",
+        "fire",
+        "mystery"
+      ],
+      "summary": "The island of the Teeth that began to smoke the year Brandfell split and opened a crater last year; someone has landed on it, and is building something on the crater's lip.",
+      "relations": [
+        {
+          "to": "the-teeth",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The island\n\nA black cone at the end of the jaw, the furthest of [[the-teeth]] from the coast. It was dead\nrock for as long as the reavers remember. The year [[brandfell]] split, it began to smoke. Last\nyear the top fell in, and now it breathes: a long plume by day, a red glow at night, and the\nsea around it warm enough to cook fish.\n\n## The building\n\nOn the crater's lip, something is going up: black stone, laid in the old way, too large. Ships\nthat put in to see do not come back. [[oruana-blackwake]] has forbidden her captains to try.\n\n## Threads\n\n- Who is building, and in whose pattern? The stone looks like the [[ossar]]'s.",
+      "file": "places/smokemouth.md"
+    },
+    "stillwater": {
+      "id": "stillwater",
+      "type": "place",
+      "name": "Stillwater",
+      "aliases": [
+        "the Debt Prison",
+        "the Pile-House"
+      ],
+      "status": "canon",
+      "tags": [
+        "prison",
+        "harrowmere",
+        "debt",
+        "lake"
+      ],
+      "summary": "The debtors' prison on piles in the middle of the black lake of Harrowmere, where those who cannot pay live until the account is closed and they are sunk; the water around it is still, because nobody swims from it.",
+      "relations": [
+        {
+          "to": "harrowmere",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The prison\n\nA square of timber and iron on a hundred piles, a mile out on the black lake. The debtors live\nin cages and work at whatever their creditors send out: rope, nets, copying ledgers. Every\nmonth the books are balanced. A debtor whose account will never close is taken to the edge\nwith a stone and given to the lake.\n\n## The water\n\nIt is still around Stillwater. Nobody swims from it, and not because of the distance. The\ncanal-lurkers of the lake have learned where the food comes from.\n\n## Threads\n\n- What comes up the piles at night, that the guards will not talk about?",
+      "file": "places/stillwater.md"
+    },
     "strongrooms": {
       "id": "strongrooms",
       "type": "place",
@@ -2081,13 +2205,54 @@
       "summary": "A chain of black volcanic islands off the Feverfen coast, where the reaver fleets winter, the slave ships of Harrowmere are taken, and no law in Harth reaches.",
       "relations": [
         {
+          "to": "oruana-blackwake",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "located-in",
           "declared": false
+        },
+        {
+          "to": "smokemouth",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "blackwakes-own",
+          "kind": "home-of",
+          "declared": false
         }
       ],
-      "body": "## The islands\n\nForty black islands in a curve like a broken jaw, steep, hot, with good harbours in their\nlee and nothing growing on their windward side. The reaver fleets winter here and raid from\nhere: the Harrowmere slave galleys, the Crownhold grain ships, the coast towns of the fen.\n\n## The law\n\nThere is none, except that a captain's word, once given, is kept, because a captain who\nbreaks it is hanged from the mast on Hask's pattern by their own crew. The reavers have\nnever heard of [[the-first-knot]]. They keep it anyway.\n\n## Threads\n\n- Why do two of the islands smoke, since Brandfell split?",
+      "body": "## The islands\n\nForty black islands in a curve like a broken jaw, steep, hot, with good harbours in their\nlee and nothing growing on their windward side. The reaver fleets winter here and raid from\nhere: the Harrowmere slave galleys, the Crownhold grain ships, the coast towns of the fen.\n\n## The law\n\nThere is none but the Captain's Oath: a captain's word, once given, is kept, because a\ncaptain who breaks it is hanged from the mast on Hask's pattern by their own crew. The reavers have\nnever heard of [[the-first-knot]]. They keep it anyway.\n\n## Who is here\n\n- [[oruana-blackwake]], the reaver queen, and [[blackwakes-own]].\n- [[smokemouth]], the island that breathes.\n\n## Threads\n\n- Why does a second island smoke, since Brandfell split?",
       "file": "places/the-teeth.md"
+    },
+    "the-tenth-palace": {
+      "id": "the-tenth-palace",
+      "type": "place",
+      "name": "The Tenth Palace",
+      "aliases": [
+        "the Doorless House",
+        "the Tenth Prince's House"
+      ],
+      "status": "canon",
+      "tags": [
+        "palace",
+        "harrowmere",
+        "mystery",
+        "gilded"
+      ],
+      "summary": "The palace on the Grand Canal of Harrowmere with no doors and no windows, where the Tenth Prince lives; the nine houses of the Gilded pay it something every year, and none of them will say what.",
+      "relations": [
+        {
+          "to": "harrowmere",
+          "kind": "located-in",
+          "declared": true
+        }
+      ],
+      "body": "## The house\n\nBetween the palaces of Salt and Tallow stands one more, as fine as either, built of the same\npale stone, and it has no doors. No windows. No water-gate. The canal runs along its walls and\nnothing goes in. The people of [[harrowmere]] call whatever lives there the Tenth Prince.\n\n## The payment\n\nOnce a year, on the night of [[the-hiring-of-the-wise]], each of [[the-gilded]] sends a sealed\nchest by barge, and the barge is tied against the blank wall, and in the morning the chest is\ngone. Each house keeps the contents in its own ledger. No house has ever shown another.\n\n## Threads\n\n- What did the Gilded buy, when they bought Vahr's debts, that came with a house?",
+      "file": "places/the-tenth-palace.md"
     },
     "wallgate": {
       "id": "wallgate",
@@ -2223,6 +2388,47 @@
       ],
       "body": "## Who they are\n\nA dozen houses, more or less: three in [[crownhold]], two in [[harrowmere]], one with a ruin in\nthe [[glassands]], one in Gallowmark that does not admit it. Every few generations a child is\nborn to them with eyes like new silver, and that child inherits, whatever the order of birth.\nThey say the eyes are the blood of [[old-vahr]].\n\n## The whisper\n\nThe emperors of Vahr learned their sorcery from the [[ossar]], and the Ossar's eyes were pale.\nThe Argentine Houses are fond of the cold, slow to warm, and very good at sorcery. They marry\neach other. They do not let physicians bleed them.\n\n## Threads\n\n- Is the Vasthorne line one of them?\n- What do the silver-eyed children dream about?",
       "file": "factions/argentine-houses.md"
+    },
+    "blackwakes-own": {
+      "id": "blackwakes-own",
+      "type": "faction",
+      "name": "Blackwake's Own",
+      "aliases": [
+        "the Open Hold",
+        "the Freed Fleet"
+      ],
+      "status": "canon",
+      "tags": [
+        "reavers",
+        "liberators",
+        "teeth",
+        "slavery"
+      ],
+      "summary": "The reaver crews of Oruana Blackwake, freed rowers to a man, who take Harrowmere's slave galleys and send their people to Saltgrave; heroes on every coast Harrowmere does not own, and the first target of every fleet it hires.",
+      "relations": [
+        {
+          "to": "oruana-blackwake",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "the-teeth",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-saltless",
+          "kind": "ally-of",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The crews\n\nEvery one of them has rowed in chains. They wear the scar of the oar-iron on the ankle and do\nnot hide it. They take only slave ships, or ships that owe [[the-gilded]], which is all of them.\n\n## Custom\n\nThey leave a galley drifting with its hold open and its masters chained to the oars. The\n[[the-saltless]] of [[saltgrave]] send them salt every year, which in Saltgrave is the\ngreatest honour there is.",
+      "file": "factions/blackwakes-own.md"
     },
     "greycloaks": {
       "id": "greycloaks",
@@ -2497,6 +2703,16 @@
           "declared": false
         },
         {
+          "to": "oruana-blackwake",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "blackwakes-own",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "harrowmere",
           "kind": "rules",
           "declared": true
@@ -2504,6 +2720,11 @@
         {
           "to": "the-saltless",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "the-hiring-of-the-wise",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -2541,6 +2762,38 @@
       ],
       "body": "## Who they are\n\n*Hadd* is their word for the border, and they are the people of it: the line between glass and\nsand, between night and day, between the ruins and the living. They walk only at night, faces\nveiled to the eyes, and sleep under black tents through the burning day. A Hadd guide is the\nonly way across the [[glassands]] that is not a way to die.\n\n## Names\n\nTheir names come from a language with no cousin in Harth, hard and full of breaks: Qeth,\nYsh'ra, Torr-Halaq, Ummar-Seb. A child is not named until it has walked one night on the\nglass.\n\n## Custom\n\nTo walk by day is to be a *sun-fool*. To unveil before a stranger is to offer your life. The\nHadd will guide anyone across the glass for water, and will leave anyone on it who lies to\nthem.\n\n## Threads\n\n- Why will no Hadd go within sight of [[old-vahr]]?",
       "file": "factions/the-hadd.md"
+    },
+    "the-honest-company-of-takers": {
+      "id": "the-honest-company-of-takers",
+      "type": "faction",
+      "name": "The Honest Company of Takers",
+      "aliases": [
+        "the Takers",
+        "the Honest Company",
+        "the Second Ledger"
+      ],
+      "status": "canon",
+      "tags": [
+        "guild",
+        "thieves",
+        "harrowmere",
+        "sarn"
+      ],
+      "summary": "The thieves' guild of Harrowmere, chartered, sealed and paying dues, which says its first master was Sarn; it steals by contract, keeps a ledger as careful as any prince's, and is the only honest business in the city.",
+      "relations": [
+        {
+          "to": "harrowmere",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "sarn",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## The company\n\nA guildhall with a sign over the door, a charter with nine forged seals, a tariff of fees\npainted on the wall: so much for a purse, so much for a ring, so much for a man's papers out\nof a locked room. A member pays dues. A non-member who steals in Harrowmere is found in the\ncanal. The city watch is a member.\n\n## Its founder\n\nThe Company says [[sarn]] wrote its charter, a long time before Kell, and left it unsigned.\nThe charter is in the guildhall under glass. The bottom of it is blank. Every master of the\nCompany has looked at that blank and decided not to fill it in.\n\n## Threads\n\n- Did Sarn steal the rubies on a Company contract, and who paid?",
+      "file": "factions/the-honest-company-of-takers.md"
     },
     "the-kneeling": {
       "id": "the-kneeling",
@@ -2596,6 +2849,11 @@
       ],
       "summary": "The escaped salt-slaves of Harrowmere and their children, who live free in the mountain city of Saltgrave under a law crueller than the one they fled; to be called saltless is an honour.",
       "relations": [
+        {
+          "to": "blackwakes-own",
+          "kind": "ally-of",
+          "declared": false
+        },
         {
           "to": "saltgrave",
           "kind": "lives-in",
@@ -3843,6 +4101,38 @@
       ],
       "body": "## What is true\n\nThis entry is the truth behind the descent, for the people who write it. No character in\nthe Mark says it plainly, and no line in the game states it. The player reads it in what\nthey find.\n\nTen years after [[sarn]] took the stones and [[kell]] went under, the mountain the Reach\ncalls [[brandfell]] split open north of the [[wallgate]], and ash came down over the north\nfor a generation. That was [[the-ashfall]]. It was fire, and fire does not go away when the\nsky clears. It went under.\n\nIt runs under the whole Mark now, from Brandfell to the coast, close under [[greyhollow]]\nwhere the ash never cooled, and closest of all under [[kell]]. It is lifting the ground the\nway a loaf lifts in the oven. The sea is not going out. The coast is coming up out of it.\nThat is [[the-ebb]]. [[thurn]] calling the rivers home, [[vorr]] opening his mouth, [[hask]]'s\nrope drawn tight: all three are given the credit, and none of them is the reason.\n\n## What the fire is\n\n[[mardra]] says the fire under the Mark is not a fire. It is [[the-unborn]], turning over in\ntheir sleep, because the knot is looser than it was. She charges a great deal for saying so,\nand she does not ask anyone to believe her.\n\n## Why the iron is warm\n\n[[rauk]] touched the crown and said the iron was warm. The first river runs warm one night\neach winter at the Wallgate. The floor of [[the-iron-hall]] is warm under the salt. Every\none of them is the same fire, nearer the top than anyone has guessed.\n\n## Why everyone goes down\n\nNot for the truth. For what Kell had: the coin in the [[brinevaults]], the goods in the\n[[bonded-stores]], the silver in the [[bricked-rooms]], the empty [[iron-crown-of-kell]] on\na dead king's head, and the rumour, which Sarn has never denied, that one of the three rubies\nnever left the hall. The ledger names whoever holds the most of it. That is the whole\ndescent: a drowned city, uncovered, and everyone in the Mark with a rope and a knife.\n\n## What the player learns, tier by tier\n\n1. [[quaysteps]]: ash in the silt that the rivers carried down; the order's first men, dead\n   at their posts, still on duty.\n2. [[lowstreets]]: the doors were barred against the city, not the water.\n3. [[brinevaults]]: the clerks shut themselves in with the coin and counted the days.\n4. [[the-iron-hall]]: the king, his guard still standing, a warm floor, and the stair he\n   walled up behind him.\n\n## Threads\n\n- When the coast is all the way up, does the fire come up with it?\n- Did Sarn know about the mountain when Sarn took the stones?",
       "file": "events/the-heave.md"
+    },
+    "the-hiring-of-the-wise": {
+      "id": "the-hiring-of-the-wise",
+      "type": "event",
+      "name": "The Hiring of the Wise",
+      "aliases": [
+        "the Witch-Fair",
+        "the Night of Bids"
+      ],
+      "status": "canon",
+      "tags": [
+        "festival",
+        "sorcery",
+        "harrowmere",
+        "auction"
+      ],
+      "summary": "The yearly auction in Harrowmere where sorcerers are hired out for a year to the highest bidder; the greatest festival in the city, with masks, fire on the water, and everyone knowing exactly what is being sold.",
+      "year": 1,
+      "relations": [
+        {
+          "to": "harrowmere",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-gilded",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The auction\n\nOnce a year, at midwinter, the sorcerers of Harth who will work for coin come to\n[[harrowmere]] and stand on the Stairs of Weighing in white masks, and the princes, kings and\ncaptains of Harth bid for a year of each. The bidding is in the open. The contracts are not.\n\n## The festival\n\nThe whole city goes masked. There is fire on the canals and music on every bridge, and the\n[[the-honest-company-of-takers]] work all night with the city's blessing. It is also the night\nthe barges go to [[the-tenth-palace]].\n\n## Threads\n\n- Which sorcerer has never been outbid, and who keeps hiring them?",
+      "file": "events/the-hiring-of-the-wise.md"
     },
     "the-three-crowns": {
       "id": "the-three-crowns",
@@ -10675,6 +10965,54 @@
       "declared": false
     },
     {
+      "from": "oruana-blackwake",
+      "to": "the-teeth",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "the-teeth",
+      "to": "oruana-blackwake",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "oruana-blackwake",
+      "to": "feverfen",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "feverfen",
+      "to": "oruana-blackwake",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "oruana-blackwake",
+      "to": "blackwakes-own",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "blackwakes-own",
+      "to": "oruana-blackwake",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "oruana-blackwake",
+      "to": "the-gilded",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "oruana-blackwake",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
       "from": "qeth-ummar",
       "to": "old-vahr",
       "kind": "rules",
@@ -11347,6 +11685,30 @@
       "declared": false
     },
     {
+      "from": "smokemouth",
+      "to": "the-teeth",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "the-teeth",
+      "to": "smokemouth",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "stillwater",
+      "to": "harrowmere",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "stillwater",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "strongrooms",
       "to": "brinevaults",
       "kind": "located-in",
@@ -11367,6 +11729,18 @@
     {
       "from": "kell",
       "to": "the-iron-hall",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-tenth-palace",
+      "to": "harrowmere",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-tenth-palace",
       "kind": "contains",
       "declared": false
     },
@@ -11416,6 +11790,42 @@
       "from": "old-vahr",
       "to": "argentine-houses",
       "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "blackwakes-own",
+      "to": "the-teeth",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "the-teeth",
+      "to": "blackwakes-own",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "blackwakes-own",
+      "to": "the-saltless",
+      "kind": "ally-of",
+      "declared": true
+    },
+    {
+      "from": "the-saltless",
+      "to": "blackwakes-own",
+      "kind": "ally-of",
+      "declared": false
+    },
+    {
+      "from": "blackwakes-own",
+      "to": "the-gilded",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "blackwakes-own",
+      "kind": "enemy-of",
       "declared": false
     },
     {
@@ -11572,6 +11982,30 @@
       "from": "glassands",
       "to": "the-hadd",
       "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-honest-company-of-takers",
+      "to": "harrowmere",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-honest-company-of-takers",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-honest-company-of-takers",
+      "to": "sarn",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "sarn",
+      "to": "the-honest-company-of-takers",
+      "kind": "names",
       "declared": false
     },
     {
@@ -12303,6 +12737,30 @@
     {
       "from": "brandfell",
       "to": "the-heave",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-hiring-of-the-wise",
+      "to": "harrowmere",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "the-hiring-of-the-wise",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-hiring-of-the-wise",
+      "to": "the-gilded",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-gilded",
+      "to": "the-hiring-of-the-wise",
       "kind": "featured-in",
       "declared": false
     },
@@ -16484,6 +16942,12 @@
       "id": "the-heave",
       "name": "The Heave",
       "summary": "What the descent shows and nobody in the Mark says: the fire that broke Brandfell and made the Ashfall is still under the Mark, and it is lifting the land; the sea is not going out, the coast is coming up."
+    },
+    {
+      "year": 1,
+      "id": "the-hiring-of-the-wise",
+      "name": "The Hiring of the Wise",
+      "summary": "The yearly auction in Harrowmere where sorcerers are hired out for a year to the highest bidder; the greatest festival in the city, with masks, fire on the water, and everyone knowing exactly what is being sold."
     },
     {
       "year": 1,

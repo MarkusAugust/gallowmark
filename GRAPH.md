@@ -17,6 +17,7 @@ graph LR
   jarn["Jarn"]
   marcus-halberd["Marcus Halberd"]
   mardra["Mardra"]
+  oruana-blackwake["Oruana Blackwake"]
   qeth-ummar["Qeth-Ummar"]
   quintus-ashhand["Quintus Ashhand"]
   rauk["Rauk"]
@@ -49,12 +50,16 @@ graph LR
   quaysteps["The Quaysteps"]
   rimewold["The Rimewold"]
   saltgrave["Saltgrave"]
+  smokemouth["Smokemouth"]
+  stillwater["Stillwater"]
   strongrooms["The Strongrooms"]
   the-iron-hall["The Iron Hall"]
   the-teeth["The Teeth"]
+  the-tenth-palace["The Tenth Palace"]
   wallgate["Wallgate"]
   wrackhead["Wrackhead"]
   argentine-houses["The Argentine Houses"]
+  blackwakes-own["Blackwake's Own"]
   greycloaks["The Greycloaks"]
   ossar["The Ossar"]
   rimeclans["The Rimeclans"]
@@ -62,6 +67,7 @@ graph LR
   the-ashen["The Ashen"]
   the-gilded["The Gilded"]
   the-hadd["The Hadd"]
+  the-honest-company-of-takers["The Honest Company of Takers"]
   the-kneeling["The Kneeling"]
   the-saltless["The Saltless"]
   the-unmourned["The Unmourned"]
@@ -96,6 +102,7 @@ graph LR
   the-first-knot["The First Knot"]
   the-going-home["The Going Home"]
   the-heave["The Heave"]
+  the-hiring-of-the-wise["The Hiring of the Wise"]
   the-three-crowns["The Three Crowns"]
   the-unpaid-war["The Unpaid War"]
   the-walk-to-the-hall["The Walk to the Hall"]
@@ -144,6 +151,10 @@ graph LR
   marcus-halberd -- features --> the-three-crowns
   mardra -- lives-in --> greyhollow
   mardra -- survived --> the-ashfall
+  oruana-blackwake -- lives-in --> the-teeth
+  oruana-blackwake -- born-in --> feverfen
+  oruana-blackwake -- leads --> blackwakes-own
+  oruana-blackwake -- enemy-of --> the-gilded
   qeth-ummar -- rules --> old-vahr
   qeth-ummar -- serves --> the-unborn
   quintus-ashhand -- leads --> the-burning-of-the-rolls
@@ -200,12 +211,18 @@ graph LR
   old-vahr -- located-in --> glassands
   quaysteps -- located-in --> kell
   saltgrave -- located-in --> harth
+  smokemouth -- located-in --> the-teeth
+  stillwater -- located-in --> harrowmere
   strongrooms -- located-in --> brinevaults
   the-iron-hall -- located-in --> kell
+  the-tenth-palace -- located-in --> harrowmere
   wallgate -- located-in --> gallowmark
   wrackhead -- located-in --> gallowmark
   argentine-houses -- lives-in --> harth
   argentine-houses -- named-by --> old-vahr
+  blackwakes-own -- lives-in --> the-teeth
+  blackwakes-own -- ally-of --> the-saltless
+  blackwakes-own -- enemy-of --> the-gilded
   greycloaks -- guards --> kell
   greycloaks -- guards --> wallgate
   greycloaks -- haunts --> harth
@@ -219,6 +236,8 @@ graph LR
   the-ashen -- survived --> the-ashfall
   the-gilded -- rules --> harrowmere
   the-hadd -- lives-in --> glassands
+  the-honest-company-of-takers -- lives-in --> harrowmere
+  the-honest-company-of-takers -- named-by --> sarn
   the-kneeling -- worships --> the-unborn
   the-kneeling -- serves --> ossar
   the-saltless -- lives-in --> saltgrave
@@ -280,6 +299,8 @@ graph LR
   the-heave -- caused --> the-ebb
   the-heave -- follows --> the-ashfall
   the-heave -- features --> brandfell
+  the-hiring-of-the-wise -- features --> harrowmere
+  the-hiring-of-the-wise -- features --> the-gilded
   the-three-crowns -- features --> crownhold
   the-three-crowns -- features --> aurelian-vasthorne
   the-three-crowns -- precedes --> the-unpaid-war
