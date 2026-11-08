@@ -42,6 +42,7 @@ explains why will be watched.
 - [[grimwatch]], the border keep on the imperial road south.
 - [[irondeep]], the mining town in the foothills.
 - [[fordham]], the horse fair on the third river.
+- [[drownhaven]], [[bleakshore]] and [[ebbmouth]], the fishing towns of the coast.
 - [[the-holdfast-lords]] in their towers, and [[the-ninth-rope]] at Hangmoot.
 
 ## Since the Ashfall

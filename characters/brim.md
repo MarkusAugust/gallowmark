@@ -33,6 +33,13 @@ Mark that is a kind of iron.
   quay-stones are showing, and the water has been a little further out each time.
 - [[sarn]], asked about the child, did not change the subject. That is the only time.
 
+## What the coast expects
+
+That the child will grow, one day, all at once, the way the sea goes out. That when the sea is all
+the way out and the hall stands dry, Brim will walk down the [[quaysteps]] and sit in the king's
+chair, and the coast will have a king again, and [[the-long-back]] will know it. Nobody on the coast
+has said what happens after that.
+
 ## Threads
 
 - If the child is the king, whose is the crown?

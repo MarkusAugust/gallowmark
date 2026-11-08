@@ -15,6 +15,7 @@ graph LR
   grue["Grue"]
   hadrian-mournevale["Hadrian Mournevale"]
   haldis-graymane["Haldis Graymane"]
+  harl-greyhand["Harl Greyhand"]
   hild-kingsrope["Hild Kingsrope"]
   hollin["Hollin"]
   hrok["Hrok"]
@@ -42,6 +43,7 @@ graph LR
   vell["Vell"]
   vurn["Vurn"]
   ahl-sereth["Ahl-Sereth"]
+  bleakshore["Bleakshore"]
   bonded-stores["The Bonded Stores"]
   bonereach["Bonereach"]
   brandfell["Brandfell"]
@@ -49,6 +51,8 @@ graph LR
   brinevaults["The Brinevaults"]
   crownhold["Crownhold"]
   driftholds["Driftholds"]
+  drownhaven["Drownhaven"]
+  ebbmouth["Ebbmouth"]
   emberstead["Emberstead"]
   feverfen["The Feverfen"]
   fordham["Fordham"]
@@ -64,11 +68,13 @@ graph LR
   irondeep["Irondeep"]
   kell["Kell"]
   kings-way["The King's Way"]
+  lowfold["Lowfold"]
   lowstreets["The Lowstreets"]
   marcheast["Marcheast"]
   old-vahr["Old Vahr"]
   ossery["Ossery"]
   quaysteps["The Quaysteps"]
+  rimcroft["Rimcroft"]
   rimewold["The Rimewold"]
   rotwater["Rotwater"]
   saltcoast["Saltcoast"]
@@ -85,6 +91,7 @@ graph LR
   the-sleepers-wall["The Sleepers' Wall"]
   the-teeth["The Teeth"]
   the-tenth-palace["The Tenth Palace"]
+  the-underhollow["The Underhollow"]
   ush-kaddah["Ush-Kaddah"]
   vinalis["Vinalis"]
   wallgate["Wallgate"]
@@ -103,6 +110,7 @@ graph LR
   qarr-dhuun["Qarr-Dhuun"]
   rimeclans["The Rimeclans"]
   river-priests["The River-Priests of Thurn"]
+  smokewalkers["Smokewalkers"]
   the-ashen["The Ashen"]
   the-gilded["The Gilded"]
   the-hadd["The Hadd"]
@@ -118,6 +126,7 @@ graph LR
   the-tenth-legion["The Tenth Legion"]
   the-unmourned["The Unmourned"]
   the-well-kings["The Well-Kings"]
+  aelarion["Aelarion"]
   hask["Hask"]
   helion-castor["Helion Castor"]
   mother-murk["Mother Murk"]
@@ -147,6 +156,7 @@ graph LR
   the-barred["The Barred"]
   the-blindkin["The Blindkin"]
   the-drawn["The Drawn"]
+  the-long-back["The Long Back"]
   the-paid["The Paid"]
   the-standing["The Standing"]
   the-stonesleepers["The Stonesleepers"]
@@ -161,6 +171,7 @@ graph LR
   rope-oaths["Rope-oaths"]
   sayings-of-harth["Sayings of Harth"]
   schuldbrieven["Schuldbrieven"]
+  the-count["The Count"]
   the-harrowmere-mark["The Harrowmere Mark"]
   the-longnight["The Longnight"]
   the-low-imperial["The Low Imperial"]
@@ -223,6 +234,9 @@ graph LR
   haldis-graymane -- leads --> the-ninth-rope
   haldis-graymane -- rules --> hangmoot
   haldis-graymane -- enemy-of --> the-kneeling
+  harl-greyhand -- leads --> the-ashen
+  harl-greyhand -- lives-in --> rimcroft
+  harl-greyhand -- ally-of --> mardra
   hild-kingsrope -- member-of --> the-ninth-rope
   hild-kingsrope -- lives-in --> hangmoot
   hollin -- rules --> quaysteps
@@ -291,6 +305,8 @@ graph LR
   vurn -- born-in --> bonereach
   vurn -- survived --> the-ashfall
   ahl-sereth -- located-in --> glassands
+  bleakshore -- located-in --> gallowmark
+  bleakshore -- worships --> vorr
   bonded-stores -- located-in --> quaysteps
   bonereach -- located-in --> gallowmark
   bonereach -- survived --> the-ashfall
@@ -300,6 +316,10 @@ graph LR
   brinevaults -- located-in --> kell
   crownhold -- located-in --> harth
   driftholds -- located-in --> feverfen
+  drownhaven -- located-in --> gallowmark
+  drownhaven -- worships --> vorr
+  ebbmouth -- located-in --> gallowmark
+  ebbmouth -- worships --> vorr
   emberstead -- located-in --> rimewold
   emberstead -- worships --> the-old-smith-under-the-snow
   feverfen -- located-in --> harth
@@ -321,11 +341,15 @@ graph LR
   irondeep -- located-in --> gallowmark
   kell -- created --> iron-crown-of-kell
   kings-way -- located-in --> the-iron-hall
+  lowfold -- located-in --> greyhollow
+  lowfold -- home-of --> the-kneeling
   lowstreets -- located-in --> kell
   marcheast -- located-in --> crownhold
   old-vahr -- located-in --> glassands
   ossery -- located-in --> crownhold
   quaysteps -- located-in --> kell
+  rimcroft -- located-in --> greyhollow
+  rimcroft -- home-of --> the-ashen
   rotwater -- located-in --> feverfen
   saltcoast -- located-in --> crownhold
   saltgrave -- located-in --> harth
@@ -341,6 +365,8 @@ graph LR
   the-iron-hall -- located-in --> kell
   the-sleepers-wall -- located-in --> rimewold
   the-tenth-palace -- located-in --> harrowmere
+  the-underhollow -- located-in --> greyhollow
+  the-underhollow -- created-by --> ossar
   ush-kaddah -- located-in --> glassands
   ush-kaddah -- home-of --> the-hadd
   vinalis -- located-in --> crownhold
@@ -369,6 +395,8 @@ graph LR
   rimeclans -- enemy-of --> greycloaks
   river-priests -- worships --> thurn
   river-priests -- names --> sarn
+  smokewalkers -- haunts --> greyhollow
+  smokewalkers -- survived --> the-underhollow
   the-ashen -- lives-in --> greyhollow
   the-ashen -- survived --> the-ashfall
   the-gilded -- rules --> harrowmere
@@ -398,6 +426,8 @@ graph LR
   the-unmourned -- worships --> nevermourn
   the-well-kings -- rules --> glassands
   the-well-kings -- serves --> the-unborn
+  aelarion -- haunts --> ysveld
+  aelarion -- enemy-of --> the-unborn
   hask -- haunts --> gallowmark
   hask -- haunts --> hangmoot
   helion-castor -- haunts --> crownhold
@@ -444,6 +474,8 @@ graph LR
   the-blindkin -- haunts --> the-black-step
   the-drawn -- serves --> hask
   the-drawn -- haunts --> brinevaults
+  the-long-back -- serves --> vorr
+  the-long-back -- haunts --> kell
   the-paid -- serves --> the-unborn
   the-standing -- haunts --> the-iron-hall
   the-standing -- serves --> vorr
@@ -464,6 +496,8 @@ graph LR
   rope-oaths -- created-by --> hask
   schuldbrieven -- created-by --> harrowmere
   schuldbrieven -- features --> rope-oaths
+  the-count -- features --> the-counted-lands
+  the-count -- created-by --> ossar
   the-harrowmere-mark -- created-by --> harrowmere
   the-harrowmere-mark -- features --> the-gilded
   the-longnight -- features --> rimehounds

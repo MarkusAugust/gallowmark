@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 506,
+  "entityCount": 517,
   "types": [
     "character",
     "place",
@@ -214,7 +214,7 @@
           "declared": false
         }
       ],
-      "body": "## Who\n\nEleven years ago, in the grey, on a still day at low water, [[rauk]] came up from Old\n[[kell]] with a child under one arm that had not been there when she went down. It was\nperhaps three. It is perhaps nine now, and it should be fourteen. It has never spoken. It\nhas salt-white eyes that see in the dark and a habit of looking at the sea as if waiting for\nsomeone to finish a sentence.\n\n## What the coast decided\n\nThe coast folk decided, without a meeting, that the child was the last of the kings of Kell,\ngiven back. They call it Brim, which is the name [[vell]] gave it, and they leave fish at\nRauk's door. Nobody has proved a word of it. Nobody has needed to. It is believed, and in the\nMark that is a kind of iron.\n\n## In the world\n\n- The [[greycloaks]] have offered to foster the child at the fort on [[wrackhead]]. Rauk\n  declined. The offer stands, and is polite.\n- Since [[the-ebb]] the child has walked to the waterline every morning and stood where the\n  quay-stones are showing, and the water has been a little further out each time.\n- [[sarn]], asked about the child, did not change the subject. That is the only time.\n\n## Threads\n\n- If the child is the king, whose is the crown?\n- If it is not, what came up with it?",
+      "body": "## Who\n\nEleven years ago, in the grey, on a still day at low water, [[rauk]] came up from Old\n[[kell]] with a child under one arm that had not been there when she went down. It was\nperhaps three. It is perhaps nine now, and it should be fourteen. It has never spoken. It\nhas salt-white eyes that see in the dark and a habit of looking at the sea as if waiting for\nsomeone to finish a sentence.\n\n## What the coast decided\n\nThe coast folk decided, without a meeting, that the child was the last of the kings of Kell,\ngiven back. They call it Brim, which is the name [[vell]] gave it, and they leave fish at\nRauk's door. Nobody has proved a word of it. Nobody has needed to. It is believed, and in the\nMark that is a kind of iron.\n\n## In the world\n\n- The [[greycloaks]] have offered to foster the child at the fort on [[wrackhead]]. Rauk\n  declined. The offer stands, and is polite.\n- Since [[the-ebb]] the child has walked to the waterline every morning and stood where the\n  quay-stones are showing, and the water has been a little further out each time.\n- [[sarn]], asked about the child, did not change the subject. That is the only time.\n\n## What the coast expects\n\nThat the child will grow, one day, all at once, the way the sea goes out. That when the sea is all\nthe way out and the hall stands dry, Brim will walk down the [[quaysteps]] and sit in the king's\nchair, and the coast will have a king again, and [[the-long-back]] will know it. Nobody on the coast\nhas said what happens after that.\n\n## Threads\n\n- If the child is the king, whose is the crown?\n- If it is not, what came up with it?",
       "file": "characters/brim.md"
     },
     "corve": {
@@ -474,6 +474,42 @@
       ],
       "body": "## Who\n\nHaldis was hanged at sixteen as her oath and cut down at the last breath, like every hangman, and\nthe scar at her throat is the darkest on the ridge. She has been Reeve for twenty years. She is the\nfirst woman to hold the office and the first Reeve since the Broken Years to be frightened.\n\n## What she knows\n\nEverything [[the-ninth-rope]] knows about [[the-first-knot]]. That the ninth rope has hung slack\nsince [[the-drowning-of-kell]]. That the [[the-burning-of-the-rolls]] loosens it with every fire.\nThat [[the-kneeling]] are winning. And lately, that the [[greycloaks]], who never shut a gate, may\nnot be on her side.\n\n## Threads\n\n- What will she do when she is sure about the order?",
       "file": "characters/haldis-graymane.md"
+    },
+    "harl-greyhand": {
+      "id": "harl-greyhand",
+      "type": "character",
+      "name": "Harl Greyhand",
+      "aliases": [
+        "Old Harl",
+        "the Elder of Rimcroft"
+      ],
+      "status": "canon",
+      "tags": [
+        "chief",
+        "ashen",
+        "greyhollow",
+        "elder"
+      ],
+      "summary": "The old chief of the Ashen at Rimcroft, whose right hand was burned grey to the wrist in the first winter of the ash; he leads by listening, and is the only person in the east Mark whom Mardra calls by name.",
+      "relations": [
+        {
+          "to": "the-ashen",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "rimcroft",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "mardra",
+          "kind": "ally-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nHarl was a young man when the ash came down hot, and he pulled his sister out of a burning house\nwith his right hand. The hand is grey now, to the wrist, hard as horn, and does not feel. He is\nseventy and has led the Ashen for forty years.\n\n## Voice\n\nSlow. He asks a question, then waits for the whole answer, then waits longer. People tell him more\nthan they meant to.\n\n## Threads\n\n- What does he know about [[lowfold]] that he has not told the Mark?",
+      "file": "characters/harl-greyhand.md"
     },
     "hild-kingsrope": {
       "id": "hild-kingsrope",
@@ -739,6 +775,11 @@
       "summary": "The sorcerer who stayed in the smoke of Greyhollow when the sky cleared and sells what she found there from its rim; every price is a thing you did not know you had.",
       "epithet": "the Ashwife",
       "relations": [
+        {
+          "to": "harl-greyhand",
+          "kind": "ally-of",
+          "declared": false
+        },
         {
           "to": "greyhollow",
           "kind": "lives-in",
@@ -1533,6 +1574,34 @@
       "body": "## The glass\n\nFor a day's walk in every direction from [[old-vahr]], the glass is white. Not green, not black:\nwhite, smooth as ice, and at night it gives off a light like the moon through cloud, so that\nthe dark never quite comes. The [[the-hadd]] call it the place where night does not come, and\nwill not walk on it for any price.\n\n## What walks it\n\nTracks cross the white glass that are not Qaddir, not horse, not man. Caravans that cut a corner\nof it lose people in the night without a sound. [[qeth-ummar]]'s Paid walk it to and from his\npalace and come to no harm, which tells you something.\n\n## Threads\n\n- What did the emperors ask for, standing here, and is it still being given?",
       "file": "places/ahl-sereth.md"
     },
+    "bleakshore": {
+      "id": "bleakshore",
+      "type": "place",
+      "name": "Bleakshore",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "village",
+        "coast",
+        "fishing",
+        "gallowmark"
+      ],
+      "summary": "Bleakshore: a huddle of fishers' huts on the bare coast east of Wrackhead, the poorest on the shore, which pays Vorr first and the Greycloaks second.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "vorr",
+          "kind": "worships",
+          "declared": true
+        }
+      ],
+      "body": "## The place\n\nBleakshore is a huddle of fishers' huts on the bare coast east of Wrackhead, the poorest on the shore, which pays Vorr first and the Greycloaks second. Its people fish, pay the salt-pile at [[wrackhead]] for [[vorr]], pay the\n[[greycloaks]] their tenth, and trust neither.",
+      "file": "places/bleakshore.md"
+    },
     "bonded-stores": {
       "id": "bonded-stores",
       "type": "place",
@@ -1852,6 +1921,62 @@
       "body": "## The villages\n\nA drifthold is a raft of reed as big as a field, a dozen huts on it, gardens in baskets, and\nthe whole thing moving a little every day with the current. When the fen-folk want to go\nsomewhere else, they pole it. When something finds them, they cut the ropes and scatter.\n\n## Why\n\nThe fen-folk say a place that stays still gets known, and a place that gets known gets visited,\nand the [[ossar]] visit. No drifthold has ever been built within sight of [[the-black-step]].",
       "file": "places/driftholds.md"
     },
+    "drownhaven": {
+      "id": "drownhaven",
+      "type": "place",
+      "name": "Drownhaven",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "village",
+        "coast",
+        "fishing",
+        "gallowmark"
+      ],
+      "summary": "Drownhaven: the largest fishing town of the Gallowmark coast, west of Wrackhead, where every family has lost someone to the sea and says so in the name.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "vorr",
+          "kind": "worships",
+          "declared": true
+        }
+      ],
+      "body": "## The place\n\nDrownhaven is the largest fishing town of the Gallowmark coast, west of Wrackhead, where every family has lost someone to the sea and says so in the name. Its people fish, pay the salt-pile at [[wrackhead]] for [[vorr]], pay the\n[[greycloaks]] their tenth, and trust neither.",
+      "file": "places/drownhaven.md"
+    },
+    "ebbmouth": {
+      "id": "ebbmouth",
+      "type": "place",
+      "name": "Ebbmouth",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "village",
+        "coast",
+        "fishing",
+        "gallowmark"
+      ],
+      "summary": "Ebbmouth: the fishing village at the mouth of the third river, whose harbour has gone dry since the Ebb, and whose boats now lie on mud a mile from the water.",
+      "relations": [
+        {
+          "to": "gallowmark",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "vorr",
+          "kind": "worships",
+          "declared": true
+        }
+      ],
+      "body": "## The place\n\nEbbmouth is the fishing village at the mouth of the third river, whose harbour has gone dry since the Ebb, and whose boats now lie on mud a mile from the water. Its people fish, pay the salt-pile at [[wrackhead]] for [[vorr]], pay the\n[[greycloaks]] their tenth, and trust neither.",
+      "file": "places/ebbmouth.md"
+    },
     "emberstead": {
       "id": "emberstead",
       "type": "place",
@@ -1998,12 +2123,27 @@
           "declared": false
         },
         {
+          "to": "bleakshore",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "bonereach",
           "kind": "contains",
           "declared": false
         },
         {
           "to": "brandfell",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "drownhaven",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "ebbmouth",
           "kind": "contains",
           "declared": false
         },
@@ -2088,7 +2228,7 @@
           "declared": false
         }
       ],
-      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[brandfell]] beyond it, the mountain that split and burned.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the ash never cooled.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## More of the Mark\n\n- [[the-greywood]], the forest that died standing, in the west.\n- [[grimwatch]], the border keep on the imperial road south.\n- [[irondeep]], the mining town in the foothills.\n- [[fordham]], the horse fair on the third river.\n- [[the-holdfast-lords]] in their towers, and [[the-ninth-rope]] at Hangmoot.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] came down out of [[brandfell]] over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the ash cleared the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
+      "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[brandfell]] beyond it, the mountain that split and burned.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the ash never cooled.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## More of the Mark\n\n- [[the-greywood]], the forest that died standing, in the west.\n- [[grimwatch]], the border keep on the imperial road south.\n- [[irondeep]], the mining town in the foothills.\n- [[fordham]], the horse fair on the third river.\n- [[drownhaven]], [[bleakshore]] and [[ebbmouth]], the fishing towns of the coast.\n- [[the-holdfast-lords]] in their towers, and [[the-ninth-rope]] at Hangmoot.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] came down out of [[brandfell]] over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the ash cleared the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
       "file": "places/gallowmark.md"
     },
     "glassands": {
@@ -2223,12 +2363,32 @@
           "declared": true
         },
         {
+          "to": "lowfold",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "rimcroft",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-underhollow",
+          "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "smokewalkers",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "the-ashen",
           "kind": "home-of",
           "declared": false
         }
       ],
-      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the ash of [[the-ashfall]] lay\nthree men deep and never cooled. The ground under it is hot. Smoke comes up through it and\nstands in the hollow like milk in a bowl, and does not move with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the Ashfall. Mardra says it is the nearest the fire\nunder the Mark comes to the top, and that the Hollow is not cooling. It is warming.\n\n## Threads\n\n- Why is the Hollow warmer every winter since the sea began to go out?",
+      "body": "## The hollow\n\nEast of the middle Mark the hills fold, and in one fold the ash of [[the-ashfall]] lay\nthree men deep and never cooled. The ground under it is hot. Smoke comes up through it and\nstands in the hollow like milk in a bowl, and does not move with the wind. The birch at the edge are white on the outside and black on the\ninside. Nobody farms within a mile of it.\n\n## Going in\n\nPeople go in. Some for what they lost in the grey, some for what [[mardra]] sells, some because\nthe [[greycloaks]] do not go in and that is worth a great deal. Those who come out come out\nchanged in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]\nhas never said whether he has been back.\n\n## Around it\n\n- [[the-underhollow]], the Ossar temple at the bottom, around the crack.\n- [[rimcroft]] and the [[the-ashen]], under [[harl-greyhand]].\n- [[smokewalkers]], who went in and came out.\n- [[lowfold]], the quiet farm.\n\n## What it is\n\nThe Ashborn say the Hollow is the last of the Ashfall. Mardra says it is the nearest the fire\nunder the Mark comes to the top, and that the Hollow is not cooling. It is warming.\n\n## Threads\n\n- Why is the Hollow warmer every winter since the sea began to go out?",
       "file": "places/greyhollow.md"
     },
     "grimwatch": {
@@ -2624,6 +2784,11 @@
           "declared": false
         },
         {
+          "to": "the-long-back",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "wrack",
           "kind": "haunted-by",
           "declared": false
@@ -2667,6 +2832,36 @@
       ],
       "body": "## The stair\n\nThe last king of Kell did not trust the doors of his own hall. He had a stair\ncut through the wall behind the throne, up toward the iron roof, and had it\nbricked over so it looked like wall. He never used it. The night came on him in\nhis chair. The packing has filled the brickwork, and the stair is still there,\ngoing up.\n\n## Threads\n\n- Did Corve know about it, sitting in front of it for forty years?",
       "file": "places/kings-way.md"
+    },
+    "lowfold": {
+      "id": "lowfold",
+      "type": "place",
+      "name": "Lowfold",
+      "aliases": [
+        "the Quiet Farm"
+      ],
+      "status": "canon",
+      "tags": [
+        "farm",
+        "kneeling",
+        "greyhollow",
+        "cult"
+      ],
+      "summary": "A farm on the low side of Greyhollow's rim, the nearest house to the warm ground, where a cell of the Kneeling lives as farmers; no dog barks there, and its people kneel in the furrows at night.",
+      "relations": [
+        {
+          "to": "greyhollow",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "home-of",
+          "declared": true
+        }
+      ],
+      "body": "## The farm\n\nA long-house, barns, fields of grey barley, and the warmest soil in the Mark, because it is the\nnearest to the fire. To a traveller it is a good farm, quiet, prosperous, hospitable. There are no\ndogs. There are no young children. At night the family goes out into the furrows and kneels with\ntheir foreheads on the warm earth.\n\n## What they do\n\nThey listen. They send their own into the smoke to become [[smokewalkers]], and the hungry ones\nthey keep. They buy [[knotrats]] by the cage. And they are digging, slowly, under the barn, toward\n[[the-underhollow]].",
+      "file": "places/lowfold.md"
     },
     "lowstreets": {
       "id": "lowstreets",
@@ -2892,6 +3087,41 @@
       ],
       "body": "## The steps\n\n[[kell]] met the sea in stairs, and since [[the-ebb]] the top of them shows at low water\nbelow [[wrackhead]]. The pickers go down them for what the sea has let go of. They come up\nwith iron and bollard-rings, and with grey on their boots that does not wash off, because it is ash.\n\n## The silt\n\nThe silt on the steps is not sand. It is ash, thirty years of it, that the grey rivers carried\ndown out of the north and laid on the sea floor. Lamps burn grey down here, in the dust. In it lie bones in cloaks the colour of the silt, the order's first men, from\nthe years when the [[greycloaks]] guarded these quays from salvagers, and kept guarding them\nwhen the ash came down the rivers and nobody came to relieve them. Some\nof them are still guarding.\n\n## Threads\n\n- Why are the steps warm, under the silt, where the sea has only just let go of them?",
       "file": "places/quaysteps.md"
+    },
+    "rimcroft": {
+      "id": "rimcroft",
+      "type": "place",
+      "name": "Rimcroft",
+      "aliases": [
+        "the Ashen Village"
+      ],
+      "status": "canon",
+      "tags": [
+        "village",
+        "ashen",
+        "greyhollow",
+        "east"
+      ],
+      "summary": "The largest village of the Ashen, on the rim of Greyhollow, low grey houses roofed with turf and ash, where the Ashen have lived through the Ashfall and since under Old Harl Greyhand.",
+      "relations": [
+        {
+          "to": "harl-greyhand",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "greyhollow",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-ashen",
+          "kind": "home-of",
+          "declared": true
+        }
+      ],
+      "body": "## The village\n\nForty houses built low against the wind off the hollow, walls of stone, roofs of turf laid over\nash. The smoke of [[greyhollow]] stands a long stone's throw from the last house. The Ashen keep\ngoats, grow a grey barley nobody else can grow, and trade with [[mardra]], whose house is a mile\nround the rim.\n\n## Custom\n\nVisitors are given water at the gate, never bread, until the elders have looked at them. The\ndead are laid in the smoke's edge and not brought back. Every winter outlasted is a new line of\nash in the skin.",
+      "file": "places/rimcroft.md"
     },
     "rimewold": {
       "id": "rimewold",
@@ -3208,9 +3438,14 @@
           "to": "the-numbered-man",
           "kind": "survived-by",
           "declared": false
+        },
+        {
+          "to": "the-count",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
-      "body": "## What is said\n\nSouth of the [[glassands]] the maps stop. The [[the-hadd]] say the land goes on, green, rich and\nordered, and that the [[ossar]] never went under there, because the knot was tied in the north and\ndid not reach so far. Men live there, the Hadd say, in neat villages, fed, counted, and taken.\n\n## What is known\n\nNothing. Once in a generation someone walks out of the south across the glass: thin, quiet, with a\nnumber tattooed on the inside of the wrist. They do not talk about it. They do not stay long.\n\n## Threads\n\n- Are the Counted Lands what Harth would be, if the knot gave?",
+      "body": "## What is said\n\nSouth of the [[glassands]] the maps stop. The [[the-hadd]] say the land goes on, green, rich and\nordered, and that the [[ossar]] never went under there, because the knot was tied in the north and\ndid not reach so far. Men live there, the Hadd say, in neat villages, fed, counted, and taken.\n\n## What is known\n\nNothing. Once in a generation someone walks out of the south across the glass: thin, quiet, with a\nnumber tattooed on the inside of the wrist. They do not talk about it. They do not stay long.\n\n## How they live\n\nHappily. Fed, well, at peace, and numbered: [[the-count]] decides everything, including when they\nare taken.\n\n## Threads\n\n- Are the Counted Lands what Harth would be, if the knot gave?",
       "file": "places/the-counted-lands.md"
     },
     "the-grass-sea": {
@@ -3419,6 +3654,43 @@
       "body": "## The house\n\nBetween the palaces of Salt and Tallow stands one more, as fine as either, built of the same\npale stone, and it has no doors. No windows. No water-gate. The canal runs along its walls and\nnothing goes in. The people of [[harrowmere]] call whatever lives there the Tenth Prince.\n\n## The payment\n\nOnce a year, on the night of [[the-hiring-of-the-wise]], each of [[the-gilded]] sends a sealed\nchest by barge, and the barge is tied against the blank wall, and in the morning the chest is\ngone. Each house keeps the contents in its own ledger. No house has ever shown another.\n\n## Threads\n\n- What did the Gilded buy, when they bought Vahr's debts, that came with a house?",
       "file": "places/the-tenth-palace.md"
     },
+    "the-underhollow": {
+      "id": "the-underhollow",
+      "type": "place",
+      "name": "The Underhollow",
+      "aliases": [
+        "the Bottom",
+        "the Temple in the Ash"
+      ],
+      "status": "canon",
+      "tags": [
+        "ruin",
+        "ossar",
+        "temple",
+        "greyhollow",
+        "fire"
+      ],
+      "summary": "What lies at the bottom of Greyhollow under the smoke and the ash: the northernmost Ossar temple, built in a ring around a crack that goes down to the fire under the Mark, so that its priests could kneel at the edge of it.",
+      "relations": [
+        {
+          "to": "greyhollow",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "ossar",
+          "kind": "created-by",
+          "declared": true
+        },
+        {
+          "to": "smokewalkers",
+          "kind": "survived-by",
+          "declared": false
+        }
+      ],
+      "body": "## The bottom\n\nUnder three men's depth of ash and the smoke that stands on it, the floor of [[greyhollow]] is\nblack stone, and on the stone stands a temple: a ring of [[ossar]] columns, too tall, around a\ncrack in the ground a hundred paces long. The crack goes down. Heat comes up out of it, and the\nsmoke, and a sound like breath.\n\n## Why it was built\n\nThe Ossar built their temples near their masters. This one is the nearest any of them came to\nthe surface in the north: the place where [[the-unborn]] could be heard best. When the knot was\ntied it was buried and forgotten. The ash of [[the-ashfall]] filled the hollow over it. The\nsmoke is what comes up through the ash.\n\n## Who has been there\n\n[[mardra]]. Some [[smokewalkers]]. Nobody else who came back.\n\n## Threads\n\n- Is the crack getting wider?",
+      "file": "places/the-underhollow.md"
+    },
     "ush-kaddah": {
       "id": "ush-kaddah",
       "type": "place",
@@ -3595,9 +3867,14 @@
           "to": "saelith",
           "kind": "birthplace-of",
           "declared": false
+        },
+        {
+          "to": "aelarion",
+          "kind": "haunted-by",
+          "declared": false
         }
       ],
-      "body": "## The land\n\nNobody in Harth has been there and come back to say so. The ships come from the west, a few each\nsummer, white-sailed and too fast, into [[harrowmere]], and their people call it Ysveld.\n\n## The people\n\nTall, fair, soft-voiced, with names like Ilvar, Saelith and Corvanne. They are unfailingly\ncourteous. They buy iron, salt, Ossar bones and, once, a [[the-hungry-books]], and pay in silver\nthat does not tarnish. They do not drink, do not marry, and do not answer questions about home.\n\n## Threads\n\n- Why do the Ysveldings buy Ossar bones?\n- Have they ever bought one of [[the-nine-irons]]?",
+      "body": "## The land\n\nNobody in Harth has been there and come back to say so. The ships come from the west, a few each\nsummer, white-sailed and too fast, into [[harrowmere]], and their people call it Ysveld.\n\n## The people\n\nTall, fair, soft-voiced, with names like Ilvar, Saelith and Corvanne. They are unfailingly\ncourteous. They buy iron, salt, Ossar bones and, once, a [[the-hungry-books]], and pay in silver\nthat does not tarnish. They do not drink, do not marry, and do not answer questions about home.\n\n## What they are\n\nYsveld serves [[aelarion]], the Watcher Between the Stars, which is to what is above what\n[[the-unborn]] are to what is below. Ysveld is preparing for war against the below, and Harth is\nwhere the front line is.\n\n## Threads\n\n- Why do the Ysveldings buy Ossar bones?\n- Have they ever bought one of [[the-nine-irons]]?",
       "file": "places/ysveld.md"
     },
     "argentine-houses": {
@@ -3975,6 +4252,11 @@
           "declared": false
         },
         {
+          "to": "the-underhollow",
+          "kind": "created",
+          "declared": false
+        },
+        {
           "to": "the-unborn",
           "kind": "serves",
           "declared": true
@@ -3997,6 +4279,11 @@
         {
           "to": "the-stonesleepers",
           "kind": "has-member",
+          "declared": false
+        },
+        {
+          "to": "the-count",
+          "kind": "created",
           "declared": false
         },
         {
@@ -4141,6 +4428,37 @@
       "body": "## Who they are\n\nBarefoot, wet to the knee, and unwelcome at most tables, the river-priests walk the banks of\nthe grey rivers of [[gallowmark]] and keep the names of things. They hold that every stream\nin the Mark is the same river, [[thurn]], pretending to be many, and that to name a thing\ntruly is to have a grip on it.\n\n## The naming\n\nIt was the river-priests who named [[sarn]] the Lord of Streams, and they meant it as a\nwarning: here is the thing that goes where water goes and takes what water takes. They have\nnamed every Greycloak captain and every gallows on [[hangmoot]], and once, to his face,\n[[gorvek]].\n\n## Custom\n\nA river-priest will answer any question with a name, and never with a reason.",
       "file": "factions/river-priests.md"
     },
+    "smokewalkers": {
+      "id": "smokewalkers",
+      "type": "faction",
+      "name": "Smokewalkers",
+      "aliases": [
+        "the Changed",
+        "the Ember-Eyed"
+      ],
+      "status": "canon",
+      "tags": [
+        "people",
+        "greyhollow",
+        "changed",
+        "gifted"
+      ],
+      "summary": "People who have walked into the smoke of Greyhollow and walked out again, changed: some with gifts, a sense of fire, a voice that carries, hands that do not burn; some with a hunger that nothing in the Mark will feed.",
+      "relations": [
+        {
+          "to": "greyhollow",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "the-underhollow",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## Who they are\n\nMost who go into the smoke of [[greyhollow]] do not come out. Those who do are Smokewalkers. Their\neyes catch firelight a moment too long. They are warm to the touch in winter.\n\n## What they come out with\n\nA gift, sometimes: knowing where fire is under the ground, walking through flame unburned, being\nbelieved. A hunger, sometimes: for heat, for meat, for the smoke itself, until they walk back in\nand do not come out again. Nobody knows which they will get until they get it.\n\n## In the world\n\n- [[the-kneeling]] at [[lowfold]] send their own into the smoke on purpose.\n- [[the-ashen]] do not count Smokewalkers among them, and will not say why.",
+      "file": "factions/smokewalkers.md"
+    },
     "the-ashen": {
       "id": "the-ashen",
       "type": "faction",
@@ -4159,6 +4477,16 @@
       ],
       "summary": "The people who stayed on the rim of Greyhollow through the Ashfall and never left; grey-skinned, tattooed in ash, and feared by half the Mark.",
       "relations": [
+        {
+          "to": "harl-greyhand",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "rimcroft",
+          "kind": "lives-in",
+          "declared": false
+        },
         {
           "to": "greyhollow",
           "kind": "lives-in",
@@ -4450,6 +4778,11 @@
         {
           "to": "seraphine-vasthorne",
           "kind": "has-member",
+          "declared": false
+        },
+        {
+          "to": "lowfold",
+          "kind": "lives-in",
           "declared": false
         },
         {
@@ -4776,6 +5109,38 @@
       "body": "## The kings\n\nWater is power in the [[glassands]], and every well outside [[ush-kaddah]] has a king. They\nlive in the old Vahrish towers above their wells, with the people who need the water living\nbelow. Each is a sorcerer. Each has paid [[the-unborn]] in at least one coin, and most in two.\n\n## Their wars\n\nA Well-King does not raise an army. He asks. Wells go bitter, caravans lose their way, a rival's\npeople wake up in the night unable to remember their names. [[qeth-ummar]] is the greatest of\nthem, and the others pay him in water to be left alone.\n\n## Threads\n\n- What happens to a well when its king pays the third coin?",
       "file": "factions/the-well-kings.md"
     },
+    "aelarion": {
+      "id": "aelarion",
+      "type": "god",
+      "name": "Aelarion",
+      "aliases": [
+        "the Watcher Between the Stars",
+        "the Above"
+      ],
+      "status": "canon",
+      "tags": [
+        "god",
+        "ysveld",
+        "stars",
+        "light",
+        "foreign"
+      ],
+      "summary": "The god of Ysveld, a cold bright watcher between the stars, as old as the Unborn and no more human; Ysveld serves it, and is preparing a war against what is below.",
+      "relations": [
+        {
+          "to": "ysveld",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "the-unborn",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## The god\n\nThe people of [[ysveld]] say there is something above as there is something below. [[the-unborn]]\nwere before birth, under the world. Aelarion is between the stars, over it: cold, bright, patient,\nwatching. It is not kind. It does not want what the Unborn want. That is the whole of its goodness.\n\n## Its servants\n\nYsveld serves Aelarion as the [[ossar]] served the Unborn: utterly. Its envoys in Harth, like\n[[saelith]], are its eyes. They buy Ossar bones to learn the enemy. They ask about [[the-nine-irons]]\nbecause the knot is the front line, and Ysveld wants to know how long it will hold.\n\n## Threads\n\n- When the knot gives, will Ysveld come to save Harth, or to burn it clean?",
+      "file": "gods/aelarion.md"
+    },
     "hask": {
       "id": "hask",
       "type": "god",
@@ -5034,6 +5399,11 @@
           "declared": false
         },
         {
+          "to": "aelarion",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "haunts",
           "declared": true
@@ -5141,6 +5511,21 @@
       "summary": "The drowned god of the salt deep below the coast, who keeps what the sea takes and took Kell whole; the coast folk pay him in wreckage and do not ask for anything back.",
       "relations": [
         {
+          "to": "bleakshore",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
+          "to": "drownhaven",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
+          "to": "ebbmouth",
+          "kind": "worshipped-by",
+          "declared": false
+        },
+        {
           "to": "kell",
           "kind": "haunts",
           "declared": true
@@ -5152,6 +5537,11 @@
         },
         {
           "to": "the-barred",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
+          "to": "the-long-back",
           "kind": "served-by",
           "declared": false
         },
@@ -5883,6 +6273,38 @@
       "body": "## What\n\nThe hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn\ntight. In the [[brinevaults]] you can see what is on the end of it: the hanged, each with a\nrope at the neck running off toward the hall, each moving along it whether it wants to or\nnot, the way a debt moves toward the one it is owed.\n\nThey do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.",
       "file": "creatures/the-drawn.md"
     },
+    "the-long-back": {
+      "id": "the-long-back",
+      "type": "creature",
+      "name": "The Long Back",
+      "aliases": [
+        "the Kept Thing",
+        "Vorr's Hound"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "sea",
+        "vorr",
+        "ebb",
+        "monster"
+      ],
+      "summary": "The thing that has begun to surface in the shallows where the sea has gone out from the Gallowmark coast; only its back has been seen, black and barnacled and a mile long, and the coast says it is what Vorr kept down.",
+      "relations": [
+        {
+          "to": "vorr",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "kell",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nSince [[the-ebb]], on still mornings, the fishers of [[drownhaven]] and [[ebbmouth]] have seen a\nblack ridge in the shallows that was not there before: barnacled, ridged, a mile long. It is\nthere one day and gone the next, somewhere else. Twice it has moved while boats were near it, and\nthe boats did not come back.\n\n## What the coast says\n\nThat [[vorr]] keeps what the sea takes, and he took this a long time ago and kept it down. That\nthe sea going out is letting it up. That it is waiting for the water to go out far enough.",
+      "file": "creatures/the-long-back.md"
+    },
     "the-paid": {
       "id": "the-paid",
       "type": "creature",
@@ -6277,6 +6699,36 @@
       ],
       "body": "## The letters\n\nA schuldbrief is a debt written down: who owes, whom, how much, by when, sealed by a Harrowmere\nhouse and sworn with a hand on a hangman's rope. Once written it can be sold, and most are, many\ntimes. The debtor owes whoever holds the paper. Most debtors do not know who that is.\n\n## Inheriting\n\nDebts pass to heirs in Harth, and so do schuldbrieven. A child can be born owing. [[stillwater]]\nis full of people who never signed what put them there.\n\n## The rope\n\nBecause they are sworn as [[rope-oaths]], a schuldbrief that goes unpaid tightens. The hangmen\nsay every one paid pulls the knot of [[the-first-knot]] a little tighter, which is why\n[[the-ninth-rope]] defends Harrowmere's debts and despises Harrowmere. The [[the-burning-of-the-rolls]]\nburns schuldbrieven, and the hangmen are afraid of what that does.",
       "file": "concepts/schuldbrieven.md"
+    },
+    "the-count": {
+      "id": "the-count",
+      "type": "concept",
+      "name": "The Count",
+      "aliases": [
+        "the Tally of the South"
+      ],
+      "status": "canon",
+      "tags": [
+        "counted-lands",
+        "ossar",
+        "system",
+        "numbers"
+      ],
+      "summary": "The system of the Counted Lands: every person has a number from birth, tattooed on the wrist; the number decides their work, their marriage, and the year they are taken, and the people are grateful for it.",
+      "relations": [
+        {
+          "to": "the-counted-lands",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "ossar",
+          "kind": "created-by",
+          "declared": true
+        }
+      ],
+      "body": "## The number\n\nIn [[the-counted-lands]] every child is numbered at birth, the number pricked into the inside of\nthe wrist. The number decides what work you do, whom you may marry, and when your number comes up.\nWhen it does, you are taken, quietly, in the night, and your house is given to the next number.\n\n## The happiness\n\nNobody starves in the Counted Lands. Nobody is sick, nobody is at war, nobody is afraid of anything\nbut their number, and most are not afraid of that. They say the [[ossar]] care for them. The\n[[the-numbered-man]] said that was the worst of it.",
+      "file": "concepts/the-count.md"
     },
     "the-harrowmere-mark": {
       "id": "the-harrowmere-mark",
@@ -13807,6 +14259,42 @@
       "declared": false
     },
     {
+      "from": "harl-greyhand",
+      "to": "the-ashen",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-ashen",
+      "to": "harl-greyhand",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "harl-greyhand",
+      "to": "rimcroft",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "rimcroft",
+      "to": "harl-greyhand",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "harl-greyhand",
+      "to": "mardra",
+      "kind": "ally-of",
+      "declared": true
+    },
+    {
+      "from": "mardra",
+      "to": "harl-greyhand",
+      "kind": "ally-of",
+      "declared": false
+    },
+    {
       "from": "hild-kingsrope",
       "to": "the-ninth-rope",
       "kind": "member-of",
@@ -14623,6 +15111,30 @@
       "declared": false
     },
     {
+      "from": "bleakshore",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "bleakshore",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "bleakshore",
+      "to": "vorr",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "vorr",
+      "to": "bleakshore",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
       "from": "bonded-stores",
       "to": "quaysteps",
       "kind": "located-in",
@@ -14728,6 +15240,54 @@
       "from": "feverfen",
       "to": "driftholds",
       "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "drownhaven",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "drownhaven",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "drownhaven",
+      "to": "vorr",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "vorr",
+      "to": "drownhaven",
+      "kind": "worshipped-by",
+      "declared": false
+    },
+    {
+      "from": "ebbmouth",
+      "to": "gallowmark",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "ebbmouth",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "ebbmouth",
+      "to": "vorr",
+      "kind": "worships",
+      "declared": true
+    },
+    {
+      "from": "vorr",
+      "to": "ebbmouth",
+      "kind": "worshipped-by",
       "declared": false
     },
     {
@@ -14983,6 +15543,30 @@
       "declared": false
     },
     {
+      "from": "lowfold",
+      "to": "greyhollow",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "greyhollow",
+      "to": "lowfold",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "lowfold",
+      "to": "the-kneeling",
+      "kind": "home-of",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "lowfold",
+      "kind": "lives-in",
+      "declared": false
+    },
+    {
       "from": "lowstreets",
       "to": "kell",
       "kind": "located-in",
@@ -15040,6 +15624,30 @@
       "from": "kell",
       "to": "quaysteps",
       "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "rimcroft",
+      "to": "greyhollow",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "greyhollow",
+      "to": "rimcroft",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "rimcroft",
+      "to": "the-ashen",
+      "kind": "home-of",
+      "declared": true
+    },
+    {
+      "from": "the-ashen",
+      "to": "rimcroft",
+      "kind": "lives-in",
       "declared": false
     },
     {
@@ -15220,6 +15828,30 @@
       "from": "harrowmere",
       "to": "the-tenth-palace",
       "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-underhollow",
+      "to": "greyhollow",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "greyhollow",
+      "to": "the-underhollow",
+      "kind": "contains",
+      "declared": false
+    },
+    {
+      "from": "the-underhollow",
+      "to": "ossar",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-underhollow",
+      "kind": "created",
       "declared": false
     },
     {
@@ -15556,6 +16188,30 @@
       "from": "sarn",
       "to": "river-priests",
       "kind": "named-by",
+      "declared": false
+    },
+    {
+      "from": "smokewalkers",
+      "to": "greyhollow",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "greyhollow",
+      "to": "smokewalkers",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "smokewalkers",
+      "to": "the-underhollow",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-underhollow",
+      "to": "smokewalkers",
+      "kind": "survived-by",
       "declared": false
     },
     {
@@ -15904,6 +16560,30 @@
       "from": "the-unborn",
       "to": "the-well-kings",
       "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "aelarion",
+      "to": "ysveld",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "ysveld",
+      "to": "aelarion",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "aelarion",
+      "to": "the-unborn",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "aelarion",
+      "kind": "enemy-of",
       "declared": false
     },
     {
@@ -16459,6 +17139,30 @@
       "declared": false
     },
     {
+      "from": "the-long-back",
+      "to": "vorr",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "vorr",
+      "to": "the-long-back",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-long-back",
+      "to": "kell",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "the-long-back",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
       "from": "the-paid",
       "to": "the-unborn",
       "kind": "serves",
@@ -16696,6 +17400,30 @@
       "from": "rope-oaths",
       "to": "schuldbrieven",
       "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-count",
+      "to": "the-counted-lands",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-counted-lands",
+      "to": "the-count",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-count",
+      "to": "ossar",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-count",
+      "kind": "created",
       "declared": false
     },
     {

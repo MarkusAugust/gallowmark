@@ -23,6 +23,13 @@ the [[greycloaks]] do not go in and that is worth a great deal. Those who come o
 changed in a way nobody can name, and the [[river-priests]] have refused to try. [[gorvek]]
 has never said whether he has been back.
 
+## Around it
+
+- [[the-underhollow]], the Ossar temple at the bottom, around the crack.
+- [[rimcroft]] and the [[the-ashen]], under [[harl-greyhand]].
+- [[smokewalkers]], who went in and came out.
+- [[lowfold]], the quiet farm.
+
 ## What it is
 
 The Ashborn say the Hollow is the last of the Ashfall. Mardra says it is the nearest the fire

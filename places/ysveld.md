@@ -17,6 +17,12 @@ Tall, fair, soft-voiced, with names like Ilvar, Saelith and Corvanne. They are u
 courteous. They buy iron, salt, Ossar bones and, once, a [[the-hungry-books]], and pay in silver
 that does not tarnish. They do not drink, do not marry, and do not answer questions about home.
 
+## What they are
+
+Ysveld serves [[aelarion]], the Watcher Between the Stars, which is to what is above what
+[[the-unborn]] are to what is below. Ysveld is preparing for war against the below, and Harth is
+where the front line is.
+
 ## Threads
 
 - Why do the Ysveldings buy Ossar bones?
