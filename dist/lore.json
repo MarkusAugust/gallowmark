@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 525,
+  "entityCount": 533,
   "types": [
     "character",
     "place",
@@ -180,6 +180,82 @@
       "body": "## Who\n\nBarr keeps a forge on the shingle at [[wrackhead]], between the salt-pile and the fort,\nwhich is the only ground on the Head that nobody else wants. Hooks, knives, axes, lamp-cages,\nand mail with the grey dye scrubbed out of it: the [[greycloaks]] lose men on the\n[[quaysteps]] and Barr does not ask how the mail gets to him. Since [[the-ebb]] the forge has\nnot gone cold.\n\n## Voice\n\nPrices. Barr says the price, then the price again, slower, and then nothing. Ask him where\nsomething came from and he tells you what it weighs.\n\n## In the world\n\n- He buys back what comes up out of [[kell]] at a third of what he sells it for, and the\n  coast says that is fair, because he is the one who has to sell it to the fort.\n- [[rauk]] has never bought from him. He has never asked her why.",
       "file": "characters/barr.md"
     },
+    "bayan": {
+      "id": "bayan",
+      "type": "character",
+      "name": "Bayan",
+      "aliases": [
+        "Khan Bayan",
+        "the Beloved",
+        "the Younger Khan"
+      ],
+      "status": "canon",
+      "tags": [
+        "khan",
+        "saddle-throne",
+        "hoofborn",
+        "year-150",
+        "future"
+      ],
+      "summary": "The younger of the two brother-khans of the Saddle Throne in year 150; loved by the riders, reckless and splendid, who wants to ride west and take Solmerine while his brother holds the Brink.",
+      "relations": [
+        {
+          "to": "the-saddle-throne",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "sartaq",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "realm-of-solmerine",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nBayan is twenty-six, handsome, generous, and adored by the young riders of [[the-saddle-throne]]. He\ndoes not care about the [[ossar]]. He cares about [[solmerine]], its gold domes, its sun-sea, and the\nfat king who sits in it. He shares the throne with [[sartaq]] and would rather not.",
+      "file": "characters/bayan.md"
+    },
+    "brann-halberd": {
+      "id": "brann-halberd",
+      "type": "character",
+      "name": "Brann Halberd",
+      "aliases": [
+        "Captain-King Brann",
+        "the Unsmiling"
+      ],
+      "status": "canon",
+      "tags": [
+        "captain-king",
+        "halberd-march",
+        "soldier",
+        "year-150",
+        "future"
+      ],
+      "summary": "The captain-king of the Halberd March in year 150, a Halberd by blood chosen by the Unmourned; three years on the Brink scarred his face and took his smile, and he does not weep.",
+      "epithet": "the Unsmiling",
+      "relations": [
+        {
+          "to": "the-halberd-march",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "the-unmourned",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "marcus-halberd",
+          "kind": "kin-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nBrann is thirty-eight, scarred from brow to jaw on the left side by something that came over\n[[the-brink]] at night, and the best captain the March has had since [[marcus-halberd]]. The company\nchose him by acclaim. He has not smiled since the Brink, and the March has stopped expecting it.\n\n## Voice\n\nFew words, all orders. He swears by [[nevermourn]].",
+      "file": "characters/brann-halberd.md"
+    },
     "brim": {
       "id": "brim",
       "type": "character",
@@ -289,6 +365,40 @@
       ],
       "body": "## Who\n\nDrusk holds the bridge at [[hookford]], and with it the tithe-books of the middle Mark. He\nis the Greycloak who carries a hook, keeps it sharp, and has used it twice; he says the\nsecond time was the last. He is younger than [[tolm]], and where Tolm apologises, Drusk\nwrites it down. The order finds the two of them useful in the same way a smith finds a\nhammer and a file useful, and has never put them in one room.\n\n## The books\n\nEvery tithe in the middle Mark goes into Drusk's books, and the books hang from the hooks on\nthe bridge where the town can see them. He reads from them at the Rope-Moot on\n[[hangmoot]], politely, and his is the longest list. The hangmen say his books are a poor\ncopy of a ledger older than [[kell]], and Drusk has never asked which.\n\n## In the world\n\n- He has never met [[gorvek]]. He has written the price on Gorvek's head into the books\n  every winter since the grey, in the same hand.\n- He was the first Greycloak to ask, in writing, why Tolm let a man go at the\n  [[wallgate]]. He has not had an answer, and has not asked again.\n- Since [[the-ebb]] the books have a new column. He has not said what it counts.\n\n## Threads\n\n- What did the hook do the second time?",
       "file": "characters/drusk.md"
+    },
+    "fisk": {
+      "id": "fisk",
+      "type": "character",
+      "name": "Fisk",
+      "aliases": [
+        "Fisk the Shingle-King",
+        "the Linelord"
+      ],
+      "status": "canon",
+      "tags": [
+        "linelord",
+        "drykell",
+        "wrecker",
+        "holder",
+        "year-150",
+        "future"
+      ],
+      "summary": "The Linelord of Drykell in year 150, a wrecker's boy from the shingle who took the title by breaking into a room in Kell that no one had opened in two hundred years; he holds the most ground in the ledger and takes a tithe of every pick.",
+      "epithet": "the Shingle-King",
+      "relations": [
+        {
+          "to": "drykell",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "linelord",
+          "kind": "named-by",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nFisk is twenty-two, small, quick, gap-toothed, and was a nobody on the shingle at [[wrackhead]] until\nhe put a pick through the packing behind a wall in the [[brinevaults]] that everyone had walked past\nfor a century. What was behind it made him rich. The ledger [[linelord]] named him holder of more\nground than anyone, and [[drykell]] called him Linelord.\n\n## Voice\n\nCheerful, fast, never quite serious. He knows the title goes to whoever holds the most, and that\nsomebody is always trying.\n\n## Threads\n\n- What was in the room?",
+      "file": "characters/fisk.md"
     },
     "gorvek": {
       "id": "gorvek",
@@ -715,6 +825,38 @@
       "body": "## The title\n\nThe Linelord is not a man. It is a title, and the [[linelord]] gives it: whoever the\nledger names as holding the most ground in [[gallowmark]], wall by wall and day by day,\nis the Linelord until someone holds more. The title has changed hands more often than the\ncrown of [[kell]] did, and nobody has kept it by deserving it. They kept it by holding.\n\n## Jarn\n\nJarn holds it now. He came down to [[wrackhead]] the first winter of [[the-ebb]] with an\niron blade that came up out of Kell, and he has not gone further. He does not need to. He\nholds the shingle, and the ledger counts it, and every low water he walks the length of\nthe beach dragging the blade behind him, and leaves a line in the wet sand from the fort to\nthe salt-pile.\n\nThe line says: this far is mine. The flood takes it twice a day. He draws it again twice a\nday. That is the whole of what he does, and it is enough to hold the title.\n\n## Voice\n\nJarn does not argue. He points at the line. If you cross it, he asks whether you meant to.\n\n## In the world\n\n- The pickers going down the [[quaysteps]] step over his line, and he lets them; what is\n  under the water is not the shingle.\n- [[tolm]] tithes everyone on the coast and has never asked Jarn for a tenth. The fort\n  keeps its own line, on the other side of his.\n- Brother [[ruun]] writes names in the same sand. Jarn has never drawn across one.\n\n## Threads\n\n- Who held the title before him, and what did they hold?\n- What does the ledger say about the one who crosses his line?",
       "file": "characters/jarn.md"
     },
+    "lucius-vasthorne": {
+      "id": "lucius-vasthorne",
+      "type": "character",
+      "name": "Lucius Vasthorne",
+      "aliases": [
+        "King Lucius",
+        "Lucius the Fat"
+      ],
+      "status": "canon",
+      "tags": [
+        "king",
+        "solmerine",
+        "year-150",
+        "future"
+      ],
+      "summary": "The king of the Realm of Solmerine in year 150, of Tiberian's golden line; fat, decadent and apparently foolish, as Aurelian VII was, and like Aurelian very much cleverer than anyone at court suspects.",
+      "epithet": "the Fat",
+      "relations": [
+        {
+          "to": "realm-of-solmerine",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "tiberian-vasthorne",
+          "kind": "kin-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nLucius is forty, enormous, painted, and always eating. He laughs at everything his Harrowmere\ncouncillors say and signs whatever they put in front of him, as his line always has. He also reads\nwhat he signs, at night, alone, and keeps copies. He owns more of his own kingdom than the House of\nSalt believes, through names they have never thought to check.\n\n## Voice\n\nJolly, wet, slow. He lets people finish their sentences, and remembers them.\n\n## Threads\n\n- What will he do with the copies?",
+      "file": "characters/lucius-vasthorne.md"
+    },
     "marcus-halberd": {
       "id": "marcus-halberd",
       "type": "character",
@@ -734,6 +876,11 @@
       "summary": "The king's son by a palace laundress, raised in the free companies, now captain of the Unmourned; he has an army, a claim, and his father's face, and he has stopped hiding any of them.",
       "epithet": "called the Bastard",
       "relations": [
+        {
+          "to": "brann-halberd",
+          "kind": "kin-of",
+          "declared": false
+        },
         {
           "to": "aurelian-vasthorne",
           "kind": "kin-of",
@@ -1205,6 +1352,38 @@
       "body": "## What\n\nNobody agrees on whether Sarn is a woman, a man, or a thing that has decided it is a person.\nThe stories agree on three points: Sarn has no face that anyone remembers a minute after\nseeing it, Sarn has yellow eyes that they remember for the rest of their lives, and Sarn\ntook the three rubies out of the [[iron-crown-of-kell]] in a single night, after which the\ncity of [[kell]] came apart the way a rope does when the one strand that mattered is cut.\n\nThe river-priests of [[thurn]] call Sarn the Lord of Streams. It is not a compliment. It is\nthe name you give a thing that goes where water goes and takes what water takes.\n\n## Voice\n\nSarn narrates. Sarn tempts, instructs, and never raises its voice. Sentences are short and\nend where the knife goes in. Sarn addresses the reader directly (\"Sit. Read.\") and offers\ngifts that are actually thefts: *I will take one thing from you.* Sarn never lies outright\nand never tells the whole truth. When Sarn is generous, ask why.\n\nSarn is the voice of every grimoire in Gallowmark that is worth reading. Outside the world,\nSarn also narrates the grimoire of the software called [[streamlord]], which is no concern of\nanyone in the Mark.\n\n## In the world\n\n- Sarn haunts [[gallowmark]] the way a rumour does: everywhere at once, never in the room.\n- The [[greycloaks]] have tried to hire Sarn and to kill Sarn. Both attempts are ongoing.\n- Sarn has spoken to [[gorvek]] three times. Gorvek remembers only the eyes.\n\n## Everywhere\n\nSarn is not only Gallowmark's. Every theft in Harth worth telling has Sarn in it somewhere: the\nempty vault in [[harrowmere]], the forged seal on a Crownhold treaty, the ruby nobody can find,\nthe betrayal at the turn of a war. [[the-honest-company-of-takers]] claim Sarn wrote their\ncharter. The [[the-gilded]] keep a page for Sarn in every ledger. And in every story, Sarn is the\none telling it.\n\n## Threads\n\n- Where are the three rubies now?\n- What does Sarn actually want from the reader?",
       "file": "characters/sarn.md"
     },
+    "sartaq": {
+      "id": "sartaq",
+      "type": "character",
+      "name": "Sartaq",
+      "aliases": [
+        "Khan Sartaq",
+        "the Elder Khan"
+      ],
+      "status": "canon",
+      "tags": [
+        "khan",
+        "saddle-throne",
+        "hoofborn",
+        "year-150",
+        "future"
+      ],
+      "summary": "The elder of the two brother-khans of the Saddle Throne in year 150; careful, patient, and set on holding the Brink against the Ossar, he hates his brother Bayan and needs him.",
+      "relations": [
+        {
+          "to": "bayan",
+          "kind": "rival-of",
+          "declared": false
+        },
+        {
+          "to": "the-saddle-throne",
+          "kind": "rules",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nSartaq is forty, grey at the temples, and has fought the [[ossar]] on open grass more often than any\nliving man. He knows what pushed [[the-hoofborn]] west. He wants the khanate to hold [[the-brink]] and\nlet the three realms of Crownhold bleed each other. He shares the throne with [[bayan]] because their\nmother split it, and because the clans would not follow either alone.",
+      "file": "characters/sartaq.md"
+    },
     "seraphine-vasthorne": {
       "id": "seraphine-vasthorne",
       "type": "character",
@@ -1288,6 +1467,44 @@
       ],
       "body": "## Who\n\nSethra does not stop anyone in the [[brinevaults]]. She sits among the clerks' shelves with\na lamp turned low and lets you pass. Then she waits. Most of the ones who go down past her do\nnot come back, and in a season or a year she goes down a little way after them and brings up\nwhat they carried. Everything she owns was carried into Kell by someone braver.\n\nShe has never fought for the vaults. Nobody who fought her for them is still alive to say\nwhether she would have won.\n\n## Voice\n\nSethra speaks quietly and about afterwards. She is always certain there will be one.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Brinevaults the **Keeper of the\nBrinevaults**. It has called her that through every one of the people she waited out.\n\n## Threads\n\n- What does she do with the ledgers on the clerks' shelves, and does she read them?",
       "file": "characters/sethra.md"
+    },
+    "severina-lucentis": {
+      "id": "severina-lucentis",
+      "type": "character",
+      "name": "Severina Lucentis",
+      "aliases": [
+        "Exarch Severina",
+        "Her Radiance"
+      ],
+      "status": "canon",
+      "tags": [
+        "exarch",
+        "church",
+        "sunward-see",
+        "year-150",
+        "future"
+      ],
+      "summary": "The Exarch of the Sunward See in year 150, of the House of Lucentis; a true believer and a fanatic, who wants to march the sun-banner over the Brink and burn the Ossar lands clean.",
+      "epithet": "Exarch of the Sunward See",
+      "relations": [
+        {
+          "to": "the-sunward-see",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "the-sunward-faith",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "house-lucentis",
+          "kind": "member-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nSeverina is fifty, gaunt, barefoot in the cathedral, and believes every word of the faith. That makes\nher the most dangerous Exarch in a century. She has burned more of [[the-kneeling]] than the last\nthree Exarchs together, and the silver-eyed bishops of the See have begun to be afraid of her.\n\n## What she wants\n\nA crusade: every army of Harth over [[the-brink]] under the sun-banner, to the [[the-black-step]], to\nburn the Ossar out with the light of [[helion-castor]]. She has written to all three realms and to the\nkhans. Only one has answered.",
+      "file": "characters/severina-lucentis.md"
     },
     "sorgan-windbreaker": {
       "id": "sorgan-windbreaker",
@@ -1418,6 +1635,40 @@
       "body": "## The story\n\nEvery version is different, which is how you know it is about [[sarn]]. In all of them a girl of\nthe canals of [[harrowmere]], no older than twelve, put her hand into Sarn's own pocket and took\nsomething out, and Sarn did not notice until the next morning. [[the-honest-company-of-takers]]\nkeep her a seat at their high table, empty.\n\n## What she took\n\nThe stories do not agree. A key. A face. The second ruby, before Sarn could hide it. Sarn, asked,\nsmiles, and does not change the subject, which is worse.",
       "file": "characters/the-unseen-girl.md"
     },
+    "the-voice-under-solmerine": {
+      "id": "the-voice-under-solmerine",
+      "type": "character",
+      "name": "The Voice Under Solmerine",
+      "aliases": [
+        "the Voice",
+        "the Cellar Voice"
+      ],
+      "status": "canon",
+      "tags": [
+        "kneeling",
+        "leader",
+        "solmerine",
+        "secret",
+        "stonesleeper",
+        "year-150",
+        "future"
+      ],
+      "summary": "What leads the Kneeling in year 150: a voice that speaks from the deepest cellars under Solmerine, where Seraphine broke the ring; every cell in Harth hears its words, nobody has seen it, and the hangmen think it is a Stonesleeper.",
+      "relations": [
+        {
+          "to": "the-kneeling",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "solmerine",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What it is\n\nUnder [[solmerine]], below the palace cellars where [[seraphine-vasthorne]] broke her father's ring,\nthere are older cellars, Vahrish, and below those older ones still. Since [[the-fraying]] something\nthere speaks. Kneelers who go down hear it. They come up with instructions, and the instructions are\nthe same in every cell in Harth, in the same words, though no messenger has carried them.\n\n## What the hangmen think\n\nThat it is a [[the-stonesleepers]], woken in the stone under the city by the breaking of the ring,\nand that the cellar where Seraphine knelt was a door. [[ulf-eightrope]] wants to burn Solmerine down\nto the bedrock to find out. [[lucius-vasthorne]] has declined, politely.",
+      "file": "characters/the-voice-under-solmerine.md"
+    },
     "tiberian-vasthorne": {
       "id": "tiberian-vasthorne",
       "type": "character",
@@ -1436,6 +1687,11 @@
       "summary": "The eldest living son of Aurelian VII, beautiful, beloved by the crowds of Crownhold and empty inside; his councillors have sold the kingdom to Harrowmere in his name, and he believes every word they tell him.",
       "epithet": "the Fair",
       "relations": [
+        {
+          "to": "lucius-vasthorne",
+          "kind": "kin-of",
+          "declared": false
+        },
         {
           "to": "aurelian-vasthorne",
           "kind": "kin-of",
@@ -1526,6 +1782,40 @@
       ],
       "body": "## Who\n\nTorr-Halaq is old, upright, veiled to the eyes in black, and leads four thousand tents across the\n[[glassands]]. His name was on the old list of the emperors' household, carved on a gate of\n[[old-vahr]]; his ancestor was a slave there. He took it back.\n\n## What he knows\n\nWhy the [[the-hadd]] never go near Old Vahr. The Hadd were the emperors' slaves on the last night.\nThey were standing on the glass of [[ahl-sereth]] when the asking was made, and they saw what was\ngiven. They walked away, at night, and have walked only at night since.\n\n## Threads\n\n- What did the Hadd see given?",
       "file": "characters/torr-halaq.md"
+    },
+    "ulf-eightrope": {
+      "id": "ulf-eightrope",
+      "type": "character",
+      "name": "Ulf Eightrope",
+      "aliases": [
+        "Reeve Ulf",
+        "the Reeve of the Eight"
+      ],
+      "status": "canon",
+      "tags": [
+        "reeve",
+        "hangman",
+        "ninth-rope",
+        "hangmoot",
+        "year-150",
+        "future"
+      ],
+      "summary": "The Reeve of Hangmoot in year 150, who took the name of the ropes that are left and has sworn on the rope that there will not be seven.",
+      "epithet": "Eightrope",
+      "relations": [
+        {
+          "to": "the-ninth-rope",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "hangmoot",
+          "kind": "rules",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nUlf is huge, slow, sixty, and was hanged at fifteen like every hangman. When he became Reeve he took\nthe name *Eightrope* in front of the moot, and swore a [[rope-oaths]] that he would not be the Reeve\nwho counted seven. The scar at his throat is the oath's.\n\n## What he does\n\nHe holds [[hangmoot]] with eight ropes and an empty ninth gallows. He sends hangmen to [[the-brink]],\nto [[solmerine]] after [[the-kneeling]], and to every holdfast in the Mark that has forgotten its\ndebts. He has begun, like [[haldis-graymane]] before him, to watch the [[greycloaks]].",
+      "file": "characters/ulf-eightrope.md"
     },
     "vell": {
       "id": "vell",
@@ -2030,6 +2320,11 @@
       ],
       "summary": "The lawless plunder town that has grown up in the dry ruins of Kell by year 150; built of wreck-wood and ash-brick on the old quays, ruled by whoever holds the most ground in the ledger, and still digging.",
       "relations": [
+        {
+          "to": "fisk",
+          "kind": "ruled-by",
+          "declared": false
+        },
         {
           "to": "kell",
           "kind": "located-in",
@@ -2562,6 +2857,11 @@
         {
           "to": "hild-kingsrope",
           "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "ulf-eightrope",
+          "kind": "ruled-by",
           "declared": false
         },
         {
@@ -3243,6 +3543,16 @@
       "summary": "The successor kingdom of Crownhold founded by Tiberian the Fair in the capital, rich, beautiful, and owned by Harrowmere; in the year 150 its kings still sign whatever the House of Salt puts in front of them.",
       "relations": [
         {
+          "to": "bayan",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "lucius-vasthorne",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
           "to": "solmerine",
           "kind": "located-in",
           "declared": true
@@ -3479,6 +3789,11 @@
       ],
       "summary": "The capital of Crownhold, built on a Vahrish provincial seat beside a wide bright lake the court calls the sun-sea; gold domes, marble stairs, poison at the banquets and beggars on every stair.",
       "relations": [
+        {
+          "to": "the-voice-under-solmerine",
+          "kind": "haunted-by",
+          "declared": false
+        },
         {
           "to": "realm-of-solmerine",
           "kind": "contains",
@@ -3741,6 +4056,11 @@
       "summary": "The soldier-kingdom of the north road, founded by Marcus Halberd and the Unmourned between Crownhold and Gallowmark; its kings are captains, its law is the company contract, and it holds Grimwatch.",
       "relations": [
         {
+          "to": "brann-halberd",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
           "to": "marcus-halberd",
           "kind": "created-by",
           "declared": true
@@ -3835,6 +4155,16 @@
       "summary": "The khanate the Hoofborn founded in the east of old Crownhold under Sorgan Windbreaker in year ten; its khans still hold court on horseback, and the old Marcheast is grassland again.",
       "relations": [
         {
+          "to": "bayan",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "sartaq",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
           "to": "the-hoofborn",
           "kind": "home-of",
           "declared": true
@@ -3903,6 +4233,11 @@
       ],
       "summary": "The church-realm of the Sunward Faith in Granaria and the old heartland, which crowned Seraphine, burned her when she broke the ring, and kept her throne; ruled by its Exarchs, at war with the dark below and with everyone else.",
       "relations": [
+        {
+          "to": "severina-lucentis",
+          "kind": "ruled-by",
+          "declared": false
+        },
         {
           "to": "the-sunward-faith",
           "kind": "rules",
@@ -4506,6 +4841,11 @@
       ],
       "summary": "House Lucentis, the house of bishops and scholars, which fills half the high offices of the Sunward Faith and backs Seraphine in public.",
       "relations": [
+        {
+          "to": "severina-lucentis",
+          "kind": "has-member",
+          "declared": false
+        },
         {
           "to": "solmerine",
           "kind": "lives-in",
@@ -5146,6 +5486,11 @@
           "declared": false
         },
         {
+          "to": "the-voice-under-solmerine",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "lowfold",
           "kind": "lives-in",
           "declared": false
@@ -5255,6 +5600,11 @@
           "declared": false
         },
         {
+          "to": "ulf-eightrope",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "hask",
           "kind": "serves",
           "declared": true
@@ -5344,6 +5694,11 @@
           "declared": false
         },
         {
+          "to": "severina-lucentis",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "the-sunward-see",
           "kind": "ruled-by",
           "declared": false
@@ -5429,6 +5784,11 @@
       ],
       "summary": "The free company of Marcus Halberd, the best-paid and least-loved swords in Crownhold; they give their dead to Nevermourn and weep for nobody, and nobody weeps for them.",
       "relations": [
+        {
+          "to": "brann-halberd",
+          "kind": "led-by",
+          "declared": false
+        },
         {
           "to": "marcus-halberd",
           "kind": "led-by",
@@ -6068,6 +6428,11 @@
       "relations": [
         {
           "to": "corve",
+          "kind": "names",
+          "declared": false
+        },
+        {
+          "to": "fisk",
           "kind": "names",
           "declared": false
         },
@@ -14437,6 +14802,78 @@
       "declared": false
     },
     {
+      "from": "bayan",
+      "to": "the-saddle-throne",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-saddle-throne",
+      "to": "bayan",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "bayan",
+      "to": "sartaq",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "sartaq",
+      "to": "bayan",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "bayan",
+      "to": "realm-of-solmerine",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "realm-of-solmerine",
+      "to": "bayan",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "brann-halberd",
+      "to": "the-halberd-march",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-halberd-march",
+      "to": "brann-halberd",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "brann-halberd",
+      "to": "the-unmourned",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-unmourned",
+      "to": "brann-halberd",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "brann-halberd",
+      "to": "marcus-halberd",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "marcus-halberd",
+      "to": "brann-halberd",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
       "from": "brim",
       "to": "wrackhead",
       "kind": "lives-in",
@@ -14530,6 +14967,30 @@
       "from": "tolm",
       "to": "drusk",
       "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "fisk",
+      "to": "drykell",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "drykell",
+      "to": "fisk",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "fisk",
+      "to": "linelord",
+      "kind": "named-by",
+      "declared": true
+    },
+    {
+      "from": "linelord",
+      "to": "fisk",
+      "kind": "names",
       "declared": false
     },
     {
@@ -14905,6 +15366,30 @@
       "declared": false
     },
     {
+      "from": "lucius-vasthorne",
+      "to": "realm-of-solmerine",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "realm-of-solmerine",
+      "to": "lucius-vasthorne",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "lucius-vasthorne",
+      "to": "tiberian-vasthorne",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "tiberian-vasthorne",
+      "to": "lucius-vasthorne",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
       "from": "marcus-halberd",
       "to": "aurelian-vasthorne",
       "kind": "kin-of",
@@ -15277,6 +15762,18 @@
       "declared": false
     },
     {
+      "from": "sartaq",
+      "to": "the-saddle-throne",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-saddle-throne",
+      "to": "sartaq",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
       "from": "seraphine-vasthorne",
       "to": "aurelian-vasthorne",
       "kind": "kin-of",
@@ -15346,6 +15843,42 @@
       "from": "linelord",
       "to": "sethra",
       "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "severina-lucentis",
+      "to": "the-sunward-see",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-sunward-see",
+      "to": "severina-lucentis",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "severina-lucentis",
+      "to": "the-sunward-faith",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-sunward-faith",
+      "to": "severina-lucentis",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "severina-lucentis",
+      "to": "house-lucentis",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "house-lucentis",
+      "to": "severina-lucentis",
+      "kind": "has-member",
       "declared": false
     },
     {
@@ -15445,6 +15978,30 @@
       "declared": false
     },
     {
+      "from": "the-voice-under-solmerine",
+      "to": "the-kneeling",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "the-voice-under-solmerine",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "the-voice-under-solmerine",
+      "to": "solmerine",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "solmerine",
+      "to": "the-voice-under-solmerine",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
       "from": "tiberian-vasthorne",
       "to": "aurelian-vasthorne",
       "kind": "kin-of",
@@ -15526,6 +16083,30 @@
       "from": "old-vahr",
       "to": "torr-halaq",
       "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "ulf-eightrope",
+      "to": "the-ninth-rope",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "ulf-eightrope",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "ulf-eightrope",
+      "to": "hangmoot",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "hangmoot",
+      "to": "ulf-eightrope",
+      "kind": "ruled-by",
       "declared": false
     },
     {

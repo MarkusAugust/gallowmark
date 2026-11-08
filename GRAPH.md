@@ -8,9 +8,12 @@ graph LR
   ashqar-the-bright["Ashqar the Bright"]
   aurelian-vasthorne["Aurelian Vasthorne VII"]
   barr["Barr"]
+  bayan["Bayan"]
+  brann-halberd["Brann Halberd"]
   brim["Brim"]
   corve["Corve"]
   drusk["Drusk"]
+  fisk["Fisk"]
   gorvek["Gorvek"]
   grue["Grue"]
   hadrian-mournevale["Hadrian Mournevale"]
@@ -21,6 +24,7 @@ graph LR
   hrok["Hrok"]
   ishara-grey["Ishara Grey"]
   jarn["Jarn"]
+  lucius-vasthorne["Lucius Vasthorne"]
   marcus-halberd["Marcus Halberd"]
   mardra["Mardra"]
   marhaun-of-the-gate["Marhaun of the Gate"]
@@ -32,15 +36,19 @@ graph LR
   ruun["Ruun"]
   saelith["Saelith"]
   sarn["Sarn"]
+  sartaq["Sartaq"]
   seraphine-vasthorne["Seraphine Vasthorne"]
   sethra["Sethra"]
+  severina-lucentis["Severina Lucentis"]
   sorgan-windbreaker["Sorgan Windbreaker"]
   the-numbered-man["The Numbered Man"]
   the-tenth-prince["The Tenth Prince"]
   the-unseen-girl["The Unseen Girl"]
+  the-voice-under-solmerine["The Voice Under Solmerine"]
   tiberian-vasthorne["Tiberian Vasthorne"]
   tolm["Tolm"]
   torr-halaq["Torr-Halaq"]
+  ulf-eightrope["Ulf Eightrope"]
   vell["Vell"]
   vurn["Vurn"]
   ahl-sereth["Ahl-Sereth"]
@@ -219,6 +227,12 @@ graph LR
   aurelian-vasthorne -- rules --> crownhold
   aurelian-vasthorne -- rival-of --> the-gilded
   barr -- lives-in --> wrackhead
+  bayan -- rules --> the-saddle-throne
+  bayan -- rival-of --> sartaq
+  bayan -- enemy-of --> realm-of-solmerine
+  brann-halberd -- rules --> the-halberd-march
+  brann-halberd -- leads --> the-unmourned
+  brann-halberd -- kin-of --> marcus-halberd
   brim -- lives-in --> wrackhead
   brim -- named-by --> vell
   corve -- rules --> the-iron-hall
@@ -227,6 +241,8 @@ graph LR
   drusk -- member-of --> greycloaks
   drusk -- lives-in --> hookford
   drusk -- rival-of --> tolm
+  fisk -- rules --> drykell
+  fisk -- named-by --> linelord
   gorvek -- born-in --> bonereach
   gorvek -- survived --> the-ashfall
   gorvek -- enemy-of --> greycloaks
@@ -258,6 +274,8 @@ graph LR
   ishara-grey -- leads --> the-tenth-legion
   jarn -- lives-in --> wrackhead
   jarn -- named-by --> linelord
+  lucius-vasthorne -- rules --> realm-of-solmerine
+  lucius-vasthorne -- kin-of --> tiberian-vasthorne
   marcus-halberd -- kin-of --> aurelian-vasthorne
   marcus-halberd -- leads --> the-unmourned
   marcus-halberd -- worships --> nevermourn
@@ -289,12 +307,16 @@ graph LR
   sarn -- named-by --> thurn
   sarn -- haunts --> gallowmark
   sarn -- destroyed --> kell
+  sartaq -- rules --> the-saddle-throne
   seraphine-vasthorne -- kin-of --> aurelian-vasthorne
   seraphine-vasthorne -- member-of --> the-kneeling
   seraphine-vasthorne -- features --> the-three-crowns
   sethra -- rules --> brinevaults
   sethra -- rival-of --> jarn
   sethra -- named-by --> linelord
+  severina-lucentis -- rules --> the-sunward-see
+  severina-lucentis -- leads --> the-sunward-faith
+  severina-lucentis -- member-of --> house-lucentis
   sorgan-windbreaker -- leads --> the-hoofborn
   sorgan-windbreaker -- enemy-of --> crownhold
   the-numbered-man -- survived --> the-counted-lands
@@ -303,6 +325,8 @@ graph LR
   the-tenth-prince -- rules --> the-gilded
   the-unseen-girl -- rival-of --> sarn
   the-unseen-girl -- born-in --> harrowmere
+  the-voice-under-solmerine -- leads --> the-kneeling
+  the-voice-under-solmerine -- haunts --> solmerine
   tiberian-vasthorne -- kin-of --> aurelian-vasthorne
   tiberian-vasthorne -- features --> the-three-crowns
   tiberian-vasthorne -- serves --> aleid-van-der-haalst
@@ -310,6 +334,8 @@ graph LR
   tolm -- lives-in --> wallgate
   torr-halaq -- leads --> the-hadd
   torr-halaq -- enemy-of --> old-vahr
+  ulf-eightrope -- leads --> the-ninth-rope
+  ulf-eightrope -- rules --> hangmoot
   vell -- member-of --> river-priests
   vell -- worships --> thurn
   vell -- born-in --> hookford
