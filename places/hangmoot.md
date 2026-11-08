@@ -30,4 +30,4 @@ ninth gallows re-roped, and the Mark noticed.
 ## Threads
 
 - Whose name is on the ninth gallows?
-- Who is the Reeve, and who was the Reeve before?
+- Who was the Reeve before [[haldis-graymane]]?

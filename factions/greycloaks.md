@@ -42,7 +42,8 @@ It is paid a tenth, and it takes the tenth politely, and somewhere in every king
 a gate the order holds and the king has forgotten he gave it.
 
 The order is older than it says. It is [[the-tenth-legion]] of Vahr, which kept its gates when
-the empire burned and never stopped. Nobody knows who leads it. The captains answer to the books, and the books answer to
+the empire burned and never stopped. Nobody knows who leads it. The captains say *the Lady*, and lower their
+voices. That is [[ishara-grey]]. The captains answer to the books, and the books answer to
 someone.
 
 ## Enemies

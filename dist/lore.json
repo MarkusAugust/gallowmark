@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-08",
-  "entityCount": 471,
+  "entityCount": 487,
   "types": [
     "character",
     "place",
@@ -57,6 +57,42 @@
       "body": "## Who\n\nAleid is small, sharp-faced, dressed in grey, and does not wear gold, because, she says,\npeople who are owed do not need to. She has buried three husbands and two brothers and\nwritten each of them off in the ledger the same afternoon.\n\n## Voice\n\nAleid talks in sums. Everything has a price, and she tells you yours before you ask.\n\n## Threads\n\n- Why does the House of Salt buy every iron ring that comes to market?",
       "file": "characters/aleid-van-der-haalst.md"
     },
+    "ashqar-the-bright": {
+      "id": "ashqar-the-bright",
+      "type": "character",
+      "name": "Ashqar the Bright",
+      "aliases": [
+        "the Bright King",
+        "the Glass Youth"
+      ],
+      "status": "canon",
+      "tags": [
+        "well-king",
+        "sorcerer",
+        "glassands",
+        "rival"
+      ],
+      "summary": "The youngest of the Well-Kings, beautiful, ambitious and half glass; he has paid two coins to the Unborn, his skin shines in the dark, and he wants the glass throne of Qeth-Ummar.",
+      "relations": [
+        {
+          "to": "the-well-kings",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "qeth-ummar",
+          "kind": "rival-of",
+          "declared": true
+        },
+        {
+          "to": "the-unborn",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nAshqar took his first well at nineteen and his fourth at twenty-five. He is beautiful, and half of\nhim is glass: the left side of his face, his left hand, a band across his chest, all clear as water\nand lit faintly from inside. He has paid the body and the memory. He does not remember his mother.\n\n## What he wants\n\nThe throne of [[old-vahr]], and what [[qeth-ummar]] reads every night on [[the-last-asking]].\n\n## Threads\n\n- What will he ask for, when the third coin is all he has left?",
+      "file": "characters/ashqar-the-bright.md"
+    },
     "aurelian-vasthorne": {
       "id": "aurelian-vasthorne",
       "type": "character",
@@ -89,6 +125,11 @@
           "to": "the-gilded",
           "kind": "rival-of",
           "declared": true
+        },
+        {
+          "to": "hadrian-mournevale",
+          "kind": "served-by",
+          "declared": false
         },
         {
           "to": "marcus-halberd",
@@ -359,6 +400,81 @@
       "body": "## Who\n\nWhere the [[lowstreets]] narrow to one lane between two fallen houses there is a toll-house\nthat kept its roof, and in its door sits Grue. He is large, wet to the waist at every tide,\nand he learned the trade from watching [[tolm]] at the Wallgate: sit in the door, name a\nprice, be sorry about nothing. He takes a tenth of whatever goes down past him and a tenth of\nwhatever comes back up.\n\nHe has never been below the Lowstreets. He does not need to go to the ground. The ground\ncomes to him.\n\n## Voice\n\nGrue names a price. He names it before you ask, and it is always a tenth.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Lowstreets the **Lord of the Lowstreets**.\nGrue has been called it so long that the pickers think it is his name.\n\n## Threads\n\n- Who kept the toll-house before the water came, and what did they charge?",
       "file": "characters/grue.md"
     },
+    "hadrian-mournevale": {
+      "id": "hadrian-mournevale",
+      "type": "character",
+      "name": "Hadrian Mournevale",
+      "aliases": [
+        "the Exarch",
+        "His Radiance"
+      ],
+      "status": "canon",
+      "tags": [
+        "exarch",
+        "church",
+        "crownhold",
+        "argentine",
+        "schemer"
+      ],
+      "summary": "The Exarch of the Sunward Faith, who sits at the king's right hand in Crownhold; devout on the outside, playing his own game for the throne, and silver-eyed under a lifetime of tinted glasses, an Argentine whom nobody suspects.",
+      "epithet": "Exarch of the Sunward",
+      "relations": [
+        {
+          "to": "the-sunward-faith",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "argentine-houses",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "aurelian-vasthorne",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nHadrian Mournevale is sixty, tall, beautifully spoken, and wears tinted spectacles that the court\nbelieves are for weak eyes. They are for silver ones. The Mournevales are one of the oldest\nhouses of [[crownhold]] and, secretly, one of the [[argentine-houses]].\n\n## His game\n\nHe has crowned no heir in [[the-three-crowns]] and courted all three. He preaches the sun against\nthe dark below, and he means it in his way: he believes the dark is coming up whatever anyone\ndoes, and that the throne should be held, when it does, by someone who is related to it.\n\n## Threads\n\n- Does the Exarch know what his blood is?",
+      "file": "characters/hadrian-mournevale.md"
+    },
+    "haldis-graymane": {
+      "id": "haldis-graymane",
+      "type": "character",
+      "name": "Haldis Graymane",
+      "aliases": [
+        "the Reeve",
+        "Reeve of Hangmoot"
+      ],
+      "status": "canon",
+      "tags": [
+        "reeve",
+        "hangman",
+        "ninth-rope",
+        "hangmoot"
+      ],
+      "summary": "The Reeve of Hangmoot and head of the Ninth Rope, the first woman to hold the rope in its history; grey-haired, iron-hard, and afraid, because she knows exactly what the knot is and how loose it has become.",
+      "epithet": "Reeve of Hangmoot",
+      "relations": [
+        {
+          "to": "the-ninth-rope",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "hangmoot",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nHaldis was hanged at sixteen as her oath and cut down at the last breath, like every hangman, and\nthe scar at her throat is the darkest on the ridge. She has been Reeve for twenty years. She is the\nfirst woman to hold the office and the first Reeve since the Broken Years to be frightened.\n\n## What she knows\n\nEverything [[the-ninth-rope]] knows about [[the-first-knot]]. That the ninth rope has hung slack\nsince [[the-drowning-of-kell]]. That the [[the-burning-of-the-rolls]] loosens it with every fire.\nThat [[the-kneeling]] are winning. And lately, that the [[greycloaks]], who never shut a gate, may\nnot be on her side.\n\n## Threads\n\n- What will she do when she is sure about the order?",
+      "file": "characters/haldis-graymane.md"
+    },
     "hollin": {
       "id": "hollin",
       "type": "character",
@@ -442,6 +558,44 @@
       ],
       "body": "## Who\n\nHrok is grey-bearded, one-handed and still the hardest man in the north. He lost the hand at\nthe [[wallgate]], to a Greycloak hook, and took the hook home with the arm still in it. Seven\nclans stand behind him.\n\n## Voice\n\nHrok laughs before he answers, and the answer is usually a threat.\n\n## In the world\n\n- He fought beside [[gorvek]] one winter at the Wallgate, against the toll-house, and they\n  lost, and drank for three days after. Years later Gorvek came through his hall going north,\n  past [[brandfell]], and asked for nothing but a horse. Hrok gave him two.\n\n## Threads\n\n- What did Gorvek tell him, that night, that Hrok has never repeated?",
       "file": "characters/hrok.md"
+    },
+    "ishara-grey": {
+      "id": "ishara-grey",
+      "type": "character",
+      "name": "Ishara Grey",
+      "aliases": [
+        "the Lady",
+        "the Reader of the Books",
+        "Mistress Tenth"
+      ],
+      "status": "canon",
+      "tags": [
+        "greycloak",
+        "leader",
+        "ossar",
+        "secret",
+        "seductress"
+      ],
+      "summary": "The one the Greycloaks' books answer to: a woman of impossible beauty whom few captains have met and none forget; she is an Ossar, the last who never went under, and she has kept the gates of Harth open for three thousand years so that her people can come back through them.",
+      "relations": [
+        {
+          "to": "greycloaks",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "ossar",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "the-tenth-legion",
+          "kind": "leads",
+          "declared": true
+        }
+      ],
+      "body": "## Who the captains meet\n\nFew captains of the [[greycloaks]] ever meet her, and those who do are changed by it. She is tall,\ngrey-eyed, pale as milk, and beautiful in a way that makes men and women forget what they came to\nsay. She is warm, attentive, amused. She touches your hand when she speaks. She reads the books,\nall of them, and remembers every line, and she has never written one.\n\n## What she is\n\nShe is an [[ossar]]. When [[the-first-knot]] was tied and her people went under the earth, she did\nnot. She put on a human face and stayed, and she has worn it for three thousand years, under\nother names: a commander of [[the-tenth-legion]] in [[old-vahr]], a widow of the Broken Years, a\nlady of the order. Her skin is cold. She does not sleep. She does not age.\n\n## What she wants\n\nThe order holds gates. It has held them since Vahr, for a tenth, politely, everywhere: never\nruling, always there, never shutting anything. That is her work. A knot holds what is below. A\ngate held open lets it out. She is waiting for the rope to give, and when it does, every gate in\nHarth will already be open.\n\n## Voice\n\nLow, warm, unhurried, and very close to your ear. She asks about you. She is always interested.\n\n## In the world\n\n- [[mardra]] knows what she is. They have met twice, and neither has said what passed.\n- [[sarn]] took a tenth of the crown in one night. Ishara Grey takes a tenth of everything,\n  forever. The two of them know each other very well.\n- [[the-ninth-rope]] have never suspected her. The Reeve [[haldis-graymane]] has begun to.\n\n## Threads\n\n- How many of the order's captains know what she is?\n- Is the order hers, or was the legion hers from the start?",
+      "file": "characters/ishara-grey.md"
     },
     "jarn": {
       "id": "jarn",
@@ -564,6 +718,11 @@
           "to": "the-ashfall",
           "kind": "survived",
           "declared": true
+        },
+        {
+          "to": "oulu-nae",
+          "kind": "kin-of",
+          "declared": false
         }
       ],
       "body": "## Who\n\nMardra went into the grey a midwife and came out of it something the Ashborn will not put a\nword to. She is not old. She looks it in some lights. She lives on the rim of [[greyhollow]]\nin a house with its back to the smoke, and she goes in when she pleases, which is the thing\nnobody else can do.\n\n## Before\n\nThe Mark thinks she was a midwife of the east who went into the grey. She was. Before that she\nwas something else, a long way south and a long time ago: one of [[the-leech-mothers]] of the\n[[feverfen]], who went further into [[the-black-step]] for her last lesson than any Leech-Mother\nbefore or since, and came out with a very long life and a great deal she was not meant to know.\nShe walked north over three hundred years. Her pactmarks are fewer than they should be because\nwhat she paid, she paid inside the temple, and it was not in coin.\n\n## Why everyone needs her\n\nShe is the only one in Harth who understands all of it: [[the-first-knot]], the fire under the\nMark, [[the-unborn]], what the [[ossar]] want and why [[the-nine-irons]] matter. Kings send to\nher. [[the-ninth-rope]] sends to her. [[the-kneeling]] send to her, and she sends them back with\nsomething missing. She tells everyone the truth, at a price, and lets them decide what to do with\nit.\n\n## What she sells\n\nThings from the Hollow and the dark years: a name you lost in it, a winter you do not remember, the last thing a\ndead man said. She takes payment in kind, and what she takes is always something you did not\nknow you had until it was gone. The [[river-priests]] say this makes her a thief. Mardra says it\nmakes her a merchant, and asks what the difference is, and the priests do not have a name\nfor it.\n\n## Voice\n\nMardra explains. She is the only one in the Mark who does, and it is the most frightening thing\nabout her. Everything she says is true, checkable, and slightly too much.\n\n## In the world\n\n- She says she has seen [[sarn]]'s face and forgotten it on purpose. Nobody can prove either\n  half.\n- She has offered [[gorvek]] the answer to what he ate in the grey. He walked away. She says\n  he will be back, and that this is not a threat.\n- [[tolm]] will not tithe her. The [[greycloaks]] have not asked him why.\n- Since [[the-ebb]] she has begun selling things she says came up out of [[kell]], and says the\n  fire under the Hollow and the warm iron under the hall are one fire.\n\n## Threads\n\n- What did Mardra find in the smoke that made her stay?\n- What did she learn inside the Black Step, and is she still paying for it?\n- Does she know where a ruby is?",
@@ -611,6 +770,44 @@
       "body": "## Who\n\nOruana was born in a reed village of the [[feverfen]] and sold at nine to a Harrowmere galley.\nAt sixteen she led the rowers up through the deck with their chains in their hands. She kept the\nship. Twenty years on she has thirty, and the reavers of [[the-teeth]] call her queen, which she\nallows and does not answer to.\n\n## Voice\n\nSoft, vowel-rich, fen-accented, and she never raises it. She has never needed to.\n\n## What she does\n\nShe takes Harrowmere's slave galleys, opens the holds, and gives every freed rower a choice: her\ndeck, or the road to [[saltgrave]]. Most choose the road. Those who choose the deck are\n[[blackwakes-own]].\n\n## Threads\n\n- What did she see on [[smokemouth]], that she will not let her ships put in there?",
       "file": "characters/oruana-blackwake.md"
     },
+    "oulu-nae": {
+      "id": "oulu-nae",
+      "type": "character",
+      "name": "Oulu-Nae",
+      "aliases": [
+        "Mother Oulu-Nae",
+        "the Eyeless Mother",
+        "the First Mother"
+      ],
+      "status": "canon",
+      "tags": [
+        "leech-mother",
+        "healer",
+        "feverfen",
+        "ancient"
+      ],
+      "summary": "The eldest of the Leech-Mothers, who taught Mardra three hundred years ago and is still alive in a drifthold no one can find; she has been inside the Black Step more times than anyone, and has no eyes left.",
+      "epithet": "the Eyeless",
+      "relations": [
+        {
+          "to": "the-leech-mothers",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "mardra",
+          "kind": "kin-of",
+          "declared": true
+        },
+        {
+          "to": "the-black-step",
+          "kind": "survived",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nNobody knows how old Oulu-Nae is. She was old when she taught [[mardra]]. She is small, folded,\nblack to the shoulders with leech-stain, and her eyes are gone: she says she left them inside\n[[the-black-step]], one at a time, as the price of looking.\n\n## What she knows\n\nAs much as Mardra, and older. She does not sell it. She will tell it to a Leech-Mother on her last\nlesson, and to nobody else.\n\n## Threads\n\n- Why did Mardra leave her, and does Oulu-Nae want her back?",
+      "file": "characters/oulu-nae.md"
+    },
     "qeth-ummar": {
       "id": "qeth-ummar",
       "type": "character",
@@ -629,6 +826,11 @@
       "summary": "The sorcerer on the glass throne of Old Vahr, who says he is the last emperor and was there the night it burned; he has paid the Unborn in body and memory, and is working on the third coin.",
       "epithet": "the Undying",
       "relations": [
+        {
+          "to": "ashqar-the-bright",
+          "kind": "rival-of",
+          "declared": false
+        },
         {
           "to": "old-vahr",
           "kind": "rules",
@@ -749,6 +951,39 @@
       ],
       "body": "## Who\n\nRuun was born in [[kell]] when Kell had streets, and was on the quay the night the\n[[iron-crown-of-kell]] lost its stones. He was nine. He saw the water come up the steps\nand he did not see a face. He is old now, bent, and wet to the hip rather than the knee,\nbecause the coast is where he walks and the coast is where the sea takes back what it\ngave.\n\n## The names\n\nRuun names what washes up. A plank, a bone, a child. He gave [[sarn]] no name; that was the\npriests upriver, and he has said it was the right name and the wrong year. He taught\n[[vell]] the names of the two rivers and was not consulted when Vell named [[the-ebb]]. He\nhas said nothing about that, at length.\n\n## Voice\n\nNames, never reasons, and slower than the young ones. Ruun will answer a question the\nfollowing morning, on the shingle, with the name written in the wet sand, and let the tide\ntake it.\n\n## In the world\n\n- He goes down to the salt-pile at [[wrackhead]] once a year and names it, and the coast\n  folk do not ask him to stop.\n- He named the ledger the coast calls [[linelord]], and then did what the river-priests do\n  with the things they name: he stopped talking about it.\n\n## Threads\n\n- What did Ruun see on the quay that was not a face?",
       "file": "characters/ruun.md"
+    },
+    "saelith": {
+      "id": "saelith",
+      "type": "character",
+      "name": "Saelith",
+      "aliases": [
+        "Saelith of the White Sail",
+        "the Envoy"
+      ],
+      "status": "canon",
+      "tags": [
+        "ysveld",
+        "envoy",
+        "harrowmere",
+        "foreign",
+        "ageless"
+      ],
+      "summary": "The envoy of Ysveld in Harrowmere, tall, courteous and fair, who has come every summer for forty years under a white sail without ageing a day; she buys Ossar bones and asks, always politely, about the Nine Irons.",
+      "epithet": "of the White Sail",
+      "relations": [
+        {
+          "to": "ysveld",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "harrowmere",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nSaelith arrives with the first white sail every summer and leaves with the last. She takes the same\nrooms on the Grand Canal of [[harrowmere]], pays in silver that does not tarnish, and is gracious to\neveryone. Merchants who dealt with her as young men deal with her as old ones, and she looks the\nsame.\n\n## What she buys\n\n[[ossar]] bones, in quantity, from [[qarr-dhuun]]. Iron, salt, maps. She asks every prince of\n[[the-gilded]] about [[the-nine-irons]], and has asked [[aleid-van-der-haalst]] seven times.\n\n## Threads\n\n- What is Ysveld doing with the bones?\n- Does she know what [[ishara-grey]] is?",
+      "file": "characters/saelith.md"
     },
     "sarn": {
       "id": "sarn",
@@ -932,6 +1167,37 @@
       "body": "## Who\n\nSethra does not stop anyone in the [[brinevaults]]. She sits among the clerks' shelves with\na lamp turned low and lets you pass. Then she waits. Most of the ones who go down past her do\nnot come back, and in a season or a year she goes down a little way after them and brings up\nwhat they carried. Everything she owns was carried into Kell by someone braver.\n\nShe has never fought for the vaults. Nobody who fought her for them is still alive to say\nwhether she would have won.\n\n## Voice\n\nSethra speaks quietly and about afterwards. She is always certain there will be one.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Brinevaults the **Keeper of the\nBrinevaults**. It has called her that through every one of the people she waited out.\n\n## Threads\n\n- What does she do with the ledgers on the clerks' shelves, and does she read them?",
       "file": "characters/sethra.md"
     },
+    "sorgan-windbreaker": {
+      "id": "sorgan-windbreaker",
+      "type": "character",
+      "name": "Sorgan Windbreaker",
+      "aliases": [
+        "the Young Khan",
+        "He Who Rode Against the Wind"
+      ],
+      "status": "canon",
+      "tags": [
+        "khan",
+        "hoofborn",
+        "grass-sea",
+        "warlord"
+      ],
+      "summary": "The young khan who is gathering the tribes of the Hoofborn again; as a boy he rode against the wind across the Grass Sea and lived, which the riders take as an omen, and the calendars of Harrowmere say he is due.",
+      "relations": [
+        {
+          "to": "the-hoofborn",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "crownhold",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nSorgan is twenty-four, lean, scarred across both cheeks by the wind, and has never lost a fight.\nWhen he was twelve a storm came west across [[the-grass-sea]] and he rode into it, against it, for\nthree days, and came out the other side. The tribes call him Windbreaker, and the old women say\nthe wind that pushes the [[the-hoofborn]] west every generation has met its rider.\n\n## What he wants\n\nThe west. Not to raid it this time. To keep it.\n\n## Threads\n\n- What did he see on the far side of the storm?",
+      "file": "characters/sorgan-windbreaker.md"
+    },
     "tiberian-vasthorne": {
       "id": "tiberian-vasthorne",
       "type": "character",
@@ -1004,6 +1270,37 @@
       ],
       "body": "## Who\n\nTolm is the Greycloak the stories mean when they say a captain rides in alone and sits down.\nHe is fifty, thin, grey before the cloak was, and polite in the way of a man who has never\nonce been refused. He does not carry a hook. He says he is no good with it, which is true,\nand that he does not need one, which is also true. He keeps the toll-house at [[wallgate]]\nand has kept it since the grey.\n\n## Voice\n\nTolm apologises. He apologises for the tithe, the weather, the price on [[gorvek]]'s head\nand the fact that it will be raised again in winter. Every apology is sincere and none of\nthem changes anything. Ask him a question and he will thank you for it.\n\n## In the world\n\n- He has taken forty villages through the open gate. He remembers every one by the name of\n  the person who let him in.\n- He has met Gorvek once, across the toll-house table, and let him go. The [[greycloaks]]\n  have not asked why. He is waiting for them to.\n- He does not go near [[greyhollow]], and is the only Greycloak who will say so.\n- Since [[the-ebb]] the order has sent him south for the first time. He apologised to the\n  toll-house.\n\n## Threads\n\n- What did Tolm let through the Wallgate that he should not have?",
       "file": "characters/tolm.md"
+    },
+    "torr-halaq": {
+      "id": "torr-halaq",
+      "type": "character",
+      "name": "Torr-Halaq",
+      "aliases": [
+        "the Patriarch",
+        "He Who Took the Name Back"
+      ],
+      "status": "canon",
+      "tags": [
+        "hadd",
+        "chief",
+        "glassands",
+        "patriarch"
+      ],
+      "summary": "The patriarch of the greatest tribe of the Hadd, who took his name back from the old list of Old Vahr; he knows why the Hadd never walk within sight of the burnt capital, and will tell it only to someone who has walked one night on the white glass and lived.",
+      "relations": [
+        {
+          "to": "the-hadd",
+          "kind": "leads",
+          "declared": true
+        },
+        {
+          "to": "old-vahr",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nTorr-Halaq is old, upright, veiled to the eyes in black, and leads four thousand tents across the\n[[glassands]]. His name was on the old list of the emperors' household, carved on a gate of\n[[old-vahr]]; his ancestor was a slave there. He took it back.\n\n## What he knows\n\nWhy the [[the-hadd]] never go near Old Vahr. The Hadd were the emperors' slaves on the last night.\nThey were standing on the glass of [[ahl-sereth]] when the asking was made, and they saw what was\ngiven. They walked away, at night, and have walked only at night since.\n\n## Threads\n\n- What did the Hadd see given?",
+      "file": "characters/torr-halaq.md"
     },
     "vell": {
       "id": "vell",
@@ -1329,6 +1626,11 @@
           "declared": false
         },
         {
+          "to": "sorgan-windbreaker",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "harth",
           "kind": "located-in",
           "declared": true
@@ -1622,6 +1924,11 @@
           "to": "thurn",
           "kind": "haunted-by",
           "declared": false
+        },
+        {
+          "to": "ashday",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The land\n\nGallowmark is named for what its first rulers built before they built anything else. The\ngallows are still there on the ridges, most of them empty, none of them taken down. The land\nruns from the Wallmountains in the north to the drowned coast in the south, cut through by\ngrey rivers that the priests of [[thurn]] say are one river pretending to be many. The\ngallows belong to [[hask]]; the sea at the end of the rivers belongs to [[vorr]]. Nobody\nprays to any of the three. They keep out of the way.\n\nNothing here is fertile by accident. The people are hard because the soil is, and they trust\nwhat they can hold. A stranger who can make a thing obey will be respected; a stranger who\nexplains why will be watched.\n\n## Regions\n\n- [[bonereach]] in the north, where [[gorvek]] comes from.\n- [[kell]] on the coast, the drowned city that still counts as a place because the survivors\n  refuse to stop saying its name.\n- [[brandfell]] beyond it, the mountain that split and burned.\n- [[wallgate]] in the far north, the one pass through the Wallmountains and the one gate\n  nobody can close.\n- [[hookford]] in the middle Mark, where two rivers meet and the only market is.\n- [[hangmoot]] above it, the ridge of nine gallows where the Mark pays its debts.\n- [[greyhollow]] in the eastern hills, where the ash never cooled.\n- [[wrackhead]] on the coast, the headland over Old Kell.\n\n## More of the Mark\n\n- [[the-greywood]], the forest that died standing, in the west.\n- [[grimwatch]], the border keep on the imperial road south.\n- [[irondeep]], the mining town in the foothills.\n- [[fordham]], the horse fair on the third river.\n- [[the-holdfast-lords]] in their towers, and [[the-ninth-rope]] at Hangmoot.\n\n## Since the Ashfall\n\nThe ash of [[the-ashfall]] came down out of [[brandfell]] over the north and stayed a generation. The Mark has been\ndarker since, and its stories shorter.\n\n## Since the Ebb\n\nIn the first winter after the ash cleared the sea began to go out from Old Kell. [[the-ebb]]\nis pulling every road in the Mark toward the coast, and the Mark is going.",
@@ -1785,6 +2092,11 @@
       "summary": "The ridge of nine gallows above the middle Mark where the land's first rulers hanged their god, and where once a year at the Rope-Moot every debt in Gallowmark is paid, forgiven or hanged.",
       "relations": [
         {
+          "to": "haldis-graymane",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
           "to": "gallowmark",
           "kind": "located-in",
           "declared": true
@@ -1805,7 +2117,7 @@
           "declared": false
         }
       ],
-      "body": "## The ridge\n\nNine gallows on a bare ridge, older than [[kell]], taller than anything else the first rulers\nbuilt. Eight of them are used. The ninth has never held anyone that anyone will name, and it\nis the one the wind plays. This is where [[hask]] hangs, if he hangs anywhere.\n\n## The Rope-Moot\n\nOnce a year, when the rivers are lowest, the Mark comes up the ridge. Debts are read out by\nthe Reeve. What can be paid is paid. What cannot is hanged or forgiven, and the Mark has\nalways found the first cheaper. The [[greycloaks]] attend, politely, and read the longest\nlist.\n\n## The slack rope\n\nThe hangmen say one of the nine ropes has hung slack since [[the-drowning-of-kell]], and\nthat a slack rope is a debt nobody has collected. Since [[the-ebb]] the Reeve has had the\nninth gallows re-roped, and the Mark noticed.\n\n## Threads\n\n- Whose name is on the ninth gallows?\n- Who is the Reeve, and who was the Reeve before?",
+      "body": "## The ridge\n\nNine gallows on a bare ridge, older than [[kell]], taller than anything else the first rulers\nbuilt. Eight of them are used. The ninth has never held anyone that anyone will name, and it\nis the one the wind plays. This is where [[hask]] hangs, if he hangs anywhere.\n\n## The Rope-Moot\n\nOnce a year, when the rivers are lowest, the Mark comes up the ridge. Debts are read out by\nthe Reeve. What can be paid is paid. What cannot is hanged or forgiven, and the Mark has\nalways found the first cheaper. The [[greycloaks]] attend, politely, and read the longest\nlist.\n\n## The slack rope\n\nThe hangmen say one of the nine ropes has hung slack since [[the-drowning-of-kell]], and\nthat a slack rope is a debt nobody has collected. Since [[the-ebb]] the Reeve has had the\nninth gallows re-roped, and the Mark noticed.\n\n## Threads\n\n- Whose name is on the ninth gallows?\n- Who was the Reeve before [[haldis-graymane]]?",
       "file": "places/hangmoot.md"
     },
     "harrowmere": {
@@ -1829,6 +2141,11 @@
       "relations": [
         {
           "to": "aleid-van-der-haalst",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "saelith",
           "kind": "home-of",
           "declared": false
         },
@@ -2217,6 +2534,11 @@
           "declared": false
         },
         {
+          "to": "torr-halaq",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "glassands",
           "kind": "located-in",
           "declared": true
@@ -2239,6 +2561,11 @@
         {
           "to": "the-last-asking",
           "kind": "contains",
+          "declared": false
+        },
+        {
+          "to": "the-low-imperial",
+          "kind": "created",
           "declared": false
         },
         {
@@ -2540,6 +2867,11 @@
       ],
       "summary": "The greatest of the Ossar temples, a black stepped pyramid in the heart of the Feverfen where lights burn on the top at night that nobody has lit; the fen-folk leave offerings on its lowest step.",
       "relations": [
+        {
+          "to": "oulu-nae",
+          "kind": "survived-by",
+          "declared": false
+        },
         {
           "to": "feverfen",
           "kind": "located-in",
@@ -2930,7 +3262,13 @@
         "foreign"
       ],
       "summary": "The land across the western sea whose tall, courteous people trade with Harrowmere under white sails, and never say where on it they come from or why they come.",
-      "relations": [],
+      "relations": [
+        {
+          "to": "saelith",
+          "kind": "birthplace-of",
+          "declared": false
+        }
+      ],
       "body": "## The land\n\nNobody in Harth has been there and come back to say so. The ships come from the west, a few each\nsummer, white-sailed and too fast, into [[harrowmere]], and their people call it Ysveld.\n\n## The people\n\nTall, fair, soft-voiced, with names like Ilvar, Saelith and Corvanne. They are unfailingly\ncourteous. They buy iron, salt, Ossar bones and, once, a [[the-hungry-books]], and pay in silver\nthat does not tarnish. They do not drink, do not marry, and do not answer questions about home.\n\n## Threads\n\n- Why do the Ysveldings buy Ossar bones?\n- Have they ever bought one of [[the-nine-irons]]?",
       "file": "places/ysveld.md"
     },
@@ -2953,6 +3291,11 @@
       ],
       "summary": "The noble houses scattered through Harth whose children are born with pale silver eyes and who claim the blood of the emperors of Vahr; some whisper the blood is older and colder than that.",
       "relations": [
+        {
+          "to": "hadrian-mournevale",
+          "kind": "has-member",
+          "declared": false
+        },
         {
           "to": "harth",
           "kind": "lives-in",
@@ -3072,6 +3415,11 @@
           "declared": false
         },
         {
+          "to": "ishara-grey",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "quintus-ashhand",
           "kind": "enemy-of",
           "declared": false
@@ -3142,7 +3490,7 @@
           "declared": false
         }
       ],
-      "body": "## What they are\n\nThe Greycloaks began as the men who guarded the drowned quays of [[kell]] so that nobody\nwould steal what the sea had not yet taken. Forty years on, they guard everything, and what\nthey guard they tithe. Their cloaks are grey because grey hides ash, and the order was born\nin the [[the-ashfall]].\n\n## How they take a village\n\nNever by storm. A Greycloak captain rides in alone, finds the one gate left open, and sits\ndown inside it. By evening the village is paying tithe and thinks it decided to. Every siege\nin Gallowmark has been lost this way, which is why the wise close every gate, including the\nones they cannot see.\n\n## The books\n\nWhat the order tithes it writes down. The tithe-books hang from the hooks on the bridge at\n[[hookford]], in Captain [[drusk]]'s hand, and the hangmen say they are a poor copy of the\nledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing down.\n\n## Beyond the Mark\n\nThe order holds Gallowmark, and nothing else, and is everywhere. It keeps a chapterhouse in\nevery city of [[harth]]: on the Grand Canal in [[harrowmere]], under the palace walls of\n[[crownhold]], at the wells of the [[glassands]]. It rules no kingdom and wants none. It is\nhired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, hold a pass.\nIt is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is\na gate the order holds and the king has forgotten he gave it.\n\nThe order is older than it says. It is [[the-tenth-legion]] of Vahr, which kept its gates when\nthe empire burned and never stopped. Nobody knows who leads it. The captains answer to the books, and the books answer to\nsomeone.\n\n## Enemies\n\n\n[[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried\nto hire and to kill, and the order's own records disagree on which came first.",
+      "body": "## What they are\n\nThe Greycloaks began as the men who guarded the drowned quays of [[kell]] so that nobody\nwould steal what the sea had not yet taken. Forty years on, they guard everything, and what\nthey guard they tithe. Their cloaks are grey because grey hides ash, and the order was born\nin the [[the-ashfall]].\n\n## How they take a village\n\nNever by storm. A Greycloak captain rides in alone, finds the one gate left open, and sits\ndown inside it. By evening the village is paying tithe and thinks it decided to. Every siege\nin Gallowmark has been lost this way, which is why the wise close every gate, including the\nones they cannot see.\n\n## The books\n\nWhat the order tithes it writes down. The tithe-books hang from the hooks on the bridge at\n[[hookford]], in Captain [[drusk]]'s hand, and the hangmen say they are a poor copy of the\nledger [[linelord]]. Captain [[tolm]] keeps the [[wallgate]] and writes nothing down.\n\n## Beyond the Mark\n\nThe order holds Gallowmark, and nothing else, and is everywhere. It keeps a chapterhouse in\nevery city of [[harth]]: on the Grand Canal in [[harrowmere]], under the palace walls of\n[[crownhold]], at the wells of the [[glassands]]. It rules no kingdom and wants none. It is\nhired: to farm a king's taxes, keep a city's gates, guard a prince's debtors, hold a pass.\nIt is paid a tenth, and it takes the tenth politely, and somewhere in every kingdom there is\na gate the order holds and the king has forgotten he gave it.\n\nThe order is older than it says. It is [[the-tenth-legion]] of Vahr, which kept its gates when\nthe empire burned and never stopped. Nobody knows who leads it. The captains say *the Lady*, and lower their\nvoices. That is [[ishara-grey]]. The captains answer to the books, and the books answer to\nsomeone.\n\n## Enemies\n\n\n[[gorvek]] has a price on his head that the order raises every winter. [[sarn]] they have tried\nto hire and to kill, and the order's own records disagree on which came first.",
       "file": "factions/greycloaks.md"
     },
     "ossar": {
@@ -3163,6 +3511,11 @@
       ],
       "summary": "The tall, pale, cold-blooded people who ruled Harth before men, as priests of the Unborn; men were their cattle, until men hanged a god to bind them under the earth.",
       "relations": [
+        {
+          "to": "ishara-grey",
+          "kind": "has-member",
+          "declared": false
+        },
         {
           "to": "the-black-step",
           "kind": "created",
@@ -3448,6 +3801,11 @@
       "summary": "The veiled night-walking nomads of the Glassands, who read the stars and the cracks in the glass, lead the caravans between the ruins, and trust nobody who walks by day.",
       "relations": [
         {
+          "to": "torr-halaq",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "ush-kaddah",
           "kind": "lives-in",
           "declared": false
@@ -3543,6 +3901,11 @@
       "summary": "The horse peoples of the Grass Sea, who ride west over the hills once a generation and take everything; they last came sixty years ago, the old men of Crownhold still remember the fires, and the calendars say they are due.",
       "relations": [
         {
+          "to": "sorgan-windbreaker",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "the-grass-sea",
           "kind": "lives-in",
           "declared": false
@@ -3580,6 +3943,11 @@
       "summary": "The secret cult of the Unborn, spread through every city of Harth; they kneel to what is under the world, ask it for what they want, and say the Ossar are coming back and that it will be good to be counted again.",
       "relations": [
         {
+          "to": "haldis-graymane",
+          "kind": "enemy-of",
+          "declared": false
+        },
+        {
           "to": "seraphine-vasthorne",
           "kind": "has-member",
           "declared": false
@@ -3602,6 +3970,11 @@
         {
           "to": "the-sunward-faith",
           "kind": "enemy-of",
+          "declared": false
+        },
+        {
+          "to": "the-longnight",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -3631,6 +4004,11 @@
       ],
       "summary": "The healers of the Feverfen, women only, who fight the fever with leeches and poison and have gone into the Ossar temples further than anyone living; feared and loved in every drifthold.",
       "relations": [
+        {
+          "to": "oulu-nae",
+          "kind": "led-by",
+          "declared": false
+        },
         {
           "to": "feverfen",
           "kind": "lives-in",
@@ -3664,6 +4042,11 @@
       "summary": "The order of hangmen of Hangmoot, who keep the knot tight: they hang the Mark's debtors on Hask's pattern, hunt the Kneeling across Harth, and burn the Paid.",
       "relations": [
         {
+          "to": "haldis-graymane",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "hask",
           "kind": "serves",
           "declared": true
@@ -3677,6 +4060,11 @@
           "to": "the-kneeling",
           "kind": "enemy-of",
           "declared": true
+        },
+        {
+          "to": "knotnight",
+          "kind": "featured-in",
+          "declared": false
         },
         {
           "to": "the-burning-of-ossery",
@@ -3743,6 +4131,11 @@
       "summary": "The state church of Crownhold, sworn to Helion Castor against the dark below; gold domes, incense, tithes, a hierarchy for sale, and an Exarch who sits at the king's right hand.",
       "relations": [
         {
+          "to": "hadrian-mournevale",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "helion-castor",
           "kind": "worships",
           "declared": true
@@ -3756,6 +4149,11 @@
           "to": "the-kneeling",
           "kind": "enemy-of",
           "declared": true
+        },
+        {
+          "to": "helions-crown",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The church\n\nEvery town in [[crownhold]] has a sun-temple with a gilt dome, and every temple takes its tithe,\nand the tithes go up to the cathedral in the capital, where the Exarch of the Sunward sits beside\nthe throne of [[aurelian-vasthorne]]. Offices in the church are bought the way offices at court\nare. Many priests are believers. Few bishops are.\n\n## Its enemies\n\nThe faith hates [[the-kneeling]] by doctrine: below against above. It also hates [[the-ninth-rope]],\nbecause the hangmen say the sun is not what holds the dark down, a rope is. And it fears\n[[quintus-ashhand]], who was one of its priests, and burned his arm in one of its chapels.\n\n## Threads\n\n- How many of its bishops kneel in the cellars at night?",
@@ -3778,6 +4176,11 @@
       ],
       "summary": "The gate-legion of Vahr that held every gate, bridge and pass of the empire for a tenth of what went through; it outlived the empire, put on grey, and is the order the Mark calls the Greycloaks.",
       "relations": [
+        {
+          "to": "ishara-grey",
+          "kind": "led-by",
+          "declared": false
+        },
         {
           "to": "old-vahr",
           "kind": "serves",
@@ -3845,6 +4248,11 @@
       "summary": "The sorcerer-kings of the Glassands, each ruling a well, a ruined tower and a few hundred thirsty people, who war on each other with pacts the way other kings war with armies; Qeth-Ummar is the greatest of them.",
       "relations": [
         {
+          "to": "ashqar-the-bright",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "glassands",
           "kind": "rules",
           "declared": true
@@ -3907,6 +4315,11 @@
           "declared": false
         },
         {
+          "to": "knotnight",
+          "kind": "featured-in",
+          "declared": false
+        },
+        {
           "to": "rope-oaths",
           "kind": "created",
           "declared": false
@@ -3948,6 +4361,11 @@
           "to": "crownhold",
           "kind": "haunts",
           "declared": true
+        },
+        {
+          "to": "helions-crown",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## The god\n\nHelion Castor is the sun, and the sun is above, and what is above stands against what is below.\nThat is the whole of the faith's teaching, and it is older than Crownhold: the priests say the\nemperors of [[old-vahr]] prayed to him before they began to ask the other way.\n\n## Whether he answers\n\nThe sun rises. The priests say that is the answer.\n\n## Threads\n\n- Did the emperors stop praying to him, or did he stop listening?",
@@ -4080,6 +4498,11 @@
       ],
       "summary": "The things that were before the gods and are under the world now, bound; every sorcery in Harth is borrowed from them, and every loan is paid back with interest.",
       "relations": [
+        {
+          "to": "ashqar-the-bright",
+          "kind": "served-by",
+          "declared": false
+        },
         {
           "to": "qeth-ummar",
           "kind": "served-by",
@@ -4779,6 +5202,11 @@
           "to": "rimewold",
           "kind": "haunts",
           "declared": true
+        },
+        {
+          "to": "the-longnight",
+          "kind": "featured-in",
+          "declared": false
         }
       ],
       "body": "## What\n\nRimehounds are wolves the way a glacier is a stream. White, silent, the size of a horse, they\nden in the far ice and come south once a year, on the longest night, in packs of a dozen. What\nis outside a wall that night is theirs. The [[rimeclans]] bring the herds in, bar the doors, and\nsing loud enough not to hear.\n\n## In the world\n\n- A clan-chief's cloak is a Rimehound hide, or it is not a chief's cloak. [[hrok]] has two.\n- Since [[brandfell]] split, the packs come further south each winter, and some have been seen\n  in [[bonereach]].",
@@ -4967,6 +5395,136 @@
       "body": "## What\n\nWrack is what the sea throws back onto the shingle at [[wrackhead]]: weed, spars, a boot. In\n[[kell]] the sea throws back the ones who went down and stayed. Each comes up again where it\nfell, holding what it held, standing on the ground the ledger last counted for it.\n\nYours come up too. Every time you went down and did not come back, something with your name\nand your gear stayed on the floor where you fell, and it holds that ground now. It does not\nknow you. It is old ground, and it is yours, and it is still not good.\n\n## Threads\n\n- Does the ledger count your wrack as you, or as someone else who held the same ground?",
       "file": "creatures/wrack.md"
     },
+    "ashday": {
+      "id": "ashday",
+      "type": "concept",
+      "name": "Ashday",
+      "aliases": [
+        "the Clearing",
+        "the Day the Sky Came Back"
+      ],
+      "status": "canon",
+      "tags": [
+        "festival",
+        "ashfall",
+        "gallowmark",
+        "remembrance"
+      ],
+      "summary": "The day the Mark keeps for the clearing of the Ashfall, year zero of every calendar; an ash cross on the forehead, silence until noon, and drink until there is none.",
+      "relations": [
+        {
+          "to": "the-ashfall",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "gallowmark",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The day\n\nAt dawn on Ashday every household in [[gallowmark]] takes a handful of old ash and marks a cross on\neach forehead. Nobody speaks until noon. At noon someone says the names of the dead of the grey,\nas many as anyone remembers, and then the drinking starts, and lasts.\n\n## Custom\n\nThe Ashborn do not mark their foreheads. They say they carry enough.",
+      "file": "concepts/ashday.md"
+    },
+    "food-and-drink": {
+      "id": "food-and-drink",
+      "type": "concept",
+      "name": "Food and Drink of Harth",
+      "aliases": [
+        "what Harth eats"
+      ],
+      "status": "canon",
+      "tags": [
+        "food",
+        "drink",
+        "daily-life"
+      ],
+      "summary": "What people eat and drink across Harth: ash-bread in the Mark, mulled wine in Crownhold, eel pie in Harrowmere, cactus spirit on the glass, fish and fever-bark in the fen, and blood-mead in the north.",
+      "relations": [],
+      "body": "## The Mark\n\nAsh-bread, baked dark and heavy from rye grown in ash-soil; turnips, mutton, sour ale. On\n[[ashday]], nothing until noon.\n\n## The Rimewold\n\nSmoked fish, seal fat, horse when a horse dies, and blood-mead, thick and red, drunk from horns at\n[[the-icething]].\n\n## Crownhold\n\nWheat bread, wine, mulled with spice at court and with nothing in the provinces. Peacock at\nbanquets, and poison at the same banquets, so the court eats slowly.\n\n## Harrowmere\n\nEel pie from the black lake, pickled herring, gin. The princes eat plainly and drink nothing.\n\n## The Glassands\n\nDates, goat, flatbread baked on hot stone, and qasr, a clear spirit pressed from the glass-cactus,\nthat the [[the-hadd]] drink only at dawn when the walking is over.\n\n## The Feverfen\n\nFish, reed-root, and fever-bark tea from [[the-leech-mothers]], bitter enough to stop the shakes.",
+      "file": "concepts/food-and-drink.md"
+    },
+    "helions-crown": {
+      "id": "helions-crown",
+      "type": "concept",
+      "name": "Helion's Crown",
+      "aliases": [
+        "the High Sun",
+        "Midsummer of the Sunward"
+      ],
+      "status": "canon",
+      "tags": [
+        "festival",
+        "sun",
+        "crownhold",
+        "church"
+      ],
+      "summary": "The great feast of the Sunward Faith on the longest day, when Helion Castor stands highest and the church says the dark below is weakest; gold, processions, and the year's tithes carried to the cathedral.",
+      "relations": [
+        {
+          "to": "helion-castor",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-sunward-faith",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The feast\n\nOn the longest day of the year the domes of [[crownhold]] are uncovered to the sun, the Exarch\n[[hadrian-mournevale]] crowns the king anew in light, and every temple carries its tithe in\nprocession to the capital. It is the richest day of the church's year by a wide margin.",
+      "file": "concepts/helions-crown.md"
+    },
+    "knotnight": {
+      "id": "knotnight",
+      "type": "concept",
+      "name": "Knotnight",
+      "aliases": [
+        "the Tightening"
+      ],
+      "status": "canon",
+      "tags": [
+        "festival",
+        "hask",
+        "north",
+        "gallows"
+      ],
+      "summary": "The night each year when the hangmen of Hangmoot tighten the ropes and the north keeps the gallows-feast; the south has forgotten why, and celebrates it anyway.",
+      "relations": [
+        {
+          "to": "hask",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-ninth-rope",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## The night\n\nOn the anniversary the hangmen keep for [[the-first-knot]], [[the-ninth-rope]] climbs all nine\ngallows of [[hangmoot]] and tightens every knot by hand. In the Mark, every village with a gallows\ndoes the same, and then drinks under it until dawn. Debts are paid on Knotnight, oaths sworn, and\nthe last unpaid debt of the year is hanged.\n\n## Elsewhere\n\nIn [[crownhold]] and [[harrowmere]] Knotnight is a night of masks and rope-games whose meaning nobody\nremembers. [[the-kneeling]] remember. They cut a rope somewhere every Knotnight.",
+      "file": "concepts/knotnight.md"
+    },
+    "law-in-harth": {
+      "id": "law-in-harth",
+      "type": "concept",
+      "name": "Law in Harth",
+      "aliases": [
+        "justice",
+        "how Harth punishes"
+      ],
+      "status": "canon",
+      "tags": [
+        "law",
+        "justice",
+        "punishment",
+        "daily-life"
+      ],
+      "summary": "How justice is done across Harth: the gallows and the rope-oath in the Mark, the king's courts and the poison-cup in Crownhold, Stillwater and the schuldbrief in Harrowmere, water-debts on the glass, and the captain's mast in the Teeth.",
+      "relations": [],
+      "body": "## The Mark\n\nThe [[the-ninth-rope]] and the Reeve's moot at [[hangmoot]]: what can be paid is paid, what cannot\nis hanged or forgiven. The [[greycloaks]] tithe in between, and call it law.\n\n## Crownhold\n\nThe king's courts, for those who can pay the judges. For those who cannot, the magistrates. For\nnobles, the poison-cup, offered politely and drunk the same way.\n\n## Harrowmere\n\nEverything is a debt. A crime is a debt to the injured, written as a [[schuldbrieven]] and sold.\nThose who cannot pay go to [[stillwater]].\n\n## The Glassands\n\nBlood is paid in water, weighed against the dead, as in [[ush-kaddah]]. Outside the city, a\n[[the-well-kings]] judges, and the judgment is usually thirst.\n\n## The Teeth\n\nThe Captain's Oath, and the mast.",
+      "file": "concepts/law-in-harth.md"
+    },
     "pactmarks": {
       "id": "pactmarks",
       "type": "concept",
@@ -5023,6 +5581,25 @@
       ],
       "body": "## The oath\n\nPut your hand on a hangman's rope, say what you will do, and the [[the-ninth-rope]] will tie a\nknot in it and keep it. That is a rope-oath. It is the oldest law in Harth and the only one\nnobody can buy out of, not even in [[harrowmere]].\n\n## Breaking it\n\nThe oath-breaker feels the rope at once: a tightness at the throat that does not go away. Each day\nit is worse. Breath shortens, the face darkens, the voice goes. Keep the oath, late, and it\nloosens. Do not, and in a season or a year the rope finishes what it began.\n\n## Custom\n\nKings swear rope-oaths at their crowning, captains at their hiring, reavers on [[the-teeth]] by\nthe Captain's Oath, which is the same thing with a mast for a gallows.",
       "file": "concepts/rope-oaths.md"
+    },
+    "sayings-of-harth": {
+      "id": "sayings-of-harth",
+      "type": "concept",
+      "name": "Sayings of Harth",
+      "aliases": [
+        "oaths and curses"
+      ],
+      "status": "canon",
+      "tags": [
+        "sayings",
+        "oaths",
+        "curses",
+        "daily-life"
+      ],
+      "summary": "The oaths, curses and sayings of the lands of Harth, from By the Ashfall in the Mark to She has him among the free companies.",
+      "relations": [],
+      "body": "## Gallowmark\n\n- *By the Ashfall.* The oath of the Ashborn, never by a god.\n- *The rope remembers.* A debt is never forgotten.\n- *What do you want?* The question the Reach asks instead of where you have been.\n\n## The free companies\n\n- *She has him.* Said of the dead, for [[nevermourn]].\n- *Weep later, and pay the fine.*\n\n## Crownhold\n\n- *Under the gold, the iron.* Everything fine hides something hard.\n- *Helion sees.* Said piously, and as a threat.\n\n## Harrowmere\n\n- *Clasped hands, open purse.*\n- *Everyone owes. The question is whom.*\n\n## The Glassands\n\n- *Walk at night, drink at dawn.*\n- *Sun-fool.* The worst thing a Hadd can call you.\n\n## The Rimewold\n\n- *Behind me stand —* followed by a number. A boast, and an argument.\n- *Bar the door.* Goodbye, on the Longnight.",
+      "file": "concepts/sayings-of-harth.md"
     },
     "schuldbrieven": {
       "id": "schuldbrieven",
@@ -5088,6 +5665,63 @@
       ],
       "body": "## The coin\n\nA thin silver disc, a ship on the face, two hands clasped on the back, and the mint-mark of the\nHouse of Salt on the rim. Every kingdom of Harth strikes its own coin. Every kingdom of Harth\nprices in marks.\n\n## The trust\n\nNobody trusts it. Each house of [[the-gilded]] shaves the silver a little when it suits them, and\nthe weight of a mark has fallen every generation since [[the-fall-of-vahr]]. People take it\nanyway, because the alternative is to be paid in something worse, and in Harth the something worse\nis [[schuldbrieven]].\n\n## Sayings\n\n- *Clasped hands, open purse.*\n- *A mark is a promise from a liar, and the liar is rich.*",
       "file": "concepts/the-harrowmere-mark.md"
+    },
+    "the-longnight": {
+      "id": "the-longnight",
+      "type": "concept",
+      "name": "The Longnight",
+      "aliases": [
+        "the Hound-Night",
+        "the Shut-Door Night"
+      ],
+      "status": "canon",
+      "tags": [
+        "festival",
+        "night",
+        "north",
+        "rimehounds",
+        "kneeling"
+      ],
+      "summary": "The longest night of the year: in the north the Rimehounds hunt and every clan bars its doors and sings; in the cities of the south the Kneeling keep their highest night in secret.",
+      "relations": [
+        {
+          "to": "rimehounds",
+          "kind": "features",
+          "declared": true
+        },
+        {
+          "to": "the-kneeling",
+          "kind": "features",
+          "declared": true
+        }
+      ],
+      "body": "## In the north\n\nThe [[rimehounds]] come south out of the ice on the Longnight, and what is outside a wall is\ntheirs. The clans bring in the herds, bar the doors, and sing as loud as they can until dawn. In\n[[bonereach]] and lately in the rest of the Mark, they do the same.\n\n## In the south\n\nThe [[the-kneeling]] hold that the Longnight is when the dark below is nearest, and kneel all\nnight, every cell in Harth at once. The Sunward call it the night of the enemy. The hangmen hunt.",
+      "file": "concepts/the-longnight.md"
+    },
+    "the-low-imperial": {
+      "id": "the-low-imperial",
+      "type": "concept",
+      "name": "The Low Imperial",
+      "aliases": [
+        "the common tongue",
+        "roadspeech"
+      ],
+      "status": "canon",
+      "tags": [
+        "language",
+        "vahr",
+        "common"
+      ],
+      "summary": "The common tongue of Harth, descended from the speech of Vahr along its roads; everyone speaks some of it, and only priests and sorcerers can read the High Imperial it came from.",
+      "relations": [
+        {
+          "to": "old-vahr",
+          "kind": "created-by",
+          "declared": true
+        }
+      ],
+      "body": "## The tongue\n\nWhen [[old-vahr]] fell its language broke like everything else, but its roads kept a version of it\nalive: the Low Imperial, the speech of milestones, markets and armies. It is the tongue of trade in\n[[harrowmere]], of law in [[crownhold]], and of every free company.\n\n## The others\n\nEvery land keeps its own tongue beside it: the hard northern speech of the Mark and the Rimewold,\nthe courtly Low Imperial of Crownhold, the merchant-speech of Harrowmere, the Hadd tongue of the\nglass, the water-speech of the fen. The High Imperial survives only in temples and in\n[[the-hungry-books]].",
+      "file": "concepts/the-low-imperial.md"
     },
     "truenaming": {
       "id": "truenaming",
@@ -5240,6 +5874,11 @@
         {
           "to": "the-ashen",
           "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "ashday",
+          "kind": "featured-in",
           "declared": false
         },
         {
@@ -12171,6 +12810,42 @@
       "declared": false
     },
     {
+      "from": "ashqar-the-bright",
+      "to": "the-well-kings",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "the-well-kings",
+      "to": "ashqar-the-bright",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "ashqar-the-bright",
+      "to": "qeth-ummar",
+      "kind": "rival-of",
+      "declared": true
+    },
+    {
+      "from": "qeth-ummar",
+      "to": "ashqar-the-bright",
+      "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "ashqar-the-bright",
+      "to": "the-unborn",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "ashqar-the-bright",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
       "from": "aurelian-vasthorne",
       "to": "crownhold",
       "kind": "rules",
@@ -12411,6 +13086,78 @@
       "declared": false
     },
     {
+      "from": "hadrian-mournevale",
+      "to": "the-sunward-faith",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-sunward-faith",
+      "to": "hadrian-mournevale",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "hadrian-mournevale",
+      "to": "argentine-houses",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "argentine-houses",
+      "to": "hadrian-mournevale",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "hadrian-mournevale",
+      "to": "aurelian-vasthorne",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "aurelian-vasthorne",
+      "to": "hadrian-mournevale",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "haldis-graymane",
+      "to": "the-ninth-rope",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "haldis-graymane",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "haldis-graymane",
+      "to": "hangmoot",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "hangmoot",
+      "to": "haldis-graymane",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "haldis-graymane",
+      "to": "the-kneeling",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "haldis-graymane",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
       "from": "hollin",
       "to": "quaysteps",
       "kind": "rules",
@@ -12480,6 +13227,42 @@
       "from": "greycloaks",
       "to": "hrok",
       "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "ishara-grey",
+      "to": "greycloaks",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "ishara-grey",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "ishara-grey",
+      "to": "ossar",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "ishara-grey",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "ishara-grey",
+      "to": "the-tenth-legion",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-tenth-legion",
+      "to": "ishara-grey",
+      "kind": "led-by",
       "declared": false
     },
     {
@@ -12627,6 +13410,42 @@
       "declared": false
     },
     {
+      "from": "oulu-nae",
+      "to": "the-leech-mothers",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-leech-mothers",
+      "to": "oulu-nae",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "oulu-nae",
+      "to": "mardra",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "mardra",
+      "to": "oulu-nae",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
+      "from": "oulu-nae",
+      "to": "the-black-step",
+      "kind": "survived",
+      "declared": true
+    },
+    {
+      "from": "the-black-step",
+      "to": "oulu-nae",
+      "kind": "survived-by",
+      "declared": false
+    },
+    {
       "from": "qeth-ummar",
       "to": "old-vahr",
       "kind": "rules",
@@ -12744,6 +13563,30 @@
       "from": "the-drowning-of-kell",
       "to": "ruun",
       "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "saelith",
+      "to": "ysveld",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "ysveld",
+      "to": "saelith",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "saelith",
+      "to": "harrowmere",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "harrowmere",
+      "to": "saelith",
+      "kind": "home-of",
       "declared": false
     },
     {
@@ -12867,6 +13710,30 @@
       "declared": false
     },
     {
+      "from": "sorgan-windbreaker",
+      "to": "the-hoofborn",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-hoofborn",
+      "to": "sorgan-windbreaker",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "sorgan-windbreaker",
+      "to": "crownhold",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "crownhold",
+      "to": "sorgan-windbreaker",
+      "kind": "enemy-of",
+      "declared": false
+    },
+    {
       "from": "tiberian-vasthorne",
       "to": "aurelian-vasthorne",
       "kind": "kin-of",
@@ -12924,6 +13791,30 @@
       "from": "wallgate",
       "to": "tolm",
       "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "torr-halaq",
+      "to": "the-hadd",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "the-hadd",
+      "to": "torr-halaq",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
+      "from": "torr-halaq",
+      "to": "old-vahr",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "torr-halaq",
+      "kind": "enemy-of",
       "declared": false
     },
     {
@@ -14703,6 +15594,78 @@
       "declared": false
     },
     {
+      "from": "ashday",
+      "to": "the-ashfall",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-ashfall",
+      "to": "ashday",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "ashday",
+      "to": "gallowmark",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "gallowmark",
+      "to": "ashday",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "helions-crown",
+      "to": "helion-castor",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "helion-castor",
+      "to": "helions-crown",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "helions-crown",
+      "to": "the-sunward-faith",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-sunward-faith",
+      "to": "helions-crown",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "knotnight",
+      "to": "hask",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "hask",
+      "to": "knotnight",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "knotnight",
+      "to": "the-ninth-rope",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "knotnight",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
       "from": "pactmarks",
       "to": "the-unborn",
       "kind": "created-by",
@@ -14772,6 +15735,42 @@
       "from": "the-gilded",
       "to": "the-harrowmere-mark",
       "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-longnight",
+      "to": "rimehounds",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "rimehounds",
+      "to": "the-longnight",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-longnight",
+      "to": "the-kneeling",
+      "kind": "features",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "the-longnight",
+      "kind": "featured-in",
+      "declared": false
+    },
+    {
+      "from": "the-low-imperial",
+      "to": "old-vahr",
+      "kind": "created-by",
+      "declared": true
+    },
+    {
+      "from": "old-vahr",
+      "to": "the-low-imperial",
+      "kind": "created",
       "declared": false
     },
     {

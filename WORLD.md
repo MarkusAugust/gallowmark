@@ -115,6 +115,32 @@ of it, the Unborn, waiting for the rope to give.
 | [[the-counted-lands]] | South of the glass, where the Ossar may still rule |
 | [[the-grass-sea]] | The steppe of the [[the-hoofborn]], who are due |
 
+## The powers of Harth
+
+| Who | What | Pull |
+|---|---|---|
+| [[ishara-grey]] | The Lady the Greycloaks' books answer to | An Ossar in a human face, holding every gate open |
+| [[aurelian-vasthorne]] | The Gilt King of Crownhold | One of the Nine Irons under the gold |
+| [[tiberian-vasthorne]], [[seraphine-vasthorne]], [[marcus-halberd]] | The three heirs | [[the-three-crowns]] |
+| [[hadrian-mournevale]] | The Exarch of the Sunward | Silver eyes behind tinted glass |
+| [[quintus-ashhand]] | The one-armed prophet | Burning the rolls, and loosening the knot |
+| [[aleid-van-der-haalst]] | The Prince of Salt | Buys every iron ring |
+| [[haldis-graymane]] | The Reeve of Hangmoot | Knows what the knot is, and is afraid |
+| [[mardra]] | The Ashwife, once a Leech-Mother | The only one who understands all of it |
+| [[oulu-nae]] | The eldest Leech-Mother | Eyeless, and older than Mardra |
+| [[qeth-ummar]], [[ashqar-the-bright]] | The glass throne and its rival | Two coins paid, and the third coming |
+| [[torr-halaq]] | Patriarch of the Hadd | Knows what was given on the last night |
+| [[oruana-blackwake]] | The reaver queen | Frees the galleys |
+| [[saelith]] | The envoy of Ysveld | Buys Ossar bones; asks about the rings |
+| [[sorgan-windbreaker]] | The young khan | The Hoofborn are due |
+| [[hrok]] | Chief of chiefs in the north | The last to see Gorvek |
+
+## The year and the tongue
+
+[[knotnight]], [[ashday]], [[helions-crown]] and [[the-longnight]] mark the year. The common tongue
+is [[the-low-imperial]]. See also [[food-and-drink]], [[law-in-harth]], [[sayings-of-harth]],
+[[war-in-harth]], [[the-harrowmere-mark]] and [[schuldbrieven]].
+
 ## The cast around the fixed points
 
 | Who or where | What | Pull |
