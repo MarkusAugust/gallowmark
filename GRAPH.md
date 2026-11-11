@@ -41,10 +41,13 @@ graph LR
   sethra["Sethra"]
   severina-lucentis["Severina Lucentis"]
   sorgan-windbreaker["Sorgan Windbreaker"]
+  the-clerk-of-the-first-ledger["The Clerk of the First Ledger"]
+  the-first-up-the-hill["The First Up the Hill"]
   the-numbered-man["The Numbered Man"]
   the-tenth-prince["The Tenth Prince"]
   the-unseen-girl["The Unseen Girl"]
   the-voice-under-solmerine["The Voice Under Solmerine"]
+  the-waking-one["The Waking One"]
   tiberian-vasthorne["Tiberian Vasthorne"]
   tolm["Tolm"]
   torr-halaq["Torr-Halaq"]
@@ -160,13 +163,17 @@ graph LR
   the-last-asking["The Last Asking"]
   the-nine-irons["The Nine Irons"]
   velloch["Velloch"]
+  ash-breath["Ash-Breath"]
   fenmaws["Fenmaws"]
   firstcloaks["The Firstcloaks"]
+  hill-knives["The Hill-Knives"]
   knotrats["Knotrats"]
+  lockwardens["The Lockwardens"]
   notchers["Notchers"]
   pickers["The Pickers"]
   qaddir["Qaddir"]
   rimehounds["Rimehounds"]
+  sealed-clerks["The Sealed Clerks"]
   seepers["Seepers"]
   the-barred["The Barred"]
   the-blindkin["The Blindkin"]
@@ -175,7 +182,9 @@ graph LR
   the-paid["The Paid"]
   the-standing["The Standing"]
   the-stonesleepers["The Stonesleepers"]
+  the-taken-in-lieu["The Taken in Lieu"]
   the-unasked["The Unasked"]
+  the-walled["The Walled"]
   wrack["Your Wrack"]
   ashday["Ashday"]
   food-and-drink["Food and Drink of Harth"]
@@ -319,6 +328,10 @@ graph LR
   severina-lucentis -- member-of --> house-lucentis
   sorgan-windbreaker -- leads --> the-hoofborn
   sorgan-windbreaker -- enemy-of --> crownhold
+  the-clerk-of-the-first-ledger -- lives-in --> strongrooms
+  the-clerk-of-the-first-ledger -- serves --> hask
+  the-first-up-the-hill -- haunts --> lowstreets
+  the-first-up-the-hill -- born-in --> kell
   the-numbered-man -- survived --> the-counted-lands
   the-tenth-prince -- rules --> the-tenth-palace
   the-tenth-prince -- member-of --> the-stonesleepers
@@ -327,6 +340,8 @@ graph LR
   the-unseen-girl -- born-in --> harrowmere
   the-voice-under-solmerine -- leads --> the-kneeling
   the-voice-under-solmerine -- haunts --> solmerine
+  the-waking-one -- lives-in --> the-underhollow
+  the-waking-one -- member-of --> the-stonesleepers
   tiberian-vasthorne -- kin-of --> aurelian-vasthorne
   tiberian-vasthorne -- features --> the-three-crowns
   tiberian-vasthorne -- serves --> aleid-van-der-haalst
@@ -510,16 +525,23 @@ graph LR
   the-nine-irons -- features --> hask
   velloch -- features --> iron-crown-of-kell
   velloch -- stolen-by --> sarn
+  ash-breath -- haunts --> the-underhollow
+  ash-breath -- serves --> the-unborn
   fenmaws -- haunts --> feverfen
   firstcloaks -- member-of --> greycloaks
   firstcloaks -- haunts --> quaysteps
+  hill-knives -- haunts --> lowstreets
+  hill-knives -- serves --> the-first-up-the-hill
   knotrats -- created-by --> the-kneeling
+  lockwardens -- haunts --> strongrooms
   notchers -- serves --> hask
   notchers -- haunts --> brinevaults
   pickers -- born-in --> wrackhead
   pickers -- haunts --> quaysteps
   qaddir -- haunts --> glassands
   rimehounds -- haunts --> rimewold
+  sealed-clerks -- haunts --> strongrooms
+  sealed-clerks -- serves --> the-clerk-of-the-first-ledger
   seepers -- serves --> the-unborn
   seepers -- haunts --> irondeep
   seepers -- haunts --> emberstead
@@ -537,8 +559,11 @@ graph LR
   the-stonesleepers -- member-of --> ossar
   the-stonesleepers -- haunts --> the-black-step
   the-stonesleepers -- haunts --> glassands
+  the-taken-in-lieu -- haunts --> strongrooms
   the-unasked -- haunts --> lowstreets
   the-unasked -- serves --> vorr
+  the-walled -- haunts --> bricked-rooms
+  the-walled -- haunts --> lowstreets
   wrack -- haunts --> kell
   wrack -- named-by --> wrackhead
   ashday -- features --> the-ashfall

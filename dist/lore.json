@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
-  "generatedAt": "2026-11-08",
-  "entityCount": 533,
+  "generatedAt": "2026-11-11",
+  "entityCount": 542,
   "types": [
     "character",
     "place",
@@ -1542,6 +1542,80 @@
       "body": "## Who\n\nSorgan is twenty-four, lean, scarred across both cheeks by the wind, and has never lost a fight.\nWhen he was twelve a storm came west across [[the-grass-sea]] and he rode into it, against it, for\nthree days, and came out the other side. The tribes call him Windbreaker, and the old women say\nthe wind that pushes the [[the-hoofborn]] west every generation has met its rider.\n\n## What he wants\n\nThe west. Not to raid it this time. To keep it.\n\n## Threads\n\n- What did he see on the far side of the storm?",
       "file": "characters/sorgan-windbreaker.md"
     },
+    "the-clerk-of-the-first-ledger": {
+      "id": "the-clerk-of-the-first-ledger",
+      "type": "character",
+      "name": "The Clerk of the First Ledger",
+      "aliases": [
+        "the First Clerk",
+        "the Counter"
+      ],
+      "status": "canon",
+      "tags": [
+        "drowned",
+        "undead",
+        "clerks",
+        "debt",
+        "descent"
+      ],
+      "summary": "The clerk who kept the first ledger of Kell in the deepest strongroom, and is keeping it still; the ledger counts what Kell owes, and the clerk is not finished counting.",
+      "relations": [
+        {
+          "to": "strongrooms",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "hask",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "sealed-clerks",
+          "kind": "served-by",
+          "declared": false
+        }
+      ],
+      "body": "## The ledger\n\nEvery ledger in the [[brinevaults]] counts lines. The first ledger, in the deepest of the\n[[strongrooms]], counts names: everyone who ever owed Kell anything, and what was taken in lieu,\nand what is still owed. The rope on [[hangmoot]] that went slack forty-one years ago is being\ndrawn tight. The first ledger is how the rope knows whom to draw.\n\n## Now\n\nThe clerk is at the desk, writing. The pen does not stop for you; it writes you down. Those who\nhave come back up from the strongrooms say the clerk looked up only once, and said their name,\nand that they had not given it.\n\n## Threads\n\n- Is there a line in the first ledger for [[gorvek]], and what does it say he owes?",
+      "file": "characters/the-clerk-of-the-first-ledger.md"
+    },
+    "the-first-up-the-hill": {
+      "id": "the-first-up-the-hill",
+      "type": "character",
+      "name": "The First Up the Hill",
+      "aliases": [
+        "the One Who Led Them",
+        "the Knocker"
+      ],
+      "status": "canon",
+      "tags": [
+        "drowned",
+        "undead",
+        "kell",
+        "leader",
+        "descent"
+      ],
+      "summary": "Whoever led the poor streets of Kell up the hill with knives the night the crown went empty; drowned at the top of the lane, at the first barred door, still knocking.",
+      "relations": [
+        {
+          "to": "lowstreets",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "kell",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "hill-knives",
+          "kind": "served-by",
+          "declared": false
+        }
+      ],
+      "body": "## The night\n\nSomebody went first. The coast has argued for forty years about who, and nobody has a name.\nWhoever it was got further than the others: to the top of the lane, to the first house with a\nbar, and put a fist to the door, and the sea came in through the windows of the house before\nthe door gave.\n\n## Now\n\nAt the top of the deepest lane of the [[lowstreets]] there is a door that has been knocked on for\nforty years. The knocking stops when somebody comes up the lane behind. It turns round, and\ncalls the street to it, and asks you to open the door.\n\n## Threads\n\n- What did the house behind the door have, that a whole street went up the hill for it?",
+      "file": "characters/the-first-up-the-hill.md"
+    },
     "the-numbered-man": {
       "id": "the-numbered-man",
       "type": "character",
@@ -1668,6 +1742,37 @@
       ],
       "body": "## What it is\n\nUnder [[solmerine]], below the palace cellars where [[seraphine-vasthorne]] broke her father's ring,\nthere are older cellars, Vahrish, and below those older ones still. Since [[the-fraying]] something\nthere speaks. Kneelers who go down hear it. They come up with instructions, and the instructions are\nthe same in every cell in Harth, in the same words, though no messenger has carried them.\n\n## What the hangmen think\n\nThat it is a [[the-stonesleepers]], woken in the stone under the city by the breaking of the ring,\nand that the cellar where Seraphine knelt was a door. [[ulf-eightrope]] wants to burn Solmerine down\nto the bedrock to find out. [[lucius-vasthorne]] has declined, politely.",
       "file": "characters/the-voice-under-solmerine.md"
+    },
+    "the-waking-one": {
+      "id": "the-waking-one",
+      "type": "character",
+      "name": "The Waking One",
+      "aliases": [
+        "the Sleeper of the Underhollow"
+      ],
+      "status": "canon",
+      "tags": [
+        "ossar",
+        "stonesleeper",
+        "waking",
+        "greyhollow",
+        "descent"
+      ],
+      "summary": "The one of the Stonesleepers that lies nearest the surface in the north, in the stone at the centre of the Underhollow, and has begun to wake.",
+      "relations": [
+        {
+          "to": "the-underhollow",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-stonesleepers",
+          "kind": "member-of",
+          "declared": true
+        }
+      ],
+      "body": "## The stone\n\nThe [[the-stonesleepers]] went into the stone when the knot was tied. Most of them lie under the\n[[glassands]] and the [[feverfen]], far down. One did not go far. It lies in the black stone at the\nheart of the [[the-underhollow]], at the lip of the crack, where its servants built their ring of\ncolumns so they could kneel by it.\n\n## Now\n\nThe [[the-blindkin]] of the temple are sweeping faster. The stone at the lip of the crack is\nwarm, and it has a shape in it that it did not have when [[mardra]] first went down. She says it\nhas opened its hand.\n\n## Threads\n\n- When it is awake, what will it ask for first?",
+      "file": "characters/the-waking-one.md"
     },
     "tiberian-vasthorne": {
       "id": "tiberian-vasthorne",
@@ -2094,6 +2199,11 @@
           "to": "lowstreets",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "the-walled",
+          "kind": "haunted-by",
+          "declared": false
         }
       ],
       "body": "## The rooms\n\nWhen the crown went empty and the knives came up the hill, the Lowstreets did\nwhat streets do: they hid what they had. Families bricked up a back room with the silver in it and\nlived in the front. Some bricked themselves in with it. The water came, and the\npacking filled every crack, and the rooms are still shut from the inside.\n\n## Threads\n\n- Did any of them come out, and where did they go?",
@@ -3164,6 +3274,11 @@
           "declared": false
         },
         {
+          "to": "the-first-up-the-hill",
+          "kind": "birthplace-of",
+          "declared": false
+        },
+        {
           "to": "brinevaults",
           "kind": "contains",
           "declared": false
@@ -3316,6 +3431,11 @@
           "declared": false
         },
         {
+          "to": "the-first-up-the-hill",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "bricked-rooms",
           "kind": "contains",
           "declared": false
@@ -3326,12 +3446,22 @@
           "declared": true
         },
         {
+          "to": "hill-knives",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
           "to": "the-barred",
           "kind": "haunted-by",
           "declared": false
         },
         {
           "to": "the-unasked",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "the-walled",
           "kind": "haunted-by",
           "declared": false
         }
@@ -3856,9 +3986,29 @@
       "summary": "The clerks' strongrooms in the Brinevaults, where the first ledgers were kept under lock; the ledgers in them counted something other than lines.",
       "relations": [
         {
+          "to": "the-clerk-of-the-first-ledger",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "brinevaults",
           "kind": "located-in",
           "declared": true
+        },
+        {
+          "to": "lockwardens",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "sealed-clerks",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "the-taken-in-lieu",
+          "kind": "haunted-by",
+          "declared": false
         }
       ],
       "body": "## The rooms\n\nEvery vault of the clerks had its strongroom, behind a door with two locks and a\nclerk's seal on each. The first ledgers were kept there, and the clerks' own\npay, and the things the clerks took in lieu. The doors held when the water came\nin. The packing has made them part of the wall.\n\n## Threads\n\n- What did the strongroom ledgers count, if not lines?",
@@ -4348,6 +4498,11 @@
       "summary": "What lies at the bottom of Greyhollow under the smoke and the ash: the northernmost Ossar temple, built in a ring around a crack that goes down to the fire under the Mark, so that its priests could kneel at the edge of it.",
       "relations": [
         {
+          "to": "the-waking-one",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "greyhollow",
           "kind": "located-in",
           "declared": true
@@ -4360,6 +4515,11 @@
         {
           "to": "smokewalkers",
           "kind": "survived-by",
+          "declared": false
+        },
+        {
+          "to": "ash-breath",
+          "kind": "haunted-by",
           "declared": false
         }
       ],
@@ -5895,6 +6055,11 @@
       "summary": "The hanged god of the gallows on the ridges; the first rulers of the Mark hanged him so the land would hold, and every debt in Gallowmark is still paid at his rope.",
       "relations": [
         {
+          "to": "the-clerk-of-the-first-ledger",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
           "to": "the-ninth-rope",
           "kind": "served-by",
           "declared": false
@@ -6146,6 +6311,11 @@
         {
           "to": "the-hungry-books",
           "kind": "featured-in",
+          "declared": false
+        },
+        {
+          "to": "ash-breath",
+          "kind": "served-by",
           "declared": false
         },
         {
@@ -6689,6 +6859,38 @@
       "body": "## The stone\n\nVelloch held the second river, the one that meets the first at [[hookford]]. It is the ruby\n[[sarn]] has never quite said is gone. The divers and the pickers believe it is still in\n[[the-iron-hall]], somewhere the king could reach. [[corve]] is sitting beside something.\n\n## What it does\n\nSet in one of [[the-nine-irons]], it holds the ring shut, and the ring holds a rope of\n[[the-first-knot]]. Out of the iron, the stories disagree. Some say it gives the holder grip on\nthe river it held. Some say it gives the river grip on the holder.\n\n## Threads\n\n- What happens if it is set back?",
       "file": "artifacts/velloch.md"
     },
+    "ash-breath": {
+      "id": "ash-breath",
+      "type": "creature",
+      "name": "Ash-Breath",
+      "aliases": [
+        "the Breath",
+        "what the crack breathes"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "unborn",
+        "fire",
+        "greyhollow",
+        "descent"
+      ],
+      "summary": "What comes up out of the crack under Greyhollow with every breath it takes: hot, half-shaped, and gone back down on the out-breath if it has not found something to hold.",
+      "relations": [
+        {
+          "to": "the-underhollow",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "the-unborn",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nThe crack in the [[the-underhollow]] breathes. On the in-breath the smoke goes down, and the ash\nwith it. On the out-breath something comes up that is not smoke: heat with a shape to it, closer\nkin to the [[seepers]] than anything else, but it has not had time to cool. It burns what it\ntouches, and it wants to touch something before the crack breathes in again.\n\n## In the world\n\n- [[mardra]] says to count the breaths and walk between them. She does not say what happens to\n  those who lose count.",
+      "file": "creatures/ash-breath.md"
+    },
     "fenmaws": {
       "id": "fenmaws",
       "type": "creature",
@@ -6747,6 +6949,39 @@
       "body": "## What\n\nThe [[greycloaks]] began as the men who guarded the drowned quays of [[kell]] in\n[[the-ashfall]]. Not all of them were relieved. On the [[quaysteps]] they still stand their\nposts, cloaked in grey silt, and they still tithe.\n\n## Voice\n\n\"Pardon. A tenth.\" Pay, and they stand aside. Refuse, and the hook comes out.\n\n## In the world\n\n- The fort at [[wrackhead]] keeps no list of the men it lost in the grey. [[tolm]] has asked\n  for one, politely, twice.",
       "file": "creatures/firstcloaks.md"
     },
+    "hill-knives": {
+      "id": "hill-knives",
+      "type": "creature",
+      "name": "The Hill-Knives",
+      "aliases": [
+        "the Knives",
+        "the Poor Streets",
+        "Doorbreakers"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "drowned",
+        "undead",
+        "kell",
+        "descent"
+      ],
+      "summary": "The drowned of the poor streets of Kell, who went up the hill with knives the night the crown went empty and met the sea coming the other way; they are still going up.",
+      "relations": [
+        {
+          "to": "lowstreets",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "the-first-up-the-hill",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nThe streets that had nothing went up the hill to the streets that had something. The water\ncaught them on the way, in the lanes, knife in hand. They are thin and quick and they come in\npacks, the way they came that night, and they still go for the door with the bar behind it. The\nbiggest of them carried the beams and the hammers. The pickers call those Doorbreakers, and run.\n\n## In the world\n\n- Every barred door in the [[lowstreets]] has scratches on the outside, low down. These are the\n  hands that made them.",
+      "file": "creatures/hill-knives.md"
+    },
     "knotrats": {
       "id": "knotrats",
       "type": "creature",
@@ -6772,6 +7007,33 @@
       ],
       "body": "## What\n\nGrey, heavy, and bred for one thing: to chew. A knotrat's teeth grow a finger a month and it must\ngnaw or die. [[the-kneeling]] feed them on hemp. Loosed under a gallows, a nest of them will have\nthe rope down by dawn and the beam by the end of the week.\n\n## In the world\n\n- [[the-ninth-rope]] keep terriers at every gallows of [[hangmoot]], and the terriers are the\n  best-fed dogs in the Mark.",
       "file": "creatures/knotrats.md"
+    },
+    "lockwardens": {
+      "id": "lockwardens",
+      "type": "creature",
+      "name": "The Lockwardens",
+      "aliases": [
+        "the Two-Lock Men",
+        "the Seal-Keepers"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "drowned",
+        "undead",
+        "guard",
+        "descent"
+      ],
+      "summary": "The armoured men who kept the two keys and the two seals of each strongroom door in Kell, drowned at the doors they kept and still keeping them.",
+      "relations": [
+        {
+          "to": "strongrooms",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nEvery strongroom door had two locks and a seal on each, and a man to each lock. They were chosen\nfor not being able to count, so that they could not be bribed with a number. They stand at the\ndoors in [[strongrooms]] in iron gone white with salt, and when somebody comes through who is not\nin the ledger, they put their shoulders down and go through them.",
+      "file": "creatures/lockwardens.md"
     },
     "notchers": {
       "id": "notchers",
@@ -6892,6 +7154,38 @@
       ],
       "body": "## What\n\nRimehounds are wolves the way a glacier is a stream. White, silent, the size of a horse, they\nden in the far ice and come south once a year, on the longest night, in packs of a dozen. What\nis outside a wall that night is theirs. The [[rimeclans]] bring the herds in, bar the doors, and\nsing loud enough not to hear.\n\n## In the world\n\n- A clan-chief's cloak is a Rimehound hide, or it is not a chief's cloak. [[hrok]] has two.\n- Since [[brandfell]] split, the packs come further south each winter, and some have been seen\n  in [[bonereach]].",
       "file": "creatures/rimehounds.md"
+    },
+    "sealed-clerks": {
+      "id": "sealed-clerks",
+      "type": "creature",
+      "name": "The Sealed Clerks",
+      "aliases": [
+        "the Strongroom Clerks",
+        "the Keepers of the First Ledgers"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "drowned",
+        "undead",
+        "clerks",
+        "descent"
+      ],
+      "summary": "The clerks of Kell who were in the strongrooms when the doors were sealed and the water came; they are still keeping the first ledgers, and they write down whoever comes in.",
+      "relations": [
+        {
+          "to": "strongrooms",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "the-clerk-of-the-first-ledger",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nThe doors held. The clerks inside did not, but they did not stop working either. They sit at\ntheir desks in the [[strongrooms]] with their pens wet with brine, and when you come in they look\nup, and write. What they write down sticks: every line is a notch, as with the [[notchers]] in\nthe vaults above, only quicker, because the clerks are better at it.\n\n## In the world\n\n- The [[firstcloaks]] say the clerks of Kell were the first of their own kind. The Firstcloaks\n  are polite about it.",
+      "file": "creatures/sealed-clerks.md"
     },
     "seepers": {
       "id": "seepers",
@@ -7135,6 +7429,11 @@
           "declared": false
         },
         {
+          "to": "the-waking-one",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
           "to": "ossar",
           "kind": "member-of",
           "declared": true
@@ -7152,6 +7451,33 @@
       ],
       "body": "## What\n\nNot every [[ossar]] went under the earth with their masters. Some lay down in the stone of their\ntemples, in niches cut to fit, and slept. The knot holds them too, but less. They lie under\n[[the-black-step]] and the black foundations of the [[glassands]], tended by [[the-blindkin]].\n\n## The waking\n\nSince [[brandfell]] split, the niches have begun to empty. One in the time of [[the-burning-of-ossery]].\nThree in the last generation. [[the-kneeling]] have a word for each one that wakes. The\nbuilding on [[smokemouth]] is in their pattern.",
       "file": "creatures/the-stonesleepers.md"
+    },
+    "the-taken-in-lieu": {
+      "id": "the-taken-in-lieu",
+      "type": "creature",
+      "name": "The Taken in Lieu",
+      "aliases": [
+        "the Pledged",
+        "the Kept in Lieu"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "drowned",
+        "undead",
+        "debt",
+        "descent"
+      ],
+      "summary": "What the clerks of Kell took in lieu of payment and kept in the strongrooms: people, mostly, sons and daughters pledged against a debt; still kept, still pulling toward whoever holds the paper.",
+      "relations": [
+        {
+          "to": "strongrooms",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nWhen a debt could not be paid in coin the clerks of Kell took something else, and wrote it in\nthe ledger, and kept it in the [[strongrooms]] until the debt was paid. The debts were never paid.\nThey are thin and grey and still tied with the clerks' tape at the wrist, and they do not fight\nso much as hold on, the way the [[the-drawn]] hold on, and pull you to the desk to be written down.",
+      "file": "creatures/the-taken-in-lieu.md"
     },
     "the-unasked": {
       "id": "the-unasked",
@@ -7184,6 +7510,38 @@
       ],
       "body": "## What\n\nThe elders of [[bonereach]] do not ask a returning warrior where he has been. Nobody asked\nthe drowned of the [[lowstreets]] either. They went under with their doors barred, and some\nof them did not stay under. Forty years in the dark with nothing to eat but the others.\nThey are thin. They are quick. They come for the hungry first.\n\n## In the world\n\n- The pickers say they have met people they knew, who went down too often and too hungry.",
       "file": "creatures/the-unasked.md"
+    },
+    "the-walled": {
+      "id": "the-walled",
+      "type": "creature",
+      "name": "The Walled",
+      "aliases": [
+        "the Bricked",
+        "the Ones Who Came Out"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "drowned",
+        "undead",
+        "kell",
+        "descent"
+      ],
+      "summary": "The people of the Lowstreets who bricked themselves into their back rooms with what they meant to keep, and after forty years in the packing have begun to come out through the wall.",
+      "relations": [
+        {
+          "to": "bricked-rooms",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "lowstreets",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What\n\nThe [[bricked-rooms]] were shut from the inside, and the packing filled every crack. Some of them\nare open now. Not broken in: pushed out, a brick at a time, from the back. The ones who did it\nare grey with mortar and still have the silver in their hands. They do not run. They wait in the\nnext room with their backs to the wall, the way they waited the first time, and when you come in\nthey close the door behind you.\n\n## In the world\n\n- The pickers of [[drykell]] mark a wall that has a fresh hole in it, and go round.\n\n## Threads\n\n- What did they eat, in there, for forty years?",
+      "file": "creatures/the-walled.md"
     },
     "wrack": {
       "id": "wrack",
@@ -15906,6 +16264,54 @@
       "declared": false
     },
     {
+      "from": "the-clerk-of-the-first-ledger",
+      "to": "strongrooms",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "strongrooms",
+      "to": "the-clerk-of-the-first-ledger",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-clerk-of-the-first-ledger",
+      "to": "hask",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "hask",
+      "to": "the-clerk-of-the-first-ledger",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-first-up-the-hill",
+      "to": "lowstreets",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "lowstreets",
+      "to": "the-first-up-the-hill",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-first-up-the-hill",
+      "to": "kell",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "kell",
+      "to": "the-first-up-the-hill",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
       "from": "the-numbered-man",
       "to": "the-counted-lands",
       "kind": "survived",
@@ -15999,6 +16405,30 @@
       "from": "solmerine",
       "to": "the-voice-under-solmerine",
       "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-waking-one",
+      "to": "the-underhollow",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "the-underhollow",
+      "to": "the-waking-one",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "the-waking-one",
+      "to": "the-stonesleepers",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "the-stonesleepers",
+      "to": "the-waking-one",
+      "kind": "has-member",
       "declared": false
     },
     {
@@ -18198,6 +18628,30 @@
       "declared": false
     },
     {
+      "from": "ash-breath",
+      "to": "the-underhollow",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-underhollow",
+      "to": "ash-breath",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "ash-breath",
+      "to": "the-unborn",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-unborn",
+      "to": "ash-breath",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
       "from": "fenmaws",
       "to": "feverfen",
       "kind": "haunts",
@@ -18234,6 +18688,30 @@
       "declared": false
     },
     {
+      "from": "hill-knives",
+      "to": "lowstreets",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "lowstreets",
+      "to": "hill-knives",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "hill-knives",
+      "to": "the-first-up-the-hill",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-first-up-the-hill",
+      "to": "hill-knives",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
       "from": "knotrats",
       "to": "the-kneeling",
       "kind": "created-by",
@@ -18243,6 +18721,18 @@
       "from": "the-kneeling",
       "to": "knotrats",
       "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "lockwardens",
+      "to": "strongrooms",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "strongrooms",
+      "to": "lockwardens",
+      "kind": "haunted-by",
       "declared": false
     },
     {
@@ -18315,6 +18805,30 @@
       "from": "rimewold",
       "to": "rimehounds",
       "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "sealed-clerks",
+      "to": "strongrooms",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "strongrooms",
+      "to": "sealed-clerks",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "sealed-clerks",
+      "to": "the-clerk-of-the-first-ledger",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-clerk-of-the-first-ledger",
+      "to": "sealed-clerks",
+      "kind": "served-by",
       "declared": false
     },
     {
@@ -18522,6 +19036,18 @@
       "declared": false
     },
     {
+      "from": "the-taken-in-lieu",
+      "to": "strongrooms",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "strongrooms",
+      "to": "the-taken-in-lieu",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
       "from": "the-unasked",
       "to": "lowstreets",
       "kind": "haunts",
@@ -18543,6 +19069,30 @@
       "from": "vorr",
       "to": "the-unasked",
       "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-walled",
+      "to": "bricked-rooms",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "bricked-rooms",
+      "to": "the-walled",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-walled",
+      "to": "lowstreets",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "lowstreets",
+      "to": "the-walled",
+      "kind": "haunted-by",
       "declared": false
     },
     {
