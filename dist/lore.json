@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
-  "generatedAt": "2026-11-11",
-  "entityCount": 542,
+  "generatedAt": "2026-11-14",
+  "entityCount": 554,
   "types": [
     "character",
     "place",
@@ -93,6 +93,35 @@
       "body": "## Who\n\nAshqar took his first well at nineteen and his fourth at twenty-five. He is beautiful, and half of\nhim is glass: the left side of his face, his left hand, a band across his chest, all clear as water\nand lit faintly from inside. He has paid the body and the memory. He does not remember his mother.\n\n## What he wants\n\nThe throne of [[old-vahr]], and what [[qeth-ummar]] reads every night on [[the-last-asking]].\n\n## Threads\n\n- What will he ask for, when the third coin is all he has left?",
       "file": "characters/ashqar-the-bright.md"
     },
+    "aske": {
+      "id": "aske",
+      "type": "character",
+      "name": "Aske",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "greycloak",
+        "captain",
+        "hookford",
+        "year-150"
+      ],
+      "summary": "The Greycloak captain who holds the bridge at Hookford in year 150, and apologises for every tenth he takes.",
+      "epithet": "the Bridge-Captain",
+      "relations": [
+        {
+          "to": "greycloaks",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "hookford",
+          "kind": "guards",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nAske rode into [[hookford]] alone eleven years ago, found the gate the bridge-folk had left open for the carts, and sat down in it. He has not left the bridge since. He is grey at forty, soft-voiced, and keeps his cloak brushed.\n\n## What he does\n\nHe takes the tenth of the [[the-greywood]] for the tithe-house fire and the books, writes down who paid, and thanks them. Nobody in Hookford has heard him raise his voice. Nobody in Hookford has refused him twice.",
+      "file": "characters/aske.md"
+    },
     "aurelian-vasthorne": {
       "id": "aurelian-vasthorne",
       "type": "character",
@@ -175,6 +204,11 @@
           "to": "wrackhead",
           "kind": "lives-in",
           "declared": true
+        },
+        {
+          "to": "tarn",
+          "kind": "ally-of",
+          "declared": false
         }
       ],
       "body": "## Who\n\nBarr keeps a forge on the shingle at [[wrackhead]], between the salt-pile and the fort,\nwhich is the only ground on the Head that nobody else wants. Hooks, knives, axes, lamp-cages,\nand mail with the grey dye scrubbed out of it: the [[greycloaks]] lose men on the\n[[quaysteps]] and Barr does not ask how the mail gets to him. Since [[the-ebb]] the forge has\nnot gone cold.\n\n## Voice\n\nPrices. Barr says the price, then the price again, slower, and then nothing. Ask him where\nsomething came from and he tells you what it weighs.\n\n## In the world\n\n- He buys back what comes up out of [[kell]] at a third of what he sells it for, and the\n  coast says that is fair, because he is the one who has to sell it to the fort.\n- [[rauk]] has never bought from him. He has never asked her why.",
@@ -293,6 +327,35 @@
       "body": "## Who\n\nEleven years ago, in the grey, on a still day at low water, [[rauk]] came up from Old\n[[kell]] with a child under one arm that had not been there when she went down. It was\nperhaps three. It is perhaps nine now, and it should be fourteen. It has never spoken. It\nhas salt-white eyes that see in the dark and a habit of looking at the sea as if waiting for\nsomeone to finish a sentence.\n\n## What the coast decided\n\nThe coast folk decided, without a meeting, that the child was the last of the kings of Kell,\ngiven back. They call it Brim, which is the name [[vell]] gave it, and they leave fish at\nRauk's door. Nobody has proved a word of it. Nobody has needed to. It is believed, and in the\nMark that is a kind of iron.\n\n## In the world\n\n- The [[greycloaks]] have offered to foster the child at the fort on [[wrackhead]]. Rauk\n  declined. The offer stands, and is polite.\n- Since [[the-ebb]] the child has walked to the waterline every morning and stood where the\n  quay-stones are showing, and the water has been a little further out each time.\n- [[sarn]], asked about the child, did not change the subject. That is the only time.\n\n## What the coast expects\n\nThat the child will grow, one day, all at once, the way the sea goes out. That when the sea is all\nthe way out and the hall stands dry, Brim will walk down the [[quaysteps]] and sit in the king's\nchair, and the coast will have a king again, and [[the-long-back]] will know it. Nobody on the coast\nhas said what happens after that.\n\n## Threads\n\n- If the child is the king, whose is the crown?\n- If it is not, what came up with it?",
       "file": "characters/brim.md"
     },
+    "brodd": {
+      "id": "brodd",
+      "type": "character",
+      "name": "Brodd",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "smith",
+        "hookford",
+        "emberstead",
+        "year-150"
+      ],
+      "summary": "The smith at the foot of the bridge in Hookford, out of Emberstead, who mends what comes back from the Greywood.",
+      "epithet": "the Bridge-Smith",
+      "relations": [
+        {
+          "to": "hookford",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "emberstead",
+          "kind": "born-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nBrodd came down from [[emberstead]] with a hammer, an anvil on a cart and a debt he does not talk about. Broad, short, burnt to the elbows.\n\n## What he does\n\nHe makes and mends iron for anyone with marks, and takes the Greycloaks' work first because [[aske]] asks politely.",
+      "file": "characters/brodd.md"
+    },
     "corve": {
       "id": "corve",
       "type": "character",
@@ -365,6 +428,30 @@
       ],
       "body": "## Who\n\nDrusk holds the bridge at [[hookford]], and with it the tithe-books of the middle Mark. He\nis the Greycloak who carries a hook, keeps it sharp, and has used it twice; he says the\nsecond time was the last. He is younger than [[tolm]], and where Tolm apologises, Drusk\nwrites it down. The order finds the two of them useful in the same way a smith finds a\nhammer and a file useful, and has never put them in one room.\n\n## The books\n\nEvery tithe in the middle Mark goes into Drusk's books, and the books hang from the hooks on\nthe bridge where the town can see them. He reads from them at the Rope-Moot on\n[[hangmoot]], politely, and his is the longest list. The hangmen say his books are a poor\ncopy of a ledger older than [[kell]], and Drusk has never asked which.\n\n## In the world\n\n- He has never met [[gorvek]]. He has written the price on Gorvek's head into the books\n  every winter since the grey, in the same hand.\n- He was the first Greycloak to ask, in writing, why Tolm let a man go at the\n  [[wallgate]]. He has not had an answer, and has not asked again.\n- Since [[the-ebb]] the books have a new column. He has not said what it counts.\n\n## Threads\n\n- What did the hook do the second time?",
       "file": "characters/drusk.md"
+    },
+    "dunn": {
+      "id": "dunn",
+      "type": "character",
+      "name": "Dunn",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "chandler",
+        "hookford",
+        "outfitter",
+        "year-150"
+      ],
+      "summary": "The chandler of Hookford, who sells rope, light, bait and a bed on the ground to those going out.",
+      "epithet": "a chandler",
+      "relations": [
+        {
+          "to": "hookford",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nDunn is thin and counts twice. He outfitted the free companies before the Greycloaks came, and outfits them still.\n\n## What he does\n\nRope, torches, lanterns, bedrolls, picks, crowbars, bait and caltrops: whatever the Mark asks of those who go into it.",
+      "file": "characters/dunn.md"
     },
     "fisk": {
       "id": "fisk",
@@ -510,6 +597,29 @@
       "body": "## Who\n\nWhere the [[lowstreets]] narrow to one lane between two fallen houses there is a toll-house\nthat kept its roof, and in its door sits Grue. He is large, wet to the waist at every tide,\nand he learned the trade from watching [[tolm]] at the Wallgate: sit in the door, name a\nprice, be sorry about nothing. He takes a tenth of whatever goes down past him and a tenth of\nwhatever comes back up.\n\nHe has never been below the Lowstreets. He does not need to go to the ground. The ground\ncomes to him.\n\n## Voice\n\nGrue names a price. He names it before you ask, and it is always a tenth.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Lowstreets the **Lord of the Lowstreets**.\nGrue has been called it so long that the pickers think it is his name.\n\n## Threads\n\n- Who kept the toll-house before the water came, and what did they charge?",
       "file": "characters/grue.md"
     },
+    "gydda": {
+      "id": "gydda",
+      "type": "character",
+      "name": "Gydda",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "innkeeper",
+        "hookford",
+        "year-150"
+      ],
+      "summary": "The alewife of Hookford, who keeps the only roof by the bridge that the Greycloaks do not sit under.",
+      "epithet": "the Alewife",
+      "relations": [
+        {
+          "to": "hookford",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nGydda brews, cooks and listens. Her inn stands at the bridge-foot; her rule is that a Greycloak drinks outside.\n\n## What she does\n\nShe sells bread, ale and stew to whoever is going west, and remembers who did not come back for the second bowl.",
+      "file": "characters/gydda.md"
+    },
     "hadrian-mournevale": {
       "id": "hadrian-mournevale",
       "type": "character",
@@ -620,6 +730,35 @@
       ],
       "body": "## Who\n\nHarl was a young man when the ash came down hot, and he pulled his sister out of a burning house\nwith his right hand. The hand is grey now, to the wrist, hard as horn, and does not feel. He is\nseventy and has led the Ashen for forty years.\n\n## Voice\n\nSlow. He asks a question, then waits for the whole answer, then waits longer. People tell him more\nthan they meant to.\n\n## Threads\n\n- What does he know about [[lowfold]] that he has not told the Mark?",
       "file": "characters/harl-greyhand.md"
+    },
+    "hessa": {
+      "id": "hessa",
+      "type": "character",
+      "name": "Hessa",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "herbwife",
+        "hookford",
+        "draughts",
+        "year-150"
+      ],
+      "summary": "The herb-wife of Hookford, who sells draughts from the Greywood's roots and knows which ones not to sell.",
+      "epithet": "a herb-wife",
+      "relations": [
+        {
+          "to": "hookford",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "the-greywood",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nHessa grew up in a charcoal-burner's hut and walks the edge of [[the-greywood]] every morning with a knife and a basket.\n\n## What she does\n\nShe brews draughts and steeps scrolls in Hookford, and will not sell a fever-bark tea to a child.",
+      "file": "characters/hessa.md"
     },
     "hild-kingsrope": {
       "id": "hild-kingsrope",
@@ -773,6 +912,36 @@
       "body": "## Who the captains meet\n\nFew captains of the [[greycloaks]] ever meet her, and those who do are changed by it. She is tall,\ngrey-eyed, pale as milk, and beautiful in a way that makes men and women forget what they came to\nsay. She is warm, attentive, amused. She touches your hand when she speaks. She reads the books,\nall of them, and remembers every line, and she has never written one.\n\n## What she is\n\nShe is an [[ossar]]. When [[the-first-knot]] was tied and her people went under the earth, she did\nnot. She put on a human face and stayed, and she has worn it for three thousand years, under\nother names: a commander of [[the-tenth-legion]] in [[old-vahr]], a widow of the Broken Years, a\nlady of the order. Her skin is cold. She does not sleep. She does not age.\n\n## What she wants\n\nThe order holds gates. It has held them since Vahr, for a tenth, politely, everywhere: never\nruling, always there, never shutting anything. That is her work. A knot holds what is below. A\ngate held open lets it out. She is waiting for the rope to give, and when it does, every gate in\nHarth will already be open.\n\n## Voice\n\nLow, warm, unhurried, and very close to your ear. She asks about you. She is always interested.\n\n## In the world\n\n- [[mardra]] knows what she is. They have met twice, and neither has said what passed.\n- [[sarn]] took a tenth of the crown in one night. Ishara Grey takes a tenth of everything,\n  forever. The two of them know each other very well.\n- [[the-ninth-rope]] have never suspected her. The Reeve [[haldis-graymane]] has begun to.\n\n## Threads\n\n- How many of the order's captains know what she is?\n- Is the order hers, or was the legion hers from the start?",
       "file": "characters/ishara-grey.md"
     },
+    "ivel": {
+      "id": "ivel",
+      "type": "character",
+      "name": "Ivel",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "priest",
+        "river-priests",
+        "thurn",
+        "hookford",
+        "year-150"
+      ],
+      "summary": "The river-priest of Thurn at Hookford, who answers every question with a name.",
+      "epithet": "a river-priest",
+      "relations": [
+        {
+          "to": "thurn",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "hookford",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nIvel is old, wet to the knees, and has not given a reason for anything in thirty years. Ask why, and you get a name. The names are always right.\n\n## What she does\n\nShe keeps the ford's shrine to [[thurn]], sells the river's charms, and sends those who ask the wrong questions north to [[ulf-eightrope]].",
+      "file": "characters/ivel.md"
+    },
     "jarn": {
       "id": "jarn",
       "type": "character",
@@ -824,6 +993,34 @@
       ],
       "body": "## The title\n\nThe Linelord is not a man. It is a title, and the [[linelord]] gives it: whoever the\nledger names as holding the most ground in [[gallowmark]], wall by wall and day by day,\nis the Linelord until someone holds more. The title has changed hands more often than the\ncrown of [[kell]] did, and nobody has kept it by deserving it. They kept it by holding.\n\n## Jarn\n\nJarn holds it now. He came down to [[wrackhead]] the first winter of [[the-ebb]] with an\niron blade that came up out of Kell, and he has not gone further. He does not need to. He\nholds the shingle, and the ledger counts it, and every low water he walks the length of\nthe beach dragging the blade behind him, and leaves a line in the wet sand from the fort to\nthe salt-pile.\n\nThe line says: this far is mine. The flood takes it twice a day. He draws it again twice a\nday. That is the whole of what he does, and it is enough to hold the title.\n\n## Voice\n\nJarn does not argue. He points at the line. If you cross it, he asks whether you meant to.\n\n## In the world\n\n- The pickers going down the [[quaysteps]] step over his line, and he lets them; what is\n  under the water is not the shingle.\n- [[tolm]] tithes everyone on the coast and has never asked Jarn for a tenth. The fort\n  keeps its own line, on the other side of his.\n- Brother [[ruun]] writes names in the same sand. Jarn has never drawn across one.\n\n## Threads\n\n- Who held the title before him, and what did they hold?\n- What does the ledger say about the one who crosses his line?",
       "file": "characters/jarn.md"
+    },
+    "kolm": {
+      "id": "kolm",
+      "type": "character",
+      "name": "Kolm",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "burner",
+        "the-greywood",
+        "year-150"
+      ],
+      "summary": "The charcoal-burner of the Greywood, who lost two sons to the white hound and still burns the grey wood.",
+      "epithet": "the charcoal-burner",
+      "relations": [
+        {
+          "to": "the-greywood",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "rimehounds",
+          "kind": "enemy-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nKolm has burned charcoal in [[the-greywood]] for forty years, in the pits his father dug. Black to the eyes, slow to speak.\n\n## What he does\n\nHe sells charcoal to the bridge and asks those who pass to kill what took his sons.",
+      "file": "characters/kolm.md"
     },
     "lucius-vasthorne": {
       "id": "lucius-vasthorne",
@@ -1023,6 +1220,30 @@
       ],
       "body": "## Who\n\nOruana was born in a reed village of the [[feverfen]] and sold at nine to a Harrowmere galley.\nAt sixteen she led the rowers up through the deck with their chains in their hands. She kept the\nship. Twenty years on she has thirty, and the reavers of [[the-teeth]] call her queen, which she\nallows and does not answer to.\n\n## Voice\n\nSoft, vowel-rich, fen-accented, and she never raises it. She has never needed to.\n\n## What she does\n\nShe takes Harrowmere's slave galleys, opens the holds, and gives every freed rower a choice: her\ndeck, or the road to [[saltgrave]]. Most choose the road. Those who choose the deck are\n[[blackwakes-own]].\n\n## Threads\n\n- What did she see on [[smokemouth]], that she will not let her ships put in there?",
       "file": "characters/oruana-blackwake.md"
+    },
+    "ottra": {
+      "id": "ottra",
+      "type": "character",
+      "name": "Ottra",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "elder",
+        "rimcroft",
+        "greyhollow",
+        "year-150"
+      ],
+      "summary": "An Ashen Elder of Rimcroft, who gives bread only after the elders have looked at you.",
+      "epithet": "an Ashen Elder",
+      "relations": [
+        {
+          "to": "rimcroft",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nOttra is the oldest of the elders of [[rimcroft]], and the one who watches the cracks in [[greyhollow]].\n\n## What she does\n\nShe asks strangers to stop what comes up through the hollow before it reaches the houses, and counts how many more there are each year.",
+      "file": "characters/ottra.md"
     },
     "oulu-nae": {
       "id": "oulu-nae",
@@ -1541,6 +1762,114 @@
       ],
       "body": "## Who\n\nSorgan is twenty-four, lean, scarred across both cheeks by the wind, and has never lost a fight.\nWhen he was twelve a storm came west across [[the-grass-sea]] and he rode into it, against it, for\nthree days, and came out the other side. The tribes call him Windbreaker, and the old women say\nthe wind that pushes the [[the-hoofborn]] west every generation has met its rider.\n\n## What he wants\n\nThe west. Not to raid it this time. To keep it.\n\n## Threads\n\n- What did he see on the far side of the storm?",
       "file": "characters/sorgan-windbreaker.md"
+    },
+    "stenn": {
+      "id": "stenn",
+      "type": "character",
+      "name": "Stenn",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "sergeant",
+        "the-unmourned",
+        "free-company",
+        "hookford",
+        "year-150"
+      ],
+      "summary": "The sergeant of the Unmourned at the Hookford ford, who hires anyone who wants pay and weeps for none of them.",
+      "epithet": "a sergeant of the Unmourned",
+      "relations": [
+        {
+          "to": "the-unmourned",
+          "kind": "serves",
+          "declared": true
+        },
+        {
+          "to": "nevermourn",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nStenn has buried three companies and kept the sergeant's knife from each. Short words, a short temper, a long memory for who works.\n\n## What she does\n\nShe hires swords at the ford for [[nevermourn]] and sends them west into [[the-greywood]] after rats and outlaws.",
+      "file": "characters/stenn.md"
+    },
+    "streng": {
+      "id": "streng",
+      "type": "character",
+      "name": "Streng",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "hangman",
+        "the-ninth-rope",
+        "quartermaster",
+        "hookford",
+        "year-150"
+      ],
+      "summary": "The quartermaster of the Ninth at Hookford, a hangman who sells writs, hooks and rope to those who hunt.",
+      "epithet": "the quartermaster of the Ninth",
+      "relations": [
+        {
+          "to": "the-ninth-rope",
+          "kind": "serves",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nStreng was hanged at fifteen like every hangman, and wears the scar high. He keeps the Ninth's store by the bridge.\n\n## What he does\n\nHe sells hooks, rope and writs of pardon, and writes down who bought them.",
+      "file": "characters/streng.md"
+    },
+    "tanna": {
+      "id": "tanna",
+      "type": "character",
+      "name": "Tanna",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "brinewife",
+        "drykell",
+        "draughts",
+        "year-150"
+      ],
+      "summary": "The brine-wife of Drykell, who brews draughts from salt, weed and what the dry harbour leaves.",
+      "epithet": "a brine-wife",
+      "relations": [
+        {
+          "to": "drykell",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nTanna came up from the old streets when the water went, and stayed on the quaysteps.\n\n## What she does\n\nShe brews draughts from salt and weed in [[drykell]], and sells them to pickers going down.",
+      "file": "characters/tanna.md"
+    },
+    "tarn": {
+      "id": "tarn",
+      "type": "character",
+      "name": "Tarn",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "smith",
+        "salvage",
+        "drykell",
+        "year-150"
+      ],
+      "summary": "The salt-smith of Drykell, who reworks what comes up out of Kell and asks no one where it was.",
+      "epithet": "a salt-smith",
+      "relations": [
+        {
+          "to": "drykell",
+          "kind": "lives-in",
+          "declared": true
+        },
+        {
+          "to": "barr",
+          "kind": "ally-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nTarn learned the trade under [[barr]] and keeps his forge where the salt dries on the quay.\n\n## What he does\n\nHe salvages and reforges the iron of drowned [[kell]], and pays in marks for what pickers bring.",
+      "file": "characters/tarn.md"
     },
     "the-clerk-of-the-first-ledger": {
       "id": "the-clerk-of-the-first-ledger",
@@ -2436,6 +2765,16 @@
           "declared": false
         },
         {
+          "to": "tanna",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "tarn",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "kell",
           "kind": "located-in",
           "declared": true
@@ -2495,6 +2834,11 @@
       ],
       "summary": "The town of smiths on the south face of Brandfell, where snow does not lie; they forge with the mountain's own heat and every forge has a hole in its back wall for the Old Smith to look out.",
       "relations": [
+        {
+          "to": "brodd",
+          "kind": "birthplace-of",
+          "declared": false
+        },
         {
           "to": "rimewold",
           "kind": "located-in",
@@ -3198,7 +3542,37 @@
       "summary": "The one town in the middle Mark, where two of the grey rivers meet at a ford and the Greycloaks hang their tithe-books from hooks on the bridge; market, tithe-house, and the last warm bed before anywhere.",
       "relations": [
         {
+          "to": "aske",
+          "kind": "guarded-by",
+          "declared": false
+        },
+        {
+          "to": "brodd",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "drusk",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "dunn",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "gydda",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "hessa",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "ivel",
           "kind": "home-of",
           "declared": false
         },
@@ -3723,6 +4097,11 @@
           "declared": false
         },
         {
+          "to": "ottra",
+          "kind": "home-of",
+          "declared": false
+        },
+        {
           "to": "greyhollow",
           "kind": "located-in",
           "declared": true
@@ -4172,6 +4551,16 @@
       ],
       "summary": "The forest of the west Mark that died in the Ashfall and never fell; grey trunks to the horizon, no leaves, no birds, outlaws in the hollows and worse things in the deep of it.",
       "relations": [
+        {
+          "to": "hessa",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "kolm",
+          "kind": "home-of",
+          "declared": false
+        },
         {
           "to": "gallowmark",
           "kind": "located-in",
@@ -4839,6 +5228,11 @@
       ],
       "summary": "The grey-cloaked order that holds Gallowmark by taking villages through the one gate left open; tithe-collectors, hook-wielders, and the only law most of the Mark has seen.",
       "relations": [
+        {
+          "to": "aske",
+          "kind": "served-by",
+          "declared": false
+        },
         {
           "to": "drusk",
           "kind": "has-member",
@@ -5760,6 +6154,11 @@
           "declared": false
         },
         {
+          "to": "streng",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
           "to": "ulf-eightrope",
           "kind": "led-by",
           "declared": false
@@ -5952,6 +6351,11 @@
         {
           "to": "marcus-halberd",
           "kind": "led-by",
+          "declared": false
+        },
+        {
+          "to": "stenn",
+          "kind": "served-by",
           "declared": false
         },
         {
@@ -6204,6 +6608,11 @@
           "declared": false
         },
         {
+          "to": "stenn",
+          "kind": "served-by",
+          "declared": false
+        },
+        {
           "to": "the-unmourned",
           "kind": "worshipped-by",
           "declared": false
@@ -6358,6 +6767,11 @@
       ],
       "summary": "The river-god of Gallowmark, the one grey river that pretends to be many; cold, patient, and the only god whose priests are taken seriously by people who trust nothing.",
       "relations": [
+        {
+          "to": "ivel",
+          "kind": "served-by",
+          "declared": false
+        },
         {
           "to": "ruun",
           "kind": "worshipped-by",
@@ -7141,6 +7555,11 @@
       ],
       "summary": "White wolves of the Rimewold as big as horses, which hunt in packs on the longest night of the year and take whatever is outside a wall.",
       "relations": [
+        {
+          "to": "kolm",
+          "kind": "enemy-of",
+          "declared": false
+        },
         {
           "to": "rimewold",
           "kind": "haunts",
@@ -15124,6 +15543,30 @@
       "declared": false
     },
     {
+      "from": "aske",
+      "to": "greycloaks",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "greycloaks",
+      "to": "aske",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "aske",
+      "to": "hookford",
+      "kind": "guards",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "aske",
+      "kind": "guarded-by",
+      "declared": false
+    },
+    {
       "from": "aurelian-vasthorne",
       "to": "crownhold",
       "kind": "rules",
@@ -15256,6 +15699,30 @@
       "declared": false
     },
     {
+      "from": "brodd",
+      "to": "hookford",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "brodd",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "brodd",
+      "to": "emberstead",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "emberstead",
+      "to": "brodd",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
       "from": "corve",
       "to": "the-iron-hall",
       "kind": "rules",
@@ -15325,6 +15792,18 @@
       "from": "tolm",
       "to": "drusk",
       "kind": "rival-of",
+      "declared": false
+    },
+    {
+      "from": "dunn",
+      "to": "hookford",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "dunn",
+      "kind": "home-of",
       "declared": false
     },
     {
@@ -15460,6 +15939,18 @@
       "declared": false
     },
     {
+      "from": "gydda",
+      "to": "hookford",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "gydda",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
       "from": "hadrian-mournevale",
       "to": "the-sunward-faith",
       "kind": "leads",
@@ -15565,6 +16056,30 @@
       "from": "mardra",
       "to": "harl-greyhand",
       "kind": "ally-of",
+      "declared": false
+    },
+    {
+      "from": "hessa",
+      "to": "hookford",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "hessa",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "hessa",
+      "to": "the-greywood",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-greywood",
+      "to": "hessa",
+      "kind": "haunted-by",
       "declared": false
     },
     {
@@ -15700,6 +16215,30 @@
       "declared": false
     },
     {
+      "from": "ivel",
+      "to": "thurn",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "thurn",
+      "to": "ivel",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "ivel",
+      "to": "hookford",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "hookford",
+      "to": "ivel",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
       "from": "jarn",
       "to": "wrackhead",
       "kind": "lives-in",
@@ -15721,6 +16260,30 @@
       "from": "linelord",
       "to": "jarn",
       "kind": "names",
+      "declared": false
+    },
+    {
+      "from": "kolm",
+      "to": "the-greywood",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "the-greywood",
+      "to": "kolm",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "kolm",
+      "to": "rimehounds",
+      "kind": "enemy-of",
+      "declared": true
+    },
+    {
+      "from": "rimehounds",
+      "to": "kolm",
+      "kind": "enemy-of",
       "declared": false
     },
     {
@@ -15889,6 +16452,18 @@
       "from": "the-gilded",
       "to": "oruana-blackwake",
       "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "ottra",
+      "to": "rimcroft",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "rimcroft",
+      "to": "ottra",
+      "kind": "home-of",
       "declared": false
     },
     {
@@ -16261,6 +16836,78 @@
       "from": "crownhold",
       "to": "sorgan-windbreaker",
       "kind": "enemy-of",
+      "declared": false
+    },
+    {
+      "from": "stenn",
+      "to": "the-unmourned",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-unmourned",
+      "to": "stenn",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "stenn",
+      "to": "nevermourn",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "nevermourn",
+      "to": "stenn",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "streng",
+      "to": "the-ninth-rope",
+      "kind": "serves",
+      "declared": true
+    },
+    {
+      "from": "the-ninth-rope",
+      "to": "streng",
+      "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "tanna",
+      "to": "drykell",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "drykell",
+      "to": "tanna",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "tarn",
+      "to": "drykell",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "drykell",
+      "to": "tarn",
+      "kind": "home-of",
+      "declared": false
+    },
+    {
+      "from": "tarn",
+      "to": "barr",
+      "kind": "ally-of",
+      "declared": true
+    },
+    {
+      "from": "barr",
+      "to": "tarn",
+      "kind": "ally-of",
       "declared": false
     },
     {
