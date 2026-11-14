@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-14",
-  "entityCount": 554,
+  "entityCount": 556,
   "types": [
     "character",
     "place",
@@ -388,6 +388,11 @@
           "to": "linelord",
           "kind": "named-by",
           "declared": true
+        },
+        {
+          "to": "the-guard-who-sat-down",
+          "kind": "ally-of",
+          "declared": false
         }
       ],
       "body": "## Who\n\nCorve got to [[the-iron-hall]] first, years before [[rauk]] dived it, and he sat down in a\nchair beside the drowned king and the ledger open on its stand, to rest. He is still resting.\nHis mail has rusted into one piece with him in it. The dark and the salt have taken most of\nwhat he knew: the name of his village, the faces of his children. They have not taken the\nreason he came down. He is sitting beside it, and [[the-standing]] have let him, because he\nhas never touched it.\n\nEvery page of the ledger in the hall has his name on it, because he has not moved. That is\nwhat the ledger counts.\n\n## Voice\n\nCorve says how long. It is the one thing he still knows.\n\n## The hold\n\nThe ledger calls whoever holds the most of the Iron Hall the **Sitter in the Iron Hall**.\nNobody has taken the title from Corve, because nobody who reached the chair has wanted to sit\nin it after looking at him.\n\n## Threads\n\n- Is the last line in the ledger, the one that is not the king's, Corve's?",
@@ -1142,6 +1147,11 @@
         {
           "to": "oulu-nae",
           "kind": "kin-of",
+          "declared": false
+        },
+        {
+          "to": "the-one-with-eyes",
+          "kind": "home-of",
           "declared": false
         }
       ],
@@ -1945,6 +1955,36 @@
       "body": "## The night\n\nSomebody went first. The coast has argued for forty years about who, and nobody has a name.\nWhoever it was got further than the others: to the top of the lane, to the first house with a\nbar, and put a fist to the door, and the sea came in through the windows of the house before\nthe door gave.\n\n## Now\n\nAt the top of the deepest lane of the [[lowstreets]] there is a door that has been knocked on for\nforty years. The knocking stops when somebody comes up the lane behind. It turns round, and\ncalls the street to it, and asks you to open the door.\n\n## Threads\n\n- What did the house behind the door have, that a whole street went up the hill for it?",
       "file": "characters/the-first-up-the-hill.md"
     },
+    "the-guard-who-sat-down": {
+      "id": "the-guard-who-sat-down",
+      "type": "character",
+      "name": "The Guard Who Sat Down",
+      "aliases": [
+        "the one who sat"
+      ],
+      "status": "canon",
+      "tags": [
+        "salt-guard",
+        "the-iron-hall",
+        "kell",
+        "year-150"
+      ],
+      "summary": "One of the salt-white guard of the Iron Hall who, in year 150, sat down out of the rank and asked to see the sky.",
+      "relations": [
+        {
+          "to": "the-iron-hall",
+          "kind": "guards",
+          "declared": true
+        },
+        {
+          "to": "corve",
+          "kind": "ally-of",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nHe stood in the second rank of the king's guard in [[the-iron-hall]] from the night the crown went\nempty until a morning in year 150, when he sat down on the warm floor and asked for the sky. Salt\nhas eaten his face to the bone. He does not remember his name. He remembers rain.\n\n## What became of him\n\n[[corve]], who sat down long before him, asked that he be walked up through the\n[[brinevaults]] to the light. Whether he is still standing in it, nobody on the coast will say.",
+      "file": "characters/the-guard-who-sat-down.md"
+    },
     "the-numbered-man": {
       "id": "the-numbered-man",
       "type": "character",
@@ -1970,6 +2010,34 @@
       ],
       "body": "## The story\n\nHe was a digger of [[qarr-dhuun]] who lost his way, and walked south instead of north, for forty\nnights, across the glass. He came back eleven years later out of the south, thin, quiet, with a\nnumber tattooed on the inside of his wrist, and walked into [[ush-kaddah]] and drank from the well\nfor a whole day.\n\n## After\n\nHe would not say what was in [[the-counted-lands]]. He would not sleep under a roof. He said, once,\ndrunk, that the people there were happy, and that this was the worst thing about it.",
       "file": "characters/the-numbered-man.md"
+    },
+    "the-one-with-eyes": {
+      "id": "the-one-with-eyes",
+      "type": "character",
+      "name": "The One With Eyes",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "blindkin",
+        "the-underhollow",
+        "greyhollow",
+        "year-150"
+      ],
+      "summary": "A child of the Blindkin born with eyes, who was carried up out of the Underhollow in year 150 and now lives in Mardra's house.",
+      "relations": [
+        {
+          "to": "the-blindkin",
+          "kind": "born-in",
+          "declared": true
+        },
+        {
+          "to": "mardra",
+          "kind": "lives-in",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nThe [[the-blindkin]] are born without eyes in the temple of [[the-underhollow]], and kneel at the\ncrack because they cannot see what kneels back. In year 150 one of them was born with eyes. They\nput her in a niche in the far wall and began to decide.\n\n## Since\n\nShe was walked up the stair before they decided, and lives with [[mardra]], who explains things to\nher. The first thing she saw was the smoke over [[greyhollow]]. She says it is beautiful.",
+      "file": "characters/the-one-with-eyes.md"
     },
     "the-tenth-prince": {
       "id": "the-tenth-prince",
@@ -4643,6 +4711,11 @@
         {
           "to": "corve",
           "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "the-guard-who-sat-down",
+          "kind": "guarded-by",
           "declared": false
         },
         {
@@ -7690,6 +7763,11 @@
       ],
       "summary": "The pale, eyeless people the Ossar bred from men to serve in their temples; a few thousand still live in the dark under the Black Step and the Glassands, tending what sleeps.",
       "relations": [
+        {
+          "to": "the-one-with-eyes",
+          "kind": "birthplace-of",
+          "declared": false
+        },
         {
           "to": "ossar",
           "kind": "serves",
@@ -16959,6 +17037,30 @@
       "declared": false
     },
     {
+      "from": "the-guard-who-sat-down",
+      "to": "the-iron-hall",
+      "kind": "guards",
+      "declared": true
+    },
+    {
+      "from": "the-iron-hall",
+      "to": "the-guard-who-sat-down",
+      "kind": "guarded-by",
+      "declared": false
+    },
+    {
+      "from": "the-guard-who-sat-down",
+      "to": "corve",
+      "kind": "ally-of",
+      "declared": true
+    },
+    {
+      "from": "corve",
+      "to": "the-guard-who-sat-down",
+      "kind": "ally-of",
+      "declared": false
+    },
+    {
       "from": "the-numbered-man",
       "to": "the-counted-lands",
       "kind": "survived",
@@ -16968,6 +17070,30 @@
       "from": "the-counted-lands",
       "to": "the-numbered-man",
       "kind": "survived-by",
+      "declared": false
+    },
+    {
+      "from": "the-one-with-eyes",
+      "to": "the-blindkin",
+      "kind": "born-in",
+      "declared": true
+    },
+    {
+      "from": "the-blindkin",
+      "to": "the-one-with-eyes",
+      "kind": "birthplace-of",
+      "declared": false
+    },
+    {
+      "from": "the-one-with-eyes",
+      "to": "mardra",
+      "kind": "lives-in",
+      "declared": true
+    },
+    {
+      "from": "mardra",
+      "to": "the-one-with-eyes",
+      "kind": "home-of",
       "declared": false
     },
     {

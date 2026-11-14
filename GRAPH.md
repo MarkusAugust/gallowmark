@@ -55,7 +55,9 @@ graph LR
   tarn["Tarn"]
   the-clerk-of-the-first-ledger["The Clerk of the First Ledger"]
   the-first-up-the-hill["The First Up the Hill"]
+  the-guard-who-sat-down["The Guard Who Sat Down"]
   the-numbered-man["The Numbered Man"]
+  the-one-with-eyes["The One With Eyes"]
   the-tenth-prince["The Tenth Prince"]
   the-unseen-girl["The Unseen Girl"]
   the-voice-under-solmerine["The Voice Under Solmerine"]
@@ -363,7 +365,11 @@ graph LR
   the-clerk-of-the-first-ledger -- serves --> hask
   the-first-up-the-hill -- haunts --> lowstreets
   the-first-up-the-hill -- born-in --> kell
+  the-guard-who-sat-down -- guards --> the-iron-hall
+  the-guard-who-sat-down -- ally-of --> corve
   the-numbered-man -- survived --> the-counted-lands
+  the-one-with-eyes -- born-in --> the-blindkin
+  the-one-with-eyes -- lives-in --> mardra
   the-tenth-prince -- rules --> the-tenth-palace
   the-tenth-prince -- member-of --> the-stonesleepers
   the-tenth-prince -- rules --> the-gilded
