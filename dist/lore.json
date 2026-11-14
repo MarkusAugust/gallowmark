@@ -1,7 +1,7 @@
 {
   "world": "Gallowmark",
   "generatedAt": "2026-11-14",
-  "entityCount": 556,
+  "entityCount": 563,
   "types": [
     "character",
     "place",
@@ -2039,6 +2039,39 @@
       "body": "## Who\n\nThe [[the-blindkin]] are born without eyes in the temple of [[the-underhollow]], and kneel at the\ncrack because they cannot see what kneels back. In year 150 one of them was born with eyes. They\nput her in a niche in the far wall and began to decide.\n\n## Since\n\nShe was walked up the stair before they decided, and lives with [[mardra]], who explains things to\nher. The first thing she saw was the smoke over [[greyhollow]]. She says it is beautiful.",
       "file": "characters/the-one-with-eyes.md"
     },
+    "the-rat-kneeler": {
+      "id": "the-rat-kneeler",
+      "type": "character",
+      "name": "The Rat-Kneeler",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "kneeling",
+        "the-charcoal-pits",
+        "knotrats",
+        "year-150"
+      ],
+      "summary": "The Kneeler who keeps the breeding pits under the Greywood, where knotrats are raised in warm ash to chew the gallows-ropes of the Mark.",
+      "relations": [
+        {
+          "to": "the-kneeling",
+          "kind": "member-of",
+          "declared": true
+        },
+        {
+          "to": "the-charcoal-pits",
+          "kind": "rules",
+          "declared": true
+        },
+        {
+          "to": "knotrats",
+          "kind": "leads",
+          "declared": true
+        }
+      ],
+      "body": "## Who\n\nA Kneeler so long in the pits that the rats sleep on her. She kneels in the deepest pit with her\nhands in the ash and the young rats come up between her fingers. She does not fight. She calls.\n\n## What she does\n\nShe raises [[knotrats]] by the thousand for the [[the-kneeling]], to chew the ropes of\n[[hangmoot]] from underneath. When she is pressed, she sets the old pits burning.",
+      "file": "characters/the-rat-kneeler.md"
+    },
     "the-tenth-prince": {
       "id": "the-tenth-prince",
       "type": "character",
@@ -3681,6 +3714,11 @@
           "declared": true
         },
         {
+          "to": "the-warm-galleries",
+          "kind": "contains",
+          "declared": false
+        },
+        {
           "to": "seepers",
           "kind": "haunted-by",
           "declared": false
@@ -4545,6 +4583,42 @@
       "body": "## The line\n\nSince [[the-fraying]] the [[feverfen]] and the south of the [[glassands]] are Ossar country. The\nBrink is where that country ends, for now: watchtowers on the hills above the fen, Vahrish forts\nreoccupied on the edge of the glass, villages that are burned every few summers by one side or the\nother. Soldiers say *going to the Brink* the way the Mark says *going under*.\n\n## Who holds it\n\nEveryone, in turns. [[the-sunward-see]] marches south every summer under the sun-banner. Free\ncompanies of [[the-halberd-march]] hold forts for pay. [[the-saddle-throne]] rides along it and\nkills what comes out. [[harrowmere]] pays for it, at interest. The [[greycloaks]] hold its gates,\nand the gates are always open.\n\n## What comes over it\n\n[[the-blindkin]] in the night, [[the-paid]] in columns, [[seepers]] through the ground, and once or\ntwice a year a [[the-stonesleepers]] walking upright, and then a fort is gone.",
       "file": "places/the-brink.md"
     },
+    "the-charcoal-pits": {
+      "id": "the-charcoal-pits",
+      "type": "place",
+      "name": "The Charcoal Pits",
+      "aliases": [
+        "the old pits",
+        "the burners' pits"
+      ],
+      "status": "canon",
+      "tags": [
+        "pits",
+        "the-greywood",
+        "gallowmark",
+        "year-150"
+      ],
+      "summary": "The old charcoal pits at the south edge of the Greywood, dug by burners and abandoned when the wood went grey; now a warren where the Kneeling breed knotrats in the warm ash.",
+      "relations": [
+        {
+          "to": "the-rat-kneeler",
+          "kind": "ruled-by",
+          "declared": false
+        },
+        {
+          "to": "the-greywood",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-pit-choked",
+          "kind": "haunted-by",
+          "declared": false
+        }
+      ],
+      "body": "## The pits\n\nThe burners of [[the-greywood]] dug their pits deep and roofed them with turf, and when the\nwood went grey after [[the-ashfall]] they dug deeper, chasing wood that would burn. The deepest\npits run into each other under the hill. [[kolm]]'s father dug the first of them. Kolm will not\ngo in.\n\n## What is in them\n\nThe ash in the pits never quite went cold. The [[the-kneeling]] found that out, and that\n[[knotrats]] breed fast in warm ash and grow teeth for rope. Outlaws who hide in the pits come\nout coughing, if they come out. Those who breathe too much of the old smoke stay, and walk.\n\n## Threads\n\n- Who taught the Kneeling to breed rats for rope?",
+      "file": "places/the-charcoal-pits.md"
+    },
     "the-counted-lands": {
       "id": "the-counted-lands",
       "type": "place",
@@ -4627,6 +4701,11 @@
         {
           "to": "kolm",
           "kind": "home-of",
+          "declared": false
+        },
+        {
+          "to": "the-charcoal-pits",
+          "kind": "contains",
           "declared": false
         },
         {
@@ -4987,6 +5066,47 @@
       ],
       "body": "## The bottom\n\nUnder three men's depth of ash and the smoke that stands on it, the floor of [[greyhollow]] is\nblack stone, and on the stone stands a temple: a ring of [[ossar]] columns, too tall, around a\ncrack in the ground a hundred paces long. The crack goes down. Heat comes up out of it, and the\nsmoke, and a sound like breath.\n\n## Why it was built\n\nThe Ossar built their temples near their masters. This one is the nearest any of them came to\nthe surface in the north: the place where [[the-unborn]] could be heard best. When the knot was\ntied it was buried and forgotten. The ash of [[the-ashfall]] filled the hollow over it. The\nsmoke is what comes up through the ash.\n\n## Who has been there\n\n[[mardra]]. Some [[smokewalkers]]. Nobody else who came back.\n\n## Threads\n\n- Is the crack getting wider?",
       "file": "places/the-underhollow.md"
+    },
+    "the-warm-galleries": {
+      "id": "the-warm-galleries",
+      "type": "place",
+      "name": "The Warm Galleries",
+      "aliases": [
+        "the deep shafts of Irondeep",
+        "the lowest galleries"
+      ],
+      "status": "canon",
+      "tags": [
+        "mine",
+        "irondeep",
+        "gallowmark",
+        "year-150"
+      ],
+      "summary": "The lowest galleries of the Irondeep mines, grown too hot to work since Brandfell; the miners who went down for the warm ore came back hollow, or did not come back.",
+      "relations": [
+        {
+          "to": "irondeep",
+          "kind": "located-in",
+          "declared": true
+        },
+        {
+          "to": "the-glowing",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "the-hollowed",
+          "kind": "haunted-by",
+          "declared": false
+        },
+        {
+          "to": "the-one-under-the-ore",
+          "kind": "haunted-by",
+          "declared": false
+        }
+      ],
+      "body": "## The galleries\n\n[[irondeep]] has dug iron for the Mark since before [[kell]] had a quay. The ore for the king's\niron in [[the-iron-hall]] came up the old ore-road from these shafts. Since [[brandfell]] the\nlowest galleries have grown warm, then hot. The ore down there is soft as wax and glows.\n\n## What is in them\n\nThe miners who went down for the warm ore came back up slow and quiet and empty behind the\neyes, and went down again, and stopped coming up. The [[greycloaks]] closed the shafts and\ntake their tenth from the upper galleries only. In the deepest gallery the iron vein runs\nround something that is not iron.\n\n## Threads\n\n- What does the vein run round, and is it breathing like the crack under Greyhollow?",
+      "file": "places/the-warm-galleries.md"
     },
     "ush-kaddah": {
       "id": "ush-kaddah",
@@ -5599,6 +5719,11 @@
           "declared": false
         },
         {
+          "to": "the-one-under-the-ore",
+          "kind": "kin-of",
+          "declared": false
+        },
+        {
           "to": "the-stonesleepers",
           "kind": "has-member",
           "declared": false
@@ -6109,6 +6234,11 @@
         },
         {
           "to": "seraphine-vasthorne",
+          "kind": "has-member",
+          "declared": false
+        },
+        {
+          "to": "the-rat-kneeler",
           "kind": "has-member",
           "declared": false
         },
@@ -7487,6 +7617,11 @@
       "summary": "Rats the Kneeling breed to gnaw gallows-ropes and gallows-wood; grey, big as cats, with teeth that never stop growing, and loosed in the night under any gallows the cult wants down.",
       "relations": [
         {
+          "to": "the-rat-kneeler",
+          "kind": "led-by",
+          "declared": false
+        },
+        {
           "to": "the-kneeling",
           "kind": "created-by",
           "declared": true
@@ -7814,6 +7949,54 @@
       "body": "## What\n\nThe hangmen of [[hangmoot]] say a rope that went slack forty-one years ago is being drawn\ntight. In the [[brinevaults]] you can see what is on the end of it: the hanged, each with a\nrope at the neck running off toward the hall, each moving along it whether it wants to or\nnot, the way a debt moves toward the one it is owed.\n\nThey do not attack. They hold on. Whatever a Drawn takes hold of goes where the rope goes.",
       "file": "creatures/the-drawn.md"
     },
+    "the-glowing": {
+      "id": "the-glowing",
+      "type": "creature",
+      "name": "The Glowing",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "the-warm-galleries",
+        "irondeep",
+        "year-150"
+      ],
+      "summary": "Things in the Warm Galleries that have taken in so much of the soft hot ore that they shine through their skin, and burn what they touch.",
+      "relations": [
+        {
+          "to": "the-warm-galleries",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What they are\n\nSome were miners. Some were the mules. The ore went into them through the hands and the mouth and\nit lights them from inside, dull red, like iron in a forge. They leave burning footprints.",
+      "file": "creatures/the-glowing.md"
+    },
+    "the-hollowed": {
+      "id": "the-hollowed",
+      "type": "creature",
+      "name": "The Hollowed",
+      "aliases": [
+        "hollowed miners"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "the-warm-galleries",
+        "irondeep",
+        "year-150"
+      ],
+      "summary": "Irondeep miners who went down for the warm ore after Brandfell and came back empty behind the eyes, and went down again for good.",
+      "relations": [
+        {
+          "to": "the-warm-galleries",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What they are\n\nThey still carry picks and still dig, slowly, toward the heat. They do not speak. When one of\nthem is struck, the others turn round together.",
+      "file": "creatures/the-hollowed.md"
+    },
     "the-long-back": {
       "id": "the-long-back",
       "type": "creature",
@@ -7846,6 +8029,35 @@
       "body": "## What\n\nSince [[the-ebb]], on still mornings, the fishers of [[drownhaven]] and [[ebbmouth]] have seen a\nblack ridge in the shallows that was not there before: barnacled, ridged, a mile long. It is\nthere one day and gone the next, somewhere else. Twice it has moved while boats were near it, and\nthe boats did not come back.\n\n## What the coast says\n\nThat [[vorr]] keeps what the sea takes, and he took this a long time ago and kept it down. That\nthe sea going out is letting it up. That it is waiting for the water to go out far enough.",
       "file": "creatures/the-long-back.md"
     },
+    "the-one-under-the-ore": {
+      "id": "the-one-under-the-ore",
+      "type": "creature",
+      "name": "The One Under the Ore",
+      "aliases": [],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "ossar",
+        "the-warm-galleries",
+        "irondeep",
+        "year-150"
+      ],
+      "summary": "What the iron vein of the deepest Warm Gallery runs round: a shape in the rock, too tall, that has begun to move since Brandfell.",
+      "relations": [
+        {
+          "to": "the-warm-galleries",
+          "kind": "haunts",
+          "declared": true
+        },
+        {
+          "to": "ossar",
+          "kind": "kin-of",
+          "declared": true
+        }
+      ],
+      "body": "## What it is\n\nThe miners of [[irondeep]] followed the vein for a hundred years and never asked why it curved.\nIt curves round a shape, upright, arms at its sides, the way the [[ossar]] are drawn on the walls\nof their temples. Since [[brandfell]] the ore around it has gone soft. It has moved one arm.",
+      "file": "creatures/the-one-under-the-ore.md"
+    },
     "the-paid": {
       "id": "the-paid",
       "type": "creature",
@@ -7871,6 +8083,31 @@
       ],
       "body": "## What\n\nEvery pact with [[the-unborn]] is paid in three coins, in order: body, memory, soul. The Paid\nhave given the third. They look like people, mostly. They do not eat, sleep or remember. They\ndo what something below tells them, slowly and without stopping.\n\n## In the world\n\n- Sorcerer-kings of the [[glassands]] keep them as guards. [[qeth-ummar]] has a hall full.\n- [[the-kneeling]] call them *the finished*, and envy them.\n- Hangmen burn them, because a rope does not hold what has no breath to stop.",
       "file": "creatures/the-paid.md"
+    },
+    "the-pit-choked": {
+      "id": "the-pit-choked",
+      "type": "creature",
+      "name": "The Pit-Choked",
+      "aliases": [
+        "the choked"
+      ],
+      "status": "canon",
+      "tags": [
+        "creature",
+        "the-charcoal-pits",
+        "the-greywood",
+        "year-150"
+      ],
+      "summary": "Outlaws and burners who breathed the old smoke of the Charcoal Pits too long and stayed, walking in the warm ash with their mouths full of it.",
+      "relations": [
+        {
+          "to": "the-charcoal-pits",
+          "kind": "haunts",
+          "declared": true
+        }
+      ],
+      "body": "## What they are\n\nThey cough when they move and they do not stop moving. Ash runs out of their mouths. What is\nleft of them guards the warm, the way a dog guards a fire.",
+      "file": "creatures/the-pit-choked.md"
     },
     "the-standing": {
       "id": "the-standing",
@@ -17097,6 +17334,42 @@
       "declared": false
     },
     {
+      "from": "the-rat-kneeler",
+      "to": "the-kneeling",
+      "kind": "member-of",
+      "declared": true
+    },
+    {
+      "from": "the-kneeling",
+      "to": "the-rat-kneeler",
+      "kind": "has-member",
+      "declared": false
+    },
+    {
+      "from": "the-rat-kneeler",
+      "to": "the-charcoal-pits",
+      "kind": "rules",
+      "declared": true
+    },
+    {
+      "from": "the-charcoal-pits",
+      "to": "the-rat-kneeler",
+      "kind": "ruled-by",
+      "declared": false
+    },
+    {
+      "from": "the-rat-kneeler",
+      "to": "knotrats",
+      "kind": "leads",
+      "declared": true
+    },
+    {
+      "from": "knotrats",
+      "to": "the-rat-kneeler",
+      "kind": "led-by",
+      "declared": false
+    },
+    {
       "from": "the-tenth-prince",
       "to": "the-tenth-palace",
       "kind": "rules",
@@ -18129,6 +18402,18 @@
       "declared": false
     },
     {
+      "from": "the-charcoal-pits",
+      "to": "the-greywood",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "the-greywood",
+      "to": "the-charcoal-pits",
+      "kind": "contains",
+      "declared": false
+    },
+    {
       "from": "the-grass-sea",
       "to": "the-hoofborn",
       "kind": "home-of",
@@ -18342,6 +18627,18 @@
       "from": "ossar",
       "to": "the-underhollow",
       "kind": "created",
+      "declared": false
+    },
+    {
+      "from": "the-warm-galleries",
+      "to": "irondeep",
+      "kind": "located-in",
+      "declared": true
+    },
+    {
+      "from": "irondeep",
+      "to": "the-warm-galleries",
+      "kind": "contains",
       "declared": false
     },
     {
@@ -19713,6 +20010,30 @@
       "declared": false
     },
     {
+      "from": "the-glowing",
+      "to": "the-warm-galleries",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-warm-galleries",
+      "to": "the-glowing",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-hollowed",
+      "to": "the-warm-galleries",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-warm-galleries",
+      "to": "the-hollowed",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
       "from": "the-long-back",
       "to": "vorr",
       "kind": "serves",
@@ -19737,6 +20058,30 @@
       "declared": false
     },
     {
+      "from": "the-one-under-the-ore",
+      "to": "the-warm-galleries",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-warm-galleries",
+      "to": "the-one-under-the-ore",
+      "kind": "haunted-by",
+      "declared": false
+    },
+    {
+      "from": "the-one-under-the-ore",
+      "to": "ossar",
+      "kind": "kin-of",
+      "declared": true
+    },
+    {
+      "from": "ossar",
+      "to": "the-one-under-the-ore",
+      "kind": "kin-of",
+      "declared": false
+    },
+    {
       "from": "the-paid",
       "to": "the-unborn",
       "kind": "serves",
@@ -19746,6 +20091,18 @@
       "from": "the-unborn",
       "to": "the-paid",
       "kind": "served-by",
+      "declared": false
+    },
+    {
+      "from": "the-pit-choked",
+      "to": "the-charcoal-pits",
+      "kind": "haunts",
+      "declared": true
+    },
+    {
+      "from": "the-charcoal-pits",
+      "to": "the-pit-choked",
+      "kind": "haunted-by",
       "declared": false
     },
     {

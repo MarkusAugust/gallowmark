@@ -58,6 +58,7 @@ graph LR
   the-guard-who-sat-down["The Guard Who Sat Down"]
   the-numbered-man["The Numbered Man"]
   the-one-with-eyes["The One With Eyes"]
+  the-rat-kneeler["The Rat-Kneeler"]
   the-tenth-prince["The Tenth Prince"]
   the-unseen-girl["The Unseen Girl"]
   the-voice-under-solmerine["The Voice Under Solmerine"]
@@ -113,6 +114,7 @@ graph LR
   strongrooms["The Strongrooms"]
   the-black-step["The Black Step"]
   the-brink["The Brink"]
+  the-charcoal-pits["The Charcoal Pits"]
   the-counted-lands["The Counted Lands"]
   the-grass-sea["The Grass Sea"]
   the-greywood["The Greywood"]
@@ -124,6 +126,7 @@ graph LR
   the-teeth["The Teeth"]
   the-tenth-palace["The Tenth Palace"]
   the-underhollow["The Underhollow"]
+  the-warm-galleries["The Warm Galleries"]
   ush-kaddah["Ush-Kaddah"]
   vinalis["Vinalis"]
   wallgate["Wallgate"]
@@ -192,8 +195,12 @@ graph LR
   the-barred["The Barred"]
   the-blindkin["The Blindkin"]
   the-drawn["The Drawn"]
+  the-glowing["The Glowing"]
+  the-hollowed["The Hollowed"]
   the-long-back["The Long Back"]
+  the-one-under-the-ore["The One Under the Ore"]
   the-paid["The Paid"]
+  the-pit-choked["The Pit-Choked"]
   the-standing["The Standing"]
   the-stonesleepers["The Stonesleepers"]
   the-taken-in-lieu["The Taken in Lieu"]
@@ -370,6 +377,9 @@ graph LR
   the-numbered-man -- survived --> the-counted-lands
   the-one-with-eyes -- born-in --> the-blindkin
   the-one-with-eyes -- lives-in --> mardra
+  the-rat-kneeler -- member-of --> the-kneeling
+  the-rat-kneeler -- rules --> the-charcoal-pits
+  the-rat-kneeler -- leads --> knotrats
   the-tenth-prince -- rules --> the-tenth-palace
   the-tenth-prince -- member-of --> the-stonesleepers
   the-tenth-prince -- rules --> the-gilded
@@ -456,6 +466,7 @@ graph LR
   the-brink -- located-in --> harth
   the-brink -- follows --> the-fraying
   the-brink -- enemy-of --> ossar
+  the-charcoal-pits -- located-in --> the-greywood
   the-grass-sea -- home-of --> the-hoofborn
   the-greywood -- located-in --> gallowmark
   the-greywood -- survived --> the-ashfall
@@ -474,6 +485,7 @@ graph LR
   the-tenth-palace -- located-in --> harrowmere
   the-underhollow -- located-in --> greyhollow
   the-underhollow -- created-by --> ossar
+  the-warm-galleries -- located-in --> irondeep
   ush-kaddah -- located-in --> glassands
   ush-kaddah -- home-of --> the-hadd
   vinalis -- located-in --> crownhold
@@ -588,9 +600,14 @@ graph LR
   the-blindkin -- haunts --> the-black-step
   the-drawn -- serves --> hask
   the-drawn -- haunts --> brinevaults
+  the-glowing -- haunts --> the-warm-galleries
+  the-hollowed -- haunts --> the-warm-galleries
   the-long-back -- serves --> vorr
   the-long-back -- haunts --> kell
+  the-one-under-the-ore -- haunts --> the-warm-galleries
+  the-one-under-the-ore -- kin-of --> ossar
   the-paid -- serves --> the-unborn
+  the-pit-choked -- haunts --> the-charcoal-pits
   the-standing -- haunts --> the-iron-hall
   the-standing -- serves --> vorr
   the-stonesleepers -- member-of --> ossar
